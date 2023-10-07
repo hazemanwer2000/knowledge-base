@@ -74,3 +74,5 @@ def process_directory(directory):
                 process_file(file_path)
 
 process_directory(repo_dir)
+
+print("\n[INFO] Table of content(s) updated successfully.")

@@ -10,8 +10,8 @@ Writings in all topics.
     * [*Brief Summary of Python (3.X)*](lang/brief_summary_of_python.ipynb)
 * AUTOSAR (AUTomotive Open System ARchitecture)
   * OSEK (**O**ffene **S**ysteme und deren Schnittstellen für die **E**lektronik in **K**raftfahrzeugen)
-    * [*Brief Summary of OSEK*](autosar/brief_summary_of_osek.ipynb)
-    * [*Brief Summary of OSEK COM*](autosar/brief_summary_of_python.ipynb)
+    * [*Brief Summary of OSEK*](autosar/osek/brief_summary_of_osek.ipynb)
+    * [*Brief Summary of OSEK COM*](autosar/osek/brief_summary_of_osek_com.ipynb)
 * Miscellaneous
   * [*Brief Summary of Makefiles*](misc/brief_summary_of_make.ipynb)
   * [*Brief Summary of Regular Expressions*](misc/brief_summary_of_regex.ipynb)

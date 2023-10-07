@@ -3,6 +3,9 @@ import os
 import json
 import re
 
+# Note: Depends on the script's path in the repo.
+repo_dir = os.path.dirname(os.path.dirname(__file__))
+
 # Template for every TOC entry
 model_toc_entry = '* [DISPLAY-NAME](#ICONIC-NAME)\n'
 
@@ -70,7 +73,4 @@ def process_directory(directory):
             if os.path.splitext(file)[1] == '.ipynb':
                 process_file(file_path)
 
-# Note: Depends on the script's path in the repo.
-starting_directory = os.path.dirname(os.path.dirname(__file__))
-
-process_directory(starting_directory)
+process_directory(repo_dir)

@@ -15,4 +15,4 @@ Writings in all topics.
 * Miscellaneous
   * [*Brief Summary of Makefiles*](misc/brief_summary_of_make.ipynb)
   * [*Brief Summary of Regular Expressions*](misc/brief_summary_of_regex.ipynb)
-  * [*Brief Summary of Batch Scripting*](misc/brief_summary_of_batch_scripting.ipynb)
+  * [*Brief Summary of Batch Scripting*](misc/brief_summary_of_batch.ipynb)

@@ -37,7 +37,8 @@ def process_file(file_path):
     
     # Loop on each relevant title cell
     for cell in title_cells[2:]:
-        cell['source'][0] = re.sub(" +<a.*</a>", "", cell['source'][0])
+        cell['source'][0] = re.sub("<a.*</a>", "", cell['source'][0])
+        cell['source'][0] = cell['source'][0].strip()
         hashtags, name = re.split(r"# +", cell['source'][0])
         depth = len(hashtags) - 1
         iconic_name = iconize_title(name)

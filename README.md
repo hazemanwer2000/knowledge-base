@@ -26,13 +26,16 @@ Writings in a myriad number of topics.
   * Shell Scripting
     * [*Brief Summary of Batch Scripting*](win-sys/brief_summary_of_batch.ipynb)
     * *Brief Summary of PowerShell* **[...]**
+  * *Application Programming Interface (API)*
+    * *Brief Summary of Windows API* **[...]**
   * [...]
 
 * *Linux*-based System(s)
   * Shell Scripting
     * *Brief Summary of Bash Scripting* **[...]**
-  * *Application Programming Interface* (API)
+  * *Application Programming Interface (API)*
     * *Brief Summary of Linux System Programming* **[...]**
+  * [...]
 
 * AUTOSAR (AUTomotive Open System ARchitecture)
   * OSEK (**O**ffene **S**ysteme und deren Schnittstellen für die **E**lektronik in **K**raftfahrzeugen)

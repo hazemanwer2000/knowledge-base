@@ -18,7 +18,8 @@ Writings in a myriad number of topics.
 
 * Networking
   * Configuration(s)
-    * [*Brief Summary of the Cisco Command-Line Interface (CLI)*](network/cfg/brief_summary_of_cisco_cli.ipynb)
+    * [*Brief Summary of the Cisco Command-Line Interface (CLI)*](network/cfg/brief_summary_of_cisco_cli.ipynb) **[...]**
+    * [...]
   * *Application-Layer* Protocol(s)
     * [...]
 

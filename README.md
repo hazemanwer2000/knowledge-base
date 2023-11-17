@@ -17,10 +17,10 @@ Writings in a myriad number of topics.
   * *Brief Summary of Bazel* **[...]**
 
 * Networking
-  * Configuration(s)
-    * [*Brief Summary of the Cisco Command-Line Interface (CLI)*](network/cfg/brief_summary_of_cisco_cli.ipynb) **[...]**
-    * [...]
-  * Protocol(s)
+  * The Fundamentals
+    * [*Brief Summary of Ethernet-based Networking*](network/intro/brief_summary_of_ethernet_networking.ipynb) **[...]**
+    * [*Brief Summary of the Cisco Command-Line Interface (CLI)*](network/intro/brief_summary_of_cisco_cli.ipynb) **[...]**
+  * Misc. Topic(s)
     * [...]
 
 * *Windows*-based System(s)

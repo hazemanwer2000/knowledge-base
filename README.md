@@ -47,6 +47,10 @@ Writings in a myriad number of topics.
     * [...]
   * [...]
 
+* Micro-processor/controllers' Architecture
+  * ***Infineon***
+    * [*Brief Summary of Infineon's AURIX TC3xx Architecture*](uc/brief_summary_of_infineon_aurix_tc3xx.ipynb)
+
 * Misc.
   * [*Brief Summary of Regular Expressions*](misc/brief_summary_of_regex.ipynb)
   * [...]

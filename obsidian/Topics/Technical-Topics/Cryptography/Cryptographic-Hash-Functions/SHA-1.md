@@ -1,6 +1,10 @@
 ## *Table of Contents*
-
-## *Content*
+- [[#Pre-processing|Pre-processing]]
+	- [[#Pre-processing#Padding|Padding]]
+	- [[#Pre-processing#Parsing|Parsing]]
+	- [[#Pre-processing#Initial Hash|Initial Hash]]
+- [[#Computation|Computation]]
+## Content
 ---
 *SHA-1* is a *Cryptographic Hash Function (CHF)*, defined in [1], along with other functions.
 

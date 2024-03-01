@@ -1,17 +1,22 @@
-## *Links*
+## *Sub-topics!*
 ---
 * [[Technical-Topics]]
 ## *Content*
 ---
-Welcome to your knowledge base!
+Welcome to *THE* knowledge base!
 ![[Cockatiel.png]]
 The following is a template, to follow for all documents.
 ```
-## *Links*
+## *Sub-topics!*
 ---
 * ...
+
+## *Table of Contents*
+---
+* ...
+
 ## *Content*
 ---
-La-bla!
+...
 ```
 

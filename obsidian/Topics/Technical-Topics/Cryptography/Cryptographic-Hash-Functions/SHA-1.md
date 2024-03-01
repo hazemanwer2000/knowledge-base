@@ -1,3 +1,5 @@
+## *Table of Contents*
+
 ## *Content*
 ---
 *SHA-1* is a *Cryptographic Hash Function (CHF)*, defined in [1], along with other functions.

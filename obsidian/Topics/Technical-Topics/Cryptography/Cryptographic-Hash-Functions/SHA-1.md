@@ -1,3 +1,4 @@
+──────── *for more from the author, visit* [github.com/hazemanwer2000](https://github.com/hazemanwer2000). ────────
 ## *Table of Contents*
 - [[#Pre-processing|Pre-processing]]
 	- [[#Pre-processing#Padding|Padding]]
@@ -27,9 +28,7 @@ Every function in [1] is defined as a series of steps, which will be outlined in
 At the *pre-processing* stage, the message is *padded*, *parsed*, and an initial hash is set.
 #### Padding
 ---
-At the *padding* stage, an input message with length $l$, in bits, is padded if,
-$$l \bmod m \neq 0$$
-In such case, `0b1` is appended, followed by a variable $k$ number of `0b0`, again followed by a $2w$ (i.e., $64$ for *SHA-1*) bit value, that represents the length of the input message, $l$.
+At the *padding* stage, `0b1` is appended, followed by a variable $k$ number of `0b0`, again followed by a $2w$ (i.e., $64$ for *SHA-1*) bit value, that represents the length of the input message, $l$, in bits.
 
 The variable $k$ is selected to be the minimum non-negative value that satisfies,
 $$(l + 1 + k + 2w) \bmod m = 0$$

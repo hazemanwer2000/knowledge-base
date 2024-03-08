@@ -32,12 +32,12 @@ Both functions are called with the following arguments,
 
 The `KeyExpansion` function derives $Nr + 1$ *round keys*. Each round key is of $Nb$ size. 
 
-*Note:* Consult [1] for the definition of the `KeyExpansion` function.
+*Note:* Refer to [1] for the definition of the `KeyExpansion` function.
 
-*Note:* For transformations defined in the algorithm, each byte is interpreted as belonging to the finite field $GF(2^8)$. Consult [1] for the definition of addition, multiplication, identities, multiplicate inverses in $GF(2^8)$.
+*Note:* For transformations defined in the algorithm, each byte is interpreted as belonging to the finite field $GF(2^8)$. Refer to [1] for the definition of addition, multiplication, identities, multiplicate inverses in $GF(2^8)$.
 #### `Cipher`
 ---
-In `Cipher`, initially, each block is represented as a $4$ by $4$ matrix of bytes, called the *state*,
+In `Cipher`, initially, a block is represented as a $4$ by $4$ matrix of bytes, called the *state*,
 $$
 state[r, c] = block[r + 4c]
 $$
@@ -79,10 +79,10 @@ In `AddRoundKey`, the round key is represented as a $4$ by $4$ matrix of bytes, 
 ---
 In a similar manner, `InvCipher` calls `InvSubBytes`, `InvShiftRows`, `InvMixColumns` and `AddRoundKey` within its implementation.
 
-Consult [1] for the definition of `InvCipher` and the functions it calls.
+Refer to [1] for the definition of `InvCipher` and the functions it calls.
 ### Padding
 ---
-When the plain-text is not block-aligned for any block-cipher algorithm, padding is required. [1] itself does not define a padding scheme. 
+When the plain-text is not block-aligned for any block-cipher algorithm, padding is required. [1] itself does not define a padding scheme.
 
 Popular padding schemes used include *PKCS#7* padding, which involves appending the number of required padding bytes, represented as a byte, repeatedly. For example, if four bytes of padding are required, `04 04 04 04` is appended to the plain-text.
 ## *References*

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/Technical-Topics/Cryptography/Symmetric-Encryption/Symmetric-Key-Block-Cipher@Modes-of-Operation.md",
+                "file": "Topics/Technical-Topics/Cryptography/Message-Authentication-Codes/CMAC.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topics/Technical-Topics/Cryptography/Symmetric-Encryption/Symmetric-Key-Block-Cipher@Modes-of-Operation.md",
+                "file": "Topics/Technical-Topics/Cryptography/Message-Authentication-Codes/CMAC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topics/Technical-Topics/Cryptography/Symmetric-Encryption/Symmetric-Key-Block-Cipher@Modes-of-Operation.md",
+                "file": "Topics/Technical-Topics/Cryptography/Message-Authentication-Codes/CMAC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topics/Technical-Topics/Cryptography/Symmetric-Encryption/Symmetric-Key-Block-Cipher@Modes-of-Operation.md"
+                "file": "Topics/Technical-Topics/Cryptography/Message-Authentication-Codes/CMAC.md"
               }
             }
           }
@@ -148,17 +148,18 @@
   },
   "active": "fde5f1725cf439c3",
   "lastOpenFiles": [
-    "Topics/Technical-Topics/Cryptography/Cryptographic-Hash-Functions/SHA-1.md",
+    "Topics/Technical-Topics/Cryptography/Message-Authentication-Codes/HMAC.md",
+    "Topics/Technical-Topics/Cryptography/Message-Authentication-Codes/CMAC.md",
+    "Topics/Technical-Topics/Cryptography/Message-Authentication-Codes.md",
+    "Topics/Technical-Topics/Cryptography.md",
+    "Topics/Technical-Topics.md",
+    "Welcome!.md",
     "Topics/Technical-Topics/Cryptography/Symmetric-Encryption/Symmetric-Key-Block-Cipher@Modes-of-Operation.md",
     "Topics/Technical-Topics/Cryptography/Symmetric-Encryption/AES.md",
+    "Topics/Technical-Topics/Cryptography/Cryptographic-Hash-Functions/SHA-1.md",
     "Topics/Technical-Topics/Cryptography/Cryptographic-Hash-Functions.md",
-    "Welcome!.md",
-    "Topics/Technical-Topics.md",
     "Topics/Technical-Topics/Cryptography/Symmetric-Encryption.md",
-    "Topics/Technical-Topics/Cryptography.md",
     "[Symmetric-Key-Block-Cipher@Modes-of-Operation.md",
-    "Topics/Technical-Topics/Cryptography/Message-Authentication-Codes.md",
-    "Topics/Technical-Topics/Cryptography/Message-Authentication-Codes/HMAC.md",
     "Untitled.canvas",
     "~IMG/AES-MixColumns.png",
     "~IMG/AES-ShiftRows.png",

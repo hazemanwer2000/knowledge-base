@@ -16,7 +16,7 @@ CMAC(K, M, Tlen)
 where `K` is the key, `M` is the message, and `Tlen` is the truncation length of the generated *MAC*, which must be less or equal to `b`, the block size of the underlying algorithm.
 #### `CMAC`
 ---
-Pseudo-code for the `CMAC` function is shown below.
+Pseudo-code for the `CMAC` function is shown below,
 ```
 % `SUBK` derives two keys, `K1` and `K2`, from `K`.
 %     Both derived keys are of size `b`.
@@ -45,7 +45,35 @@ ENDLOOP
 
 % Truncate the MAC.
 MAC = TRUNCATE(C[N], Tlen)
+
+RETURN MAC
 ```
+where `SUBK` is defined as,
+```
+# Determine `K0`.
+K0 = CIPH(K, 0)
+
+# Determine `K1`.
+IF MSB(K0) == 0b0 THEN
+	K1 = K0 << 1
+ELSE
+	# 'Rb' is a constant for a given `b`.
+	K1 = (K0 << 1) ^ Rb
+ENDIF
+
+# Determine `K2`.
+IF MSB(K1) == 0 THEN
+	K2 = K1 << 1
+ELSE
+	K2 = (K1 << 1) ^ Rb
+ENDIF
+
+RETURN K1, K2
+```
+where `Rb` is a constant for a given `b`, defined in [1].
+
+Below is an illustrative diagram of the `CMAC` function.
+![[CMAC-Diagram.png]]
 ## *References*
 ---
 [1] Recommendation for Block Cipher Modes of Operation: CMAC Mode for Authentication, Special Publication 800-38B, NIST

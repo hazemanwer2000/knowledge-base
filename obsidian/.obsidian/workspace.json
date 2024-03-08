@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/Technical-Topics/Cryptography/Message-Authentication-Codes/HMAC.md",
-                "mode": "preview",
+                "file": "Topics/Technical-Topics/Cryptography/Cryptographic-Hash-Functions.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topics/Technical-Topics/Cryptography/Message-Authentication-Codes/HMAC.md",
+                "file": "Topics/Technical-Topics/Cryptography/Cryptographic-Hash-Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topics/Technical-Topics/Cryptography/Message-Authentication-Codes/HMAC.md",
+                "file": "Topics/Technical-Topics/Cryptography/Cryptographic-Hash-Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topics/Technical-Topics/Cryptography/Message-Authentication-Codes/HMAC.md"
+                "file": "Topics/Technical-Topics/Cryptography/Cryptographic-Hash-Functions.md"
               }
             }
           }
@@ -149,14 +149,14 @@
   "active": "7203db2ff3b0ac56",
   "lastOpenFiles": [
     "Topics/Technical-Topics/Cryptography/Cryptographic-Hash-Functions/SHA-1.md",
-    "Topics/Technical-Topics/Cryptography/Message-Authentication-Codes/HMAC.md",
-    "Topics/Technical-Topics/Cryptography/Message-Authentication-Codes.md",
     "Topics/Technical-Topics/Cryptography/Cryptographic-Hash-Functions.md",
-    "Topics/Technical-Topics/Cryptography/Message-Authentication-Codes",
-    "Message-Authentication-Codes.md",
     "Topics/Technical-Topics/Cryptography.md",
     "Topics/Technical-Topics.md",
     "Welcome!.md",
+    "Topics/Technical-Topics/Cryptography/Message-Authentication-Codes/HMAC.md",
+    "Topics/Technical-Topics/Cryptography/Message-Authentication-Codes.md",
+    "Message-Authentication-Codes.md",
+    "Topics/Technical-Topics/Cryptography/Message-Authentication-Codes",
     "brief_summary_of_make 1.ipynb",
     "brief_summary_of_make.ipynb",
     "Topics/Technical-Topics/Cryptography/Cryptographic-Hash-Functions",

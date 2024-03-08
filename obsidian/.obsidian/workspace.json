@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Topics/Technical-Topics/Cryptography/Message-Authentication-Codes/CMAC.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -146,7 +146,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "389424f564d8a932",
+  "active": "fde5f1725cf439c3",
   "lastOpenFiles": [
     "~IMG/CMAC-Diagram.png",
     "Topics/Technical-Topics/Cryptography/Message-Authentication-Codes/HMAC.md",

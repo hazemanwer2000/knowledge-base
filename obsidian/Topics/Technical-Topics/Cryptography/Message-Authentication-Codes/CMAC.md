@@ -1,5 +1,7 @@
 ──────── *for more from the author, visit* [github.com/hazemanwer2000](https://github.com/hazemanwer2000). ────────
 ## *Table of Contents*
+- [[#The Algorithm|The Algorithm]]
+	- [[#The Algorithm#`CMAC`|`CMAC`]]
 ## Content
 ---
 *CMAC*, as defined in [1], is a method for generating *Message Authentication Codes (MAC)* using a symmetric-key, block-cipher algorithm (e.g., AES). Alternatively, *CMAC* is viewed as an authentication mode of operation of the respective algorithm.
@@ -72,7 +74,8 @@ RETURN K1, K2
 ```
 where `Rb` is a constant for a given `b`, defined in [1].
 
-Below is an illustrative diagram of the `CMAC` function.
+Below is an illustrative diagram of the `CMAC` function, showing the two different cases of MAC generation.
+
 ![[CMAC-Diagram.png]]
 ## *References*
 ---

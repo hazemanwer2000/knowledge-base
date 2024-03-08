@@ -1,5 +1,14 @@
 ──────── *for more from the author, visit* [github.com/hazemanwer2000](https://github.com/hazemanwer2000). ────────
 ## *Table of Contents*
+
+- [[#The Algorithm|The Algorithm]]
+	- [[#The Algorithm#`Cipher`|`Cipher`]]
+		- [[#`Cipher`#`SubBytes`|`SubBytes`]]
+		- [[#`Cipher`#`ShiftRows`|`ShiftRows`]]
+		- [[#`Cipher`#`MixColumns`|`MixColumns`]]
+		- [[#`Cipher`#`AddRoundKey`|`AddRoundKey`]]
+	- [[#The Algorithm#`InvCipher`|`InvCipher`]]
+- [[#Padding|Padding]]
 ## Content
 ---
 *AES (Advanced Encryption Standard)* [1] is a document that outlines a *symmetric-key, block-cipher* algorithm, usually referred to with the same name (i.e., the AES encryption algorithm).
@@ -71,6 +80,11 @@ In `AddRoundKey`, the round key is represented as a $4$ by $4$ matrix of bytes, 
 In a similar manner, `InvCipher` calls `InvSubBytes`, `InvShiftRows`, `InvMixColumns` and `AddRoundKey` within its implementation.
 
 Consult [1] for the definition of `InvCipher` and the functions it calls.
+### Padding
+---
+When the plain-text is not block-aligned for any block-cipher algorithm, padding is required. [1] itself does not define a padding scheme. 
+
+Popular padding schemes used include *PKCS#7* padding, which involves appending the number of required padding bytes, represented as a byte, repeatedly. For example, if four bytes of padding are required, `04 04 04 04` is appended to the plain-text.
 ## *References*
 ---
 [1] Advanced Encryption Standard (AES), FIPS 197, NIST.

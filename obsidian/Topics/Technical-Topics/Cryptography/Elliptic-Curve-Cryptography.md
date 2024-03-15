@@ -6,9 +6,9 @@
 - [[#ECDH|ECDH]]
 ## Content
 ---
-*Elliptic Curve Cryptography (ECC)* uses elliptic curves over finite fields (i.e., galois fields) to define useful cryptographic operations, such as digital signature generation and verification (i.e., *ECDSA*) and key exchange (i.e., *ECDH*).
+*Elliptic Curve Cryptography (ECC)* uses elliptic curves over finite fields (i.e., galois fields) to define useful cryptographic operations, such as digital signature generation and verification (i.e., *ECDSA*) and secure key exchange (i.e., *ECDH*).
 
-A field is a set on which addition and multiplication, among other operations, are defined and satisfy the *field axioms*, including *associativity*, *commutativity*, and *additive* and *multiplicative* identities. For example, the set of all real numbers, $\mathbb{R}$, is an infinite field. A finite field, $GF(q)$, is a field, with a finite set of $q$ elements.
+A field is a set on which addition and multiplication, among other operations, are defined and satisfy the *field axioms*, including *associativity*, *commutativity*, and *additive* and *multiplicative identities*. For example, the set of all real numbers, $\mathbb{R}$, is an infinite field. A finite field, $GF(q)$, is a field, with a finite set of $q$ elements.
 
 An elliptic curve defined over $GF(q)$, has all mathematical operations, coefficients and values defined within $GF(q)$.
 ### Domain Parameters
@@ -45,7 +45,7 @@ To verify a signature, $(r, s)$, given $D$, $Q$, and $H$,
 * If $r'$ is equal to $r$, then verification succeeds. Otherwise, it fails.
 ### ECDH
 ---
-*Elliptic Curve Diffie Hellman (ECDH)* is the *ECC*-equivalent of *Diffie-Hellman*, an algorithm to facilitate secure key exchange, while communicating over an unsecure channel.
+*Elliptic Curve Diffie-Hellman (ECDH)* is the *ECC*-equivalent of *Diffie-Hellman*, an algorithm to facilitate secure key exchange, while communicating over an unsecure channel.
 
 Each party generates a private-public key pair, $(d, Q)$. Then, each party communicates its public key to the other. A shared secret is then derived by both parties synonymously, as $S = d_A(Q_B) = d_B(Q_A)$. 
 

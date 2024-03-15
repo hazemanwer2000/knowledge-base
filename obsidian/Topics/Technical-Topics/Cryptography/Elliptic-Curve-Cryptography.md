@@ -47,7 +47,8 @@ To verify a signature, $(r, s)$, given $D$, $Q$, and $H$,
 ---
 *Elliptic Curve Diffie-Hellman (ECDH)* is the *ECC*-equivalent of *Diffie-Hellman*, an algorithm to facilitate secure key exchange, while communicating over an unsecure channel.
 
-Each party generates a private-public key pair, $(d, Q)$. Then, each party communicates its public key to the other. A shared secret is then derived by both parties synonymously, as $S = d_A(Q_B) = d_B(Q_A)$. 
+Each party generates a private-public key pair, $(d, Q)$. Then, each party communicates its public key to the other. A shared secret is then derived by both parties synonymously, as, 
+$$S = d_A(Q_B) = d_B(Q_A) = (d_A \cdot d_B)(G) = (d_B \cdot d_A)(G)$$
 
 *Note:* Usually, $S$ acts as the *seed* for a *Key Derivation Function (KDF)*, which uses a pseudo-random function, such as *HMAC* based on SHA-256, to derive key material (i.e., stretch the seed into lengthy key material).
 ## *References*

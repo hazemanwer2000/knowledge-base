@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ae7218c2d1814455",
+        "id": "f679df64f0bdc110",
         "type": "tabs",
         "children": [
           {
-            "id": "0d07f1a61aa73e9b",
+            "id": "7db1af3b966dd88b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/Technical-Topics/Cryptography/Elliptic-Curve-Cryptography.md",
+                "file": "Topics/Technical-Topics/Cryptography/X.509-Certificates.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topics/Technical-Topics/Cryptography/Elliptic-Curve-Cryptography.md",
+                "file": "Topics/Technical-Topics/Cryptography/X.509-Certificates.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topics/Technical-Topics/Cryptography/Elliptic-Curve-Cryptography.md",
+                "file": "Topics/Technical-Topics/Cryptography/X.509-Certificates.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topics/Technical-Topics/Cryptography/Elliptic-Curve-Cryptography.md"
+                "file": "Topics/Technical-Topics/Cryptography/X.509-Certificates.md"
               }
             }
           }
@@ -146,21 +146,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0d07f1a61aa73e9b",
+  "active": "7db1af3b966dd88b",
   "lastOpenFiles": [
-    "Topics/Technical-Topics/Cryptography/Symmetric-Encryption/AES.md",
-    "Topics/Technical-Topics/Cryptography/Elliptic-Curve-Cryptography.md",
-    "Welcome!.md",
-    "Topics/Technical-Topics/Cryptography.md",
+    "Topics/Technical-Topics/Cryptography/Symmetric-Encryption/Symmetric-Key-Block-Cipher@Modes-of-Operation.md",
+    "Topics/Technical-Topics/Cryptography/Symmetric-Encryption.md",
     "Topics/Technical-Topics.md",
+    "Topics/Technical-Topics/Cryptography.md",
+    "Topics/Technical-Topics/Cryptography/X.509-Certificates.md",
+    "Welcome!.md",
+    "Topics/Technical-Topics/Cryptography/Elliptic-Curve-Cryptography.md",
+    "Topics/Technical-Topics/Cryptography/Symmetric-Encryption/AES.md",
     "Topics/Technical-Topics/Cryptography/Message-Authentication-Codes/CMAC.md",
     "~IMG/CMAC-Diagram.png",
     "Topics/Technical-Topics/Cryptography/Message-Authentication-Codes/HMAC.md",
     "Topics/Technical-Topics/Cryptography/Message-Authentication-Codes.md",
-    "Topics/Technical-Topics/Cryptography/Symmetric-Encryption/Symmetric-Key-Block-Cipher@Modes-of-Operation.md",
     "Topics/Technical-Topics/Cryptography/Cryptographic-Hash-Functions/SHA-1.md",
     "Topics/Technical-Topics/Cryptography/Cryptographic-Hash-Functions.md",
-    "Topics/Technical-Topics/Cryptography/Symmetric-Encryption.md",
     "[Symmetric-Key-Block-Cipher@Modes-of-Operation.md",
     "Untitled.canvas",
     "~IMG/AES-MixColumns.png",

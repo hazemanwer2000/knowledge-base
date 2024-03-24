@@ -1,5 +1,18 @@
 ──────── *for more from the author, visit* [github.com/hazemanwer2000](https://github.com/hazemanwer2000). ────────
 ## *Table of Contents*
+- [[#ASN.1|ASN.1]]
+- [[#DER|DER]]
+	- [[#DER#The Tag|The Tag]]
+		- [[#The Tag#Overriding Tag Values|Overriding Tag Values]]
+	- [[#DER#The Length|The Length]]
+	- [[#DER#The Value|The Value]]
+- [[#X.509 Format|X.509 Format]]
+	- [[#X.509 Format#`TBSCertificate`|`TBSCertificate`]]
+		- [[#`TBSCertificate`#`version`|`version`]]
+		- [[#`TBSCertificate`#`AlgorithmIdentifier`|`AlgorithmIdentifier`]]
+		- [[#`TBSCertificate`#`Name`|`Name`]]
+		- [[#`TBSCertificate`#`Validity`|`Validity`]]
+		- [[#`TBSCertificate`#`SubjectPublicKeyInfo`|`SubjectPublicKeyInfo`]]
 ## Content
 ---
 A *X.509 certificate* is a standardized *public-key certificate* [1]. A public-key certificate binds an identity to a public key using a digital signature. It contains, at minimal, a public key, and is signed by a *Certificate Authority (CA)*, directly or indirectly. This allows the possessor of the corresponding private key to become part of the *chain of trust*, that begins with the *CA* and ends with the respective entity.
@@ -82,7 +95,7 @@ If the tag number is larger than or equal to `0x1F`, then,
 *Note:* A `CHOICE` is given the tag value of the chosen type. It has no tag value of its own.
 ##### Overriding Tag Values
 ---
-*DER* allows the overriding of tag values, by preceding types with square brackets, and the override value in between. For example,
+*DER*, in compliance with *ASN.1*, allows the overriding of tag values, by preceding types with square brackets, and the override value in between. For example,
 ```
 type-name ::= [0] SEQUENCE {
 	type-name TYPE-NAME,
@@ -107,7 +120,83 @@ CASE 'EXPLICIT':
 If the length is less than or equal to `0x7F`, it is represented as a single octet. Otherwise,
 * In the first octet, bits $0$ to $6$ denote the number of octets to follow (one, or more). Bit $7$ is fixed to `1`.
 * In subsequent octets, the length is represented.
-###
+#### The Value
+---
+Each primitive type is defined a specific representation. Refer to [3] for all representations.
+### X.509 Format
+---
+The following is the *ASN.1* definition of a *X.509* certificate.
+```
+Certificate ::= SEQUENCE {
+	tbsCertificate TBSCertificate,
+	signatureAlgorithm AlgorithmIdentifier,
+	signatureValue BIT STRING }
+```
+#### `TBSCertificate`
+---
+The `TBSCertificate` type denotes the structure to be signed.
+```
+TBSCertificate ::= SEQUENCE {
+	version [0] EXPLICIT Version DEFAULT v1,
+	serialNumber INTEGER,
+	signature AlgorithmIdentifier,
+	issuer Name,
+	validity Validity,
+	subject Name,
+	subjectPublicKeyInfo SubjectPublicKeyInfo,
+	...
+}
+```
+##### `version`
+---
+The `Version` type denotes the *X.509* certificate standard version used.
+```
+Version ::= ENUMERATED { v1(0), v2(1), v3(3) }
+```
+##### `AlgorithmIdentifier`
+---
+The `AlgorithmIdentifier` type denotes the signature generation/verification algorithm used.
+```
+AlgorithmIdentifier ::= SEQUENCE {
+	algorithm OBJECT IDENTIFIER,
+	parameters ANY DEFINED BY algorithm OPTIONAL }
+```
+##### `Name`
+---
+The `Name` type is used to identify an entity; the issuer (i.e., the signing entity), or the subject.
+```
+Name ::= SEQUENCE OF RelativeDistinguishedName
+
+RelativeDistinguishedName ::= SET OF AttributeTypeAndValue
+
+AttributeTypeAndValue ::= SEQUENCE {
+	type AttributeType,
+	value AttributeValue }
+
+AttributeType ::= OBJECT IDENTIFIER
+
+AttributeValue ::= ANY DEFINED BY AttributeType
+```
+##### `Validity`
+---
+The `Validity` type is used to set the time frame within which the certificate is valid.
+```
+Validity ::= SEQUENCE {
+	notBefore Time,
+	notAfter Time }
+
+Time ::= CHOICE {
+	utcTime UTCTime
+	generalTime GeneralizedTime }
+```
+##### `SubjectPublicKeyInfo`
+---
+The `SubjectPublicKeyInfo` type denotes the algorithm used to generate the public key, and the value of the public key.
+```
+SubjectPublicKeyInfo ::= SEQUENCE {
+	algorithm AlgorithmIdentifier,
+	subjectPublicKey BIT STRING }
+```
 ## *References*
 ---
 [1] Internet X.509 PKI Certificate and CRL Profile, RFC 2459, IETF

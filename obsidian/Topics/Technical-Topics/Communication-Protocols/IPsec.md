@@ -88,7 +88,7 @@ The following payloads are typically contained within an *IKE_SA_INIT* request:
 	* It contains nested *Proposal* payloads. Each *Proposal* payload contains nested *Transform* payloads.
 	* Each *Transform* payload specifies a cryptographic algorithm, to be used for a specific operation (e.g., shared secret establishment, key derivation function, MAC generation, encryption).
 * *Key Exchange*
-	* It contains, for example, in the case of *ECDH*, the *initiator*'s public key used to establish the shared secret, from which a key derivation function will derives additional keys, to be used for MAC generation and encryption.
+	* It contains, for example, in the case of *ECDH*, the *initiator*'s public key used to establish the shared secret, from which a key derivation function derives additional keys, to be used for MAC generation and encryption.
 * *Nonce
 	* It contains a randomly generated value, that is used as input when deriving keys, called the *initiator*'s nonce value.
 * *Notify: Signature Hash Algorithms*
@@ -102,11 +102,13 @@ The following payloads are typically contained within an *IKE_SA_INIT* response:
 	* It contains a single, nested *Proposal* payload, with nested *Transform* payloads selected from one of the initiator's *Proposal* payload(s).
 	* There must be no two *Transform* payloads that specify cryptographic algorithms, to be used for the same operation (e.g., Encryption; *AES-CBC-256* and *AES-CBC-128*).
 * *Key Exchange*
-	* It contains, for example, in the case of *ECDH*, the *responder*'s public key used to establish the shared secret.
+	* (...)
 * *Nonce
-	* It contains the *responder*'s nonce value.
+	* (...)
 * *Notify: Signature Hash Algorithms*
 	* It specifies the signature hash algorithm to be used, selected from the *initiator*'s list of supported algorithms.
+* *Certificate Request*
+	* It contains the hash value, usually using *SHA-1* *CHF*, of the public key of one of the *CA(s)* of the responder, that it shall use to establish a chain of trust (see below).
 
 *Note:* Any *Proposal* payload specifies the relevant security protocol in a field, called *Protocol ID*. *Security Association* payloads inside *IKE_SA_INIT* requests and responses contain *Proposal* payloads with a *Protocol ID* that specifies *IKE* as the security protocol. Hence, *Security Association* agreement, as a result of the *IKE_SA_INIT* exchange, is used to establish two *IKE_SA(s)*, inbound and outbound, for each peer.
 #### *IKE_AUTH* Exchange
@@ -118,8 +120,32 @@ The following payloads are typically contained within an *IKE_AUTH* request (aft
 * *Security Association*
 	* Use-case is similar to an *IKE_SA_INIT* request, but with *Proposal* payloads with a *Protocol ID* that specifies either *AH* or *ESP* as the security protocol.
 * *Certificate*
-	* It contains a certificate, usually of type *x509* and is encoded in *DER* format. The certificate may be the peer's certificate, or an intermediate certificate.
-* 
+	* It contains a certificate, usually of type *x509* and is encoded in *DER* format. The certificate may be the initiator's certificate, or an intermediate certificate.
+* *Certificate Request*
+	* (...)
+* *Authentication*
+	* It contains the signature, calculated over the *Identification* payload, but not only.
+* *Identification*
+	* Usually, it contains the *subject* field of the initiator's end-certificate.
+* *Notify: Use Transport Mode* or *Notify: Use Tunnel Mode* 
+	* It specifies which mode of operation of the security protocols (i.e., *AH* and *ESP*) shall be used (see below).
+* *Traffic Selector: Initiator* and *Traffic Selector: Responder*
+	* It specifies the traffic selectors, to be associated with the *CHILD_SA* to be established.
+
+The following payloads are typically contained within an *IKE_AUTH* response (after decryption of the *Encrypted* payload):
+
+* *Security Association*
+	* (...)
+* *Certificate*
+	* (...)
+* *Authentication*
+	* (...)
+* *Identification*
+	* (...)
+* *Notify: Use Transport Mode* or *Notify: Use Tunnel Mode* 
+	* (...)
+* *Traffic Selector: Initiator* and *Traffic Selector: Responder*
+	* It specifies the traffic selectors, to be associated with the *CHILD_SA* to be established, and must be a subset of the traffic selectors in the *IKE_AUTH* request.
 ## *References*
 ---
 [1] Security Architecture for the Internet Protocol, RFC 4301

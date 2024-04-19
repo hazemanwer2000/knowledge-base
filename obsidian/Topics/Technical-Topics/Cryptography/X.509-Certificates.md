@@ -147,7 +147,7 @@ TBSCertificate ::= SEQUENCE {
 	...
 }
 ```
-##### `version`
+##### `Version`
 ---
 The `Version` type denotes the *X.509* certificate standard version used.
 ```

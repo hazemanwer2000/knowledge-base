@@ -146,6 +146,21 @@ The following payloads are typically contained within an *IKE_AUTH* response (af
 	* (...)
 * *Traffic Selector: Initiator* and *Traffic Selector: Responder*
 	* It specifies the traffic selectors, to be associated with the *CHILD_SA* to be established, and must be a subset of the traffic selectors in the *IKE_AUTH* request.
+
+*Note:* *Security Association* agreement, as a result of the *IKE_SA_INIT* exchange, is used to establish at least two *CHILD_SA(s)*, inbound and outbound, for each peer.
+#### *INFORMATIONAL* Exchange(s)
+---
+An *INFORMATIONAL* request may be initiated by a responder, unlike *IKE_SA_INIT* and *IKE_AUTH* requests. Usually, they contain *Notify* payloads, that convey different information to the peer. 
+
+In some cases, no payloads are contained at all, the use-case being *Dead Peer Detection (DPD)* (i.e., to test the liveness of the peer).
+#### *CREATE_CHILD_SA* Exchange(s)
+---
+A *CREATE_CHILD_SA* request may be initiated by a responder. It can be used to further establish more *CHILD_SA(s)*.
+### AH
+---
+
+
+![[AH-Header.png|600]]
 ## *References*
 ---
 [1] Security Architecture for the Internet Protocol, RFC 4301

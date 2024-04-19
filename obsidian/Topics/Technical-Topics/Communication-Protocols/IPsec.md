@@ -58,6 +58,29 @@ Each exchange is a request and a response. There are four types of exchanges, as
 *Note:* An *IKE_SA* is an *SA*, used to secure *IKEv2* traffic.
 
 *Note:* Even though an *IKE_SA* is not considered established before the *IKE_AUTH* exchange completes successfully, it is used to secure the *IKE_AUTH* exchange.
+#### Format
+---
+Any *IKEv2* message consists of a header, and a number of consecutive payloads, each of a specific type, identified by the *Next Payload* field in the header, or preceding payload.
+
+*Note:* If a payload of type *Encrypted* is found, it is decrypted and parsed into additional payloads. No more payloads may follow an *Encrypted* payload.
+
+The header format, as shown below, consists of,
+
+* the initiator's *SPI (Security Parameter Index)*, a unique (i.e., randomly generated) value, used as an index into the initiator's *SAD*,
+* the responder's *SPI*,
+* the *Next Payload* field,
+* the version of *IKE* used,
+* the *Exchange Type* field (e.g., *IKE_SA_INIT*),
+* different flags (e.g., initiator/responder (see below), request/response),
+* the *Message ID* field (see below),
+* and the length of the complete IKE message (including the header), in bytes.
+
+![[IKE-Header.png|600]]
+
+
+#### *IKE_SA_INIT* Exchange
+---
+An *IKE_SA_INIT* exchange 
 ## *References*
 ---
 [1] Security Architecture for the Internet Protocol, RFC 4301

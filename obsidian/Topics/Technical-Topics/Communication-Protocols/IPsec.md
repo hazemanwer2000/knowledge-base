@@ -77,10 +77,49 @@ The header format, as shown below, consists of,
 
 ![[IKE-Header.png|600]]
 
+*Note:* The *initiator* is the peer that sends the first request (i.e., an *IKE_SA_INIT* request). For the lifetime of the established *IKE* *SA*, this peer is referred to as the initiator in all *IKE* messages.
 
+*Note:* The *Message ID* field is a sequence number that starts with zero, and is incremented with each request sent. A separate value is maintained by each peer. For example, after a successful *IKE_AUTH* exchange, the initiator's next *MID* is 2, and the responder's next *MID* is 0.
 #### *IKE_SA_INIT* Exchange
 ---
-An *IKE_SA_INIT* exchange 
+The following payloads are typically contained within an *IKE_SA_INIT* request:
+
+* *Security Association*
+	* It contains nested *Proposal* payloads. Each *Proposal* payload contains nested *Transform* payloads.
+	* Each *Transform* payload specifies a cryptographic algorithm, to be used for a specific operation (e.g., shared secret establishment, key derivation function, MAC generation, encryption).
+* *Key Exchange*
+	* It contains, for example, in the case of *ECDH*, the *initiator*'s public key used to establish the shared secret, from which a key derivation function will derives additional keys, to be used for MAC generation and encryption.
+* *Nonce
+	* It contains a randomly generated value, that is used as input when deriving keys, called the *initiator*'s nonce value.
+* *Notify: Signature Hash Algorithms*
+	* It specifies the supported signature hash algorithms, used for signature generation/verification in the *AUTH* payload, part of the *IKE_AUTH* exchange.
+
+*Note:* The *responder*'s SPI is set to all zeros, inside the *IKE_SA_INIT* request.
+
+The following payloads are typically contained within an *IKE_SA_INIT* response:
+
+* *Security Association*
+	* It contains a single, nested *Proposal* payload, with nested *Transform* payloads selected from one of the initiator's *Proposal* payload(s).
+	* There must be no two *Transform* payloads that specify cryptographic algorithms, to be used for the same operation (e.g., Encryption; *AES-CBC-256* and *AES-CBC-128*).
+* *Key Exchange*
+	* It contains, for example, in the case of *ECDH*, the *responder*'s public key used to establish the shared secret.
+* *Nonce
+	* It contains the *responder*'s nonce value.
+* *Notify: Signature Hash Algorithms*
+	* It specifies the signature hash algorithm to be used, selected from the *initiator*'s list of supported algorithms.
+
+*Note:* Any *Proposal* payload specifies the relevant security protocol in a field, called *Protocol ID*. *Security Association* payloads inside *IKE_SA_INIT* requests and responses contain *Proposal* payloads with a *Protocol ID* that specifies *IKE* as the security protocol. Hence, *Security Association* agreement, as a result of the *IKE_SA_INIT* exchange, is used to establish two *IKE_SA(s)*, inbound and outbound, for each peer.
+#### *IKE_AUTH* Exchange
+---
+*IKE_AUTH* request and response contain a single *Encrypted* payload, that is encrypted, and authenticated (via an attached *MAC*).
+
+The following payloads are typically contained within an *IKE_AUTH* request (after decryption of the *Encrypted* payload):
+
+* *Security Association*
+	* Use-case is similar to an *IKE_SA_INIT* request, but with *Proposal* payloads with a *Protocol ID* that specifies either *AH* or *ESP* as the security protocol.
+* *Certificate*
+	* It contains a certificate, usually of type *x509* and is encoded in *DER* format. The certificate may be the peer's certificate, or an intermediate certificate.
+* 
 ## *References*
 ---
 [1] Security Architecture for the Internet Protocol, RFC 4301

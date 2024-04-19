@@ -44,7 +44,7 @@ Whenever an inbound *AH* or *ESP* packet is received, a *Security Association (S
 If no matching *SA* was found, the packet is discarded.
 ### IKEv2
 ---
-*Internet Key Exchange (IKEv2)* protocol is used to negotiate and establish *SA(s)* with a peer.
+*Internet Key Exchange (IKEv2)* [2] protocol is used to negotiate and establish *SA(s)* with a peer.
 
 Each exchange is a request and a response. There are four types of exchanges, as shown below.
 
@@ -79,7 +79,7 @@ The header format, as shown below, consists of,
 
 *Note:* The *initiator* is the peer that sends the first request (i.e., an *IKE_SA_INIT* request). For the lifetime of the established *IKE* *SA*, this peer is referred to as the initiator in all *IKE* messages.
 
-*Note:* The *Message ID* field is a sequence number that starts with zero, and is incremented with each request sent. A separate value is maintained by each peer. For example, after a successful *IKE_AUTH* exchange, the initiator's next *MID* is 2, and the responder's next *MID* is 0.
+*Note:* The *Message ID* field is a counter that starts with zero, and is incremented with each request sent. A separate value is maintained by each peer. For example, after a successful *IKE_AUTH* exchange, the initiator's next *MID* is 2, and the responder's next *MID* is 0.
 #### *IKE_SA_INIT* Exchange
 ---
 The following payloads are typically contained within an *IKE_SA_INIT* request:
@@ -119,6 +119,7 @@ The following payloads are typically contained within an *IKE_AUTH* request (aft
 
 * *Security Association*
 	* Use-case is similar to an *IKE_SA_INIT* request, but with *Proposal* payloads with a *Protocol ID* that specifies either *AH* or *ESP* as the security protocol.
+	* Each *Proposal* payload has a unique *SPI* value, as a field.
 * *Certificate*
 	* It contains a certificate, usually of type *x509* and is encoded in *DER* format. The certificate may be the initiator's certificate, or an intermediate certificate.
 * *Certificate Request*
@@ -158,9 +159,27 @@ In some cases, no payloads are contained at all, the use-case being *Dead Peer D
 A *CREATE_CHILD_SA* request may be initiated by a responder. It can be used to further establish more *CHILD_SA(s)*.
 ### AH
 ---
+*Authentication Header (AH)* [1] protocol is used to establish the authenticity and integrity of packets.
 
+In *transport* mode, usually between two hosts, a header (i.e., *AH*) directly follows the *IP* header (in *IPv4*). It contains a *MAC*, calculated over some fields of the *IP header*, the *AH* itself (assuming a *MAC* value of zero), and all upper-layer information.
 
-![[AH-Header.png|600]]
+![[AH-Transport-Mode.png|500]]
+
+In *tunnel mode*, usually between two security gateways (i.e., routers), inner and outer *IP* headers are used. The outer *IP* header is between the security gateways, and the inner *IP* header is the original *IP* header. The *AH* lies directly in between, and the *MAC* value is calculated over some fields of the outer *IP* header, the *AH* itself, the whole inner *IP* header, and all upper-layer information.
+
+![[AH-Tunnel-Mode.png|575]]
+#### Format
+---
+The header format, as shown below, consists of, most importantly,
+
+* the *SPI*, the index into the *SAD*, to match an *SA*,
+* the *Sequence Number* field, a counter that starts with zero, and is incremented by the sender with each transmission, used to guard against replay attacks,
+* and the *Integrity Check Value (ICV)* field (i.e., *MAC*), which size depends on the *MAC* generation algorithm used.
+
+![[AH-Header.png|550]]
+### ESP
+---
+
 ## *References*
 ---
 [1] Security Architecture for the Internet Protocol, RFC 4301

@@ -9,7 +9,7 @@ Writings in a myriad number of topics, maintained within *Jupyter* notebooks and
     * C/C++
         * [Brief Summary of *C* (89, 99, 11)](jupyter/lang/c_cpp/brief_summary_of_c.ipynb)
         * [Brief Summary of *C++* (98)](jupyter/lang/c_cpp/brief_summary_of_cpp.ipynb)
-        * [Brief Summary of *STD* in *C++* (98)](jupyter/lang/c_cpp/brief_summary_of_std.ipynb)
+        * [Brief Summary of **std** in *C++* (98)](jupyter/lang/c_cpp/brief_summary_of_std.ipynb)
     * Miscellaneous
         * [Brief Summary of *Python*](jupyter/lang/misc/brief_summary_of_python.ipynb)
 * Miscellaneous

@@ -1,5 +1,20 @@
 ──────── *for more from the author, visit* [github.com/hazemanwer2000](https://github.com/hazemanwer2000). ────────
 ## *Table of Contents*
+
+- [[#Security Policy Database (SPD)|Security Policy Database (SPD)]]
+- [[#Security Association Database (SAD)|Security Association Database (SAD)]]
+	- [[#Security Association Database (SAD)#Outbound Traffic|Outbound Traffic]]
+	- [[#Security Association Database (SAD)#Inbound Traffic|Inbound Traffic]]
+- [[#IKEv2|IKEv2]]
+	- [[#IKEv2#Format|Format]]
+	- [[#IKEv2#*IKE_SA_INIT* Exchange|*IKE_SA_INIT* Exchange]]
+	- [[#IKEv2#*IKE_AUTH* Exchange|*IKE_AUTH* Exchange]]
+	- [[#IKEv2#*INFORMATIONAL* Exchange(s)|*INFORMATIONAL* Exchange(s)]]
+	- [[#IKEv2#*CREATE_CHILD_SA* Exchange(s)|*CREATE_CHILD_SA* Exchange(s)]]
+- [[#AH|AH]]
+	- [[#AH#Format|Format]]
+- [[#ESP|ESP]]
+	- [[#ESP#Format|Format]]
 ## Content
 ---
 *Internet Protocol Security (IPsec)* is a suite of protocols, namely *IKEv2*, *ESP*, and *AH*, that operates at the *IP* layer of the *OSI* model, securing upper-layer payloads.
@@ -159,7 +174,7 @@ In some cases, no payloads are contained at all, the use-case being *Dead Peer D
 A *CREATE_CHILD_SA* request may be initiated by a responder. It can be used to further establish more *CHILD_SA(s)*.
 ### AH
 ---
-*Authentication Header (AH)* [1] protocol is used to establish the authenticity and integrity of packets.
+*Authentication Header (AH)* [3] protocol is used to establish the authenticity and integrity of packets.
 
 In *transport* mode, usually between two hosts, a header (i.e., *AH*) directly follows the *IP* header (in *IPv4*). It contains a *MAC*, calculated over some fields of the *IP header*, the *AH* itself (assuming a *MAC* value of zero), and all upper-layer information.
 
@@ -179,7 +194,26 @@ The header format, as shown below, consists of, most importantly,
 ![[AH-Header.png|550]]
 ### ESP
 ---
+*Encapsulating Security Payload (ESP)* [4] protocol is used to establish the authenticity, integrity and confidentiality of packets.
 
+In *transport* mode, usually between two hosts, an *ESP* header directly follows the *IP* header (in *IPv4*). An *ESP* trailer is appended to upper-layer information, before both are encrypted. The cipher-text follows the *ESP* header. An *ICV* is calculated over the *ESP* header and cipher-text, and is appended to the cipher-text.
+
+![[ESP-Transport-Mode.png|490]]
+
+In *tunnel* mode, usually between security gateways, the inner *IP* header is included in the encryption, and hence, the *ICV* calculation.
+
+![[ESP-Tunnel-Mode.png|565]]
+
+*Note:* Usually, an *IV* prepends the cipher-text. The ICV calculation includes the *IV*.
+
+*Note:* Implicit (i.e., not transmitted) parts, if present, of the *ESP* trailer are included in the *ICV* calculation, in plain-text and at the end. Refer to [4] for possible implicit parts of the *ESP* trailer.
+
+*Note:* This document assumes the use of separate encryption and authentication algorithms.
+#### Format
+---
+The header format, as shown below.
+
+![[ESP-Header-Format.png|650]]
 ## *References*
 ---
 [1] Security Architecture for the Internet Protocol, RFC 4301

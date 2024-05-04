@@ -52,7 +52,7 @@ Description: Initializes the module.
 Sync/Async: Sync
 Re-entrant: No
 Parameters (in):
-	[1] Pointer to the 'Fls' cfg.
+	[1] Pointer to module cfg.
 ```
 ###### `Fls_Erase`
 ---
@@ -96,7 +96,7 @@ Parameters (in):
 	[1] Target (virtual) flash address.
 	[2] Length.
 Parameters (out):
-	[1] Source pointer (i.e., data buffer pointer).
+	[1] Dest. pointer (i.e., data buffer pointer).
 ```
 ###### `Fls_Cancel`
 ---

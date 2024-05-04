@@ -199,7 +199,7 @@ FlsConfigSet [C, 1]
 ---
 ```
 Path: FlsGeneral/FlsTotalSize
-Description: Total size of the flash.
+Description: Total size of the flash available.
 ```
 
 ```

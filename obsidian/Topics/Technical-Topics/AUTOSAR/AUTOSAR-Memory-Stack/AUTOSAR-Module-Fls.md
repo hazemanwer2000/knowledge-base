@@ -213,8 +213,7 @@ Description: Period of the main function.
 ---
 ```
 Path: FlsConfigSet/FlsAcXXX
-Description: Address in RAM, in which the XXX-flash access code shall be loaded.
-				Used as a function pointer.
+Description: Address in RAM, in which the XXX-flash access code shall be loaded. Used as a function pointer.
 ```
 
 ```
@@ -229,8 +228,7 @@ Description: Specifies the (XXX)-notification configurable interface.
 
 ```
 Path: FlsConfigSet/FlsMaxXXXYYYMode
-Description: Specifies the maximum number of bytes to (XXX) in one cycle,
-				in (YYY) mode.
+Description: Specifies the maximum number of bytes to (XXX) in one cycle, in (YYY) mode.
 ```
 
 ```

@@ -213,6 +213,32 @@ Re-entrant: No
 *Additional notes:*
 
 * When `NvM_CancelWriteAll` is requested, the current NVRAM block being handled is processed to completion. The status of all remaining NVRAM blocks is set to `NVM_REQ_CANCELED`, as well as, the multi-block request status.
+###### `NvM_ValidateAll`
+---
+```
+Name: 'NvM_ValidateAll'
+Description: Mark all (applicable [see below]) NVRAM blocks as 'VALID-CHANGED'.
+Re-entrant: No
+```
+
+*Additional notes:*
+
+* `NvM_ValidateAll` processes only NVRAM blocks that meet the following requirements:
+	* The NVRAM block is configured with, either, a permanent RAM block, or explicit synchronization callback(s).
+	* The NVRAM block is configured with `NvMBlockUseAutoValidation = True`.
+###### `NvM_FirstInitAll`
+---
+```
+Name: 'NvM_FirstInitAll'
+Description: Write all NV and RAM blocks with data from ROM, for (applicable [see below]) NVRAM blocks, or invalidate NV blocks if missing from ROM.
+Re-entrant: No
+```
+
+*Additional notes:*
+
+* Usually, if this request is made, it is executed before `NvM_ReadAll`.
+
+* `NvM_FirstInitAll` deals only with NVRAM blocks configured with `NvMSelectBlockForFirstInitAll = True`.
 ### Data Types
 ---
 ###### `NvM_RequestResultType`
@@ -228,6 +254,80 @@ Range:
 	NVM_REQ_NV_INVALIDATED
 	NVM_REQ_CANCELED
 	NVM_REQ_RESTORED_DEFAULTS
+```
+### Configuration
+---
+```
+NvMCommon [C, 1]
+	NvMCompiledConfigId [P]
+	NvMCrcNumOfBytes [P]
+	NvMDatasetSelectionBits [P]
+	NvMDrvModeSwitch [P]
+	NvMDynamicConfiguration [P]
+	NvMMainFunctionPeriod [P]
+	NvMMultiBlockCallback [P]
+
+NvMBlockDescriptor [C, 1..*]
+	NvMBlockUseCrc [P]
+	NvMBlockCrcType [P]
+	NvMBlockHeaderInclude [P]
+	NvMBlockManagementType [P]
+	NvMResistantToChangedSw [P]
+	NvMBlockUseAutoValidation [P]
+	NvMBlockUseSyncMechanism [P]
+	NvMNvBlockBaseNumber [P]
+	NvMNvBlockLength [P]
+	NvMNvramBlockIdentifier [P]
+	NvMNvramDeviceId [P]
+	NvMRamBlockDataAddress [P]
+	NvMReadRamBlockFromNvCallback [P]
+	NvMWriteRamBlockToNvCallback [P]
+	NvMRomBlockDataAddress [P]
+	NvMSelectBlockForFirstInitAll [P]
+	NvMSelectBlockForReadAll [P]
+	NvMSelectBlockForWriteAll [P]
+
+	NvMInitBlockCallback [C, 0..1]
+		NvMInitBlockCallbackFnc [P]
+		
+	NvMSingleBlockCallback [C, 0..1]
+		NvMSingleBlockCallbackFnc [P]
+
+	NvMTargetBlockReference [C, 1]
+		NvMFeeRef [R, 0..1]
+		NvMEaRef [R, 0..1]
+```
+###### `NvMCommon`
+---
+```
+Path: NvMCommon/NvMCrcNumOfBytes
+Description: The maximum number of bytes to process, when calculating the CRC, within every cycle (i.e., main function call).
+```
+
+```
+Path: NvMCommon/NvMDatasetSelectionBits
+Description: The number of dataset selection bits (0 to 8).
+```
+
+```
+Path: NvMCommon/NvMDrvModeSwitch
+Description: Enables switching memory drivers to fast mode, while executing 'NvM_ReadAll' and 'NvM_WriteAll'.
+```
+###### `NvMBlockDescriptor`
+---
+```
+Path: NvMBlockDescriptor/NvMBlockCrcType
+Description: CRC type used, if 'NvMBlockUseCrc = True' [CRC8, CRC16, CRC32].
+```
+
+```
+Path: NvMBlockDescriptor/NvMBlockHeaderInclude
+Description: Header file that contains declarations of any RAM/ROM variable, or callback functions, referenced in this NVRAM block.
+```
+
+```
+Path: NvMBlockDescriptor/NvMBlockUseSyncMechanism
+Description: Enables explicit synchronization for this NVRAM block.
 ```
 ## *References*
 ---

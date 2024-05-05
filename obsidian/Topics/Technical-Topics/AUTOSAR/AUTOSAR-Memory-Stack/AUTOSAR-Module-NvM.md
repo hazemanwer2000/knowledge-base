@@ -3,9 +3,6 @@
 ## Content
 ---
 *AUTOSAR* specifies a *Basic Software (BSW) NVRAM Manager (NvM)* module, in functionality, API and configuration.
-### Definitions
----
-...
 ### Specification
 ---
 #### Introduction
@@ -15,6 +12,7 @@
 	* *NV block*, which represents the part of the NVRAM block that resides in NV memory.
 	* *ROM block*, which represents the part of the NVRAM block that resides in ROM.
 	* *Administrative block*, which is used to store run-time management information about the NVRAM block. It resides in RAM.
+
 * Each NVRAM block has a *block management type*. There are three different block management types:
 	* `NVM_BLOCK_NATIVE`, which mandates:
 		```
@@ -38,7 +36,7 @@
 	MemIf Block Number = 
 		(NVRAM Block Base Number << Data Selection Bits) + NV Block Index 
 	```
-* Each NVRAM block specifies which memory abstraction module it shall be accessed through (i.e., *Fee*, *Ea*), to be used when calling *MemIf* API(s).
+* Each NVRAM block specifies which memory abstraction module it shall be accessed through (e.g., *Fee*), to be used when calling *MemIf* API(s).
 ### Function(s)
 ---
 #### Synchronous Request(s)
@@ -67,6 +65,16 @@ Parameters (out):
 *Additional notes:*
 
 * To get the status of the last-requested multi-block async. job, block ID zero (reserved) is used.
+###### `NvM_SetRamBlockStatus`
+---
+```
+Name: 'NvM_SetRamBlockStatus'
+Description: Marks an NVRAM block as either 'VALID-CHANGED' (i.e., true), and vice-versa.
+Re-entrant: Yes
+Parameters (in):
+	[1] NVRAM block ID.
+	[2] Boolean, whether block changed.
+```
 #### Asynchronous Single-Block Request(s)
 ###### `NvM_ReadBlock`
 ---
@@ -81,7 +89,9 @@ Parameters (out):
 ```
 
 *Additional notes:*
+
 * If a non-`NULL` pointer is provided, then `NvM_ReadBlock` shall use this buffer instead of the permanent RAM block (if configured), or explicit synchronization callback(s) (if configured).
+
 * `NvM_ReadBlock` behaves similar to how `NvM_ReadAll` does for NVRAM blocks (i.e., if configuration ID (mis-)matches were irrelevant).
 ###### `NvM_WriteBlock`
 ---
@@ -95,8 +105,45 @@ Parameters (in):
 ```
 
 *Additional notes:*
-* If a non-`NULL` pointer is provided, then `NvM_ReadBlock` shall use this buffer instead of the permanent RAM block (if configured), or explicit synchronization callback(s) (if configured).
+
+* If a non-`NULL` pointer is provided, then `NvM_WriteBlock` shall use this buffer instead of the permanent RAM block (if configured), or explicit synchronization callback(s) (if configured).
+
 * If successful, the NVRAM block status is set to `NVM_REQ_OK`. Otherwise, it is set to `NVM_REQ_NOT_OK`.
+###### `NvM_RestoreBlockDefaults`
+---
+```
+Name: 'NvM_RestoreBlockDefaults'
+Description: For the NVRAM block referenced, read into the RAM block from ROM.
+Re-entrant: No
+Parameters (in):
+	[1] NVRAM block ID.
+Parameters (out):
+	[2] Pointer to buffer.
+```
+
+*Additional notes:*
+
+* If a non-`NULL` pointer is provided, then `NvM_RestoreBlockDefaults` shall use this buffer instead of the permanent RAM block (if configured), or explicit synchronization callback(s) (if configured).
+
+* If successful, the NVRAM block status is set to `NVM_REQ_OK`, in which case, if a `NULL` pointer was provided, the NVRAM block is marked as `VALID-CHANGED`. Otherwise, it is set to `NVM_REQ_NOT_OK`.
+###### `NvM_EraseNvBlock`
+---
+```
+Name: 'NvM_EraseNvBlock'
+Description: For the NVRAM block referenced, erase associated NV block(s).
+Re-entrant: No
+Parameters (in):
+	[1] NVRAM block ID.
+```
+###### `NvM_InvalidateNvBlock`
+---
+```
+Name: 'NvM_InvalidateNvBlock'
+Description: For the NVRAM block referenced, invalidate the associated NV block(s).
+Re-entrant: No
+Parameters (in):
+	[1] NVRAM block ID.
+```
 #### Asynchronous Multi-Block Request(s)
 ---
 ###### `NvM_ReadAll`
@@ -126,14 +173,14 @@ Re-entrant: No
 		* the block is configured as `NvMResistantToChangedSw = False`, and,
 		* the block is configured with either `NvMInitBlockCallback` or `NvMRomBlockDataAddress`,
 		* then, the RAM block is restored to its default value (from ROM), its status is set to `NVM_REQ_RESTORED_DEFAULTS`.
-	* At last, if the status of the reserved NVRAM block is not set to `NVM_REQ_OK`, the RAM block of the reserved NVRAM block is updated with the compiled configuration ID, and the NVRAM block is marked as `VALID-CHANGED`, to be written during the next `NvM_WriteAll`.
+	* At last, if the status of the reserved NVRAM block is not set to `NVM_REQ_OK`, the RAM block of the reserved NVRAM block is updated with the compiled configuration ID, and the NVRAM block is marked as `VALID-CHANGED`.
 
 * `NvM_ReadAll`, when processing NVRAM blocks with ID `> 1` (in all other cases):
 	* If *MemIf* reports `MEMIF_BLOCK_INVALID`, the NVRAM block status is set to `NVM_REQ_NV_INVALIDATED`.
 	* If *MemIf* reports `MEMIF_BLOCK_INCONSISTENT`, or `MEMIF_JOB_OK` but CRC check fails, the NVRAM block status is set to `NVM_REQ_INTEGRITY_FAILED`.
 	* If *MemIf* reports `MEMIF_JOB_NOT_OK`, the NVRAM block status is set to `NVM_REQ_NOT_OK`.
 	* In any of the cases aforementioned, if the NVRAM block has either `NvMInitBlockCallback` or `NvMRomBlockDataAddress` configured, then the status is set to `NVM_REQ_RESTORED_DEFAULTS`, and the RAM block is updated from ROM.
-		* *Note:* In this case, the NVRAM block is marked as `VALID-CHANGED`, to be written during the next `NvM_WriteAll`.
+		* *Note:* In this case, the NVRAM block is marked as `VALID-CHANGED`.
 	* Otherwise, the NVRAM block status is set to `NVM_REQ_OK`, and the RAM block is updated from the NV block.
 
 * The multi-block request status is set to `NVM_REQ_OK` if all relevant NVRAM block statuses are also set to `NVM_REQ_OK`. Otherwise, it is set to `NVM_REQ_NOT_OK`.
@@ -155,7 +202,17 @@ Re-entrant: No
 
 * For each `VALID-CHANGED` NVRAM block, if successful, the NVRAM block status is set to `NVM_REQ_OK`. Otherwise, it is set to `NVM_REQ_NOT_OK`. 
 	* *Note:* For each non-`VALID-CHANGED` NVRAM block, the NVRAM block status is set to `NVM_REQ_BLOCK_SKIPPED`.
+###### `NvM_CancelWriteAll`
+---
+```
+Name: 'NvM_CancelWriteAll'
+Description: Cancels an on-going `NvM_WriteAll` request.
+Re-entrant: No
+```
 
+*Additional notes:*
+
+* When `NvM_CancelWriteAll` is requested, the current NVRAM block being handled is processed to completion. The status of all remaining NVRAM blocks is set to `NVM_REQ_CANCELED`, as well as, the multi-block request status.
 ### Data Types
 ---
 ###### `NvM_RequestResultType`

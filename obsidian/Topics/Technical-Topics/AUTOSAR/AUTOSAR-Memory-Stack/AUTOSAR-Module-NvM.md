@@ -149,7 +149,13 @@ Re-entrant: No
 
 *Additional notes:*
 
-* ...
+* `NvM_WriteAll` processes only NVRAM blocks that meet the following requirements:
+	* The NVRAM block is configured with, either, a permanent RAM block, or explicit synchronization callback(s).
+	* The NVRAM block is configured to be processed in `NvM_WriteAll` (i.e., `NvMSelectBlockForWriteAll = True`).
+
+* For each `VALID-CHANGED` NVRAM block, if successful, the NVRAM block status is set to `NVM_REQ_OK`. Otherwise, it is set to `NVM_REQ_NOT_OK`. 
+	* *Note:* For each non-`VALID-CHANGED` NVRAM block, the NVRAM block status is set to `NVM_REQ_BLOCK_SKIPPED`.
+
 ### Data Types
 ---
 ###### `NvM_RequestResultType`

@@ -67,6 +67,36 @@ Parameters (out):
 *Additional notes:*
 
 * To get the status of the last-requested multi-block async. job, block ID zero (reserved) is used.
+#### Asynchronous Single-Block Request(s)
+###### `NvM_ReadBlock`
+---
+```
+Name: 'NvM_ReadBlock'
+Description: Attempts to read an NVRAM block (i.e., load from NV to RAM) [see further below].
+Re-entrant: Yes
+Parameters (in):
+	[1] NVRAM block ID.
+Parameters (out):
+	[1] Pointer to buffer.
+```
+
+*Additional notes:*
+* If a non-`NULL` pointer is provided, then `NvM_ReadBlock` shall use this buffer instead of the permanent RAM block (if configured), or explicit synchronization callback(s) (if configured).
+* `NvM_ReadBlock` behaves similar to how `NvM_ReadAll` does for NVRAM blocks (i.e., if configuration ID (mis-)matches were irrelevant).
+###### `NvM_WriteBlock`
+---
+```
+Name: 'NvM_WriteBlock'
+Description: Attempts to write an NVRAM block (i.e., store from RAM to NV) [see further below].
+Re-entrant: Yes
+Parameters (in):
+	[1] NVRAM block ID.
+	[2] Pointer to buffer.
+```
+
+*Additional notes:*
+* If a non-`NULL` pointer is provided, then `NvM_ReadBlock` shall use this buffer instead of the permanent RAM block (if configured), or explicit synchronization callback(s) (if configured).
+* If successful, the NVRAM block status is set to `NVM_REQ_OK`. Otherwise, it is set to `NVM_REQ_NOT_OK`.
 #### Asynchronous Multi-Block Request(s)
 ---
 ###### `NvM_ReadAll`
@@ -86,7 +116,7 @@ Re-entrant: No
 * NVRAM block ID one is reserved for the NVRAM block that stores the module's configuration ID. 
 	* This block must be of block management type `NVM_BLOCK_REDUNDANT`, and uses CRC.
 		* If the reserved NVRAM block couldn't be read due to an error in the lower-layer(s), its status is set to `NVM_REQ_NV_INVALIDATED`.
-			* In this case, the NVRAM block is written with the compiled configuration ID, and the behavior is as if a configuration match occurred.
+			* In this case, the behavior is as if a configuration match occurred.
 		* If the reserved NVRAM block fails CRC check, its status is set to `NVM_REQ_INTEGRITY_FAILED`.
 			* In this case, the behavior is as if a configuration mismatch occurred.
 		* If the reserved NVRAM block is read successfully, but a configuration ID mismatch is detected, its status is set to `NVM_REQ_NOT_OK`.
@@ -96,7 +126,7 @@ Re-entrant: No
 		* the block is configured as `NvMResistantToChangedSw = False`, and,
 		* the block is configured with either `NvMInitBlockCallback` or `NvMRomBlockDataAddress`,
 		* then, the RAM block is restored to its default value (from ROM), its status is set to `NVM_REQ_RESTORED_DEFAULTS`.
-	* In case of configuration ID mismatch, at last, the RAM block of the reserved NVRAM block is updated with the compiled configuration ID, and the NVRAM block is marked as `VALID-CHANGED`, to be written during the next `NvM_WriteAll`.
+	* At last, if the status of the reserved NVRAM block is not set to `NVM_REQ_OK`, the RAM block of the reserved NVRAM block is updated with the compiled configuration ID, and the NVRAM block is marked as `VALID-CHANGED`, to be written during the next `NvM_WriteAll`.
 
 * `NvM_ReadAll`, when processing NVRAM blocks with ID `> 1` (in all other cases):
 	* If *MemIf* reports `MEMIF_BLOCK_INVALID`, the NVRAM block status is set to `NVM_REQ_NV_INVALIDATED`.
@@ -106,7 +136,20 @@ Re-entrant: No
 		* *Note:* In this case, the NVRAM block is marked as `VALID-CHANGED`, to be written during the next `NvM_WriteAll`.
 	* Otherwise, the NVRAM block status is set to `NVM_REQ_OK`, and the RAM block is updated from the NV block.
 
+* The multi-block request status is set to `NVM_REQ_OK` if all relevant NVRAM block statuses are also set to `NVM_REQ_OK`. Otherwise, it is set to `NVM_REQ_NOT_OK`.
+
 *Note:* The design of the *NvM* module uses the status of the NVRAM block inconsistently (i.e., between NVRAM blocks with ID `= 1` and `> 1`).
+###### `NvM_WriteAll`
+---
+```
+Name: 'NvM_WriteAll'
+Description: Attempts to write all NVRAM blocks (i.e., store from RAM to NV) [see further below], usually executed on shutdown.
+Re-entrant: No
+```
+
+*Additional notes:*
+
+* ...
 ### Data Types
 ---
 ###### `NvM_RequestResultType`

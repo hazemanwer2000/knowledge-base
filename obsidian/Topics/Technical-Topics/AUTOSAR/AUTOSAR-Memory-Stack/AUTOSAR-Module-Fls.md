@@ -105,7 +105,6 @@ Name: 'Fls_Cancel'
 Description: Cancel the last-requested job.
 Sync/Async: Sync
 Re-entrant: No
-	...
 ```
 ###### `Fls_GetJobResult`
 ---
@@ -143,7 +142,6 @@ Sync/Async: Sync
 Re-entrant: No
 Parameters (in):
 	[1] Mode.
-	...
 ```
 #### Scheduled Function(s)
 ---

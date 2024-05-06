@@ -1,11 +1,41 @@
 ──────── *for more from the author, visit* [github.com/hazemanwer2000](https://github.com/hazemanwer2000). ────────
 ## *Table of Contents*
+
+- [[#Specification|Specification]]
+	- [[#Specification#Addressing|Addressing]]
+- [[#Function(s)|Function(s)]]
+	- [[#Function(s)#Synchronous Request(s)|Synchronous Request(s)]]
+			- [[#`NvM_Init`|`NvM_Init`]]
+			- [[#`NvM_GetErrorStatus`|`NvM_GetErrorStatus`]]
+			- [[#`NvM_SetRamBlockStatus`|`NvM_SetRamBlockStatus`]]
+	- [[#Function(s)#Asynchronous Single-Block Request(s)|Asynchronous Single-Block Request(s)]]
+			- [[#`NvM_ReadBlock`|`NvM_ReadBlock`]]
+			- [[#`NvM_WriteBlock`|`NvM_WriteBlock`]]
+			- [[#`NvM_RestoreBlockDefaults`|`NvM_RestoreBlockDefaults`]]
+			- [[#`NvM_EraseNvBlock`|`NvM_EraseNvBlock`]]
+			- [[#`NvM_InvalidateNvBlock`|`NvM_InvalidateNvBlock`]]
+	- [[#Function(s)#Asynchronous Multi-Block Request(s)|Asynchronous Multi-Block Request(s)]]
+			- [[#`NvM_ReadAll`|`NvM_ReadAll`]]
+			- [[#`NvM_WriteAll`|`NvM_WriteAll`]]
+			- [[#`NvM_CancelWriteAll`|`NvM_CancelWriteAll`]]
+			- [[#`NvM_ValidateAll`|`NvM_ValidateAll`]]
+			- [[#`NvM_FirstInitAll`|`NvM_FirstInitAll`]]
+- [[#Data Types|Data Types]]
+			- [[#`NvM_RequestResultType`|`NvM_RequestResultType`]]
+- [[#Configuration|Configuration]]
+			- [[#`NvMCommon`|`NvMCommon`]]
+			- [[#`NvMBlockDescriptor`|`NvMBlockDescriptor`]]
+- [[#Additional Features|Additional Features]]
+	- [[#Additional Features#Configuration: `NvMStaticBlockIDCheck`|Configuration: `NvMStaticBlockIDCheck`]]
+	- [[#Additional Features#Configuration: `NvMWriteVerification`|Configuration: `NvMWriteVerification`]]
+	- [[#Additional Features#Configuration: `NvMCalcRamBlockCrc`|Configuration: `NvMCalcRamBlockCrc`]]
+	- [[#Additional Features#Configuration: `NvMBlockUseCRCCompMechanism`|Configuration: `NvMBlockUseCRCCompMechanism`]]
+	- [[#Additional Features#Job Priority and Queuing|Job Priority and Queuing]]
+	- [[#Additional Features#Dataset NVRAM Block(s)|Dataset NVRAM Block(s)]]
 ## Content
 ---
 *AUTOSAR* specifies a *Basic Software (BSW) NVRAM Manager (NvM)* module, in functionality, API and configuration.
 ### Specification
----
-#### Introduction
 ---
 * The module shall manage entities, called *NVRAM blocks*. Each NVRAM block constitutes of a number of  *basic storage objects*. There are four types of *basic storage objects*:
 	* *RAM block*, which represents the part of the NVRAM block that resides in RAM.

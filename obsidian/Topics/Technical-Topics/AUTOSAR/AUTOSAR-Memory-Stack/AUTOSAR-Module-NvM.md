@@ -20,6 +20,11 @@
 			- [[#`NvM_CancelWriteAll`|`NvM_CancelWriteAll`]]
 			- [[#`NvM_ValidateAll`|`NvM_ValidateAll`]]
 			- [[#`NvM_FirstInitAll`|`NvM_FirstInitAll`]]
+	- [[#Function(s)#Scheduled Function(s)|Scheduled Function(s)]]
+			- [[#`NvM_MainFunction`|`NvM_MainFunction`]]
+	- [[#Function(s)#Callback Notification(s)|Callback Notification(s)]]
+			- [[#`NvM_JobEndNotification`|`NvM_JobEndNotification`]]
+			- [[#`NvM_JobErrorNotification`|`NvM_JobErrorNotification`]]
 - [[#Data Types|Data Types]]
 			- [[#`NvM_RequestResultType`|`NvM_RequestResultType`]]
 - [[#Configuration|Configuration]]
@@ -269,6 +274,28 @@ Re-entrant: No
 * Usually, if this request is made, it is executed before `NvM_ReadAll`.
 
 * `NvM_FirstInitAll` deals only with NVRAM blocks configured with `NvMSelectBlockForFirstInitAll = True`.
+#### Scheduled Function(s)
+---
+###### `NvM_MainFunction`
+---
+```
+Name: 'NvM_MainFunction'
+Description: Performs job processing.
+```
+#### Callback Notification(s)
+---
+###### `NvM_JobEndNotification`
+---
+```
+Name: 'NvM_JobEndNotification'
+Description: Notifies the 'NvM' module that a job has ended successfully.
+```
+###### `NvM_JobErrorNotification`
+---
+```
+Name: 'NvM_JobErrorNotification'
+Description: Notifies the 'NvM' module that a job has failed.
+```
 ### Data Types
 ---
 ###### `NvM_RequestResultType`

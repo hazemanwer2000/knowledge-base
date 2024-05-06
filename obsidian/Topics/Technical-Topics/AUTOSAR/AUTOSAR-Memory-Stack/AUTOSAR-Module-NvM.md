@@ -329,6 +329,58 @@ Description: Header file that contains declarations of any RAM/ROM variable, or 
 Path: NvMBlockDescriptor/NvMBlockUseSyncMechanism
 Description: Enables explicit synchronization for this NVRAM block.
 ```
+### Additional Features
+---
+#### Configuration: `NvMStaticBlockIDCheck` 
+---
+* For each NVRAM block, if `NvMStaticBlockIDCheck = True`, then the ID of the NVRAM block becomes part of the NV block.
+* When reading the NV block, the stored block ID is compared to the configured block ID, as an additional mechanism to detect hardware failures (i.e., in-addition to CRC check).
+#### Configuration: `NvMWriteVerification` 
+---
+* For each NVRAM block, if `NvMWriteVerification = True`, then after a write request is executed, the NV block is read back and compared to the RAM block.
+	* *Note:* Each cycle, `NvMWriteVerificationDataSize` bytes are compared.
+#### Configuration: `NvMCalcRamBlockCrc` 
+---
+* For each NVRAM block, if `NvMCalcRamBlockCrc = True`, then a CRC value is maintained for the RAM block.
+* During `NvM_ReadAll`, RAM blocks (that belong to applicable NVRAM blocks) with valid CRC will not be updated.
+* During `NvM_WriteAll`, an (applicable) NVRAM block with a RAM block with invalid CRC is not written successfully.
+* `NvM_SetRamBlockStatus` API is used to trigger RAM block CRC re-calculation, upon modification of the RAM block.
+#### Configuration: `NvMBlockUseCRCCompMechanism` 
+---
+* For each NVRAM block, if `NvMBlockUseCRCCompMechanism = True`, then, any write request is skipped if the calculated CRC of the RAM block is equal to the CRC in the NV block.
+#### Job Priority and Queuing
+---
+* If `NvMCommon/NvMJobPrioritization = True`, the module shall maintain two separate queues; one for immediate (i.e., `NvMBlockDescriptor/NvMBlockJobPriority = 0`) (async.) single-block write requests, and another for all other single-block requests.
+	* The size of both queues is determined by `NvMCommon/NvMSizeImmediateJobQueue` and `NvMCommon/NvMSizeStandardJobQueue`, respectively.
+	* Immediate single-block write requests (i.e., from the first queue) are prioritized, and may preempt any other executing single-block request (i.e., from the second queue).
+	* Further prioritization between requests is determined by `NvMBlockDescriptor/NvMBlockJobPriority`.
+
+* If `NvMCommon/NvMJobPrioritization = False`, the module shall maintain only a single queue.
+	* The size of the queue is determined by `NvMCommon/NvMSizeStandardJobQueue`.
+
+* Multi-block requests are maintained in a separate queue, of size one. For a multi-block request to execute, all other queues must be empty. However, multi-block requests may not be preempted, except by immediate single-block write requests.
+
+* The `NvM_CancelJobs` synchronous request may be used to cancel all pending jobs for a specific NVRAM block.
+	* *Notes*: A single async. request must execute to completion, before another single async. request can be issued, if both reference the same NVRAM block (i.e., with the same ID).
+#### Dataset NVRAM Block(s)
+---
+* A *dataset* NVRAM block (i.e., with block management type set to `NVM_BLOCK_DATASET`) mandates:
+	```
+	RAM block(s): 1
+	NV Block(s): 1..*
+	ROM block(s): 0..*
+	Admininstrative block(s): 1
+	```
+	* `NvMBlockDescriptor/NvMNvBlockNum`, and `NvMBlockDescriptor/NvMRomBlockNum` denote the number of NV and ROM block(s), respectively.
+
+* Both `NvM_ReadAll`, and `NvM_WriteAll` ignore dataset NVRAM blocks.
+
+* Inside its administration block, a *data index* is maintained, that points at a specific NV/ROM block.
+	* The data index may be set to any value from `0` to `NvMNvBlockNum - 1`, to access NV blocks, or from `NvMNvBlockNum` to `NvMNvBlockNum + NvMRomBlockNum - 1`, to access ROM blocks.
+	* `NvM_Init` sets the data index for all dataset NVRAM blocks to zero.
+	* `NvM_(Set/Get)DataIndex` API(s) may be used to set/get the data index of an NVRAM block.
+	* During `NvM_ReadBlock`, the referenced NV/ROM block is read from, to the RAM block.
+	* During `NvM_WriteBlock`, the referenced NV block is written to, from the RAM block.
 ## *References*
 ---
 [1] Specification of Flash Driver, AUTOSAR Classic Platform, R23-11

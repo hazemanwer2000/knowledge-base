@@ -36,3 +36,8 @@ Writings in a myriad number of topics, maintained within *Jupyter* notebooks and
     * *X.509* Certificates
 * Communication Protocols
     * *IPsec: IKEv2, AH, and ESP*
+* AUTOSAR
+    * Memory: *Fls*, *Fee*, and *NvM*
+    * *OS*
+* OSEK
+    * *OS*

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/Technical-Topics/AUTOSAR/AUTOSAR-Memory-Stack/AUTOSAR-Module-NvM.md",
+                "file": "Topics/Technical-Topics/AUTOSAR/AUTOSAR-OS.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "c103dae2cc1a2de0",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topics/Technical-Topics/AUTOSAR/AUTOSAR-Memory-Stack/AUTOSAR-Module-NvM.md",
+                "file": "Topics/Technical-Topics/AUTOSAR/AUTOSAR-OS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topics/Technical-Topics/AUTOSAR/AUTOSAR-Memory-Stack/AUTOSAR-Module-NvM.md",
+                "file": "Topics/Technical-Topics/AUTOSAR/AUTOSAR-OS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topics/Technical-Topics/AUTOSAR/AUTOSAR-Memory-Stack/AUTOSAR-Module-NvM.md"
+                "file": "Topics/Technical-Topics/AUTOSAR/AUTOSAR-OS.md"
               }
             }
           }
@@ -149,8 +148,15 @@
   },
   "active": "8cc1ef07cb703184",
   "lastOpenFiles": [
-    "Topics/Technical-Topics/AUTOSAR/AUTOSAR-Memory-Stack.md",
+    "Topics/Technical-Topics/AUTOSAR/AUTOSAR-Memory-Stack/AUTOSAR-Module-Fls.md",
+    "Topics/Technical-Topics/AUTOSAR/AUTOSAR-Memory.md",
+    "Topics/Technical-Topics/AUTOSAR/AUTOSAR-OS.md",
+    "Topics/Technical-Topics/AUTOSAR/AUTOSAR-Memory-Stack/AUTOSAR-Module-NvM.md",
     "Topics/Technical-Topics/AUTOSAR.md",
+    "Topics/Technical-Topics/AUTOSAR/OSEK.md",
+    "Topics/Technical-Topics/AUTOSAR/OSEK/OSEK-OS.md",
+    "Topics/Technical-Topics/AUTOSAR/AUTOSAR-Memory-Stack/AUTOSAR-Module-Fee.md",
+    "Topics/Technical-Topics/AUTOSAR/OSEK",
     "Topics/Technical-Topics.md",
     "Welcome!.md",
     "Topics/Technical-Topics/Cryptography/Message-Authentication-Codes/CMAC.md",
@@ -162,12 +168,9 @@
     "~IMG/DER-Tag-Class.png",
     "~IMG/AH-Tunnel-Mode.png",
     "~IMG/AH-Header.png",
-    "Topics/Technical-Topics/AUTOSAR/AUTOSAR-Memory-Stack/AUTOSAR-Module-NvM.md",
-    "Topics/Technical-Topics/AUTOSAR/AUTOSAR-Memory-Stack/AUTOSAR-Module-Fls.md",
     "Topics/Technical-Topics/Cryptography/Symmetric-Encryption.md",
     "Topics/Technical-Topics/Cryptography/Symmetric-Encryption/Symmetric-Key-Block-Cipher@Modes-of-Operation.md",
     "Topics/Technical-Topics/Cryptography/Elliptic-Curve-Cryptography.md",
-    "Topics/Technical-Topics/AUTOSAR/AUTOSAR-Memory-Stack/AUTOSAR-Module-Fee.md",
     "Topics/Technical-Topics/Communication-Protocols/IPsec.md",
     "Topics/Technical-Topics/Communication-Protocols.md",
     "Topics/Technical-Topics/AUTOSAR/AUTOSAR-Memory-Stack",
@@ -191,8 +194,6 @@
     "brief_summary_of_make.ipynb",
     "Topics/Technical-Topics/Cryptography/Cryptographic-Hash-Functions",
     "Topics",
-    "~IMG",
-    "Cryptog.md",
-    "Untitled.md"
+    "Cryptog.md"
   ]
 }

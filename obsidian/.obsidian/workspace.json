@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "60db1f65a2d4fc5a",
+        "id": "2efb09c70cced741",
         "type": "tabs",
         "children": [
           {
-            "id": "8cc1ef07cb703184",
+            "id": "dc8e06a2721f4d60",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topics/Technical-Topics/AUTOSAR/AUTOSAR-OS.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topics/Technical-Topics/AUTOSAR/AUTOSAR-OS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topics/Technical-Topics/AUTOSAR/AUTOSAR-OS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Topics/Technical-Topics/AUTOSAR/AUTOSAR-OS.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,14 +138,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "389424f564d8a932",
+  "active": "dc8e06a2721f4d60",
   "lastOpenFiles": [
+    "Topics/Technical-Topics/AUTOSAR/AUTOSAR-OS.md",
     "~IMG/AUTOSAR-OS-Schedule-Table-Explicit-States.png",
     "~IMG/AUTOSAR-OS-Schedule-Table-Implict-States.png",
     "Topics/Technical-Topics.md",
     "Welcome!.md",
     "~IMG/AUTOSAR-OS-Schedule-Table-States.png",
-    "Topics/Technical-Topics/AUTOSAR/AUTOSAR-OS.md",
     "Topics/Technical-Topics/AUTOSAR/AUTOSAR-Memory-Stack/AUTOSAR-Module-NvM.md",
     "Topics/Technical-Topics/AUTOSAR/AUTOSAR-Memory.md",
     "Topics/Technical-Topics/AUTOSAR/AUTOSAR-Memory-Stack/AUTOSAR-Module-Fls.md",
@@ -181,7 +173,6 @@
     "~IMG/AH-Transport-Mode.png",
     "Topics/Technical-Topics/Cryptography/X.509-Certificates.md",
     "Topics/Technical-Topics/Cryptography/Cryptographic-Hash-Functions.md",
-    "~IMG/IKE-Header.png",
     "Topics/Technical-Topics/Communication-Protocols",
     "Topics/Technical-Topics/Cryptography/Symmetric-Encryption/AES.md",
     "Topics/Technical-Topics/Cryptography/Message-Authentication-Codes/HMAC.md",

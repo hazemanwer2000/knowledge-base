@@ -18,7 +18,7 @@ The AUTOSAR (Classic-Platform) OS is primarily based on *OSEK* [1], a single-cor
 ---
 An *OS Application*, in-concept, is a collection of OS objects (e.g., tasks, ISR(s), resources) that all have access to each other (i.e., are allowed as parameters to OS system calls).
 
-*Note:* The right to access an OS object by other OS Application(s) must be granted explicitly (i.e., via the configuration reference `Os<XXX>AccessingApplication`).
+*Note:* The right to access an OS object by other OS Application(s) must be granted explicitly (i.e., via the configuration reference `Os<...>AccessingApplication`).
 
 *Note:* An event is accessible if the task for which the event belongs to (i.e., may wait on) is accessible.
 #### Scalability Class
@@ -162,7 +162,7 @@ Description: The maximum number of ticks, before the counter wraps to zero.
 
 ```
 Path: OsCounter/OsCounterMinCycle
-Description: The minimum cycle that may be specified for alarms, using `Set<XXX>Alarm` API(s), referencing this counter.
+Description: The minimum cycle that may be specified for alarms, using `Set<...>Alarm` API(s), referencing this counter.
 ```
 
 ```
@@ -223,6 +223,15 @@ Description: Implementation-specific, usually toggles between access to peripher
 Path: OsOS/OsStackMonitoring
 Description: In the absence of an MPU hardware unit, this specifies whether software stack monitoring is enabled for tasks and CAT2 ISR(s).
 ```
+### API(s)
+---
+
+| Name              | Description                                               |
+| ----------------- | --------------------------------------------------------- |
+| `<...>TaskAsync`  | Similar to `<...>Task`, primarily used for across cores.  |
+| `<...>EventAsync` | Similar to `<...>Event`, primarily used for across cores. |
+
+*Note:* For asynchronous call(s), possible error(s) are not reported to the caller directly.
 ### Additional Features
 ---
 #### Schedule Table(s)
@@ -238,6 +247,8 @@ A *Schedule Table* defines a duration, and a series of expiry points to occur wi
 The state diagram of a schedule table is shown below.
 
 ![[AUTOSAR-OS-Schedule-Table-States.png|550]]
+
+*Note:* `NextScheduleTable` may be used to stop, after the current cycle, and start another schedule table, as long as both are driven by the same counter.
 ###### Synchronization
 ---
 A schedule table may be synchronized *implicitly*, or *explicitly*.
@@ -257,6 +268,9 @@ In explicit synchronization, the schedule table is driven by a counter, as usual
 The state diagram of an explicitly synchronized schedule table is shown below.
 
 ![[AUTOSAR-OS-Schedule-Table-Explicit-States.png]]
+To notify the OS of the synchronization counter value, `SyncScheduleTable` is called. When given, and a drift was identified (i.e., schedule table tick value `!=` synchronization counter tick value), then *adjustable* expiry points are either, lengthened or shortened, until the schedule table is synchronized.
+
+*Note:* If `SetScheduleTableAsync` is called, drift is ignored, until the next `SyncScheduleTable` call.
 ##### Configuration
 ---
 ```
@@ -310,9 +324,6 @@ Description: Specifies the sync strategy, whether IMPLICIT or EXPLICIT.
 Path: OsScheduleTable/OsScheduleTableSync/OsScheduleTblExplicitPrecision
 Description: When the sync strategy is EXPLICIT, it specifies the precision (i.e., tick difference) below which the schedule table is considered synchronized.
 ```
-##### API(s)
----
-
 #### Spinlock(s)
 ---
 ##### Specification
@@ -348,6 +359,15 @@ Range:
 Path: OsSpinlock/OsSpinlockSuccessor
 Description: References the spin-lock next in the linked list, that may be acquired.
 ```
+##### API(s)
+---
+
+| Name               | Description                                         |
+| ------------------ | --------------------------------------------------- |
+| `GetSpinlock`      | Acquire a spin-lock, busy-wait if already occupied. |
+| `TryToGetSpinlock` | Acquire a spin-lock, return if already occupied.    |
+| `ReleaseSpinlock`  | Release a spin-lock.                                |
+
 ## *References*
 ---
 [1] Operating System Specification, OSEK, 2.2.3

@@ -1,6 +1,29 @@
 ──────── *for more from the author, visit* [github.com/hazemanwer2000](https://github.com/hazemanwer2000). ────────
 ## *Table of Contents*
-...
+
+- [[#Definitions|Definitions]]
+- [[#Specification|Specification]]
+	- [[#Specification#OS Application(s)|OS Application(s)]]
+	- [[#Specification#Scalability Class|Scalability Class]]
+- [[#Configuration|Configuration]]
+	- [[#`OsAlarm`|`OsAlarm`]]
+	- [[#`OsCounter`|`OsCounter`]]
+	- [[#`OsTask`|`OsTask`]]
+	- [[#`OsResource`|`OsResource`]]
+	- [[#`OsApplication`|`OsApplication`]]
+	- [[#`OsOS`|`OsOS`]]
+- [[#API(s)|API(s)]]
+- [[#Additional Features|Additional Features]]
+	- [[#Additional Features#Schedule Table(s)|Schedule Table(s)]]
+		- [[#Schedule Table(s)#Specification|Specification]]
+			- [[#Specification#Synchronization|Synchronization]]
+		- [[#Schedule Table(s)#Configuration|Configuration]]
+			- [[#Configuration#`OsScheduleTable`|`OsScheduleTable`]]
+	- [[#Additional Features#Spinlock(s)|Spinlock(s)]]
+		- [[#Spinlock(s)#Specification|Specification]]
+		- [[#Spinlock(s)#Configuration|Configuration]]
+			- [[#Configuration#`OsSpinlock`|`OsSpinlock`]]
+		- [[#Spinlock(s)#API(s)|API(s)]]
 ## Content
 ---
 ### Definitions
@@ -11,12 +34,12 @@
 	* For interrupts, this is the time between successive occurrences of the interrupt.
 ### Specification
 ---
-The AUTOSAR (Classic-Platform) OS is primarily based on *OSEK* [1], a single-core OS, but extends its specification with more features, even supporting multi-core targets.
+The AUTOSAR (Classic-Platform) OS is primarily based on *OSEK-OS* [1], a single-core OS, but extends its specification with more features, even supporting multi-core targets.
 
 *Note:* Reading through [1] is a pre-requisite to reading through this document.
 #### OS Application(s)
 ---
-An *OS Application*, in-concept, is a collection of OS objects (e.g., tasks, ISR(s), resources) that all have access to each other (i.e., are allowed as parameters to OS system calls).
+An *OS Application*, in-concept, is a collection of OS objects (e.g., tasks, ISR(s), resources) that all have access to each other (i.e., are allowed as parameters to OS API(s)).
 
 *Note:* The right to access an OS object by other OS Application(s) must be granted explicitly (i.e., via the configuration reference `Os<...>AccessingApplication`).
 
@@ -226,12 +249,15 @@ Description: In the absence of an MPU hardware unit, this specifies whether soft
 ### API(s)
 ---
 
-| Name              | Description                                               |
-| ----------------- | --------------------------------------------------------- |
-| `<...>TaskAsync`  | Similar to `<...>Task`, primarily used for across cores.  |
-| `<...>EventAsync` | Similar to `<...>Event`, primarily used for across cores. |
+| Name                   | Description                                                                                                                                 |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| `<...>TaskAsync(...)`  | Similar to `<...>Task`, primarily used for across cores.                                                                                    |
+| `<...>EventAsync(...)` | Similar to `<...>Event`, primarily used for across cores.                                                                                   |
+| `ProtectionHook()`     | It is called after the system has ran into a fatal error. Based on its return value, several different action(s) may be executed by the OS. |
 
 *Note:* For asynchronous call(s), possible error(s) are not reported to the caller directly.
+
+*Note:* Refer to [2] for a chart showing which API(s) may be called from which context(s).
 ### Additional Features
 ---
 #### Schedule Table(s)

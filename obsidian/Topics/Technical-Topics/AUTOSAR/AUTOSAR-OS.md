@@ -148,6 +148,7 @@ OsApplication [C, 0..*]
 		OsTrustedFunctionName [P, 1]
 
 OsOS [C, 1]
+	OsStatus [P, 1]
 	OsNumberOfCores [P, 0..1]
 	OsScalabilityClass [P, 0..1]
 	OsStackMonitoring [P, 1]
@@ -246,14 +247,20 @@ Description: Implementation-specific, usually toggles between access to peripher
 Path: OsOS/OsStackMonitoring
 Description: In the absence of an MPU hardware unit, this specifies whether software stack monitoring is enabled for tasks and CAT2 ISR(s).
 ```
+
+```
+Path: OsOS/OsStatus
+Description: Specifies the status mode of the OS, as per [1].
+```
 ### API(s)
 ---
 
-| Name                   | Description                                                                                                                                 |
-| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| `<...>TaskAsync(...)`  | Similar to `<...>Task`, primarily used for across cores.                                                                                    |
-| `<...>EventAsync(...)` | Similar to `<...>Event`, primarily used for across cores.                                                                                   |
-| `ProtectionHook()`     | It is called after the system has ran into a fatal error. Based on its return value, several different action(s) may be executed by the OS. |
+| Name                   | Description                                                                                                                                                          |
+| ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `<...>TaskAsync(...)`  | Similar to `<...>Task`, primarily used for across cores.                                                                                                             |
+| `<...>EventAsync(...)` | Similar to `<...>Event`, primarily used for across cores.                                                                                                            |
+| `ProtectionHook()`     | Called after the system has ran into a fatal error. Based on its return value, several different action(s) may be executed by the OS, including a `ShutdownOS` call. |
+| `IncrementCounter(ID)` | Increments a software counter.                                                                                                                                       |
 
 *Note:* For asynchronous call(s), possible error(s) are not reported to the caller directly.
 

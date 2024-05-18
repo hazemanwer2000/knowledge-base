@@ -4,31 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "a34d230681c1935d",
+        "id": "1fb8f98ac806972e",
         "type": "tabs",
         "children": [
           {
-            "id": "11efdd1aaea29628",
+            "id": "5bb64c5c37203a6b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topics/Technical-Topics/OSEK/OSEK-OS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3070fd48a4944528",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topics/Technical-Topics/AUTOSAR/AUTOSAR-OS.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -97,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topics/Technical-Topics/OSEK/OSEK-OS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topics/Technical-Topics/OSEK/OSEK-OS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Topics/Technical-Topics/OSEK/OSEK-OS.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -158,10 +138,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "11efdd1aaea29628",
+  "active": "5bb64c5c37203a6b",
   "lastOpenFiles": [
     "Topics/Technical-Topics/AUTOSAR/AUTOSAR-OS.md",
     "Topics/Technical-Topics/OSEK/OSEK-OS.md",
+    "~IMG/OSEK-Extended-Task-State-Diagram.png",
+    "~IMG/OSEK-Basic-Task-State-Diagram.png",
     "Topics/Technical-Topics/AUTOSAR.md",
     "Topics/Technical-Topics/OSEK.md",
     "Topics/Technical-Topics/OSEK",
@@ -186,21 +168,18 @@
     "~IMG/ESP-Header-Format.png",
     "~IMG/DER-Tag-Class.png",
     "~IMG/AH-Tunnel-Mode.png",
-    "~IMG/AH-Header.png",
     "Topics/Technical-Topics/Cryptography/Symmetric-Encryption.md",
     "Topics/Technical-Topics/Cryptography/Symmetric-Encryption/Symmetric-Key-Block-Cipher@Modes-of-Operation.md",
     "Topics/Technical-Topics/Cryptography/Elliptic-Curve-Cryptography.md",
     "Topics/Technical-Topics/Communication-Protocols/IPsec.md",
     "Topics/Technical-Topics/AUTOSAR/AUTOSAR-Memory-Stack",
     "Topics/Technical-Topics/AUTOSAR",
-    "~IMG/AH-Transport-Mode.png",
     "Topics/Technical-Topics/Cryptography/X.509-Certificates.md",
     "Topics/Technical-Topics/Cryptography/Cryptographic-Hash-Functions.md",
     "Topics/Technical-Topics/Communication-Protocols",
     "Topics/Technical-Topics/Cryptography/Symmetric-Encryption/AES.md",
     "Topics/Technical-Topics/Cryptography/Message-Authentication-Codes/HMAC.md",
     "Topics/Technical-Topics/Cryptography/Cryptographic-Hash-Functions/SHA-1.md",
-    "[Symmetric-Key-Block-Cipher@Modes-of-Operation.md",
     "Untitled.canvas",
     "Topics/Technical-Topics/Cryptography/Symmetric-Encryption",
     "Topics/Technical-Topics/Cryptography/Message-Authentication-Codes",

@@ -146,19 +146,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8cc1ef07cb703184",
+  "active": "389424f564d8a932",
   "lastOpenFiles": [
-    "Topics/Technical-Topics/AUTOSAR/AUTOSAR-Memory-Stack/AUTOSAR-Module-Fee.md",
-    "Topics/Technical-Topics/AUTOSAR/AUTOSAR-Memory-Stack/AUTOSAR-Module-Fls.md",
+    "~IMG/AUTOSAR-OS-Schedule-Table-Explicit-States.png",
+    "~IMG/AUTOSAR-OS-Schedule-Table-Implict-States.png",
+    "Topics/Technical-Topics.md",
+    "Welcome!.md",
+    "~IMG/AUTOSAR-OS-Schedule-Table-States.png",
     "Topics/Technical-Topics/AUTOSAR/AUTOSAR-OS.md",
-    "Topics/Technical-Topics/AUTOSAR/AUTOSAR-Memory.md",
     "Topics/Technical-Topics/AUTOSAR/AUTOSAR-Memory-Stack/AUTOSAR-Module-NvM.md",
+    "Topics/Technical-Topics/AUTOSAR/AUTOSAR-Memory.md",
+    "Topics/Technical-Topics/AUTOSAR/AUTOSAR-Memory-Stack/AUTOSAR-Module-Fls.md",
+    "Topics/Technical-Topics/AUTOSAR/AUTOSAR-Memory-Stack/AUTOSAR-Module-Fee.md",
     "Topics/Technical-Topics/AUTOSAR.md",
     "Topics/Technical-Topics/AUTOSAR/OSEK.md",
     "Topics/Technical-Topics/AUTOSAR/OSEK/OSEK-OS.md",
     "Topics/Technical-Topics/AUTOSAR/OSEK",
-    "Topics/Technical-Topics.md",
-    "Welcome!.md",
     "Topics/Technical-Topics/Cryptography/Message-Authentication-Codes/CMAC.md",
     "Topics/Technical-Topics/Cryptography/Message-Authentication-Codes.md",
     "Topics/Technical-Topics/Cryptography.md",
@@ -180,8 +183,6 @@
     "Topics/Technical-Topics/Cryptography/Cryptographic-Hash-Functions.md",
     "~IMG/IKE-Header.png",
     "Topics/Technical-Topics/Communication-Protocols",
-    "~IMG/AES-MixColumns.png",
-    "~IMG/DER-Tag-First-Octet.png",
     "Topics/Technical-Topics/Cryptography/Symmetric-Encryption/AES.md",
     "Topics/Technical-Topics/Cryptography/Message-Authentication-Codes/HMAC.md",
     "Topics/Technical-Topics/Cryptography/Cryptographic-Hash-Functions/SHA-1.md",
@@ -193,7 +194,6 @@
     "brief_summary_of_make 1.ipynb",
     "brief_summary_of_make.ipynb",
     "Topics/Technical-Topics/Cryptography/Cryptographic-Hash-Functions",
-    "Topics",
-    "Cryptog.md"
+    "Topics"
   ]
 }

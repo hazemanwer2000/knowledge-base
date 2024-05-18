@@ -440,4 +440,4 @@ Description: Enables explicit synchronization for this NVRAM block.
 	* During `NvM_WriteBlock`, the referenced NV block is written to, from the RAM block.
 ## *References*
 ---
-[1] Specification of Flash Driver, AUTOSAR Classic Platform, R23-11
+[1] Specification of Flash Driver, AUTOSAR Classic Platform, R20-11

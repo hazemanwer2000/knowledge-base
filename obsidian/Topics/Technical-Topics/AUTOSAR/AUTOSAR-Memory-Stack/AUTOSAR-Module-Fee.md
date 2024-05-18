@@ -192,4 +192,4 @@ FeeBlockConfiguration [C, 1..*]
 ```
 ## *References*
 ---
-[1] Specification of Flash EEPROM Emulation, AUTOSAR Classic Platform, R23-11
+[1] Specification of Flash EEPROM Emulation, AUTOSAR Classic Platform, R20-11

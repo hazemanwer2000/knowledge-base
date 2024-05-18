@@ -243,4 +243,4 @@ Description: Describes a contiguous flash region.
 ```
 ## *References*
 ---
-[1] Specification of Flash Driver, AUTOSAR Classic Platform, R23-11
+[1] Specification of Flash Driver, AUTOSAR Classic Platform, R20-11

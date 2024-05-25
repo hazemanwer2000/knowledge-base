@@ -63,16 +63,70 @@ STRING
 ```
 ##### `ENUM`
 ---
-A `ENUM` attribute defines possible values, and the strings to display for each corresponding value.
+An `ENUM` attribute defines possible values, and the strings to display for each corresponding value.
 
 ```
-ENUM( $tentative_type$) [
+ENUM( $tentative_type$)
+[
 	"$value_description$" = $value$,
 	...
 ]
 ```
 
 *Note:* `$value$` may be an *HLL* expression.
+
+###### Links
+---
+An `ENUM` attribute may, instead of a mere description, reference another object. In this case, the name of the attribute must match the object's type name.
+
+For example,
+
+```
+IMPLEMENTATION ...
+{
+	TASK
+	{
+		ENUM
+		[
+			"First Stack" : Stack1 = "&taskStack1[0]",
+			...
+		] STACK;
+	};
+
+	STACK
+	{
+		...
+	};
+
+	...
+};
+
+TASK TaskA
+{
+	STACK = "taskA.stack";
+	...
+};
+
+STACK Stack1
+{
+	...
+}
+
+...
+```
+#### *Information* Section
+---
+```
+$object_type$ $object_name$
+{
+	$attribute_name$ = $expression$;
+	...
+}
+
+...
+```
+
+*Note:* `$expression$` is any *HLL* expression.
 ## References
 ---
 [1] ...

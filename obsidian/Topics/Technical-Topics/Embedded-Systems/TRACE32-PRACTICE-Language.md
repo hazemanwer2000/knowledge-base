@@ -6,6 +6,27 @@
 
 ### Command Group(s)
 ---
+#### `Break`
+---
+To set a breakpoint on a function (using on-chip facilities),
+
+```
+Break.Set FUNCTION_NAME /OnChip [/Task TASK_NAME] [/Core CORE_NUMBER] [/VarCondition CONDITION] [/CMD COMMAND] [/Resume]
+```
+
+To set a read/write breakpoint on a variable,
+
+```
+Var.Break.Set VARIABLE_NAME /ReadWrite|/Read|/Write /OnChip [/Data.Auto VALUE] ...
+```
+
+The following are other useful `Break` commands:
+
+```
+Break.List                 ; Open a view, listing all breakpoint(s)
+Break.Reset                ; Delete all breakpoint(s)
+Break.Disable              ; Disable all breakpoint(s)
+```
 #### `Area`
 ---
 To create a new `Area` view,
@@ -79,6 +100,50 @@ To assign value(s) to a structure,
 
 ```
 Var.Set STRUCT = (VALUE, ...)
+```
+
+##### `Var.Profile`
+---
+To profile an expression,
+
+```
+Var.Profile EXPR-1 (EXPR-2 ...) REFRESH_RATE
+```
+
+*Note:* The refresh rate is specified in seconds.
+
+*Note:* This command does not use any tracing capabilities.
+#### `Data`
+---
+To dump a variable, or an address range, for viewing,
+
+```
+Data.Dump %RANGE% [/Byte|/Word|/Long]
+
+%RANGE%:
+	Var.Range(VARIABLE_NAME)
+	BEGIN_ADDRESS--END_ADDRESS
+```
+
+Similarly, to dump a variable, or an address range, to a file,
+
+```
+Data.Save.%FORMAT% FILE_PATH %RANGE%
+
+%FORMAT%:
+	Binary         ; '.bin' file format
+	S3Record       ; '.S19' file format, using 'S3' record(s)
+
+%RANGE%:
+	Var.Range(VARIABLE_NAME)
+	BEGIN_ADDRESS--END_ADDRESS
+```
+#### `Frame`
+---
+To display the stackframe,
+
+```
+Frame.View /Core CORE_NUMBER /Task TASK_NAME
 ```
 ## References
 ---

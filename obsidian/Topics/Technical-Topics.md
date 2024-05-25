@@ -2,8 +2,8 @@
 ---
 * [[Cryptography]]
 * [[Communication-Protocols]]
-* [[AUTOSAR]]
-* [[OSEK]]
+* [[OS]]
+* [[Embedded-Systems]]
 ## *Content*
 ---
 This document links to all technical (e.g., cryptography) topics.

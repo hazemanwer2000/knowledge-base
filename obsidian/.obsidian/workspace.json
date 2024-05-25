@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "1fb8f98ac806972e",
+        "id": "aaf48dd21a25ea93",
         "type": "tabs",
         "children": [
           {
-            "id": "5bb64c5c37203a6b",
+            "id": "e0bd965c7d12a578",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Topics/Technical-Topics/OSEK/OSEK-ORTI.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Topics/Technical-Topics/OSEK/OSEK-ORTI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Topics/Technical-Topics/OSEK/OSEK-ORTI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Topics/Technical-Topics/OSEK/OSEK-ORTI.md"
+              }
             }
           }
         ]
@@ -138,18 +146,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5bb64c5c37203a6b",
+  "active": "e0bd965c7d12a578",
   "lastOpenFiles": [
-    "Topics/Technical-Topics/AUTOSAR/AUTOSAR-OS.md",
     "Topics/Technical-Topics/OSEK/OSEK-OS.md",
+    "Untitled.canvas",
+    "Topics/Technical-Topics/OSEK/OSEK-ORTI.md",
+    "Topics/Technical-Topics/OSEK.md",
+    "Topics/Technical-Topics.md",
+    "Topics/Technical-Topics/Communication-Protocols/IPsec.md",
+    "Topics/Technical-Topics/AUTOSAR.md",
+    "Topics/Technical-Topics/Communication-Protocols.md",
+    "Topics/Technical-Topics/Cryptography.md",
+    "Topics/Technical-Topics/TRACE32.md",
+    "Topics/Technical-Topics/TRACE32",
+    "Welcome!.md",
+    "Topics/Technical-Topics/AUTOSAR/AUTOSAR-OS.md",
     "~IMG/OSEK-Extended-Task-State-Diagram.png",
     "~IMG/OSEK-Basic-Task-State-Diagram.png",
-    "Topics/Technical-Topics/AUTOSAR.md",
-    "Topics/Technical-Topics/OSEK.md",
     "Topics/Technical-Topics/OSEK",
-    "Topics/Technical-Topics.md",
-    "Welcome!.md",
-    "Topics/Technical-Topics/Communication-Protocols.md",
     "~IMG/AUTOSAR-OS-Schedule-Table-Explicit-States.png",
     "~IMG/AUTOSAR-OS-Schedule-Table-Implict-States.png",
     "~IMG/AUTOSAR-OS-Schedule-Table-States.png",
@@ -162,7 +176,6 @@
     "Topics/Technical-Topics/AUTOSAR/OSEK",
     "Topics/Technical-Topics/Cryptography/Message-Authentication-Codes/CMAC.md",
     "Topics/Technical-Topics/Cryptography/Message-Authentication-Codes.md",
-    "Topics/Technical-Topics/Cryptography.md",
     "~IMG/ESP-Transport-Mode.png",
     "~IMG/ESP-Tunnel-Mode.png",
     "~IMG/ESP-Header-Format.png",
@@ -171,20 +184,15 @@
     "Topics/Technical-Topics/Cryptography/Symmetric-Encryption.md",
     "Topics/Technical-Topics/Cryptography/Symmetric-Encryption/Symmetric-Key-Block-Cipher@Modes-of-Operation.md",
     "Topics/Technical-Topics/Cryptography/Elliptic-Curve-Cryptography.md",
-    "Topics/Technical-Topics/Communication-Protocols/IPsec.md",
     "Topics/Technical-Topics/AUTOSAR/AUTOSAR-Memory-Stack",
     "Topics/Technical-Topics/AUTOSAR",
     "Topics/Technical-Topics/Cryptography/X.509-Certificates.md",
     "Topics/Technical-Topics/Cryptography/Cryptographic-Hash-Functions.md",
     "Topics/Technical-Topics/Communication-Protocols",
     "Topics/Technical-Topics/Cryptography/Symmetric-Encryption/AES.md",
-    "Topics/Technical-Topics/Cryptography/Message-Authentication-Codes/HMAC.md",
-    "Topics/Technical-Topics/Cryptography/Cryptographic-Hash-Functions/SHA-1.md",
-    "Untitled.canvas",
     "Topics/Technical-Topics/Cryptography/Symmetric-Encryption",
     "Topics/Technical-Topics/Cryptography/Message-Authentication-Codes",
     "brief_summary_of_make 1.ipynb",
-    "brief_summary_of_make.ipynb",
-    "Topics/Technical-Topics/Cryptography/Cryptographic-Hash-Functions"
+    "brief_summary_of_make.ipynb"
   ]
 }

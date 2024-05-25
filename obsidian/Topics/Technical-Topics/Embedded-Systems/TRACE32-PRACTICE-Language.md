@@ -3,7 +3,7 @@
 ...
 ## Content
 ---
-
+...
 ### Command Group(s)
 ---
 #### `Break`
@@ -11,7 +11,7 @@
 To set a breakpoint on a function (using on-chip facilities),
 
 ```
-Break.Set FUNCTION_NAME /OnChip [/Task TASK_NAME] [/Core CORE_NUMBER] [/VarCondition CONDITION] [/CMD COMMAND] [/Resume]
+Break.Set FUNCTION_NAME /OnChip [/Task "TASK_NAME"] [/Core CORE_NUMBER] [/VarCondition CONDITION] [/CMD COMMAND] [/Resume]
 ```
 
 To set a read/write breakpoint on a variable,
@@ -118,9 +118,9 @@ Var.Profile EXPR-1 (EXPR-2 ...) REFRESH_RATE
 To dump a variable, or an address range, for viewing,
 
 ```
-Data.Dump %RANGE% [/Byte|/Word|/Long]
+Data.Dump $RANGE$ [/Byte|/Word|/Long]
 
-%RANGE%:
+$RANGE$:
 	Var.Range(VARIABLE_NAME)
 	BEGIN_ADDRESS--END_ADDRESS
 ```
@@ -128,13 +128,13 @@ Data.Dump %RANGE% [/Byte|/Word|/Long]
 Similarly, to dump a variable, or an address range, to a file,
 
 ```
-Data.Save.%FORMAT% FILE_PATH %RANGE%
+Data.Save.$FORMAT$ FILE_PATH $RANGE$
 
-%FORMAT%:
+$FORMAT$:
 	Binary         ; '.bin' file format
 	S3Record       ; '.S19' file format, using 'S3' record(s)
 
-%RANGE%:
+$RANGE$:
 	Var.Range(VARIABLE_NAME)
 	BEGIN_ADDRESS--END_ADDRESS
 ```
@@ -143,7 +143,34 @@ Data.Save.%FORMAT% FILE_PATH %RANGE%
 To display the stackframe,
 
 ```
-Frame.View /Core CORE_NUMBER /Task TASK_NAME
+Frame.View /Core CORE_NUMBER /Task "TASK_NAME"
+```
+#### `Task`
+---
+##### `OSEK`
+---
+To import an *ORTI* file (for OSEK-compliant OS implementations),
+
+```
+Task.ORTI ORTI_FILE_PATH
+```
+
+To display task-stack usage (based on a fill-pattern, specified in the *ORTI* file),
+
+```
+Task.Stack
+```
+
+To display the list of tasks, their corresponding *T32*-assigned magic numbers, and which task is currently active in each core (when halted),
+
+```
+Task.List
+```
+
+To display all attributes for all objects of a specific type,
+
+```
+Task.D$OBJECT_TYPE$
 ```
 ## References
 ---

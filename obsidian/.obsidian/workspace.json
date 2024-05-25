@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/Technical-Topics/Embedded-Systems/TRACE32-PRACTICE-Language.md",
+                "file": "Topics/Technical-Topics/Embedded-Systems.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topics/Technical-Topics/Embedded-Systems/TRACE32-PRACTICE-Language.md",
+                "file": "Topics/Technical-Topics/Embedded-Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topics/Technical-Topics/Embedded-Systems/TRACE32-PRACTICE-Language.md",
+                "file": "Topics/Technical-Topics/Embedded-Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topics/Technical-Topics/Embedded-Systems/TRACE32-PRACTICE-Language.md"
+                "file": "Topics/Technical-Topics/Embedded-Systems.md"
               }
             }
           }
@@ -148,18 +148,19 @@
   },
   "active": "572308696a486e86",
   "lastOpenFiles": [
+    "Topics/Technical-Topics/Embedded-Systems/TRACE32-Cont.md",
+    "Topics/Technical-Topics/Embedded-Systems/TRACE32-PRACTICE-Language.md",
+    "Welcome!.md",
     "Topics/Technical-Topics/Embedded-Systems.md",
     "Topics/Technical-Topics.md",
     "Topics/Technical-Topics/OS.md",
     "Topics/Technical-Topics/OS/AUTOSAR.md",
-    "Topics/Technical-Topics/Embedded-Systems/TRACE32-PRACTICE-Language.md",
     "Topics/Technical-Topics/OS/OSEK/OSEK-ORTI.md",
     "Topics/Technical-Topics/OS/OSEK/OSEK-OS.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Memory/AUTOSAR-Module-NvM.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Memory.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Memory/AUTOSAR-Module-Fee.md",
     "Topics/Technical-Topics/OS/OSEK.md",
-    "Welcome!.md",
     "Topics/Technical-Topics/Cryptography/Cryptographic-Hash-Functions/SHA-1.md",
     "Topics/Technical-Topics/Communication-Protocols/IPsec.md",
     "Topics/Technical-Topics/Communication-Protocols.md",
@@ -189,7 +190,6 @@
     "~IMG/AH-Tunnel-Mode.png",
     "Topics/Technical-Topics/Cryptography/Symmetric-Encryption.md",
     "Topics/Technical-Topics/Cryptography/Symmetric-Encryption/Symmetric-Key-Block-Cipher@Modes-of-Operation.md",
-    "Topics/Technical-Topics/Cryptography/Elliptic-Curve-Cryptography.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Memory",
     "Topics/Technical-Topics/OS/AUTOSAR",
     "Topics/Technical-Topics/Communication-Protocols",

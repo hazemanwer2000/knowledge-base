@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a0315fdd471d41ad",
+        "id": "c0e24c98d962799d",
         "type": "tabs",
         "children": [
           {
-            "id": "572308696a486e86",
+            "id": "4a4ea71dfe590c09",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -146,13 +146,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "572308696a486e86",
+  "active": "4a4ea71dfe590c09",
   "lastOpenFiles": [
     "Topics/Technical-Topics/Embedded-Systems.md",
     "Topics/Technical-Topics.md",
     "Welcome!.md",
-    "Topics/Technical-Topics/Embedded-Systems/TRACE32-Cont.md",
     "Topics/Technical-Topics/Embedded-Systems/TRACE32-PRACTICE-Language.md",
+    "Untitled.canvas",
+    "Topics/Technical-Topics/Embedded-Systems/TRACE32-Cont.md",
     "Topics/Technical-Topics/OS.md",
     "Topics/Technical-Topics/OS/AUTOSAR.md",
     "Topics/Technical-Topics/OS/OSEK/OSEK-ORTI.md",
@@ -168,7 +169,6 @@
     "Topics/Technical-Topics/Cryptography.md",
     "Topics/Technical-Topics/OS",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-OS.md",
-    "Untitled.canvas",
     "Topics/Technical-Topics/TRACE32.md",
     "Topics/Technical-Topics/TRACE32",
     "~IMG/OSEK-Extended-Task-State-Diagram.png",
@@ -189,7 +189,6 @@
     "~IMG/DER-Tag-Class.png",
     "~IMG/AH-Tunnel-Mode.png",
     "Topics/Technical-Topics/Cryptography/Symmetric-Encryption.md",
-    "Topics/Technical-Topics/Cryptography/Symmetric-Encryption/Symmetric-Key-Block-Cipher@Modes-of-Operation.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Memory",
     "Topics/Technical-Topics/OS/AUTOSAR",
     "Topics/Technical-Topics/Communication-Protocols",

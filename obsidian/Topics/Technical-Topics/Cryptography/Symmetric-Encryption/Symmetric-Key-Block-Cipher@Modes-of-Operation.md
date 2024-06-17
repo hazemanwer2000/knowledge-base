@@ -46,7 +46,7 @@ $$P_j = C_j \oplus C_j^{CTR}$$
 $$C_j = P_j \oplus C_j^{CTR}$$
 where $j$ spans from $1$ to $n$.
 
-*Note:* *CTR* mode does not require any padding (if the plain-text is not block-aligned).
+*Note:* *CTR* mode does not require any padding if the plain-text is not block-aligned.
 ## *References*
 ---
 [1] Recommendation for Block Cipher Modes of Operation: Methods and Techniques, Special Publication 800-38A, NIST

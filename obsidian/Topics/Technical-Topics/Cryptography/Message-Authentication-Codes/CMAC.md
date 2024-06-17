@@ -8,13 +8,15 @@
 
 *Note:* *CMAC* uses the same key as the respective algorithm.
 
-*Note:* *CMAC* does not uses *forward cipher function*, $CIPH_K$, of the respective algorithm. It does not employ the *inverse cipher function*, $CIPH_K^{-1}$.
+*Note:* *CMAC* only uses the *forward cipher function*, $CIPH_K$, of the respective algorithm. It does not employ the *inverse cipher function*, $CIPH_K^{-1}$.
 ### The Algorithm
 ---
-The *CMAC* generation function, `CMAC`, is declared as, 
+The *CMAC* generation function, `CMAC`, is declared as,
+
 ```
 CMAC(K, M, Tlen)
 ``` 
+
 where `K` is the key, `M` is the message, and `Tlen` is the truncation length of the generated *MAC*, which must be less or equal to `b`, the block size of the underlying algorithm.
 #### `CMAC`
 ---

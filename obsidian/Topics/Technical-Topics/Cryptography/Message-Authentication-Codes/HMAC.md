@@ -30,7 +30,7 @@ opad = '0x5C' repeated B times
 *Note:* If the key size is less than `B`, `0x00` is appended repeatedly until it is `B` bytes long.
 ### Truncated MAC
 ---
-It is recommend not to truncate the output *MAC* to be less than `L/2` bytes, or 80 bits.
+It is recommend not to truncate the output *MAC* to be less than neither `L/2` bytes, or 80 bits.
 ## *References*
 ---
 [1] HMAC: Keyed-Hashing for Message Authentication, RFC 2104.

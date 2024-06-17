@@ -124,10 +124,8 @@ Parameters (out):
 ```
 
 *Additional notes:*
-
 * If a non-`NULL` pointer is provided, then `NvM_ReadBlock` shall use this buffer instead of the permanent RAM block (if configured), or explicit synchronization callback(s) (if configured).
-
-* `NvM_ReadBlock` behaves similar to how `NvM_ReadAll` does for NVRAM blocks (i.e., if configuration ID (mis-)matches were irrelevant).
+* `NvM_ReadBlock` behaves similar to how `NvM_ReadAll` does for NVRAM blocks (if configuration ID (mis-)matches were irrelevant).
 ###### `NvM_WriteBlock`
 ---
 ```
@@ -140,9 +138,7 @@ Parameters (in):
 ```
 
 *Additional notes:*
-
 * If a non-`NULL` pointer is provided, then `NvM_WriteBlock` shall use this buffer instead of the permanent RAM block (if configured), or explicit synchronization callback(s) (if configured).
-
 * If successful, the NVRAM block status is set to `NVM_REQ_OK`. Otherwise, it is set to `NVM_REQ_NOT_OK`.
 ###### `NvM_RestoreBlockDefaults`
 ---
@@ -157,9 +153,7 @@ Parameters (out):
 ```
 
 *Additional notes:*
-
 * If a non-`NULL` pointer is provided, then `NvM_RestoreBlockDefaults` shall use this buffer instead of the permanent RAM block (if configured), or explicit synchronization callback(s) (if configured).
-
 * If successful, the NVRAM block status is set to `NVM_REQ_OK`, in which case, if a `NULL` pointer was provided, the NVRAM block is marked as `VALID-CHANGED`. Otherwise, it is set to `NVM_REQ_NOT_OK`.
 ###### `NvM_EraseNvBlock`
 ---
@@ -230,7 +224,6 @@ Re-entrant: No
 ```
 
 *Additional notes:*
-
 * `NvM_WriteAll` processes only NVRAM blocks that meet the following requirements:
 	* The NVRAM block is configured with, either, a permanent RAM block, or explicit synchronization callback(s).
 	* The NVRAM block is configured to be processed in `NvM_WriteAll` (i.e., `NvMSelectBlockForWriteAll = True`).
@@ -246,7 +239,6 @@ Re-entrant: No
 ```
 
 *Additional notes:*
-
 * When `NvM_CancelWriteAll` is requested, the current NVRAM block being handled is processed to completion. The status of all remaining NVRAM blocks is set to `NVM_REQ_CANCELED`, as well as, the multi-block request status.
 ###### `NvM_ValidateAll`
 ---
@@ -257,7 +249,6 @@ Re-entrant: No
 ```
 
 *Additional notes:*
-
 * `NvM_ValidateAll` processes only NVRAM blocks that meet the following requirements:
 	* The NVRAM block is configured with, either, a permanent RAM block, or explicit synchronization callback(s).
 	* The NVRAM block is configured with `NvMBlockUseAutoValidation = True`.
@@ -270,9 +261,7 @@ Re-entrant: No
 ```
 
 *Additional notes:*
-
 * Usually, if this request is made, it is executed before `NvM_ReadAll`.
-
 * `NvM_FirstInitAll` deals only with NVRAM blocks configured with `NvMSelectBlockForFirstInitAll = True`.
 #### Scheduled Function(s)
 ---

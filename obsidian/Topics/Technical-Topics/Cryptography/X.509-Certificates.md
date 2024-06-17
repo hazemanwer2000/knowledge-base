@@ -139,7 +139,7 @@ The `TBSCertificate` type denotes the structure to be signed.
 TBSCertificate ::= SEQUENCE {
 	version [0] EXPLICIT Version DEFAULT v1,
 	serialNumber INTEGER,
-	signature AlgorithmIdentifier,
+	signatureAlgorithm AlgorithmIdentifier,
 	issuer Name,
 	validity Validity,
 	subject Name,

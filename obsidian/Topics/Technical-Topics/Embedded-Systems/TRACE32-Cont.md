@@ -5,14 +5,8 @@
 ---
 ```
 Perf
-System
-Symbol
-
-'Peripherals'
 
 Trace Functionalities (including RunTime)
-
-Flashing...
 ```
 ## References
 ---

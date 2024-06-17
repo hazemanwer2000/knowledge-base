@@ -123,6 +123,7 @@ Data.Dump $RANGE$ [/Byte|/Word|/Long]
 $RANGE$:
 	Var.Range(VARIABLE_NAME)
 	BEGIN_ADDRESS--END_ADDRESS
+	ADDRESS
 ```
 
 Similarly, to dump a variable, or an address range, to a file,
@@ -137,7 +138,10 @@ $FORMAT$:
 $RANGE$:
 	Var.Range(VARIABLE_NAME)
 	BEGIN_ADDRESS--END_ADDRESS
+	ADDRESS
 ```
+
+*Note:* Address ranges are all-inclusive.
 #### `Frame`
 ---
 To display the stackframe,
@@ -171,6 +175,143 @@ To display all attributes for all objects of a specific type,
 
 ```
 Task.D$OBJECT_TYPE$
+```
+#### `Per`
+---
+To view peripherals,
+
+```
+Per.View
+```
+
+To set a peripheral register,
+
+```
+Per.Set.Simple ADDRESS %FORMAT VALUE
+
+FORMAT:
+	Byte
+	Word (i.e., 2 byte(s))
+	Long (i.e., 4 byte(s))
+	Quad (i.e., 8 byte(s))
+```
+
+To print a peripheral register's value,
+
+```
+Per.In ADDRESS /FORMAT
+```
+#### `Register`
+---
+To view the registers of a specific core,
+
+```
+Register.View /CORE CORE_NUMBER
+```
+
+To set a register of a specific core,
+
+```
+Register.Set REGISTER VALUE /CORE CORE_NUMBER
+```
+#### `Flash`
+---
+To erase and flash memory,
+
+```
+; After this command, updating address(es) of flash area(s) is allowed
+; Note: Flash is not actually updated (i.e., erased and programmed) until 'Flash.Auto off'
+Flash.Auto all
+
+Data.Load.* ...
+Var.Set ...
+
+Flash.Auto off
+```
+
+#### `Trace`
+---
+To select the trace method,
+
+```
+Trace.Method METHOD
+
+METHOD:
+	Snooper
+	...
+```
+
+To list the samples captured,
+
+```
+Trace.List
+```
+
+To chart the active function/task against time (when applicable),
+
+```
+Trace.Chart [/Core CORE_NUMBER]
+
+Trace.Chart.Task [/Core CORE_NUMBER]
+```
+
+To get statistics about all function/task activity (when applicable),
+
+```
+Trace.Statistics [/Core CORE_NUMBER]
+
+Trace.Chart.Task [/Core CORE_NUMBER]
+```
+
+To draw the value of a traced variable against time (when applicable),
+
+```
+Trace.Draw
+```
+##### `Snooper`
+---
+The *Snooper* method can be used to sample a number of addresses, or address ranges.
+
+To select the mode,
+
+```
+Snooper.Mode MODE
+
+MODE:
+	Memory - Samples specified address(es)
+	PC - Samples the PC register
+```
+
+In `PC` mode, to specify which core(s) to snoop the PC register of,
+
+```
+Snooper.Core CORE_NUMBER [CORE_NUMBER ...]
+```
+
+To specify address(es) to sample (in `Memory` mode only),
+
+```
+Snooper.Select %FORMAT ADDRESS [%FORMAT ADDRESS ...]
+
+ADDRESS:
+	SINGLE_ADDRESS (e.g., 0x90000000)
+	BEGIN_ADDRESS-END_ADDRESS (e.g., 0x90000000-0x90000010)
+```
+
+*Note:* Address ranges are all-inclusive.
+
+To set the target sampling rate,
+
+```
+Snooper.Rate FREQ_HZ              ; e.g., '1000000.' (1 MHz)
+```
+
+*Note:* The target sampling rate may not be reached, depending on many factors.
+
+To set the size of the sampling buffer, which is stored in host (i.e., PC),
+
+```
+Snooper.Size NUMBER_OF_SAMPLES
 ```
 ## References
 ---

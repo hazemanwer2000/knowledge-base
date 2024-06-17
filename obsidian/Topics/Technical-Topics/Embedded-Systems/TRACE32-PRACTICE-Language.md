@@ -47,6 +47,12 @@ To select an `Area` view (i.e., for `Print` commands),
 Area.Select AREA_NAME
 ```
 
+To clear an `Area` view,
+
+```
+Area.Clear AREA_NAME
+```
+
 To save the contents of an `Area` view to a file,
 
 ```
@@ -312,6 +318,92 @@ To set the size of the sampling buffer, which is stored in host (i.e., PC),
 
 ```
 Snooper.Size NUMBER_OF_SAMPLES
+```
+#### `Core`
+---
+To select the default core, to be used when command(s) and function(s) do not specify a core,
+
+```
+Core.Select CORE_NUMBER
+```
+### PRACTICE Language
+---
+A PRACTICE script, a `*.cmm` file, must always be terminated with a `ENDDO` command.
+#### Macro(s)
+---
+A PRACTICE macro resembles a C-preprocessor macro, that is only substituted during line interpretation.
+
+A PRACTICE macro can be defined with different scope.
+
+```
+; Accessible only within nested block(s)
+PRIVATE &myMacro
+
+; Accessible within nested block(s), sub-routines and sub-scripts
+LOCAL &myMacro
+
+; Accessible everywhere, with an unlimited life-time
+GLOBAL &myMacro         
+```
+
+More than one macro can be declared on the same line.
+
+```
+<SCOPE> &x &y &z
+```
+
+To assign a value to a macro,
+
+```
+&myStringMacro="..."
+&myIntegerMacro=123
+&myFloatMacro=1.23
+```
+
+To reference a macro elsewhere, prepend `&` to its name (e.g., `&myMacro`).
+
+*Note:* When string (i.e., quoted) macro values are replaced, the quotes are removed, so it is interpreted unquoted (i.e., not a string). To preserve its interpretation as a string, surround it double quotes (e.g., `"&myMacro"`).
+#### Operator(s)
+---
+PRACTICE language supports arithmetic, bitwise and logical C-operators, in addition to parentheses.
+
+*Note:* Strings may be concatenated using the addition operator, `+`.
+#### Flow Control
+---
+The following is a list of all flow control commands in PRACTICE language.
+
+```
+IF <PRACTICE-EXPR>                       ; Alternatively, 'Var.IF <HLL-EXPR>'
+(
+	...
+)
+ELSE
+(
+	...
+)
+```
+
+```
+WHILE <PRACTICE-EXPR>                    ; Alternatively, 'Var.WHILE <HLL-EXPR>'
+(
+	...
+)
+```
+
+```
+REPEAT <COUNT>
+(
+	...
+)
+```
+#### Sub-Routine(s)
+---
+PRACTICE language supports sub-routines, which can be called with the `GOSUB` command.
+
+*Note:* Sub-routines must reside at the end of a script, after the `ENDDO` command.
+
+```
+
 ```
 ## References
 ---

@@ -1,11 +1,26 @@
 ──────── *for more from the author, visit* [github.com/hazemanwer2000](https://github.com/hazemanwer2000). ────────
 ## *Table of Contents*
-...
+- [[#Specification|Specification]]
+- [[#Function(s)|Function(s)]]
+	- [[#Function(s)#API(s)|API(s)]]
+	- [[#Function(s)#Scheduled Function(s)|Scheduled Function(s)]]
+- [[#Configuration|Configuration]]
 ## Content
 ---
 *AUTOSAR* specifies a *Basic Software (BSW) Crypto Driver* module, which resides in the MCAL layer, in functionality, API and configuration.
 ### Specification
 ---
+The module allows the configuration of *Crypto Driver Objects*,
+* each representing a hardware, or software resource (e.g., AES accelerator).
+* Each object references different primitives, that it is capable of performing (e.g., AES-CMAC, SHA-1, etc).
+* Hence, each object may have its own queue of pending jobs, and,
+* the driver should be capable of executing *N* jobs in parallel, where *N* is the number of objects available.
+
+For job processing, the *Crypto Driver* supports,
+* Synchronous and asynchronous processing, and,
+* `SINGLE` vs. `START-UPDATE-FINISH` operation mode(s).
+
+*Note:* The same job cannot be triggered while still being processed. However, while not currently being processed, and having `START` or `UPDATE` previously triggered, a job can be restarted, with all current (in-/out-)put data discarded, if triggered with `START` operation mode.
 ### Function(s)
 ---
 #### API(s)
@@ -18,6 +33,45 @@ Description: Initializes module.
 Sync/Async: Sync
 Re-entrant: No
 ```
+###### `Crypto_ProcessJob`
+---
+```
+Name: 'Crypto_ProcessJob'
+Description: Triggers the processing of a job.
+Sync/Async: Depends on CSM Job config.
+Re-entrant: Re-entrant, but not for the same Crypto Driver Object.
+Parameters (in):
+	[1] Crypto Driver Object ID.
+Parameters (in-out):
+	[1] Pointer to CSM Job.
+```
+###### `Crypto_CancelJob`
+---
+```
+Name: 'Crypto_CancelJob'
+Description: Cancels the processing of a job.
+Sync/Async: Sync.
+Re-entrant: Re-entrant, but not for the same Crypto Driver Object.
+Parameters (in):
+	[1] Crypto Driver Object ID.
+Parameters (in-out):
+	[1] Pointer to CSM Job.
+```
+##### Key Management
+---
+
+| API                          | Description                                                                                                          |
+| ---------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| Crypto_KeyElementSet         | Writes key element, and sets associated key state as `INVALID`.                                                      |
+| Crypto_KeyElementGet         | Reads key element.                                                                                                   |
+| Crypto_KeySetValid           | Sets key state as `VALID`.                                                                                           |
+| Crypto_KeySetInvalid         | Sets key state as `INVALID`.                                                                                         |
+| Crypto_KeyGetStatus          | Queries key state, `VALID` or `INVALID`.                                                                             |
+| Crypto_KeyDerive             | Derives key (i.e., using PRNG), using a given password, and salt (i.e., random value).                               |
+| Crypto_KeyGenerate           | Generates key (e.g., asymmetric ECC key-pair).                                                                       |
+| Crypto_KeyExchangeCalcPubVal | For ECDH, generates key (e.g., asymmetric ECC key-pair), and returns public key.                                     |
+| Crypto_KeyExchangeCalcSecret | For ECDH, uses passed argument (i.e., peer's public key), and referenced private key, to derive shared secret value. |
+| Crypto_RandomSeed            | For PRNG, generates a new seed value, based on passed argument.                                                      |
 #### Scheduled Function(s)
 ---
 ###### `Crypto_MainFunction`
@@ -123,4 +177,4 @@ Possible value(s):
 ```
 ## References
 ---
-[1] ...
+[1] Specification of Crypto Driver, AUTOSAR Classic Platform, R20-11

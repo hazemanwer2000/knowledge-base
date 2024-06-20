@@ -3,7 +3,7 @@
 ...
 ## Content
 ---
-*AUTOSAR* specifies a *Basic Software (BSW) Crypto Service Manager* module, which resides in the Service layer, in functionality, API and configuration.
+*AUTOSAR* specifies a *Basic Software (BSW) Crypto Service Manager (Csm)* module, which resides in the Service layer, in functionality, API and configuration.
 ### Specification
 ---
 The module allows the configuration of cryptographic job(s). Each job references,

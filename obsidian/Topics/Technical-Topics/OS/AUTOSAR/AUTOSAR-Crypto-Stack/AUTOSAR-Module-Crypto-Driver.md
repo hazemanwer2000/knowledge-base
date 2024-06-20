@@ -192,4 +192,5 @@ Description: Identifies the usage of the key element (e.g., key material, IV, et
 ## References
 ---
 [1] Specification of Crypto Driver, AUTOSAR Classic Platform, R20-11
-[2] Specification of Crypto Service Manager, AUTOSAR Classic Platform, R20-11
+[2] Specification of Crypto Interface, AUTOSAR Classic Platform, R20-11
+[3] Specification of Crypto Service Manager, AUTOSAR Classic Platform, R20-11

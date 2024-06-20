@@ -36,20 +36,23 @@ CsmJobs [C, 1]
 		CsmJobQueueRef [R, 1]
 		CsmJobPrimitiveCallbackRef [R, 0..1]
 
+CsmKeys [C, 1]
+
 	CsmKey [C, 1..*]
 		CsmKeyId [P]
 		CsmKeyRef [R, 1]
 
-	CsmQueues [C, 1]
-		CsmQueue [C, 1..*]
-			CsmQueueSize [P]
-			CsmChannelRef [R, 1]
+CsmQueues [C, 1]
 
-	CsmPrimitives [C, 1]
-		...
+	CsmQueue [C, 1..*]
+		CsmQueueSize [P]
+		CsmChannelRef [R, 1]
 
-	CsmCallbacks [C, 1]
-		...
+CsmPrimitives [C, 1]
+	...
+
+CsmCallbacks [C, 1]
+	...
 ```
 ## References
 ---

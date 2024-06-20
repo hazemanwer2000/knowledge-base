@@ -300,7 +300,7 @@ In explicit synchronization, the schedule table is driven by a counter, as usual
 
 The state diagram of an explicitly synchronized schedule table is shown below.
 
-![[AUTOSAR-OS-Schedule-Table-Explicit-States.png]]
+![[AUTOSAR-OS-Schedule-Table-Explicit-States.png|750]]
 To notify the OS of the synchronization counter value, `SyncScheduleTable` is called. When given, and a drift was identified (i.e., schedule table tick value `!=` synchronization counter tick value), then *adjustable* expiry points are either, lengthened or shortened, until the schedule table is synchronized.
 
 *Note:* If `SetScheduleTableAsync` is called, drift is ignored, until the next `SyncScheduleTable` call.

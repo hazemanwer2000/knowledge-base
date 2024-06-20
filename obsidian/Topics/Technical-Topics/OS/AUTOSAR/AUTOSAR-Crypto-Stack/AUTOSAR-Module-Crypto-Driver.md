@@ -18,9 +18,15 @@ The module allows the configuration of *Crypto Driver Objects*,
 
 For job processing, the *Crypto Driver* supports,
 * Synchronous and asynchronous processing, and,
-* `SINGLE` vs. `START-UPDATE-FINISH` operation mode(s).
+* `START-UPDATE-FINISH` operation mode(s), of which multiple may be requested at once.
+
+The following is the state machine of a job.
+
+![[AUTOSAR-Crypto-Driver-Job-State-Machine.png|600]]
 
 *Note:* The same job cannot be triggered while still being processed. However, while not currently being processed, and having `START` or `UPDATE` previously triggered, a job can be restarted, with all current (in-/out-)put data discarded, if triggered with `START` operation mode.
+
+*Note:* A Crypto Driver Object is considered busy still, if a job has been triggered with the `START` operation mode, and not yet the `FINISH` operation mode. 
 ### Function(s)
 ---
 #### API(s)
@@ -115,6 +121,7 @@ CryptoKeyElements [C, 1]
 		CryptoKeyElementReadAccess [P]
 		CryptoKeyElementWriteAccess [P]
 		CryptoKeyElementSize [P]
+		CryptoKeyElementId [P]
 
 CryptoPrimitives [C, 1]
 
@@ -175,6 +182,14 @@ Possible value(s):
 	CRYPTO_RA_INTERNAL_COPY - Can be copied into from another key element, internally.
 	CRYPTO_RA_DENIED - Not writeable.
 ```
+
+```
+Path: CryptoKeyElements/CryptoKeyElement/CryptoKeyElementId
+Description: Identifies the usage of the key element (e.g., key material, IV, etc).
+```
+
+*Note:* Refer to [2], for the list of appropriate ID value(s) for each key-element, per usage (e.g., encryption, signature generation, etc).
 ## References
 ---
 [1] Specification of Crypto Driver, AUTOSAR Classic Platform, R20-11
+[2] Specification of Crypto Service Manager, AUTOSAR Classic Platform, R20-11

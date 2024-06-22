@@ -69,6 +69,18 @@ To checkout to a specific commit,
 git checkout [-b BRANCH-NAME] HASH
 ```
 
+To cherry-pick a specific commit, onto the current branch,
+
+```
+git cherry-pick HASH
+```
+
+To rebase the current branch onto a local branch,
+
+```
+git rebase BRANCH
+```
+
 To show the log,
 
 ```
@@ -110,11 +122,10 @@ git pull
 
 *Note:* `git status` reveals if the local branch tracks a remote branch, and which.
 
-To rebase the current branch onto a local, or remote branch,
+To rebase the current branch onto a remote branch,
 
 ```
 git rebase REMOTE-ALIAS/REMOTE-BRANCH
-git rebase BRANCH
 ```
 ## References
 ---

@@ -96,7 +96,7 @@ To checkout a remote branch, and setup a local branch to track it,
 git checkout -b LOCAL-BRANCH REMOTE-ALIAS/REMOTE-BRANCH
 ```
 
-Instead, to push changes to a local branch, onto a remote branch,
+Instead, to push a local branch, onto a remote branch,
 
 ```
 git push REMOTE-ALIAS REMOTE-BRANCH [--force]

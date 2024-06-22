@@ -475,6 +475,8 @@ CONVERT.<...>(...)                             ; Different type-conversion funct
 FORMAT.<...>(...)                              ; Different type-to-string formatting function(s)
 
 VAR.<...>(...)                                 ; Different HLL-expression evaluation function(s)
+
+DATA.<...>(...)                                ; Different memory read-write function(s)
 ```
 ## *References*
 ---

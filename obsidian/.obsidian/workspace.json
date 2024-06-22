@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/Technical-Topics/Tooling/Git.md",
+                "file": "Topics/Technical-Topics/Embedded-Systems/TRACE32-PRACTICE-Language.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topics/Technical-Topics/Tooling/Git.md",
+                "file": "Topics/Technical-Topics/Embedded-Systems/TRACE32-PRACTICE-Language.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topics/Technical-Topics/Tooling/Git.md",
+                "file": "Topics/Technical-Topics/Embedded-Systems/TRACE32-PRACTICE-Language.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topics/Technical-Topics/Tooling/Git.md"
+                "file": "Topics/Technical-Topics/Embedded-Systems/TRACE32-PRACTICE-Language.md"
               }
             }
           }
@@ -148,11 +148,12 @@
   },
   "active": "8280cf68de83aeb8",
   "lastOpenFiles": [
-    "Topics/Technical-Topics/Tooling.md",
+    "Topics/Technical-Topics/Embedded-Systems.md",
     "Topics/Technical-Topics.md",
     "Welcome!.md",
+    "Topics/Technical-Topics/Tooling/Git.md",
+    "Topics/Technical-Topics/Tooling.md",
     "Topics/Technical-Topics/Embedded-Systems/TRACE32-PRACTICE-Language.md",
-    "Topics/Technical-Topics/Embedded-Systems.md",
     "Topics/Technical-Topics/OS.md",
     "Topics/Technical-Topics/OS/AUTOSAR.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Memory-Stack/AUTOSAR-Module-Fls.md",

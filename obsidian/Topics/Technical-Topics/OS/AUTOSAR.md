@@ -8,6 +8,9 @@
 	* [[AUTOSAR-Module-Crypto-Driver]]
 	* [[AUTOSAR-Module-Csm]]
 	* [[AUTOSAR-Module-KeyM]]
+* COM
+	* Ethernet
+		* [[AUTOSAR-Module-Eth-Driver]]
 * System
 	* [[AUTOSAR-Module-OS]]
 ## *Content*

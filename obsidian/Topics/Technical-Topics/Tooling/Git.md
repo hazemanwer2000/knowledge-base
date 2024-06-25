@@ -81,6 +81,12 @@ To rebase the current branch onto a local branch,
 git rebase BRANCH
 ```
 
+To merge a branch, into the current branch,
+
+```
+git merge BRANCH-NAME
+```
+
 To show the log,
 
 ```

@@ -108,11 +108,13 @@ To checkout a remote branch, and setup a local branch to track it,
 git checkout -b LOCAL-BRANCH REMOTE-ALIAS/REMOTE-BRANCH
 ```
 
-Instead, to push a local branch, onto a remote branch,
+For an already existing local branch, it can be setup to track a remote branch,
 
 ```
-git push REMOTE-ALIAS REMOTE-BRANCH [--force]
+git branch -u REMOTE-ALIAS/REMOTE-BRANCH
 ```
+
+*Note:* `git status` reveals if the local branch tracks a remote branch, and which.
 
 To fetch and checkout the latest changes to a remote branch, that is being tracked by the current local branch,
 
@@ -120,7 +122,11 @@ To fetch and checkout the latest changes to a remote branch, that is being track
 git pull
 ```
 
-*Note:* `git status` reveals if the local branch tracks a remote branch, and which.
+Instead, to push a local branch, onto a remote branch,
+
+```
+git push REMOTE-ALIAS LOCAL-BRANCH:REMOTE-BRANCH [--force]
+```
 
 To rebase the current branch onto a remote branch,
 

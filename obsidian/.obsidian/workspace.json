@@ -4,71 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "643b82f903587698",
+        "id": "ffd2cef732044fae",
         "type": "tabs",
         "children": [
           {
-            "id": "545575faa10135fb",
+            "id": "6e6192705b1ae0ec",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet/AUTOSAR-Module-TcpIp.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "426fbbd5de3c08d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet/AUTOSAR-Module-TcpIp.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "25ea1ae9de976f4c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet/AUTOSAR-Module-EthIf.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d77189a5ae30800a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet/AUTOSAR-Module-Eth-Driver.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3d1bc5bfd3109548",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Crypto-Stack/AUTOSAR-Module-Crypto-Driver.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet/AUTOSAR-Module-TcpIp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet/AUTOSAR-Module-TcpIp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet/AUTOSAR-Module-TcpIp.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -195,12 +138,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "426fbbd5de3c08d7",
+  "active": "6e6192705b1ae0ec",
   "lastOpenFiles": [
-    "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet/AUTOSAR-Module-Eth-Driver.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet/AUTOSAR-Module-EthIf.md",
-    "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Crypto-Stack/AUTOSAR-Module-Crypto-Driver.md",
+    "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet/AUTOSAR-Module-Eth-Driver.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet/AUTOSAR-Module-TcpIp.md",
+    "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Crypto-Stack/AUTOSAR-Module-Crypto-Driver.md",
     "Topics/Technical-Topics/OS/AUTOSAR.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Module-OS.md",
     "Topics/Technical-Topics/OS.md",

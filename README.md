@@ -20,24 +20,14 @@ Writings in a myriad number of topics, maintained within *Jupyter* notebooks and
 ### *Obsidian* vault
 ---
 * Cryptography
-    * Cryptographic Hash Functions (including *SHA-1*)
+    * Cryptographic Hash Functions
     * Message Authentication Codes
-        * *HMAC*
-        * *CMAC*
     * Symmetric Encryption
-        * *AES*
-        * Symmetric-Key, Block-Cipher Modes of Operation
-            * *ECB*
-            * *CBC*
-            * *CTR*
     * *Elliptic Curve Cryptography (ECC)*
-        * *ECDSA*
-        * *ECDH*
     * *X.509* Certificates
 * Communication Protocols
-    * *IPsec: IKEv2, AH, and ESP*
-* AUTOSAR
-    * Memory: *Fls*, *Fee*, and *NvM*
-    * *OS*
-* OSEK
-    * *OS*
+* OS
+    * *AUTOSAR*
+    * *OSEK*
+* Tooling
+    * *Git*

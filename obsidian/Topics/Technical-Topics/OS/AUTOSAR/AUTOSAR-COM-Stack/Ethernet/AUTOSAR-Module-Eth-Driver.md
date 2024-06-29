@@ -89,4 +89,4 @@ Possible value(s):
 ```
 ## References
 ---
-[1] ...
+[1] Specification of Ethernet Driver, AUTOSAR Classic Platform, R20-11

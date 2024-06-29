@@ -66,4 +66,4 @@ Description: Specifies the frame's 'EtherType' (e.g., IPv4, ARP).
 ```
 ## References
 ---
-[1] ...
+[1] Specification of Ethernet Interface module, AUTOSAR Classic Platform, R20-11

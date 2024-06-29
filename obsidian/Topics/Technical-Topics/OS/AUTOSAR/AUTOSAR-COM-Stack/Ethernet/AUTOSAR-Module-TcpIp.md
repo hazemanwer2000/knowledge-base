@@ -77,4 +77,4 @@ Description: Specifies number of bits in subnet-mask.
 ```
 ## References
 ---
-[1] ...
+[1] Specification of TCP/IP module, AUTOSAR Classic Platform, R20-11

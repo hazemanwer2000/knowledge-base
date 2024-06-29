@@ -12,6 +12,7 @@
 	* Ethernet
 		* [[AUTOSAR-Module-Eth-Driver]]
 		* [[AUTOSAR-Module-EthIf]]
+		* [[AUTOSAR-Module-TcpIp]]
 * System
 	* [[AUTOSAR-Module-OS]]
 ## *Content*

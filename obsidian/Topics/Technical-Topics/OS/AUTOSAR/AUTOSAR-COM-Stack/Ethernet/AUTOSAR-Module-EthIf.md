@@ -6,7 +6,12 @@
 *AUTOSAR* specifies a *Basic Software (BSW) Ethernet Interface* module, in functionality, API and configuration.
 ### Specification
 ---
+The module allows the configuration of virtual controller(s).
+* Each virtual controller is associated with a unique VLAN ID (i.e., 1:1 relationship).
+* Upper-layer module(s) deal with virtual controller(s).
+* `EthIf_GetVlanId` may be used to query the VLAN ID associated with a specific virtual controller.
 
+Upon the reception, or successful transmission, of a frame, the appropriate RX indication, or TX confirmation, function is called, based on the frame's *EtherType* (see `EthIfFrameOwnerConfig`).
 ### Function(s)
 ---
 
@@ -17,6 +22,7 @@
 | `Eth_SetPhysAddr`         | API       | Set physical (i.e., MAC) address.                                                                                                                            |
 | `EthIf_SetControllerMode` | API       | Set virtual controller's mode. If all virtual controller(s) associated with a physical controller are set to `DOWN` mode, `Eth_SetControllerMode` is called. |
 | `EthIf_GetControllerMode` | API       | Get virtual controller's mode.                                                                                                                               |
+| `EthIf_GetVlanId`         | API       | Get VLAN ID, associated with a virtual controller.                                                                                                           |
 | `EthIf_ProvideTxBuffer`   | API       | Pseudo-wrapper call, to `Eth_ProvideTxBuffer`.                                                                                                               |
 | `EthIf_Transmit`          | API       | Pseudo-wrapper call, to `EthIf_Transmit`.                                                                                                                    |
 | `EthIf_MainFunctionRx`    | Scheduled | If RX interrupt is disabled, calls `Eth_Receive` repeatedly.                                                                                                 |
@@ -52,12 +58,6 @@ EthIfConfigSet [C, 1]
 
 EthIfGeneral [C, 1]
 	EthIfMainFunctionPeriod [P]
-```
-###### `EthCtrlConfig`
----
-```
-Path: EthIfGeneral/EthIfRxIndicationInterations
-Description: Specifies number of 'Eth_Receive' call(s) per 'EthIf_MainFunctionRx' call, if RX interrupt is disabled.
 ```
 ###### `EthIfFrameOwnerConfig`
 ---

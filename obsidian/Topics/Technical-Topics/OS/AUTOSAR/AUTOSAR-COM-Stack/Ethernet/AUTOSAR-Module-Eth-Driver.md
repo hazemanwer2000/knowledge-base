@@ -9,6 +9,8 @@
 | Name                    | Type | Description                                                                                                                            |
 | ----------------------- | ---- | -------------------------------------------------------------------------------------------------------------------------------------- |
 | `Eth_Init`              | API  | Initialize module.                                                                                                                     |
+| `Eth_GetPhysAddr`       | API  | Get assigned physical (i.e., MAC) address.                                                                                             |
+| `Eth_SetPhysAddr`       | API  | Set physical (i.e., MAC) address.                                                                                                      |
 | `Eth_SetControllerMode` | API  | Set controller mode, either `ACTIVE` or `DOWN`.                                                                                        |
 | `Eth_GetControllerMode` | API  | Get controller mode.                                                                                                                   |
 | `Eth_WriteMii`          | API  | Writes a PHY's register.                                                                                                               |

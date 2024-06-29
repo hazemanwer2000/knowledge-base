@@ -18,8 +18,8 @@ Upon the reception, or successful transmission, of a frame, the appropriate RX i
 | Name                      | Type      | Description                                                                                                                                                  |
 | ------------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | `EthIf_Init`              | API       | Initialize module.                                                                                                                                           |
-| `Eth_GetPhysAddr`         | API       | Get assigned physical (i.e., MAC) address.                                                                                                                   |
-| `Eth_SetPhysAddr`         | API       | Set physical (i.e., MAC) address.                                                                                                                            |
+| `EthIf_GetPhysAddr`       | API       | Get assigned physical (i.e., MAC) address.                                                                                                                   |
+| `EthIf_SetPhysAddr`       | API       | Set physical (i.e., MAC) address.                                                                                                                            |
 | `EthIf_SetControllerMode` | API       | Set virtual controller's mode. If all virtual controller(s) associated with a physical controller are set to `DOWN` mode, `Eth_SetControllerMode` is called. |
 | `EthIf_GetControllerMode` | API       | Get virtual controller's mode.                                                                                                                               |
 | `EthIf_GetVlanId`         | API       | Get VLAN ID, associated with a virtual controller.                                                                                                           |
@@ -29,7 +29,6 @@ Upon the reception, or successful transmission, of a frame, the appropriate RX i
 | `EthIf_MainFunctionTx`    | Scheduled | If TX interrupt is disabled, calls `Eth_TxConfirmation`.                                                                                                     |
 | `EthIf_RxIndication`      | Callback  | Called by the Ethernet Driver, to indicate the reception of a frame.                                                                                         |
 | `EthIf_TxConfirmation`    | Callback  | Called by the Ethernet Driver, to confirm the transmission of a frame.                                                                                       |
-
 ### Configuration
 ---
 ```

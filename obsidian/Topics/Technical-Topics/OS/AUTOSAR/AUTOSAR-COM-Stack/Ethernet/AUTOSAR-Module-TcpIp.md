@@ -10,10 +10,16 @@
 ### Function(s)
 ---
 
-| Name  | Type | Description |
-| ----- | ---- | ----------- |
-| `...` | API  | ...         |
-|       |      |             |
+| Name                            | Type      | Description                                                                                                                                           |
+| ------------------------------- | --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `TcpIp_Init`                    | API       | Initialize module.                                                                                                                                    |
+| `TcpIp_RequestIpAddrAssignment` | API       | Requests a manually-triggered, configured address assignment method for a given local address (See `TcpIpLocalAddr` and `TcpIpAddrAssignment` below). |
+| `TcpIp_UdpTransmit`             | API       | Transmit a UDP datagram.                                                                                                                              |
+| `TcpIp_TcpTransmit`             | API       | Transmit a TCP segment.                                                                                                                               |
+| `TcpIp_RxIndication`            | Callback  | Called by `EthIf_RxIndication` to indicate the reception of a new frame, calls upper-layer's RX indication API.                                       |
+| `TcpIp_MainFunction`            | Scheduled | Cyclic function.                                                                                                                                      |
+
+*Note:* TCP/IP module does not receive confirmation from the *EthIf* module upon successful transmission.
 ### Configuration
 ---
 ```
@@ -56,7 +62,7 @@ Description: If a new address is available from a higher priority assignment met
 
 ```
 Path: TcpIpConfig/TcpIpLocalAddr/TcpIpAddrAssignment/TcpIpAssignmentTrigger
-Description: Specifies assignment trigger, whether 'AUTOMATIC', or 'MANUAL' via 'TcpIp_RequestIpAddrAssignment'.
+Description: Specifies assignment trigger, whether 'AUTOMATIC', or 'MANUAL' via 'TcpIp_RequestIpAddrAssignment' API.
 ```
 
 ```

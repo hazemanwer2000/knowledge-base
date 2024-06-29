@@ -11,6 +11,7 @@
 * COM
 	* Ethernet
 		* [[AUTOSAR-Module-Eth-Driver]]
+		* [[AUTOSAR-Module-EthIf]]
 * System
 	* [[AUTOSAR-Module-OS]]
 ## *Content*

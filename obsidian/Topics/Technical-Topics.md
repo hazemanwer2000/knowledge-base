@@ -3,7 +3,6 @@
 * [[Cryptography]]
 * [[Communication-Protocols]]
 * [[OS]]
-* [[Embedded-Systems]]
 * [[Tooling]]
 ## *Content*
 ---

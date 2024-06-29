@@ -3,6 +3,7 @@
 ...
 ## Content
 ---
+*AUTOSAR* specifies a *Basic Software (BSW) Ethernet Driver* module, which resides in the MCAL layer, in functionality, API and configuration.
 ### Function(s)
 ---
 

@@ -69,6 +69,8 @@ To checkout to a specific commit,
 git checkout [-b BRANCH-NAME] HASH
 ```
 
+*Note:* If this commit is the `HEAD` commit of a branch, you may specify the branch's name instead of the hash of the commit.
+
 To cherry-pick a specific commit, onto the current branch,
 
 ```
@@ -133,6 +135,8 @@ Instead, to push a local branch, onto a remote branch,
 ```
 git push REMOTE-ALIAS LOCAL-BRANCH:REMOTE-BRANCH [--force]
 ```
+
+*Note:* To push the current local branch, you may use `HEAD` instead of the branch's name.
 
 To rebase the current branch onto a remote branch,
 

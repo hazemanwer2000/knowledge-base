@@ -3,7 +3,7 @@
 ...
 ## Content
 ---
-*AUTOSAR* specifies a *Basic Software (BSW) Socket Adaptor (SoAd) module, in functionality, API and configuration.
+*AUTOSAR* specifies a *Basic Software (BSW) Socket Adaptor (SoAd)* module, in functionality, API and configuration.
 ### Specification
 ---
 ...

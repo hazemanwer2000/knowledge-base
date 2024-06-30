@@ -3,7 +3,7 @@
 ...
 ## Content
 ---
-*AUTOSAR* specifies a *Basic Software (BSW) TCP/IP module, in functionality, API and configuration.
+*AUTOSAR* specifies a *Basic Software (BSW) TCP/IP* module, in functionality, API and configuration.
 ### Specification
 ---
 ...
@@ -15,7 +15,7 @@
 | `TcpIp_Init`                    | API       | Initialize module.                                                                                                                                    |
 | `TcpIp_RequestIpAddrAssignment` | API       | Requests a manually-triggered, configured address assignment method for a given local address (See `TcpIpLocalAddr` and `TcpIpAddrAssignment` below). |
 | `TcpIp_UdpTransmit`             | API       | Transmit a UDP datagram.                                                                                                                              |
-| `TcpIp_TcpTransmit`             | API       | Transmit a TCP segment.                                                                                                                               |
+| `TcpIp_TcpTransmit`             | API       | Transmit a TCP segment. A TCP/IP buffer is requested and filled, to be transmitted in the next `TcpIp_MainFunction`.                                  |
 | `TcpIp_RxIndication`            | Callback  | Called by `EthIf_RxIndication` to indicate the reception of a new frame, calls upper-layer's RX indication API.                                       |
 | `TcpIp_MainFunction`            | Scheduled | Cyclic function.                                                                                                                                      |
 | `<UP>_RxIndication`             | Interface | Called upon reception of packet. For TCP, `TcpIp_TcpReceived` to be called later by `<UP>_MainFunction` (increasing receive window).                  |

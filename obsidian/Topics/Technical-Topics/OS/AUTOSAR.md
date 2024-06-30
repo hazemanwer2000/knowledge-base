@@ -13,6 +13,7 @@
 		* [[AUTOSAR-Module-Eth-Driver]]
 		* [[AUTOSAR-Module-EthIf]]
 		* [[AUTOSAR-Module-TcpIp]]
+		* [[AUTOSAR-Module-SoAd]]
 * System
 	* [[AUTOSAR-Module-OS]]
 ## *Content*

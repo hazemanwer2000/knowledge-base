@@ -18,8 +18,12 @@
 | `TcpIp_TcpTransmit`             | API       | Transmit a TCP segment.                                                                                                                               |
 | `TcpIp_RxIndication`            | Callback  | Called by `EthIf_RxIndication` to indicate the reception of a new frame, calls upper-layer's RX indication API.                                       |
 | `TcpIp_MainFunction`            | Scheduled | Cyclic function.                                                                                                                                      |
+| `<UP>_RxIndication`             | Interface | Called upon reception of packet. For TCP, `TcpIp_TcpReceived` to be called later by `<UP>_MainFunction` (increasing receive window).                  |
+| `<UP>_TxConfirmation`           | Interface | TCP-only, called upon reception of `ACK`.                                                                                                             |
 
 *Note:* TCP/IP module does not receive confirmation from the *EthIf* module upon successful transmission.
+
+*Note:* Refer to [1] for sequence diagrams, illustrating TCP socket connection establishment (as client/server), and TCP/UDP reception/transmission.
 ### Configuration
 ---
 ```
@@ -41,6 +45,12 @@ TcpIpConfig [C, 1]
 		TcpIpStaticIpAddressConfig [C, 0..1]
 			TcpIpNetmask [P]
 			TcpIpStaticIpAddress [P]
+
+TcpIpGeneral [C, 1]
+	TcpIpMainFunctionPeriod [P]
+	TcpIpBufferMemory [P]
+	TcpIpTcpSocketMax [P]
+	TcpIpUdpSocketMax [P]
 ```
 ###### `TcpIpLocalAddr`
 ---

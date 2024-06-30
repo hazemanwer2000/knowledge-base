@@ -8,6 +8,7 @@
 ---
 The module allows the configuration of virtual controller(s).
 * Each virtual controller is associated with a unique VLAN ID (i.e., 1:1 relationship).
+* Each virtual controller references a specific physical controller from the ethernet driver.
 * Upper-layer module(s) deal with virtual controller(s).
 * `EthIf_GetVlanId` may be used to query the VLAN ID associated with a specific virtual controller.
 

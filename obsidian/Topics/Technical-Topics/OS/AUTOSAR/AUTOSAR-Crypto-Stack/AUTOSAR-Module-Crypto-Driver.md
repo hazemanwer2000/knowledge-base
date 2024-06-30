@@ -14,7 +14,7 @@ The module allows the configuration of *Crypto Driver Objects*,
 * each representing a hardware, or software resource (e.g., AES accelerator).
 * Each object references different primitives, that it is capable of performing (e.g., AES-CMAC, SHA-1, etc).
 * Hence, each object may have its own queue of pending jobs, and,
-* the driver should be capable of executing *N* jobs in parallel, where *N* is the number of objects available.
+* the driver should be capable of executing *N* jobs concurrently, where *N* is the number of objects available.
 
 For job processing, the *Crypto Driver* supports,
 * Synchronous and asynchronous processing, and,

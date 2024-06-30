@@ -7,12 +7,6 @@
 ### Specification
 ---
 ...
-### Function(s)
----
-
-| Name        | Type | Description        |
-| ----------- | ---- | ------------------ |
-| `SoAd_Init` | API  | Initialize module. |
 ### Configuration
 ---
 ```
@@ -28,28 +22,61 @@ SoAdConfig [C, 1]
 		SoAdSocketConnection [C, 1..*]
 			SoAdSocketId [P]
 
+			SoAdSocketRemoteAddress [C, 1]
+				SoAdSocketRemoteIpAddress [P]
+				SoAdSocketRemotePort [P]
+
+		SoAdSocketProtocol [C, 1]
+
+			SoAdSocketUdp [C, 0..1]
+				SoAdSocketUdpAliveSupervisionTimeout [P]
+				SoAdSocketUdpListenOnly [P]
+				SoAdSocketnPduUdpTxBufferMin [P] {Feature: nPduUdp}
+				SoAdSocketUdpTriggerTimeout [P] {Feature: nPduUdp}
+
+			SoAdSocketTcp [C, 0..1]
+				SoAdSocketTcpInitiate [P]
+
+	SoAdSocketRoute [C, 0..*]
+		SoAdRxSocketConnOrSocketConnBundleRef [R, 1]
+
+		SoAdSocketRouteDest [C, 1..*]
+			SoAdRxPduRef [R, 1]
+			SoAdRxRoutingGroupRef [R, 1]
+
+	SoAdPduRoute [C, 0..*]
+		SoAdTxPduCollectionSemantics [P, 0..1] {Feature: nPduUdp}
+		SoAdTxPduRef [R, 1]
+
+		SoAdPduRouteDest [C, 1..*]
+			SoAdTxUdpTriggerMode [P, 0..1] {Feature: nPduUdp}
+			SoAdTxUdpTriggerTimeout [P, 0..1] {Feature: nPduUdp}
+			SoAdTxSocketConnOrSocketBundleRef [R, 1]
+			SoAdTxRoutineGroupRef [R, 1]
+
+	SoAdRoutingGroup [C, 0..*]
+		SoAdRoutingGroupId [P]
+		SoAdRoutingGroupIsEnabledAtInit [P]
+
 SoAdGeneral [C, 1]
 	SoAdMainFunctionPeriod [P]
 ```
 ###### `SoAdSocketConnectionGroup`
 ---
 ```
-Path: SoAdConfig/SoAdSocketConnectionGroup/SoAdSocketAutomaticSoConSetup
-Description: If disabled, associated socket connection(s) are managed via 'SoAd_<...>SoCon' API(s).
-```
-
-```
 Path: SoAdConfig/SoAdSocketConnectionGroup/SoAdSocketLocalPort
 Description: If not set, an ephemeral port is used.
 ```
+###### `SoAdSocketRemoteAddress`
+---
+```
+Path: SoAdConfig/SoAdSocketConnectionGroup/SoAdSocketConnection/SoAdSocketRemoteAddress/SoAdSocketRemoteIpAddress
+Description: To accept any remote IP address, set to 'ANY'.
+```
 
 ```
-Path: SoAdConfig/SoAdSocketConnectionGroup/SoAdSocketMsgAcceptanceFilterEnabled
-Description: For UDP, allows the acceptance of datagrams, regardless of the remote address.
-Constraints:
-	- Must be set to true if,
-		- 'SocketConnectionGroup' must contain a single 'SocketConnection'.
-		- For UDP, remote address is wildcard and 'SoAdSocketUdpListenOnly' is set to false.
+Path: SoAdConfig/SoAdSocketConnectionGroup/SoAdSocketConnection/SoAdSocketRemoteAddress/SoAdSocketRemotePort
+Description: To accept any remote port, set to 0.
 ```
 ## References
 ---

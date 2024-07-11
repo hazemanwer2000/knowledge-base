@@ -1,12 +1,7 @@
 ──────── *for more from the author, visit* [github.com/hazemanwer2000](https://github.com/hazemanwer2000). ────────
-## *Table of Contents*
-...
 ## Content
 ---
 *AUTOSAR* specifies a *Basic Software (BSW) TCP/IP* module, in functionality, API and configuration.
-### Specification
----
-...
 ### Function(s)
 ---
 

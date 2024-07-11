@@ -6,19 +6,40 @@
 *AUTOSAR* specifies a *Basic Software (BSW) Socket Adaptor (SoAd)* module, in functionality, API and configuration.
 ### Specification
 ---
-The module allows the configuration of socket connection group(s), each with one or more socket connection.
+The module allows the configuration of socket connection group(s), each with one or more socket connection(s).
 
-Each socket connection may be in one of these state(s):
-* `SOAD_SOCON_OFFLINE`
-* `SOAD_SOCON_RECONNECT`
-* `SOAD_SOCON_ONLINE`
+*Note:* For UDP, socket connection(s) within a socket connection group share the same UDP socket.
 
-After `SoAd_Init` is called, all socket connection(s) are initialized into the `SOAD_SOCON_OFFLINE` state.
-#### UDP
+Each socket connection may be in one of these state(s) (i.e., `SOAD_SOCON_<..>`):
+* `OFFLINE`
+* `RECONNECT`
+* `ONLINE` (TX/RX enabled)
+
+After `SoAd_Init` is called, all socket connection(s) are initialized into the `OFFLINE` state.
+
+Within `SoAd_MainFunction`, all `OFFLINE` socket connection(s) that match the following criteria will transition into the `RECONNECT` state.
+* `SoAdSocketAutomaticSocketSoConSetup` is set to true, or `SoAd_OpenSoCon` is requested.
+* Associated TCP/IP local IP address is in state `ASSIGNED`.
+
+Within `SoAd_RxIndication`, a socket connection transitions from the `RECONNECT` state, to the `ONLINE` state, if,
+* For UDP,
+	* Configured remote address matches that of the received datagram.
+
+*Note:* For UDP, if `SoAdSocketUdpListenOnly` is set to true, socket connection transitions from the `RECONNECT` to `CONNECT` state automatically.
+
+*Note:* For socket connection group(s) with multiple socket connection(s), selection of the socket connection is based on the best-match algorithm [1].
+
+If `SoAd_CloseSoCon` is called for a socket connection, within the next `SoAd_MainFunction`,
+* For UDP,
+	* Transition into the `OFFLINE` state.
+
+*Note:* For UDP, if `SoAdSocketUdpAliveSupervisionTimeout` time has passed since the last reception of a datagram, the associated socket connection transitions into the `RECONNECT` state.
+#### Additional Features
 ---
-Socket connection(s) within a UDP socket connection group share the same UDP socket.
-
-Within `SoAd_MainFunction`, 
+##### PDU Header Option
+---
+##### Message Acceptance Filter
+---
 ### Configuration
 ---
 ```

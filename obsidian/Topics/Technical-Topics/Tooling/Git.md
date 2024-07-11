@@ -37,6 +37,15 @@ git reset --hard
 
 *Note:* `git reset --hard` does not remove *untracked* files.
 
+To remove untracked files
+
+```
+git clean -d -f [-x]
+
+Options:
+	x - Remove ignored files as well.
+```
+
 To stash the current working directory (i.e., push onto a stack),
 
 ```

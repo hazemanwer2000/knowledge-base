@@ -4,31 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "02ea912ffa1d3670",
+        "id": "4181c1e8571e8780",
         "type": "tabs",
         "children": [
           {
-            "id": "f767676fd9afb3f8",
+            "id": "f9448ce6f2a9bfce",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topics/Technical-Topics/Tooling/Regular-Expressions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bec34fa872793abc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Welcome!.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -97,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topics/Technical-Topics/Tooling/Regular-Expressions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topics/Technical-Topics/Tooling/Regular-Expressions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Topics/Technical-Topics/Tooling/Regular-Expressions.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -158,13 +138,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f767676fd9afb3f8",
+  "active": "f9448ce6f2a9bfce",
   "lastOpenFiles": [
+    "Welcome!.md",
+    "Topics/Technical-Topics/Tooling/Regular-Expressions.md",
     "Topics/Technical-Topics/Tooling.md",
     "Topics/Technical-Topics/Cryptography.md",
-    "Topics/Technical-Topics/Tooling/Regular-Expressions.md",
     "Topics/Technical-Topics/Tooling/Git.md",
-    "Welcome!.md",
     "Topics/Technical-Topics.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet/AUTOSAR-Module-SoAd.md",
     "Topics/Technical-Topics/OS/AUTOSAR.md",

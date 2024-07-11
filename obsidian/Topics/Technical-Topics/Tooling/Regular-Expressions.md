@@ -40,7 +40,7 @@ A character class defines a new character, as a range of acceptable characters t
 | `[a-zA-Z0-9]`   | Any alphanumeric character.            |
 ### Number of Occurrences
 ---
-A character may be matched a specified number of times, sequentially.
+A character may be matched a specified number of times, sequentially, by appending an occurrence specifier to it.
 
 | Range   | Description   |
 | ------- | ------------- |
@@ -49,7 +49,7 @@ A character may be matched a specified number of times, sequentially.
 | `{,5}`  | $n <= 5$      |
 | `{1,4}` | $1 <= n <= 4$ |
 
-*Note:* By default, a *RegEx* engine is *greedy*. This means, it will attempt to match as many occurences as possible. To force it to be *lazy*, succeed any occurrence specifier with `?`.
+*Note:* By default, a *RegEx* engine is *greedy*. This means, it will attempt to match as many occurrences as possible. To force it to be *lazy*, succeed any occurrence specifier with `?`.
 ### *Starts with, Ends with*
 ---
 To assert that a pattern must exist at,
@@ -76,7 +76,7 @@ A number of characters may be grouped using `(?:` and `)`.
 Additionally, the `|` operator may be used to implement `OR` logic between character(s) or group(s).
 #### Capture Group(s)
 ---
-A capture group is a special grouping, that captures a specific part of a pattern, that may later be referenced (e.g., in replacement text).
+A capture group is a special group, that captures a specific part of a pattern, that may later be referenced (e.g., in replacement text).
 
 To form a capture group, surround part of a pattern with `(` and `)`.
 ## References

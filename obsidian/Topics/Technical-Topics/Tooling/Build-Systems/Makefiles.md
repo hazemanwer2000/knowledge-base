@@ -1,6 +1,18 @@
 ──────── *for more from the author, visit* [github.com/hazemanwer2000](https://github.com/hazemanwer2000). ────────
 ## *Table of Contents*
-...
+- [[#Rules|Rules]]
+	- [[#Rules#The `.PHONY` Target|The `.PHONY` Target]]
+	- [[#Rules#Pattern Rules|Pattern Rules]]
+		- [[#Pattern Rules#Static Pattern Rules|Static Pattern Rules]]
+	- [[#Rules#Built-in Rules|Built-in Rules]]
+	- [[#Rules#Wildcards|Wildcards]]
+	- [[#Rules#The `include` Directive|The `include` Directive]]
+- [[#Variables|Variables]]
+	- [[#Variables#Automatic Variables|Automatic Variables]]
+	- [[#Variables#Command-Line Variables|Command-Line Variables]]
+	- [[#Variables#Target-specific Variables|Target-specific Variables]]
+	- [[#Variables#Conditional Directives|Conditional Directives]]
+- [[#Functions|Functions]]
 ## Content
 ---
 *GNU Make* is a build-process automation tool, mainly employed in C/C++ projects. It prevents the unnecessary re-compilation of many files, especially in a medium-to-large sized project, significantly reducing the compilation time.
@@ -98,7 +110,7 @@ A.o B.o C.o: %.o: %.c
 An *built-in rule* is a rule that `make` defines implicitly.
 
 *Note:* It is recommended to cancel all built-in rules, by passing the `-r` option to `make`.
-#### Wildcard(s)
+#### Wildcards
 ---
 A *wildcard* is a special character(s), that may be placed within a target or prerequisite file names. It is expanded into all matching file names within a directory.
 
@@ -119,6 +131,89 @@ include DOT_MK_FILE
 ```
 
 *Note:* If the included *Makefile* matched a rule, it will be treated as a target file, and generated, before it is imported.
+### Variables
+---
+A *variable* may be defined within a *Makefile* to store text, using `:=`.
+
+```
+SRCS := A.c                # Assign 'A.c'
+SRCS += B.c                # Append 'B.c'
+SRCS := $(SRCS) C.c        # Append 'C.c'
+
+.PHONY: all
+
+all: $(SRCS)
+    command
+    ...
+```
+
+*Note:* Leading spaces are ignored in variable definitions, while trailing spaces are kept.
+
+*Note:* Evaluating an undefined variable yields an empty string, and issues no error.
+#### Automatic Variables
+---
+*Automatic variables* are a number of implicitly declared variables within any rule, that may be used within its commands only.
+* `$@`, denotes the target file name.
+* `$^`, denotes the names of all prerequisites (exclusive of order-only prerequisites).
+* `$?`, denotes the names of all prerequisites, that are newer than the target.
+* `$|`, denotes the names of all order-only prerequisites.
+* `$*`, denotes the stem of a pattern rule.
+
+*Note:* Use, for example, `$(@F)`, to evaluate to file names instead of complete paths.
+
+*Note:* Use, for example, `$(@D)`, to evaluate to containing directory paths instead of complete paths.
+#### Command-Line Variables
+---
+A variable may be passed to `make` in the command-line (e.g., `make CC:=GCC`). 
+
+It may then be evaluated, like any internally-defined variable, within a *Makefile*.
+
+To override the value of a command-line variable, precede its definition with the `override` directive.
+
+```
+override CC := TCC
+```
+#### Target-specific Variables
+---
+A variable may have different definitions, each for a different target.
+
+```
+CFG := A                   # Default 'CFG' definition
+%.o: CFG := B              # 'CFG' definition for any object file, as target
+x.o: CFG := C              # 'CFG' definition of 'x.o', as target
+```
+
+*Note:* A target-specific definition is prioritized over a pattern-specific definition.
+#### Conditional Directives
+---
+A *conditional directive* controls which lines, usually those that define variables, are included within a *Makefile*.
+
+```
+conditional-directive-1
+    VAR := VALUE-1
+else conditional-directive-2
+    VAR := VALUE-2
+endif
+```
+
+There are four types of conditional directives in *Make*.
+
+```
+ifeq ($(A), $(B))          # True, if the two arguments are equal
+ifneq ($(A), $(B))
+
+ifdef VAR                  # True, if 'VAR' is a non-empty variable
+ifndef VAR
+```
+### Functions
+---
+A *function* is called using the following syntax.
+
+```
+$(func-name arg1,arg2,...)
+```
+
+*Make* provides built-in function(s) for string manipulation, file management, applying conditionals, looping, executing shell commands, and more. [1]
 ## References
 ---
-[1] ...
+[1]  [GNU Make Manual](https://www.gnu.org/software/make/manual/html_node/index.html)

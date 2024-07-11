@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "345b9df297d38b94",
+        "id": "9056b5e2d1edcad8",
         "type": "tabs",
         "children": [
           {
-            "id": "7f494168e7f34e69",
+            "id": "297bbaf019edf1f8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topics/Technical-Topics/Tooling/Git.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topics/Technical-Topics/Tooling/Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topics/Technical-Topics/Tooling/Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Topics/Technical-Topics/Tooling/Git.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,12 +138,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7f494168e7f34e69",
+  "active": "297bbaf019edf1f8",
   "lastOpenFiles": [
+    "Topics/Technical-Topics/Tooling/TRACE32-PRACTICE-Language.md",
     "Topics/Technical-Topics/Tooling.md",
     "Topics/Technical-Topics.md",
     "Welcome!.md",
-    "Topics/Technical-Topics/Tooling/TRACE32-PRACTICE-Language.md",
     "Topics/Technical-Topics/Tooling/Git.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet/AUTOSAR-Module-SoAd.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Module-OS.md",

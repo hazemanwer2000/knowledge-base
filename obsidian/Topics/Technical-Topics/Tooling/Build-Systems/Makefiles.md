@@ -5,7 +5,7 @@
 ---
 *GNU Make* is a build-process automation tool, mainly employed in C/C++ projects. It prevents the unnecessary re-compilation of many files, especially in a medium-to-large sized project, significantly reducing the compilation time.
 
-The tool is called `make`, and by default, searches for a *Makefile* file in the working directory. Alternatively, the file to be executed may be passed with the `-f` option.
+The tool is called `make`, and by default, searches for a `makefile` file in the working directory. Alternatively, the file to be executed may be passed with the `-f` option.
 ### Rules
 ---
 A *Makefile* consists, mainly, of a set of *rules*. Each rule specifies:
@@ -93,6 +93,32 @@ A.o B.o C.o: %.o: %.c
     command
     ...
 ```
+#### Built-in Rules
+---
+An *built-in rule* is a rule that `make` defines implicitly.
+
+*Note:* It is recommended to cancel all built-in rules, by passing the `-r` option to `make`.
+#### Wildcard(s)
+---
+A *wildcard* is a special character(s), that may be placed within a target or prerequisite file names. It is expanded into all matching file names within a directory.
+
+* `*` matches anything. For example, `*.c` expands into all *C* source files (within the working directory).
+* `?` matches a single character. For example, `?.c` expands into all *C* source files with a single letter name.
+* `[...]` matches a single character, of specific range.
+    * `tmp[0-9].txt` expands into `tmp0.txt`, `tmp1.txt`, etc, if existing.
+    * `file.[hc]` expands into `file.c` and `file.h`, if existing.
+    * `[a-zA-Z].*` expands into all files with a single alphabetical character, and an extension.
+
+*Note:* Wildcards may be used elsewhere using the `wildcard` function, discussed later.
+#### The `include` Directive
+---
+The `include` directive may be used within a *Makefile* to import an `.mk` file, which is another *Makefile*.
+
+```
+include DOT_MK_FILE
+```
+
+*Note:* If the included *Makefile* matched a rule, it will be treated as a target file, and generated, before it is imported.
 ## References
 ---
 [1] ...

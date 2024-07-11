@@ -10,6 +10,8 @@ The module allows the configuration of socket connection group(s), each with one
 
 *Note:* For UDP, socket connection(s) within a socket connection group share the same UDP socket.
 
+*Note:* For TCP, if `SoAdSocketTcpInitiate` is false for a socket connection group, multiple socket connection(s) will use the same listen TCP socket, but use independent TCP socket(s) upon connection establishment.
+
 Each socket connection may be in one of these state(s) (i.e., `SOAD_SOCON_<..>`):
 * `OFFLINE`
 * `RECONNECT`
@@ -24,22 +26,43 @@ Within `SoAd_MainFunction`, all `OFFLINE` socket connection(s) that match the fo
 Within `SoAd_RxIndication`, a socket connection transitions from the `RECONNECT` state, to the `ONLINE` state, if,
 * For UDP,
 	* Configured remote address matches that of the received datagram.
+* For TCP,
+	* If `SoAdSocketTcpInitiate` is set to false,
+		* TCP connection listened for and established, and configured remote address matches that of the peer.
 
 *Note:* For UDP, if `SoAdSocketUdpListenOnly` is set to true, socket connection transitions from the `RECONNECT` to `CONNECT` state automatically.
+
+*Note:* For TCP, if `SoAdSocketTcpInitiate` is set to true, TCP connection is initiated within the `SoAd_MainFunction`. Upon success, socket connection transitions to `CONNECT` state. 
 
 *Note:* For socket connection group(s) with multiple socket connection(s), selection of the socket connection is based on the best-match algorithm [1].
 
 If `SoAd_CloseSoCon` is called for a socket connection, within the next `SoAd_MainFunction`,
 * For UDP,
 	* Transition into the `OFFLINE` state.
+	* Reset to the configured remote address.
+* For TCP,
+	* TCP connection is terminated.
+	* Transition into the `OFFLINE` state.
+	* Reset to the configured remote address.
 
 *Note:* For UDP, if `SoAdSocketUdpAliveSupervisionTimeout` time has passed since the last reception of a datagram, the associated socket connection transitions into the `RECONNECT` state.
 #### Additional Features
 ---
 ##### PDU Header Option
 ---
+For a socket connection group, if `SoAdPduHeaderEnable` is set to true, each PDU shall have a header, consisting of:
+* ID field (size: 4 bytes)
+* Size field (size: 4 bytes)
 ##### Message Acceptance Filter
 ---
+For a socket connection group, if `SoAdSocketMsgAcceptanceFilterEnabled` is set to true,
+* For TCP,
+	* TCP connection(s) will be accepted if the remote address of the peer matches the configured remote address.
+* For UDP,
+	* Received UDP datagram(s) will be accepted if the remote address, in each datagram, matches the configured remote address.
+##### Routing Group(s)
+---
+...
 ### Configuration
 ---
 ```

@@ -20,7 +20,7 @@ For job processing, the *Crypto Driver* supports,
 * Synchronous and asynchronous processing, and,
 * `START-UPDATE-FINISH` operation mode(s), of which multiple may be requested at once.
 
-The following is the state machine of a job.
+The following is the state machine of a job [3].
 
 ![[AUTOSAR-Crypto-Driver-Job-State-Machine.png|600]]
 
@@ -188,7 +188,7 @@ Path: CryptoKeyElements/CryptoKeyElement/CryptoKeyElementId
 Description: Identifies the usage of the key element (e.g., key material, IV, etc).
 ```
 
-*Note:* Refer to [2], for the list of appropriate ID value(s) for each key-element, per usage (e.g., encryption, signature generation, etc).
+*Note:* Refer to [3], for the list of appropriate ID value(s) for each key-element, per usage (e.g., encryption, signature generation, etc).
 ## References
 ---
 [1] Specification of Crypto Driver, AUTOSAR Classic Platform, R20-11

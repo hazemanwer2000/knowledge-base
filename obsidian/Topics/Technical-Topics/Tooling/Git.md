@@ -1,7 +1,11 @@
 ──────── *for more from the author, visit* [github.com/hazemanwer2000](https://github.com/hazemanwer2000). ────────
 ## *Table of Contents*
-...
+
+- [[#`Git` Local|`Git` Local]]
+- [[#`Git` Remote|`Git` Remote]]
 ## Content
+---
+#### `Git` Local
 ---
 To initialize a directory as a git repository,
 

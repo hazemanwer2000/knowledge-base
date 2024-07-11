@@ -62,7 +62,21 @@ For a socket connection group, if `SoAdSocketMsgAcceptanceFilterEnabled` is set 
 	* Received UDP datagram(s) will be accepted if the remote address, in each datagram, matches the configured remote address.
 ##### Routing Group(s)
 ---
-...
+Socket/PDU route destination(s) may belong to a routing group.
+
+If a routing group is de-activated, associated destination(s) become inactive.
+##### `nPDU` Buffering
+---
+If a UDP socket connection is referenced by PDU route destination(s) with at least one having `SoAdTxUdpTriggerMode` configured to `TRIGGER_NEVER`, a TX buffer shall be maintained.
+
+The TX buffer shall be transmitted, if,
+* `SoAdTxUdpTriggerTimeout` (or, if not configured, `SoAdSocketUdpTriggerTimeout`) is exceeded for any buffered PDU.
+* `SoAdSocketnPduUdpTxBufferMin` is about to be exceeded.
+* PDU is transmitted on a PDU route destination, with `SoAdTxUdpTriggerMode` set to `TRIGGER_ALWAYS`.
+
+For a PDU route, 
+* If `SoAdTxPduCollectionSemantics` is set to `COLLECT_LAST_IS_BEST`, only the transmission request shall be stored. Upon transmission, the PDU data is requested from the upper-layer.
+* If `SoAdTxPduCollectionSemantics` is set to `COLLECT_QUEUED`, the PDU data is queued when transmission is requested. Queuing of multiple instance(s) of same PDU (i.e., with same ID) is allowed.
 ### Configuration
 ---
 ```

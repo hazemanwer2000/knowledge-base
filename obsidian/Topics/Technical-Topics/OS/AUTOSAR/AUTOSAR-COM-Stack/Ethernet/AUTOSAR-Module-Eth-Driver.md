@@ -1,6 +1,4 @@
 ──────── *for more from the author, visit* [github.com/hazemanwer2000](https://github.com/hazemanwer2000). ────────
-## *Table of Contents*
-...
 ## Content
 ---
 *AUTOSAR* specifies a *Basic Software (BSW) Ethernet Driver* module, which resides in the MCAL layer, in functionality, API and configuration.

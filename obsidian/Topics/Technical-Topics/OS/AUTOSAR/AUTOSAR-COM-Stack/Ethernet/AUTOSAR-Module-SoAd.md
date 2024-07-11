@@ -6,7 +6,19 @@
 *AUTOSAR* specifies a *Basic Software (BSW) Socket Adaptor (SoAd)* module, in functionality, API and configuration.
 ### Specification
 ---
-...
+The module allows the configuration of socket connection group(s), each with one or more socket connection.
+
+Each socket connection may be in one of these state(s):
+* `SOAD_SOCON_OFFLINE`
+* `SOAD_SOCON_RECONNECT`
+* `SOAD_SOCON_ONLINE`
+
+After `SoAd_Init` is called, all socket connection(s) are initialized into the `SOAD_SOCON_OFFLINE` state.
+#### UDP
+---
+Socket connection(s) within a UDP socket connection group share the same UDP socket.
+
+Within `SoAd_MainFunction`, 
 ### Configuration
 ---
 ```

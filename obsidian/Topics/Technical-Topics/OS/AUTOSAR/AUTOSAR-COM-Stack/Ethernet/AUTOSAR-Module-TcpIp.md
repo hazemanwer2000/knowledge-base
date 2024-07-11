@@ -1,7 +1,30 @@
 ──────── *for more from the author, visit* [github.com/hazemanwer2000](https://github.com/hazemanwer2000). ────────
+## *Table of Contents*
+- [[#Specification|Specification]]
+- [[#Function(s)|Function(s)]]
+- [[#Configuration|Configuration]]
 ## Content
 ---
 *AUTOSAR* specifies a *Basic Software (BSW) TCP/IP* module, in functionality, API and configuration.
+### Specification
+---
+For each configured TCP/IP controller, a state is maintained (i.e., `TCPIP_STATE_<..>`), which may be:
+* `OFFLINE`
+* `ONLINE`
+* `ONHOLD`
+* `STARTUP` (Note: Transitional).
+* `SHUTDOWN` (Note: Transitional).
+
+For each configured local IP address, a state is maintained (i.e., `TCPIP_IPADDR_STATE_<..>`), which may be:
+* `UNASSIGNED`
+* `ASSIGNED`
+* `ONHOLD`
+
+| State (N) | State (N+1) | Description                                                                                                                    |
+| --------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| `OFFLINE` | `STARTUP`   | `ONLINE` state requested, waiting for at least one associated local IP address to be `ASSIGNED`, after which state is `ONLINE` |
+| `ONLINE`  | `SHUTDOWN`  | `OFFLINE` state requested, waiting for allocated resources to be freed, after which state is `OFFLINE`.                        |
+| `ONLINE`  | `ONHOLD`    | `ONHOLD` state requested, all associated local IP address(es) are put in state `ONHOLD`, and communication is not active.      |
 ### Function(s)
 ---
 
@@ -9,6 +32,7 @@
 | ------------------------------- | --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `TcpIp_Init`                    | API       | Initialize module.                                                                                                                                    |
 | `TcpIp_RequestIpAddrAssignment` | API       | Requests a manually-triggered, configured address assignment method for a given local address (See `TcpIpLocalAddr` and `TcpIpAddrAssignment` below). |
+| `TcpIp_RequestComMode`          | API       | Requests a state for a specific TCP/IP controller.                                                                                                    |
 | `TcpIp_UdpTransmit`             | API       | Transmit a UDP datagram.                                                                                                                              |
 | `TcpIp_TcpTransmit`             | API       | Transmit a TCP segment. A TCP/IP buffer is requested and filled, to be transmitted in the next `TcpIp_MainFunction`.                                  |
 | `TcpIp_RxIndication`            | Callback  | Called by `EthIf_RxIndication` to indicate the reception of a new frame, calls upper-layer's RX indication API.                                       |

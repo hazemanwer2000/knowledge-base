@@ -1,12 +1,16 @@
 ──────── *for more from the author, visit* [github.com/hazemanwer2000](https://github.com/hazemanwer2000). ────────
 ## *Table of Contents*
-...
+
+- [[#Specification|Specification]]
+- [[#Function(s)|Function(s)]]
+- [[#Configuration|Configuration]]
 ## Content
 ---
 *AUTOSAR* specifies a *Basic Software (BSW) Crypto Service Manager (Csm)* module, which resides in the Service layer, in functionality, API and configuration.
 ### Specification
 ---
 The module allows the configuration of cryptographic job(s). Each job references,
+
 * a `CsmKey`, which references a `CryIfKey`, which references a `CryptoKey` from the underlying Crypto Driver module(s),
 * a `CsmPrimitive`, specifying the cryptographic operation,
 * a `CsmQueue`, which references a `CryIfChannel`, which references a `CryptoDriverObject` from the underlying Crypto Driver module(s).
@@ -15,13 +19,13 @@ The module allows the configuration of cryptographic job(s). Each job references
 ### Function(s)
 ---
 
-| Name               | Type      | Description                                                                           |
-| ------------------ | --------- | ------------------------------------------------------------------------------------- |
-| `Csm_Init`         | API       | ...                                                                                   |
-| `Csm_MainFunction` | Scheduled | ...                                                                                   |
-| `Csm_<SERVICE>`    | API       | Different service API(s), used to trigger job execution.                              |
-| `Csm_CancelJob`    | API       | Used to cancel the execution of an on-going job.                                      |
-| `Csm_Key<ACTION>`  | API       | Different key-management API(s), as a direct interface to the underlying `CryptoKey`. |
+| Name               | Type      | Description                                                                               |
+| ------------------ | --------- | ----------------------------------------------------------------------------------------- |
+| `Csm_Init`         | API       | ...                                                                                       |
+| `Csm_MainFunction` | Scheduled | ...                                                                                       |
+| `Csm_<SERVICE>`    | API       | Different service API(s), used to trigger job execution.                                  |
+| `Csm_CancelJob`    | API       | Used to cancel the execution of an on-going job.                                          |
+| `Csm_Key<ACTION>`  | API       | Different key-management API(s), as a direct interface to the underlying *Crypto Driver*. |
 ### Configuration
 ---
 ```

@@ -276,7 +276,7 @@ To get statistics about all function/task activity (when applicable),
 ```
 Trace.Statistics [/Core CORE_NUMBER]
 
-Trace.Chart.Task [/Core CORE_NUMBER]
+Trace.Statistics.Task [/Core CORE_NUMBER]
 ```
 
 To draw the value of a traced variable against time (when applicable),
@@ -378,7 +378,7 @@ To reference a macro elsewhere, prepend `&` to its name (e.g., `&myMacro`).
 ---
 PRACTICE language supports arithmetic, bitwise and logical C-operators, in addition to parentheses.
 
-It also supports the range operator, `--`, which may be used to express address r
+It also supports the range and offset operator(s), `--` and `++`, which may be used to express address range.
 
 *Note:* Strings may be concatenated using the addition operator, `+`.
 #### Flow Control

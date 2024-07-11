@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "38eff59516f06cda",
+        "id": "7e5f3b4bfdd05f90",
         "type": "tabs",
         "children": [
           {
-            "id": "b8086572d37eabbf",
+            "id": "e466d6028ce606d0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/Technical-Topics/Tooling/Git.md",
+                "file": "Topics/Technical-Topics/Tooling/TRACE32-PRACTICE-Language.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topics/Technical-Topics/Tooling/Git.md",
+                "file": "Topics/Technical-Topics/Tooling/TRACE32-PRACTICE-Language.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topics/Technical-Topics/Tooling/Git.md",
+                "file": "Topics/Technical-Topics/Tooling/TRACE32-PRACTICE-Language.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topics/Technical-Topics/Tooling/Git.md"
+                "file": "Topics/Technical-Topics/Tooling/TRACE32-PRACTICE-Language.md"
               }
             }
           }
@@ -146,11 +146,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b8086572d37eabbf",
+  "active": "e466d6028ce606d0",
   "lastOpenFiles": [
     "Topics/Technical-Topics/Tooling.md",
     "Topics/Technical-Topics.md",
     "Welcome!.md",
+    "Topics/Technical-Topics/Tooling/Git.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet/AUTOSAR-Module-SoAd.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Module-OS.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet/AUTOSAR-Module-TcpIp.md",
@@ -165,7 +166,6 @@
     "Embedded-Systems.md",
     "Topics/Technical-Topics/Embedded-Systems.md",
     "Topics/Technical-Topics/OS/OSEK.md",
-    "Topics/Technical-Topics/Tooling/Git.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Crypto-Stack/AUTOSAR-Module-KeyM.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Crypto-Stack/AUTOSAR-Module-Csm.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet",

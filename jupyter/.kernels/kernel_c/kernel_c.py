@@ -1,6 +1,7 @@
 
 from ipykernel.kernelbase import Kernel
-import uuid
+import tempfile
+import subprocess
 
 class Kernel_C(Kernel):
     implementation = 'Kernel_C'
@@ -12,11 +13,35 @@ class Kernel_C(Kernel):
         'mimetype': 'text/plain',
         'file_extension': '.c',
     }
-    banner = "Kernel_C - Execute C code using the GCC toolchain."
+    banner = "Kernel-C: Execute C code in a Jupyter cell."
+
+    # Contant(s)
+    cc = 'gcc'
+
+    # API: Code processor.
 
     def process_code(self, code):
-        result = code.upper()
+        c_file = tempfile.NamedTemporaryFile(suffix='.c', delete=False)
+        c_file.write(code.encode('ascii'))
+        c_file.close()
+
+        exe_file = tempfile.NamedTemporaryFile(suffix='.exe', delete=False)
+        exe_file.close()
+
+        cc_argv = [self.cc, '-o', exe_file.name, c_file.name]
+        cc_res = subprocess.run(' '.join(cc_argv), shell=True, capture_output=True, text=True)
+
+        if cc_res.returncode == 0:
+            exe_res = subprocess.run(exe_file.name, shell=True, capture_output=True, text=True)
+            if exe_res.returncode == 0:
+                result = exe_res.stdout
+            else:
+                result = 'Executable was successfully generated, but failed to execute [Error-Code: ' + str(exe_res.returncode) + '].'
+        else:
+            result = '\n\n'.join(['Toolchain [' + self.cc + '] failed with the following error(s):', ' '.join(cc_argv), cc_res.stderr])
         return result
+
+    # API: Executioner.
 
     def do_execute(self, code, silent, store_history=True, user_expressions=None, allow_stdin=False):
         result = self.process_code(code)

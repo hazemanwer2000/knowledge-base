@@ -1,9 +1,12 @@
 ## *Sub-topics!*
 ---
-* [[Git]]
-* [[TRACE32-PRACTICE-Language]]
-* [[Regular-Expressions]]
-* [[Build-Systems]]
+* Categories
+	* [[Version-Control]]
+	* [[Debugger-Scripting]]
+	* [[Shell-Scripting]]
+	* [[Build-Systems]]
+* Miscellaneous
+	* [[Regular-Expressions]]
 ## *Content*
 ---
 La-bla!

@@ -4,16 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "fc47ed20ddf06fbd",
+        "id": "4b24f991fad95b2c",
         "type": "tabs",
         "children": [
           {
-            "id": "68359f763464a4de",
+            "id": "f6a2bc927e7ee373",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/Technical-Topics/Tooling/Build-Systems/Makefiles.md",
+                "file": "Topics/Technical-Topics/Tooling/Shell-Scripting/Batch-Scripting.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aa8833e1a24a836e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Welcome!.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topics/Technical-Topics/Tooling/Build-Systems/Makefiles.md",
+                "file": "Topics/Technical-Topics/Tooling/Shell-Scripting/Batch-Scripting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topics/Technical-Topics/Tooling/Build-Systems/Makefiles.md",
+                "file": "Topics/Technical-Topics/Tooling/Shell-Scripting/Batch-Scripting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topics/Technical-Topics/Tooling/Build-Systems/Makefiles.md"
+                "file": "Topics/Technical-Topics/Tooling/Shell-Scripting/Batch-Scripting.md"
               }
             }
           }
@@ -146,20 +158,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "68359f763464a4de",
+  "active": "f6a2bc927e7ee373",
   "lastOpenFiles": [
-    "Topics/Technical-Topics/Tooling/Git.md",
-    "Topics/Technical-Topics/Tooling/TRACE32-PRACTICE-Language.md",
-    "Google.md",
-    "Topics/Technical-Topics/Tooling/Build-Systems/Makefiles.md",
     "Welcome!.md",
-    "Topics/Technical-Topics/Tooling/Build-Systems.md",
+    "Topics/Technical-Topics/Tooling/Shell-Scripting/Batch-Scripting.md",
+    "Topics/Technical-Topics/Tooling/Shell-Scripting.md",
     "Topics/Technical-Topics/Tooling.md",
+    "Topics/Technical-Topics/Tooling/Build-Systems.md",
     "Topics/Technical-Topics.md",
+    "Topics/Technical-Topics/Tooling/Regular-Expressions.md",
+    "Topics/Technical-Topics/Tooling/Version-Control.md",
+    "Topics/Technical-Topics/Tooling/Debugger-Scripting.md",
+    "Topics/Technical-Topics/Tooling/Build-Systems/Makefiles.md",
+    "Topics/Technical-Topics/Tooling/Debugger-Scripting/TRACE32-PRACTICE-Language.md",
+    "Topics/Technical-Topics/Tooling/Version-Control",
+    "Topics/Technical-Topics/Tooling/Debugger-Scripting",
+    "Topics/Technical-Topics/Tooling/Shell-Scripting",
+    "Topics/Technical-Topics/Tooling/Version-Control/Git.md",
+    "Google.md",
     "Topics/Technical-Topics/Tooling/Build-Systems",
     "Topics/Technical-Topics/Communication-Protocols.md",
     "Topics/Technical-Topics/Communication-Protocols/IPsec.md",
-    "Topics/Technical-Topics/Tooling/Regular-Expressions.md",
     "Topics/Technical-Topics/Cryptography.md",
     "Topics/Technical-Topics/Cryptography/Symmetric-Encryption.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet/AUTOSAR-Module-TcpIp.md",
@@ -171,10 +190,6 @@
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet/AUTOSAR-Module-Eth-Driver.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Memory-Stack/AUTOSAR-Module-Fee.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Module-OS.md",
-    "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Crypto-Stack/AUTOSAR-Module-KeyM.md",
-    "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Crypto-Stack/AUTOSAR-Module-Csm.md",
-    "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Crypto-Stack/AUTOSAR-Module-Crypto-Driver.md",
-    "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Memory-Stack/AUTOSAR-Module-NvM.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack",
     "~IMG/AUTOSAR-KeyM-Csm-Cfg.png",
@@ -184,11 +199,8 @@
     "Topics/Technical-Topics/Tooling",
     "Topics/Technical-Topics/Tooling",
     "Topics/Technical-Topics/Embedded-Systems",
-    "Topics/Technical-Topics/OS",
-    "Topics/Technical-Topics/TRACE32",
     "~IMG/OSEK-Extended-Task-State-Diagram.png",
     "~IMG/OSEK-Basic-Task-State-Diagram.png",
-    "Topics/Technical-Topics/OS/OSEK",
     "~IMG/AUTOSAR-OS-Schedule-Table-Explicit-States.png",
     "~IMG/AUTOSAR-OS-Schedule-Table-Implict-States.png",
     "~IMG/AUTOSAR-OS-Schedule-Table-States.png",

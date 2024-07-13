@@ -3,9 +3,9 @@
 ...
 ## Content
 ---
-*SOME/IP* (Scalable service-Oriented MiddlewarE over IP) protocol allows the definition of service(s).
+*SOME/IP* (Scalable service-Oriented MiddlewarE over IP) protocol allows the definition of service(s). [1]
 
-*SOME/IP-SD* (Service Discovery) manages the discovery and subscription to service(s).
+*SOME/IP-SD* (Service Discovery) manages the discovery and subscription to service(s). [2]
 ### SOME/IP
 ---
 A service may contain one or more event, method or field.

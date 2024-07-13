@@ -2,7 +2,7 @@
 ---
 * Categories
 	* [[Version-Control]]
-	* [[Debugger-Scripting]]
+	* [[Niche-Scripting]]
 	* [[Shell-Scripting]]
 	* [[Build-Systems]]
 * Miscellaneous

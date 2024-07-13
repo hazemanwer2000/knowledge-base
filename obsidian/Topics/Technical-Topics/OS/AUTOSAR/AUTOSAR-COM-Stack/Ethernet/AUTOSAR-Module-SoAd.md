@@ -105,7 +105,7 @@ SoAdConfig [C, 1]
 		SoAdSocketConnection [C, 1..*]
 			SoAdSocketId [P]
 
-			SoAdSocketRemoteAddress [C, 1]
+			SoAdSocketRemoteAddress [C, 0..1]
 				SoAdSocketRemoteIpAddress [P]
 				SoAdSocketRemotePort [P]
 

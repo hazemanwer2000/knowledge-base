@@ -49,6 +49,26 @@ The header format, as shown below, consists of,
 	* In all other cases, the status is `E_OK`.
 
 ![[SOME-IP-Header-Format.png|650]]
+### SOME/IP-SD
+---
+#### Header Format
+---
+SOME/IP-SD messages are sent as SOME/IP messages. Hence, a SOME/IP header precedes the SOME/IP-SD header, and consists of, most notably,
+* Service ID, fixed to `0xFFFF`.
+* Method/Event/Field ID, fixed to `0x8100`.
+* Request ID, consists of,
+	* Client ID, fixed to `0x0`.
+		* *Note:* Only a single SD client may reside within an ECU.
+	* Session ID, increments per SD message sent, per client.
+		* *Note:* Even though SD message(s) are `NOTIFICATION`(s), the Session ID must be used.
+* Interface Version, fixed to `0x1`.
+* Message Type, fixed to `NOTIFICATION`.
+
+
+
+![[SOME-IP-SD-Header-Format.png|700]]
+
+*Note:* SOME/IP-SD messages are sent over UDP.
 ## References
 ---
 [1] SOME/IP Protocol Specification, AUTOSAR Classic Platform, R22-11

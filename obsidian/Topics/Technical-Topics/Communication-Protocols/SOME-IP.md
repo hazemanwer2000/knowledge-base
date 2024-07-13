@@ -64,7 +64,13 @@ SOME/IP-SD messages are sent as SOME/IP messages. Hence, a SOME/IP header preced
 * Interface Version, fixed to `0x1`.
 * Message Type, fixed to `NOTIFICATION`.
 
-
+The SD header format, as shown below, consists of,
+* Flags (Size: 1 byte)
+	* Reboot flag (Position: 7), which is initially set, and is reset after the Session ID wraps for the first time.
+		* *Note:* A reboot of an SD client is detected if either,
+			* Reboot flag transitions from `0` to `1`.
+			* Reboot flag remains `1`, and the Session ID, let it be ($X$), ($X_{n+1} > X_n$) is not true.
+* ...
 
 ![[SOME-IP-SD-Header-Format.png|700]]
 

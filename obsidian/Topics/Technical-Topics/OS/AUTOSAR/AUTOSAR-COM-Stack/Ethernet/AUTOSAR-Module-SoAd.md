@@ -31,12 +31,12 @@ Within `SoAd_MainFunction`, all `OFFLINE` socket connection(s) that match the fo
 
 Within `SoAd_RxIndication`, a socket connection transitions from the `RECONNECT` state, to the `ONLINE` state, if,
 * For UDP,
-	* Configured remote address matches that of the received datagram.
+	* Wildcard-containing remote address matches that of the received datagram.
 * For TCP,
 	* If `SoAdSocketTcpInitiate` is set to false,
-		* TCP connection listened for and established, and configured remote address matches that of the peer.
+		* TCP connection listened for and established, and remote address matches that of the peer.
 
-*Note:* For UDP, if `SoAdSocketUdpListenOnly` is set to true, socket connection transitions from the `RECONNECT` to `CONNECT` state automatically.
+*Note:* For UDP, if `SoAdSocketUdpListenOnly` is set to true, or the remote address does not contain wildcard(s), the socket connection transitions from the `RECONNECT` to `CONNECT` state automatically.
 
 *Note:* For TCP, if `SoAdSocketTcpInitiate` is set to true, TCP connection is initiated within the `SoAd_MainFunction`. Upon success, socket connection transitions to `CONNECT` state. 
 
@@ -51,7 +51,14 @@ If `SoAd_CloseSoCon` is called for a socket connection, within the next `SoAd_Ma
 	* Transition into the `OFFLINE` state.
 	* Reset to the configured remote address.
 
-*Note:* For UDP, if `SoAdSocketUdpAliveSupervisionTimeout` time has passed since the last reception of a datagram, the associated socket connection transitions into the `RECONNECT` state.
+*Note:* For UDP, if `SoAdSocketUdpAliveSupervisionTimeout` time has passed since the last reception of a datagram, the associated socket connection transitions into the `RECONNECT` state instead.
+
+For clarification purposes,
+* A remote address may be,
+	* Unconfigured and unset.
+	* Configured.
+	* Set (via `SoAd_SetRemoteAddr`).
+* In all case(s), it may contain wildcard(s) (e.g., `ANY` for IP, 0 for port).
 #### Additional Features
 ---
 ##### PDU Header Option
@@ -63,9 +70,9 @@ For a socket connection group, if `SoAdPduHeaderEnable` is set to true, each PDU
 ---
 For a socket connection group, if `SoAdSocketMsgAcceptanceFilterEnabled` is set to true,
 * For TCP,
-	* TCP connection(s) will be accepted if the remote address of the peer matches the configured remote address.
+	* TCP connection(s) will be accepted if the remote address of the peer matches the current remote address.
 * For UDP,
-	* Received UDP datagram(s) will be accepted if the remote address, in each datagram, matches the configured remote address.
+	* Received UDP datagram(s) will be accepted if the remote address, in each datagram, matches the current remote address.
 ##### Routing Group(s)
 ---
 Socket/PDU route destination(s) may belong to a routing group.

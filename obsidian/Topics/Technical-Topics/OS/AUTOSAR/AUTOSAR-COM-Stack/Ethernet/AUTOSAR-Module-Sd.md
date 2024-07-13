@@ -23,9 +23,17 @@ SdConfig [C, 1]
 			SdServiceGroupRef [R, 0..*]
 
 			SdConsumedEventGroup [C, 0..*]
+				SdConsumedEventGroupHandleId [P]
 				SdConsumedEventGroupAutoRequire [P]
+				SdConsumedEventGroupId [P]
+				SdConsumedEventGroupUdpActivationRef [R, 0..1]
+				SdConsumedEventGroupTcpActivationRef [R, 0..1]
+				SdConsumedEventGroupMulticastGroupRef [R, 0..1]
+				SdConsumedEventGroupMulticastActivationRef [R, 0..1]
+				SdConsumedEventGroupTimerRef [R, 1]
 
 			SdConsumedMethods [C, 0..1]
+				SdClientServiceActivationRef [R, 1]
 
 		SdClientTimer [C, 0..*]
 

@@ -3,6 +3,69 @@
 ...
 ## Content
 ---
+*AUTOSAR* specifies a *Basic Software (BSW) Service Discovery (Sd)* module, in functionality, API and configuration [1].
+
+It is responsible for the realization of the SOME/IP-SD protocol [2].
+### Specification
+---
+#### SOME/IP-SD
+---
+##### Header Format
+---
+SOME/IP-SD messages are sent as SOME/IP messages. Hence, a SOME/IP header precedes the SOME/IP-SD header, and consists of, most notably,
+* Service ID, fixed to `0xFFFF`.
+* Method/Event/Field ID, fixed to `0x8100`.
+* Request ID, consists of,
+	* Client ID, fixed to `0x0`.
+		* *Note:* Only a single SD client may reside within an ECU.
+	* Session ID, increments per SD message sent, per client.
+		* *Note:* Even though SD message(s) are `NOTIFICATION`(s), the Session ID must be used.
+* Interface Version, fixed to `0x1`.
+* Message Type, fixed to `NOTIFICATION`.
+
+The SD header format, as shown below, consists of,
+* Flags (Size: 1 byte)
+	* Reboot flag (Position: 7), which is initially set, and is reset after the Session ID wraps for the first time.
+		* *Note:* A reboot of an SD client is detected if either,
+			* Reboot flag transitions from `0` to `1`.
+			* Reboot flag remains `1`, and the Session ID, let it be ($X$), ($X_{n+1} > X_n$) is not true.
+* Variable number of entries.
+* Variable number of option(s).
+
+![[SOME-IP-SD-Header-Format.png|725]]
+
+*Note:* SOME/IP-SD messages are sent over UDP.
+##### Entry Types
+---
+###### Type-1
+---
+The format of an SD Type-1 Entry, as shown below, consists most notably of,
+* Type (Size: 1 byte), which may be,
+	* `FindService`
+	* `(Stop)OfferService`
+* First/Second Option(s) Run Index (Size: 2x1 byte)
+* First/Second Option(s) Run Length (Size: 2x1 nibble)
+* Time-To-Live (Size: 3 bytes), which denotes the length of time this entry is valid for.
+
+![[SOME-IP-SD-Entry-Type-1.png|650]]
+
+*Note:* An Option Run is a sequential number of option(s) in the Option(s) Array, referenced via an index and length.
+
+*Note:* A TTL with value 0 denotes a `Stop<...>` Entry.
+
+*Note:* The presence of all binary 1's in any relevant field (e.g., Minor Version), denotes the acceptance of any value, or selection of all value(s), for that field.
+###### Type-2
+---
+The format of an SD Type-2 Entry, as shown below, differs from a Type-1 entry in,
+* Type (Size: 1 byte), which may be,
+	* `(Stop)SubscribeEventgroup`
+	* `SubscribeEventgroup(N)Ack`
+* Counter (Size: 1 nibble), which is used to differentiate between identical subscription(s), with differing End-point option(s)
+* Event-Group ID (Size: 2 bytes), (see below)
+
+![[SOME-IP-SD-Entry-Type-2.png|650]]
+
+*Note:* For `SubscribeEventgroupAck` entries, a TTL with value 0 denotes a `SubscribeEventgroupNack` Entry.
 ### Configuration
 ---
 ```
@@ -99,7 +162,12 @@ SdConfig [C, 1]
 
 	SdServiceGroup [C, 0..*]
 		SdServiceGroupHandleId [P]
+
+SdGeneral [C, 1]
+	SdMainFunctionCycleTime [P]
+	SdSubscribeEventgroupRetryEnable [P]
 ```
 ## References
 ---
-[1] ...
+[1] Specification of Socket Adaptor module, AUTOSAR Classic Platform, R20-11
+[2] SOME/IP-SD Protocol Specification, AUTOSAR Classic Platform, R22-11

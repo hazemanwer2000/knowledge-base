@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "f0f4710d878cfe57",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topics/Technical-Topics/Communication-Protocols/SOME-IP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "fd55f03c94786658",
             "type": "leaf",
             "state": {
@@ -184,34 +196,35 @@
   },
   "active": "93c9963397b13a13",
   "lastOpenFiles": [
-    "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet/AUTOSAR-Module-SoAd.md",
+    "Topics/Technical-Topics/Communication-Protocols/SOME-IP.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet/AUTOSAR-Module-Sd.md",
-    "Topics/Technical-Topics/OS/AUTOSAR.md",
-    "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet/AUTOSAR-Module-TcpIp.md",
-    "Topics/Technical-Topics/OS.md",
+    "~IMG/SOME-IP-SD-Entry-Type-2.png",
+    "Topics/Technical-Topics/Cryptography.md",
+    "Topics/Technical-Topics/Cryptography/Message-Authentication-Codes.md",
+    "Topics/Technical-Topics/Cryptography/Message-Authentication-Codes/CMAC.md",
+    "Topics/Technical-Topics/Cryptography/Message-Authentication-Codes/HMAC.md",
     "Topics/Technical-Topics.md",
     "Welcome!.md",
+    "~IMG/SOME-IP-SD-Entry-Type-1.png",
+    "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet/AUTOSAR-Module-SoAd.md",
+    "Topics/Technical-Topics/OS/AUTOSAR.md",
+    "Topics/Technical-Topics/Communication-Protocols.md",
+    "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet/AUTOSAR-Module-TcpIp.md",
+    "Topics/Technical-Topics/OS.md",
     "Topics/Technical-Topics/Tooling.md",
     "Topics/Technical-Topics/Tooling/Regular-Expressions.md",
     "Topics/Technical-Topics/Tooling/Version-Control.md",
     "Topics/Technical-Topics/Tooling/Shell-Scripting.md",
     "Topics/Technical-Topics/Tooling/Niche-Scripting.md",
-    "Topics/Technical-Topics/Communication-Protocols.md",
-    "Topics/Technical-Topics/Communication-Protocols/SOME-IP.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet/AUTOSAR-Module-EthIf.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Memory-Stack/AUTOSAR-Module-NvM.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Memory-Stack/AUTOSAR-Module-Fls.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Memory-Stack/AUTOSAR-Module-Fee.md",
-    "Topics/Technical-Topics/Cryptography.md",
     "Topics/Technical-Topics/Tooling/Build-Systems.md",
     "Topics/Technical-Topics/Tooling/Version-Control/Git.md",
     "~IMG/SOME-IP-SD-Header-Format.png",
     "Topics/Technical-Topics/Tooling/Shell-Scripting/Batch-Scripting.md",
-    "Topics/Technical-Topics/Tooling/Build-Systems/Makefiles.md",
     "~IMG/SOME-IP-Header-Format.png",
-    "Topics/Technical-Topics/Communication-Protocols/IPsec.md",
-    "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet/AUTOSAR-Module-Eth-Driver.md",
-    "Topics/Technical-Topics/Tooling/Debugger-Scripting/TRACE32-PRACTICE-Language.md",
     "Topics/Technical-Topics/Tooling/Version-Control",
     "Topics/Technical-Topics/Tooling/Debugger-Scripting",
     "Topics/Technical-Topics/Tooling/Shell-Scripting",
@@ -228,8 +241,6 @@
     "~IMG/OSEK-Extended-Task-State-Diagram.png",
     "~IMG/OSEK-Basic-Task-State-Diagram.png",
     "~IMG/AUTOSAR-OS-Schedule-Table-Explicit-States.png",
-    "~IMG/AUTOSAR-OS-Schedule-Table-Implict-States.png",
-    "~IMG/AUTOSAR-OS-Schedule-Table-States.png",
-    "~IMG/ESP-Transport-Mode.png"
+    "~IMG/AUTOSAR-OS-Schedule-Table-Implict-States.png"
   ]
 }

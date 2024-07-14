@@ -4,8 +4,6 @@
 ## Content
 ---
 *SOME/IP* (Scalable service-Oriented MiddlewarE over IP) protocol allows the definition of service(s). [1]
-
-*SOME/IP-SD* (Service Discovery) manages the discovery and subscription to service(s). [2]
 ### SOME/IP
 ---
 A service may contain one or more event, method or field.
@@ -49,33 +47,6 @@ The header format, as shown below, consists of,
 	* In all other cases, the status is `E_OK`.
 
 ![[SOME-IP-Header-Format.png|650]]
-### SOME/IP-SD
----
-#### Header Format
----
-SOME/IP-SD messages are sent as SOME/IP messages. Hence, a SOME/IP header precedes the SOME/IP-SD header, and consists of, most notably,
-* Service ID, fixed to `0xFFFF`.
-* Method/Event/Field ID, fixed to `0x8100`.
-* Request ID, consists of,
-	* Client ID, fixed to `0x0`.
-		* *Note:* Only a single SD client may reside within an ECU.
-	* Session ID, increments per SD message sent, per client.
-		* *Note:* Even though SD message(s) are `NOTIFICATION`(s), the Session ID must be used.
-* Interface Version, fixed to `0x1`.
-* Message Type, fixed to `NOTIFICATION`.
-
-The SD header format, as shown below, consists of,
-* Flags (Size: 1 byte)
-	* Reboot flag (Position: 7), which is initially set, and is reset after the Session ID wraps for the first time.
-		* *Note:* A reboot of an SD client is detected if either,
-			* Reboot flag transitions from `0` to `1`.
-			* Reboot flag remains `1`, and the Session ID, let it be ($X$), ($X_{n+1} > X_n$) is not true.
-* ...
-
-![[SOME-IP-SD-Header-Format.png|700]]
-
-*Note:* SOME/IP-SD messages are sent over UDP.
 ## References
 ---
 [1] SOME/IP Protocol Specification, AUTOSAR Classic Platform, R22-11
-[2] SOME/IP-SD Protocol Specification, AUTOSAR Classic Platform, R22-11

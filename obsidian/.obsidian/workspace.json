@@ -117,7 +117,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 332.5
+    "width": 389.5
   },
   "right": {
     "id": "c103dae2cc1a2de0",
@@ -198,6 +198,11 @@
   "lastOpenFiles": [
     "Topics/Technical-Topics/Communication-Protocols/SOME-IP.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet/AUTOSAR-Module-Sd.md",
+    "Pasted image 20240715003822 1.png",
+    "~IMG/SOME-IP-SD-Option-Endpoint-IPv4-SD.png",
+    "~IMG/SOME-IP-SD-Option-Endpoint-IPv4-Multicast.png",
+    "~IMG/SOME-IP-SD-Option-Endpoint-IPv4.png",
+    "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet/AUTOSAR-Module-SoAd.md",
     "~IMG/SOME-IP-SD-Entry-Type-2.png",
     "Topics/Technical-Topics/Cryptography.md",
     "Topics/Technical-Topics/Cryptography/Message-Authentication-Codes.md",
@@ -206,7 +211,6 @@
     "Topics/Technical-Topics.md",
     "Welcome!.md",
     "~IMG/SOME-IP-SD-Entry-Type-1.png",
-    "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet/AUTOSAR-Module-SoAd.md",
     "Topics/Technical-Topics/OS/AUTOSAR.md",
     "Topics/Technical-Topics/Communication-Protocols.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet/AUTOSAR-Module-TcpIp.md",
@@ -237,10 +241,6 @@
     "Untitled.canvas",
     "Topics/Technical-Topics/Tooling",
     "Topics/Technical-Topics/Tooling",
-    "Topics/Technical-Topics/Embedded-Systems",
-    "~IMG/OSEK-Extended-Task-State-Diagram.png",
-    "~IMG/OSEK-Basic-Task-State-Diagram.png",
-    "~IMG/AUTOSAR-OS-Schedule-Table-Explicit-States.png",
-    "~IMG/AUTOSAR-OS-Schedule-Table-Implict-States.png"
+    "Topics/Technical-Topics/Embedded-Systems"
   ]
 }

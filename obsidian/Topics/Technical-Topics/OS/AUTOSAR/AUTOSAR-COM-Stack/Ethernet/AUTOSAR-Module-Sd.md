@@ -34,7 +34,7 @@ The SD header format, as shown below, consists of,
 
 ![[SOME-IP-SD-Header-Format.png|725]]
 
-*Note:* SOME/IP-SD messages are sent over UDP.
+*Note:* SOME/IP-SD messages must be sent over UDP.
 ##### Entry Types
 ---
 ###### Type-1
@@ -60,12 +60,48 @@ The format of an SD Type-2 Entry, as shown below, differs from a Type-1 entry in
 * Type (Size: 1 byte), which may be,
 	* `(Stop)SubscribeEventgroup`
 	* `SubscribeEventgroup(N)Ack`
-* Counter (Size: 1 nibble), which is used to differentiate between identical subscription(s), with differing End-point option(s)
+* Counter (Size: 1 nibble), which is used to differentiate between identical subscription(s), with differing End-point option(s). When unused, it shall be 0.
 * Event-Group ID (Size: 2 bytes), (see below)
 
 ![[SOME-IP-SD-Entry-Type-2.png|650]]
 
-*Note:* For `SubscribeEventgroupAck` entries, a TTL with value 0 denotes a `SubscribeEventgroupNack` Entry.
+*Note:* For `SubscribeEventgroup(N)Ack` entries, a TTL with value 0 denotes a `SubscribeEventgroupNack` Entry.
+##### Option Types
+---
+###### IPv4 Endpoint
+---
+The following is the format of an IPv4 Endpoint Option.
+* An `OfferService` Entry must reference an IPv4 Endpoint Option, to denote the end-point of the service-instance.
+* A `SubscribeEventgroup` must reference an IPv4 Endpoint Option, to denote the end-point of the client.
+
+![[SOME-IP-SD-Option-Endpoint-IPv4.png|725]]
+
+Additionally, the following variation(s) of the IPv4 Endpoint Option exist, that differ only in the Type field,
+* IPv4 Multi-cast Endpoint Option, which may be included in the `SubscribeEventgroupAck` Entry, to denote a Multi-cast Endpoint to which `NOTIFICATION`(s) may be sent (see below).
+### Server(s)
+---
+A server-service may be in one of the following state(s) (i.e., `SD_SERVER_SERVICE_<...>`),
+* `DOWN`, default after `Sd_Init` is called, and `SdServerServiceAutoAvailable` is set to false.
+* `AVAILABLE`, if `SdServerServiceAutoAvailable` is set to true.
+
+*Note:* `Sd_ServerServiceSetState` may be used to alter the state of a server-service.
+
+After a server-service is `AVAILABLE`, it enters the Initial-Wait phase.
+* It shall remain in this phase for a random time-delay, between `SdServerTimerInitialOfferDelayMax` and `SdServerTimerInitialOfferDelayMin`, before sending its first `OfferService` Entry and transitioning to the Repetition phase.
+* While in this phase, received `FindService` Entries shall be discarded.
+
+Upon entering the Repetition phase,
+* `for i in range(SdServerTimerInitialOfferRepetitionsMax):`
+	* `delay((i+1) * SdServerTimerInitialOfferRepetitionBaseDelay)`
+	* Send `OfferService` Entry.
+* Finally, a transition to the Main phase occurs.
+* While in this phase, received `FindService` Entries shall be responded to.
+
+Upon entering the Main phase,
+* `if SdServerTimerOfferCyclicDelay > 0:`
+	* `while(True):`
+		* `delay(SdServerTimerOfferCyclicDelay)`
+		* Send `OfferService` Entry.
 ### Configuration
 ---
 ```

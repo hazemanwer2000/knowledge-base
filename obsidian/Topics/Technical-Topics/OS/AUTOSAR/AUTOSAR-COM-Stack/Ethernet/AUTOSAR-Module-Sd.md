@@ -75,13 +75,27 @@ SdConfig [C, 1]
 					SdEventActivationRef [R, 1]
 					SdEventTriggeringRef [R, 1]
 
+			SdProvidedMethods [C, 0..1]
+				SdServerServiceActivationRef [R, 1]
+
 		SdServerTimer [C, 0..*]
+			SdServerTimerInitialOfferDelayMax [P]
+			SdServerTimerInitialOfferDelayMin [P]
+			SdServerTimerInitialOfferRepetitionBaseDelay [P]
+			SdServerTimerInitialOfferRepetitionsMax [P]
+			SdServerTimerOfferCyclicDelay [P]
+			SdServerTimerRequestResponseMaxDelay [P]
+			SdServerTimerRequestResponseMinDelay [P]
+			SdServerTimerTTL [P]
 
 		SdInstanceTxPdu [C, 1]
+			SdTxPduRef [R, 1]
 
 		SdInstanceUnicastRxPdu [C, 1]
+			SdRxPduRef [R, 1]
 
 		SdInstanceMulticastRxPdu [C, 1]
+			SdRxPduRef [R, 1]
 
 	SdServiceGroup [C, 0..*]
 		SdServiceGroupHandleId [P]

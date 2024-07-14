@@ -61,7 +61,8 @@ The format of an SD Type-2 Entry, as shown below, differs from a Type-1 entry in
 	* `(Stop)SubscribeEventgroup`
 	* `SubscribeEventgroup(N)Ack`
 * Counter (Size: 1 nibble), which is used to differentiate between identical subscription(s), with differing End-point option(s). When unused, it shall be 0.
-* Event-Group ID (Size: 2 bytes), (see below)
+* Event-Group ID (Size: 2 bytes)
+	* *Note:* An event-group is a grouping of different event(s) and field(s), to be received as `NOTIFICATION`(s).
 
 ![[SOME-IP-SD-Entry-Type-2.png|650]]
 
@@ -73,6 +74,8 @@ The format of an SD Type-2 Entry, as shown below, differs from a Type-1 entry in
 The following is the format of an IPv4 Endpoint Option.
 * An `OfferService` Entry must reference an IPv4 Endpoint Option, to denote the end-point of the service-instance.
 * A `SubscribeEventgroup` must reference an IPv4 Endpoint Option, to denote the end-point of the client.
+
+*Note:* Upon subscription, non-`NOTIFICATION` SOME/IP message(s) shall be sent as Unicast traffic, between the end-point(s) of the service-instance and the client.
 
 ![[SOME-IP-SD-Option-Endpoint-IPv4.png|725]]
 

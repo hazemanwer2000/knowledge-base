@@ -93,15 +93,34 @@ After a server-service is `AVAILABLE`, it enters the Initial-Wait phase.
 Upon entering the Repetition phase,
 * `for i in range(SdServerTimerInitialOfferRepetitionsMax):`
 	* `delay((i+1) * SdServerTimerInitialOfferRepetitionBaseDelay)`
-	* Send `OfferService` Entry.
+	* Send `OfferService` Entry (as Multi-cast traffic).
 * Finally, a transition to the Main phase occurs.
-* While in this phase, received `FindService` Entries shall be responded to.
+* While in this phase, received `FindService` Entries shall be responded to (as Uni-cast traffic).
 
 Upon entering the Main phase,
 * `if SdServerTimerOfferCyclicDelay > 0:`
 	* `while(True):`
 		* `delay(SdServerTimerOfferCyclicDelay)`
-		* Send `OfferService` Entry.
+		* Send `OfferService` Entry (as Multi-cast traffic).
+
+While in either the Repetition or Main phase(s),
+* `SubscribeEventgroup` Entries are responded to.
+	* For UDP, as an example,
+		* End-point of the server-service is the local IP-address and port of `SdServerServiceUdpRef`.
+		* Socket connection(s) in `SdServerServiceUdpRef` are used for Unicast traffic with subscriber(s).
+	* For Multi-cast,
+		* End-point of the Multi-cast traffic is the remote IP-address and port of `SdMulticastEventSoConRef`.
+		* `switch (SdEventHandlerMulticastThreshold):`
+			* `case 0:`
+				* `NOTIFICATION(s)` are always sent as Unicast traffic.
+			* `case 1:`
+				* `NOTIFICATION(s)` are always sent as Multi-cast traffic.
+			* `case N:`
+				* `if subscribersCount < N`:
+					* `NOTIFICATION(s)` are sent as Unicast traffic.
+				* `else:`
+					* `NOTIFICATION(s)` are sent as Multi-cast traffic.
+	* `<...>ActivationRef` are different routing-group(s), to be enabled/disabled in different context(s).
 ### Configuration
 ---
 ```

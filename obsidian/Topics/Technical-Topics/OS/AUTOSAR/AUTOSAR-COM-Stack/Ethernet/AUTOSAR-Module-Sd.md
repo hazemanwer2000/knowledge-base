@@ -1,6 +1,20 @@
 ──────── *for more from the author, visit* [github.com/hazemanwer2000](https://github.com/hazemanwer2000). ────────
 ## *Table of Contents*
-...
+- [[#Specification|Specification]]
+	- [[#Specification#SOME/IP-SD|SOME/IP-SD]]
+		- [[#SOME/IP-SD#Header Format|Header Format]]
+		- [[#SOME/IP-SD#Entry Types|Entry Types]]
+			- [[#Entry Types#Type-1|Type-1]]
+			- [[#Entry Types#Type-2|Type-2]]
+		- [[#SOME/IP-SD#Option Types|Option Types]]
+			- [[#Option Types#IPv4 Endpoint|IPv4 Endpoint]]
+	- [[#Specification#Server(s)|Server(s)]]
+	- [[#Specification#Client(s)|Client(s)]]
+	- [[#Specification#Additional Features|Additional Features]]
+		- [[#Additional Features#Multi-cast Response Delay|Multi-cast Response Delay]]
+		- [[#Additional Features#Service Group(s)|Service Group(s)]]
+		- [[#Additional Features#SD Message TX/RX|SD Message TX/RX]]
+- [[#Configuration|Configuration]]
 ## Content
 ---
 *AUTOSAR* specifies a *Basic Software (BSW) Service Discovery (Sd)* module, in functionality, API and configuration [1].
@@ -81,7 +95,7 @@ The following is the format of an IPv4 Endpoint Option.
 
 Additionally, the following variation(s) of the IPv4 Endpoint Option exist, that differ only in the Type field,
 * IPv4 Multi-cast Endpoint Option, which may be included in the `SubscribeEventgroupAck` Entry, to denote a Multi-cast Endpoint to which `NOTIFICATION`(s) may be sent (see below).
-### Server(s)
+#### Server(s)
 ---
 A server-service may be in one of the following state(s) (i.e., `SD_SERVER_SERVICE_<...>`),
 * `DOWN`, default after `Sd_Init` is called, and `SdServerServiceAutoAvailable` is set to false.
@@ -128,7 +142,7 @@ While in either the Repetition or Main phase(s),
 	* `<...>TriggeringRef` are different routing-group(s), used to trigger the sending of initial field value(s).
 
 *Note:* If reboot is detected from a subscriber, it is as if a `StopSubscribeEventgroup` Entry was received.
-### Client(s)
+#### Client(s)
 ---
 A client-service may be in one of the following state(s) (i.e., `SD_CLIENT_SERVICE_<...>`),
 * `RELEASED`, default after `Sd_Init` is called, and `SdClientServiceAutoRequire` is set to false.
@@ -170,6 +184,29 @@ While in the Main phase,
 *Note:* If an `OfferService` Entry is received, with a non-expiring TTL value, and an on-going subscription expires, a `SubscribeEventGroup` Entry shall be sent, if  `SdSubscribeEventgroupRetryEnable` is set to true, and `SdSubscribeEventgroupRetryMax > 0`. This is to handle the case that the server-instance does not send cyclic `OfferService` Entries, but the client has an expiring subscription TTL value.
 
 *Note:* If reboot is detected from a server-instance, it is as if a `StopOfferService` Entry was received.
+#### Additional Features
+---
+##### Multi-cast Response Delay
+---
+Since Multi-cast SD message(s) will be received by multiple peer(s), if they all respond at once, this could overload the Multi-cast SD message sender.
+
+Hence, response(s) to Multi-cast SD message(s) shall be sent after a random time-delay, between `Sd<...>TimerRequestResponseMaxDelay` and `Sd<...>TimerRequestResponseMinDelay`.
+##### Service Group(s)
+---
+A service-group is a group of client-service(s) and server-service(s), to be set as `REQUESTED`/`AVAILABLE` or `RELEASED`/`DOWN`, via `Sd_ServiceGroupStart` and `Sd_ServiceGroupStop`, respectively.
+##### SD Message TX/RX
+---
+To transmit an SD message,
+* Invoke `SoAd_SetRemoteAddr` on the socket-connection, associated with `SdInstanceTxPdu`.
+* Invoke `SoAd_IfTransmit`.
+
+To receive an SD message,
+* Wait till `Sd_RxIndication` is invoked.
+* Determine the socket-connection, with the `<...>RxPdu` received.
+* Invoke `SoAd_GetRemoteAddr` and store the IP-address and port, for further processing.
+* Invoke `SoAd_ReleaseRemoteAddr`.
+
+*Note:* Hence, socket-connection(s) associated with `(Rx-/Tx-)Pdu`(s) shall be configured with remote wildcard IP-address(es) and port(s).
 ### Configuration
 ---
 ```

@@ -155,12 +155,21 @@ Upon entering the Repetition phase,
 
 While in the Main phase,
 * If an `OfferService` Entry is received,
+	* The client-service-specific timer is set with the TTL value of the `OfferService` Entry. If it expires, a transition to the Initial-Wait phase occurs.
 	* For each `REQUESTED` event-group, a `SubscribeEventGroup` Entry shall be sent.
 		* For UDP, as an example,
 			* End-point of the client-service is the local IP-address and port of `SdClientServiceUdpRef`.
 			* Socket connection(s) in `SdClientServiceUdpRef` are used for Unicast traffic with the server-instance.
 				* *Note:* Multiple socket connection(s) may be required, in-case multiple event-group(s) are requested.
-		* If a `SubscribeEventGroupAck` is received, 
+		* If a `SubscribeEventGroupAck` Entry is received,
+			* Different routing-group(s) (i.e., `<...>ActivationRef`) and socket-connection(s) are manipulated, to enable SOME/IP message exchange.
+		* If a `SubscribeEventGroupNack` Entry is received, or no `SubscribeEventGroupAck` Entry is received,
+			* If `SdSubscribeEventgroupRetryEnable` is set to true, a `SubscribeEventGroup` shall be re-sent, every `SdSubscribeEventgroupRetryDelay`, a `SdSubscribeEventgroupRetryMax` maximum number of times, until a `SubscribeEventGroupAck` is received.
+* If a `StopOfferService` Entry is received, do nothing.
+
+*Note:* If an `OfferService` Entry is received, with a non-expiring TTL value, and an on-going subscription expires, a `SubscribeEventGroup` Entry shall be sent, if  `SdSubscribeEventgroupRetryEnable` is set to true, and `SdSubscribeEventgroupRetryMax > 0`. This is to handle the case that the server-instance does not send cyclic `OfferService` Entries, but the client has an expiring subscription TTL value.
+
+*Note:* If reboot is detected from a server-instance, it is as if a `StopOfferService` Entry was received.
 ### Configuration
 ---
 ```

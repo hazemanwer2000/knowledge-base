@@ -1,6 +1,4 @@
 ──────── *for more from the author, visit* [github.com/hazemanwer2000](https://github.com/hazemanwer2000). ────────
-## *Table of Contents*
-...
 ## Content
 ---
 *SOME/IP* (Scalable service-Oriented MiddlewarE over IP) protocol allows the definition of service(s). [1]

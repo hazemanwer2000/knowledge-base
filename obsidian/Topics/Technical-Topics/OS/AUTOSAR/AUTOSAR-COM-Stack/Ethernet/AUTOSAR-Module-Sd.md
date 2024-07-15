@@ -53,7 +53,7 @@ The format of an SD Type-1 Entry, as shown below, consists most notably of,
 
 *Note:* A TTL with value 0 denotes a `Stop<...>` Entry.
 
-*Note:* The presence of all binary 1's in any relevant field (e.g., Minor Version), denotes the acceptance of any value, or selection of all value(s), for that field.
+*Note:* The presence of all binary 1's in any relevant field (e.g., Minor Version), denotes the acceptance of any value, or selection of all value(s), for that field. However, for TTL, it denotes the validity of this Entry, until the next reboot is detected.
 ###### Type-2
 ---
 The format of an SD Type-2 Entry, as shown below, differs from a Type-1 entry in,
@@ -105,6 +105,7 @@ Upon entering the Main phase,
 	* `while(True):`
 		* `delay(SdServerTimerOfferCyclicDelay)`
 		* Send `OfferService` Entry (as Multi-cast traffic).
+* While in this phase, received `FindService` Entries shall be responded to (as Uni-cast traffic).
 
 While in either the Repetition or Main phase(s),
 * `SubscribeEventgroup` Entries are responded to.
@@ -125,7 +126,8 @@ While in either the Repetition or Main phase(s),
 					* `NOTIFICATION(s)` are sent as Multi-cast traffic.
 	* `<...>ActivationRef` are different routing-group(s), to be enabled/disabled in different context(s).
 	* `<...>TriggeringRef` are different routing-group(s), used to trigger the sending of initial field value(s).
-	* If any event-handler has at least one subscriber, it transitions from the `RELEASED` to the `REQUESTED` state.
+
+*Note:* If reboot is detected from a subscriber, it is as if a `StopSubscribeEventgroup` Entry was received.
 ### Client(s)
 ---
 A client-service may be in one of the following state(s) (i.e., `SD_CLIENT_SERVICE_<...>`),
@@ -139,6 +141,26 @@ An event-group may be in one of the following state(s) (i.e., `SD_CONSUMED_EVENT
 * `REQUESTED`, if `SdConsumedEventGroupAutoRequired` is set to true, as soon as the associated client-service is `REQUESTED`.
 
 *Note:* `Sd_ConsumedEventGroupSetState` may be used to alter the state of an event-group.
+
+After a client-service is `REQUESTED`, it enters the Initial-Wait phase.
+* It shall remain in this phase for a random time-delay, between `SdClientTimerInitialFindDelayMax` and `SdClientTimerInitialFindDelayMin`, before sending its first `FindService` Entry and transitioning to the Repetition phase.
+* If an `(Stop)OfferService` is received while in this phase, a transition to the Main phase shall occur.
+
+Upon entering the Repetition phase,
+* `for i in range(SdClientTimerInitialFindRepetitionsMax):`
+	* `delay((i+1) * SdClientTimerInitialFindRepetitionsBaseDelay)`
+	* Send `FindService` Entry (as Multi-cast traffic).
+* Finally, a transition to the Main phase occurs.
+* If an `(Stop)OfferService` is received while in this phase, a transition to the Main phase shall occur.
+
+While in the Main phase,
+* If an `OfferService` Entry is received,
+	* For each `REQUESTED` event-group, a `SubscribeEventGroup` Entry shall be sent.
+		* For UDP, as an example,
+			* End-point of the client-service is the local IP-address and port of `SdClientServiceUdpRef`.
+			* Socket connection(s) in `SdClientServiceUdpRef` are used for Unicast traffic with the server-instance.
+				* *Note:* Multiple socket connection(s) may be required, in-case multiple event-group(s) are requested.
+		* If a `SubscribeEventGroupAck` is received, 
 ### Configuration
 ---
 ```

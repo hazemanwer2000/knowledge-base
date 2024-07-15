@@ -124,6 +124,21 @@ While in either the Repetition or Main phase(s),
 				* `else:`
 					* `NOTIFICATION(s)` are sent as Multi-cast traffic.
 	* `<...>ActivationRef` are different routing-group(s), to be enabled/disabled in different context(s).
+	* `<...>TriggeringRef` are different routing-group(s), used to trigger the sending of initial field value(s).
+	* If any event-handler has at least one subscriber, it transitions from the `RELEASED` to the `REQUESTED` state.
+### Client(s)
+---
+A client-service may be in one of the following state(s) (i.e., `SD_CLIENT_SERVICE_<...>`),
+* `RELEASED`, default after `Sd_Init` is called, and `SdClientServiceAutoRequire` is set to false.
+* `REQUESTED`, if `SdClientServiceAutoRequire` is set to true.
+
+*Note:* `Sd_ClientServiceSetState` may be used to alter the state of a client-service.
+
+An event-group may be in one of the following state(s) (i.e., `SD_CONSUMED_EVENT_GROUP_<...>`),
+* `RELEASED`, default after `Sd_Init` is called, and `SdConsumedEventGroupAutoRequired` is set to false.
+* `REQUESTED`, if `SdConsumedEventGroupAutoRequired` is set to true, as soon as the associated client-service is `REQUESTED`.
+
+*Note:* `Sd_ConsumedEventGroupSetState` may be used to alter the state of an event-group.
 ### Configuration
 ---
 ```

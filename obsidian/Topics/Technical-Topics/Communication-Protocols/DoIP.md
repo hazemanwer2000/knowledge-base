@@ -45,8 +45,6 @@ The following are payload types.
 | Diagnostic Message              | TCP                    | ...                  |
 | Diagnostic Message *ACK*        | TCP                    | ...                  |
 | Diagnostic Message *NACK*       | TCP                    | ...                  |
-| Alive Check Request             | TCP                    | ...                  |
-| Alive Check Response            | TCP                    | ...                  |
 ### Communication Flow
 ---
 #### Vehicle Identification
@@ -59,14 +57,14 @@ If not received by the tester, a Vehicle Identification Request message shall be
 
 The following are fields, specific to the Vehicle Announcement, or Identification Response payload-type.
 
-| Name                    | Length | Description                                                                                                                                                                                                                                                                                                   |
-| ----------------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| VIN                     | 17     | The VIN of the vehicle the *DoIP* node belongs to.<br>If not available, shall be all `0xFF` or `0x00`.                                                                                                                                                                                                        |
-| Logical Address         | 2      | Physical address of a specific application-layer within the *DoIP* node (i.e., *DoIP entity*), of which there may be multiple.<br>It must be unique across a vehicle.<br>Note that a single IP address must be associated with a single physical address.<br>If not available, shall be all `0xFF` or `0x00`. |
-| EID                     | 6      | Uniquely identifies the *DoIP* node, even before a VIN/GID is available.<br>If not available, shall be all `0xFF` or `0x00`.                                                                                                                                                                                  |
-| GID                     | 6      | If the VIN is not available, a GID may be used instead.<br>For example, the GID may be the *MAC* address of the *GID-master* ECU.<br>If not available, shall be all `0xFF` or `0x00`.                                                                                                                         |
-| Further Action Required | 1      | Specifies additional information.                                                                                                                                                                                                                                                                             |
-| VIN/GID Sync Status     | 1      | Specifies whether a VIN/GID is available, and has been synced across the vehicle.                                                                                                                                                                                                                             |
+| Name                    | Length | Description                                                                                                                                                                                                               |
+| ----------------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| VIN                     | 17     | The VIN of the vehicle the *DoIP* node belongs to.<br>If not available, shall be all `0xFF` or `0x00`.                                                                                                                    |
+| Logical Address         | 2      | Physical address of a specific application-layer within the *DoIP* node (i.e., *DoIP entity*), of which there may be multiple.<br>It must be unique across a vehicle.<br>If not available, shall be all `0xFF` or `0x00`. |
+| EID                     | 6      | Uniquely identifies the *DoIP* node, even before a VIN/GID is available.<br>If not available, shall be all `0xFF` or `0x00`.                                                                                              |
+| GID                     | 6      | If the VIN is not available, a GID may be used instead.<br>For example, the GID may be the *MAC* address of the *GID-master* ECU.<br>If not available, shall be all `0xFF` or `0x00`.                                     |
+| Further Action Required | 1      | Specifies additional information.                                                                                                                                                                                         |
+| VIN/GID Sync Status     | 1      | Specifies whether a VIN/GID is available, and has been synced across the vehicle.                                                                                                                                         |
 
 VIN/GID Sync Status field conveys that VIN/GID value is not synced across the vehicle by one or more *DoIP* node(s), `X`, the tester may,
 * Wait for `T_Vehicle_Discovery` seconds.
@@ -93,7 +91,38 @@ The following are fields, specific to the Routing Activation Response payload-ty
 | ------------------- | ------ | ---------------------------------- |
 | Destination Address | 2      | Physical address of tester.        |
 | Source Address      | 2      | Physical address of *DoIP* entity. |
+| Activation RC       | 1      | RC of activation.                  |
 | Reserved            | 8      | None.                              |
+#### Diagnostic Message(s)
+---
+Upon successful routing activation, a *DoIP* entity becomes diagnosable. For example,
+* A UDS request is sent by a tester, as a Diagnostic Message message.
+* *DoIP* entity responds with a Diagnostic Message (N)ACK message, within `T_Diagnostic_Message`.
+* Later, if previously ACK'ed, a UDS response is sent by the *DoIP* entity, as a Diagnostic Message message.
+	* *Note:* Diagnostic Message message(s) sent by the *DoIP* entity do not require acknowledgement from the tester.
+
+The following are fields, specific to the Diagnostic Message payload-type.
+
+| Name           | Length | Description                   |
+| -------------- | ------ | ----------------------------- |
+| Source Address | 2      | Physical address of sender.   |
+| Target Address | 2      | Physical address of receiver. |
+
+The following are fields, specific to the Diagnostic Message *ACK* payload-type.
+
+| Name           | Length | Description                   |
+| -------------- | ------ | ----------------------------- |
+| Source Address | 2      | Physical address of sender.   |
+| Target Address | 2      | Physical address of receiver. |
+| *ACK* code     | 1      | Positive *ACK* code.          |
+
+The following are fields, specific to the Routing Activation *NACK* payload-type.
+
+| Name           | Length | Description                   |
+| -------------- | ------ | ----------------------------- |
+| Source Address | 2      | Physical address of sender.   |
+| Target Address | 2      | Physical address of receiver. |
+| *NACK* code    | 1      | Negative *ACK* code.          |
 ## References
 ---
 [1] Diagnostic communication over IP (DoIP), General information and Use-case definition, ISO 13400-1

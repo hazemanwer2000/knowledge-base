@@ -1,10 +1,13 @@
 ## *Sub-topics!*
 ---
-* Categories
-	* [[Version-Control]]
-	* [[Niche-Scripting]]
-	* [[Shell-Scripting]]
-	* [[Build-Systems]]
+* Version Control
+	* [[Git]]
+* Dealing with *Embedded Target(s)*
+	* [[TRACE32-PRACTICE-Language]]
+* Writing *Shell Script(s)*
+	* [[Batch-Scripting]]
+* Build System(s)
+	* [[Makefiles]]
 * Miscellaneous
 	* [[Regular-Expressions]]
 ## *Content*

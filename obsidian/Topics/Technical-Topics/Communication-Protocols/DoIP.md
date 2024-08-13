@@ -1,6 +1,13 @@
 ──────── *for more from the author, visit* [github.com/hazemanwer2000](https://github.com/hazemanwer2000). ────────
 ## *Table of Contents*
-...
+- [[#Acronyms|Acronyms]]
+- [[#Definitions|Definitions]]
+- [[#Overview|Overview]]
+	- [[#Overview#Message Structure|Message Structure]]
+- [[#Communication Flow|Communication Flow]]
+	- [[#Communication Flow#Vehicle Identification|Vehicle Identification]]
+	- [[#Communication Flow#Routing Activation|Routing Activation]]
+	- [[#Communication Flow#Diagnostic Message(s)|Diagnostic Message(s)]]
 ## Content
 ---
 *Diagnostic communication over IP (DoIP)* is an automotive-oriented protocol, that enables diagnostics within IP networks. 

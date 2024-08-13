@@ -4,16 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "83880061264fefa5",
+        "id": "beb2d39d13d4a9b6",
         "type": "tabs",
         "children": [
           {
-            "id": "f6bcdbc0507480e7",
+            "id": "519b03a871051f2c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/Technical-Topics/Communication-Protocols/DoIP.md",
+                "file": "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet/AUTOSAR-Module-Sd.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dfa4fd8f50de4eb7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet/AUTOSAR-Module-SoAd.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topics/Technical-Topics/Communication-Protocols/DoIP.md",
+                "file": "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet/AUTOSAR-Module-Sd.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topics/Technical-Topics/Communication-Protocols/DoIP.md",
+                "file": "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet/AUTOSAR-Module-Sd.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topics/Technical-Topics/Communication-Protocols/DoIP.md"
+                "file": "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet/AUTOSAR-Module-Sd.md"
               }
             }
           }
@@ -146,16 +158,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f6bcdbc0507480e7",
+  "active": "519b03a871051f2c",
   "lastOpenFiles": [
-    "Topics/Technical-Topics/Communication-Protocols/SOME-IP.md",
+    "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet/AUTOSAR-Module-SoAd.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet/AUTOSAR-Module-Sd.md",
     "Topics/Technical-Topics/OS/AUTOSAR.md",
     "Topics/Technical-Topics/OS.md",
-    "Topics/Technical-Topics/Communication-Protocols.md",
-    "Topics/Technical-Topics/Communication-Protocols/DoIP.md",
     "Topics/Technical-Topics.md",
     "Welcome!.md",
+    "Topics/Technical-Topics/Communication-Protocols/DoIP.md",
+    "Topics/Technical-Topics/Communication-Protocols/SOME-IP.md",
+    "Topics/Technical-Topics/Communication-Protocols.md",
     "Topics/Technical-Topics/Communication-Protocols/IPsec.md",
     "Topics/Technical-Topics/Tooling.md",
     "Topics/Technical-Topics/Cryptography.md",
@@ -173,7 +186,6 @@
     "Topics/Technical-Topics/Tooling/Makefiles.md",
     "Topics/Technical-Topics/Tooling/Git.md",
     "Topics/Technical-Topics/Tooling/Batch-Scripting.md",
-    "Topics/Technical-Topics/Tooling/Build-Systems.md",
     "Pasted image 20240715003822 1.png",
     "~IMG/SOME-IP-SD-Option-Endpoint-IPv4-SD.png",
     "~IMG/SOME-IP-SD-Option-Endpoint-IPv4-Multicast.png",

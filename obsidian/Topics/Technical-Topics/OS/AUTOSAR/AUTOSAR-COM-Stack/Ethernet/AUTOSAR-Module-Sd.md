@@ -89,8 +89,6 @@ The following is the format of an IPv4 Endpoint Option.
 * An `OfferService` Entry must reference an IPv4 Endpoint Option, to denote the end-point of the service-instance.
 * A `SubscribeEventgroup` must reference an IPv4 Endpoint Option, to denote the end-point of the client.
 
-[DRAFT] *Note:* Upon subscription, non-`NOTIFICATION` SOME/IP message(s) shall be sent as Unicast traffic, between the end-point(s) of the service-instance and the client.
-
 ![[SOME-IP-SD-Option-Endpoint-IPv4.png|725]]
 
 Additionally, the following variation(s) of the IPv4 Endpoint Option exist, that differ only in the Type field,

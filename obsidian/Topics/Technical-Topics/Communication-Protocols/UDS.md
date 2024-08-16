@@ -1,6 +1,20 @@
 ──────── *for more from the author, visit* [github.com/hazemanwer2000](https://github.com/hazemanwer2000). ────────
 ## *Table of Contents*
-...
+- [[#Acronyms|Acronyms]]
+- [[#Overview|Overview]]
+	- [[#Overview#Message Structure|Message Structure]]
+	- [[#Overview#Generic NRC(s)|Generic NRC(s)]]
+- [[#Services|Services]]
+	- [[#Services#Management|Management]]
+		- [[#Management#Diagnostic Session Control (0x10)|Diagnostic Session Control (0x10)]]
+		- [[#Management#Tester Present (0x3E)|Tester Present (0x3E)]]
+		- [[#Management#ECU Reset (0x11)|ECU Reset (0x11)]]
+		- [[#Management#Security Access (0x27)|Security Access (0x27)]]
+		- [[#Management#Communication Control (0x28)|Communication Control (0x28)]]
+		- [[#Management#Control DTC Setting (0x85)|Control DTC Setting (0x85)]]
+	- [[#Services#Data Transmission|Data Transmission]]
+		- [[#Data Transmission#Read/Write Data By Identifier (0x22, 0x2E)|Read/Write Data By Identifier (0x22, 0x2E)]]
+		- [[#Data Transmission#Dynamically Define Data Identifier (0x2C)|Dynamically Define Data Identifier (0x2C)]]
 ## Content
 ---
 *Unified Diagnostic Services (UDS)* is an automotive-oriented, application-layer protocol, that specifies a set of diagnostic services (i.e., requests and responses).
@@ -12,9 +26,6 @@
 * **RC -** Response Code
 	* **PRC -** Positive RC
 	* **NRC -** Negative RC
-### Definitions
----
-...
 ### Overview
 ---
 Each service has a byte-length value unique identifier, called *Service Identifier (SID)*.
@@ -131,10 +142,10 @@ This service may be used to unlock secured request(s) (VM-defined).
 This service may be used to control communication of a server.
 
 The following are standardized control types, which may be extended with VM-defined type(s).
-* Enable RX and TX (ID: `0x0`)
-* Enable RX and Disable TX (ID: `0x1`)
-* Disable RX and Enable TX (ID: `0x2`)
-* Disable RX and TX (ID: `0x3`)
+* `0x0` - Enable RX, Enable TX
+* `0x1` - Enable RX, Disable TX
+* `0x2` - Disable RX, Enable TX
+* `0x3` - Disable RX, Disable TX
 
 Refer to [1] for types of communication that may be controlled, which includes application, network-management, etc.
 
@@ -202,6 +213,22 @@ This service may be used to define a *dynamically-defined* data identifier (DDDI
 	* Sub-Function: Clear Dynamically Defined Data Identifier (`0x3`)
 	* Data (Request)
 		* DDDID (Size: 2-bytes)
+##### Routine Execution (0x31)
+---
+This service allows for the starting and stopping of a specific routine, and finally, requesting of results.
+
+*Note:* Typically, the routine executes alongside normal operating code within a server.
+###### Positive Response
+---
+* Case: `#1`
+	* Sub-Function: Routine Control Type
+		* `0x1` - Start Routine
+		* `0x2` - Stop Routine
+		* `0x3` - Request Routine Results
+	* Data (Request)
+		* Data-Record (Size: Variable)
+	* Data (Response)
+		* Data-Record (Size: Variable)
 ## References
 ---
 [1] Unified Diagnostic Services (UDS), Specification and Requirements, ISO 14229-1

@@ -1,9 +1,12 @@
 ──────── *for more from the author, visit* [github.com/hazemanwer2000](https://github.com/hazemanwer2000). ────────
 ## *Table of Contents*
 - [[#Acronyms|Acronyms]]
+- [[#Definitions|Definitions]]
 - [[#Overview|Overview]]
 	- [[#Overview#Message Structure|Message Structure]]
 	- [[#Overview#Generic NRC(s)|Generic NRC(s)]]
+- [[#Concepts|Concepts]]
+	- [[#Concepts#Diagnostic Trouble Code (DTC)|Diagnostic Trouble Code (DTC)]]
 - [[#Services|Services]]
 	- [[#Services#Management|Management]]
 		- [[#Management#Diagnostic Session Control (0x10)|Diagnostic Session Control (0x10)]]
@@ -15,6 +18,15 @@
 	- [[#Services#Data Transmission|Data Transmission]]
 		- [[#Data Transmission#Read/Write Data By Identifier (0x22, 0x2E)|Read/Write Data By Identifier (0x22, 0x2E)]]
 		- [[#Data Transmission#Dynamically Define Data Identifier (0x2C)|Dynamically Define Data Identifier (0x2C)]]
+	- [[#Services#Routine Execution|Routine Execution]]
+		- [[#Routine Execution#Routine Control (0x31)|Routine Control (0x31)]]
+	- [[#Services#Stored Data Transmission|Stored Data Transmission]]
+		- [[#Stored Data Transmission#Clear Diagnostic Information (0x14)|Clear Diagnostic Information (0x14)]]
+		- [[#Stored Data Transmission#Read DTC Information (0x19)|Read DTC Information (0x19)]]
+	- [[#Services#Data Transfer|Data Transfer]]
+		- [[#Data Transfer#Request Upload/Download (0x35, 0x34)|Request Upload/Download (0x35, 0x34)]]
+		- [[#Data Transfer#Transfer Data (0x36)|Transfer Data (0x36)]]
+		- [[#Data Transfer#Request Transfer Exit (0x37)|Request Transfer Exit (0x37)]]
 ## Content
 ---
 *Unified Diagnostic Services (UDS)* is an automotive-oriented, application-layer protocol, that specifies a set of diagnostic services (i.e., requests and responses).

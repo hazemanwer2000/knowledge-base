@@ -158,12 +158,13 @@ This service may be used to control the setting of DTC status bits.
 		* `0x2` - Off
 #### Data Transmission
 ---
-##### Read Data By Identifier (0x22)
+##### Read/Write Data By Identifier (0x22, 0x2E)
 ---
-This service may be used to read arbitrary data, that is associated with a unique identifier (VM-defined).
+This service may be used to read/write arbitrary data, that is associated with a unique identifier (VM-defined).
 ###### Positive Response
 ---
 * Case: `#1`
+	* SID: `0x22`
 	* Sub-Function: `None`
 	* Data (Request)
 		* Data-Identifier (Size: 2-bytes, Multiplicity: `1..*`)
@@ -171,6 +172,16 @@ This service may be used to read arbitrary data, that is associated with a uniqu
 		* Data-Identifier with Data-Record (Multiplicity: `1..*`)
 			* Data-Identifier (Size: 2-bytes)
 			* Data-Record (Size: Variable)
+
+* Case: `#2`
+	* SID: `0x2E`
+	* Sub-Function: `None`
+	* Data (Request)
+		* Data-Identifier with Data-Record (Multiplicity: `1..*`)
+			* Data-Identifier (Size: 2-bytes)
+			* Data-Record (Size: Variable)
+	* Data (Response)
+		* Data-Identifier (Size: 2-bytes, Multiplicity: `1..*`)
 ## References
 ---
 [1] Unified Diagnostic Services (UDS), Specification and Requirements, ISO 14229-1

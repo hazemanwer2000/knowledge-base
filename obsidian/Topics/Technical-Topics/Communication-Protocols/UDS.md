@@ -100,8 +100,15 @@ Every *DTC* has the following information associated with it, and stored in non-
 * `[3] Confirmed DTC`
 	* It is set if the confirmation threshold (VM-defined) is reached.
 	* It is reset if the aging threshold (VM-defined) is reached.
-	* For example, a counter may be maintained, and incremented/decremented at the end of an operating cycle if, `Pending DTC == 1`. If the counter reaches the confirmation threshold, status bit is set, and is not reset until the aging threshold is reached.
-* `[4] `
+	* For example, a counter may be maintained, and incremented/decremented at the end of an operating cycle if, `Pending DTC == 1` (given that `Pending DTC` is updated, first). If the counter reaches the confirmation threshold, status bit is set, and is not reset until the aging threshold is reached.
+* `[4] Test Not Completed Since Last Clear`
+	* It represents the following condition: Any test completed since last `Clear Diagnostic Information` service was requested.
+* `[5] Test Failed Since Last Clear`
+	* It represents the following condition: Any test completed, and reported "Failure", since last `Clear Diagnostic Information` service was requested.
+* `[6] Test Not Completed This Operating Cycle`
+	* It represents the following condition: Any test completed this operation cycle.
+* `[7] Warning Indicator Requested`
+	* *Note:* Typically, a warning indicator is set when fail-safe strategies are triggered, usually if `Confirmed DTC == 1`.
 ### Services
 ---
 #### Management

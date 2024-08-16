@@ -44,22 +44,47 @@ The structure of a negative service response is as follows,
 ---
 The following is a list of generic NRC(s).
 
-| NRC    | Description                                  | Acronym | Description                                             |
-| ------ | -------------------------------------------- | ------- | ------------------------------------------------------- |
-| `0x13` | Incorrect Message Length Or Invalid Format   | IMLOIF  | Message length or format is incorrect.                  |
-| `0x11` | Service Not Supported                        | SNS     | SID is not supported.                                   |
-| `0x7F` | Service Not Supported In Active Session      | SNSIAS  | SID is not supported, in active session.                |
-| `0x12` | Sub-Function Not Supported                   | SFNS    | Sub-Function is not supported.                          |
-| `0x7E` | Sub-Function Not Supported In Active Session | SFNSIAS | Sub-Function is not supported, in active session        |
-| `0x31` | Request Out Of Range                         | ROOR    | Data (in request) is not supported.                     |
-| `0x22` | Conditions Not Correct                       | CNC     | Criteria (for request) is unmet.                        |
-| `0x24` | Request Sequence Error                       | RSE     | Sequence of request(s) is invalid.                      |
-| `0x21` | Busy (Repeat Request)                        | BRR     | Currently busy, and unable to perform request.          |
-| `0x33` | Security Access Denied                       | SAD     | Request is secured, and server is in an unlocked state. |
-| `0x11` | General Reject                               | GR      | Request rejected, reason unknown.                       |
+| NRC    | Description                                  | Acronym | Description                                                                                           |
+| ------ | -------------------------------------------- | ------- | ----------------------------------------------------------------------------------------------------- |
+| `0x13` | Incorrect Message Length Or Invalid Format   | IMLOIF  | Message length or format is incorrect.                                                                |
+| `0x11` | Service Not Supported                        | SNS     | SID is not supported.                                                                                 |
+| `0x7F` | Service Not Supported In Active Session      | SNSIAS  | SID is not supported, in active session.                                                              |
+| `0x12` | Sub-Function Not Supported                   | SFNS    | Sub-Function is not supported.                                                                        |
+| `0x7E` | Sub-Function Not Supported In Active Session | SFNSIAS | Sub-Function is not supported, in active session                                                      |
+| `0x31` | Request Out Of Range                         | ROOR    | Data (in request) is not supported.                                                                   |
+| `0x22` | Conditions Not Correct                       | CNC     | Criteria (for request) is unmet.                                                                      |
+| `0x24` | Request Sequence Error                       | RSE     | Sequence of request(s) is invalid.                                                                    |
+| `0x21` | Busy (Repeat Request)                        | BRR     | Currently busy, and unable to perform request.                                                        |
+| `0x33` | Security Access Denied                       | SAD     | Request is secured, and server is in an unlocked state.                                               |
+| `0x11` | General Reject                               | GR      | Request rejected, reason unknown.                                                                     |
+| `0x78` | Request Correctly Received, Response Pending | RCRRP   | Request correctly received, response pending.<br>*Note:* This is not a negative response (see below). |
 ### Services
 ---
-#### 
+#### Management
+---
+##### Diagnostic Session Control (0x10)
+---
+This service may be used to transition a server between the *Default* session, and *Non-Default* session(s). 
+
+Depending on the active session, some request(s) (e.g., service(s)) may not be supported.
+
+The following are standardized session(s), which may be extended with VM-specific session(s).
+* *Default* (ID: `0x1`)
+	* This is the default session, within the application.
+* *Programming* (ID: `0x2`)
+	* This is the default session, within the bootloader.
+	* It allows for programming-specific diagnostics.
+* *Extended* (ID: `0x3`)
+	* It allows for diagnostics, super-set from the *Default* session.
+###### Positive Response
+---
+* Case: `#1`
+	* Sub-Function: Session ID
+	* Data (Response)
+		* ${P2}_{Server\_Max}$ (Size: 2-bytes)
+			* This represents the maximum time, in `ms`, before the server should respond positively, negatively, or with RCRRP.
+		* ${P2*}_{Server\_Max}$ (Size: 2-bytes)
+			* This represents the maximum time, in `10-ms`, before the server should respond positively, or negatively, after responding once with RCRRP.
 ## References
 ---
 [1] Unified Diagnostic Services (UDS), Specification and Requirements, ISO 14229-1

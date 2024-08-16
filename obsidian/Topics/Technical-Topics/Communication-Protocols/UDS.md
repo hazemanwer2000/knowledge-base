@@ -68,7 +68,7 @@ This service may be used to transition a server between the *Default* session, a
 
 Depending on the active session, some request(s) (e.g., service(s)) may not be supported.
 
-The following are standardized session(s), which may be extended with VM-specific session(s).
+The following are standardized session(s), which may be extended with VM-defined session(s).
 * *Default* (ID: `0x1`)
 	* This is the default session, upon reset.
 * *Programming* (ID: `0x2`)
@@ -106,7 +106,7 @@ This service may be used to trigger a reset, of different types, in the server (
 	* Sub-Function: Reset Type
 ##### Security Access (0x27)
 ---
-This service may be used to unlock secured request(s) (VM-specific).
+This service may be used to unlock secured request(s) (VM-defined).
 * Multiple levels of security access shall exist.
 * Only a single level of security access may be granted, at any time.
 * Each level of security access unlocks a sub-set of all secured request(s).
@@ -130,7 +130,7 @@ This service may be used to unlock secured request(s) (VM-specific).
 ---
 This service may be used to control communication of a server.
 
-The following are standardized control types, which may be extended with VM-specific session(s).
+The following are standardized control types, which may be extended with VM-defined type(s).
 * Enable RX and TX (ID: `0x0`)
 * Enable RX and Disable TX (ID: `0x1`)
 * Disable RX and Enable TX (ID: `0x2`)
@@ -156,6 +156,21 @@ This service may be used to control the setting of DTC status bits.
 	* Sub-Function: On / Off
 		* `0x1` - On
 		* `0x2` - Off
+#### Data Transmission
+---
+##### Read Data By Identifier (0x22)
+---
+This service may be used to read arbitrary data, that is associated with a unique identifier (VM-defined).
+###### Positive Response
+---
+* Case: `#1`
+	* Sub-Function: `None`
+	* Data (Request)
+		* Data-Identifier (Size: 2-bytes, Multiplicity: `1..*`)
+	* Data (Response)
+		* Data-Identifier with Data-Record (Multiplicity: `1..*`)
+			* Data-Identifier (Size: 2-bytes)
+			* Data-Record (Size: Variable)
 ## References
 ---
 [1] Unified Diagnostic Services (UDS), Specification and Requirements, ISO 14229-1

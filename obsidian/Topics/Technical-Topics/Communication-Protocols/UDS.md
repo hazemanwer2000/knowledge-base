@@ -97,6 +97,35 @@ This service may be used to keep a server in a *Non-Default* session (i.e., by b
 ---
 * Case: `#1`
 	* Sub-Function: `0x0`
+##### ECU Reset (0x11)
+---
+This service may be used to trigger a reset, of different types, in the server (i.e., ECU).
+###### Positive Response
+---
+* Case: `#1`
+	* Sub-Function: Reset Type
+##### Security Access (0x27)
+---
+This service may be used to unlock secured request(s) (VM-specific).
+* Multiple levels of security access shall exist.
+* Only a single level of security access may be granted, at any time.
+* Each level of security access unlocks a sub-set of all secured request(s).
+
+*Note:* This service is unsupported in *Default* session, and any session-transition shall revoke security access.
+###### Positive Response
+---
+* Case: `#1`
+	* Sub-Function: Request-Seed (i.e., security level).
+		* This must be an odd-number.
+	* Data (Response)
+		* Seed (Size: Variable)
+			* *Note:* If zero, then level of security access already granted.
+
+* Case: `#2`
+	* Sub-Function: Send-Key (i.e., security level plus one).
+	* Data (Request)
+		* Key (Size: Variable)
+			* This key must correspond (cryptographically) to the seed.
 ## References
 ---
 [1] Unified Diagnostic Services (UDS), Specification and Requirements, ISO 14229-1

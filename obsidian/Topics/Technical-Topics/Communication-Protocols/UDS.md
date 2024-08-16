@@ -82,11 +82,22 @@ The following are *DTC*-relevant definition(s):
 * **Test:** A sequence of steps, that upon completion, is able to report "Passed" (i.e., fault condition not present), or "Failure".
 * **Monitoring Cycle:** Time in-between which a test is executed.
 	* *Note:* Multiple monitoring cycle(s) may occur within a single operating cycle, or a single monitoring cycle may span across multiple operating cycle(s).
+* **DTC Group:** A group of functionally-related *DTC*(s), uniquely identified via a 3-byte value (VM-specific).
+	* *Note:* *DTC* group identifier `0xFFFFFF` refers to a standardized group, that includes all *DTC*(s).
 
 Every *DTC* has the following information associated with it, and stored in non-volatile memory:
 * Status bit(s).
-* Snapshot data (i.e., freeze frames).
-* Extended data (i.e., additional information).
+* Snapshot Data-Record(s) (i.e., freeze frames), each with a unique (per *DTC*) 1-byte identifier.
+	* It consists of,
+		* Number of DID(s) (Size: 1-byte)
+		* Sequence of,
+			* DID (Size: 2-bytes)
+			* Data (Size: Variable)
+	* *Note:* Snapshot Data-Record identifier `0xFF` is standardized, and refers to all Data-Record(s).
+* Extended Data-Record(s) (i.e., additional information), each with a unique (per *DTC*) 1-byte identifier.
+	* *Note:* Extended Data-Record identifier `0xFF` is standardized, and refers to all Data-Record(s).
+
+*Note:* Typically, freeze frames and extended data are captured at the moment `Confirmed DTC` transitions from `0` to `1` (see below).
 
 *DTC* Status bit(s) consist of,
 * `[0] Test Failed`
@@ -273,9 +284,63 @@ This service allows for the starting and stopping of a specific routine, and fin
 		* Data-Record (Size: Variable)
 #### Stored Data Transmission
 ---
+##### Clear Diagnostic Information (0x14)
+---
+This service may be used to clear all *DTC*-relevant information from non-volatile memory, for a specific *DTC* group.
+###### Positive Response
+---
+* Case: `#1`
+	* Sub-Function: `None`
+	* Data (Request)
+		* DTC Group (Size: 3-bytes)
 ##### Read DTC Information (0x19)
 ---
-...
+This service may be used to retrieve *DTC* information.
+###### Positive Response
+---
+* Case: `#1`
+	* Sub-Function: Report Supported DTC (`0xA`)
+	* Data (Response)
+		* Status Availability Mask (Size: 1-byte)
+			* It specifies which of the status bit(s) are supported by the server.
+		* Sequence of, (Multiplicity: `0..*`)
+			* DTC (Size: 3-bytes)
+			* Status (Size: 1-byte)
+
+* Case: `#2`
+	* Sub-Function: Report DTC By Status Mask (`0x2`)
+		* *Note:* A *DTC* is included in the response if bitwise-AND of status mask(s) `!= 0`.
+	* Data (Request)
+		* Status Mask (Size: 1-byte)
+	* Data (Response)
+		* Status Availability Mask (Size: 1-byte)
+		* Sequence of, (Multiplicity: `0..*`)
+			* DTC (Size: 3-bytes)
+			* Status (Size: 1-byte)
+
+* Case: `#3`
+	* Sub-Function: Report DTC Snapshot-Record By DTC Number (`0x4`)
+	* Data (Request)
+		* DTC (Size: 3-byte)
+		* Snapshot Data-Record Identifier (Size: 1-byte)
+	* Data (Response)
+		* DTC (Size: 3-bytes)
+		* Status (Size: 1-byte)
+		* Sequence of, (Multiplicity: `1..*`)
+			* Snapshot Data-Record Identifier (Size: 1-byte)
+			* Snapshot Data-Record (Size: Variable)
+
+* Case: `#4`
+	* Sub-Function: Report DTC Extended-Record By DTC Number (`0x6`)
+	* Data (Request)
+		* DTC (Size: 3-byte)
+		* Extended Data-Record Identifier (Size: 1-byte)
+	* Data (Response)
+		* DTC (Size: 3-bytes)
+		* Status (Size: 1-byte)
+		* Sequence of, (Multiplicity: `1..*`)
+			* Extended Data-Record Identifier (Size: 1-byte)
+			* Extended Data-Record (Size: Variable)
 ## References
 ---
 [1] Unified Diagnostic Services (UDS), Specification and Requirements, ISO 14229-1

@@ -167,21 +167,41 @@ This service may be used to read/write arbitrary data, that is associated with a
 	* SID: `0x22`
 	* Sub-Function: `None`
 	* Data (Request)
-		* Data-Identifier (Size: 2-bytes, Multiplicity: `1..*`)
+		* Data-Identifier (i.e., DID) (Size: 2-bytes, Multiplicity: `1..*`)
 	* Data (Response)
-		* Data-Identifier with Data-Record (Multiplicity: `1..*`)
-			* Data-Identifier (Size: 2-bytes)
+		* DID with Data-Record (Multiplicity: `1..*`)
+			* DID (Size: 2-bytes)
 			* Data-Record (Size: Variable)
 
 * Case: `#2`
 	* SID: `0x2E`
 	* Sub-Function: `None`
 	* Data (Request)
-		* Data-Identifier with Data-Record (Multiplicity: `1..*`)
-			* Data-Identifier (Size: 2-bytes)
+		* DID with Data-Record (Multiplicity: `1..*`)
+			* DID (Size: 2-bytes)
 			* Data-Record (Size: Variable)
 	* Data (Response)
-		* Data-Identifier (Size: 2-bytes, Multiplicity: `1..*`)
+		* DID (Size: 2-bytes, Multiplicity: `1..*`)
+##### Dynamically Define Data Identifier (0x2C)
+---
+This service may be used to define a *dynamically-defined* data identifier (DDDID), as a composite of *statically-defined* data identifiers.
+###### Positive Response
+---
+* Case: `#1`
+	* Sub-Function: Define By Identifier (`0x1`)
+		* *Note:* Multiple "Define By Identifier" requests concatenate one another.
+	* Data (Request)
+		* DDDID (Size: 2-bytes)
+		* Sequence of, (Multiplicity: `1..n`)
+			* DID (Size: 2-bytes)
+			* Position (Size: 1-byte)
+				* *Note:* A position index of `1` refers to the first byte in the Data-Record.
+			* Length (Size: 1-byte)
+
+* Case: `#2`
+	* Sub-Function: Clear Dynamically Defined Data Identifier (`0x3`)
+	* Data (Request)
+		* DDDID (Size: 2-bytes)
 ## References
 ---
 [1] Unified Diagnostic Services (UDS), Specification and Requirements, ISO 14229-1

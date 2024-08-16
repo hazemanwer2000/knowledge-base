@@ -26,6 +26,9 @@
 * **RC -** Response Code
 	* **PRC -** Positive RC
 	* **NRC -** Negative RC
+### Definitions
+---
+* **Operating Cycle:** Typically, for an ECU, an operating cycle is the time-period between resets.
 ### Overview
 ---
 Each service has a byte-length value unique identifier, called *Service Identifier (SID)*.
@@ -69,6 +72,36 @@ The following is a list of generic NRC(s).
 | `0x33` | Security Access Denied                       | SAD     | Request is secured, and server is in an unlocked state.                                               |
 | `0x11` | General Reject                               | GR      | Request rejected, reason unknown.                                                                     |
 | `0x78` | Request Correctly Received, Response Pending | RCRRP   | Request correctly received, response pending.<br>*Note:* This is not a negative response (see below). |
+### Concepts
+---
+#### Diagnostic Trouble Code (DTC)
+---
+A *Diagnostic Trouble Code (DTC)* is a 3-byte identifier, that is uniquely associated with a specific fault condition.
+
+The following are *DTC*-relevant definition(s):
+* **Test:** A sequence of steps, that upon completion, is able to report "Passed" (i.e., fault condition not present), or "Failure".
+* **Monitoring Cycle:** Time in-between which a test is executed.
+	* *Note:* Multiple monitoring cycle(s) may occur within a single operating cycle, or a single monitoring cycle may span across multiple operating cycle(s).
+
+Every *DTC* has the following information associated with it, and stored in non-volatile memory:
+* Status bit(s).
+* Snapshot data (i.e., freeze frames).
+* Extended data (i.e., additional information).
+
+*DTC* Status bit(s) consist of,
+* `[0] Test Failed`
+	* It represents the following condition: The last completed test reported "Failure".
+* `[1] Test Failed This Operation Cycle`
+	* It represents the following condition: Any test completed this operation cycle reported "Failure".
+* `[2] Pending DTC`
+	* It is set if any test completed reports "Failure".
+	* It is reset at the end of an operating cycle, if,
+		* `(Test Failed This Operating Cycle == 0) AND (Test Not Completed This Operation Cycle == 0)`
+* `[3] Confirmed DTC`
+	* It is set if the confirmation threshold (VM-defined) is reached.
+	* It is reset if the aging threshold (VM-defined) is reached.
+	* For example, a counter may be maintained, and incremented/decremented at the end of an operating cycle if, `Pending DTC == 1`. If the counter reaches the confirmation threshold, status bit is set, and is not reset until the aging threshold is reached.
+* `[4] `
 ### Services
 ---
 #### Management
@@ -213,7 +246,9 @@ This service may be used to define a *dynamically-defined* data identifier (DDDI
 	* Sub-Function: Clear Dynamically Defined Data Identifier (`0x3`)
 	* Data (Request)
 		* DDDID (Size: 2-bytes)
-##### Routine Execution (0x31)
+#### Routine Execution
+---
+##### Routine Control (0x31)
 ---
 This service allows for the starting and stopping of a specific routine, and finally, requesting of results.
 
@@ -229,6 +264,11 @@ This service allows for the starting and stopping of a specific routine, and fin
 		* Data-Record (Size: Variable)
 	* Data (Response)
 		* Data-Record (Size: Variable)
+#### Stored Data Transmission
+---
+##### Read DTC Information (0x19)
+---
+...
 ## References
 ---
 [1] Unified Diagnostic Services (UDS), Specification and Requirements, ISO 14229-1

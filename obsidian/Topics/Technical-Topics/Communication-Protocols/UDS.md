@@ -341,6 +341,51 @@ This service may be used to retrieve *DTC* information.
 		* Sequence of, (Multiplicity: `1..*`)
 			* Extended Data-Record Identifier (Size: 1-byte)
 			* Extended Data-Record (Size: Variable)
+#### Data Transfer
+---
+##### Request Upload/Download (0x35, 0x34)
+---
+This service may be used to initiate an upload/download process, with a server.
+###### Positive Response
+---
+* Case: `#1`
+	* Sub-Function: `0x00`
+	* Data (Request)
+		* Memory Address-and-Length Format (Size: 1-byte)
+			* Memory Address Bit-Length (Size: 4-bits)
+			* Memory Size Bit-Length (Size: 4-bits)
+		* Memory Address (Size: Variable)
+			* *Note:* The first byte is the most significant byte.
+		* Memory Size (Size: Variable)
+			* *Note:* The first byte is the most significant byte.
+	* Data (Response)
+		* Block Length Format (Size: 1-byte)
+			* Reserved (Size: 4-bits)
+			* Block Length Bit-Length (Size: 4-bits)
+		* Block Length (Size: Variable)
+			* This denotes the block length in each subsequent data transfer, except the last, which may be less.
+			* *Note:* The block length encompasses the complete UDS message.
+			* *Note:* The first byte is the most significant byte.
+##### Transfer Data (0x36)
+---
+This service may be used to transfer data from/to server, after an upload/download process has been initiated. 
+###### Positive Response
+---
+* Case: `#1`
+	* Sub-Function: `None`
+	* Data (Request)
+		* Block Sequence Counter (Size: 1-byte)
+		* Data (Size: Variable)
+	* Data (Response)
+		* Block Sequence Counter (Size: 1-byte)
+		* Data (Size: Variable)
+##### Request Transfer Exit (0x37)
+---
+This service may be used to terminate an upload/download process.
+###### Positive Response
+---
+* Case: `#1`
+	* Sub-Function: `None`
 ## References
 ---
 [1] Unified Diagnostic Services (UDS), Specification and Requirements, ISO 14229-1

@@ -70,9 +70,8 @@ Depending on the active session, some request(s) (e.g., service(s)) may not be s
 
 The following are standardized session(s), which may be extended with VM-specific session(s).
 * *Default* (ID: `0x1`)
-	* This is the default session, within the application.
+	* This is the default session, upon reset.
 * *Programming* (ID: `0x2`)
-	* This is the default session, within the bootloader.
 	* It allows for programming-specific diagnostics.
 * *Extended* (ID: `0x3`)
 	* It allows for diagnostics, super-set from the *Default* session.
@@ -85,6 +84,19 @@ The following are standardized session(s), which may be extended with VM-specifi
 			* This represents the maximum time, in `ms`, before the server should respond positively, negatively, or with RCRRP.
 		* ${P2*}_{Server\_Max}$ (Size: 2-bytes)
 			* This represents the maximum time, in `10-ms`, before the server should respond positively, or negatively, after responding once with RCRRP.
+##### Tester Present (0x3E)
+---
+Whenever a server transitions into a *Non-Default* session, it starts a timer, with value ${S3}_{Server}$, specified as `5-s` in [2].
+* Upon the reception of any request before the timer expires, the timer resets.
+* If the timer expires before any request is received,
+	* the timer is stopped, and,
+	* the server transitions to the *Default* session.
+
+This service may be used to keep a server in a *Non-Default* session (i.e., by being sent periodically), in the absence of actual request(s).
+###### Positive Response
+---
+* Case: `#1`
+	* Sub-Function: `0x0`
 ## References
 ---
 [1] Unified Diagnostic Services (UDS), Specification and Requirements, ISO 14229-1

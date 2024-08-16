@@ -89,8 +89,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -171,7 +170,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "292ec99abcdc7f2f",
+  "active": "389424f564d8a932",
   "lastOpenFiles": [
     "Topics/Technical-Topics/Communication-Protocols/DoIP.md",
     "Topics/Technical-Topics/Communication-Protocols/SOME-IP.md",

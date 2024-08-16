@@ -126,6 +126,36 @@ This service may be used to unlock secured request(s) (VM-specific).
 	* Data (Request)
 		* Key (Size: Variable)
 			* This key must correspond (cryptographically) to the seed.
+##### Communication Control (0x28)
+---
+This service may be used to control communication of a server.
+
+The following are standardized control types, which may be extended with VM-specific session(s).
+* Enable RX and TX (ID: `0x0`)
+* Enable RX and Disable TX (ID: `0x1`)
+* Disable RX and Enable TX (ID: `0x2`)
+* Disable RX and TX (ID: `0x3`)
+
+Refer to [1] for types of communication that may be controlled, which includes application, network-management, etc.
+
+*Note:* This service is unsupported in *Default* session, and transition to *Default* session shall force-enable communication.
+###### Positive Response
+---
+* Case: `#1`
+	* Sub-Function: Control Type
+	* Data (Request)
+		* Communication Type (Size: 1-byte)
+##### Control DTC Setting (0x85)
+---
+This service may be used to control the setting of DTC status bits.
+
+*Note:* This service is unsupported in *Default* session, and transition to *Default* session shall force-enable the setting of DTC status bits.
+###### Positive Response
+---
+* Case: `#1`
+	* Sub-Function: On / Off
+		* `0x1` - On
+		* `0x2` - Off
 ## References
 ---
 [1] Unified Diagnostic Services (UDS), Specification and Requirements, ISO 14229-1

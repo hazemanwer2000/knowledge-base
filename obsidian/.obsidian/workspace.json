@@ -4,40 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "bfd0dc9787e9bc0e",
+        "id": "00fdda3ac322f007",
         "type": "tabs",
         "children": [
           {
-            "id": "292ec99abcdc7f2f",
+            "id": "67826ab40f19afaa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Topics/Technical-Topics/Communication-Protocols/UDS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c8cf5665bf7c89f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topics/Technical-Topics/Communication-Protocols/SOME-IP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "de07b0ab48216fb3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topics/Technical-Topics/Communication-Protocols/DoIP.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,14 +146,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "389424f564d8a932",
+  "active": "67826ab40f19afaa",
   "lastOpenFiles": [
-    "Topics/Technical-Topics/Communication-Protocols/DoIP.md",
-    "Topics/Technical-Topics/Communication-Protocols/SOME-IP.md",
-    "Topics/Technical-Topics/Communication-Protocols/UDS.md",
-    "Welcome!.md",
     "Topics/Technical-Topics/Communication-Protocols.md",
     "Topics/Technical-Topics.md",
+    "Welcome!.md",
+    "Topics/Technical-Topics/Communication-Protocols/UDS.md",
+    "Topics/Technical-Topics/Communication-Protocols/DoIP.md",
+    "Topics/Technical-Topics/Communication-Protocols/SOME-IP.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet/AUTOSAR-Module-Sd.md",
     "Topics/Technical-Topics/OS/AUTOSAR.md",
     "Topics/Technical-Topics/OS.md",

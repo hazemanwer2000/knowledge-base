@@ -387,6 +387,7 @@ This service may be used to transfer data from/to server, after an upload/downlo
 	* Sub-Function: `None`
 	* Data (Request)
 		* Block Sequence Counter (Size: 1-byte)
+			* *Note:* The block sequence counter begins with `0x1`, increments, and wraps to `0x0`.
 		* Data (Size: Variable)
 	* Data (Response)
 		* Block Sequence Counter (Size: 1-byte)

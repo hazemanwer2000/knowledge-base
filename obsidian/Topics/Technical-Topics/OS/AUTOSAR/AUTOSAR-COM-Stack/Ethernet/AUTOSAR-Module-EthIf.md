@@ -23,7 +23,7 @@ Upon the reception, or successful transmission, of a frame, the appropriate RX i
 | `EthIf_GetControllerMode` | API       | Get virtual controller's mode.                                                                                                                               |
 | `EthIf_GetVlanId`         | API       | Get VLAN ID, associated with a virtual controller.                                                                                                           |
 | `EthIf_ProvideTxBuffer`   | API       | Pseudo-wrapper call, to `Eth_ProvideTxBuffer`.                                                                                                               |
-| `EthIf_Transmit`          | API       | Pseudo-wrapper call, to `EthIf_Transmit`.                                                                                                                    |
+| `EthIf_Transmit`          | API       | Pseudo-wrapper call, to `Eth_Transmit`.                                                                                                                      |
 | `EthIf_MainFunctionRx`    | Scheduled | If RX interrupt is disabled, calls `Eth_Receive` repeatedly.                                                                                                 |
 | `EthIf_MainFunctionTx`    | Scheduled | If TX interrupt is disabled, calls `Eth_TxConfirmation`.                                                                                                     |
 | `EthIf_RxIndication`      | Callback  | Called by the Ethernet Driver, to indicate the reception of a frame.                                                                                         |

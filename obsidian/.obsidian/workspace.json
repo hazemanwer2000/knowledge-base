@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "f8cd1009d96b6caa",
+        "id": "2adb3968cafa84f3",
         "type": "tabs",
         "children": [
           {
-            "id": "bb5ccc8166c44192",
+            "id": "4ccc7f4013706b1e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Topics/Technical-Topics/Communication-Protocols/SPI.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Topics/Technical-Topics/Communication-Protocols/SPI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Topics/Technical-Topics/Communication-Protocols/SPI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Topics/Technical-Topics/Communication-Protocols/SPI.md"
+              }
             }
           }
         ]
@@ -138,15 +146,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bb5ccc8166c44192",
+  "active": "4ccc7f4013706b1e",
   "lastOpenFiles": [
-    "Topics/Technical-Topics/Communication-Protocols/UART.md",
-    "Topics/Technical-Topics/Communication-Protocols/SPI.md",
-    "~IMG/SPI-Module-Circuitry.jpg",
-    "spi-clock-polarity-phase.jpg",
     "Topics/Technical-Topics/Communication-Protocols.md",
     "Topics/Technical-Topics.md",
     "Welcome!.md",
+    "Topics/Technical-Topics/Communication-Protocols/SPI.md",
+    "Topics/Technical-Topics/Communication-Protocols/UART.md",
+    "~IMG/SPI-Module-Circuitry.jpg",
+    "spi-clock-polarity-phase.jpg",
     "~IMG/UART-Physical-Interface.jpg",
     "~IMG/SPI-Frame-Structure.jpg",
     "~IMG/SPI-Physical-Interface.png",

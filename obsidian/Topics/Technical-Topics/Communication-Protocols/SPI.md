@@ -41,6 +41,6 @@ While idle, the `Master` holds *CLK* at its base-value. To communicate with a `S
 *Note:* When *SS* is driven high for a `Slave`, its *MISO* physical-pin goes into high-impedance state.
 ### Physical Implementation
 ---
-Usually, *SPI* module circuitry is as shown below.
+Usually, *SPI* module circuitry is implemented using a shift register, as shown below.
 
 ![[SPI-Module-Circuitry.jpg|600]]

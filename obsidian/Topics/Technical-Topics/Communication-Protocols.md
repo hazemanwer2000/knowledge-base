@@ -1,11 +1,16 @@
 ## *Sub-topics!*
 ---
-* [[IPsec]]
-* [[SOME-IP]]
-* [[DoIP]]
-* [[UDS]]
-* [[UART]]
-* [[SPI]]
+* Ethernet Network-Security
+	* [[IPsec]]
+* Over-*TCP/IP*, Application-Layer
+	* [[SOME-IP]]
+	* [[DoIP]]
+* Diagnostics
+	* [[UDS]]
+* uC-specific
+	* [[UART]]
+	* [[SPI]]
+	* [[I2C]]
 ## *Content*
 ---
 La-bla!

@@ -4,59 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "4aa5bc4fb004f62d",
+        "id": "9d13f1562f51b22b",
         "type": "tabs",
         "children": [
           {
-            "id": "0824cbb39ce69741",
+            "id": "89b18e36bd86be32",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Welcome!.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "22457879641ab3eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topics/Technical-Topics/Communication-Protocols/I2C.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "be1f487394018e91",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topics/Technical-Topics/Communication-Protocols/SPI.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a93f51edb5274d1b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topics/Technical-Topics/Communication-Protocols/UART.md",
+                "file": "Topics/Technical-Topics/Communication-Protocols.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topics/Technical-Topics/Communication-Protocols/I2C.md",
+                "file": "Topics/Technical-Topics/Communication-Protocols.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topics/Technical-Topics/Communication-Protocols/I2C.md",
+                "file": "Topics/Technical-Topics/Communication-Protocols.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topics/Technical-Topics/Communication-Protocols/I2C.md"
+                "file": "Topics/Technical-Topics/Communication-Protocols.md"
               }
             }
           }
@@ -183,20 +146,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "22457879641ab3eb",
+  "active": "89b18e36bd86be32",
   "lastOpenFiles": [
+    "Topics/Technical-Topics/Tooling.md",
+    "Topics/Technical-Topics/Communication-Protocols.md",
+    "Topics/Technical-Topics.md",
+    "Welcome!.md",
+    "Topics/Technical-Topics/Communication-Protocols/I2C.md",
     "Topics/Technical-Topics/Communication-Protocols/UART.md",
     "Topics/Technical-Topics/Communication-Protocols/SPI.md",
-    "Topics/Technical-Topics/Communication-Protocols/I2C.md",
     "~IMG/I2C-REPEAT-START-Condition.png",
     "Untitled 1.png",
     "~IMG/I2C-Complete-Transaction.png",
     "~IMG/I2C-Data-Validity.png",
     "~IMG/I2C-START-STOP-Conditions.png",
     "~IMG/I2C-Physical-Interface.png",
-    "Welcome!.md",
-    "Topics/Technical-Topics/Communication-Protocols.md",
-    "Topics/Technical-Topics.md",
     "~IMG/SPI-Module-Circuitry.jpg",
     "spi-clock-polarity-phase.jpg",
     "~IMG/UART-Physical-Interface.jpg",
@@ -207,7 +171,6 @@
     "Topics/Technical-Topics/Communication-Protocols/UDS.md",
     "Topics/Technical-Topics/OS.md",
     "Topics/Technical-Topics/OS/OSEK.md",
-    "Topics/Technical-Topics/Tooling.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet/AUTOSAR-Module-Sd.md",
     "Topics/Technical-Topics/OS/AUTOSAR.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet/AUTOSAR-Module-SoAd.md",

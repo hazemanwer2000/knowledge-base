@@ -2,7 +2,7 @@
 ---
 * Version Control
 	* [[Git]]
-* Dealing with *Embedded Target(s)*
+* Dealing with uC(s)
 	* [[TRACE32-PRACTICE-Language]]
 * Writing *Shell Script(s)*
 	* [[Batch-Scripting]]

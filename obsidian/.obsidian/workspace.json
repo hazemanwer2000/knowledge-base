@@ -4,11 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "2adb3968cafa84f3",
+        "id": "4aa5bc4fb004f62d",
         "type": "tabs",
         "children": [
           {
-            "id": "4ccc7f4013706b1e",
+            "id": "0824cbb39ce69741",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Welcome!.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "22457879641ab3eb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topics/Technical-Topics/Communication-Protocols/I2C.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "be1f487394018e91",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,8 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a93f51edb5274d1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topics/Technical-Topics/Communication-Protocols/UART.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topics/Technical-Topics/Communication-Protocols/SPI.md",
+                "file": "Topics/Technical-Topics/Communication-Protocols/I2C.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topics/Technical-Topics/Communication-Protocols/SPI.md",
+                "file": "Topics/Technical-Topics/Communication-Protocols/I2C.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topics/Technical-Topics/Communication-Protocols/SPI.md"
+                "file": "Topics/Technical-Topics/Communication-Protocols/I2C.md"
               }
             }
           }
@@ -146,23 +183,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4ccc7f4013706b1e",
+  "active": "22457879641ab3eb",
   "lastOpenFiles": [
+    "Topics/Technical-Topics/Communication-Protocols/UART.md",
+    "Topics/Technical-Topics/Communication-Protocols/SPI.md",
+    "Topics/Technical-Topics/Communication-Protocols/I2C.md",
+    "~IMG/I2C-REPEAT-START-Condition.png",
+    "Untitled 1.png",
+    "~IMG/I2C-Complete-Transaction.png",
+    "~IMG/I2C-Data-Validity.png",
+    "~IMG/I2C-START-STOP-Conditions.png",
+    "~IMG/I2C-Physical-Interface.png",
+    "Welcome!.md",
     "Topics/Technical-Topics/Communication-Protocols.md",
     "Topics/Technical-Topics.md",
-    "Welcome!.md",
-    "Topics/Technical-Topics/Communication-Protocols/SPI.md",
-    "Topics/Technical-Topics/Communication-Protocols/UART.md",
     "~IMG/SPI-Module-Circuitry.jpg",
     "spi-clock-polarity-phase.jpg",
     "~IMG/UART-Physical-Interface.jpg",
     "~IMG/SPI-Frame-Structure.jpg",
-    "~IMG/SPI-Physical-Interface.png",
     "Topics/Technical-Topics/Communication-Protocols/IPsec.md",
     "Topics/Technical-Topics/Communication-Protocols/SOME-IP.md",
     "Topics/Technical-Topics/Communication-Protocols/DoIP.md",
     "Topics/Technical-Topics/Communication-Protocols/UDS.md",
-    "~IMG/UART-Frame-Structure.png",
     "Topics/Technical-Topics/OS.md",
     "Topics/Technical-Topics/OS/OSEK.md",
     "Topics/Technical-Topics/Tooling.md",
@@ -178,11 +220,6 @@
     "Topics/Technical-Topics/Cryptography/Symmetric-Encryption.md",
     "Topics/Technical-Topics/Cryptography/Message-Authentication-Codes.md",
     "Topics/Technical-Topics/Tooling/Regular-Expressions.md",
-    "Topics/Technical-Topics/Cryptography/Cryptographic-Hash-Functions/SHA-1.md",
-    "Pasted image 20240715003822 1.png",
-    "~IMG/SOME-IP-SD-Option-Endpoint-IPv4-SD.png",
-    "~IMG/SOME-IP-SD-Option-Endpoint-IPv4-Multicast.png",
-    "~IMG/SOME-IP-SD-Option-Endpoint-IPv4.png",
     "Topics/Technical-Topics/Tooling/Version-Control",
     "Topics/Technical-Topics/Tooling/Debugger-Scripting",
     "Topics/Technical-Topics/Tooling/Shell-Scripting",

@@ -7,7 +7,7 @@
 ---
 *Universal Asynchronous Receiver/Transmitter (UART)* is a serial, full-duplex, and asynchronous *L2*-protocol.
 
-Usually supported in embedded target(s), it is a de-facto standard, that is implementation-specific.
+Usually supported in micro-controller(s), it is a de-facto standard, that is implementation-specific.
 ### Physical Interface
 ---
 Usually, the following wire-connection(s) (as shown below) are required between two *UART* modules.

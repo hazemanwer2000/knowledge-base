@@ -2,13 +2,13 @@
 ## *Table of Contents*
 - [[#Physical Interface|Physical Interface]]
 - [[#Protocol Parameter(s)|Protocol Parameter(s)]]
-- [[#Frame Structure|Frame Structure]]
-- [[#Physical Implementation|Physical Implementation]]
+- [[#Communication]]
+- [[#Circuitry]]
 ## Content
 ---
 *Serial Peripheral Interface (SPI)* is a serial, full-duplex, synchronous and `1:N` (i.e., `Master:Slave`) *L2*-protocol.
 
-Usually supported in embedded target(s), it is a de-facto standard, that is implementation-specific.
+Usually supported in micro-controller(s), it is a de-facto standard, that is implementation-specific.
 ### Physical Interface
 ---
 Usually, the following signal(s) (also, shown below) are required between a `Master` and a `Slave`.
@@ -24,10 +24,9 @@ Usually, the following signal(s) (also, shown below) are required between a `Mas
 ### Protocol Parameter(s)
 ---
 Configurable protocol parameter(s), that *SPI* modules need to agree upon before-hand, include,
-* *Baud Rate* (i.e., transmission speed).
 * *Clock Polarity*, which specifies whether the base-value of *CLK* is low or high.
 * *Clock Phase*, which specifies whether sampling occurs on the leading or trailing edge of *CLK*.
-### Frame Structure
+### Communication
 ---
 While idle, the `Master` holds *CLK* at its base-value. To communicate with a `Slave`,
 
@@ -39,7 +38,7 @@ While idle, the `Master` holds *CLK* at its base-value. To communicate with a `S
 ![[SPI-Frame-Structure.jpg|600]]
 
 *Note:* When *SS* is driven high for a `Slave`, its *MISO* physical-pin goes into high-impedance state.
-### Physical Implementation
+### Circuitry
 ---
 Usually, *SPI* module circuitry is implemented using a shift register, as shown below.
 

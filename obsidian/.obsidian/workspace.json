@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "00fdda3ac322f007",
+        "id": "4a9f473bae4a2c4b",
         "type": "tabs",
         "children": [
           {
-            "id": "67826ab40f19afaa",
+            "id": "1f73f7c8f588b170",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/Technical-Topics/Communication-Protocols/UDS.md",
+                "file": "Topics/Technical-Topics/Communication-Protocols/UART.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topics/Technical-Topics/Communication-Protocols/UDS.md",
+                "file": "Topics/Technical-Topics/Communication-Protocols/UART.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topics/Technical-Topics/Communication-Protocols/UDS.md",
+                "file": "Topics/Technical-Topics/Communication-Protocols/UART.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topics/Technical-Topics/Communication-Protocols/UDS.md"
+                "file": "Topics/Technical-Topics/Communication-Protocols/UART.md"
               }
             }
           }
@@ -146,18 +146,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "67826ab40f19afaa",
+  "active": "389424f564d8a932",
   "lastOpenFiles": [
-    "Topics/Technical-Topics/Communication-Protocols.md",
-    "Topics/Technical-Topics.md",
+    "~IMG/UART-Frame-Structure.png",
+    "~IMG/UART-Physical-Connection.jpg",
     "Welcome!.md",
+    "Topics/Technical-Topics/Communication-Protocols/UART.md",
+    "Topics/Technical-Topics/Communication-Protocols.md",
+    "Topics/Technical-Topics/Communication-Protocols/UART.md",
+    "Topics/Technical-Topics.md",
+    "Topics/Technical-Topics/OS.md",
+    "Topics/Technical-Topics/OS/OSEK.md",
+    "Topics/Technical-Topics/Tooling.md",
     "Topics/Technical-Topics/Communication-Protocols/UDS.md",
     "Topics/Technical-Topics/Communication-Protocols/DoIP.md",
     "Topics/Technical-Topics/Communication-Protocols/SOME-IP.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet/AUTOSAR-Module-Sd.md",
     "Topics/Technical-Topics/OS/AUTOSAR.md",
-    "Topics/Technical-Topics/OS.md",
-    "Topics/Technical-Topics/Tooling.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet/AUTOSAR-Module-SoAd.md",
     "Topics/Technical-Topics/Communication-Protocols/IPsec.md",
     "Topics/Technical-Topics/Cryptography.md",
@@ -170,10 +175,6 @@
     "Topics/Technical-Topics/Cryptography/Message-Authentication-Codes.md",
     "Topics/Technical-Topics/Tooling/Regular-Expressions.md",
     "Topics/Technical-Topics/Cryptography/Cryptographic-Hash-Functions/SHA-1.md",
-    "Topics/Technical-Topics/Cryptography/Cryptographic-Hash-Functions.md",
-    "Topics/Technical-Topics/Tooling/TRACE32-PRACTICE-Language.md",
-    "Topics/Technical-Topics/Tooling/Makefiles.md",
-    "Topics/Technical-Topics/Tooling/Git.md",
     "Pasted image 20240715003822 1.png",
     "~IMG/SOME-IP-SD-Option-Endpoint-IPv4-SD.png",
     "~IMG/SOME-IP-SD-Option-Endpoint-IPv4-Multicast.png",
@@ -189,7 +190,6 @@
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack",
     "~IMG/AUTOSAR-KeyM-Csm-Cfg.png",
-    "~IMG/AUTOSAR-Crypto-Driver-Job-State-Machine.png",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Crypto-Stack",
     "Untitled.canvas",
     "Topics/Technical-Topics/Tooling",

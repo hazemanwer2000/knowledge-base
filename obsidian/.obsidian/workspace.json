@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "4a9f473bae4a2c4b",
+        "id": "f8cd1009d96b6caa",
         "type": "tabs",
         "children": [
           {
-            "id": "1f73f7c8f588b170",
+            "id": "bb5ccc8166c44192",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topics/Technical-Topics/Communication-Protocols/UART.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topics/Technical-Topics/Communication-Protocols/UART.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topics/Technical-Topics/Communication-Protocols/UART.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Topics/Technical-Topics/Communication-Protocols/UART.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,25 +138,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "389424f564d8a932",
+  "active": "bb5ccc8166c44192",
   "lastOpenFiles": [
-    "~IMG/UART-Frame-Structure.png",
-    "~IMG/UART-Physical-Connection.jpg",
-    "Welcome!.md",
     "Topics/Technical-Topics/Communication-Protocols/UART.md",
+    "Topics/Technical-Topics/Communication-Protocols/SPI.md",
+    "~IMG/SPI-Module-Circuitry.jpg",
+    "spi-clock-polarity-phase.jpg",
     "Topics/Technical-Topics/Communication-Protocols.md",
-    "Topics/Technical-Topics/Communication-Protocols/UART.md",
     "Topics/Technical-Topics.md",
+    "Welcome!.md",
+    "~IMG/UART-Physical-Interface.jpg",
+    "~IMG/SPI-Frame-Structure.jpg",
+    "~IMG/SPI-Physical-Interface.png",
+    "Topics/Technical-Topics/Communication-Protocols/IPsec.md",
+    "Topics/Technical-Topics/Communication-Protocols/SOME-IP.md",
+    "Topics/Technical-Topics/Communication-Protocols/DoIP.md",
+    "Topics/Technical-Topics/Communication-Protocols/UDS.md",
+    "~IMG/UART-Frame-Structure.png",
     "Topics/Technical-Topics/OS.md",
     "Topics/Technical-Topics/OS/OSEK.md",
     "Topics/Technical-Topics/Tooling.md",
-    "Topics/Technical-Topics/Communication-Protocols/UDS.md",
-    "Topics/Technical-Topics/Communication-Protocols/DoIP.md",
-    "Topics/Technical-Topics/Communication-Protocols/SOME-IP.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet/AUTOSAR-Module-Sd.md",
     "Topics/Technical-Topics/OS/AUTOSAR.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet/AUTOSAR-Module-SoAd.md",
-    "Topics/Technical-Topics/Communication-Protocols/IPsec.md",
     "Topics/Technical-Topics/Cryptography.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Crypto-Stack/AUTOSAR-Module-KeyM.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Memory-Stack/AUTOSAR-Module-Fee.md",
@@ -179,17 +175,12 @@
     "~IMG/SOME-IP-SD-Option-Endpoint-IPv4-SD.png",
     "~IMG/SOME-IP-SD-Option-Endpoint-IPv4-Multicast.png",
     "~IMG/SOME-IP-SD-Option-Endpoint-IPv4.png",
-    "~IMG/SOME-IP-SD-Entry-Type-2.png",
-    "~IMG/SOME-IP-SD-Entry-Type-1.png",
-    "~IMG/SOME-IP-SD-Header-Format.png",
-    "~IMG/SOME-IP-Header-Format.png",
     "Topics/Technical-Topics/Tooling/Version-Control",
     "Topics/Technical-Topics/Tooling/Debugger-Scripting",
     "Topics/Technical-Topics/Tooling/Shell-Scripting",
     "Topics/Technical-Topics/Tooling/Build-Systems",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack",
-    "~IMG/AUTOSAR-KeyM-Csm-Cfg.png",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Crypto-Stack",
     "Untitled.canvas",
     "Topics/Technical-Topics/Tooling",

@@ -30,6 +30,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "535cc6878ee6d740",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topics/Technical-Topics/Communication-Protocols/I2C.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -160,11 +172,17 @@
   },
   "active": "7f28373963e58781",
   "lastOpenFiles": [
+    "~IMG/LIN-Bus-PID-Field.png",
+    "~IMG/LIN-Bus-Frame-Structure.png",
+    "~IMG/LIN-Bus-Sync-Field.png",
     "Topics/Technical-Topics/Communication-Protocols.md",
     "Topics/Technical-Topics/Communication-Protocols/I2C.md",
-    "Topics/Technical-Topics/Communication-Protocols/UART.md",
-    "Topics/Technical-Topics/Communication-Protocols/SPI.md",
     "Topics/Technical-Topics/Communication-Protocols/LIN.md",
+    "Topics/Technical-Topics/Communication-Protocols/SPI.md",
+    "Topics/Technical-Topics/Communication-Protocols/UART.md",
+    "~IMG/LIN-Bus-Break-Field.png",
+    "~IMG/LIN-Bus-Header-Response-Diagram.png",
+    "~IMG/LIN-Bus-Overview.png",
     "Topics/Technical-Topics.md",
     "Welcome!.md",
     "Topics/Technical-Topics/Communication-Protocols/DoIP.md",
@@ -182,11 +200,6 @@
     "~IMG/I2C-Complete-Transaction.png",
     "~IMG/I2C-Data-Validity.png",
     "~IMG/I2C-START-STOP-Conditions.png",
-    "~IMG/I2C-Physical-Interface.png",
-    "~IMG/SPI-Module-Circuitry.jpg",
-    "spi-clock-polarity-phase.jpg",
-    "~IMG/UART-Physical-Interface.jpg",
-    "~IMG/SPI-Frame-Structure.jpg",
     "Topics/Technical-Topics/Communication-Protocols/IPsec.md",
     "Topics/Technical-Topics/Communication-Protocols/SOME-IP.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet/AUTOSAR-Module-Sd.md",
@@ -195,7 +208,6 @@
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Memory-Stack/AUTOSAR-Module-Fee.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Memory-Stack/AUTOSAR-Module-NvM.md",
     "Topics/Technical-Topics/Cryptography/X.509-Certificates.md",
-    "Topics/Technical-Topics/Cryptography/Elliptic-Curve-Cryptography.md",
     "Topics/Technical-Topics/Tooling/Version-Control",
     "Topics/Technical-Topics/Tooling/Debugger-Scripting",
     "Topics/Technical-Topics/Tooling/Shell-Scripting",

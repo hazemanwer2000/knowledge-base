@@ -120,10 +120,58 @@ Fields include,
 	* ![[LIN-TP-PCI-Format.png|450]]
 	* *Note:* For *FF* frames, the *length* field is 12-bits long.
 	* *Note:* For *CF* frames, the *counter* field begins with 1, wraps to 0.
+
+Timing requirements include,
+* `ST_min`, the minimum time-delay a `Slave` node requires, between an *FF* and a *CF* frame, or *CF* frame(s).
 ### LDF File
 ---
 An *LDF (LIN Description File)* completely describes a *LIN* cluster.
 
+```
+LIN_description_file;
+LIN_protocol_version = <version_number>;
+LIN_language_version = <version_number>;
+LIN_speed = <floating_value> kbps;
+Channel_name = <symbolic_name>;
+
+Nodes {
+	Master: <symbolic_name>, <time_base> ms, <jitter> ms;
+	Slave: [<symbolic_name>];
+}
+
+Node_attributes {
+	[<symbolic_name> {
+		configured_NAD = <hex_value>;
+		ST_min = <floating_value> ms;
+	}]
+}
+
+Frames {
+	[<symbolic_name>: <frame_id>, <provider_node_ref>, <length_in_bytes> {
+		...
+	}]
+}
+
+Sporadic_frames {
+	[<symbolic_name>: [<frame_ref>];]
+}
+
+Event_triggered_frames {
+	[<symbolic_name>:
+		<collision_resolving_schedule_table_ref>,
+		<frame_id>,
+		[<frame_ref>]
+	;]
+}
+
+Schedule_tables {
+	[<symbolic_name> {
+		[<frame_ref> delay <floating_value> ms;]
+	}]
+}
+```
+
+*Note:* Schedule table(s) may reference language-built-in frame(s). Refer to [1] for further information.
 ## References
 ---
 [1] LIN Protocol Specification, Revision 2.2A, LIN Consortium

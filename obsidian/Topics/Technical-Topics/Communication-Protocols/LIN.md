@@ -1,5 +1,19 @@
 ──────── *for more from the author, visit* [github.com/hazemanwer2000](https://github.com/hazemanwer2000). ────────
 ## *Table of Contents*
+- [[#Basics|Basics]]
+	- [[#Basics#Frame Structure|Frame Structure]]
+		- [[#Frame Structure#Frame Header Structure|Frame Header Structure]]
+		- [[#Frame Structure#Frame Response Structure|Frame Response Structure]]
+	- [[#Basics#Frame Slot Types|Frame Slot Types]]
+		- [[#Frame Slot Types#Unconditional Frame Slot|Unconditional Frame Slot]]
+		- [[#Frame Slot Types#Event-Triggered Frame Slot|Event-Triggered Frame Slot]]
+		- [[#Frame Slot Types#Sporadic Frame Slot|Sporadic Frame Slot]]
+	- [[#Basics#Schedule Tables|Schedule Tables]]
+	- [[#Basics#Timing Requirements|Timing Requirements]]
+- [[#Transport-Layer|Transport-Layer]]
+	- [[#Transport-Layer#Timing Requirements|Timing Requirements]]
+- [[#LDF File|LDF File]]
+- [[#Network Management|Network Management]]
 ## Content
 ---
 *Local Interconnect Network (LIN)* is a serial, half-duplex, asynchronous and `1:N` (i.e., `Master:Slave`) *L2*-protocol.
@@ -85,9 +99,8 @@ Within a sporadic frame slot, all associated frames are checked, if transmission
 A schedule table consists of a number of consecutive frame slots.
 
 If a schedule table switch is requested (e.g., by the application-layer), it shall occur at the end of the current frame slot.
-
-![[LIN-Bus-Frame-Slot.png|600]]
-
+#### Timing Requirements
+---
 Timing requirements include,
 * `T_Frame_Nominal = T_Header_Nominal + T_Response_Nominal`, where,
 	* `T_Header_Nominal = 34 * T_bit`.
@@ -96,11 +109,15 @@ Timing requirements include,
 * `T_Frame_Slot` is,
 	* an integer multiple of `T_base`, the time base, and,
 	* `T_Frame_Slot > (Jitter + T_Frame_Maximum)`.
+
+![[LIN-Bus-Frame-Slot.png|600]]
 ### Transport-Layer
 ---
 *LIN-TP* is defined to use Frame ID(s),
-* `0x3C`, for transmission from `Master` node to `Slave` node, usually requests.
+* `0x3C`, for transmission from `Master` node to `Slave` node, usualy requests.
+	* *Note:* It is usually called *Master-Request Frame (MRF)*.
 * `0x3D`, for transmission from `Slave` node to `Master` node, usually responses.
+	* *Note:* It is usually called *Slave-Response Frame (SRF)*.
 
 *Note:* Both frames have a fixed length of 8 bytes. Unused bytes are set to `0xFF`.
 
@@ -120,7 +137,8 @@ Fields include,
 	* ![[LIN-TP-PCI-Format.png|450]]
 	* *Note:* For *FF* frames, the *length* field is 12-bits long.
 	* *Note:* For *CF* frames, the *counter* field begins with 1, wraps to 0.
-
+#### Timing Requirements
+---
 Timing requirements include,
 * `ST_min`, the minimum time-delay a `Slave` node requires, between an *FF* and a *CF* frame, or *CF* frame(s).
 ### LDF File
@@ -172,6 +190,27 @@ Schedule_tables {
 ```
 
 *Note:* Schedule table(s) may reference language-built-in frame(s). Refer to [1] for further information.
+### Network Management
+---
+The following is the state diagram of any `Slave` node.
+
+![[LIN-Bus-NM-State-Diagram.png|550]]
+
+A Go-To-Sleep request is transmitted by the `Master` node as an *MRF*, and is as shown below.
+
+![[LIN-Bus-Go-To-Sleep-Request.png|600]]
+
+*Note:* *NAD* with value zero is reserved for network management purposes.
+
+A bus wake-up signal may be issued, by any node, by forcing the *LIN* bus to the dominant state, for `250-us` to `5-ms`, after which the signal is considered valid.
+
+If the `Master` node does not transmit a *break* field for `150-ms` to `250-ms` from when the bus wake-up signal was validated, the node issuing the wake-up signal shall re-transmit a new wake-up signal.
+
+![[LIN-Bus-Wake-Up-Retransmit.png|700]]
+
+After three transmissions of wake-up signal(s), the issuing node shall wait a minimum of `1.5s`, before retrying.
+
+![[LIN-Bus-Wake-Up-Retransmit-Wait.png|675]]
 ## References
 ---
 [1] LIN Protocol Specification, Revision 2.2A, LIN Consortium

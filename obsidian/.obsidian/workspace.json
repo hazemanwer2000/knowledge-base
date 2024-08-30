@@ -18,18 +18,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "4840d35c66842a70",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topics/Technical-Topics/Communication-Protocols/UDS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ]
       }
@@ -160,6 +148,10 @@
   },
   "active": "80f38cefeb7eccda",
   "lastOpenFiles": [
+    "~IMG/LIN-Bus-Wake-Up-Retransmit-Wait.png",
+    "~IMG/LIN-Bus-Wake-Up-Retransmit.png",
+    "~IMG/LIN-Bus-Go-To-Sleep-Request.png",
+    "~IMG/LIN-Bus-NM-State-Diagram.png",
     "Topics/Technical-Topics/Communication-Protocols/UDS.md",
     "Topics/Technical-Topics/Communication-Protocols.md",
     "Topics/Technical-Topics.md",
@@ -174,11 +166,8 @@
     "~IMG/LIN-Bus-Frame-Slot.png",
     "~IMG/LIN-Bus-PID-Field.png",
     "~IMG/LIN-Bus-Frame-Structure.png",
-    "~IMG/LIN-Bus-Sync-Field.png",
     "Topics/Technical-Topics/Communication-Protocols/SPI.md",
     "Topics/Technical-Topics/Communication-Protocols/UART.md",
-    "~IMG/LIN-Bus-Break-Field.png",
-    "~IMG/LIN-Bus-Header-Response-Diagram.png",
     "Topics/Technical-Topics/Communication-Protocols/DoIP.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Module-OS.md",
     "Topics/Technical-Topics/OS/AUTOSAR.md",

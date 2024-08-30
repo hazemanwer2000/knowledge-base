@@ -16,7 +16,6 @@ Usually, the following signal(s) (also, shown below) are required between a `Mas
 * *MISO* (*Master-Input-Slave-Output*)
 * *SS* (*Slave-Select*)
 * *CLK*
-* *GND*
 
 *Note:* Sometimes, *MOSI* and *MISO* signal(s) are replaced by *SDO/SDI* (*Serial Data Output/Input*) signal(s).
 

@@ -11,6 +11,8 @@
 	* [[UART]]
 	* [[SPI]]
 	* [[I2C]]
+* Automotive
+	* [[LIN]]
 ## *Content*
 ---
 La-bla!

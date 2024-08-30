@@ -39,11 +39,13 @@ The AUTOSAR (Classic-Platform) OS is primarily based on *OSEK-OS* [1], a single-
 *Note:* Reading through [1] is a pre-requisite to reading through this document.
 #### OS Application(s)
 ---
-An *OS Application*, in-concept, is a collection of OS objects (e.g., tasks, ISR(s), resources) that all have access to each other (i.e., are allowed as parameters to OS API(s)).
+An *OS Application*, in-concept, is a collection of OS objects (e.g., task(s), ISR(s), counter(s), alarm(s)) that all have access to each other (i.e., are allowed as parameters to OS API(s)).
 
 *Note:* The right to access an OS object by other OS Application(s) must be granted explicitly (i.e., via the configuration reference `Os<...>AccessingApplication`).
 
 *Note:* An event is accessible if the task for which the event belongs to (i.e., may wait on) is accessible.
+
+*Note:* Resource(s) and spinlock(s) do not belong to any OS Application.
 #### Scalability Class
 ---
 The *Scalability Class* of the OS is a configuration parameter, that specifies the features (e.g., memory protection, timing protection) that shall be supported by the OS.

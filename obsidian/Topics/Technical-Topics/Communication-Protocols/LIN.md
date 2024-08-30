@@ -87,6 +87,15 @@ A schedule table consists of a number of consecutive frame slots.
 If a schedule table switch is requested (e.g., by the application-layer), it shall occur at the end of the current frame slot.
 
 ![[LIN-Bus-Frame-Slot.png|600]]
+
+Timing requirements include,
+* `T_Frame_Nominal = T_Header_Nominal + T_Response_Nominal`, where,
+	* `T_Header_Nominal = 34 * T_bit`.
+	* `T_Response_Nominal = 10 * (N + 1) * T_bit`.
+* `T_Frame_Maximum` is `1.4x` `T_Frame_Nominal`.
+* `T_Frame_Slot` is,
+	* an integer multiple of `T_base`, the time base, and,
+	* `T_Frame_Slot > (Jitter + T_Frame_Maximum)`.
 ### Transport-Layer
 ---
 *LIN-TP* is defined to use Frame ID(s),
@@ -111,6 +120,10 @@ Fields include,
 	* ![[LIN-TP-PCI-Format.png|450]]
 	* *Note:* For *FF* frames, the *length* field is 12-bits long.
 	* *Note:* For *CF* frames, the *counter* field begins with 1, wraps to 0.
+### LDF File
+---
+An *LDF (LIN Description File)* completely describes a *LIN* cluster.
+
 ## References
 ---
 [1] LIN Protocol Specification, Revision 2.2A, LIN Consortium

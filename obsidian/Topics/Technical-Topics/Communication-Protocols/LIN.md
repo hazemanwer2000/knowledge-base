@@ -93,6 +93,8 @@ If a schedule table switch is requested (e.g., by the application-layer), it sha
 * `0x3C`, for transmission from `Master` node to `Slave` node, usually requests.
 * `0x3D`, for transmission from `Slave` node to `Master` node, usually responses.
 
+*Note:* Both frames have a fixed length of 8 bytes. Unused bytes are set to `0xFF`.
+
 To transmit a request,
 * If its length is less than or equal to six bytes,
 	* *SF* (Single-Frame) is transmitted.

@@ -5,7 +5,7 @@
 *Local Interconnect Network (LIN)* is a serial, half-duplex, asynchronous and `1:N` (i.e., `Master:Slave`) *L2*-protocol.
 
 Usually employed in the automotive industry, it is specified in [1].
-### Concept
+### Basics
 ---
 Each *LIN* node is connected to the *LIN* bus via a single wire. A node may be,
 * A `Master` node, with two running tasks (i.e., jobs), a `Master` task and a `Slave` task.
@@ -80,6 +80,35 @@ Within a sporadic frame slot, all associated frames are checked, if transmission
 * If one frame shall be transmitted, the frame is transmitted within the slot.
 * If more than one frame shall be transmitted, highest-priority frame is transmitted within the slot.
 	* *Note:* Lower priority frames shall have a chance for transmission, on the next occurrence of this frame slot.
+#### Schedule Tables
+---
+A schedule table consists of a number of consecutive frame slots.
+
+If a schedule table switch is requested (e.g., by the application-layer), it shall occur at the end of the current frame slot.
+
+![[LIN-Bus-Frame-Slot.png|600]]
+### Transport-Layer
+---
+*LIN-TP* is defined to use Frame ID(s),
+* `0x3C`, for transmission from `Master` node to `Slave` node, usually requests.
+* `0x3D`, for transmission from `Slave` node to `Master` node, usually responses.
+
+To transmit a request,
+* If its length is less than or equal to six bytes,
+	* *SF* (Single-Frame) is transmitted.
+* Else,
+	* *FF* (First-Frame) and *CF* (Consecutive-Frame) are transmitted.
+
+The following is the format of the different *TP*-Frame types.
+
+![[LIN-TP-Frame-Structures.PNG|600]]
+
+Fields include,
+* *NAD* (Node Address), a unique identifier of every `Slave` node addressable via *LIN-TP*.
+* *PCI* (Protocol Control Information), includes control-flow information, dependent on the *TP*-Frame type.
+	* ![[LIN-TP-PCI-Format.png|450]]
+	* *Note:* For *FF* frames, the *length* field is 12-bits long.
+	* *Note:* For *CF* frames, the *counter* field begins with 1, wraps to 0.
 ## References
 ---
 [1] LIN Protocol Specification, Revision 2.2A, LIN Consortium

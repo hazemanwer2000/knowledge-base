@@ -8,36 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7f28373963e58781",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topics/Technical-Topics/Communication-Protocols/LIN.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "80f38cefeb7eccda",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/Technical-Topics/Communication-Protocols.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "535cc6878ee6d740",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topics/Technical-Topics/Communication-Protocols/I2C.md",
+                "file": "Topics/Technical-Topics/Communication-Protocols/LIN.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,14 +146,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7f28373963e58781",
+  "active": "80f38cefeb7eccda",
   "lastOpenFiles": [
+    "~IMG/LIN-TP-Frame-Structures.PNG",
+    "~IMG/Capture.PNG",
+    "~IMG/LIN-TP-Frame-Structures.png",
+    "Topics/Technical-Topics/Communication-Protocols/LIN.md",
+    "~IMG/LIN-TP-PCI-Format.png",
+    "Topics/Technical-Topics/Communication-Protocols.md",
+    "Topics/Technical-Topics/Communication-Protocols/I2C.md",
+    "~IMG/LIN-Bus-Frame-Slot.png",
     "~IMG/LIN-Bus-PID-Field.png",
     "~IMG/LIN-Bus-Frame-Structure.png",
     "~IMG/LIN-Bus-Sync-Field.png",
-    "Topics/Technical-Topics/Communication-Protocols.md",
-    "Topics/Technical-Topics/Communication-Protocols/I2C.md",
-    "Topics/Technical-Topics/Communication-Protocols/LIN.md",
     "Topics/Technical-Topics/Communication-Protocols/SPI.md",
     "Topics/Technical-Topics/Communication-Protocols/UART.md",
     "~IMG/LIN-Bus-Break-Field.png",
@@ -195,11 +176,6 @@
     "Topics/Technical-Topics/Tooling.md",
     "Topics/Technical-Topics/Tooling/Regular-Expressions.md",
     "Topics/Technical-Topics/Cryptography.md",
-    "~IMG/I2C-REPEAT-START-Condition.png",
-    "Untitled 1.png",
-    "~IMG/I2C-Complete-Transaction.png",
-    "~IMG/I2C-Data-Validity.png",
-    "~IMG/I2C-START-STOP-Conditions.png",
     "Topics/Technical-Topics/Communication-Protocols/IPsec.md",
     "Topics/Technical-Topics/Communication-Protocols/SOME-IP.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet/AUTOSAR-Module-Sd.md",

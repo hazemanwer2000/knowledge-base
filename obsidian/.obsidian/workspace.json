@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d89a90fccab5c028",
+        "id": "40076242a2a6cd51",
         "type": "tabs",
         "children": [
           {
-            "id": "80f38cefeb7eccda",
+            "id": "0f660638ece44e65",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Module-OS.md",
+                "file": "Topics/Technical-Topics/Tooling/Git.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Module-OS.md",
+                "file": "Topics/Technical-Topics/Tooling/Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Module-OS.md",
+                "file": "Topics/Technical-Topics/Tooling/Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Module-OS.md"
+                "file": "Topics/Technical-Topics/Tooling/Git.md"
               }
             }
           }
@@ -146,12 +146,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "80f38cefeb7eccda",
+  "active": "0f660638ece44e65",
   "lastOpenFiles": [
-    "Topics/Technical-Topics/OS/AUTOSAR.md",
-    "Topics/Technical-Topics/OS.md",
+    "Topics/Technical-Topics/Tooling.md",
     "Topics/Technical-Topics.md",
     "Welcome!.md",
+    "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Module-OS.md",
+    "Topics/Technical-Topics/OS/AUTOSAR.md",
+    "Topics/Technical-Topics/OS.md",
     "Topics/Technical-Topics/Communication-Protocols/LIN.md",
     "Topics/Technical-Topics/Communication-Protocols.md",
     "~IMG/LIN-Bus-Wake-Up-Retransmit-Wait.png",
@@ -159,7 +161,6 @@
     "~IMG/LIN-Bus-Go-To-Sleep-Request.png",
     "~IMG/LIN-Bus-NM-State-Diagram.png",
     "Topics/Technical-Topics/Communication-Protocols/UDS.md",
-    "Topics/Technical-Topics/Tooling.md",
     "~IMG/LIN-TP-Frame-Structures.PNG",
     "~IMG/Capture.PNG",
     "~IMG/LIN-TP-Frame-Structures.png",
@@ -170,7 +171,6 @@
     "Topics/Technical-Topics/Communication-Protocols/SPI.md",
     "Topics/Technical-Topics/Communication-Protocols/UART.md",
     "Topics/Technical-Topics/Communication-Protocols/DoIP.md",
-    "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Module-OS.md",
     "Topics/Technical-Topics/OS/OSEK.md",
     "Topics/Technical-Topics/OS/OSEK/OSEK-OS.md",
     "Topics/Technical-Topics/Tooling/Regular-Expressions.md",

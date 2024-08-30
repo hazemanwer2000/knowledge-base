@@ -79,7 +79,7 @@ git switch BRANCH
 To checkout to a specific commit,
 
 ```
-git checkout [-b BRANCH-NAME] HASH
+git checkout [-b BRANCH] HASH
 ```
 
 *Note:* If this commit is the `HEAD` commit of a branch, you may specify the branch's name instead of the hash of the commit.
@@ -99,7 +99,7 @@ git rebase BRANCH
 To merge a branch, into the current branch,
 
 ```
-git merge BRANCH-NAME
+git merge BRANCH
 ```
 
 To show the log,
@@ -156,6 +156,3 @@ To rebase the current branch onto a remote branch,
 ```
 git rebase REMOTE-ALIAS/REMOTE-BRANCH
 ```
-## References
----
-[1] ...

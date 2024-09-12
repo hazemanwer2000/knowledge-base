@@ -148,6 +148,8 @@
   },
   "active": "8dab751aee339d86",
   "lastOpenFiles": [
+    "~IMG/CAN-Node-State-Diagram.png",
+    "can-fd-stuffing.png",
     "Topics/Technical-Topics/Communication-Protocols.md",
     "Topics/Technical-Topics.md",
     "Welcome!.md",
@@ -160,7 +162,6 @@
     "~IMG/CAN-Frame-Format-Basic-FD.png",
     "~IMG/CAN-Frame-Format-ACK-EOF.png",
     "~IMG/CAN-Frame-Format-Extended.png",
-    "~IMG/CAN-Frame-Format-Basic.png",
     "~IMG/CAN-Frame-Format-Basic.png",
     "Topics/Technical-Topics/Communication-Protocols/I2C.md",
     "Topics/Technical-Topics/Communication-Protocols/LIN.md",

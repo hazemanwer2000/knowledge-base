@@ -76,7 +76,7 @@ A *CAN* frame may be in Extended format, with an extension to the ID field, as s
 ---
 An *Overload* *CAN* frame is a special frame, that is,
 * first-transmitted by a receiving *CAN* node during an `ITM` field,
-* signals to the transmitter of the current *CAN* frame to delay the transmission of the next frame (with the same ID), and,
+* signals to all other *CAN* node(s) that delay in the transmission of the next *CAN* frame on the bus is required, and,
 * triggers all other *CAN* node(s) to transmit a (reactive) *Overload* *CAN* frame themselves.
 
 *Note:* It has the same structure as an *Error* *CAN* frame (see below).
@@ -147,6 +147,19 @@ The following is the structure of a *CAN-FD* frame in Extended-Format, with Data
 In *CAN-FD*, *Fixed* Bit Stuffing occurs within the CRF field, as shown below.
 
 ![[CAN-FD-Fixed-Bit-Stuffing.png|850]]
+### Node State(s)
+--- 
+Upon start-up, each *CAN* node shall,
+* enter the **bus-integration** (implicit) state, and,
+* wait for an **idle-condition** to occur, before entering the **error-active** state.
+
+*Note:* An idle-condition occurs with the detection of 11 consecutive, recessive bits (e.g., `EOF` field or Error/Overload Delimiter, followed by `ITM` field).
+
+Each *CAN* node maintains two error counters, TX and RX, that are incremented/decremented according to events outlined in [1].
+
+Transitions between error-active, **error-passive**, and **bus-off** state(s) are shown below.
+
+![[CAN-Node-State-Diagram.png|450]]
 ## References
 ---
 [1] Road Vehicles - Controller Area Network (CAN), ISO 11898-1, 2015

@@ -144,7 +144,9 @@ The following is the structure of a *CAN-FD* frame in Extended-Format, with Data
 ![[CAN-Frame-Format-Extended-FD-Plus-16.png|850]]
 #### Bit Stuffing
 ---
+In *CAN-FD*, *Fixed* Bit Stuffing occurs within the CRF field, as shown below.
 
+![[CAN-FD-Fixed-Bit-Stuffing.png|850]]
 ## References
 ---
 [1] Road Vehicles - Controller Area Network (CAN), ISO 11898-1, 2015

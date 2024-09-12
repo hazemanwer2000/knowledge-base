@@ -170,8 +170,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8dab751aee339d86",
+  "active": "389424f564d8a932",
   "lastOpenFiles": [
+    "~IMG/CAN-TP-Segmented.png",
+    "~IMG/CAN-TP-Unsegmented.png",
     "Topics/Technical-Topics/Communication-Protocols/DoIP.md",
     "Topics/Technical-Topics/Communication-Protocols/LIN.md",
     "Topics/Technical-Topics/Communication-Protocols/CAN.md",
@@ -187,7 +189,6 @@
     "~IMG/CAN-Frame-Format-Basic-FD-Plus-16.png",
     "~IMG/CAN-Frame-Format-Basic-FD.png",
     "~IMG/CAN-Frame-Format-ACK-EOF.png",
-    "~IMG/CAN-Frame-Format-Extended.png",
     "Topics/Technical-Topics/Communication-Protocols/I2C.md",
     "Topics/Technical-Topics/Communication-Protocols/UDS.md",
     "Topics/Technical-Topics/OS.md",

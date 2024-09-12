@@ -203,6 +203,8 @@ For SF(s),
 	* the low nibble of the first byte is set to zero, and,
 	* the second byte denotes `L`
 
+![[CAN-TP-Unsegmented.png|500]]
+
 For FF(s),
 * For *CAN* frame(s) with length `>= 8`,
 	* If `L < 4096`,
@@ -232,6 +234,8 @@ For FC(s),
 * The third byte denotes `ST_min`.
 	* If `0x00` to `0x7F`, it is in `ms`.
 	* If `0xF1` to `0xF9`, it maps to the range of `100` to `900` `us`.
+
+![[CAN-TP-Segmented.png|500]]
 
 *Note:* For all case(s) where *CAN* frame length `> L`, padding byte(s) shall be appended.
 ## References

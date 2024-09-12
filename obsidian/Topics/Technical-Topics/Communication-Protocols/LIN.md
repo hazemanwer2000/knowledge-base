@@ -16,7 +16,7 @@
 - [[#Network Management|Network Management]]
 ## Content
 ---
-*Local Interconnect Network (LIN)* is a serial, half-duplex, asynchronous and `1:N` (i.e., `Master:Slave`) *L2*-protocol.
+*Local Interconnect Network (LIN)* is a serial, half-duplex, asynchronous, message-oriented and `1:N` (i.e., `Master:Slave`) *L2*-protocol.
 
 Usually employed in the automotive industry, it is specified in [1].
 ### Basics

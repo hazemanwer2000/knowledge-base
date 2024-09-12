@@ -13,6 +13,7 @@
 	* [[I2C]]
 * Automotive
 	* [[LIN]]
+	* [[CAN]]
 ## *Content*
 ---
 La-bla!

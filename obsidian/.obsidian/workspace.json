@@ -4,16 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "4e907132856eca19",
+        "id": "cee6cf2b1cef0e60",
         "type": "tabs",
         "children": [
           {
-            "id": "d9a7b341b6494c4a",
+            "id": "ec2f09a6448ed7c6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/Technical-Topics/Tooling/TRACE32-PRACTICE-Language.md",
+                "file": "Topics/Technical-Topics/Communication-Protocols/CAN.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a87fda6fe8fa2149",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topics/Technical-Topics/Communication-Protocols/I2C.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e9c8c7a6ed9b032b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topics/Technical-Topics/Communication-Protocols/LIN.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topics/Technical-Topics/Tooling/TRACE32-PRACTICE-Language.md",
+                "file": "Topics/Technical-Topics/Communication-Protocols/CAN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topics/Technical-Topics/Tooling/TRACE32-PRACTICE-Language.md",
+                "file": "Topics/Technical-Topics/Communication-Protocols/CAN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topics/Technical-Topics/Tooling/TRACE32-PRACTICE-Language.md"
+                "file": "Topics/Technical-Topics/Communication-Protocols/CAN.md"
               }
             }
           }
@@ -146,21 +170,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d9a7b341b6494c4a",
+  "active": "389424f564d8a932",
   "lastOpenFiles": [
-    "Topics/Technical-Topics/Tooling.md",
-    "Topics/Technical-Topics.md",
-    "Welcome!.md",
+    "~IMG/CAN-Frame-Format-Basic.png",
+    "~IMG/CAN-Frame-Format-Basic.png",
+    "Topics/Technical-Topics/Communication-Protocols/I2C.md",
+    "Topics/Technical-Topics/Communication-Protocols/CAN.md",
     "Topics/Technical-Topics/Communication-Protocols/LIN.md",
     "Topics/Technical-Topics/Communication-Protocols.md",
-    "Topics/Technical-Topics/Communication-Protocols/I2C.md",
+    "Welcome!.md",
+    "Topics/Technical-Topics/Communication-Protocols/UDS.md",
+    "Topics/Technical-Topics.md",
+    "Topics/Technical-Topics/OS.md",
+    "Topics/Technical-Topics/Tooling/TRACE32-PRACTICE-Language.md",
+    "Topics/Technical-Topics/Tooling.md",
     "Topics/Technical-Topics/Communication-Protocols/SPI.md",
     "Topics/Technical-Topics/Communication-Protocols/UART.md",
-    "Topics/Technical-Topics/Communication-Protocols/UDS.md",
     "Topics/Technical-Topics/Tooling/Git.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Module-OS.md",
     "Topics/Technical-Topics/OS/AUTOSAR.md",
-    "Topics/Technical-Topics/OS.md",
     "~IMG/LIN-Bus-Wake-Up-Retransmit-Wait.png",
     "~IMG/LIN-Bus-Wake-Up-Retransmit.png",
     "~IMG/LIN-Bus-Go-To-Sleep-Request.png",
@@ -170,7 +198,6 @@
     "~IMG/LIN-TP-Frame-Structures.png",
     "~IMG/LIN-TP-PCI-Format.png",
     "~IMG/LIN-Bus-Frame-Slot.png",
-    "~IMG/LIN-Bus-PID-Field.png",
     "Topics/Technical-Topics/Communication-Protocols/DoIP.md",
     "Topics/Technical-Topics/OS/OSEK.md",
     "Topics/Technical-Topics/OS/OSEK/OSEK-OS.md",
@@ -181,9 +208,6 @@
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet/AUTOSAR-Module-Sd.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet/AUTOSAR-Module-SoAd.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Crypto-Stack/AUTOSAR-Module-KeyM.md",
-    "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Memory-Stack/AUTOSAR-Module-Fee.md",
-    "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Memory-Stack/AUTOSAR-Module-NvM.md",
-    "Topics/Technical-Topics/Cryptography/X.509-Certificates.md",
     "Topics/Technical-Topics/Tooling/Version-Control",
     "Topics/Technical-Topics/Tooling/Debugger-Scripting",
     "Topics/Technical-Topics/Tooling/Shell-Scripting",

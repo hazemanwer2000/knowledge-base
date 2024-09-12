@@ -1,6 +1,17 @@
 ──────── *for more from the author, visit* [github.com/hazemanwer2000](https://github.com/hazemanwer2000). ────────
 ## *Table of Contents*
-...
+- [[#Acronyms|Acronyms]]
+- [[#Basics|Basics]]
+	- [[#Basics#Frame Structure|Frame Structure]]
+	- [[#Basics#Extended-Format|Extended-Format]]
+	- [[#Basics#Bit Stuffing|Bit Stuffing]]
+	- [[#Basics#Overload Frame(s)|Overload Frame(s)]]
+	- [[#Basics#Error Frame(s)|Error Frame(s)]]
+- [[#CAN-FD|CAN-FD]]
+	- [[#CAN-FD#Frame Structure|Frame Structure]]
+	- [[#CAN-FD#Extended-Format|Extended-Format]]
+	- [[#CAN-FD#Bit Stuffing|Bit Stuffing]]
+- [[#Node State(s)|Node State(s)]]
 ## Content
 ---
 *Controller Area Network (CAN)* is a serial, half-duplex, asynchronous, message-oriented and `N:N` (i.e., `Master:Slave`) *L2*-protocol.
@@ -39,10 +50,10 @@ The following is the structure of a *CAN* frame.
 A *CAN* frame may be categorized based on its purpose.
 * A *Data* Frame, whose purpose is to publish data,
 	* contains the Data Field, and,
-	* forces `RTR` bit to dominant state.
+	* forces `RTR` bit to be dominant.
 * A *Remote* Frame, whose purpose is to request data, from its publisher,
 	* omits the Data Field, and,
-	* forces `RTR` bit to recessive state.
+	* forces `RTR` bit to be recessive.
 
 *Note*: Based on arbitration, a Data *CAN* frame with the same ID is always prioritized over a Remote *CAN* frame.
 
@@ -103,7 +114,7 @@ An error-condition may be,
 * Form Error
 	* An unexpected bit-value, according to the format, is read by a **receiver**.
 * ACK Error
-	* While bit monitoring, the **transmitter** reads `ACK` bit as a recessive state (i.e., unacknowledged by all receivers).
+	* While bit monitoring, the **transmitter** reads `ACK` bit as recessive (i.e., unacknowledged by all receivers).
 ### CAN-FD
 ---
 *CAN Flexible Data-Rate (CAN-FD)* is a specification of the *CAN* protocol, that allows for higher transmission rates, and larger payload per frame.
@@ -131,11 +142,11 @@ The `DLC` field specifies the number of bytes in a *CAN-FD* Data field.
 | `14`      | `48`         |
 | `15`      | `64`         |
 
-If `BRS` bit is in a recessive state, variable-speed transmission is used for this *CAN-FD* frame, as shown below.
+If `BRS` bit is recessive, variable-speed transmission is used for this *CAN-FD* frame, as shown below.
 
 ![[CAN-FD-Variable-Rate.png|850]]
 
-If `ESI` bit is in a recessive state, the transmitting node is in an error-passive state (see below).
+If `ESI` bit is recessive, the transmitting node is in an error-passive state (see below).
 #### Extended-Format
 ---
 The following is the structure of a *CAN-FD* frame in Extended-Format, with Data field consisting of 16 bytes or less, and more than 16 bytes, respectively.
@@ -160,6 +171,10 @@ Each *CAN* node maintains two error counters, TX and RX, that are incremented/de
 Transitions between error-active, **error-passive**, and **bus-off** state(s) are shown below.
 
 ![[CAN-Node-State-Diagram.png|450]]
+
+In error-passive state, a node,
+* may only transmit passive Error Flag(s) (i.e., with all recessive-bit(s)), and,
+* after frame transmission, and the associated `ITM` field, shall wait for 8 recessive-bits (called, *Suspend Transmission Time*), before it is possible to transmit another frame.
 ## References
 ---
 [1] Road Vehicles - Controller Area Network (CAN), ISO 11898-1, 2015

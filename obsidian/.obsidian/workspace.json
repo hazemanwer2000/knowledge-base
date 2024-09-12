@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6a56a3f39d32e200",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topics/Technical-Topics/Communication-Protocols/LIN.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topics/Technical-Topics/Communication-Protocols/CAN.md",
+                "file": "Topics/Technical-Topics/Communication-Protocols/LIN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topics/Technical-Topics/Communication-Protocols/CAN.md",
+                "file": "Topics/Technical-Topics/Communication-Protocols/LIN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topics/Technical-Topics/Communication-Protocols/CAN.md"
+                "file": "Topics/Technical-Topics/Communication-Protocols/LIN.md"
               }
             }
           }
@@ -146,15 +159,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8dab751aee339d86",
+  "active": "6a56a3f39d32e200",
   "lastOpenFiles": [
-    "~IMG/CAN-Node-State-Diagram.png",
-    "can-fd-stuffing.png",
     "Topics/Technical-Topics/Communication-Protocols.md",
     "Topics/Technical-Topics.md",
     "Welcome!.md",
-    "~IMG/CAN-Frame-Format-Extended-FD-Plus-16.png",
     "Topics/Technical-Topics/Communication-Protocols/CAN.md",
+    "~IMG/CAN-Node-State-Diagram.png",
+    "can-fd-stuffing.png",
+    "~IMG/CAN-Frame-Format-Extended-FD-Plus-16.png",
     "~IMG/CAN-FD-Fixed-Bit-Stuffing.png",
     "~IMG/CAN-Frame-Format-Extended-FD.png",
     "~IMG/CAN-FD-Variable-Rate.png",
@@ -162,7 +175,6 @@
     "~IMG/CAN-Frame-Format-Basic-FD.png",
     "~IMG/CAN-Frame-Format-ACK-EOF.png",
     "~IMG/CAN-Frame-Format-Extended.png",
-    "~IMG/CAN-Frame-Format-Basic.png",
     "Topics/Technical-Topics/Communication-Protocols/I2C.md",
     "Topics/Technical-Topics/Communication-Protocols/LIN.md",
     "Topics/Technical-Topics/Communication-Protocols/UDS.md",

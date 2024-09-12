@@ -4,43 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "483aaa661f1e63f4",
+        "id": "ab54d31151e46e6c",
         "type": "tabs",
         "children": [
           {
-            "id": "8dab751aee339d86",
+            "id": "670d2da94f9d2ba8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topics/Technical-Topics/Communication-Protocols/CAN.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "69b92cc81ba2d9de",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topics/Technical-Topics/Communication-Protocols/DoIP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6a56a3f39d32e200",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topics/Technical-Topics/Communication-Protocols/LIN.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -109,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topics/Technical-Topics/Communication-Protocols/CAN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topics/Technical-Topics/Communication-Protocols/CAN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Topics/Technical-Topics/Communication-Protocols/CAN.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -170,13 +138,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "389424f564d8a932",
+  "active": "670d2da94f9d2ba8",
   "lastOpenFiles": [
-    "~IMG/CAN-TP-Segmented.png",
-    "~IMG/CAN-TP-Unsegmented.png",
+    "Topics/Technical-Topics/Communication-Protocols/CAN.md",
     "Topics/Technical-Topics/Communication-Protocols/DoIP.md",
     "Topics/Technical-Topics/Communication-Protocols/LIN.md",
-    "Topics/Technical-Topics/Communication-Protocols/CAN.md",
+    "~IMG/CAN-TP-Segmented.png",
+    "~IMG/CAN-TP-Unsegmented.png",
     "Topics/Technical-Topics/Communication-Protocols.md",
     "Topics/Technical-Topics.md",
     "Welcome!.md",
@@ -188,7 +156,6 @@
     "~IMG/CAN-FD-Variable-Rate.png",
     "~IMG/CAN-Frame-Format-Basic-FD-Plus-16.png",
     "~IMG/CAN-Frame-Format-Basic-FD.png",
-    "~IMG/CAN-Frame-Format-ACK-EOF.png",
     "Topics/Technical-Topics/Communication-Protocols/I2C.md",
     "Topics/Technical-Topics/Communication-Protocols/UDS.md",
     "Topics/Technical-Topics/OS.md",

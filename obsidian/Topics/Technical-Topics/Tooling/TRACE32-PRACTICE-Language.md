@@ -146,12 +146,6 @@ To dump a variable, or an address range, for viewing,
 
 ```
 Data.Dump $RANGE$ [/Byte|/Word|/Long]
-
-$RANGE$:
-	Var.Range(VARIABLE_NAME)
-	BEGIN_ADDRESS--END_ADDRESS
-	BEGIN_ADDRESS++OFFSET_TO_BEGIN_ADDRESS
-	ADDRESS
 ```
 
 Similarly, to dump a variable, or an address range, to a file,
@@ -162,12 +156,6 @@ Data.Save.$FORMAT$ FILE_PATH $RANGE$
 $FORMAT$:
 	Binary         ; '.bin' file format
 	S3Record       ; '.S19' file format, using 'S3' record(s)
-
-$RANGE$:
-	Var.Range(VARIABLE_NAME)
-	BEGIN_ADDRESS--END_ADDRESS
-	BEGIN_ADDRESS++OFFSET_TO_BEGIN_ADDRESS
-	ADDRESS
 ```
 
 *Note:* Address ranges are all-inclusive.
@@ -320,12 +308,7 @@ Snooper.Core CORE_NUMBER [CORE_NUMBER ...]
 To specify address(es) to sample (in `Memory` mode only),
 
 ```
-Snooper.Select %FORMAT ADDRESS [%FORMAT ADDRESS ...]
-
-ADDRESS:
-	SINGLE_ADDRESS (e.g., 0x90000000)
-	BEGIN_ADDRESS--END_ADDRESS (e.g., 0x90000000--0x9000000F)
-	BEGIN_ADDRESS++OFFSET_TO_BEGIN_ADDRESS (e.g., 0x90000000++0x0F)
+Snooper.Select %FORMAT ADDRESS_RANGE [%FORMAT ADDRESS_RANGE ...]
 ```
 
 *Note:* Address ranges are all-inclusive.

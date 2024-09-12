@@ -114,7 +114,7 @@ Timing requirements include,
 ### Transport-Layer
 ---
 *LIN-TP* is defined to use Frame ID(s),
-* `0x3C`, for transmission from `Master` node to `Slave` node, usualy requests.
+* `0x3C`, for transmission from `Master` node to `Slave` node, usually requests.
 	* *Note:* It is usually called *Master-Request Frame (MRF)*.
 * `0x3D`, for transmission from `Slave` node to `Master` node, usually responses.
 	* *Note:* It is usually called *Slave-Response Frame (SRF)*.
@@ -158,7 +158,7 @@ Nodes {
 }
 
 Node_attributes {
-	[<symbolic_name> {
+	[<node_ref> {
 		configured_NAD = <hex_value>;
 		ST_min = <floating_value> ms;
 	}]

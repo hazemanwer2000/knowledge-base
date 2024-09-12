@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b79504e243595f98",
+        "id": "4e907132856eca19",
         "type": "tabs",
         "children": [
           {
-            "id": "cac9bd57e86e9100",
+            "id": "d9a7b341b6494c4a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/Technical-Topics/Communication-Protocols/UDS.md",
+                "file": "Topics/Technical-Topics/Tooling/TRACE32-PRACTICE-Language.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topics/Technical-Topics/Communication-Protocols/UDS.md",
+                "file": "Topics/Technical-Topics/Tooling/TRACE32-PRACTICE-Language.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topics/Technical-Topics/Communication-Protocols/UDS.md",
+                "file": "Topics/Technical-Topics/Tooling/TRACE32-PRACTICE-Language.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topics/Technical-Topics/Communication-Protocols/UDS.md"
+                "file": "Topics/Technical-Topics/Tooling/TRACE32-PRACTICE-Language.md"
               }
             }
           }
@@ -146,31 +146,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cac9bd57e86e9100",
+  "active": "d9a7b341b6494c4a",
   "lastOpenFiles": [
-    "Topics/Technical-Topics/Communication-Protocols.md",
+    "Topics/Technical-Topics/Tooling.md",
     "Topics/Technical-Topics.md",
     "Welcome!.md",
+    "Topics/Technical-Topics/Communication-Protocols/LIN.md",
+    "Topics/Technical-Topics/Communication-Protocols.md",
+    "Topics/Technical-Topics/Communication-Protocols/I2C.md",
+    "Topics/Technical-Topics/Communication-Protocols/SPI.md",
+    "Topics/Technical-Topics/Communication-Protocols/UART.md",
+    "Topics/Technical-Topics/Communication-Protocols/UDS.md",
     "Topics/Technical-Topics/Tooling/Git.md",
-    "Topics/Technical-Topics/Tooling.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Module-OS.md",
     "Topics/Technical-Topics/OS/AUTOSAR.md",
     "Topics/Technical-Topics/OS.md",
-    "Topics/Technical-Topics/Communication-Protocols/LIN.md",
     "~IMG/LIN-Bus-Wake-Up-Retransmit-Wait.png",
     "~IMG/LIN-Bus-Wake-Up-Retransmit.png",
     "~IMG/LIN-Bus-Go-To-Sleep-Request.png",
     "~IMG/LIN-Bus-NM-State-Diagram.png",
-    "Topics/Technical-Topics/Communication-Protocols/UDS.md",
     "~IMG/LIN-TP-Frame-Structures.PNG",
     "~IMG/Capture.PNG",
     "~IMG/LIN-TP-Frame-Structures.png",
     "~IMG/LIN-TP-PCI-Format.png",
-    "Topics/Technical-Topics/Communication-Protocols/I2C.md",
     "~IMG/LIN-Bus-Frame-Slot.png",
     "~IMG/LIN-Bus-PID-Field.png",
-    "Topics/Technical-Topics/Communication-Protocols/SPI.md",
-    "Topics/Technical-Topics/Communication-Protocols/UART.md",
     "Topics/Technical-Topics/Communication-Protocols/DoIP.md",
     "Topics/Technical-Topics/OS/OSEK.md",
     "Topics/Technical-Topics/OS/OSEK/OSEK-OS.md",

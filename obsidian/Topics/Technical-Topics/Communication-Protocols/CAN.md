@@ -12,9 +12,12 @@ It is usually employed in the automotive industry.
 * `IDE` - Identifier Extension Request
 * `FDF` - FD-Format
 * `DLC` - Data Length Code
-* `SRR` - Substitute Remote Request
+* `SRR/RRS` - Substitute Remote-Request / Remote-Request Substitution
 * `EOF` - End of Frame
 * `ITM` - Intermission-Space
+* `RRS` - Remote Request Substitution
+* `BRS` - Bit-Rate Switch
+* `ESI` - Error State Indicator
 ### Basics
 ---
 Each *CAN* node is connected to the *CAN* network via a single (logical-)line.
@@ -51,11 +54,12 @@ The `DLC` field specifies the number of bytes in the Data field.
 | `N > 8`   | `8`          |
 
 After each *CAN* frame, the following field(s) exist:
-* `ACK` (Size: 1-bit)
-	* *Note:* All *CAN* node(s) shall acknowledge all CRC-valid *CAN* frame(s), by asserting a dominant state.
-* `ACK` delimiter (Size: 1-bit)
-* `EOF` (Size: 8-bits)
-* `ITM` (Size: 3-bits)
+* `ACK` field
+	* `ACK` bit (Size: 1-bit)
+		* *Note:* All *CAN* node(s) shall acknowledge all CRC-valid *CAN* frame(s), by asserting a dominant state.
+	* `ACK` delimiter (Size: 1-bit)
+* `EOF` field (Size: 8-bits)
+* `ITM` field (Size: 3-bits)
 
 ![[CAN-Frame-Format-ACK-EOF.png|225]]
 #### Extended-Format
@@ -87,7 +91,7 @@ It consists of,
 * Error Flag (Size: 6-12 bits)
 	* *Note:* The transmitting *CAN* node waits for the bus to be in recessive state, to mark the end of the Error Flag.
 * Error delimiter (Size: 8-bits)
-* `ITM` (Size: 3-bits)
+* `ITM` field (Size: 3-bits)
 
 An error-condition may be,
 * Bit Error
@@ -99,7 +103,48 @@ An error-condition may be,
 * Form Error
 	* An unexpected bit-value, according to the format, is read by a **receiver**.
 * ACK Error
-	* While bit monitoring, the **transmitter** reads `ACK` as a recessive state (i.e., unacknowledged by all receivers).
+	* While bit monitoring, the **transmitter** reads `ACK` bit as a recessive state (i.e., unacknowledged by all receivers).
+### CAN-FD
+---
+*CAN Flexible Data-Rate (CAN-FD)* is a specification of the *CAN* protocol, that allows for higher transmission rates, and larger payload per frame.
+#### Frame Structure
+---
+The following is the structure of a *CAN-FD* frame, with Data field consisting of 16 bytes or less, and more than 16 bytes, respectively.
+
+![[CAN-Frame-Format-Basic-FD.png|675]]
+![[CAN-Frame-Format-Basic-FD-Plus-16.png|675]]
+
+*Note:* Only *Data* *CAN-FD* frames exist. 
+
+*Note:* *CAN* and *CAN-FD* frames are arbitrated between, based only on the ID field (and ID Extension field), since an ID may only be associated with either *CAN* or *CAN-FD*.
+
+The `DLC` field specifies the number of bytes in a *CAN-FD* Data field.
+
+| DLC field | No. of bytes |
+| --------- | ------------ |
+| `N <= 8`  | `N`          |
+| `9`       | `12`         |
+| `10`      | `16`         |
+| `11`      | `20`         |
+| `12`      | `24`         |
+| `13`      | `32`         |
+| `14`      | `48`         |
+| `15`      | `64`         |
+
+If `BRS` bit is in a recessive state, variable-speed transmission is used for this *CAN-FD* frame, as shown below.
+
+![[CAN-FD-Variable-Rate.png|850]]
+
+If `ESI` bit is in a recessive state, the transmitting node is in an error-passive state (see below).
+#### Extended-Format
+---
+The following is the structure of a *CAN-FD* frame in Extended-Format, with Data field consisting of 16 bytes or less, and more than 16 bytes, respectively.
+
+![[CAN-Frame-Format-Extended-FD.png|850]]
+![[CAN-Frame-Format-Extended-FD-Plus-16.png|850]]
+#### Bit Stuffing
+---
+
 ## References
 ---
 [1] Road Vehicles - Controller Area Network (CAN), ISO 11898-1, 2015

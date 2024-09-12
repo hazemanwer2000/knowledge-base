@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c738dbb808bc8722",
+        "id": "483aaa661f1e63f4",
         "type": "tabs",
         "children": [
           {
-            "id": "cabf1f646a559171",
+            "id": "8dab751aee339d86",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -146,13 +146,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cabf1f646a559171",
+  "active": "389424f564d8a932",
   "lastOpenFiles": [
     "Topics/Technical-Topics/Communication-Protocols.md",
     "Topics/Technical-Topics.md",
     "Welcome!.md",
-    "~IMG/CAN-Frame-Format-ACK-EOF.png",
+    "CAN-Frame-Format-Extended-FD.png",
     "Topics/Technical-Topics/Communication-Protocols/CAN.md",
+    "CAN-Frame-Format-Extended-FD-Plus-16.png",
+    "CAN-FD-Variable-Rate.png",
+    "CAN-Frame-Format-Basic-FD-Plus-16.png",
+    "CAN-Frame-Format-Basic-FD.png",
+    "~IMG/CAN-Frame-Format-ACK-EOF.png",
     "~IMG/CAN-Frame-Format-Extended.png",
     "~IMG/CAN-Frame-Format-Basic.png",
     "~IMG/CAN-Frame-Format-Basic.png",
@@ -168,11 +173,6 @@
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Module-OS.md",
     "Topics/Technical-Topics/OS/AUTOSAR.md",
     "~IMG/LIN-Bus-Wake-Up-Retransmit-Wait.png",
-    "~IMG/LIN-Bus-Wake-Up-Retransmit.png",
-    "~IMG/LIN-Bus-Go-To-Sleep-Request.png",
-    "~IMG/LIN-Bus-NM-State-Diagram.png",
-    "~IMG/LIN-TP-Frame-Structures.PNG",
-    "~IMG/Capture.PNG",
     "Topics/Technical-Topics/Communication-Protocols/DoIP.md",
     "Topics/Technical-Topics/OS/OSEK.md",
     "Topics/Technical-Topics/OS/OSEK/OSEK-OS.md",

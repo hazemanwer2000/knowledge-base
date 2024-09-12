@@ -172,6 +172,7 @@
   },
   "active": "389424f564d8a932",
   "lastOpenFiles": [
+    "CAN-Frame-Format-Extended.png",
     "~IMG/CAN-Frame-Format-Basic.png",
     "~IMG/CAN-Frame-Format-Basic.png",
     "Topics/Technical-Topics/Communication-Protocols/I2C.md",
@@ -197,7 +198,6 @@
     "~IMG/Capture.PNG",
     "~IMG/LIN-TP-Frame-Structures.png",
     "~IMG/LIN-TP-PCI-Format.png",
-    "~IMG/LIN-Bus-Frame-Slot.png",
     "Topics/Technical-Topics/Communication-Protocols/DoIP.md",
     "Topics/Technical-Topics/OS/OSEK.md",
     "Topics/Technical-Topics/OS/OSEK/OSEK-OS.md",

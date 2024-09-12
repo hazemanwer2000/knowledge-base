@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "69b92cc81ba2d9de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topics/Technical-Topics/Communication-Protocols/DoIP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "6a56a3f39d32e200",
             "type": "leaf",
             "state": {
@@ -31,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topics/Technical-Topics/Communication-Protocols/LIN.md",
+                "file": "Topics/Technical-Topics/Communication-Protocols/CAN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topics/Technical-Topics/Communication-Protocols/LIN.md",
+                "file": "Topics/Technical-Topics/Communication-Protocols/CAN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topics/Technical-Topics/Communication-Protocols/LIN.md"
+                "file": "Topics/Technical-Topics/Communication-Protocols/CAN.md"
               }
             }
           }
@@ -159,12 +170,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6a56a3f39d32e200",
+  "active": "8dab751aee339d86",
   "lastOpenFiles": [
+    "Topics/Technical-Topics/Communication-Protocols/DoIP.md",
+    "Topics/Technical-Topics/Communication-Protocols/LIN.md",
+    "Topics/Technical-Topics/Communication-Protocols/CAN.md",
     "Topics/Technical-Topics/Communication-Protocols.md",
     "Topics/Technical-Topics.md",
     "Welcome!.md",
-    "Topics/Technical-Topics/Communication-Protocols/CAN.md",
     "~IMG/CAN-Node-State-Diagram.png",
     "can-fd-stuffing.png",
     "~IMG/CAN-Frame-Format-Extended-FD-Plus-16.png",
@@ -176,7 +189,6 @@
     "~IMG/CAN-Frame-Format-ACK-EOF.png",
     "~IMG/CAN-Frame-Format-Extended.png",
     "Topics/Technical-Topics/Communication-Protocols/I2C.md",
-    "Topics/Technical-Topics/Communication-Protocols/LIN.md",
     "Topics/Technical-Topics/Communication-Protocols/UDS.md",
     "Topics/Technical-Topics/OS.md",
     "Topics/Technical-Topics/Tooling/TRACE32-PRACTICE-Language.md",
@@ -186,7 +198,6 @@
     "Topics/Technical-Topics/Tooling/Git.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Module-OS.md",
     "Topics/Technical-Topics/OS/AUTOSAR.md",
-    "Topics/Technical-Topics/Communication-Protocols/DoIP.md",
     "Topics/Technical-Topics/OS/OSEK.md",
     "Topics/Technical-Topics/OS/OSEK/OSEK-OS.md",
     "Topics/Technical-Topics/Tooling/Regular-Expressions.md",

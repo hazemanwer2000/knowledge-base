@@ -16,7 +16,7 @@
 ---
 *Controller Area Network (CAN)* is a serial, half-duplex, asynchronous, message-oriented and `N:N` (i.e., `Master:Slave`) *L2*-protocol.
 
-It is usually employed in the automotive industry.
+It is usually employed in the automotive industry, specified in [1].
 ### Acronyms
 ---
 * `RTR` - Remote Transmission Request
@@ -175,6 +175,65 @@ Transitions between error-active, **error-passive**, and **bus-off** state(s) ar
 In error-passive state, a node,
 * may only transmit passive Error Flag(s) (i.e., with all recessive-bit(s)), and,
 * after frame transmission, and the associated `ITM` field, shall wait for 8 recessive-bits (called, *Suspend Transmission Time*), before it is possible to transmit another frame.
+### Transport-Layer
+---
+*CAN-TP*, as specified in [2], is used to realize *Diagnostics over CAN (DoCAN)*.
+#### Addressing Format(s)
+---
+In *CAN-TP*, several addressing format(s) are possible.
+##### Normal Addressing
+---
+In normal addressing, a *CAN* frame ID uniquely identifies the logical source and destination address(es).
+
+For example, if a tester, `0x01`, should diagnose two ECU(s), `0x02` and `0x03`, then, four *CAN* frame ID(s) shall be reserved for this purpose.
+#### Protocol Control Information
+---
+In *Protocol Control Information (PCI)*, which precedes the message payload, the high nibble of the first byte denotes the frame type, as either,
+* `0x0` - Single Frame (SF),
+* `0x1` - First Frame (FF),
+* `0x2` - Consecutive Frame (CF), and,
+* `0x3` - Flow-Control Frame (FC).
+
+Let `L` be the length of the message payload.
+
+For SF(s),
+* For *CAN* frame(s) with length `<= 8`,
+	* the low nibble of the first byte denotes `L`.
+* For *CAN* frame(s) with length `> 8`,
+	* the low nibble of the first byte is set to zero, and,
+	* the second byte denotes `L`
+
+For FF(s),
+* For *CAN* frame(s) with length `>= 8`,
+	* If `L < 4096`,
+		* the low nibble of the first byte (as the most significant part), along with the second byte, denote `L`.
+	* Else,
+		* the low nibble of the first byte (as the most significant part), along with the second byte, are set to zero, and,
+		* the next four byte(s) denote `L`.
+* *Note:* *CAN* frame(s) with length `< 8` are not allowed.
+
+For CF(s),
+* All (but the last) *CAN* frame(s) should have a length equal to that of the associated FF.
+* The low nibble of the first byte denotes the frame counter, which begins with 1, and wraps to 0.
+
+For FC(s),
+* The low nibble of the first byte denotes the flow status.
+	* `0x0` - `ContinueToSend (CTS)`
+		* The sender shall continue to send a maximum number of *BS* CF(s).
+		* If *BS* is zero, then,
+			* the sender shall continue to send all remaining CF(s), and,
+			* shall expect the reception of no more FC(s).
+	* `0x1` - `Wait (WAIT)`
+		* The sender shall wait for the next FF frame.
+	* `0x2 - Overflow (OVFLW)`
+		* The sender shall abort sending any more CF(s).
+		* *Note:* This shall only be sent after the reception of an FF, with `L` larger than the available buffer size.
+* The second byte denotes *BS* (i.e., Block Size).
+* The third byte denotes `ST_min`.
+	* If `0x00` to `0x7F`, it is in `ms`.
+	* If `0xF1` to `0xF9`, it maps to the range of `100` to `900` `us`.
+
+*Note:* For all case(s) where *CAN* frame length `> L`, padding byte(s) shall be appended.
 ## References
 ---
 [1] Road Vehicles - Controller Area Network (CAN), ISO 11898-1, 2015

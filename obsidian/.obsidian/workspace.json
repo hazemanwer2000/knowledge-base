@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ab54d31151e46e6c",
+        "id": "24eb44281e42c7d7",
         "type": "tabs",
         "children": [
           {
-            "id": "3ab894e1875a7de4",
+            "id": "b56f702cd183b463",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -146,11 +146,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3ab894e1875a7de4",
+  "active": "b56f702cd183b463",
   "lastOpenFiles": [
-    "Welcome!.md",
+    "~IMG/FlexRay-Cycle-Structure.png",
     "Topics/Technical-Topics/Communication-Protocols/Automotive/FlexRay.md",
     "Topics/Technical-Topics/Communication-Protocols/Automotive/CAN.md",
+    "Topics/Technical-Topics.md",
+    "Topics/Technical-Topics/Tooling.md",
+    "Welcome!.md",
     "Topics/Technical-Topics/Communication-Protocols.md",
     "Topics/Technical-Topics/Communication-Protocols/uC/UART.md",
     "Topics/Technical-Topics/Communication-Protocols/Over-TCP-IP/SOME-IP.md",
@@ -165,7 +168,6 @@
     "Topics/Technical-Topics/Communication-Protocols/Ethernet-Network-Security",
     "Topics/Technical-Topics/Communication-Protocols/uC/I2C.md",
     "Topics/Technical-Topics/Communication-Protocols/uC/SPI.md",
-    "Topics/Technical-Topics.md",
     "~IMG/CAN-TP-Segmented.png",
     "~IMG/CAN-TP-Unsegmented.png",
     "~IMG/CAN-Node-State-Diagram.png",
@@ -175,10 +177,8 @@
     "~IMG/CAN-Frame-Format-Extended-FD.png",
     "~IMG/CAN-FD-Variable-Rate.png",
     "~IMG/CAN-Frame-Format-Basic-FD-Plus-16.png",
-    "~IMG/CAN-Frame-Format-Basic-FD.png",
     "Topics/Technical-Topics/OS.md",
     "Topics/Technical-Topics/Tooling/TRACE32-PRACTICE-Language.md",
-    "Topics/Technical-Topics/Tooling.md",
     "Topics/Technical-Topics/Tooling/Git.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Module-OS.md",
     "Topics/Technical-Topics/OS/AUTOSAR.md",

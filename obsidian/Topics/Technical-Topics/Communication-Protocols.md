@@ -14,6 +14,7 @@
 * Automotive
 	* [[LIN]]
 	* [[CAN]]
+	* [[FlexRay]]
 ## *Content*
 ---
 La-bla!

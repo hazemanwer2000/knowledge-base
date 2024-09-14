@@ -8,11 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "670d2da94f9d2ba8",
+            "id": "3ab894e1875a7de4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Topics/Technical-Topics/Communication-Protocols/Automotive/FlexRay.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Topics/Technical-Topics/Communication-Protocols/Automotive/FlexRay.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Topics/Technical-Topics/Communication-Protocols/Automotive/FlexRay.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Topics/Technical-Topics/Communication-Protocols/Automotive/FlexRay.md"
+              }
             }
           }
         ]
@@ -138,16 +146,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "670d2da94f9d2ba8",
+  "active": "3ab894e1875a7de4",
   "lastOpenFiles": [
-    "Topics/Technical-Topics/Communication-Protocols/CAN.md",
-    "Topics/Technical-Topics/Communication-Protocols/DoIP.md",
-    "Topics/Technical-Topics/Communication-Protocols/LIN.md",
+    "Welcome!.md",
+    "Topics/Technical-Topics/Communication-Protocols/Automotive/FlexRay.md",
+    "Topics/Technical-Topics/Communication-Protocols/Automotive/CAN.md",
+    "Topics/Technical-Topics/Communication-Protocols.md",
+    "Topics/Technical-Topics/Communication-Protocols/uC/UART.md",
+    "Topics/Technical-Topics/Communication-Protocols/Over-TCP-IP/SOME-IP.md",
+    "Topics/Technical-Topics/Communication-Protocols/Over-TCP-IP/DoIP.md",
+    "Topics/Technical-Topics/Communication-Protocols/Ethernet-Network-Security/IPsec.md",
+    "Topics/Technical-Topics/Communication-Protocols/Diagnostics/UDS.md",
+    "Topics/Technical-Topics/Communication-Protocols/Automotive/LIN.md",
+    "Topics/Technical-Topics/Communication-Protocols/Diagnostics",
+    "Topics/Technical-Topics/Communication-Protocols/Over-TCP-IP",
+    "Topics/Technical-Topics/Communication-Protocols/Automotive",
+    "Topics/Technical-Topics/Communication-Protocols/uC",
+    "Topics/Technical-Topics/Communication-Protocols/Ethernet-Network-Security",
+    "Topics/Technical-Topics/Communication-Protocols/uC/I2C.md",
+    "Topics/Technical-Topics/Communication-Protocols/uC/SPI.md",
+    "Topics/Technical-Topics.md",
     "~IMG/CAN-TP-Segmented.png",
     "~IMG/CAN-TP-Unsegmented.png",
-    "Topics/Technical-Topics/Communication-Protocols.md",
-    "Topics/Technical-Topics.md",
-    "Welcome!.md",
     "~IMG/CAN-Node-State-Diagram.png",
     "can-fd-stuffing.png",
     "~IMG/CAN-Frame-Format-Extended-FD-Plus-16.png",
@@ -156,13 +176,9 @@
     "~IMG/CAN-FD-Variable-Rate.png",
     "~IMG/CAN-Frame-Format-Basic-FD-Plus-16.png",
     "~IMG/CAN-Frame-Format-Basic-FD.png",
-    "Topics/Technical-Topics/Communication-Protocols/I2C.md",
-    "Topics/Technical-Topics/Communication-Protocols/UDS.md",
     "Topics/Technical-Topics/OS.md",
     "Topics/Technical-Topics/Tooling/TRACE32-PRACTICE-Language.md",
     "Topics/Technical-Topics/Tooling.md",
-    "Topics/Technical-Topics/Communication-Protocols/SPI.md",
-    "Topics/Technical-Topics/Communication-Protocols/UART.md",
     "Topics/Technical-Topics/Tooling/Git.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Module-OS.md",
     "Topics/Technical-Topics/OS/AUTOSAR.md",
@@ -170,21 +186,13 @@
     "Topics/Technical-Topics/OS/OSEK/OSEK-OS.md",
     "Topics/Technical-Topics/Tooling/Regular-Expressions.md",
     "Topics/Technical-Topics/Cryptography.md",
-    "Topics/Technical-Topics/Communication-Protocols/IPsec.md",
-    "Topics/Technical-Topics/Communication-Protocols/SOME-IP.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet/AUTOSAR-Module-Sd.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet/AUTOSAR-Module-SoAd.md",
-    "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Crypto-Stack/AUTOSAR-Module-KeyM.md",
     "Topics/Technical-Topics/Tooling/Version-Control",
     "Topics/Technical-Topics/Tooling/Debugger-Scripting",
     "Topics/Technical-Topics/Tooling/Shell-Scripting",
     "Topics/Technical-Topics/Tooling/Build-Systems",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack/Ethernet",
-    "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-COM-Stack",
-    "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Crypto-Stack",
-    "Untitled.canvas",
-    "Topics/Technical-Topics/Tooling",
-    "Topics/Technical-Topics/Tooling",
-    "Topics/Technical-Topics/Embedded-Systems"
+    "Untitled.canvas"
   ]
 }

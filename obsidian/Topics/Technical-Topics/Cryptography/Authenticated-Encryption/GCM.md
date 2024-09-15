@@ -65,9 +65,11 @@ And output(s),
 
 Then, it shall be defined as,
 ```
+N = LEN(X)/B
+
 Y(0) = 0
 
-FOR i FROM 0 TO (LEN(X)/B):
+FOR i FROM 0 TO (N-1):
 	Y(i+1) = MUL(Y(i) XOR X(i), H)
 
 W = Y(B)
@@ -85,6 +87,28 @@ Let `GCTR(X, K, IV)` be a function, with input(s),
 
 And output(s),
 * `X'` - Bit-string, where `LEN(X') == LEN(X)`
+
+Then, it shall be defined as,
+```
+N = CEIL(LEN(X)/B)
+
+	# Constructing the counter.
+
+C(0) = IV
+
+FOR i FROM 1 TO (N-1):
+	C(i) = INC(C(i-1), 32)
+
+	# Encrypting the payload.
+
+FOR i FROM 0 TO (N-2):
+	X'(i) = X(i) XOR CIPH(K, C(i))
+
+X'(N-1) = X(N-1) XOR MSB(
+	CIPH(K, C(N-1)),
+	LEN(X(N-1))
+)
+```
 ### The Algorithm
 ---
 

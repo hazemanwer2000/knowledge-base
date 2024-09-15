@@ -54,18 +54,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "f5dcda8849091128",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Welcome!.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ]
       }
@@ -196,20 +184,20 @@
   },
   "active": "b56f702cd183b463",
   "lastOpenFiles": [
-    "~IMG/GCM-GHASH.png",
-    "Topics/Technical-Topics/Cryptography/Symmetric-Encryption/AES.md",
-    "Topics/Technical-Topics/Cryptography/Authenticated-Encryption/GCM.md",
     "Topics/Technical-Topics/Cryptography/Message-Authentication-Codes/CMAC.md",
-    "Topics/Technical-Topics/Cryptography/Symmetric-Encryption/Symmetric-Key-Block-Cipher@Modes-of-Operation.md",
+    "Topics/Technical-Topics/Cryptography/Cryptographic-Hash-Functions/SHA-1.md",
+    "Topics/Technical-Topics/Cryptography/Cryptographic-Hash-Functions.md",
+    "Topics/Technical-Topics/Cryptography.md",
+    "Topics/Technical-Topics.md",
     "Welcome!.md",
+    "Topics/Technical-Topics/Cryptography/Authenticated-Encryption/GCM.md",
+    "Topics/Technical-Topics/Cryptography/Symmetric-Encryption/Symmetric-Key-Block-Cipher@Modes-of-Operation.md",
+    "Topics/Technical-Topics/Cryptography/Symmetric-Encryption/AES.md",
+    "~IMG/GCM-GHASH.png",
     "Topics/Technical-Topics/Cryptography/Authenticated-Encryption.md",
     "Topics/Technical-Topics/Cryptography/Authenticated-Encryption",
     "Topics/Technical-Topics/Cryptography/Symmetric-Encryption.md",
-    "Topics/Technical-Topics/Cryptography.md",
-    "Topics/Technical-Topics.md",
     "Topics/Technical-Topics/Cryptography/Message-Authentication-Codes/HMAC.md",
-    "Topics/Technical-Topics/Cryptography/Cryptographic-Hash-Functions.md",
-    "Topics/Technical-Topics/Cryptography/Cryptographic-Hash-Functions/SHA-1.md",
     "Topics/Technical-Topics/Communication-Protocols/Automotive/FlexRay.md",
     "Topics/Technical-Topics/Communication-Protocols.md",
     "Topics/Technical-Topics/Cryptography/Elliptic-Curve-Cryptography.md",
@@ -237,7 +225,6 @@
     "~IMG/CAN-Frame-Format-Extended-FD-Plus-16.png",
     "~IMG/CAN-FD-Fixed-Bit-Stuffing.png",
     "~IMG/CAN-Frame-Format-Extended-FD.png",
-    "~IMG/CAN-FD-Variable-Rate.png",
     "Topics/Technical-Topics/Tooling/Version-Control",
     "Topics/Technical-Topics/Tooling/Debugger-Scripting",
     "Topics/Technical-Topics/Tooling/Shell-Scripting",

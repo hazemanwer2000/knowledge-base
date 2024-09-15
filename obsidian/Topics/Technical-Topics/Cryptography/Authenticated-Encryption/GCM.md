@@ -8,6 +8,29 @@
 *Note:* The underlying block-cipher algorithm must have a block-size, `B`, of 128-bits (e.g., AES), and a key-size of at least 128-bits.
 ### Primitive(s)
 ---
+#### Generic Primitive(s)
+---
+##### `LEN`
+---
+Let `LEN(X)` be a function, with bit-string `X` as input, it shall yield the length of `X` in bit(s). 
+##### `MSB`
+---
+Let `MSB(X, N)` be a function, with `X` bit-string and `N` integer as input, it shall yield the most-significant `N` bit(s) of `X`.
+##### `LSB`
+---
+Let `LSB(X, N)` be a function, with `X` bit-string and `N` integer as input, it shall yield the least-significant `N` bit(s) of `X`.
+##### `CONCAT`
+---
+Let `CONCAT(X, ...)` be a function, with an arbitrary number of bit-string(s) as input, it shall yield the concatenation of all input bit-string(s).
+##### `CEIL`
+---
+Let `CEIL(X)` be a function, with `X` floating value as input, it round-up `X`, to the next integer value, and yield that value. 
+##### `ZPAD`
+---
+Let `ZPAD(X, B)` be a function, with `X` bit-string and `B` integer as input, it shall zero-pad `X`, until its length is a multiple of `B`, and yield that value.
+##### `BITSTR`
+---
+Let `BITSTR(I, S)` be a function, with `I` value and `B` integer(s) as input, it shall assert `I` as a bit-string of size `S`.
 #### `INC`
 ---
 Let `INC(X, S)` be a function, with input(s),
@@ -111,7 +134,46 @@ X'(N-1) = X(N-1) XOR MSB(
 ```
 ### The Algorithm
 ---
+#### `GCM`
+---
+Let `GCM(X, A, K, IV, TLEN)` be a function, with input(s),
+* `X` - Bit-string (confidential), of arbitrary length
+* `A` - Bit-string (non-confidential), of arbitrary length
+* `K` - Cipher-key
+* `IV` - Bit-string, of arbitrary length
+* `TLEN` - *MAC* Truncation Length, where `TLEN <= B`
 
+And output(s),
+* `X'` - Bit-string, where `LEN(X') == LEN(X)`
+* `T` - Bit-string (*MAC*), where `LEN(T) == TLEN`
+
+Then, it shall be defined as,
+```
+H = CIPH(K, 0)
+
+	# Encrypting the (confidential) data.
+
+IF LEN(IV) == 96
+	J = CONCAT(IV, BITSTR(1, 32))
+ELSE
+	J = GHASH(CONCAT(
+		ZPAD(IV, B),
+		BITSTR(LEN(IV), B)
+	), H)
+
+C = GCTR(X, K, INC(J, 32))
+
+	# Calculating the MAC.
+
+S = GHASH(CONCAT(
+	ZPAD(A, B),
+	ZPAD(C, B),
+	BITSTR(LEN(A), B/2),
+	BITSTR(LEN(C), B/2)
+), H)
+
+T = MSB(GCTR(S, J), TLEN)
+```
 ## References
 ---
 [1] Galois/Counter Mode (GCM) and GMAC, SP 800-38D, NIST.

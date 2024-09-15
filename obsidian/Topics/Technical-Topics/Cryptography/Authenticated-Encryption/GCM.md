@@ -1,6 +1,14 @@
 ──────── *for more from the author, visit* [github.com/hazemanwer2000](https://github.com/hazemanwer2000). ────────
 ## *Table of Contents*
-...
+- [[#Primitive(s)|Primitive(s)]]
+	- [[#Primitive(s)#Generic Primitive(s)|Generic Primitive(s)]]
+	- [[#Primitive(s)#`INC`|INC]]
+	- [[#Primitive(s)#`MUL`|MUL]]
+	- [[#Primitive(s)#`GHASH`|GHASH]]
+	- [[#Primitive(s)#`GCTR`|GCTR]]
+- [[#The Algorithm|The Algorithm]]
+	- [[#The Algorithm#`GCM`|GCM]]
+	- [[#The Algorithm#`GCM'`|GCM']]
 ## Content
 ---
 *Galois/Counter Mode (GCM)* is an *AEAD* mode of operation of symmetric-key, block-cipher algorithm(s), specified in [1].

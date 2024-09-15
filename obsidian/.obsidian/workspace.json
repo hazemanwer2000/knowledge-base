@@ -196,9 +196,10 @@
   },
   "active": "b56f702cd183b463",
   "lastOpenFiles": [
+    "~IMG/GCM-GHASH.png",
     "Topics/Technical-Topics/Cryptography/Symmetric-Encryption/AES.md",
-    "Topics/Technical-Topics/Cryptography/Message-Authentication-Codes/CMAC.md",
     "Topics/Technical-Topics/Cryptography/Authenticated-Encryption/GCM.md",
+    "Topics/Technical-Topics/Cryptography/Message-Authentication-Codes/CMAC.md",
     "Topics/Technical-Topics/Cryptography/Symmetric-Encryption/Symmetric-Key-Block-Cipher@Modes-of-Operation.md",
     "Welcome!.md",
     "Topics/Technical-Topics/Cryptography/Authenticated-Encryption.md",

@@ -5,6 +5,7 @@
 * [[Symmetric-Encryption]]
 * [[Elliptic-Curve-Cryptography]]
 * [[X.509-Certificates]]
+* [[Authenticated-Encryption]]
 ## *Content*
 ---
 La-bla!

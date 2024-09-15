@@ -180,7 +180,7 @@ S = GHASH(CONCAT(
 	BITSTR(LEN(C), B/2)
 ), H)
 
-T = MSB(GCTR(S, J), TLEN)
+T = MSB(GCTR(S, K, J), TLEN)
 ```
 #### `GCM'`
 ---

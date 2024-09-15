@@ -1,11 +1,11 @@
 ## *Sub-topics!*
 ---
 * [[Cryptographic-Hash-Functions]]
-* [[Message-Authentication-Codes]]
 * [[Symmetric-Encryption]]
+* [[Message-Authentication-Codes]]
+* [[Authenticated-Encryption]]
 * [[Elliptic-Curve-Cryptography]]
 * [[X.509-Certificates]]
-* [[Authenticated-Encryption]]
 ## *Content*
 ---
 La-bla!

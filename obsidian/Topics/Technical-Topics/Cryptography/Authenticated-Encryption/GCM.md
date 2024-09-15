@@ -144,7 +144,7 @@ Let `GCM(X, A, K, IV, TLEN)` be a function, with input(s),
 * `TLEN` - *MAC* Truncation Length, where `TLEN <= B`
 
 And output(s),
-* `X'` - Bit-string, where `LEN(X') == LEN(X)`
+* `C` - Bit-string, where `LEN(C) == LEN(X)`
 * `T` - Bit-string (*MAC*), where `LEN(T) == TLEN`
 
 Then, it shall be defined as,
@@ -173,6 +173,37 @@ S = GHASH(CONCAT(
 ), H)
 
 T = MSB(GCTR(S, J), TLEN)
+```
+#### `GCM'`
+---
+Let `GCM'(C, A, K, IV, T)` be a function, with input(s),
+* `C` - Cipher-text
+* `A` - Bit-string (non-confidential), of arbitrary length
+* `K` - Cipher-key
+* `IV` - Bit-string, of arbitrary length
+* `T` - (Truncated) *MAC*
+
+And output(s),
+* `RESULT` - Boolean, result of the *MAC* verification
+* `P` - Bit-string (plain-text), where `LEN(P) == LEN(C)`, valid only if `RESULT == TRUE`
+
+Then, it shall be defined as,
+```
+H = ...
+
+	# Decrypting the cipher-text.
+
+J = ...
+
+P = GCTR(C, ...)
+
+	# Verifying the MAC.
+
+S = ...
+
+T' = ...
+
+RESULT = (T' == T)
 ```
 ## References
 ---

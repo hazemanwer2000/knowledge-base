@@ -84,6 +84,7 @@ Every entity within a *CA* possesses one, or more *Secure Association(s) (SA)*.
 
 Each *SA* consists of,
 * a session-key, abbreviated as *SAK*,
+* its identifier (see below), abbreviated as *KI*,
 * and a 2-bit association number, abbreviated as *AN*.
 ### *Mka* Protocol
 ---
@@ -122,7 +123,19 @@ An entity is added to the *Potential-Peer-List*, if,
 
 An entity is removed from both list(s), if,
 * an *Mka* frame has not been received from the corresponding entity for at-least `MKA-LIFE-TIME`, specified in [2] as `6-s`.
+##### Key-Server Election
+---
+A Key-Server is elected from all entities within the *CA*, as the entity responsible for generation and distribution of session-key(s), *SAK*(s).
+
+Election metrics are based on,
+* Key-Server Priority ($\downarrow$), a 4-byte value, sent in every *Mka* frame.
+* If equal, *SCI* ($\downarrow$) is used as a tie-breaker.
+
+For each *SAK* generated and distributed by a Key-Server, its *KI* consists of,
+* the Key-Server's *MI*, and,
+* a 32-bit *Key Number (KN)*, starting with 1, and incrementing.
 #### Frame Structure
+---
 ## References
 ---
 [1] Media Access Control (MAC) Security, IEEE 802.1A-2018

@@ -178,7 +178,73 @@ The encoding of a Parameter Set is shown below.
 	* Algorithm Agility (Size: 4-bytes), specified in [2] as `0x0080C201`.
 	* *CKN* (Size: 32-bytes)
 		* *Note:* If the size of *CKN* is less than 32-bytes, it is right-zero-padded.
+##### `Live/Potential Peer List` Set
+---
+* Type: 
+	* `Live Peer List` - `0x01`
+	* `Potential Peer List` - `0x02`
+* Body:
+	* Multiple of,
+		* *MI* (Size: 12-bytes)
+		* *MN* (Size: 4-bytes)
+##### `MacSec SAK Use` Set
+---
+* Type: `0x03`
+* Specific Parameters:
+	* Double of (i.e., Latest/Old)
+		* *AN* (Size: 2-bits)
+		* TX Flag (Size: 1-bit)
+		* RX Flag (Size: 1-bit)
+	* Plain TX (Size: 1-bit)
+		* 
+	* Plain RX (Size: 1-bit) (see below)
+	* Reserved (Size: 1-bit)
+	* Delay Protect Flag (Size: 1-bit)
+		* *Note:* This is set if Replay Protection is enabled for *MacSec*-protected frame(s). If unset, Lowest Acceptable *PN* (see below) may be set to zero.
+* Body:
+	* Double of (i.e., Latest/Old)
+		* *KI* (Size: 16-bytes)
+		* Lowest Acceptable *PN* (Size: 4-bytes)
+			* This specifies the lowest *PN* used in a *KI*-protected frame, sent via this *Mka* entity, `(MKA-HELLO-TIME)/2` prior to this *Mka* frame's transmission.
+			* It is monitored by the Key-Server.
+				* If it exceeds `0xC0000000`, as specified in [2], for the Latest *KI*, for any *Mka* entity,
+				* then, the Key-Server shall generate and distribute a new *SAK*.
+##### `Distributed SAK` Set
+---
+* Type: `0x04`
+* Specific Parameters:
+	* *AN* (Size: 2-bits)
+	* Confidentiality Offset (Size: 2-bits)
+		* `0b00` - No Confidentiality
+		* `0b01` - `0`
+		* `0b10` - `30`
+		* `0b11` - `50`
+* Body:
+	* *KN* (Size: 4-bytes)
+	* AES Key-Wrap of *SAK* (Size: Variable)
+##### `Announcement` Set
+---
+* Type: `0x07`
+* Body:
+	* Multiple of *TLV* (i.e., Type-Length-Value).
+		* Type (Size: 7-bits)
+		* Length (Size: 9-bits)
+		* Value (Size: Variable)
 
+For a `MacSec Cipher Suites` *TLV*, which specifies the Cipher Suite(s) supported by an *Mka* entity,
+* Type: `112`
+* Value:
+	* Multiple of,
+		* Reserved (Size: 14-bits)
+		* *MacSec* Capability (Size: 2-bits)
+		* Cipher Suite Reference Number (Size: 8-bytes), as specified in [1]
+
+* *Note:* Mandatory Cipher Suite(s), as specified in [1], are not included in a `MacSec Cipher Suites` *TLV*.
+##### `ICV Indicator` Set
+---
+* Type: `0xFF`
+* Body:
+	* ICV (Size: 16-bytes)
 ## References
 ---
 [1] Media Access Control (MAC) Security, IEEE 802.1AE-2018

@@ -176,7 +176,9 @@ The encoding of a Parameter Set is shown below.
 	* *MI* (Size: 12-bytes)
 	* *MN* (Size: 4-bytes)
 	* Algorithm Agility (Size: 4-bytes), specified in [2] as `0x0080C201`.
-	* 
+	* *CKN* (Size: 32-bytes)
+		* *Note:* If the size of *CKN* is less than 32-bytes, it is right-zero-padded.
+
 ## References
 ---
 [1] Media Access Control (MAC) Security, IEEE 802.1AE-2018

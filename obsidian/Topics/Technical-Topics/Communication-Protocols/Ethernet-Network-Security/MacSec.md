@@ -87,7 +87,8 @@ Every entity within a *CA* possesses one, or more *Secure Association(s) (SA)*.
 Each *SA* consists of,
 * a session-key, abbreviated as *SAK*,
 * its identifier (see below), abbreviated as *KI*,
-* and a 2-bit association number, abbreviated as *AN*.
+* a 2-bit association number, abbreviated as *AN*,
+* and a 4-byte Packet Number, abbreviated as *PN*, starting with 1, and incrementing with each *MacSec* frame sent, secured via *SAK*.
 ### *Mka* Protocol
 ---
 #### Introduction
@@ -141,6 +142,8 @@ For each *SAK* generated and distributed by a Key-Server, its *KI* consists of,
 *Mka* frame(s) are sent over *EAPoL (Extensible Authentication Protocol over LAN)*, which is out-of-scope of this document.
 
 *Note:* *EAPoL* specifies the destination MAC address of *Mka* frame(s) as one of multiple group address(es), specified in [2].
+
+*Note:* Ether-Type of *EAPoL* frame(s) is `0x888E`.
 
 An *EAPoL* frame consists of,
 * Protocol Version (Size: 1-byte), specified in [2] as `0x03`.
@@ -196,16 +199,15 @@ The encoding of a Parameter Set is shown below.
 		* TX Flag (Size: 1-bit)
 		* RX Flag (Size: 1-bit)
 	* Plain TX (Size: 1-bit)
-		* 
-	* Plain RX (Size: 1-bit) (see below)
+	* Plain RX (Size: 1-bit)
 	* Reserved (Size: 1-bit)
 	* Delay Protect Flag (Size: 1-bit)
-		* *Note:* This is set if Replay Protection is enabled for *MacSec*-protected frame(s). If unset, Lowest Acceptable *PN* (see below) may be set to zero.
+		* *Note:* This is set if Replay Protection is enabled for *MacSec*-protected frame(s). If reset, Lowest Acceptable *PN* (see below) may be set to zero.
 * Body:
 	* Double of (i.e., Latest/Old)
 		* *KI* (Size: 16-bytes)
 		* Lowest Acceptable *PN* (Size: 4-bytes)
-			* This specifies the lowest *PN* used in a *KI*-protected frame, sent via this *Mka* entity, `(MKA-HELLO-TIME)/2` prior to this *Mka* frame's transmission.
+			* This specifies the *PN* value associated with this *Mka* entity's *SA* that contains *KI*, `(MKA-HELLO-TIME)/2` prior to this *Mka* frame's transmission.
 			* It is monitored by the Key-Server.
 				* If it exceeds `0xC0000000`, as specified in [2], for the Latest *KI*, for any *Mka* entity,
 				* then, the Key-Server shall generate and distribute a new *SAK*.
@@ -245,6 +247,33 @@ For a `MacSec Cipher Suites` *TLV*, which specifies the Cipher Suite(s) supporte
 * Type: `0xFF`
 * Body:
 	* ICV (Size: 16-bytes)
+### *MacSec* Protocol
+---
+#### Cipher Suite(s)
+---
+Mandatory Cipher Suite(s), as specified in [1], include,
+* GCM-AES-128
+	* MAC Truncation Length as 128-bits.
+	* IV as the concatenation of *SCI*, of the *SC* used, and *PN*, of the *SA* used.
+
+Optional Cipher Suite(s), as specified in [1], include,
+* GCM-AES-256
+#### Frame Structure
+---
+A frame is encapsulated within a *MacSec* frame as shown below.
+
+![[MACSEC-Frame-Structure.png|700]]
+
+*Note:* Ether-Type of *MacSec* frame(s) is `0x88E5`.
+
+*SecTAG* consists of,
+* Tag Control Information (TCI) (Size: 6-bits)
+	* *Note:* Refer to [1] for the encoding of TCI.
+* *AN* (Size: 2-bits)
+* Short Length (SL) (Size: 1-byte)
+	* *Note:* Refer to [1] for the encoding of SL.
+* *PN* (Size: 4-bytes)
+* *SCI* (Size: 8-bytes) (Optional)
 ## References
 ---
 [1] Media Access Control (MAC) Security, IEEE 802.1AE-2018

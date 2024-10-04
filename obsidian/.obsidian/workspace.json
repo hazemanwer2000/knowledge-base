@@ -18,6 +18,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "731a9c7d8e09ab0f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topics/Technical-Topics/Cryptography/Authenticated-Encryption/GCM.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -146,27 +158,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "389424f564d8a932",
+  "active": "cc508ece83241b31",
   "lastOpenFiles": [
+    "MACSEC-Frame-Structure.png",
+    "Topics/Technical-Topics/Cryptography/Authenticated-Encryption/GCM.md",
+    "Topics/Technical-Topics/Cryptography/Authenticated-Encryption.md",
+    "Topics/Technical-Topics/Cryptography.md",
+    "Topics/Technical-Topics.md",
+    "Welcome!.md",
+    "Topics/Technical-Topics/Communication-Protocols/Ethernet-Network-Security/MacSec.md",
     "~IMG/MKA-Parameter-Set-Encoding.png",
     "Topics/Technical-Topics/Communication-Protocols.md",
     "Topics/Technical-Topics/Communication-Protocols/Over-TCP-IP/DoIP.md",
-    "Topics/Technical-Topics/Communication-Protocols/Ethernet-Network-Security/MacSec.md",
-    "Topics/Technical-Topics.md",
     "Topics/Technical-Topics/Tooling.md",
     "Topics/Technical-Topics/Tooling/Batch-Scripting.md",
     "Topics/Technical-Topics/Tooling/Regular-Expressions.md",
-    "Welcome!.md",
     "Topics/Technical-Topics/Tooling/TRACE32-PRACTICE-Language.md",
     "Topics/Technical-Topics/Communication-Protocols/Ethernet-Network-Security/IPsec.md",
-    "Topics/Technical-Topics/Cryptography.md",
     "Topics/Technical-Topics/Cryptography/Symmetric-Encryption/AES-Key-Wrap.md",
     "Topics/Technical-Topics/Cryptography/Symmetric-Encryption/AES.md",
     "Topics/Technical-Topics/Cryptography/Symmetric-Encryption.md",
     "Topics/Technical-Topics/Cryptography/Message-Authentication-Codes.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Crypto-Stack/AUTOSAR-Module-KeyM.md",
-    "Topics/Technical-Topics/Cryptography/Authenticated-Encryption/GCM.md",
-    "Topics/Technical-Topics/Cryptography/Authenticated-Encryption.md",
     "Topics/Technical-Topics/OS/AUTOSAR.md",
     "Topics/Technical-Topics/OS.md",
     "Topics/Technical-Topics/Cryptography/Message-Authentication-Codes/CMAC.md",
@@ -189,7 +202,6 @@
     "can-fd-stuffing.png",
     "~IMG/CAN-Frame-Format-Extended-FD-Plus-16.png",
     "~IMG/CAN-FD-Fixed-Bit-Stuffing.png",
-    "~IMG/CAN-Frame-Format-Extended-FD.png",
     "Topics/Technical-Topics/Tooling/Version-Control",
     "Topics/Technical-Topics/Tooling/Debugger-Scripting",
     "Topics/Technical-Topics/Tooling/Shell-Scripting",

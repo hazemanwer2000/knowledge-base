@@ -5,11 +5,10 @@
 	- [[#Connectivity Association (CA)#Secure Channel(s) (SC)|Secure Channel(s) (SC)]]
 	- [[#Connectivity Association (CA)#Secure Association(s) (SA)|Secure Association(s) (SA)]]
 - [[#*Mka* Protocol|*Mka* Protocol]]
-	- [[#*Mka* Protocol#Introduction|Introduction]]
-		- [[#Introduction#Authentication|Authentication]]
-		- [[#Introduction#Replay Protection|Replay Protection]]
-		- [[#Introduction#Liveness|Liveness]]
-		- [[#Introduction#Key-Server Election|Key-Server Election]]
+	- [[#*Mka* Protocol#Authentication|Authentication]]
+	- [[#*Mka* Protocol#Replay Protection|Replay Protection]]
+	- [[#*Mka* Protocol#Liveness|Liveness]]
+	- [[#*Mka* Protocol#Key-Server Election|Key-Server Election]]
 	- [[#*Mka* Protocol#Frame Structure|Frame Structure]]
 		- [[#Frame Structure#Basic Parameter Set|Basic Parameter Set]]
 		- [[#Frame Structure#`Live/Potential Peer List` Set|`Live/Potential Peer List` Set]]
@@ -110,9 +109,7 @@ Each *SA* consists of,
 * and a 4-byte Packet Number, abbreviated as *PN*, starting with 1, and incrementing with each *MacSec* frame sent, secured via *SAK*.
 ### *Mka* Protocol
 ---
-#### Introduction
----
-##### Authentication
+#### Authentication
 ---
 Every *Mka* frame is authenticated via a 128-bit ICV, calculated as follows,
 
@@ -121,7 +118,7 @@ M = CONCAT(DST-ADDR, SRC-ADDR, ETHERTYPE, PAYLOAD)
 
 CMAC(ICK, M)
 ```
-##### Replay Protection
+#### Replay Protection
 ---
 Every *Mka* entity, at first, generates a random 96-bit value, as its *Message Identifier (MI)*.
 
@@ -130,7 +127,7 @@ With every *Mka* frame sent, it increments its 32-bit *Message Number (MN)*, sta
 *Note:* An *Mka* frame with the same *MI* and *MN* must never be received twice, during a session.
 
 If an *Mka* entity reaches the maximum value of its *MN*, it shall generate a new *MI* and reset its *MN*, communicating as a new *Mka* entity.
-##### Liveness
+#### Liveness
 ---
 *Mka* frame(s) are sent periodically, frame per entity per `MKA-HELLO-TIME`, specified in [2] as `2-s`. 
 
@@ -145,7 +142,7 @@ An entity is added to the *Potential-Peer-List*, if,
 
 An entity is removed from both list(s), if,
 * an *Mka* frame has not been received from the corresponding entity for at-least `MKA-LIFE-TIME`, specified in [2] as `6-s`.
-##### Key-Server Election
+#### Key-Server Election
 ---
 A Key-Server is elected from all entities within the *CA*, as the entity responsible for generation and distribution of session-key(s), *SAK*(s).
 

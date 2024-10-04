@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "bdb3d85b1a43c9d9",
+        "id": "0c158a57774bfa23",
         "type": "tabs",
         "children": [
           {
-            "id": "daa25c8a63b81843",
+            "id": "cc508ece83241b31",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Topics/Technical-Topics/Communication-Protocols/Ethernet-Network-Security/MacSec.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "95536226f06f77fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topics/Technical-Topics/Communication-Protocols/Ethernet-Network-Security/IPsec.md",
                 "mode": "source",
                 "source": false
               }
@@ -158,14 +146,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "daa25c8a63b81843",
+  "active": "389424f564d8a932",
   "lastOpenFiles": [
-    "Topics/Technical-Topics/Communication-Protocols/Ethernet-Network-Security/IPsec.md",
-    "Topics/Technical-Topics/Communication-Protocols/Ethernet-Network-Security/MacSec.md",
+    "~IMG/MKA-Parameter-Set-Encoding.png",
     "Topics/Technical-Topics/Communication-Protocols.md",
+    "Topics/Technical-Topics/Communication-Protocols/Over-TCP-IP/DoIP.md",
+    "Topics/Technical-Topics/Communication-Protocols/Ethernet-Network-Security/MacSec.md",
     "Topics/Technical-Topics.md",
-    "Topics/Technical-Topics/Cryptography.md",
+    "Topics/Technical-Topics/Tooling.md",
+    "Topics/Technical-Topics/Tooling/Batch-Scripting.md",
+    "Topics/Technical-Topics/Tooling/Regular-Expressions.md",
     "Welcome!.md",
+    "Topics/Technical-Topics/Tooling/TRACE32-PRACTICE-Language.md",
+    "Topics/Technical-Topics/Communication-Protocols/Ethernet-Network-Security/IPsec.md",
+    "Topics/Technical-Topics/Cryptography.md",
     "Topics/Technical-Topics/Cryptography/Symmetric-Encryption/AES-Key-Wrap.md",
     "Topics/Technical-Topics/Cryptography/Symmetric-Encryption/AES.md",
     "Topics/Technical-Topics/Cryptography/Symmetric-Encryption.md",
@@ -182,14 +176,8 @@
     "~IMG/GCM-GHASH.png",
     "Topics/Technical-Topics/Cryptography/Authenticated-Encryption",
     "Topics/Technical-Topics/Cryptography/Message-Authentication-Codes/HMAC.md",
-    "Topics/Technical-Topics/Communication-Protocols/Automotive/FlexRay.md",
-    "Topics/Technical-Topics/Cryptography/Elliptic-Curve-Cryptography.md",
     "~IMG/FlexRay-Frame-Format.png",
     "~IMG/FlexRay-Cycle-Structure.png",
-    "Topics/Technical-Topics/Communication-Protocols/Automotive/CAN.md",
-    "Topics/Technical-Topics/Tooling.md",
-    "Topics/Technical-Topics/Communication-Protocols/uC/UART.md",
-    "Topics/Technical-Topics/Communication-Protocols/Over-TCP-IP/SOME-IP.md",
     "Topics/Technical-Topics/Communication-Protocols/Diagnostics",
     "Topics/Technical-Topics/Communication-Protocols/Over-TCP-IP",
     "Topics/Technical-Topics/Communication-Protocols/Automotive",

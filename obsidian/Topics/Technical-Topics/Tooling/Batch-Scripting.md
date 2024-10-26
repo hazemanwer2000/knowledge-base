@@ -83,10 +83,12 @@ ECHO %X%
 ---
 The variables `%0` through `%9` are special variables within a batch script.
 
-| Variable     | Description                                         |
-| ------------ | --------------------------------------------------- |
-| `%0`         | File path of the currently executing script.        |
-| `%1` to `%9` | Arguments passed to the currently executing script. |
+| Variable         | Description                                                        |
+| ---------------- | ------------------------------------------------------------------ |
+| `%0`             | File path of the currently executing script.                       |
+| `%1` to `%9`     | Arguments passed to the currently executing script.                |
+| `%ERRORLEVEL%`   | It contains the last-executed command's, or function's, exit-code. |
+| `%~1%` to `%~9%` | Arguments passed to the currently executing function.              |
 ### Conditional(s) and Branching
 ---
 An `IF-ELSE` statement enables the conditional execution of a command, based on the current value of a variable.
@@ -127,6 +129,26 @@ REM Repeat command, until it succeeds.
 :SOME-LABEL
 SOME-COMMAND
 IF %ERRORLEVEL% NEQ 0 (GOTO :SOME-LABEL)
+```
+### Function(s)
+---
+To define a function,
+
+```
+REM Function's label, used to call it.
+:function_name 
+
+REM Function's body.
+REM ...
+
+REM Return from function, with an error_lvel.
+EXIT /B 0
+```
+
+To call a function,
+
+```
+CALL :function_name param_1, param_2, ...
 ```
 ### Output Re-direction
 ---

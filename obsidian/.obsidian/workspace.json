@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/Technical-Topics/Communication-Protocols/Ethernet-Network-Security/MacSec.md",
+                "file": "Topics/Technical-Topics/Tooling/Batch-Scripting.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topics/Technical-Topics/Communication-Protocols/Ethernet-Network-Security/MacSec.md",
+                "file": "Topics/Technical-Topics/Tooling/Batch-Scripting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topics/Technical-Topics/Communication-Protocols/Ethernet-Network-Security/MacSec.md",
+                "file": "Topics/Technical-Topics/Tooling/Batch-Scripting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topics/Technical-Topics/Communication-Protocols/Ethernet-Network-Security/MacSec.md"
+                "file": "Topics/Technical-Topics/Tooling/Batch-Scripting.md"
               }
             }
           }
@@ -146,17 +146,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "389424f564d8a932",
+  "active": "629d02a24958be5c",
   "lastOpenFiles": [
+    "Topics/Technical-Topics/Tooling.md",
+    "Topics/Technical-Topics.md",
+    "Welcome!.md",
+    "Topics/Technical-Topics/Communication-Protocols/Ethernet-Network-Security/MacSec.md",
     "~IMG/MACSEC-Frame-Structure.png",
     "Topics/Technical-Topics/Communication-Protocols.md",
     "Topics/Technical-Topics/Communication-Protocols/Ethernet-Network-Security/IPsec.md",
-    "Topics/Technical-Topics.md",
-    "Topics/Technical-Topics/Tooling.md",
     "Topics/Technical-Topics/OS.md",
     "Topics/Technical-Topics/OS/AUTOSAR.md",
-    "Welcome!.md",
-    "Topics/Technical-Topics/Communication-Protocols/Ethernet-Network-Security/MacSec.md",
     "~IMG/MACSEC-Frame-Structure.png",
     "Topics/Technical-Topics/Cryptography/Authenticated-Encryption/GCM.md",
     "Topics/Technical-Topics/Cryptography/Authenticated-Encryption.md",
@@ -189,7 +189,6 @@
     "~IMG/CAN-TP-Unsegmented.png",
     "~IMG/CAN-Node-State-Diagram.png",
     "can-fd-stuffing.png",
-    "~IMG/CAN-Frame-Format-Extended-FD-Plus-16.png",
     "Topics/Technical-Topics/Tooling/Version-Control",
     "Topics/Technical-Topics/Tooling/Debugger-Scripting",
     "Topics/Technical-Topics/Tooling/Shell-Scripting",

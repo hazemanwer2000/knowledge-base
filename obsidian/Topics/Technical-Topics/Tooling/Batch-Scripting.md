@@ -6,10 +6,10 @@
 	- [[#Variable(s)#Local Variable(s)|Local Variable(s)]]
 	- [[#Variable(s)#Special Variable(s)|Special Variable(s)]]
 - [[#Conditional(s) and Branching|Conditional(s) and Branching]]
+- [[#Function(s)|Function(s)]]
 - [[#Output Re-direction|Output Re-direction]]
 ## Content
 ---
-
 A batch script, `*.bat`, is interpreted and executed by a `cmd.exe` executable.
 
 The following are different command(s) to execute a batch script.

@@ -24,8 +24,8 @@ git status
 If a file appears in the output of the `status` command, it may have been:
 * *untracked*, if it is newly created.
 * *added*, if it is newly created, but tracked.
-* *modified*, if it has been tracked in the last commit, but changed.
-* *deleted*, if it has been tracked in the last commit, but has been modified.
+* *modified*, if it has been tracked in the last commit, but has been modified.
+* *deleted*, if it has been tracked in the last commit, but has been deleted.
 
 By default, new changes are unstaged. To stage changes,
 
@@ -76,10 +76,13 @@ To switch to a branch,
 git switch BRANCH
 ```
 
-To checkout to a specific commit,
+To checkout to a specific commit (or, branch),
 
 ```
 git checkout [-b BRANCH] HASH
+
+Options:
+	b - Create and switch to new BRANCH.
 ```
 
 *Note:* If this commit is the `HEAD` commit of a branch, you may specify the branch's name instead of the hash of the commit.
@@ -102,7 +105,7 @@ To merge a branch, into the current branch,
 git merge BRANCH
 ```
 
-To show the log,
+To show the log (i.e., in CLI),
 
 ```
 git log [--all] [--oneline] [--decorate] [--graph]
@@ -115,15 +118,15 @@ Options:
 ```
 #### `Git` Remote
 ---
+In all commands, unless otherwise specified, a remote branch is referenced as `REMOTE-ALIAS/REMOTE-BRANCH`.
+
 To fetch the latest changes from a remote branch, without checking it out,
 
 ```
 git fetch REMOTE-ALIAS REMOTE-BRANCH
 ```
 
-*Note:* `git fetch` fetches the latest changes from the whole repository.
-
-To checkout a remote branch, and setup a local branch to track it,
+To checkout a remote branch, and setup a (new) local branch to track it,
 
 ```
 git checkout -b LOCAL-BRANCH REMOTE-ALIAS/REMOTE-BRANCH
@@ -137,22 +140,22 @@ git branch -u REMOTE-ALIAS/REMOTE-BRANCH
 
 *Note:* `git status` reveals if the local branch tracks a remote branch, and which.
 
-To fetch and checkout the latest changes to a remote branch, that is being tracked by the current local branch,
+If the current local branch tracks a remote branch, then, to fetch and checkout the latest changes from the remote branch into the current local branch,
 
 ```
 git pull
 ```
 
-Instead, to push a local branch, onto a remote branch,
+If the current local branch tracks a remote branch, then, to push the latest changes from the current local branch onto the remote branch,
+
+```
+git push [--force]
+```
+
+In general, to push a local branch, onto a remote branch,
 
 ```
 git push REMOTE-ALIAS LOCAL-BRANCH:REMOTE-BRANCH [--force]
 ```
 
 *Note:* To push the current local branch, you may use `HEAD` instead of the branch's name.
-
-To rebase the current branch onto a remote branch,
-
-```
-git rebase REMOTE-ALIAS/REMOTE-BRANCH
-```

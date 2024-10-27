@@ -10,7 +10,7 @@ The module allows the configuration of virtual controller(s).
 * Upper-layer module(s) deal with virtual controller(s).
 * `EthIf_GetVlanId` may be used to query the VLAN ID associated with a specific virtual controller.
 
-Upon the reception, or successful transmission, of a frame, the appropriate RX indication, or TX confirmation, function is called, based on the frame's *EtherType* (see `EthIfFrameOwnerConfig`).
+Upon the reception, or successful transmission, of a frame, the appropriate upper-layer's RX indication, or TX confirmation, function is called, based on the frame's *EtherType* (see `EthIfFrameOwnerConfig`).
 ### Function(s)
 ---
 

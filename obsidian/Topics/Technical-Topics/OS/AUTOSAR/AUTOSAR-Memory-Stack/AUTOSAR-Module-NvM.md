@@ -42,7 +42,7 @@
 *AUTOSAR* specifies a *Basic Software (BSW) NVRAM Manager (NvM)* module, in functionality, API and configuration.
 ### Specification
 ---
-* The module shall manage entities, called *NVRAM blocks*. Each NVRAM block constitutes of a number of  *basic storage objects*. There are four types of *basic storage objects*:
+* The module shall manage entities, called *NVRAM blocks*. Each NVRAM block constitutes of a number of *basic storage objects*. There are four types of *basic storage objects*:
 	* *RAM block*, which represents the part of the NVRAM block that resides in RAM.
 	* *NV block*, which represents the part of the NVRAM block that resides in NV memory.
 	* *ROM block*, which represents the part of the NVRAM block that resides in ROM.

@@ -31,13 +31,13 @@ The following figure illustrates the references between different configured cer
 
 To install a certificate:
 * `KeyM_SetCertificate` is called, to set and trigger parsing of certificate.
-	* Before this call, the status of the certificate is `KEYM_CERTIFICATE_NOT_AVAILABLE` (unless it was previously set, or read from permanent storage).
+	* Before this call, the status of the certificate is `KEYM_CERTIFICATE_NOT_AVAILABLE` (unless it was previously set, or read from non-volatile memory).
 	* After this call, the status of the certificate is `KEYM_CERTIFICATE_NOT_PARSED`.
 	* If parsing completes successfully, which executes in the background, the status becomes `KEYM_CERTIFICATE_PARSED_NOT_VALIDATED`.
 * `KeyM_Verify<...>` is called, to verify certificate asynchronously.
 	* If successful, the status of the certificate becomes `KEYM_CERTIFICATE_VALID`.
 
-*Note:* More than one certificate can be verified at once, if they are all set, are part of the a chain, and verification is requested on the lowest hierarchal certificate.
+*Note:* More than one certificate can be verified at once, if they are all set, form a certificate-chain, and verification is requested on the lowest hierarchal certificate.
 ### Function(s)
 ---
 #### Scheduled
@@ -60,7 +60,7 @@ Description: Handles cyclic activities, that should execute in a background task
 ---
 ```
 Name: 'KeyM_Init'
-Description: Initializes module, including loading of permanently-stored certificates.
+Description: Initializes module, including loading of certificates from non-volatile memory (if present).
 Sync/Async: Sync.
 Re-entrant: Not re-entrant.
 Parameters (in):

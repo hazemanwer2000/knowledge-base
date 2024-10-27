@@ -68,7 +68,7 @@ For a socket connection group, if `SoAdPduHeaderEnable` is set to true, each PDU
 * Size field (size: 4 bytes)
 ##### Message Acceptance Filter
 ---
-For a socket connection group, if `SoAdSocketMsgAcceptanceFilterEnabled` is set to true,
+For a socket connection group, if `SoAdSocketMsgAcceptanceFilterEnabled` is set to true (i.e., its default),
 * For TCP,
 	* TCP connection(s) will be accepted if the remote address of the peer matches the current remote address.
 * For UDP,

@@ -46,12 +46,12 @@ The following are payload types.
 | ------------------------------- | ---------------------- | -------------------- |
 | Vehicle Announcement            | UDP, Multicast         | Dst: `UDP_DISCOVERY` |
 | Vehicle Identification Request  | UDP, Multicast/Unicast | Dst: `UDP_DISCOVERY` |
-| Vehicle Identification Response | UDP, Unicast           | ...                  |
+| Vehicle Identification Response | UDP, Unicast           | Src: `UDP_DISCOVERY` |
 | Routing Activation Request      | TCP                    | Dst: `TCP_DATA`      |
-| Routing Activation Response     | TCP                    | ...                  |
-| Diagnostic Message              | TCP                    | ...                  |
-| Diagnostic Message *ACK*        | TCP                    | ...                  |
-| Diagnostic Message *NACK*       | TCP                    | ...                  |
+| Routing Activation Response     | TCP                    | Src: `TCP_DATA`      |
+| Diagnostic Message              | TCP                    | Dst: `TCP_DATA`      |
+| Diagnostic Message *ACK*        | TCP                    | Src: `TCP_DATA`      |
+| Diagnostic Message *NACK*       | TCP                    | Src: `TCP_DATA`      |
 ### Communication Flow
 ---
 #### Vehicle Identification

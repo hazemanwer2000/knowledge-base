@@ -3,10 +3,19 @@
 ...
 ## Content
 ---
-...
+*AUTOSAR* specifies a *Basic Software (BSW) Diagnostic Communication Manager (DCM)* module, which resides in the Service layer, in functionality, API and configuration.
 ### Specification
 ---
-...
+The module shall be composed of three sub-module(s):
+* *Diagnostic Session Layer (DSL)*, which shall,
+	* Receive request(s) from, and transmit response(s) to, lower-layer *BSW* module(s),
+	* Handle session(s), including timeout(s) (i.e., ${S3}_{Server}$), and,
+	* Guarantee application-layer timing(s) (i.e., ${P2}_{Server\_Max}$, ${P2*}_{Server\_Max}$).
+* *Diagnostic Service Dispatch (DSD)*, which shall,
+	* Validate incoming request(s), based on the active session, security-level, etc.
+* *Diagnostic Service Dispatch (DSD)*, which shall,
+	* Validate request(s), based on format, and,
+	* Assemble response from *BSW* module(s) and *SW-C*(s).
 ### Configuration
 ---
 ```
@@ -70,10 +79,6 @@ DcmConfigSet [C, 1]
 				DcmDspSessionLevel [P]
 
 		...
-	
-	DcmPageBufferCfg [C, 1]
-	
-	DcmProcessingConditions [C, 0..1]
 ```
 ###### `DcmDslDiagResp`
 ---

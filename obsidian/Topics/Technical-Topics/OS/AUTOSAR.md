@@ -15,6 +15,8 @@
 		* [[AUTOSAR-Module-TcpIp]]
 		* [[AUTOSAR-Module-SoAd]]
 		* [[AUTOSAR-Module-Sd]]
+* Diagnostics
+	* [[AUTOSAR-Module-DCM]]
 * System
 	* [[AUTOSAR-Module-OS]]
 ## *Content*

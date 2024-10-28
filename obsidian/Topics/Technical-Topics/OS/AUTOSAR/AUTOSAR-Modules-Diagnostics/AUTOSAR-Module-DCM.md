@@ -58,6 +58,18 @@ DcmConfigSet [C, 1]
 						DcmDsdSubServiceSessionLevelRef [R, 0..*]
 
 	DcmDsd [C, 1]
+
+		DcmDspSecurity [C, 1]
+
+			DcmDspSecurityRow [C, 1..*]
+				DcmDspSecurityLevel [P]
+
+		DcmDspSession [C, 1]
+
+			DcmDspSessionRow [C, 1..*]
+				DcmDspSessionLevel [P]
+
+		...
 	
 	DcmPageBufferCfg [C, 1]
 	

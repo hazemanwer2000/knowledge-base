@@ -80,6 +80,8 @@ DcmConfigSet [C, 1]
 
 		...
 ```
+
+*Note:* Refer to [1] for service-specific configuration (e.g., DID(s), Routine(s), etc), which resides under `DcmConfigSet/DcmDsd`.
 ###### `DcmDslDiagResp`
 ---
 ```

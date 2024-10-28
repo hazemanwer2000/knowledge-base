@@ -23,9 +23,40 @@ DcmConfigSet [C, 1]
 		DcmDslProtocol [C, 1]
 
 			DcmDslProtocolRow [C, 1..*]
+				DcmDslProtocolType [P]
+				DcmTimStrP2ServerAdjust [P]
+				DcmTimStrP2StarServerAdjust [P]
+				DcmDemClientRef [R, 1] (DEM)
+				DcmDslProtocolTxBufferRef [R, 1]
+				DcmDslProtocolRxBufferRef [R, 1]
+				DcmDslProtocolSIDTable [R, 1]
+
+				DcmDslConnection [C, 1..*]
+					
+					DcmDslMainConnection [C, 1]
+
+						DcmDslProtocolRx [C, 1..*]
+							DcmDslProtocolRxAddrType [P]
+							DcmDslProtocolRxPduRef [R, 1]
+
+						DcmDslProtocolTx [C, 1]
+							DcmDslProtocolTxPduRef [R, 1]
 	
 	DcmDsp [C, 1]
-	
+
+		DcmDsdServiceTable [C, 1..*]
+
+			DcmDsdService [C, 1..*]
+				DcmDsdSidTabServiceId [P]
+				DcmDsdSidTabSubfuncAvail [P]
+				DcmDsdSidTabSecurityLevelRef [R, 0..*]
+				DcmDsdSidTabSessionLevelRef [R, 0..*]
+
+					DcmDsdSubService [C, 0..*]
+						DcmDsdSubServiceId [P]
+						DcmDsdSubServiceSecurityLevelRef [R, 0..*]
+						DcmDsdSubServiceSessionLevelRef [R, 0..*]
+
 	DcmDsd [C, 1]
 	
 	DcmPageBufferCfg [C, 1]
@@ -41,6 +72,21 @@ Description: Relates to the automatic 'RCRRP' response management.
 ```
 Path: DcmConfigSet/DcmDsl/DcmDslDiagResp/DcmDslDiagRespMaxNumRespPend
 Description: Maximum number of allowed 'RCRRP' response(s), before 'GR' response is sent, and service-processing cancelled.
+```
+###### `DcmDslProtocolRow`
+---
+```
+Path: DcmConfigSet/DcmDsl/DcmDslProtocol/DcmDslProtocolRow/DcmDslProtocolType
+Range:
+	UDS_ON_CAN
+	UDS_ON_LIN
+	UDS_ON_IP
+	...
+```
+
+```
+Path: DcmConfigSet/DcmDsl/DcmDslProtocol/DcmDslProtocolRow/DcmTimStrP2ServerAdjust
+Description: Adjustment to the current 'DcmDspSessionP2ServerMax', to account for any delay(s) during transmission (i.e., bus-delay, stack-overhead).
 ```
 ## References
 ---

@@ -1,6 +1,8 @@
 ──────── *for more from the author, visit* [github.com/hazemanwer2000](https://github.com/hazemanwer2000). ────────
 ## *Table of Contents*
-...
+- [[#Specification|Specification]]
+	- [[#Specification#Asynchronous/Synchronous Interface(s)|Asynchronous/Synchronous Interface(s)]]
+- [[#Configuration|Configuration]]
 ## Content
 ---
 *AUTOSAR* specifies a *Basic Software (BSW) Diagnostic Communication Manager (DCM)* module, which resides in the Service layer, in functionality, API and configuration.
@@ -16,6 +18,34 @@ The module shall be composed of three sub-module(s):
 * *Diagnostic Service Dispatch (DSD)*, which shall,
 	* Validate request(s), based on format, and,
 	* Assemble response from *BSW* module(s) and *SW-C*(s).
+#### Asynchronous/Synchronous Interface(s)
+---
+For synchronous interface(s):
+* Return-value(s):
+	* `E_OK`
+	* `E_NOT_OK`
+
+For asynchronous interface(s):
+* Parameter (In): `OpStatus`
+	* It denotes the status of the operation.
+	* Upon initial invocation, it shall be set to `DCM_INITIAL`.
+	* Upon cancellation of the operation (e.g., timeout occurs), it shall be set to `DCM_CANCEL`.
+* Return-value(s):
+	* `E_OK`
+	* `E_NOT_OK`
+	* `DCM_E_PENDING`
+		* Request processing still in-progress.
+		* It must be invoked again by the next `Dcm_MainFunction`, with `OpStatus = DCM_PENDING`.
+	* `DCM_E_FORCE_RCRRP`
+		* It force(s) the transmission of an `RCRRP` response (i.e., not automatically triggered by the *DSL* sub-module).
+		* It shall not be invoked again until transmission-confirmation.
+		* Upon transmission-confirmation, it must be called again by the next `Dcm_MainFunction`, with `OpStatus = DCM_FORCE_RCRRP_OK`.
+
+For all interface(s):
+* Parameter (Out): `ErrorCode` (Optional)
+	* If `E_NOT_OK` is returned, a negative response is sent with NRC set to `ErrorCode`.
+
+*Note:* Refer to [1] for service-specific interface definition(s)
 ### Configuration
 ---
 ```
@@ -81,7 +111,7 @@ DcmConfigSet [C, 1]
 		...
 ```
 
-*Note:* Refer to [1] for service-specific configuration (e.g., DID(s), Routine(s), etc), which resides under `DcmConfigSet/DcmDsd`.
+*Note:* Refer to [1] for service-specific configuration (e.g., DID(s), Routine(s), etc).
 ###### `DcmDslDiagResp`
 ---
 ```

@@ -1,6 +1,12 @@
 ──────── *for more from the author, visit* [github.com/hazemanwer2000](https://github.com/hazemanwer2000). ────────
 ## *Table of Contents*
-...
+- [[#Specification|Specification]]
+	- [[#Specification#Enable/Storage Condition(s)|Enable/Storage Condition(s)]]
+	- [[#Specification#Displacement Strategy|Displacement Strategy]]
+- [[#Function(s)|Function(s)]]
+	- [[#Function(s)#General|General]]
+	- [[#Function(s)#Client-Specific|Client-Specific]]
+- [[#Configuration|Configuration]]
 ## Content
 ---
 *AUTOSAR* specifies a *Basic Software (BSW) Diagnostic Event Manager (DEM)* module, which resides in the Service layer, in functionality, API and configuration.
@@ -28,12 +34,13 @@ If displacement strategy is `NONE`, no displacement takes place.
 #### General
 ---
 
-| Name                     | Type      | Description                     |
-| ------------------------ | --------- | ------------------------------- |
-| `Dem_(Pre)Init`          | API       | Initializes module.             |
-| `Dem_MainFunction`       | Scheduled | Handles cyclic activities.      |
-| `Dem_SetEventStatus`     | API       | Reports the status of an event. |
-| `Dem_SetEnableCondition` | API       | Sets an enable condition.       |
+| Name                      | Type      | Description                                                                                                       |
+| ------------------------- | --------- | ----------------------------------------------------------------------------------------------------------------- |
+| `Dem_(Pre)Init`           | API       | Initializes module.                                                                                               |
+| `Dem_MainFunction`        | Scheduled | Handles cyclic activities.                                                                                        |
+| `Dem_SetEventStatus`      | API       | Reports the status of an event, as `FAILED`/`PASSED`, or `PREFAILED`/`PREPASSED` (i.e., non-internal debouncing). |
+| `Dem_SetEnableCondition`  | API       | Sets an enable condition.                                                                                         |
+| `Dem_SetStorageCondition` | API       | Sets a storage condition.                                                                                         |
 #### Client-Specific
 ---
 

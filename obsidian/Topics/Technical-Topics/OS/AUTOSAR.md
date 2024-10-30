@@ -17,6 +17,7 @@
 		* [[AUTOSAR-Module-Sd]]
 * Diagnostics
 	* [[AUTOSAR-Module-DCM]]
+	* [[AUTOSAR-Module-DEM]]
 * System
 	* [[AUTOSAR-Module-OS]]
 ## *Content*

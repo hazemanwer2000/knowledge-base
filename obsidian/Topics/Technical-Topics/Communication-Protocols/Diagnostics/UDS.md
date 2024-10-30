@@ -121,9 +121,18 @@ Every *DTC* has the following information associated with it, and stored in non-
 	* It is reset at the end of an operating cycle, if,
 		* `(Test Failed This Operating Cycle == 0) AND (Test Not Completed This Operation Cycle == 0)`
 * `[3] Confirmed DTC`
-	* It is set if the confirmation threshold (VM-defined) is reached.
-	* It is reset if the aging threshold (VM-defined) is reached.
-	* For example, a counter may be maintained, and incremented/decremented at the end of an operating cycle if, `Pending DTC == 1` (given that `Pending DTC` is updated, first). If the counter reaches the confirmation threshold, status bit is set, and is not reset until the aging threshold is reached.
+	* If `[3]` is reset, then,
+		* A *trip counter* is maintained, that,
+			* increments, once per operating-cycle, if any test completed reports "Failure".
+			* resets at the end of an operating cycle, if,
+				* `(Test Failed This Operating Cycle == 0) AND (Test Not Completed This Operation Cycle == 0)`
+		* If the trip counter reaches the *confirmation threshold* (VM-defined), `[3]` is set.
+	* If `[3]` is set, then,
+		* An *aging counter* is maintained, that,
+			* increments at the end of an operating cycle, if,
+				* `(Test Failed This Operating Cycle == 0) AND (Test Not Completed This Operation Cycle == 0)`
+			* resets if any test completed reports "Failure".
+		* If the aging counter reaches the *aging threshold* (VM-defined), `[3]` is reset.
 * `[4] Test Not Completed Since Last Clear`
 	* It represents the following condition: Any test completed since last `Clear Diagnostic Information` service was requested.
 * `[5] Test Failed Since Last Clear`

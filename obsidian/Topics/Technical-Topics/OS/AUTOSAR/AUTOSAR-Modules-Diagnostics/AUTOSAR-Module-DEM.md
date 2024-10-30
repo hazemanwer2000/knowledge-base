@@ -6,7 +6,24 @@
 *AUTOSAR* specifies a *Basic Software (BSW) Diagnostic Event Manager (DEM)* module, which resides in the Service layer, in functionality, API and configuration.
 ### Specification
 ---
-...
+### Function(s)
+---
+#### General
+---
+
+| Name                 | Type      | Description                |
+| -------------------- | --------- | -------------------------- |
+| `Dem_(Pre)Init`      | API       | Initializes module.        |
+| `Dem_MainFunction`   | Scheduled | Handles cyclic activities. |
+| `Dem_SetEventStatus` | API       | Reports event status.      |
+#### Client-Specific
+---
+
+| Name            | Type | Description                                                |
+| --------------- | ---- | ---------------------------------------------------------- |
+| `Dem_SelectDTC` | API  | Selects an individual/group DTC, for further operation(s). |
+| `Dem_ClearDTC`  | API  | Clears (previously selected) DTC(s).                       |
+*Note:* Client-specific API(s) are re-entrant for different client(s), and non-re-entrant for the same client.
 ### Configuration
 ---
 ```
@@ -27,17 +44,11 @@ DemGeneral [C, 1]
 			DemEventMemoryEntryStorageTrigger [P]
 			DemMaxNumberEventEntryPrimary [P]
 
-				DemGroupOfDTC [C, 0..*]
-					DemGroupOfDTCs [P]
-
 		DemUserDefinedMemory [C, 0..*]
 			DemEventDisplacementStrategy [P]
 			DemEventMemoryEntryStorageTrigger [P]
 			DemMaxNumberEventEntryUserDefined [P]
 			DemUserDefinedMemoryIdentifier [P]
-
-				DemGroupOfDTC [C, 0..*]
-					DemGroupOfDTCs [P]
 
 	DemOperationCycle [C, 1..*]
 		DemOperationCycleId [P]

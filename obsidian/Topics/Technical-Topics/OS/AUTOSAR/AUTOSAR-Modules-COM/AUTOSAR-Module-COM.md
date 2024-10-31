@@ -4,12 +4,9 @@
 ## Content
 ---
 *AUTOSAR* specifies a *Basic Software (BSW) Communication (COM)* module, which resides in the Service layer, in functionality, API and configuration.
-### Specification
+### Function(s)
 ---
-#### Transmission
----
-For all TX I-PDU(s),
-* `ComTxIPduUnusedAreasDefault` specifies a byte-value, used to fill the buffer during initialization. Afterwards, `ComSignalInitValue` is written.
+
 ### Configuration
 ---
 ```
@@ -50,11 +47,11 @@ ComConfig [C, 1]
 		ComBitPosition [P]
 		ComBitSize [P]
 		ComSignalLength [P]
-		ComSignalDataInvalidValue [P]
 		ComSignalInitValue [P]
-		ComDataInvalidAction [P]
 		ComTransferProperty [P]
 		ComUpdateBitPosition [P, 0..1]
+		ComSignalDataInvalidValue [P]
+		ComDataInvalidAction [P]
 
 		ComFilter [C, 0..1]
 			ComFilterAlgorithm [P]
@@ -62,9 +59,9 @@ ComConfig [C, 1]
 
 	ComSignalGroup [C, 0..*]
 		ComHandleId [P]
-		ComDataInvalidAction [P]
 		ComTransferProperty [P]
 		ComUpdateBitPosition [P, 0..1]
+		ComDataInvalidAction [P]
 
 		ComGroupSignal [C, 0..*]
 			ComHandleId [P]
@@ -72,9 +69,9 @@ ComConfig [C, 1]
 			ComBitPosition [P]
 			ComBitSize [P]
 			ComSignalLength [P]
-			ComSignalDataInvalidValue [P]
 			ComSignalInitValue [P]
 			ComTransferProperty [P] (*)
+			ComSignalDataInvalidValue [P]
 
 			ComFilter [C, 0..1]
 				ComFilterAlgorithm [P]
@@ -117,6 +114,14 @@ Description: Specifies the Minimum-Delay-Time (MDT) between transmission(s) of t
 ```
 
 *Note:* In `DIRECT` or `MIXED` TX mode, multiple triggering within an MDT triggers only a single transmission of the associated I-PDU, after the MDT ends.
+###### `ComTxMode(True/False)`
+---
+```
+Description: 
+	Specifies the TX mode of the I-PDU, in-case the Transmission-Mode Selector (TMS) evaluates to 'True'/'False'.
+	The TMS is a logical-'OR' of all Transmission-Mode Condition(s) (TMC) of all associated signal(s).
+	The TMC of a signal is 'True' if 'ComFilter' evaluates to true, or is missing.
+```
 ###### `ComTxMode`
 ---
 ```
@@ -126,6 +131,7 @@ Range:
 	DIRECT - Triggered when an associated signal, with non-'PENDING' transfer-property is sent.
 	PERIODIC - Triggered cyclically, every `ComTxModeTimePeriod`.
 	MIXED - Combines 'DIRECT' and 'PERIODIC' TX mode(s).
+	NONE - Never triggered.
 ```
 
 *Note:* I-PDU transmission is always deferred to the scheduled `ComIPduMainFunctionRef`.
@@ -169,7 +175,39 @@ Description: Specifies the size of the signal, in bit(s), for signal-types '(U/S
 Path: ComConfig/ComSignal/ComSignalLength
 Description: Specifies the (maximum) size of the signal, in byte(s), for signal-types 'UINT8_N' and 'UINT8_DYN'.
 ```
+
+```
+Path: ComConfig/ComSignal/ComTransferProperty
+Range:
+	PENDING
+	TRIGGERED
+	TRIGGERED_ON_CHANGE
+	...
+```
+
+*Note:* Transfer property of a signal is relevant only for non-(`PERIODIC`/`NONE`) TX mode(s) of the associated I-PDU.
+
+```
+Path: ComConfig/ComSignal/ComUpdateBitPosition
+Description: Specifies the bit position of the update-bit of the signal within its associated I-PDU.
+```
+
+*Note:* For signal(s) of type `UINT8_DYN`, the update-bit, if present, must reside before the signal, within its associated I-PDU.
+
+*Note:* If a signal is received with a reset update-bit signal, the signal shall be discarded.
+
+```
+Path: ComConfig/ComSignal/ComDataInvalidAction
+Description: Specifies the action to take, upon the reception of the signal, with 'ComSignalDataInvalidValue' as value.
+Range:
+	NOTIFY - Sends an invalid-notification to the respective upper-layer.
+	REPLACE - Acts as if the signal was received with its 'ComSignalInitValue' value.
+```
+###### `ComFilter`
+---
+```
+Description: Used for filtering (i.e., discarding) RX signal(s), and evaluating TMC for TX signal(s).
+```
 ## References
 ---
 [1] Specification of Communication (COM), AUTOSAR Classic Platform, R20-11
-[2] Communication Specification, OSEK, 3.0.3

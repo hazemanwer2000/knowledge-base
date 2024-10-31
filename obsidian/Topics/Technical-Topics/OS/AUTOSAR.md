@@ -9,6 +9,7 @@
 	* [[AUTOSAR-Module-Csm]]
 	* [[AUTOSAR-Module-KeyM]]
 * COM
+	* [[AUTOSAR-Module-COM]]
 	* Ethernet
 		* [[AUTOSAR-Module-Eth-Driver]]
 		* [[AUTOSAR-Module-EthIf]]

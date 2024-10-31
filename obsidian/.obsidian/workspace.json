@@ -4,25 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "4e804a0d3862c59b",
+        "id": "f8355acd6b592eeb",
         "type": "tabs",
         "children": [
           {
-            "id": "1c3d43bac7ae97d6",
+            "id": "0db9ee141883a5cd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Modules-Diagnostics/AUTOSAR-Module-DEM.md",
-                "mode": "preview",
+                "file": "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Modules-COM/AUTOSAR-Module-COM.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AUTOSAR-Module-DEM"
+              "title": "AUTOSAR-Module-COM"
             }
           },
           {
-            "id": "438ee9661abceaf0",
+            "id": "8609764ed267913b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -33,34 +33,6 @@
               },
               "icon": "lucide-file",
               "title": "AUTOSAR-Module-DCM"
-            }
-          },
-          {
-            "id": "56566435e47dc5b8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topics/Technical-Topics/Communication-Protocols/Diagnostics/UDS.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "UDS"
-            }
-          },
-          {
-            "id": "17c94d8106589162",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Modules-COM/Ethernet/AUTOSAR-Module-EthIf.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "AUTOSAR-Module-EthIf"
             }
           }
         ]
@@ -200,15 +172,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1c3d43bac7ae97d6",
+  "active": "0db9ee141883a5cd",
   "lastOpenFiles": [
-    "Topics/Technical-Topics/Communication-Protocols/Diagnostics/UDS.md",
-    "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Modules-Diagnostics/AUTOSAR-Module-DEM.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Modules-Diagnostics/AUTOSAR-Module-DCM.md",
-    "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Modules-Cryptography/AUTOSAR-Module-KeyM.md",
-    "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Modules-COM/Ethernet/AUTOSAR-Module-EthIf.md",
-    "Topics/Technical-Topics/Communication-Protocols.md",
+    "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Modules-COM/AUTOSAR-Module-COM.md",
+    "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Modules-Diagnostics/AUTOSAR-Module-DEM.md",
     "Topics/Technical-Topics/OS/AUTOSAR.md",
+    "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Modules-COM/Ethernet/AUTOSAR-Module-TcpIp.md",
+    "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Modules-COM/Ethernet/AUTOSAR-Module-EthIf.md",
+    "Topics/Technical-Topics/Communication-Protocols/Diagnostics/UDS.md",
+    "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Modules-Cryptography/AUTOSAR-Module-KeyM.md",
+    "Topics/Technical-Topics/Communication-Protocols.md",
     "Topics/Technical-Topics/OS.md",
     "Topics/Technical-Topics.md",
     "Welcome!.md",
@@ -226,9 +200,7 @@
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Modules-Memory/AUTOSAR-Module-NvM.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Modules-COM/Ethernet/AUTOSAR-Module-Sd.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Modules-COM/Ethernet/AUTOSAR-Module-SoAd.md",
-    "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Modules-COM/Ethernet/AUTOSAR-Module-TcpIp.md",
     "Topics/Technical-Topics/OS/AUTOSAR/AUTOSAR-Modules-COM/Ethernet/AUTOSAR-Module-Eth-Driver.md",
-    "Topics/Technical-Topics/OS/OSEK.md",
     "~IMG/MACSEC-Frame-Structure.png",
     "~IMG/MACSEC-Frame-Structure.png",
     "~IMG/MKA-Parameter-Set-Encoding.png",

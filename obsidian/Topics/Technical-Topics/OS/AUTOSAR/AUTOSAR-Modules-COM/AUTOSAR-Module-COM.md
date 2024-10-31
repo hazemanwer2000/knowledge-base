@@ -7,6 +7,16 @@
 ### Function(s)
 ---
 
+| Name                     | Type      | Description                                                                                                                                                                                  |
+| ------------------------ | --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `Com_Init`               | API       | Initializes module.                                                                                                                                                                          |
+| `Com_MainFunction`       | Scheduled | Handles cyclic activities (see below).                                                                                                                                                       |
+| `Com_SendSignal`         | API       | Updates a signal's value, and attempts to initiate its transmission (see below).<br>*Note:* For group-signal(s), only updates a signal's value, in its respective shadow-buffer.             |
+| `Com_ReceiveSignal`      | API       | Reads a signal's latest value, typically invoked from upper-layer's `<..>_RxIndication`.<br>*Note:* For group-signal(s), reads a signal's latest value, , from its respective shadow-buffer. |
+| `Com_SendSignalGroup`    | API       | Updates a signal-group's value, from its respective shadow-buffer, and attempts to initiate its transmission (see below).                                                                    |
+| `Com_ReceiveSignalGroup` | API       | Reads a signal-group's latest value, into its respective shadow buffer, typically invoked from upper-layer's `<..>_RxIndication`.                                                            |
+| `Com_IPduGroupStart`     | API       | Enables all I-PDU(s), associated with a specific I-PDU group.                                                                                                                                |
+| `Com_IPduGroupStop`      | API       | Disables all I-PDU(s), associated with a specific I-PDU group.                                                                                                                               |
 ### Configuration
 ---
 ```
@@ -70,7 +80,6 @@ ComConfig [C, 1]
 			ComBitSize [P]
 			ComSignalLength [P]
 			ComSignalInitValue [P]
-			ComTransferProperty [P] (*)
 			ComSignalDataInvalidValue [P]
 
 			ComFilter [C, 0..1]

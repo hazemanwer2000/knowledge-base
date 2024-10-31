@@ -1,22 +1,25 @@
 ──────── *for more from the author, visit* [github.com/hazemanwer2000](https://github.com/hazemanwer2000). ────────
 ## *Table of Contents*
-...
+- [[#Function(s)|Function(s)]]
+- [[#Configuration|Configuration]]
 ## Content
 ---
 *AUTOSAR* specifies a *Basic Software (BSW) Communication (COM)* module, which resides in the Service layer, in functionality, API and configuration.
 ### Function(s)
 ---
 
-| Name                     | Type      | Description                                                                                                                                                                                  |
-| ------------------------ | --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `Com_Init`               | API       | Initializes module.                                                                                                                                                                          |
-| `Com_MainFunction`       | Scheduled | Handles cyclic activities (see below).                                                                                                                                                       |
-| `Com_SendSignal`         | API       | Updates a signal's value, and attempts to initiate its transmission (see below).<br>*Note:* For group-signal(s), only updates a signal's value, in its respective shadow-buffer.             |
-| `Com_ReceiveSignal`      | API       | Reads a signal's latest value, typically invoked from upper-layer's `<..>_RxIndication`.<br>*Note:* For group-signal(s), reads a signal's latest value, , from its respective shadow-buffer. |
-| `Com_SendSignalGroup`    | API       | Updates a signal-group's value, from its respective shadow-buffer, and attempts to initiate its transmission (see below).                                                                    |
-| `Com_ReceiveSignalGroup` | API       | Reads a signal-group's latest value, into its respective shadow buffer, typically invoked from upper-layer's `<..>_RxIndication`.                                                            |
-| `Com_IPduGroupStart`     | API       | Enables all I-PDU(s), associated with a specific I-PDU group.                                                                                                                                |
-| `Com_IPduGroupStop`      | API       | Disables all I-PDU(s), associated with a specific I-PDU group.                                                                                                                               |
+| Name                        | Type      | Description                                                                                                                                                                                  |
+| --------------------------- | --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `Com_Init`                  | API       | Initializes module.                                                                                                                                                                          |
+| `Com_MainFunction`          | Scheduled | Handles cyclic activities (see below).                                                                                                                                                       |
+| `Com_SendSignal`            | API       | Updates a signal's value, and attempts to initiate its transmission (see below).<br>*Note:* For group-signal(s), only updates a signal's value, in its respective shadow-buffer.             |
+| `Com_InvalidateSignal`      | API       | Implicitly invokes `Com_SendSignal`, with value set to `ComSignalDataInvalidValue`.                                                                                                          |
+| `Com_ReceiveSignal`         | API       | Reads a signal's latest value, typically invoked from upper-layer's `<..>_RxIndication`.<br>*Note:* For group-signal(s), reads a signal's latest value, , from its respective shadow-buffer. |
+| `Com_SendSignalGroup`       | API       | Updates a signal-group's value, from its respective shadow-buffer, and attempts to initiate its transmission (see below).                                                                    |
+| `Com_InvalidateSignalGroup` | API       | Implicitly invokes `Com_SendSignal`, with value set to `ComSignalDataInvalidValue`, for all group-signal(s), before invoking `Com_SendSignalGroup`.                                          |
+| `Com_ReceiveSignalGroup`    | API       | Reads a signal-group's latest value, into its respective shadow buffer, typically invoked from upper-layer's `<..>_RxIndication`.                                                            |
+| `Com_IPduGroupStart`        | API       | Enables all I-PDU(s), associated with a specific I-PDU group.                                                                                                                                |
+| `Com_IPduGroupStop`         | API       | Disables all I-PDU(s), associated with a specific I-PDU group.                                                                                                                               |
 ### Configuration
 ---
 ```

@@ -9,8 +9,9 @@
 	* [[AUTOSAR-Module-Csm]]
 	* [[AUTOSAR-Module-KeyM]]
 * COM
-	* [[AUTOSAR-Module-COM]]
-	* Ethernet
+	* General
+		* [[AUTOSAR-Module-COM]]
+	* Bus: *Ethernet*
 		* [[AUTOSAR-Module-Eth-Driver]]
 		* [[AUTOSAR-Module-EthIf]]
 		* [[AUTOSAR-Module-TcpIp]]

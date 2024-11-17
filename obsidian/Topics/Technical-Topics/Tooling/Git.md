@@ -70,6 +70,12 @@ To create a new branch,
 git branch BRANCH
 ```
 
+To delete a branch,
+
+```
+git branch -D BRANCH
+```
+
 To switch to a branch,
 
 ```

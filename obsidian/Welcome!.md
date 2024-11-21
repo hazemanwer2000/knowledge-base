@@ -1,6 +1,6 @@
 ## *Sub-topics!*
 ---
-* [[Technical-Topics]]
+* [[TechCraft]]
 ## *Content*
 ---
 Welcome to *THE* knowledge base!

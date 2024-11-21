@@ -1,21 +1,25 @@
 ## *Sub-topics!*
 ---
-* Ethernet Network-Security
-	* [[IPsec]]
-	* [[MacSec]]
-* Over-*TCP/IP*, Application-Layer
-	* [[SOME-IP]]
-	* [[DoIP]]
-* Diagnostics
-	* [[UDS]]
-* uC-specific
-	* [[UART]]
-	* [[SPI]]
-	* [[I2C]]
-* Automotive
-	* [[LIN]]
-	* [[CAN]]
-	* [[FlexRay]]
+* Physical-Layer Protocol(s)
+	* General
+		* [[UART]]
+		* [[SPI]]
+		* [[I2C]]
+	* Vehicle(s)
+		* [[LIN]]
+		* [[CAN]]
+		* [[FlexRay]]
+* Application-Layer Protocol(s)
+	* Vehicle(s)
+		* Communication
+			* [[SOME-IP]]
+		* Diagnostics
+			* [[DoIP]]
+			* [[UDS]]
+* Network-Security
+	* Ethernet-specific
+		* [[IPsec]]
+		* [[MacSec]]
 ## *Content*
 ---
 La-bla!

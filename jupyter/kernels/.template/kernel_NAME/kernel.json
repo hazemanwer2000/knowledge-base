@@ -1,0 +1,11 @@
+{
+ "argv": [
+  "python",
+  "-m",
+  "kernel_NAME",
+  "-f",
+  "{connection_file}"
+ ],
+ "display_name": "(...)",
+ "language": "LANGUAGE"
+}

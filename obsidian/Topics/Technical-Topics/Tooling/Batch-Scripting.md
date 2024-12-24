@@ -18,7 +18,7 @@ The following are different command(s) to execute a batch script.
 | -------------- | ----------------------------------------------------------------------------------------------------------------------- |
 | `cmd /c *.bat` | New interpreter is opened, executes script and terminates.                                                              |
 | `cmd /k *.bat` | New interpreter is opened, executes script and remains running.                                                         |
-| `*.bat`        | Executes script in currently running interpreter. However, `EXIT` build-in command does not terminate the interpretter. |
+| `*.bat`        | Executes script in currently running interpreter. However, `EXIT` built-in command does not terminate the interpretter. |
 ### Basic Syntax
 ---
 Usually, a batch script begins with the line,

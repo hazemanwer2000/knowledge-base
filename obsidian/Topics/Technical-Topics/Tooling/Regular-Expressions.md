@@ -73,7 +73,9 @@ Similarly, a *Look-behind* makes a similar assertion, before the actual pattern 
 ---
 A number of characters may be grouped using `(?:` and `)`.
 
-Additionally, the `|` operator may be used to implement `OR` logic between character(s) or group(s).
+Additionally, the `|` operator may be used to implement `OR` logic between a left-side and a right-side, within a grouping.
+
+For example, `abc(?:123|456)` matches `abc123`, or `abc456`.
 #### Capture Group(s)
 ---
 A capture group is a special group, that captures a specific part of a pattern, that may later be referenced (e.g., in replacement text).

@@ -31,7 +31,9 @@ srec_cat INPUT-1 ... INPUT-N -o OUTPUT
 `INPUT` may be any of the following:
 * HEX file, specified as `FILE`.
 * Binary file, specified as `FILE -binary`.
-* Arbitrary (empty) address-range, specified as `-generate ADDRESS-RANGE`.
+* Arbitrary (empty) address-range, specified as `-generate ADDRESS-RANGE`, followed by any of the following:
+	* `-constant UINT8`, specifying a single-byte value, repeated across the address-range.
+	* `-repeat-data UINT8-1 ... UINT8-N`, specifying multiple byte value(s), repeated across the address-range.
 
 `OUTPUT` may be any of the following:
 * HEX file, specified as `FILE`.
@@ -45,8 +47,8 @@ Every `INPUT` or `OUTPUT` may be followed by a consecutive number of filter(s), 
 `ADDRESS-RANGE` may be any of the following:
 * Consecutive number of start- and end- address(es), end-address exclusive.
 	* For example, `0x8000 0x8100 0x8200 0x8300`.
-* `-within FILE`, specifying the address-range(s) within a file, excluding hole(s).
-* `-over FILE`, specifying the address-range(s) within a file, including hole(s).
+* `-within FILE`, specifying the address-range within a file, excluding hole(s).
+* `-over FILE`, specifying the address-range within a file, including hole(s).
 #### Input Filter(s)
 ---
 For a HEX file such as `.s19`, the following filter may be used to ignore, and re-calculate, checksum(s).
@@ -61,29 +63,28 @@ To offset the address(s) by a specific value, which may be negative,
 -offset VALUE
 ```
 
-To extract byte(s) from specific address-range(s),
+To extract byte(s) from a specific address-range,
 
 ```
 -crop ADDRESS-RANGE
 ```
 
-To exclude byte(s) from specific address-range(s),
+To exclude byte(s) from a specific address-range,
 
 ```
 -exclude ADDRESS-RANGE
 ```
 
-To fill hole(s) within specific address-range(s),
+To fill hole(s) within a specific address-range,
 
 ```
--fill VALUE ADDRESS-RANGE
-
-VALUE: 0x00 to 0xFF
+-fill UINT8 ADDRESS-RANGE
 ```
 
 ```
 -random-fill ADDRESS-RANGE
 ```
+
 ## References
 ---
 [1] ...

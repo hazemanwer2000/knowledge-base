@@ -1,6 +1,10 @@
 ──────── *for more from the author, visit* [github.com/hazemanwer2000](https://github.com/hazemanwer2000). ────────
 ## *Table of Contents*
-...
+- [[#Command File|Command File]]
+- [[#`srec_cat`|`srec_cat`]]
+	- [[#`srec_cat`#`ADDRESS-RANGE`|`ADDRESS-RANGE`]]
+	- [[#`srec_cat`#Input Filter(s)|Input Filter(s)]]
+	- [[#`srec_cat`#Output Filter(s)|Output Filter(s)]]
 ## Content
 ---
 SREC-Tools are a set of tool(s) for analyzing, manipulating and comparing HEX file(s), of different format(s) (e.g., `.s19`).
@@ -84,7 +88,16 @@ To fill hole(s) within a specific address-range,
 ```
 -random-fill ADDRESS-RANGE
 ```
-
-## References
+#### Output Filter(s)
 ---
-[1] ...
+For a HEX file such as `.s19`, the following filter may be used to specify the number of byte(s) per Data S-Record(s).
+
+```
+-obs=VALUE -obp
+```
+
+For a HEX file such as `.s19`, the following filter may be used to specify the address-length, in byte(s).
+
+```
+-address-length VALUE
+```

@@ -12,6 +12,8 @@
 * Miscellaneous
 	* [[Regular-Expressions]]
 	* [[XPath]]
+* Software Management
+	* [[JIRA]]
 ## *Content*
 ---
 La-bla!

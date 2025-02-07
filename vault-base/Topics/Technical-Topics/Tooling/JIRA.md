@@ -42,21 +42,29 @@ FIELD OPERATOR VALUE
 ##### `FIELD`
 ---
 
-| Field         | Usage                                                                                            |
-| ------------- | ------------------------------------------------------------------------------------------------ |
-| `status`      | E.g., `status IN ("in progress", "pending")`                                                     |
-| `priority`    | E.g., `priority > High`                                                                          |
-| `type`        | E.g., `type IN (bug, story, epic)`                                                               |
-| `assignee`    | E.g., `assignee = "Joe Foe"`                                                                     |
-| `reporter`    | E.g., `reporter = "Foe Joe"`                                                                     |
-| `created`     | E.g., `created AFTER {DATE}`                                                                     |
-| `sprint`      | E.g., `sprint = {SPRINT}`                                                                        |
-| `team`        | E.g., `team = {TEAM}`                                                                            |
-| `summary`     | Used to search within the title of an issue.                                                     |
-| `description` | Used to search within the description of an issue.                                               |
-| `comment`     | Used to search within the comments of an issue.                                                  |
-| `text`        | Used to search, more generally, within all text inside an issue.                                 |
-| `labels`      | E.g., `labels IN (LABEL-1, LABEL-2)` (i.e., issue has at least `LABEL-1` or `LABEL-2` assigned). |
+| Field         | Usage                                                                                   |
+| ------------- | --------------------------------------------------------------------------------------- |
+| `status`      | E.g., `status IN ("in progress", "pending")`                                            |
+| `priority`    | E.g., `priority > High`                                                                 |
+| `type`        | E.g., `type IN (bug, story, epic)`                                                      |
+| `assignee`    | E.g., `assignee = "Joe Foe"`                                                            |
+| `reporter`    | E.g., `reporter = "Foe Joe"`                                                            |
+| `created`     | E.g., `created AFTER {DATE}`                                                            |
+| `sprint`      | E.g., `sprint = {SPRINT}`                                                               |
+| `team`        | E.g., `team = {TEAM}`                                                                   |
+| `summary`     | Used to search within the title of an issue.                                            |
+| `description` | Used to search within the description of an issue.                                      |
+| `comment`     | Used to search within the comments of an issue.                                         |
+| `text`        | Used to search, more generally, within all text inside an issue.                        |
+| `labels`      | E.g., `labels IN (LABEL-1, LABEL-2)` (i.e., issue has `LABEL-1` or `LABEL-2` assigned). |
+#### Function(s)
+---
+
+| Function                     | Usage                                                                                                                                               |
+| ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `startOf?(..)`, `endOf?(..)` | Returns the start-of, or end-of, either day, week, or month.<br>If passed a value, e.g., `X`, it offsets the date by `X` days, weeks, or months. `` |
+| `currentUser()`              | Returns the name of the current user.                                                                                                               |
+| `openSprints()`              | Returns a list of all active sprints.                                                                                                               |
 #### `ORDER BY {..}`
 ---
 `ORDER BY {...}` may be used to sort the results of a query.

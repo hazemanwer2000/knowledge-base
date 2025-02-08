@@ -1,4 +1,11 @@
 ──────── *for more from the author, visit* [github.com/hazemanwer2000](https://github.com/hazemanwer2000). ────────
+## *Table of Contents*
+- [[#JIRA Query Language (JQL)|JIRA Query Language (JQL)]]
+	- [[#JIRA Query Language (JQL)#`CONDITION`|`CONDITION`]]
+		- [[#`CONDITION`#`OPERATOR`|`OPERATOR`]]
+		- [[#`CONDITION`#`FIELD`|`FIELD`]]
+	- [[#JIRA Query Language (JQL)#Function(s)|Function(s)]]
+	- [[#JIRA Query Language (JQL)#`ORDER BY {..}`|`ORDER BY {..}`]]
 ## Content
 ---
 *JIRA* is a project management and issue-tracking tool, used across many industries, but most popular in software development.

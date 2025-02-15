@@ -26,15 +26,14 @@ FIELD OPERATOR VALUE
 ##### `OPERATOR`
 ---
 
-| Operator                          |
-| --------------------------------- |
-| `=`, `!=`                         |
-| `>`, `>=`, `<`, `<=` {2}          |
-| `IN`, `NOT IN`                    |
-| `IS`, `IS NOT` {3}                |
-| `DURING`, `AFTER`, `BEFORE`, `ON` |
-| `AND`, `OR`, `NOT`                |
-| `~`, `!~` {1}                     |
+| Operator                 |
+| ------------------------ |
+| `=`, `!=`                |
+| `>`, `>=`, `<`, `<=` {2} |
+| `IN`, `NOT IN`           |
+| `IS`, `IS NOT` {3}       |
+| `AND`, `OR`, `NOT`       |
+| `~`, `!~` {1}            |
 
 * {1}  `~` is used to search for words within a field.
 	* `~ "WORD-1 WORD-2"` would search for `WORD-1` and `WORD-2` anywhere in the field.

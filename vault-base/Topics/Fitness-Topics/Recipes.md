@@ -2,7 +2,7 @@
 ---
 * [[Potato-Wedges]]
 * [[Roasted-Chicken-Breasts]]
-* [[Chicken-Sauce]]
+* [[Shawerma-Sauce]]
 ## *Content*
 ---
 La-bla!

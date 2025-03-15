@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/Fitness-Topics/Recipes/Chicken-Sauce.md",
+                "file": "Topics/Fitness-Topics/Recipes/Shawerma-Sauce.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chicken-Sauce"
+              "title": "Shawerma-Sauce"
             }
           }
         ]
@@ -159,12 +159,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "389424f564d8a932",
+  "active": "b98377ee4402e3a0",
   "lastOpenFiles": [
-    "Topics/Fitness-Topics/Recipes.md",
-    "Topics/Fitness-Topics/Recipes/Chicken-Sauce.md",
-    "Topics/Fitness-Topics/Recipes/Roasted-Chicken-Breasts.md",
     "Topics/Fitness-Topics/Recipes/Potato-Wedges.md",
+    "Topics/Fitness-Topics/Recipes/Roasted-Chicken-Breasts.md",
+    "Topics/Fitness-Topics/Recipes/Shawerma-Sauce.md",
+    "Topics/Fitness-Topics/Recipes.md",
     "Welcome.md",
     "Topics/Fitness.md",
     "Topics/Fitness-Topics/Recipes",

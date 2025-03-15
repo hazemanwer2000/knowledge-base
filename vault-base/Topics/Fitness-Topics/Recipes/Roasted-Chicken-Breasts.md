@@ -16,7 +16,9 @@
 | Orange                              | 1/4 Serving |
 
 Steps:
-* Put the chicken breasts into a bowl, then pour and mix in all other items.
+* Put the chicken breasts into a bowl.
+* Squeeze the Lemon and Orange into the bowl.
+* Pour and mix in all other items.
 * Cook the chicken breasts (e.g., in an oven, in an air-fryer).
 
 *Note:* To clean raw chicken breasts,

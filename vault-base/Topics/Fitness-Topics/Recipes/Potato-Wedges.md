@@ -1,13 +1,14 @@
 ──────── *for more from the author, visit* [github.com/hazemanwer2000](https://github.com/hazemanwer2000). ────────
 
-| Item           | Quantity |
-| -------------- | -------- |
-| Potatoes       | 1 kg     |
-| Onion Powder   | 7.5 ml   |
-| Garlic Powder  | 2.5 ml   |
-| Paprika Powder | 2.5 ml   |
-| Salt           | 5 ml     |
-| Sunflower Oil  | -        |
+| Item                | Quantity |
+| ------------------- | -------- |
+| Potatoes            | 1 kg     |
+| Onion Powder        | 7.5 ml   |
+| Garlic Powder       | 2.5 ml   |
+| Paprika Powder      | 2.5 ml   |
+| Chili Pepper Powder | 2.5 ml   |
+| Salt                | 5 ml     |
+| Sunflower Oil       | -        |
 
 Steps:
 * Peel the potatoes, and cut them into cubes.

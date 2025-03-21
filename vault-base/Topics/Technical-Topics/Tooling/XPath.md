@@ -43,7 +43,7 @@ The following axis abbreviation(s) may be used:
 ---
 The following operator(s) may be used:
 * `=`, `!=`, `<`, `<=`, `>`, and `>=`
-* `or`, `and`
+* `or`, `and`, and `not`
 * `(` and `)`, for grouping
 * `"..."`, for string(s)
 * `|`, to combine result(s) from two *XPath* expression(s)

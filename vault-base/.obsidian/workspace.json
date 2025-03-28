@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/Technical-Topics/Tooling/XPath.md",
+                "file": "Topics/TechCraft.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "XPath"
+              "title": "TechCraft"
             }
           }
         ]
@@ -161,9 +161,10 @@
   },
   "active": "acd73a8d610a8962",
   "lastOpenFiles": [
+    "Welcome.md",
+    "Topics/Technical-Topics/Tooling/XPath.md",
     "Topics/Technical-Topics/Tooling.md",
     "Topics/TechCraft.md",
-    "Welcome.md",
     "Topics/Technical-Topics/Tooling/TRACE32-PRACTICE-Language.md",
     "Topics/Technical-Topics/OS.md",
     "Topics/Technical-Topics/OS/AUTOSAR.md",
@@ -177,7 +178,6 @@
     "Topics/Fitness-Topics/Recipes",
     "Topics/Fitness-Topics",
     "Topics/Technical-Topics/Tooling/JIRA.md",
-    "Topics/Technical-Topics/Tooling/XPath.md",
     "Topics/Technical-Topics/Tooling/Git.md",
     "_IMG/UART-Physical-Interface.jpg",
     "_IMG/UART-Frame-Structure.png",

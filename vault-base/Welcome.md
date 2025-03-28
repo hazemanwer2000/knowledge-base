@@ -1,7 +1,6 @@
 ## *Sub-topics!*
 ---
 * [[TechCraft]]
-* [[Fitness]]
 ## *Content*
 ---
 Welcome to *THE* knowledge base!

@@ -17,6 +17,7 @@ Afterwards, a number of `/`-separated (sub-)expression(s) are specified, each of
 * An *axis*, which specifies the search-space,
 * a name, which may be,
 	* tag-name, for element(s)
+		* For tag(s) in namespace(s), the format `NAMESPACE:TAG-NAME` is used.
 	* attribute-name, for attribute(s)
 	* `*`, as wildcard
 	* `text()`, as a special-case, to extract text from element(s)

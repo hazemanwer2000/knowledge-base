@@ -12,15 +12,14 @@
 			- [[#`PortInterface`#`ModeDeclarationGroup`|`ModeDeclarationGroup`]]
 		- [[#`PortPrototype`#`PPortComSpec`|`PPortComSpec`]]
 		- [[#`PortPrototype`#`RPortComSpec`|`RPortComSpec`]]
-- 
 ## Content
 ---
 In an *AUTOSAR* system (e.g., a vehicle), the application software is organized into components.
 
 Modelling of SW-Component(s) is broken down into steps.
-* First, port(s) and connector(s) across the different SWC(s) are specified.
-* Second, the internal behavior of every SWC is specified, in terms of event(s) and runnable(s).
-* Third, an implementation is specified (e.g., C-code implementation of every runnable).
+1. Port(s) and Connector(s) across the different SWC(s) are specified.
+2. Internal Behavior of every SWC is specified, in terms of Event(s) and Runnable(s).
+3. An Implementation is specified (e.g., C-code implementation of every runnable).
 
 *Note:* Any implementation of a SWC depends on the Run-Time Environment (RTE) for the handling of event(s), and communication across SWC(s).
 ### SWC Type(s)
@@ -258,7 +257,7 @@ class ModeRequestTypeMap {
 ```plantuml
 abstract AbstractEvent
 abstract RTEEvent {
-	startOnEvent : RunnableEntity (ref, 1)
+	startOnEvent : RunnableEntity (ref, 0..1)
 }
 class TimingEvent {
 	period : TimeValue (attr, 1)
@@ -270,9 +269,18 @@ class DataReceivedEvent {
 class OperationInvokedEvent {
 	operation : ClientServerOperation (ref, 1)
 }
+class AsynchronousServerCallReturnsEvent {
+	eventSource : AsynchronousServerCallResultPoint (ref, 1)
+}
 class SwcModeSwitchEvent {
 	activation : ModeActivationKind (attr, 1)
 	mode : ModeDeclaration (ref, 1..2)
+}
+class ExternalTriggerOccurredEvent {
+	trigger : Trigger (ref, 1)
+}
+class InternalTriggerOccurredEvent {
+	eventSource : InternalTriggeringPoint (ref, 1)
 }
 enum ModeActivationKind {
 	onEntry
@@ -285,6 +293,52 @@ RTEEvent <|-- InitEvent
 RTEEvent <|-- DataReceivedEvent
 RTEEvent <|-- OperationInvokedEvent
 RTEEvent <|-- SwcModeSwitchEvent
+RTEEvent <|-- ExternalTriggerOccurredEvent
+RTEEvent <|-- InternalTriggerOccurredEvent
+```
+##### `RunnableEntity`
+---
+```plantuml
+abstract ExecutableEntity {
+	canEnterExclusiveArea : ExclusiveArea (ref, *)
+	runsInsideExclusiveArea : ExclusiveArea (ref, *)
+}
+class RunnableEntity {
+	canBeInvokedConcurrently : Boolean (attr, 1)
+	symbol : CIdentifier (attr, 1)
+	dataReadAccess : VariableAccess (aggr, *)
+	dataReceivePointByArgument : VariableAccess (aggr, *)
+	dataReceivePointByValue : VariableAccess (aggr, *)
+	dataWriteAccess : VariableAccess (aggr, *)
+	dataSendPoint : VariableAccess (aggr, *)
+	serverCallPoint : ServerCallPoint (aggr, *)
+	asynchronousServerCallResultPoint : AsynchronousServerCallResultPoint (aggr, *)
+	externalTriggeringPoint : ExternalTriggeringPoint (aggr, *)
+	internalTriggeringPoint : InternalTriggeringPoint (aggr, *)
+	modeAccessPoint : ModeAccessPoint (aggr, *)
+	modeSwitchPoint : ModeSwitchPoint (aggr, *)
+	waitPoint : WaitPoint (aggr, *)
+}
+ExecutableEntity <|-- RunnableEntity
+```
+
+*Note:* An `InternalTriggeringPoint` enables the triggering of a `RunnableEntity` by another, within the same `AtomicSwComponentType`. Hence, it does not reference a `Trigger` from a `PortPrototype`, but is rather stand-alone. This is consistent with the fact that an `InternalTriggerOccurredEvent` references an `InternalTriggeringPoint`.
+###### `ServerCallPoint`
+---
+```plantuml
+abstract ServerCallPoint {
+	operation : ClientServerOperation (ref, 1)
+	timeout : TimeoutValue (attr, 1)
+}
+ServerCallPoint <|-- SynchronousServerCallPoint
+ServerCallPoint <|-- AsynchronousServerCallPoint
+```
+###### `AsynchronousServerCallResultPoint`
+---
+```plantuml
+class AsynchronousServerCallResultPoint {
+	asynchronousServerCallPoint : AsynchronousServerCallPoint (ref, 1)
+}
 ```
 ## References
 ---

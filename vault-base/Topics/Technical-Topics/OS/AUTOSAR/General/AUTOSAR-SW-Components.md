@@ -12,6 +12,7 @@
 			- [[#`PortInterface`#`ModeDeclarationGroup`|`ModeDeclarationGroup`]]
 		- [[#`PortPrototype`#`PPortComSpec`|`PPortComSpec`]]
 		- [[#`PortPrototype`#`RPortComSpec`|`RPortComSpec`]]
+- 
 ## Content
 ---
 In an *AUTOSAR* system (e.g., a vehicle), the application software is organized into components.
@@ -50,7 +51,7 @@ class SwComponentPrototype {
 	type : SwComponentType (ref, 1)
 }
 ```
-### Port(s) and Connector(s)
+### Step: Port(s) and Connector(s)
 ---
 #### `PortPrototype`
 ---
@@ -197,6 +198,93 @@ ReceiverComSpec <|-- NonqueuedReceiverComSpec
 ReceiverComSpec <|-- QueuedReceiverComSpec
 RPortComSpec <|-- ClientComSpec
 RPortComSpec <|-- ModeSwitchReceiverComSpec
+```
+#### `SwConnector`
+---
+```plantuml
+abstract SwConnector
+class AssemblySwConnector {
+	provider : AbstractProvidedPortPrototype (ref, 1)
+	requester : AbstractRequiredPortPrototype (ref, 1)
+}
+class DelegationSwConnector {
+	innerPort : PortPrototype (ref, 1)
+	outerPort : PortPrototype (ref, 1)
+}
+class PassThroughSwConnector {
+	providedOuterPort : AbstractProvidedPortPrototype (ref, 1)
+	requiredOuterPort : AbstractRequiredPortPrototype (ref, 1)
+}
+SwConnector <|-- AssemblySwConnector
+SwConnector <|-- DelegationSwConnector
+SwConnector <|-- PassThroughSwConnector
+```
+### Step: Internal Behavior
+---
+#### `InternalBehavior`
+---
+```plantuml
+abstract InternalBehavior {
+	dataTypeMapping : DataTypeMappingSet (ref, *)
+	exclusiveArea : ExclusiveArea (aggr, *)
+}
+class SwcInternalBehavior {
+	event : RTEEvent (aggr, *)
+	runnable : RunnableEntity (aggr, *)
+}
+class ExclusiveArea
+InternalBehavior <|-- SwcInternalBehavior
+```
+##### `DataTypeMappingSet`
+---
+```plantuml
+class DataTypeMappingSet {
+	dataTypeMap : DataTypeMap (aggr, *)
+	modeRequestTypeMap : ModeRequestTypeMap (aggr, *)
+}
+```
+```plantuml
+class DataTypeMap {
+	applicationDataType : ApplicationDataType (ref, 1)
+	implementationDataType : ImplementationDataType (ref, 1)
+}
+class ModeRequestTypeMap {
+	modeDeclarationGroup : ModeDeclarationGroup (ref, 1)
+	implementationDataType : ImplementationDataType (ref, 1)
+}
+```
+##### `RTEEvent`
+---
+```plantuml
+abstract AbstractEvent
+abstract RTEEvent {
+	startOnEvent : RunnableEntity (ref, 1)
+}
+class TimingEvent {
+	period : TimeValue (attr, 1)
+}
+class InitEvent
+class DataReceivedEvent {
+	data : VariableDataPrototype (ref, 1)
+}
+class OperationInvokedEvent {
+	operation : ClientServerOperation (ref, 1)
+}
+class SwcModeSwitchEvent {
+	activation : ModeActivationKind (attr, 1)
+	mode : ModeDeclaration (ref, 1..2)
+}
+enum ModeActivationKind {
+	onEntry
+	onExit
+	onTransition
+}
+AbstractEvent <|-- RTEEvent
+RTEEvent <|-- TimingEvent
+RTEEvent <|-- InitEvent
+RTEEvent <|-- DataReceivedEvent
+RTEEvent <|-- OperationInvokedEvent
+RTEEvent <|-- SwcModeSwitchEvent
 ```
 ## References
 ---

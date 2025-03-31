@@ -75,6 +75,7 @@ class ModeSwitchInterface {
 class TriggerInterface {
 	trigger : Trigger (aggr, *)
 }
+class Trigger
 PortInterface <|-- ClientServerInterface
 PortInterface <|-- ModeSwitchInterface
 PortInterface <|-- TriggerInterface
@@ -124,7 +125,17 @@ class ModeDeclaractionGroupPrototype {
 ```
 ##### `ModeDeclarationGroup`
 ---
-
+```plantuml
+class ModeDeclarationGroup {
+	initialMode : ModeDeclaration (ref, 1)
+	modeDeclaration : ModeDeclaration (aggr, *)
+	modeTransition : ModeTransition (aggr, *)
+}
+class ModeTransition {
+	enteredMode : ModeDeclaration (aggr, 1)
+	exitedMode : ModeDeclaration (aggr, 1)
+}
+```
 ## References
 ---
 [1] Software Component Template, AUTOSAR Classic Platform, R20-11

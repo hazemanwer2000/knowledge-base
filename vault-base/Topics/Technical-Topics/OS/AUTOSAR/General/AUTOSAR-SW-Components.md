@@ -10,9 +10,7 @@ Modelling of SW-Component(s) is broken down into steps.
 * Second, the internal behavior of every SWC is specified, in terms of event(s) and runnable(s).
 * Third, an implementation is specified (e.g., C-code implementation of every runnable).
 
-*Note:* Any implementation depends on the Run-Time Environment (RTE) for the handling of event(s), and communication across SWC(s).
-### Meta-model
----
+*Note:* Any implementation of a SWC depends on the Run-Time Environment (RTE) for the handling of event(s), and communication across SWC(s).
 #### `SwComponentType`
 ---
 ```plantuml
@@ -135,6 +133,26 @@ class ModeTransition {
 	enteredMode : ModeDeclaration (aggr, 1)
 	exitedMode : ModeDeclaration (aggr, 1)
 }
+```
+#### `PPortComSpec`
+---
+```plantuml
+abstract PPortComSpec
+abstract SenderComSpec {
+	dataElement : DataPrototype (ref, 1)
+}
+class ServerComSpec {
+	operation : ClientServerOperation (ref, 1)
+	queueLength : Integer (attr, 1)
+}
+class ModeSwitchSenderComSpec {
+	modeGroup : ModeDeclarationGroupPrototype (ref, 1)
+}
+PPortComSpec <|-- SenderComSpec
+SenderComSpec <|-- NonqueuedSenderComSpec
+SenderComSpec <|-- QueuedSenderComSpec
+PPortComSpec <|-- ServerComSpec
+PPortComSpec <|-- ModeSwitchSenderComSpec
 ```
 ## References
 ---

@@ -35,7 +35,25 @@ AtomicSwComponentType <|-- ServiceSwComponentType
 #### `PortPrototype`
 ---
 ```plantuml
-abstract "PortPrototype"
+abstract PortPrototype {
+	interface : PortInterface (ref, 1)
+}
+abstract AbstractProvidedPortPrototype {
+	providedComSpec : PPortComSpec (aggr, 0..*)
+}
+abstract AbstractRequiredPortPrototype {
+	requiredComSpec : RPortComSpec (aggr, 0..*)
+}
+class PPortPrototype
+class RPortPrototype
+class PRPortPrototype
+
+PortPrototype <|-- AbstractProvidedPortPrototype
+PortPrototype <|-- AbstractRequiredPortPrototype
+AbstractProvidedPortPrototype <|-- PPortPrototype
+AbstractProvidedPortPrototype <|-- PRPortPrototype
+AbstractRequiredPortPrototype <|-- RPortPrototype
+AbstractRequiredPortPrototype <|-- PRPortPrototype
 ```
 ## References
 ---

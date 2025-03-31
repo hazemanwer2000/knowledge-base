@@ -1,16 +1,29 @@
 ──────── *for more from the author, visit* [github.com/hazemanwer2000](https://github.com/hazemanwer2000). ────────
 ## *Table of Contents*
-...
+- [[#SWC Type(s)|SWC Type(s)]]
+	- [[#SWC Type(s)#`SwComponentType`|`SwComponentType`]]
+		- [[#SWC Type(s)#`SwComponentPrototype`|`SwComponentPrototype`]]
+- [[#Port(s) and Connector(s)|Port(s) and Connector(s)]]
+	- [[#Port(s) and Connector(s)#`PortPrototype`|`PortPrototype`]]
+		- [[#`PortPrototype`#`PortInterface`|`PortInterface`]]
+			- [[#`PortInterface`#`DataPrototype`|`DataPrototype`]]
+			- [[#`PortInterface`#`DataType`|`DataType`]]
+			- [[#`PortInterface`#`ModeDeclarationGroupPrototype`|`ModeDeclarationGroupPrototype`]]
+			- [[#`PortInterface`#`ModeDeclarationGroup`|`ModeDeclarationGroup`]]
+		- [[#`PortPrototype`#`PPortComSpec`|`PPortComSpec`]]
+		- [[#`PortPrototype`#`RPortComSpec`|`RPortComSpec`]]
 ## Content
 ---
 In an *AUTOSAR* system (e.g., a vehicle), the application software is organized into components.
 
 Modelling of SW-Component(s) is broken down into steps.
-* First, port(s) and connection(s) across the different SWC(s) are specified.
+* First, port(s) and connector(s) across the different SWC(s) are specified.
 * Second, the internal behavior of every SWC is specified, in terms of event(s) and runnable(s).
 * Third, an implementation is specified (e.g., C-code implementation of every runnable).
 
 *Note:* Any implementation of a SWC depends on the Run-Time Environment (RTE) for the handling of event(s), and communication across SWC(s).
+### SWC Type(s)
+---
 #### `SwComponentType`
 ---
 ```plantuml
@@ -30,6 +43,15 @@ AtomicSwComponentType <|-- ApplicationSwComponentType
 AtomicSwComponentType <|-- ComplexDeviceDriverSwComponentType
 AtomicSwComponentType <|-- ServiceSwComponentType
 ```
+##### `SwComponentPrototype`
+---
+```plantuml
+class SwComponentPrototype {
+	type : SwComponentType (ref, 1)
+}
+```
+### Port(s) and Connector(s)
+---
 #### `PortPrototype`
 ---
 ```plantuml
@@ -53,7 +75,7 @@ AbstractProvidedPortPrototype <|-- PRPortPrototype
 AbstractRequiredPortPrototype <|-- RPortPrototype
 AbstractRequiredPortPrototype <|-- PRPortPrototype
 ```
-#### `PortInterface`
+##### `PortInterface`
 ---
 ```plantuml
 abstract PortInterface
@@ -80,7 +102,7 @@ PortInterface <|-- TriggerInterface
 PortInterface <|-- DataInterface
 DataInterface <|-- SenderReceiverInterface
 ```
-##### `DataPrototype`
+###### `DataPrototype`
 ---
 ```plantuml
 abstract DataPrototype {
@@ -101,7 +123,7 @@ abstract ValueSpecification
 DataPrototype <|-- VariableDataPrototype
 DataPrototype <|-- ArgumentDataPrototype
 ```
-##### `DataType`
+###### `DataType`
 ---
 ```plantuml
 abstract DataType
@@ -114,14 +136,14 @@ ApplicationDataType <|-- ApplicationCompositeDataType
 ApplicationCompositeDataType <|-- ApplicationRecordDataType
 ApplicationCompositeDataType <|-- ApplicationArrayDataType
 ```
-##### `ModeDeclarationGroupPrototype`
+###### `ModeDeclarationGroupPrototype`
 ---
 ```plantuml
 class ModeDeclaractionGroupPrototype {
 	type : ModeDeclarationGroup (ref, 1)
 }
 ```
-##### `ModeDeclarationGroup`
+###### `ModeDeclarationGroup`
 ---
 ```plantuml
 class ModeDeclarationGroup {
@@ -134,7 +156,7 @@ class ModeTransition {
 	exitedMode : ModeDeclaration (aggr, 1)
 }
 ```
-#### `PPortComSpec`
+##### `PPortComSpec`
 ---
 ```plantuml
 abstract PPortComSpec
@@ -154,7 +176,7 @@ SenderComSpec <|-- QueuedSenderComSpec
 PPortComSpec <|-- ServerComSpec
 PPortComSpec <|-- ModeSwitchSenderComSpec
 ```
-#### `RPortComSpec`
+##### `RPortComSpec`
 ---
 ```plantuml
 abstract RPortComSpec

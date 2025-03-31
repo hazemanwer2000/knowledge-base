@@ -154,6 +154,28 @@ SenderComSpec <|-- QueuedSenderComSpec
 PPortComSpec <|-- ServerComSpec
 PPortComSpec <|-- ModeSwitchSenderComSpec
 ```
+#### `RPortComSpec`
+---
+```plantuml
+abstract RPortComSpec
+abstract ReceiverComSpec {
+	dataElement : DataPrototype (ref, 1)
+}
+class ClientComSpec {
+	operation : ClientServerOperation (ref, 1)
+}
+class ModeSwitchReceiverComSpec {
+	modeGroup : ModeDeclarationGroupPrototype (ref, 1)
+}
+class QueuedReceiverComSpec {
+	queueLength : Integer (attr, 1)
+}
+RPortComSpec <|-- ReceiverComSpec
+ReceiverComSpec <|-- NonqueuedReceiverComSpec
+ReceiverComSpec <|-- QueuedReceiverComSpec
+RPortComSpec <|-- ClientComSpec
+RPortComSpec <|-- ModeSwitchReceiverComSpec
+```
 ## References
 ---
 [1] Software Component Template, AUTOSAR Classic Platform, R20-11

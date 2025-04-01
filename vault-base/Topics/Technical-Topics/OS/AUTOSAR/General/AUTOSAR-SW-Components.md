@@ -2,9 +2,8 @@
 ## *Table of Contents*
 - [[#SWC Type(s)|SWC Type(s)]]
 	- [[#SWC Type(s)#`SwComponentType`|`SwComponentType`]]
-		- [[#SWC Type(s)#`SwComponentPrototype`|`SwComponentPrototype`]]
-- [[#Port(s) and Connector(s)|Port(s) and Connector(s)]]
-	- [[#Port(s) and Connector(s)#`PortPrototype`|`PortPrototype`]]
+- [[#Step: Port(s) and Connector(s)|Step: Port(s) and Connector(s)]]
+	- [[#Step: Port(s) and Connector(s)#`PortPrototype`|`PortPrototype`]]
 		- [[#`PortPrototype`#`PortInterface`|`PortInterface`]]
 			- [[#`PortInterface`#`DataPrototype`|`DataPrototype`]]
 			- [[#`PortInterface`#`DataType`|`DataType`]]
@@ -12,6 +11,14 @@
 			- [[#`PortInterface`#`ModeDeclarationGroup`|`ModeDeclarationGroup`]]
 		- [[#`PortPrototype`#`PPortComSpec`|`PPortComSpec`]]
 		- [[#`PortPrototype`#`RPortComSpec`|`RPortComSpec`]]
+	- [[#Step: Port(s) and Connector(s)#`SwConnector`|`SwConnector`]]
+- [[#Step: Internal Behavior|Step: Internal Behavior]]
+	- [[#Step: Internal Behavior#`SwcInternalBehavior`|`SwcInternalBehavior`]]
+		- [[#`SwcInternalBehavior`#`DataTypeMappingSet`|`DataTypeMappingSet`]]
+		- [[#`SwcInternalBehavior`#`RTEEvent`|`RTEEvent`]]
+		- [[#`SwcInternalBehavior`#`RunnableEntity`|`RunnableEntity`]]
+- [[#Step: Implementation|Step: Implementation]]
+	- [[#Step: Implementation#`SwcImplementation`|`SwcImplementation`]]
 ## Content
 ---
 In an *AUTOSAR* system (e.g., a vehicle), the application software is organized into components.
@@ -43,8 +50,7 @@ AtomicSwComponentType <|-- ApplicationSwComponentType
 AtomicSwComponentType <|-- ComplexDeviceDriverSwComponentType
 AtomicSwComponentType <|-- ServiceSwComponentType
 ```
-##### `SwComponentPrototype`
----
+
 ```plantuml
 class SwComponentPrototype {
 	type : SwComponentType (ref, 1)
@@ -220,7 +226,7 @@ SwConnector <|-- PassThroughSwConnector
 ```
 ### Step: Internal Behavior
 ---
-#### `InternalBehavior`
+#### `SwcInternalBehavior`
 ---
 ```plantuml
 abstract InternalBehavior {
@@ -340,6 +346,17 @@ class AsynchronousServerCallResultPoint {
 *Note:* An `InternalTriggeringPoint` enables the triggering of a `RunnableEntity` by another, within the same `AtomicSwComponentType`. Hence, it does not reference a `Trigger` from a `PortPrototype`, but is rather stand-alone. This is consistent with the fact that an `InternalTriggerOccurredEvent` references an `InternalTriggeringPoint`.
 
 *Note:* An `AsynchronousServerCallResultPoint` enables a `RunnableEntity` to query the result of a previous invocation of a `ClientServerOperation` via an `AsynchronousServerCallPoint`. If unspecified, the result is inaccessible. If an `AsynchronousServerCallReturnsEvent` is defined, referencing the `AsynchronousServerCallResultPoint`, the event is set upon completion of the `ClientServerOperation`.
+### Step: Implementation
+---
+#### `SwcImplementation`
+---
+```plantuml
+abstract Implementation
+class SwcImplementation {
+	behavior : SwcInternalBehavior (ref, 1)
+}
+Implementation <|-- SwcImplementation
+```
 ## References
 ---
 [1] Software Component Template, AUTOSAR Classic Platform, R20-11

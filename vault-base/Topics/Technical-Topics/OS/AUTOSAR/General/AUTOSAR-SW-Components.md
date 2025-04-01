@@ -322,11 +322,6 @@ class RunnableEntity {
 ExecutableEntity <|-- RunnableEntity
 ```
 
-*Note:* An `InternalTriggeringPoint` enables the triggering of a `RunnableEntity` by another, within the same `AtomicSwComponentType`. Hence, it does not reference a `Trigger` from a `PortPrototype`, but is rather stand-alone. This is consistent with the fact that an `InternalTriggerOccurredEvent` references an `InternalTriggeringPoint`.
-
-*Note:* An `AsynchronousServerCallResultPoint` enables a `RunnableEntity` to query the result of a previous invocation of a `ClientServerOperation` via an `AsynchronousServerCallPoint`. If unspecified, the result is inaccessible. If an `AsynchronousServerCallReturnsEvent` is defined, referencing the `AsynchronousServerCallResultPoint`, the event is set upon completion of the `ClientServerOperation`.
-###### `ServerCallPoint`
----
 ```plantuml
 abstract ServerCallPoint {
 	operation : ClientServerOperation (ref, 1)
@@ -335,13 +330,16 @@ abstract ServerCallPoint {
 ServerCallPoint <|-- SynchronousServerCallPoint
 ServerCallPoint <|-- AsynchronousServerCallPoint
 ```
-###### `AsynchronousServerCallResultPoint`
----
+
 ```plantuml
 class AsynchronousServerCallResultPoint {
 	asynchronousServerCallPoint : AsynchronousServerCallPoint (ref, 1)
 }
 ```
+
+*Note:* An `InternalTriggeringPoint` enables the triggering of a `RunnableEntity` by another, within the same `AtomicSwComponentType`. Hence, it does not reference a `Trigger` from a `PortPrototype`, but is rather stand-alone. This is consistent with the fact that an `InternalTriggerOccurredEvent` references an `InternalTriggeringPoint`.
+
+*Note:* An `AsynchronousServerCallResultPoint` enables a `RunnableEntity` to query the result of a previous invocation of a `ClientServerOperation` via an `AsynchronousServerCallPoint`. If unspecified, the result is inaccessible. If an `AsynchronousServerCallReturnsEvent` is defined, referencing the `AsynchronousServerCallResultPoint`, the event is set upon completion of the `ClientServerOperation`.
 ## References
 ---
 [1] Software Component Template, AUTOSAR Classic Platform, R20-11

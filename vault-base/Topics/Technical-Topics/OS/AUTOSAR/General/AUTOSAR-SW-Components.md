@@ -271,7 +271,7 @@ class ModeRequestTypeMap {
 ```plantuml
 abstract AbstractEvent
 abstract RTEEvent {
-	startOnEvent : RunnableEntity (ref, ?)
+	startOnEvent : RunnableEntity (ref, 1)
 }
 class TimingEvent {
 	period : TimeValue (attr, 1)
@@ -326,7 +326,6 @@ abstract ExecutableEntity {
 }
 class RunnableEntity {
 	canBeInvokedConcurrently : Boolean (attr, 1)
-	symbol : CIdentifier (attr, 1)
 	dataReadAccess : VariableAccess (aggr, *)
 	dataReceivePointByArgument : VariableAccess (aggr, *)
 	dataReceivePointByValue : VariableAccess (aggr, *)

@@ -59,6 +59,57 @@ enum BswCallType {
 ```
 
 *Note:* Configuration of the BSW Scheduler specifies which `providedModeGroup` connects to which `requiredModeGroup`.
+### Step: Internal Behavior
+---
+#### `BswInternalBehavior`
+---
+```plantuml
+abstract InternalBehavior {
+	dataTypeMapping : DataTypeMappingSet (ref, *)
+	exclusiveArea : ExclusiveArea (aggr, *)
+}
+class BswInternalBehavior {
+	entity : BswModuleEntity (aggr, *)
+	event : BswEvent (aggr, *)
+}
+InternalBehavior <|-- BswInternalBehavior
+```
+##### `BswModuleEntity`
+---
+```plantuml
+abstract BswModuleEntity {
+	implementedEntry : BswModuleEntry (ref, *)
+	accessedModeGroup : ModeDeclarationGroupPrototype (ref, *)
+	managedModeGroup : ModeDeclarationGroupPrototype (ref, *)
+}
+BswModuleEntity <|-- BswCalledEntity
+BswModuleEntity <|-- BswSchedulableEntity
+BswModuleEntity <|-- BswInterruptEntity
+```
+##### `BswEvent`
+---
+```plantuml
+abstract AbstractEvent
+abstract BswEvent {
+	startsOnEvent : BswModuleEntity (ref, 1)
+}
+abstract BswScheduleEvent
+class BswTimingEvent {
+	(..)
+}
+class BswModeSwitchEvent {
+	(..)
+}
+class BswModeSwitchedAckEvent {
+	(..)
+}
+AbstractEvent <|-- BswEvent
+BswEvent <|-- BswScheduleEvent
+BswScheduleEvent <|-- BswTimingEvent
+BswScheduleEvent <|-- BswModeSwitchEvent
+BswScheduleEvent <|-- BswModeSwitchedAckEvent
+note right of BswScheduleEvent : May only invoke a <b>BswSchedulableEntity</b>.
+```
 ## References
 ---
 [1] Basic Software Module Description Template, AUTOSAR Classic Platform, R20-11

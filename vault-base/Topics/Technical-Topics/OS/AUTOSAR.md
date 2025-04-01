@@ -2,6 +2,7 @@
 ---
 * General
 	* [[AUTOSAR-SW-Components]]
+	* [[AUTOSAR-BSW-MD]]
 * ECU Configuration
 	* Memory
 		* [[AUTOSAR-Module-Fls]]

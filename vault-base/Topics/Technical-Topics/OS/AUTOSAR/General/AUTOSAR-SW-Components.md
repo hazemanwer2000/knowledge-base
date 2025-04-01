@@ -224,6 +224,8 @@ SwConnector <|-- AssemblySwConnector
 SwConnector <|-- DelegationSwConnector
 SwConnector <|-- PassThroughSwConnector
 ```
+
+*Note:* It is not allowed to connect two `PortProtoype`(s) by more than one `SwConnector`. This implies that any connection between two `PRPortPrototype`(s) is bi-directional.
 ### Step: Internal Behavior
 ---
 #### `SwcInternalBehavior`
@@ -343,9 +345,13 @@ class AsynchronousServerCallResultPoint {
 }
 ```
 
-*Note:* An `InternalTriggeringPoint` enables the triggering of a `RunnableEntity` by another, within the same `AtomicSwComponentType`. Hence, it does not reference a `Trigger` from a `PortPrototype`, but is rather stand-alone. This is consistent with the fact that an `InternalTriggerOccurredEvent` references an `InternalTriggeringPoint`.
+*Note:* A `<..>Access` implies "implicit" access to a `VariableDataPrototype`. This means reading yields the last value set before runnable execution, and writing takes effect after a runnable terminates. This is only applicable for non-queued communication.
 
 *Note:* An `AsynchronousServerCallResultPoint` enables a `RunnableEntity` to query the result of a previous invocation of a `ClientServerOperation` via an `AsynchronousServerCallPoint`. If unspecified, the result is inaccessible. If an `AsynchronousServerCallReturnsEvent` is defined, referencing the `AsynchronousServerCallResultPoint`, the event is set upon completion of the `ClientServerOperation`.
+
+*Note:* An `InternalTriggeringPoint` enables the triggering of a `RunnableEntity` by another, within the same `AtomicSwComponentType`. Hence, it does not reference a `Trigger` from a `PortPrototype`, but is rather stand-alone. This is consistent with the fact that an `InternalTriggerOccurredEvent` references an `InternalTriggeringPoint`.
+
+*Note:* A `RunnableEntity` with only `<..>Access` is classified as category 1A, and category 1B otherwise.
 ### Step: Implementation
 ---
 #### `SwcImplementation`

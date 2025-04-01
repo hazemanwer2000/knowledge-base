@@ -357,7 +357,7 @@ class AsynchronousServerCallResultPoint {
 
 *Note:* An `InternalTriggeringPoint` enables the triggering of a `RunnableEntity` by another, within the same `AtomicSwComponentType`. Hence, it does not reference a `Trigger` from a `PortPrototype`, but is rather stand-alone. This is consistent with the fact that an `InternalTriggerOccurredEvent` references an `InternalTriggeringPoint`.
 
-*Note:* A `RunnableEntity` with only `<..>Access` is classified as category 1A, and category 1B otherwise.
+*Note:* A `RunnableEntity` with only `<..>Access` (and no `<..>Point`) is classified as category 1A, and category 1B otherwise.
 ### Step: Implementation
 ---
 #### `SwcImplementation`

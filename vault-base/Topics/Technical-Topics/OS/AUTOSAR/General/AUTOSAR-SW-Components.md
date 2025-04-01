@@ -7,7 +7,6 @@
 		- [[#`PortPrototype`#`PortInterface`|`PortInterface`]]
 			- [[#`PortInterface`#`DataPrototype`|`DataPrototype`]]
 			- [[#`PortInterface`#`DataType`|`DataType`]]
-			- [[#`PortInterface`#`ModeDeclarationGroupPrototype`|`ModeDeclarationGroupPrototype`]]
 			- [[#`PortInterface`#`ModeDeclarationGroup`|`ModeDeclarationGroup`]]
 		- [[#`PortPrototype`#`PPortComSpec`|`PPortComSpec`]]
 		- [[#`PortPrototype`#`RPortComSpec`|`RPortComSpec`]]
@@ -50,12 +49,6 @@ AtomicSwComponentType <|-- ApplicationSwComponentType
 AtomicSwComponentType <|-- ComplexDeviceDriverSwComponentType
 AtomicSwComponentType <|-- ServiceSwComponentType
 ```
-
-```plantuml
-class SwComponentPrototype {
-	type : SwComponentType (ref, 1)
-}
-```
 ### Step: Port(s) and Connector(s)
 ---
 #### `PortPrototype`
@@ -92,21 +85,23 @@ class SenderReceiverInterface {
 class ClientServerInterface {
 	operation : ClientServerOperation (aggr, *)
 }
-class ClientServerOperation {
-	argument : ArgumentDataPrototype (aggr, *)
-}
 class ModeSwitchInterface {
 	modeGroup : ModeDeclarationGroupPrototype (aggr, 1)
 }
 class TriggerInterface {
 	trigger : Trigger (aggr, *)
 }
-class Trigger
 PortInterface <|-- ClientServerInterface
 PortInterface <|-- ModeSwitchInterface
 PortInterface <|-- TriggerInterface
 PortInterface <|-- DataInterface
 DataInterface <|-- SenderReceiverInterface
+```
+
+```plantuml
+class ClientServerOperation {
+	argument : ArgumentDataPrototype (aggr, *)
+}
 ```
 ###### `DataPrototype`
 ---
@@ -125,9 +120,12 @@ enum ArgumentDirectionEnum {
 	out
 	inout
 }
-abstract ValueSpecification
 DataPrototype <|-- VariableDataPrototype
 DataPrototype <|-- ArgumentDataPrototype
+```
+
+```plantuml
+abstract ValueSpecification
 ```
 ###### `DataType`
 ---
@@ -141,13 +139,6 @@ ApplicationDataType <|-- ApplicationPrimitiveDataType
 ApplicationDataType <|-- ApplicationCompositeDataType
 ApplicationCompositeDataType <|-- ApplicationRecordDataType
 ApplicationCompositeDataType <|-- ApplicationArrayDataType
-```
-###### `ModeDeclarationGroupPrototype`
----
-```plantuml
-class ModeDeclaractionGroupPrototype {
-	type : ModeDeclarationGroup (ref, 1)
-}
 ```
 ###### `ModeDeclarationGroup`
 ---
@@ -239,7 +230,6 @@ class SwcInternalBehavior {
 	event : RTEEvent (aggr, *)
 	runnable : RunnableEntity (aggr, *)
 }
-class ExclusiveArea
 InternalBehavior <|-- SwcInternalBehavior
 ```
 ##### `DataTypeMappingSet`

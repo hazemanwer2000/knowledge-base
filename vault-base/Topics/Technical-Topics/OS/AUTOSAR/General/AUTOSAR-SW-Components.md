@@ -290,6 +290,9 @@ class SwcModeSwitchEvent {
 	activation : ModeActivationKind (attr, 1)
 	mode : ModeDeclaration (ref, 1..2)
 }
+class ModeSwitchedAckEvent {
+	eventSource : ModeSwitchPoint (ref, 1)
+}
 class ExternalTriggerOccurredEvent {
 	trigger : Trigger (ref, 1)
 }
@@ -308,9 +311,12 @@ RTEEvent <|-left- DataReceivedEvent
 RTEEvent <|-- OperationInvokedEvent
 RTEEvent <|-- AsynchronousServerCallReturnsEvent
 RTEEvent <|-- SwcModeSwitchEvent
+RTEEvent <|-- ModeSwitchedAckEvent
 RTEEvent <|-- ExternalTriggerOccurredEvent
 RTEEvent <|-- InternalTriggerOccurredEvent
 ```
+
+*Note:* A mode-switch notification from a mode-manager (via a `ModeSwitchPoint`) does not result in an immediate mode-switch in the RTE (i.e., on-exit, on-transition and on-entry runnable(s) have to execute first). A `ModeSwitchedAckEvent` notifies the mode-manager of the completion of a mode-switch in the RTE.
 ##### `RunnableEntity`
 ---
 ```plantuml

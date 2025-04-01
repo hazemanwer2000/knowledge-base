@@ -102,6 +102,13 @@ DataInterface <|-- SenderReceiverInterface
 class ClientServerOperation {
 	argument : ArgumentDataPrototype (aggr, *)
 }
+class Trigger {
+	swImplPolicy : SwImplPolicyEnum (attr, 1)
+}
+enum SwImplPolicyEnum {
+	standard
+	queued
+}
 ```
 ###### `DataPrototype`
 ---
@@ -110,10 +117,18 @@ abstract DataPrototype {
 	type : DataType (ref, 1)
 }
 class VariableDataPrototype {
-	initValue : ValueSpecification (aggr, 1)
+	initValue : ValueSpecification (aggr, ?)
 }
 class ArgumentDataPrototype {
 	direction : ArgumentDirectionEnum (aggr, 1)
+}
+class SwDataDefProps {
+	swImplPolicy : SwImplPolicyEnum (attr, 1)
+	
+}
+enum SwImplPolicyEnum {
+	standard
+	queued
 }
 enum ArgumentDirectionEnum {
 	in
@@ -122,6 +137,7 @@ enum ArgumentDirectionEnum {
 }
 DataPrototype <|-- VariableDataPrototype
 DataPrototype <|-- ArgumentDataPrototype
+VariableDataPrototype o-- SwDataDefProps
 ```
 
 ```plantuml
@@ -255,7 +271,7 @@ class ModeRequestTypeMap {
 ```plantuml
 abstract AbstractEvent
 abstract RTEEvent {
-	startOnEvent : RunnableEntity (ref, 0..1)
+	startOnEvent : RunnableEntity (ref, ?)
 }
 class TimingEvent {
 	period : TimeValue (attr, 1)

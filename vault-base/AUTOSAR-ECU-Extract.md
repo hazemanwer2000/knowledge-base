@@ -27,9 +27,9 @@ class System <category=ECU_EXTRACT> {
 ---
 ```plantuml
 abstract CommunicationCluster <<FibexElement>>
-abstract PhysicalChannel {
-	commConnector : CommunicationConnector (ref, *)
-}
+abstract PhysicalChannel
+abstract CommunicationConnector
+PhysicalChannel -right-> CommunicationConnector
 CommunicationCluster o-- PhysicalChannel
 ```
 
@@ -48,6 +48,27 @@ CommunicationController <-right- CommunicationConnector
 ```
 
 *Note:* Semantically, every `EcuInstance` aggregates one or more `CommunicationController`(s) (e.g., CAN controller), each composed of one or more `CommunicationConnector`(s).
+#### `CommConnectorPort`
+---
+```plantuml
+abstract CommunicationConnector
+abstract CommConnectorPort {
+	communicationDirection : CommunicationDirectionType
+}
+enum CommunicationDirectionType {
+	in
+	out
+}
+CommunicationConnector o-- CommConnectorPort
+CommConnectorPort <|-- IPduPort
+CommConnectorPort <|-- ISignalPort
+CommConnectorPort <|-- IFramePort
+```
+
+*Note:* Semantically, every `CommunicationConnector` specifies a `CommConnectorPort` for every Signal, PDU and Frame sent or received through it.
+### Category: Communication
+---
+
 ## References
 ---
 [1] System Template, AUTOSAR Classic Platform, R20-11

@@ -8,7 +8,7 @@ In an *AUTOSAR* system (e.g., a vehicle), an ECU Extract is an extract of all in
 Information in an ECU extract can be classified into multiple categories:
 * **Topology**: The different Communication Cluster(s) the ECU is connected to.
 * **Communication**: The Signal(s), PDU(s) and Frame(s) the ECU transmits and receives.
-* **Software:** The Root `CompositionSwComponentType` of an ECU, aggregating `AtomicSwComponentType`(s) only (i.e., ECU-specific flattened view).
+* **SWC(s):** The Root `CompositionSwComponentType` of an ECU, aggregating `AtomicSwComponentType`(s) only (i.e., ECU-specific flattened view).
 * **Mapping**: The mapping of data from `PortPrototype`(s) of the Root `CompositionSwComponentType` to Signal(s).
 ### ECU Extract
 ---
@@ -99,6 +99,39 @@ PhysicalChannel o-- IPduTriggering
 PhysicalChannel o-- FrameTriggering
 ISignalTriggering "*" <-right- IPduTriggering
 IPduTriggering "*" <-right- FrameTriggering
+```
+### Category: SWC(s)
+---
+#### `RootSwCompositionPrototype`
+---
+```plantuml
+class RootSwCompositionPrototype {
+	softwareComposition : CompositionSwComponentType (rel, 1)
+}
+```
+### Category: Mapping
+---
+```plantuml
+class SystemMapping
+abstract DataMapping {
+	communicationDirection : CommunicationDirectionType (attr, 1)
+}
+class SenderReceiverToSignalMapping {
+	dataElement : VariableDataPrototype (ref, 1)
+	systemSignal : SystemSignal (ref, 1)
+}
+class ClientServerToSignalMapping {
+	clientServerOperation : ClientServerOperation (ref, 1)
+	callSignal : SystemSignal (ref, 1)
+	returnSignal : SystemSignal (ref, 0..1)
+}
+enum CommunicationDirectionType {
+	in
+	out
+}
+SystemMapping o-- "*" DataMapping
+DataMapping <|-- SenderReceiverToSignalMapping
+DataMapping <|-- ClientServerToSignalMapping
 ```
 ## References
 ---

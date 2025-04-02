@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6630455d365152a7",
+        "id": "cd05302b53c9e368",
         "type": "tabs",
         "children": [
           {
-            "id": "e566a9dacf4d3785",
+            "id": "9bc694b9082d9eca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/Technical-Topics/OS/AUTOSAR/General/AUTOSAR-BSW-MD.md",
+                "file": "Topics/Technical-Topics/Tooling/XPath.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AUTOSAR-BSW-MD"
-            }
-          },
-          {
-            "id": "0ed9cf83b0f88d52",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topics/Technical-Topics/OS/AUTOSAR/General/AUTOSAR-SW-Components.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "AUTOSAR-SW-Components"
+              "title": "XPath"
             }
           }
         ]
@@ -173,14 +159,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e566a9dacf4d3785",
+  "active": "9bc694b9082d9eca",
   "lastOpenFiles": [
-    "Topics/Technical-Topics/OS/AUTOSAR/General/AUTOSAR-SW-Components.md",
+    "Topics/Technical-Topics/Tooling.md",
+    "Topics/Technical-Topics/Tooling/Regular-Expressions.md",
     "Topics/Technical-Topics/OS/AUTOSAR/General/AUTOSAR-BSW-MD.md",
-    "Topics/Technical-Topics/OS/AUTOSAR.md",
     "Welcome.md",
-    "Topics/Technical-Topics/OS.md",
     "Topics/TechCraft.md",
+    "Topics/Technical-Topics/Communication-Protocols.md",
+    "Topics/Technical-Topics/Cryptography.md",
+    "Topics/Technical-Topics/OS/AUTOSAR/General/AUTOSAR-SW-Components.md",
+    "Topics/Technical-Topics/OS/AUTOSAR.md",
+    "Topics/Technical-Topics/OS.md",
     "Topics/Technical-Topics/OS/AUTOSAR/General/AUTOSAR-SW-Components-2025-03-31-23-01-48.png",
     "Topics/Technical-Topics/OS/OSEK/OSEK-OS.md",
     "Topics/Technical-Topics/OS/OSEK.md",
@@ -191,12 +181,9 @@
     "Topics/Technical-Topics/OS/AUTOSAR/General",
     "Topics/Technical-Topics/OS/AUTOSAR/ECUC/System",
     "Topics/Technical-Topics/Tooling/XPath.md",
-    "Topics/Technical-Topics/Tooling.md",
     "Topics/Technical-Topics/Tooling/JIRA.md",
-    "Topics/Technical-Topics/Cryptography.md",
     "Topics/Technical-Topics/Cryptography/Elliptic-Curve-Cryptography.md",
     "Topics/Technical-Topics/Cryptography/X.509-Certificates.md",
-    "Topics/Technical-Topics/Communication-Protocols.md",
     "Topics/Technical-Topics/Communication-Protocols/uC/I2C.md",
     "Topics/Technical-Topics/Communication-Protocols/uC/SPI.md",
     "Topics/Technical-Topics/Communication-Protocols/uC/UART.md",
@@ -206,7 +193,6 @@
     "Topics/Technical-Topics/Communication-Protocols/Ethernet-Network-Security/IPsec.md",
     "Topics/Technical-Topics/Communication-Protocols/Ethernet-Network-Security/MacSec.md",
     "Topics/Technical-Topics/Tooling/TRACE32-PRACTICE-Language.md",
-    "Topics/Fitness-Topics/Recipes/Roasted-Chicken-Breasts.md",
     "Topics/Fitness-Topics/Recipes",
     "Topics/Fitness-Topics",
     "_IMG/UART-Physical-Interface.jpg",

@@ -19,6 +19,7 @@ Afterwards, a number of `/`-separated (sub-)expression(s) are specified, each of
 	* tag-name, for element(s)
 		* For tag(s) in namespace(s), the format `NAMESPACE:TAG-NAME` is used.
 	* attribute-name, for attribute(s)
+	* `comment()`, for comment(s)
 	* `*`, as wildcard
 	* `text()`, as a special-case, to extract text from element(s)
 * a predicate (i.e., conditional).

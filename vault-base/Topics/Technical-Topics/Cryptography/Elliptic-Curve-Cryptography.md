@@ -22,6 +22,9 @@ $$ ab \mod n$$
 is equivalent to,
 $$ (a \mod n)(b \mod n) \mod n$$
 
+A modular negative wraps around. This means that,
+$$-3 \mod 7 = 4$$
+
 Instead of equivalence, congruence is used. The following,
 $$
 a \equiv b \pmod{n}
@@ -30,7 +33,33 @@ means that $a$ is congruent to $b$, modulo $n$. This means that,
 $$a \mod n = b \mod n$$
 
 A modular inverse, $a^{-1}$, must satisfy,
-$$ a a^{-!} \equiv 1 \pmod{n}$$
+$$ a a^{-1} \equiv 1 \pmod{n}$$
+#### Finite Fields
+---
+A finite (or galois) field is a finite set of elements on which addition, subtraction, multiplication and division are defined. 
+
+An example of a finite field is $\mathbb{F}_{p}$, where,
+* $p$ is a prime number,
+* $x$ is an element, $x \in [0, p-1]$, $x \in \mathbb{Z}$, and,
+* modular arithmetic applies (i.e., $\mod p$).
+##### The Euclidean Algorithm (Optional)
+---
+The *Euclidean Algorithm* states that,
+* $gcd(a, b)$, where $a \ge b$, is equivalent to $gcd(b, a \mod b)$, and,
+* $gcd(x, 0) = x$.
+
+The *Extended Euclidean Algorithm* extends the *Euclidean Algorithm* by deriving $x$ and $y$, where,
+* $ax + by = gcd(a, b)$, and,
+* $x, y \in \mathbb{Z}$.
+
+If $gcd(a, n) = 1$ (e.g., $n$ is a prime number), then,
+$$ a a^{-1} \equiv 1 \pmod{n}$$
+which is equivalent to,
+$$aa^{-1} + ny = 1$$
+can be solved for $a^{-1}$, the modular inverse of $a$, using the *Extended Euclidean Algorithm*.
+
+
+
 
 
 

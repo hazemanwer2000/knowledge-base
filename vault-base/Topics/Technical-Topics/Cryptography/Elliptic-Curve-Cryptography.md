@@ -1,7 +1,14 @@
 ──────── *for more from the author, visit* [github.com/hazemanwer2000](https://github.com/hazemanwer2000). ────────
 ## *Table of Contents*
-- [[#Domain Parameters|Domain Parameters]]
-- [[#Public Key Derivation|Public Key Derivation]]
+- [[#Mathematical Background|Mathematical Background]]
+	- [[#Mathematical Background#Modular Arithmetic|Modular Arithmetic]]
+	- [[#Mathematical Background#Finite Fields|Finite Fields]]
+		- [[#Finite Fields#The Euclidean Algorithm (Optional)|The Euclidean Algorithm (Optional)]]
+	- [[#Mathematical Background#Elliptic Curves|Elliptic Curves]]
+- [[#Elliptic Curve Cryptography|Elliptic Curve Cryptography]]
+	- [[#Elliptic Curve Cryptography#Elliptic Curve Discrete Log Problem (ECDLP)|Elliptic Curve Discrete Log Problem (ECDLP)]]
+	- [[#Elliptic Curve Cryptography#Domain Parameters|Domain Parameters]]
+	- [[#Elliptic Curve Cryptography#Public Key Derivation|Public Key Derivation]]
 - [[#ECDSA|ECDSA]]
 - [[#ECDH|ECDH]]
 ## Content
@@ -88,7 +95,7 @@ Scalar multiplication of $k$ with a point, $P$, on the curve, is defined as addi
 *Elliptic Curve Cryptography (ECC)* relies on the *Elliptic Curve Discrete Log Problem (ECDLP)*.
 
 For an elliptic curve over $\mathbb{F}_{p}$, and an arbitrary (base-)point $G$,
-* Forward computation of $Q = kP$ is easy, but,
+* Forward computation of $Q = kG$ is easy, but,
 * Reverse computation of $k$ is extremely hard.
 
 For a base-point $G$, there exists an order $n$, where $nG = I$, and for values of $k > n$, $Q$ starts to repeat.
@@ -101,8 +108,6 @@ Before using any cryptographic operations based on *ECC*, parties involved must 
 #### Public Key Derivation
 ---
 Let $(d, Q)$ be the private-public key pair, and $d \in [1, n-1]$, then $Q = d(G)$.
-
-*Note:* Given $Q$, it is computationally infeasible to determine $d$. 
 ### ECDSA
 ---
 *Elliptic Curve Digital Signature Algorithm (ECDSA)*, as specified in [1], defines two procedures, one for signature generation, and another for signature verification.

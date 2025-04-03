@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1c900e395204dc2f",
+        "id": "7e95720dbbf49be0",
         "type": "tabs",
         "children": [
           {
-            "id": "105a121fb2b98514",
+            "id": "94a41ec88c317860",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/Technical-Topics/OS/AUTOSAR.md",
+                "file": "Topics/Technical-Topics/OS/AUTOSAR/ECUC/Cryptography/AUTOSAR-Module-Crypto-Driver.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AUTOSAR"
+              "title": "AUTOSAR-Module-Crypto-Driver"
             }
           }
         ]
@@ -159,20 +159,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "105a121fb2b98514",
+  "active": "94a41ec88c317860",
   "lastOpenFiles": [
-    "Topics/Technical-Topics/OS/AUTOSAR/General/AUTOSAR-ECU-Extract.md",
     "Topics/Technical-Topics/OS/AUTOSAR.md",
+    "Topics/Technical-Topics/OS/AUTOSAR/ECUC/Memory/AUTOSAR-Module-NvM.md",
+    "Topics/Technical-Topics/OS/AUTOSAR/ECUC/Cryptography/AUTOSAR-Module-Crypto-Driver.md",
+    "Topics/Technical-Topics/OS/AUTOSAR/ECUC/Memory/AUTOSAR-Module-Fee.md",
+    "Topics/Technical-Topics/OS/AUTOSAR/General/AUTOSAR-ECU-Extract.md",
+    "Topics/Technical-Topics/Communication-Protocols.md",
+    "Topics/Technical-Topics/Communication-Protocols/Over-TCP-IP/DoIP.md",
+    "Topics/Technical-Topics/Communication-Protocols/Automotive/FlexRay.md",
+    "Topics/TechCraft.md",
+    "Welcome.md",
+    "Topics/Technical-Topics/Communication-Protocols/Diagnostics/UDS.md",
     "Topics/Technical-Topics/OS/AUTOSAR/General/AUTOSAR-BSW-MD.md",
     "Topics/Technical-Topics/OS/AUTOSAR/General/AUTOSAR-SW-Components.md",
     "Topics/Technical-Topics/OS.md",
-    "Topics/TechCraft.md",
-    "Welcome.md",
     "Topics/Technical-Topics/OS/AUTOSAR/ECUC/COM/AUTOSAR-Module-COM.md",
     "Topics/Technical-Topics/Tooling.md",
     "Topics/Technical-Topics/Tooling/XPath.md",
     "Topics/Technical-Topics/Tooling/Regular-Expressions.md",
-    "Topics/Technical-Topics/Communication-Protocols.md",
     "Topics/Technical-Topics/Cryptography.md",
     "Topics/Technical-Topics/OS/AUTOSAR/General/AUTOSAR-SW-Components-2025-03-31-23-01-48.png",
     "Topics/Technical-Topics/OS/OSEK/OSEK-OS.md",
@@ -187,11 +193,6 @@
     "Topics/Technical-Topics/Cryptography/Elliptic-Curve-Cryptography.md",
     "Topics/Technical-Topics/Cryptography/X.509-Certificates.md",
     "Topics/Technical-Topics/Communication-Protocols/uC/I2C.md",
-    "Topics/Technical-Topics/Communication-Protocols/uC/SPI.md",
-    "Topics/Technical-Topics/Communication-Protocols/uC/UART.md",
-    "Topics/Technical-Topics/Communication-Protocols/Automotive/LIN.md",
-    "Topics/Technical-Topics/Communication-Protocols/Automotive/CAN.md",
-    "Topics/Technical-Topics/Communication-Protocols/Diagnostics/UDS.md",
     "Topics/Fitness-Topics/Recipes",
     "Topics/Fitness-Topics",
     "_IMG/UART-Physical-Interface.jpg",

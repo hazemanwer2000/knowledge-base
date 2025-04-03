@@ -73,11 +73,9 @@ Parameters (in-out):
 | Crypto_KeySetValid           | Sets key state as `VALID`.                                                                                           |
 | Crypto_KeySetInvalid         | Sets key state as `INVALID`.                                                                                         |
 | Crypto_KeyGetStatus          | Queries key state, `VALID` or `INVALID`.                                                                             |
-| Crypto_KeyDerive             | Derives key (i.e., using PRNG), using a given password, and salt (i.e., random value).                               |
 | Crypto_KeyGenerate           | Generates key (e.g., asymmetric ECC key-pair).                                                                       |
 | Crypto_KeyExchangeCalcPubVal | For ECDH, generates key (e.g., asymmetric ECC key-pair), and returns public key.                                     |
 | Crypto_KeyExchangeCalcSecret | For ECDH, uses passed argument (i.e., peer's public key), and referenced private key, to derive shared secret value. |
-| Crypto_RandomSeed            | For PRNG, generates a new seed value, based on passed argument.                                                      |
 #### Scheduled Function(s)
 ---
 ###### `Crypto_MainFunction`

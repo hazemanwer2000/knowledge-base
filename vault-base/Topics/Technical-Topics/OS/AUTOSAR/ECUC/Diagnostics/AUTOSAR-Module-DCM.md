@@ -15,7 +15,7 @@ The module shall be composed of three sub-module(s):
 	* Guarantee application-layer timing(s) (i.e., ${P2}_{Server\_Max}$, ${P2*}_{Server\_Max}$).
 * *Diagnostic Service Dispatch (DSD)*, which shall,
 	* Validate incoming request(s), based on the active session, security-level, etc.
-* *Diagnostic Service Dispatch (DSD)*, which shall,
+* *Diagnostic Service Processing (DSP)*, which shall,
 	* Validate request(s), based on format, and,
 	* Assemble response from *BSW* module(s) and *SW-C*(s).
 #### Asynchronous/Synchronous Interface(s)

@@ -6,6 +6,36 @@
 - [[#ECDH|ECDH]]
 ## Content
 ---
+### Mathematical Background
+---
+#### Modular Arithmetic
+---
+In modular arithmetic, results are reduced to modulo $n$, where $n$ is the modulus, $n \ge 1$.
+
+In addition, the following,
+$$ (a + b) \mod n$$
+is equivalent to,
+$$ ((a \mod n) + (b \mod n)) \mod n$$
+
+In multiplication, the following,
+$$ ab \mod n$$
+is equivalent to,
+$$ (a \mod n)(b \mod n) \mod n$$
+
+Instead of equivalence, congruence is used. The following,
+$$
+a \equiv b \pmod{n}
+$$
+means that $a$ is congruent to $b$, modulo $n$. This means that,
+$$a \mod n = b \mod n$$
+
+A modular inverse, $a^{-1}$, must satisfy,
+$$ a a^{-!} \equiv 1 \pmod{n}$$
+
+
+
+
+
 *Elliptic Curve Cryptography (ECC)* uses elliptic curves over finite fields (i.e., galois fields) to define useful cryptographic operations, such as digital signature generation and verification (i.e., *ECDSA*) and secure key exchange (i.e., *ECDH*).
 
 A field is a set on which addition and multiplication, among other operations, are defined and satisfy the *field axioms*, including *associativity*, *commutativity*, and *additive* and *multiplicative identities*. For example, the set of all real numbers, $\mathbb{R}$, is an infinite field. A finite field, $GF(q)$, is a field, with a finite set of $q$ elements.

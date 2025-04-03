@@ -57,27 +57,48 @@ $$ a a^{-1} \equiv 1 \pmod{n}$$
 which is equivalent to,
 $$aa^{-1} + ny = 1$$
 can be solved for $a^{-1}$, the modular inverse of $a$, using the *Extended Euclidean Algorithm*.
-
-
-
-
-
-
-
-
-*Elliptic Curve Cryptography (ECC)* uses elliptic curves over finite fields (i.e., galois fields) to define useful cryptographic operations, such as digital signature generation and verification (i.e., *ECDSA*) and secure key exchange (i.e., *ECDH*).
-
-A field is a set on which addition and multiplication, among other operations, are defined and satisfy the *field axioms*, including *associativity*, *commutativity*, and *additive* and *multiplicative identities*. For example, the set of all real numbers, $\mathbb{R}$, is an infinite field. A finite field, $GF(q)$, is a field, with a finite set of $q$ elements.
-
-An elliptic curve defined over $GF(q)$, has all mathematical operations, coefficients and values defined within $GF(q)$.
-### Domain Parameters
+#### Elliptic Curves
 ---
-Before using any cryptographic operations based on *ECC*, parties involved must agree on the *domain parameters*, $D$. This includes the type and coefficients, $a$ and $b$, of the elliptic curve used, and the type and size, $q$, of the finite field used.
+An elliptic curve (over infinite field $\mathbb{R}$) is defined by,
+$$y^{2} = x^{3} + ax + b$$
+where,
+$$4a^{3} + 27b^{2} \ne 0$$
+*Note:* The $4a^{3} + 27b^{2} \ne 0$ condition guarantees that the elliptic curve has no cusps or self-intersections.
 
-Additionally, the domain parameters include the *base* point $G=(G_x, G_y)$, and its order, $n$. For $i=0$ to $i = n - 1$, the scalar multiplication (i.e., adding a point repeatedly to itself) of $i$ by $G$, $i(G)$, should yield all points on the curve.
+Elliptic curves define an addition operation, $+$, between points, where,
+* **Closure:** For points $P$ and $Q$ on the curve, $P + Q$ is also a point on the curve.
+* **Identity/Inverse:** Point $I$, the identity, is the point at infinity. For point $P$ on the curve, its inverse, $-P$, exists, as its reflection on the x-axis, and $P + (-P) = I$.
+* **Associativity:** For points $P$, $Q$, and $R$ on the curve, $(P + Q) + R = P + (Q + R)$.
 
-For defined and recommended domain parameters, $D$, refer to [2].
-### Public Key Derivation
+The addition operation is defined as,
+* For points $P$ and $Q$ on the curve, where $P \ne Q$,
+	* Draw a line through $P$ and $Q$.
+	* Find the (third) intersection point, $R$, of the line with the elliptic curve.
+	* Reflect $R$ over the x-axis to yield $P + Q$.
+* For points $P$ and $Q$ on the curve, where $P = Q$,
+	* Draw a tangent line through $P$.
+	* Find the intersection point, $R$, of the line with the elliptic curve.
+	* Reflect $R$ over the x-axis to yield $P + Q$.
+
+Scalar multiplication of $k$ with a point, $P$, on the curve, is defined as adding $P$ to itself $k$ times.
+### Elliptic Curve Cryptography
+---
+####  Elliptic Curve Discrete Log Problem (ECDLP)
+---
+*Elliptic Curve Cryptography (ECC)* relies on the *Elliptic Curve Discrete Log Problem (ECDLP)*.
+
+For an elliptic curve over $\mathbb{F}_{p}$, and an arbitrary (base-)point $G$,
+* Forward computation of $Q = kP$ is easy, but,
+* Reverse computation of $k$ is extremely hard.
+
+For a base-point $G$, there exists an order $n$, where $nG = I$, and for values of $k > n$, $Q$ starts to repeat.
+#### Domain Parameters
+---
+Before using any cryptographic operations based on *ECC*, parties involved must agree on the *domain parameters*, $D$. This includes,
+* The coefficients $a$ and $b$ of the elliptic curve.
+* The order of finite field, $p$.
+* The base-point $G$, and its order $n$.
+#### Public Key Derivation
 ---
 Let $(d, Q)$ be the private-public key pair, and $d \in [1, n-1]$, then $Q = d(G)$.
 

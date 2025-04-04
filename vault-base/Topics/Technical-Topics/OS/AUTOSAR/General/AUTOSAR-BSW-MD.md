@@ -81,6 +81,10 @@ class BswInternalBehavior {
 }
 InternalBehavior <|-- BswInternalBehavior
 ```
+
+*Note:* In BSW Scheduler configuration, the method of implementation of an `ExclusiveArea` is specified (e.g., all-interrupt blocking, `OsResource`-based, `OsSpinLock`-based). 
+
+*Note:* In BSW Scheduler configuration, each `BswEvent` is mapped to an `OsTask`.
 ##### `BswModuleEntity`
 ---
 ```plantuml

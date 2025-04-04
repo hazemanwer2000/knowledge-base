@@ -248,6 +248,14 @@ class SwcInternalBehavior {
 }
 InternalBehavior <|-- SwcInternalBehavior
 ```
+
+```plantuml
+class ExclusiveArea
+```
+
+*Note:* In RTE configuration, the method of implementation of an `ExclusiveArea` is specified (e.g., all-interrupt blocking, `OsResource`-based, `OsSpinLock`-based). 
+
+*Note:* In RTE configuration, each `RTEEvent` is mapped to an `OsTask`.
 ##### `DataTypeMappingSet`
 ---
 ```plantuml

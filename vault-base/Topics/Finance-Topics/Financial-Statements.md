@@ -1,9 +1,16 @@
 ──────── *for more from the author, visit* [github.com/hazemanwer2000](https://github.com/hazemanwer2000). ────────
 ## *Table of Contents*
-...
+- [[#Balance Sheet|Balance Sheet]]
+	- [[#Balance Sheet#Assets|Assets]]
+	- [[#Balance Sheet#Liabilities|Liabilities]]
+	- [[#Balance Sheet#Stockholder's Equity|Stockholder's Equity]]
+- [[#Income Statement|Income Statement]]
+- [[#Statement of Retained Earnings|Statement of Retained Earnings]]
+- [[#Statement of Cash Flow|Statement of Cash Flow]]
 ## Content
 ---
 ### Types of Statements
+---
 #### Balance Sheet
 ---
 A **Balance Sheet** is a financial statement representing the **financial position** of an (accounting) entity, at a **specific point in-time**.
@@ -58,4 +65,4 @@ It lists three types of sources,
 * **Financing activities** (e.g., raising of capital from investors, paying back debts)
 ## References
 ---
-[1] ...
+[1] Financial Accounting, Libby, Libby, and Short

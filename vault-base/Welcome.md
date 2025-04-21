@@ -1,6 +1,7 @@
 ## *Sub-topics!*
 ---
 * [[TechCraft]]
+* [[Finance]]
 ## *Content*
 ---
 Welcome to *THE* knowledge base!

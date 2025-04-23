@@ -21,7 +21,17 @@ In a sentence, every Noun Phrase has a **Case**, which can be either,
 * **Genitive**, indicating possession (of another object).
 #### Determiner
 ---
+##### Article
+---
+###### Definite (*The*)
+---
 
+|                | Masculine | Neuter | Feminine | Plural |
+| -------------- | --------- | ------ | -------- | ------ |
+| **Nominative** | *Der*     | *Das*  | *Die*    | *Die*  |
+| **Accusative** | *Den*     | *Das*  | *Die*    | *Die*  |
+| **Dative**     | *Dem*     | *Dem*  | *Der*    | *Den*  |
+| **Genitive**   | *Des*     | *Des*  | *Der*    | *Der*  |
 ## References
 ---
-[1] ...
+[1] Hammer's German Grammar and Usage, Martin Durrel

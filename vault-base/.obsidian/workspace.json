@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "79c59bae53d7b505",
+        "id": "37840e5586576e65",
         "type": "tabs",
         "children": [
           {
-            "id": "7918886d0f4ac84c",
+            "id": "1dea7439e925ea75",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -159,29 +159,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7918886d0f4ac84c",
+  "active": "1dea7439e925ea75",
   "lastOpenFiles": [
-    "Welcome.md",
-    "Topics/Languages/Deutsch/Deutsch-Grammar.md",
     "Topics/Languages/Deutsch.md",
-    "Topics/Languages/Deutsch",
     "Topics/Languages.md",
-    "Topics/Languages/Deutsch",
-    "Topics/Languages",
+    "Welcome.md",
     "Topics/Finance.md",
     "Topics/Finance/Financial-Statements.md",
-    "Topics/Techcraft/Tooling.md",
     "Topics/TechCraft.md",
+    "Topics/Techcraft/Cryptography.md",
+    "Topics/Techcraft/Communication-Protocols.md",
     "Topics/Techcraft/OS.md",
+    "Topics/Techcraft/Tooling.md",
+    "Topics/Techcraft/Cryptography/Authenticated-Encryption/GCM.md",
+    "Topics/Languages/Deutsch/Deutsch-Grammar.md",
+    "Topics/Languages/Deutsch",
+    "Topics/Languages/Deutsch",
+    "Topics/Languages",
     "Topics/Techcraft/OS/AUTOSAR.md",
     "Topics/Finance",
     "Topics/Techcraft/OS/AUTOSAR/General/AUTOSAR-BSW-MD.md",
     "Topics/Techcraft/OS/AUTOSAR/General/AUTOSAR-SW-Components.md",
     "Topics/Techcraft/OS/AUTOSAR/ECUC/System/AUTOSAR-Module-OS.md",
     "Topics/Techcraft/OS/OSEK.md",
-    "Topics/Techcraft/Communication-Protocols.md",
     "Topics/Techcraft/Cryptography/Elliptic-Curve-Cryptography.md",
-    "Topics/Techcraft/Cryptography.md",
     "Topics/Techcraft/OS/AUTOSAR/General/AUTOSAR-ECU-Extract.md",
     "Topics/Techcraft/OS/AUTOSAR/ECUC/COM/Ethernet/AUTOSAR-Module-EthIf.md",
     "Topics/Techcraft/Cryptography/Symmetric-Encryption/AES.md",

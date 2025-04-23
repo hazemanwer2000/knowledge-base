@@ -12,6 +12,12 @@
 		- [[#Determiner#Possessives|Possessives]]
 		- [[#Determiner#Interrogatives|Interrogatives]]
 		- [[#Determiner#Quantifiers|Quantifiers]]
+- [[#Pronoun|Pronoun]]
+	- [[#Pronoun#Determiner as Pronoun|Determiner as Pronoun]]
+	- [[#Pronoun#Interrogatives|Interrogatives]]
+	- [[#Pronoun#Personal Pronouns|Personal Pronouns]]
+	- [[#Pronoun#Reflexive Pronouns|Reflexive Pronouns]]
+	- [[#Pronoun#Relative Pronouns|Relative Pronouns]]
 ## Content
 ---
 ### Noun Phrase
@@ -125,6 +131,58 @@ See ***"Dies-"***.
 | *wo*                         | *where* |
 | *warum*                      | *why*   |
 | *wann*                       | *when*  |
+#### Personal Pronouns
+---
+
+| Deutsch (Nominative) | English        |
+| -------------------- | -------------- |
+| *ich*                | *I*            |
+| *du*                 | *you*          |
+| *er*                 | *he*           |
+| *es*                 | *it*           |
+| *sie*                | *she*          |
+|                      |                |
+| *wir*                | *we*           |
+| *ihr*                | *you (plural)* |
+| *sie*                | *they*         |
+| *Sie*                | *you (formal)* |
+
+| Nominative | Accusative | Dative  |
+| ---------- | ---------- | ------- |
+| *ich*      | *mich*     | *mir*   |
+| *du*       | *dich*     | *dir*   |
+| *er*       | *ihn*      | *ihm*   |
+| *es*       | *es*       | *ihm*   |
+| *sie*      | *sie*      | *ihr*   |
+|            |            |         |
+| *wir*      | *uns*      | *uns*   |
+| *ihr*      | *euch*     | *euch*  |
+| *sie*      | *sie*      | *ihnen* |
+| *Sie*      | *Sie*      | *Ihnen* |
+#### Reflexive Pronouns
+---
+
+| Nominative | Accusative | Dative |
+| ---------- | ---------- | ------ |
+| *ich*      | *mich*     | *mir*  |
+| *du*       | *dich*     | *dir*  |
+| *er*       | *sich*     | *sich* |
+| *es*       | *sich*     | *sich* |
+| *sie*      | *sich*     | *sich* |
+|            |            |        |
+| *wir*      | *uns*      | *uns*  |
+| *ihr*      | *euch*     | *euch* |
+| *sie*      | *sich*     | *sich* |
+| *Sie*      | *sich*     | *sich* |
+#### Relative Pronouns
+---
+
+|                | Masculine | Neuter   | Feminine | Plural  |
+| -------------- | --------- | -------- | -------- | ------- |
+| **Nominative** | *Der*     | *Das*    | *Die*    | *Die*   |
+| **Accusative** | *Den*     | *Das*    | *Die*    | *Die*   |
+| **Dative**     | *Dem*     | *Dem*    | *Der*    | *Denen* |
+| **Genitive**   | *Dessen*  | *Dessen* | *Deren*  | *Deren* |
 ## References
 ---
 [1] Hammer's German Grammar and Usage, Martin Durrel

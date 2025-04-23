@@ -9,6 +9,9 @@
 			- [[#Demonstratives#*Dies-* (*This*)|*Dies-* (*This*)]]
 			- [[#Demonstratives#*Jen-* *(That)*|*Jen-* *(That)*]]
 			- [[#Demonstratives#*-selb-* (*The Same*)|*-selb-* (*The Same*)]]
+		- [[#Determiner#Possessives|Possessives]]
+		- [[#Determiner#Interrogatives|Interrogatives]]
+		- [[#Determiner#Quantifiers|Quantifiers]]
 ## Content
 ---
 ### Noun Phrase
@@ -95,12 +98,6 @@ See **Indefinite Article**.
 | Deutsch                      | English |
 | ---------------------------- | ------- |
 | *welch-* (See ***"Dies-"***) | *which* |
-| *was*                        | *what*  |
-| *wer/wen/wem/wessen*         | *who*   |
-| *wie*                        | *how*   |
-| *wo*                         | *where* |
-| *warum*                      | *why*   |
-| *wann*                       | *when*  |
 ##### Quantifiers
 ---
 
@@ -111,6 +108,23 @@ See **Indefinite Article**.
 | *all-*                               | *all*   |
 | *kein-* (See **Indefinite Article**) | *none*  |
 | *jed-* (See ***"Dies-"***)           | *every* |
+### Pronoun
+---
+A **Pronoun** may replace a Noun Phrase in a sentence.
+#### Determiner as Pronoun
+---
+See ***"Dies-"***.
+#### Interrogatives
+---
+
+| Deutsch                      | English |
+| ---------------------------- | ------- |
+| *was*                        | *what*  |
+| *wer/wen/wem/wessen*         | *who*   |
+| *wie*                        | *how*   |
+| *wo*                         | *where* |
+| *warum*                      | *why*   |
+| *wann*                       | *when*  |
 ## References
 ---
 [1] Hammer's German Grammar and Usage, Martin Durrel

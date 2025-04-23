@@ -32,6 +32,18 @@ In a sentence, every Noun Phrase has a **Case**, which can be either,
 | **Accusative** | *Den*     | *Das*  | *Die*    | *Die*  |
 | **Dative**     | *Dem*     | *Dem*  | *Der*    | *Den*  |
 | **Genitive**   | *Des*     | *Des*  | *Der*    | *Der*  |
+###### Indefinite (*A*)
+---
+
+|                | Masculine | Neuter  | Feminine |
+| -------------- | --------- | ------- | -------- |
+| **Nominative** | *Ein*     | *Ein*   | *Eine*   |
+| **Accusative** | *Einen*   | *Ein*   | *Eine*   |
+| **Dative**     | *Einem*   | *Einem* | *Einer*  |
+| **Genitive**   | *Eines*   | *Eines* | *Einer*  |
+##### Demonstrative
+---
+
 ## References
 ---
 [1] Hammer's German Grammar and Usage, Martin Durrel

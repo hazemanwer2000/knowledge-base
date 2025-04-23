@@ -1,6 +1,14 @@
 ──────── *for more from the author, visit* [github.com/hazemanwer2000](https://github.com/hazemanwer2000). ────────
 ## *Table of Contents*
-...
+- [[#Noun Phrase|Noun Phrase]]
+	- [[#Noun Phrase#Determiner|Determiner]]
+		- [[#Determiner#Article|Article]]
+			- [[#Article#Definite (*The*)|Definite (*The*)]]
+			- [[#Article#Indefinite (*A*)|Indefinite (*A*)]]
+		- [[#Determiner#Demonstratives|Demonstratives]]
+			- [[#Demonstratives#*Dies-* (*This*)|*Dies-* (*This*)]]
+			- [[#Demonstratives#*Jen-* *(That)*|*Jen-* *(That)*]]
+			- [[#Demonstratives#*-selb-* (*The Same*)|*-selb-* (*The Same*)]]
 ## Content
 ---
 ### Noun Phrase
@@ -41,8 +49,29 @@ In a sentence, every Noun Phrase has a **Case**, which can be either,
 | **Accusative** | *Einen*   | *Ein*   | *Eine*   |
 | **Dative**     | *Einem*   | *Einem* | *Einer*  |
 | **Genitive**   | *Eines*   | *Eines* | *Einer*  |
-##### Demonstrative
+##### Demonstratives
+
+###### *Dies-* (*This*)
 ---
+
+|                | Masculine  | Neuter     | Feminine   | Plural     |
+| -------------- | ---------- | ---------- | ---------- | ---------- |
+| **Nominative** | *Dies(er)* | *Dies(es)* | *Dies(e)*  | *Dies(e)*  |
+| **Accusative** | *Dies(en)* | *Dies(es)* | *Dies(e)*  | *Dies(e)*  |
+| **Dative**     | *Dies(em)* | *Dies(em)* | *Dies(er)* | *Dies(en)* |
+| **Genitive**   | *Dies(es)* | *Dies(es)* | *Dies(er)* | *Dies(er)* |
+###### *Jen-* *(That)*
+---
+See ***"Dies-"***.
+###### *-selb-* (*The Same*)
+---
+
+|                | Masculine   | Neuter      | Feminine    | Plural      |
+| -------------- | ----------- | ----------- | ----------- | ----------- |
+| **Nominative** | *Derselbe*  | *Dasselbe*  | *Dieselbe*  | *Dieselben* |
+| **Accusative** | *Denselben* | *Dasselbe*  | *Dieselbe*  | *Dieselben* |
+| **Dative**     | *Demselben* | *Demselben* | *Derselben* | *Denselben* |
+| **Genitive**   | *Desselben* | *Desselben* | *Derselben* | *Derselben* |
 
 ## References
 ---

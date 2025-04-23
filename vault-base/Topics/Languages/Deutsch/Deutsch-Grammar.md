@@ -50,7 +50,7 @@ In a sentence, every Noun Phrase has a **Case**, which can be either,
 | **Dative**     | *Einem*   | *Einem* | *Einer*  |
 | **Genitive**   | *Eines*   | *Eines* | *Einer*  |
 ##### Demonstratives
-
+---
 ###### *Dies-* (*This*)
 ---
 
@@ -72,7 +72,23 @@ See ***"Dies-"***.
 | **Accusative** | *Denselben* | *Dasselbe*  | *Dieselbe*  | *Dieselben* |
 | **Dative**     | *Demselben* | *Demselben* | *Derselben* | *Denselben* |
 | **Genitive**   | *Desselben* | *Desselben* | *Derselben* | *Derselben* |
+##### Possessives
+---
 
+| Deutsch   | English         |
+| --------- | --------------- |
+| *mein-*   | *my*            |
+| *dein-*   | *your*          |
+| *sein-*   | *his*           |
+| *sein-*   | *its*           |
+| *ihr-*    | *her*           |
+|           |                 |
+| *unser-*  | *our*           |
+| *eu(e)r-* | *your (plural)* |
+| *ihr*     | *their*         |
+| *Ihr*     | *your (formal)* |
+
+See **Indefinite Article**.
 ## References
 ---
 [1] Hammer's German Grammar and Usage, Martin Durrel

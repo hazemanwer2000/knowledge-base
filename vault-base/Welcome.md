@@ -2,6 +2,7 @@
 ---
 * [[TechCraft]]
 * [[Finance]]
+* [[Languages]]
 ## *Content*
 ---
 Welcome to *THE* knowledge base!

@@ -85,10 +85,32 @@ See ***"Dies-"***.
 |           |                 |
 | *unser-*  | *our*           |
 | *eu(e)r-* | *your (plural)* |
-| *ihr*     | *their*         |
-| *Ihr*     | *your (formal)* |
+| *ihr-*    | *their*         |
+| *Ihr-*    | *your (formal)* |
 
 See **Indefinite Article**.
+##### Interrogatives
+---
+
+| Deutsch                      | English |
+| ---------------------------- | ------- |
+| *welch-* (See ***"Dies-"***) | *which* |
+| *was*                        | *what*  |
+| *wer/wen/wem/wessen*         | *who*   |
+| *wie*                        | *how*   |
+| *wo*                         | *where* |
+| *warum*                      | *why*   |
+| *wann*                       | *when*  |
+##### Quantifiers
+---
+
+| Deutsch                              | English |
+| ------------------------------------ | ------- |
+| *einig-*                             | *some*  |
+| *beid-*                              | *both*  |
+| *all-*                               | *all*   |
+| *kein-* (See **Indefinite Article**) | *none*  |
+| *jed-* (See ***"Dies-"***)           | *every* |
 ## References
 ---
 [1] Hammer's German Grammar and Usage, Martin Durrel

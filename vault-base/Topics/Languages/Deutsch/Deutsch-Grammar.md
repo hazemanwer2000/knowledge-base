@@ -1,31 +1,8 @@
 ──────── *for more from the author, visit* [github.com/hazemanwer2000](https://github.com/hazemanwer2000). ────────
 ## *Table of Contents*
-- [[#Noun Phrase|Noun Phrase]]
-	- [[#Noun Phrase#Determiner|Determiner]]
-		- [[#Determiner#Article|Article]]
-			- [[#Article#Definite (*The*)|Definite (*The*)]]
-			- [[#Article#Indefinite (*A*)|Indefinite (*A*)]]
-		- [[#Determiner#Demonstratives|Demonstratives]]
-			- [[#Demonstratives#*dies-* (*This*)|*dies-* (*This*)]]
-			- [[#Demonstratives#*jen-* (*That*)|*jen-* (*That*)]]
-			- [[#Demonstratives#*-selb-* (*The Same*)|*-selb-* (*The Same*)]]
-		- [[#Determiner#Possessives|Possessives]]
-		- [[#Determiner#Interrogatives|Interrogatives]]
-		- [[#Determiner#Quantifiers|Quantifiers]]
-	- [[#Noun Phrase#Adjectives|Adjectives]]
-		- [[#Adjectives#Strong declension|Strong declension]]
-		- [[#Adjectives#Weak declension|Weak declension]]
-		- [[#Adjectives#Mixed declension|Mixed declension]]
-	- [[#Noun Phrase#Noun|Noun]]
-- [[#Pronoun|Pronoun]]
-	- [[#Pronoun#Determiner as Pronoun|Determiner as Pronoun]]
-	- [[#Pronoun#Interrogatives|Interrogatives]]
-	- [[#Pronoun#Personal Pronouns|Personal Pronouns]]
-	- [[#Pronoun#Reflexive Pronouns|Reflexive Pronouns]]
-	- [[#Pronoun#Relative Pronouns|Relative Pronouns]]
 ## Content
 ---
-### Noun Phrase
+### Noun Phrases
 ---
 A **Noun Phrase** is composed of,
 * A **Determiner** (optional).
@@ -41,9 +18,9 @@ In a sentence, every Noun Phrase has a **Case**, which can be either,
 * **Accusative**, the direct object.
 * **Dative**, the indirect object.
 * **Genitive**, indicating possession (of another object).
-#### Determiner
+#### Determiners
 ---
-##### Article
+##### Articles
 ---
 ###### Definite (*The*)
 ---
@@ -148,14 +125,14 @@ See *"dies-"*.
 | **Accusative** | Strong    | Strong | Strong   | Strong |
 | **Dative**     | Weak      | Weak   | Weak     | Weak   |
 | **Genitive**   | Weak      | Weak   | Weak     | Weak   |
-#### Noun
+#### Nouns
 ---
 For the majority of Nouns, the following declension rules apply,
 * Masculine and Neuter Nouns add *-s* or *-es* in the Genitive Singular.
 * Nouns add *-n* in the Dative Plural.
 
 For a minority of Nouns, called Weak Masculine Nouns, the Weak Declension rule of Adjectives applies.
-### Pronoun
+### Pronouns
 ---
 A **Pronoun** may replace a Noun Phrase in a sentence.
 #### Determiner as Pronoun
@@ -213,8 +190,7 @@ See *"dies-"*.
 |            |            |        |
 | *wir*      | *uns*      | *uns*  |
 | *ihr*      | *euch*     | *euch* |
-| *sie*      | *sich*     | *sich* |
-| *Sie*      | *sich*     | *sich* |
+| *sie/Sie*  | *sich*     | *sich* |
 #### Relative Pronouns
 ---
 
@@ -224,6 +200,41 @@ See *"dies-"*.
 | **Accusative** | *den*     | *das*    | *die*    | *die*   |
 | **Dative**     | *dem*     | *dem*    | *der*    | *denen* |
 | **Genitive**   | *dessen*  | *dessen* | *deren*  | *deren* |
+### Verbs
+---
+The form of a **Verb** varies based on,
+* the Subject of the sentence,
+* the Tense,
+* the Mood, and,
+* the Voice.
+#### Tenses
+---
+##### Simple Tenses
+---
+*Z. bsp. spielen*.
+
+|             | Present   | Past        |
+| ----------- | --------- | ----------- |
+| *ich*       | *spiele*  | *spielte*   |
+| *du*        | *spielst* | *spieltest* |
+| *er/es/sie* | *spielt*  | *spieltet*  |
+|             |           |             |
+| *wir*       | *spielen* | *spielten*  |
+| *ihr*       | *spielt*  | *spieltet*  |
+| *sie/Sie*   | *spielen* | *spielten*  |
+##### Compound Tenses
+---
+###### Perfect and Past-Perfect
+---
+For every Verb,
+* its **Perfect Tense** consists of either *sein* or *haben*, and the **Past Participle** of the Verb.
+* its **Past-Perfect Tense** consists of the Past of either *sein* or *haben*, and the **Past Participle** of the Verb.
+
+*Z. bsp. spielen*.
+* Perfect Tense
+	* *Ich habe mit dem Ball gespielt.*
+* Past-Perfect Tense
+	* *Ich hatte mit dem Ball gespielt.*
 ## References
 ---
 [1] Hammer's German Grammar and Usage, Martin Durrel

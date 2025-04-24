@@ -7,7 +7,7 @@
 			- [[#Article#Indefinite (*A*)|Indefinite (*A*)]]
 		- [[#Determiner#Demonstratives|Demonstratives]]
 			- [[#Demonstratives#*dies-* (*This*)|*dies-* (*This*)]]
-			- [[#Demonstratives#*jen-* *(That)*|*jen-* *(That)*]]
+			- [[#Demonstratives#*jen-* (*That*)|*jen-* (*That*)]]
 			- [[#Demonstratives#*-selb-* (*The Same*)|*-selb-* (*The Same*)]]
 		- [[#Determiner#Possessives|Possessives]]
 		- [[#Determiner#Interrogatives|Interrogatives]]
@@ -74,7 +74,7 @@ In a sentence, every Noun Phrase has a **Case**, which can be either,
 | **Accusative** | *dies(en)* | *dies(es)* | *dies(e)*  | *dies(e)*  |
 | **Dative**     | *dies(em)* | *dies(em)* | *dies(er)* | *dies(en)* |
 | **Genitive**   | *dies(es)* | *dies(es)* | *dies(er)* | *dies(er)* |
-###### *jen-* *(That)*
+###### *jen-* (*That*)
 ---
 See *"dies-"*.
 ###### *-selb-* (*The Same*)

@@ -45,19 +45,19 @@ In a sentence, every Noun Phrase has a **Case**, which can be either,
 
 |                | Masculine | Neuter | Feminine | Plural |
 | -------------- | --------- | ------ | -------- | ------ |
-| **Nominative** | *Der*     | *Das*  | *Die*    | *Die*  |
-| **Accusative** | *Den*     | *Das*  | *Die*    | *Die*  |
-| **Dative**     | *Dem*     | *Dem*  | *Der*    | *Den*  |
-| **Genitive**   | *Des*     | *Des*  | *Der*    | *Der*  |
+| **Nominative** | *der*     | *das*  | *die*    | *die*  |
+| **Accusative** | *den*     | *das*  | *die*    | *die*  |
+| **Dative**     | *dem*     | *dem*  | *der*    | *den*  |
+| **Genitive**   | *des*     | *des*  | *der*    | *der*  |
 ###### Indefinite (*A*)
 ---
 
 |                | Masculine | Neuter  | Feminine |
 | -------------- | --------- | ------- | -------- |
-| **Nominative** | *Ein*     | *Ein*   | *Eine*   |
-| **Accusative** | *Einen*   | *Ein*   | *Eine*   |
-| **Dative**     | *Einem*   | *Einem* | *Einer*  |
-| **Genitive**   | *Eines*   | *Eines* | *Einer*  |
+| **Nominative** | *ein*     | *ein*   | *eine*   |
+| **Accusative** | *einen*   | *ein*   | *eine*   |
+| **Dative**     | *einem*   | *einem* | *einer*  |
+| **Genitive**   | *eines*   | *eines* | *einer*  |
 ##### Demonstratives
 ---
 ###### *Dies-* (*This*)
@@ -65,10 +65,10 @@ In a sentence, every Noun Phrase has a **Case**, which can be either,
 
 |                | Masculine  | Neuter     | Feminine   | Plural     |
 | -------------- | ---------- | ---------- | ---------- | ---------- |
-| **Nominative** | *Dies(er)* | *Dies(es)* | *Dies(e)*  | *Dies(e)*  |
-| **Accusative** | *Dies(en)* | *Dies(es)* | *Dies(e)*  | *Dies(e)*  |
-| **Dative**     | *Dies(em)* | *Dies(em)* | *Dies(er)* | *Dies(en)* |
-| **Genitive**   | *Dies(es)* | *Dies(es)* | *Dies(er)* | *Dies(er)* |
+| **Nominative** | *dies(er)* | *dies(es)* | *dies(e)*  | *dies(e)*  |
+| **Accusative** | *dies(en)* | *dies(es)* | *dies(e)*  | *dies(e)*  |
+| **Dative**     | *dies(em)* | *dies(em)* | *dies(er)* | *dies(en)* |
+| **Genitive**   | *dies(es)* | *dies(es)* | *dies(er)* | *dies(er)* |
 ###### *Jen-* *(That)*
 ---
 See ***"Dies-"***.
@@ -77,10 +77,10 @@ See ***"Dies-"***.
 
 |                | Masculine   | Neuter      | Feminine    | Plural      |
 | -------------- | ----------- | ----------- | ----------- | ----------- |
-| **Nominative** | *Derselbe*  | *Dasselbe*  | *Dieselbe*  | *Dieselben* |
-| **Accusative** | *Denselben* | *Dasselbe*  | *Dieselbe*  | *Dieselben* |
-| **Dative**     | *Demselben* | *Demselben* | *Derselben* | *Denselben* |
-| **Genitive**   | *Desselben* | *Desselben* | *Derselben* | *Derselben* |
+| **Nominative** | *derselbe*  | *dasselbe*  | *dieselbe*  | *dieselben* |
+| **Accusative** | *denselben* | *dasselbe*  | *dieselbe*  | *dieselben* |
+| **Dative**     | *demselben* | *demselben* | *derselben* | *denselben* |
+| **Genitive**   | *desselben* | *desselben* | *derselben* | *derselben* |
 ##### Possessives
 ---
 
@@ -179,10 +179,10 @@ See ***"Dies-"***.
 
 |                | Masculine | Neuter   | Feminine | Plural  |
 | -------------- | --------- | -------- | -------- | ------- |
-| **Nominative** | *Der*     | *Das*    | *Die*    | *Die*   |
-| **Accusative** | *Den*     | *Das*    | *Die*    | *Die*   |
-| **Dative**     | *Dem*     | *Dem*    | *Der*    | *Denen* |
-| **Genitive**   | *Dessen*  | *Dessen* | *Deren*  | *Deren* |
+| **Nominative** | *der*     | *das*    | *die*    | *die*   |
+| **Accusative** | *den*     | *das*    | *die*    | *die*   |
+| **Dative**     | *dem*     | *dem*    | *der*    | *denen* |
+| **Genitive**   | *dessen*  | *dessen* | *deren*  | *deren* |
 ## References
 ---
 [1] Hammer's German Grammar and Usage, Martin Durrel

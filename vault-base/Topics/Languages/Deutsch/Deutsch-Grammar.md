@@ -60,7 +60,7 @@ In a sentence, every Noun Phrase has a **Case**, which can be either,
 | **Genitive**   | *eines*   | *eines* | *einer*  |
 ##### Demonstratives
 ---
-###### *Dies-* (*This*)
+###### *dies-* (*This*)
 ---
 
 |                | Masculine  | Neuter     | Feminine   | Plural     |
@@ -69,9 +69,9 @@ In a sentence, every Noun Phrase has a **Case**, which can be either,
 | **Accusative** | *dies(en)* | *dies(es)* | *dies(e)*  | *dies(e)*  |
 | **Dative**     | *dies(em)* | *dies(em)* | *dies(er)* | *dies(en)* |
 | **Genitive**   | *dies(es)* | *dies(es)* | *dies(er)* | *dies(er)* |
-###### *Jen-* *(That)*
+###### *jen-* *(That)*
 ---
-See ***"Dies-"***.
+See *"dies-"*.
 ###### *-selb-* (*The Same*)
 ---
 
@@ -101,25 +101,32 @@ See **Indefinite Article**.
 ##### Interrogatives
 ---
 
-| Deutsch                      | English |
-| ---------------------------- | ------- |
-| *welch-* (See ***"Dies-"***) | *which* |
+| Deutsch                  | English |
+| ------------------------ | ------- |
+| *welch-* (See *"dies-"*) | *which* |
 ##### Quantifiers
 ---
 
-| Deutsch                              | English |
-| ------------------------------------ | ------- |
-| *einig-*                             | *some*  |
-| *beid-*                              | *both*  |
-| *all-*                               | *all*   |
-| *kein-* (See **Indefinite Article**) | *none*  |
-| *jed-* (See ***"Dies-"***)           | *every* |
+| Deutsch                          | English |
+| -------------------------------- | ------- |
+| *einig-*                         | *some*  |
+| *beid-*                          | *both*  |
+| *all-*                           | *all*   |
+| *kein-* (See Indefinite Article) | *none*  |
+| *jed-* (See *"dies-"*)           | *every* |
+#### Adjectives
+---
+Any Adjective has several possible declensions,
+* Strong declension, used when the Determiner is a Definite Article, *"dies-"*, etc.
+* Weak declension, used when there is no Determiner.
+* Mixed declension, used when the Determiner is an Indefinite Article, etc.
+
 ### Pronoun
 ---
 A **Pronoun** may replace a Noun Phrase in a sentence.
 #### Determiner as Pronoun
 ---
-See ***"Dies-"***.
+See *"dies-"*.
 #### Interrogatives
 ---
 

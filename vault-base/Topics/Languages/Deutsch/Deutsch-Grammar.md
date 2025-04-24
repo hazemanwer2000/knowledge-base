@@ -1,5 +1,33 @@
 ──────── *for more from the author, visit* [github.com/hazemanwer2000](https://github.com/hazemanwer2000). ────────
 ## *Table of Contents*
+- [[#Noun Phrases|Noun Phrases]]
+	- [[#Noun Phrases#Determiners|Determiners]]
+		- [[#Determiners#Articles|Articles]]
+			- [[#Articles#Definite (*The*)|Definite (*The*)]]
+			- [[#Articles#Indefinite (*A*)|Indefinite (*A*)]]
+		- [[#Determiners#Demonstratives|Demonstratives]]
+			- [[#Demonstratives#*dies-* (*This*)|*dies-* (*This*)]]
+			- [[#Demonstratives#*jen-* (*That*)|*jen-* (*That*)]]
+			- [[#Demonstratives#*-selb-* (*The Same*)|*-selb-* (*The Same*)]]
+		- [[#Determiners#Possessives|Possessives]]
+		- [[#Determiners#Interrogatives|Interrogatives]]
+		- [[#Determiners#Quantifiers|Quantifiers]]
+	- [[#Noun Phrases#Adjectives|Adjectives]]
+		- [[#Adjectives#Strong declension|Strong declension]]
+		- [[#Adjectives#Weak declension|Weak declension]]
+		- [[#Adjectives#Mixed declension|Mixed declension]]
+	- [[#Noun Phrases#Nouns|Nouns]]
+- [[#Pronouns|Pronouns]]
+	- [[#Pronouns#Determiner as Pronoun|Determiner as Pronoun]]
+	- [[#Pronouns#Interrogatives|Interrogatives]]
+	- [[#Pronouns#Personal Pronouns|Personal Pronouns]]
+	- [[#Pronouns#Reflexive Pronouns|Reflexive Pronouns]]
+	- [[#Pronouns#Relative Pronouns|Relative Pronouns]]
+- [[#Verbs|Verbs]]
+	- [[#Verbs#Tenses|Tenses]]
+		- [[#Tenses#Simple Tenses|Simple Tenses]]
+		- [[#Tenses#Compound Tenses|Compound Tenses]]
+	- [[#Verbs#Passive Voice|Passive Voice]]
 ## Content
 ---
 ### Noun Phrases
@@ -224,8 +252,6 @@ The form of a **Verb** varies based on,
 | *sie/Sie*   | *spielen* | *spielten*  |
 ##### Compound Tenses
 ---
-###### Perfect and Past-Perfect
----
 For every Verb,
 * its **Perfect Tense** consists of either *sein* or *haben*, and the **Past Participle** of the Verb.
 * its **Past-Perfect Tense** consists of the Past Tense of either *sein* or *haben*, and the **Past Participle** of the Verb.
@@ -237,8 +263,8 @@ For every Verb,
 * Past-Perfect Tense
 	* *Ich hatte mit dem Ball gespielt.*
 * Future Tense
-	* *Ich werde spielen.*
-###### Future
+	* *Ich werde mit dem Ball spielen.*
+#### Passive Voice
 ---
 
 ## References

@@ -6,12 +6,17 @@
 			- [[#Article#Definite (*The*)|Definite (*The*)]]
 			- [[#Article#Indefinite (*A*)|Indefinite (*A*)]]
 		- [[#Determiner#Demonstratives|Demonstratives]]
-			- [[#Demonstratives#*Dies-* (*This*)|*Dies-* (*This*)]]
-			- [[#Demonstratives#*Jen-* *(That)*|*Jen-* *(That)*]]
+			- [[#Demonstratives#*dies-* (*This*)|*dies-* (*This*)]]
+			- [[#Demonstratives#*jen-* *(That)*|*jen-* *(That)*]]
 			- [[#Demonstratives#*-selb-* (*The Same*)|*-selb-* (*The Same*)]]
 		- [[#Determiner#Possessives|Possessives]]
 		- [[#Determiner#Interrogatives|Interrogatives]]
 		- [[#Determiner#Quantifiers|Quantifiers]]
+	- [[#Noun Phrase#Adjectives|Adjectives]]
+		- [[#Adjectives#Strong declension|Strong declension]]
+		- [[#Adjectives#Weak declension|Weak declension]]
+		- [[#Adjectives#Mixed declension|Mixed declension]]
+	- [[#Noun Phrase#Noun|Noun]]
 - [[#Pronoun|Pronoun]]
 	- [[#Pronoun#Determiner as Pronoun|Determiner as Pronoun]]
 	- [[#Pronoun#Interrogatives|Interrogatives]]
@@ -143,7 +148,13 @@ See *"dies-"*.
 | **Accusative** | Strong    | Strong | Strong   | Strong |
 | **Dative**     | Weak      | Weak   | Weak     | Weak   |
 | **Genitive**   | Weak      | Weak   | Weak     | Weak   |
+#### Noun
+---
+For the majority of Nouns, the following declension rules apply,
+* Masculine and Neuter Nouns add *-s* or *-es* in the Genitive Singular.
+* Nouns add *-n* in the Dative Plural.
 
+For a minority of Nouns, called Weak Masculine Nouns, the Weak Declension rule of Adjectives applies.
 ### Pronoun
 ---
 A **Pronoun** may replace a Noun Phrase in a sentence.

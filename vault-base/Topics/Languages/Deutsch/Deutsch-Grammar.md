@@ -228,13 +228,19 @@ The form of a **Verb** varies based on,
 ---
 For every Verb,
 * its **Perfect Tense** consists of either *sein* or *haben*, and the **Past Participle** of the Verb.
-* its **Past-Perfect Tense** consists of the Past of either *sein* or *haben*, and the **Past Participle** of the Verb.
+* its **Past-Perfect Tense** consists of the Past Tense of either *sein* or *haben*, and the **Past Participle** of the Verb.
+* its **Future Tense** consists of the Present Tense of *werden*, and the **Infinitive Form** of the Verb.
 
 *Z. bsp. spielen*.
 * Perfect Tense
 	* *Ich habe mit dem Ball gespielt.*
 * Past-Perfect Tense
 	* *Ich hatte mit dem Ball gespielt.*
+* Future Tense
+	* *Ich werde spielen.*
+###### Future
+---
+
 ## References
 ---
 [1] Hammer's German Grammar and Usage, Martin Durrel

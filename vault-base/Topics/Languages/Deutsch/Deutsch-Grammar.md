@@ -116,10 +116,33 @@ See **Indefinite Article**.
 | *jed-* (See *"dies-"*)           | *every* |
 #### Adjectives
 ---
-Any Adjective has several possible declensions,
-* Strong declension, used when the Determiner is a Definite Article, *"dies-"*, etc.
-* Weak declension, used when there is no Determiner.
-* Mixed declension, used when the Determiner is an Indefinite Article, etc.
+Adjectives have several declension rules:
+* Strong declension, applies when there is no Determiner.
+* Weak declension, applies when the Determiner is a Definite Article, *"dies-"*, etc.
+* Mixed declension, applies when the Determiner is an Indefinite Article, etc.
+
+*Note:* When Adjectives are used as Nouns, declension rules are the same.
+##### Strong declension
+---
+See *"dies-"*.
+##### Weak declension
+---
+
+|                | Masculine | Neuter | Feminine | Plural |
+| -------------- | --------- | ------ | -------- | ------ |
+| **Nominative** | *-e*      | *-e*   | *-e*     | *-en*  |
+| **Accusative** | *-en*     | *-e*   | *-e*     | *-en*  |
+| **Dative**     | *-en*     | *-en*  | *-en*    | *-en*  |
+| **Genitive**   | *-en*     | *-en*  | *-en*    | *-en*  |
+##### Mixed declension
+---
+
+|                | Masculine | Neuter | Feminine | Plural |
+| -------------- | --------- | ------ | -------- | ------ |
+| **Nominative** | Strong    | Strong | Strong   | Strong |
+| **Accusative** | Strong    | Strong | Strong   | Strong |
+| **Dative**     | Weak      | Weak   | Weak     | Weak   |
+| **Genitive**   | Weak      | Weak   | Weak     | Weak   |
 
 ### Pronoun
 ---

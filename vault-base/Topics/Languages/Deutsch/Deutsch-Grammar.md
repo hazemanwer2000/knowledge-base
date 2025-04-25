@@ -256,6 +256,7 @@ For every Verb,
 * its **Perfect Tense** consists of either *sein* or *haben*, and the **Past Participle** of the Verb.
 * its **Past-Perfect Tense** consists of the Past Tense of either *sein* or *haben*, and the **Past Participle** of the Verb.
 * its **Future Tense** consists of the Present Tense of *werden*, and the **Infinitive Form** of the Verb.
+* Its **Future-Perfect Tense** consists of the Present Tense of werden, and the Infinitive Form of the Verb and either *sein* or *haben*, respectively.
 
 *Z. bsp. spielen*.
 * Perfect Tense
@@ -264,6 +265,8 @@ For every Verb,
 	* *Ich hatte mit dem Ball gespielt.*
 * Future Tense
 	* *Ich werde mit dem Ball spielen.*
+* Future-Perfect Tense
+	* *Ich werde mit dem Ball spielen haben.*
 #### Passive Voice
 ---
 

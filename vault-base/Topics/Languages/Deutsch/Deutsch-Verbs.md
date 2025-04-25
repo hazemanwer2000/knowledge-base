@@ -57,13 +57,21 @@
 | ------------------------------ | ------------------------------------- | ---------------------------------- |
 | `[Nominative] [Verb] [Dative]` | *Ich antwortete ihm auf seine Frage.* | *I answered him on his questions.* |
 
-| Valency (*beantworten*)            | Example: *Deutsch*                  | Example: *English*               |
-| ---------------------------------- | ----------------------------------- | -------------------------------- |
-| `[Nominative] [Verb] [Accusative]` | *Ich beantworte die Frage von ihm.* | *I answer the questions of his.* |
+| Valency (*beantworten*)            | Example: *Deutsch*                  | Example: *English*                     |
+| ---------------------------------- | ----------------------------------- | -------------------------------------- |
+| `[Nominative] [Verb] [Accusative]` | *Ich beantworte die Frage von ihm.* | *I am answering the questions of his.* |
 
 | Valency (*fragen*)                 | Example: *Deutsch*      | Example: *English*     |
 | ---------------------------------- | ----------------------- | ---------------------- |
 | `[Nominative] [Verb] [Accusative]` | *Ich frage mich immer.* | *I ask myself always.* |
+
+| Valency (*reden*)     | Example: *Deutsch*    | Example: *English*          |
+| --------------------- | --------------------- | --------------------------- |
+| `[Nominative] [Verb]` | *Ich rede mit Väter.* | *I am talking with father.* |
+
+| Valency (*sagen*)              | Example: *Deutsch* | Example: *English* |
+| ------------------------------ | ------------------ | ------------------ |
+| `[Nominative] [Verb] [Dative]` | *Ich sage ihm.*    | *I believe him.*   |
 
 | Valency (*glauben*)            | Example: *Deutsch* | Example: *English* |
 | ------------------------------ | ------------------ | ------------------ |

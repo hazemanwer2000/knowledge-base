@@ -269,7 +269,28 @@ For every Verb,
 	* *Ich werde mit dem Ball spielen haben.*
 #### Passive Voice
 ---
+**Passive Voice** is common with **Transitive Verbs** (i.e., Verbs with an Accusative case).
 
+There are two types of Passive Voices:
+* *"werden-"* Passive, semantically indicating a transition.
+* *"sein-"* Passive, semantically indicating a state.
+
+In both types,
+* the Subject is replaced by the (usually direct) object.
+* the Verb is replaced with either *werden* or *sein*, respectively, and,
+* the Past Participle of the Verb is used.
+
+*Z. bsp. (...)*
+* Present Tense
+	* *Die Tür ist geschlossen.*
+* Past Tense
+	* *Die Tür war geschlossen.*
+* Perfect Tense
+	* *Der Ball hat geworfen geworden.*
+* Past-Perfect Tense
+	* *Der Ball hatte geworfen geworden.*
+* Future Tense
+	* *Der Ball wird geworfen werden.*
 ## References
 ---
 [1] Hammer's German Grammar and Usage, Martin Durrel

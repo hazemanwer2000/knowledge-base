@@ -35,6 +35,7 @@
 | *reisen*          | `[Nominative] [Verb]`                       | *Ich reise zu viel.*                           | *I travel a lot.*                       |
 | *machen*          | `[Nominative] [Verb] [Dative] [Accusative]` | *Ich mache dir einen Kaffee.*                  | *I am making you coffee.*               |
 | *kaufen*          | `[Nominative] [Verb] [Dative] [Accusative]` | *Ich kaufte dir Blumen.*                       | *I bought you flowers.*                 |
+| *bezahlen*        | `[Nominative] [Verb] [Dative] [Accusative]` | *Ich werde dir das Doppelte bezahlen.*         | *I will pay you the double.*            |
 | *suchen*          | `[Nominative] [Verb]`                       | *Ich suche nach etwas zum Anschauen.*          | *I search for something to watch.*      |
 | *besuchen*        | `[Nominative] [Verb] [Accusative]`          | *Sie wohnen in der Nähe, Ich besuche sie oft.* | *They live nearby, I visit them often.* |
 | *handeln*         | `[Nominative] [Verb]`                       | *Ich handle, als ich allein wäre.*             | *I act, as if I am alone.*              |

@@ -35,8 +35,7 @@
               "title": "Deutsch-Grammar"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -174,14 +173,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c66ca3939bd9f6f9",
+  "active": "1dea7439e925ea75",
   "lastOpenFiles": [
+    "Topics/Languages/Deutsch/Deutsch-Grammar.md",
     "Topics/Languages/Deutsch/Deutsch-Verbs.md",
     "Topics/Finance/Financial-Statements.md",
     "Topics/Finance.md",
     "Topics/Languages/Deutsch.md",
     "Topics/Languages.md",
-    "Topics/Languages/Deutsch/Deutsch-Grammar.md",
     "Welcome.md",
     "Topics/TechCraft.md",
     "Topics/Techcraft/Cryptography.md",

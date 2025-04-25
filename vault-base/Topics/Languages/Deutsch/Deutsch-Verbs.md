@@ -28,6 +28,7 @@
 | Verb (Infinitive) | Valency                                     | Example: *Deutsch*                             | Example: *English*                      |
 | ----------------- | ------------------------------------------- | ---------------------------------------------- | --------------------------------------- |
 | *spielen*         | `[Nominative] [Verb] [Accusative]`          | *Ich spiele Fußball an den Wochenenden.*       | *I play football in the weekends.*      |
+| *schauen*         | `[Nominative] [Verb] [Accusative]`          | *Ich schaue keine Spiele mehr.*                | *I do not watch games anymore.*         |
 | *lernen*          | `[Nominative] [Verb] [Accusative]`          | *Letztens lerne ich Deutsch.*                  | *Lately I learn Deutsch.*               |
 | *arbeiten*        | `[Nominative] [Verb]`                       | *Ich arbeite als Ingenieur.*                   | *I work as engineer.*                   |
 | *leben*           | `[Nominative] [Verb]`                       | *Ich lebe an der Straße.*                      | *I live by the road.*                   |

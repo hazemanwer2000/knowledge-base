@@ -1,5 +1,6 @@
 ──────── *for more from the author, visit* [github.com/hazemanwer2000](https://github.com/hazemanwer2000). ────────
 ## *Table of Contents*
+
 - [[#Noun Phrases|Noun Phrases]]
 	- [[#Noun Phrases#Determiners|Determiners]]
 		- [[#Determiners#Articles|Articles]]
@@ -28,6 +29,7 @@
 		- [[#Tenses#Simple Tenses|Simple Tenses]]
 		- [[#Tenses#Compound Tenses|Compound Tenses]]
 	- [[#Verbs#Passive Voice|Passive Voice]]
+	- [[#Verbs#Subjunctive Mood|Subjunctive Mood]]
 ## Content
 ---
 ### Noun Phrases
@@ -310,6 +312,8 @@ In everyday speech, the Tenses of the Subjunctive Mood used are,
 	* *Ich würde spielen.*
 * Future-Perfect Tense
 	* *Ich würde gespielt haben.*
+
+*Note:* The Past-Subjunctive Tense of *werden* may be replaced by that of any of the **Modal Auxiliary Verbs**.
 ## References
 ---
 [1] Hammer's German Grammar and Usage, Martin Durrel

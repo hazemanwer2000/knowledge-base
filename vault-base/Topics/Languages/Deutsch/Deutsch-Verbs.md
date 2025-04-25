@@ -34,6 +34,7 @@
 | *wohnen*          | `[Nominative] [Verb]`                       | *Ich wohne in Deutschland.*                    | *I live in Germany.*                    |
 | *reisen*          | `[Nominative] [Verb]`                       | *Ich reise zu viel.*                           | *I travel a lot.*                       |
 | *machen*          | `[Nominative] [Verb] [Dative] [Accusative]` | *Ich mache dir einen Kaffee.*                  | *I am making you coffee.*               |
+| *öffnen*          | `[Nominative] [Verb] [Accusative]`          | *Ich öffne für Sie die Tür.*                   | *I am opening the door for you.*        |
 | *kaufen*          | `[Nominative] [Verb] [Dative] [Accusative]` | *Ich kaufte dir Blumen.*                       | *I bought you flowers.*                 |
 | *bezahlen*        | `[Nominative] [Verb] [Dative] [Accusative]` | *Ich werde dir das Doppelte bezahlen.*         | *I will pay you the double.*            |
 | *suchen*          | `[Nominative] [Verb]`                       | *Ich suche nach etwas zum Anschauen.*          | *I search for something to watch.*      |
@@ -46,6 +47,7 @@
 | *reden*           | `[Nominative] [Verb]`                       | *Ich rede mit Väter.*                          | *I am talking with father.*             |
 | *sagen*           | `[Nominative] [Verb] [Dative]`              | *Ich sage ihm.*                                | *I believe him.*                        |
 | *hören*           | `[Nominative] [Verb] [Accusative]`          | *Ich höre dich.*                               | *I hear you.*                           |
+| *brauchen*        | `[Nominative] [Verb] [Accusative]`          | *Peter, ich brauche dich.*                     | *Peter, I need you.*                    |
 | *glauben*         | `[Nominative] [Verb] [Dative]`              | *Ich glaube ihr.*                              | *I believe her.*                        |
 ## References
 ---

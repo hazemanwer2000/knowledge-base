@@ -37,6 +37,7 @@
 | *reisen*          | `[Nominative] [Verb]`                       | *Ich reise zu viel.*                           | *I travel a lot.*                          |
 | *machen*          | `[Nominative] [Verb] [Dative] [Accusative]` | *Ich mache dir einen Kaffee.*                  | *I am making you coffee.*                  |
 | *bauen*           | `[Nominative] [Verb] [Dative] [Accusative]` | *Ich baue dir ein neues Haus.*                 | *I am building you a new house.*           |
+| *entwickeln*      | `[Nominative] [Verb] [Accusative]`          | *Ich entwickelte eine neue Maschine.*          | *I am building a new machine.*             |
 | *öffnen*          | `[Nominative] [Verb] [Accusative]`          | *Ich öffne für Sie die Tür.*                   | *I am opening the door for you.*           |
 | *kaufen*          | `[Nominative] [Verb] [Dative] [Accusative]` | *Ich kaufte dir Blumen.*                       | *I bought you flowers.*                    |
 | *bezahlen*        | `[Nominative] [Verb] [Dative] [Accusative]` | *Ich werde dir das Doppelte bezahlen.*         | *I will pay you the double.*               |

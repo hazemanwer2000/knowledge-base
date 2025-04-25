@@ -27,11 +27,23 @@
 
 | Valency (*spielen*)                | Example: *Deutsch*                       | Example: *English*                 |
 | ---------------------------------- | ---------------------------------------- | ---------------------------------- |
-| `[Nominative] [Verb] (Accusative)` | *Ich spiele Fußball an den Wochenenden.* | *I play football in the weekends.* |
+| `[Nominative] [Verb] [Accusative]` | *Ich spiele Fußball an den Wochenenden.* | *I play football in the weekends.* |
 
 | Valency (*lernen*)                 | Example: *Deutsch*            | Example: *English*        |
 | ---------------------------------- | ----------------------------- | ------------------------- |
-| `[Nominative] [Verb] (Accusative)` | *Letztens lerne ich Deutsch.* | *Lately I learn Deutsch.* |
+| `[Nominative] [Verb] [Accusative]` | *Letztens lerne ich Deutsch.* | *Lately I learn Deutsch.* |
+
+| Valency (*arbeiten*)  | Example: *Deutsch*           | Example: *English*    |
+| --------------------- | ---------------------------- | --------------------- |
+| `[Nominative] [Verb]` | *Ich arbeite als Ingenieur.* | *I work as engineer.* |
+
+| Valency (*leben*)     | Example: *Deutsch*        | Example: *English*    |
+| --------------------- | ------------------------- | --------------------- |
+| `[Nominative] [Verb]` | *Ich lebe an der Straße.* | *I live by the road.* |
+
+| Valency (*machen*)                          | Example: *Deutsch*            | Example: *English*        |
+| ------------------------------------------- | ----------------------------- | ------------------------- |
+| `[Nominative] [Verb] [Dative] [Accusative]` | *Ich mache dir einen Kaffee.* | *I am making you coffee.* |
 
 | Valency (*handeln*)   | Example: *Deutsch*                 | Example: *English*         |
 | --------------------- | ---------------------------------- | -------------------------- |
@@ -52,10 +64,6 @@
 | Valency (*fragen*)                 | Example: *Deutsch*      | Example: *English*     |
 | ---------------------------------- | ----------------------- | ---------------------- |
 | `[Nominative] [Verb] [Accusative]` | *Ich frage mich immer.* | *I ask myself always.* |
-
-| Valency (*arbeiten*)  | Example: *Deutsch*           | Example: *English*    |
-| --------------------- | ---------------------------- | --------------------- |
-| `[Nominative] [Verb]` | *Ich arbeite als Ingenieur.* | *I work as engineer.* |
 
 | Valency (*glauben*)            | Example: *Deutsch* | Example: *English* |
 | ------------------------------ | ------------------ | ------------------ |

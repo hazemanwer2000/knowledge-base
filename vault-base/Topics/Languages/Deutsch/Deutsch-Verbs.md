@@ -41,9 +41,17 @@
 | --------------------- | ------------------------- | --------------------- |
 | `[Nominative] [Verb]` | *Ich lebe an der Straße.* | *I live by the road.* |
 
+| Valency (*reisen*)    | Example: *Deutsch*   | Example: *English* |
+| --------------------- | -------------------- | ------------------ |
+| `[Nominative] [Verb]` | *Ich reise zu viel.* | *I travel a lot.*  |
+
 | Valency (*machen*)                          | Example: *Deutsch*            | Example: *English*        |
 | ------------------------------------------- | ----------------------------- | ------------------------- |
 | `[Nominative] [Verb] [Dative] [Accusative]` | *Ich mache dir einen Kaffee.* | *I am making you coffee.* |
+
+| Valency (*kaufen*)                          | Example: *Deutsch*       | Example: *English*      |
+| ------------------------------------------- | ------------------------ | ----------------------- |
+| `[Nominative] [Verb] [Dative] [Accusative]` | *Ich kaufte dir Blumen.* | *I bought you flowers.* |
 
 | Valency (*handeln*)   | Example: *Deutsch*                 | Example: *English*         |
 | --------------------- | ---------------------------------- | -------------------------- |

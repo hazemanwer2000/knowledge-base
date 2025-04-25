@@ -3,7 +3,11 @@
 ...
 ## Content
 ---
-
+### Regular Verbs
+---
+#### Form
+---
+*Z. bsp. spielen.*
 
 | Infinitive | Past Participle | Present Participle |
 | ---------- | --------------- | ------------------ |
@@ -18,8 +22,20 @@
 | *wir*       | *spielen* | *spielten*  |
 | *ihr*       | *spielt*  | *spieltet*  |
 | *sie/Sie*   | *spielen* | *spielten*  |
+#### Directory
+---
 
+| Valency (*spielen*)                | Example: *Deutsch*      | Example: *English*   |
+| ---------------------------------- | ----------------------- | -------------------- |
+| `[Nominative] [Verb] (Accusative)` | *Ich spiele (Fußball).* | *I play (football).* |
 
+| Valency (*lernen*)                 | Example: *Deutsch*          | Example: *English*      |
+| ---------------------------------- | --------------------------- | ----------------------- |
+| `[Nominative] [Verb] (Accusative)` | *Ich lerne (eine Sprache).* | *I learn (a language).* |
+
+| Valency (*handeln*)   | Example: *Deutsch* | Example: *English* |
+| --------------------- | ------------------ | ------------------ |
+| `[Nominative] [Verb]` | *Ich handle.*      | *I act/deal.*      |
 ## References
 ---
-[1] ...
+[1] Hammer's German Grammar and Usage, Martin Durrel

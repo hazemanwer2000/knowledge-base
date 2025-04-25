@@ -39,6 +39,7 @@
 | *bauen*           | `[Nominative] [Verb] [Dative] [Accusative]`  | *Ich baue dir ein neues Haus.*                                   | *I am building you a new house.*                     |
 | *entwickeln*      | `[Nominative] [Verb] [Accusative]`           | *Ich entwickelte eine neue Maschine.*                            | *I am building a new machine.*                       |
 | *öffnen*          | `[Nominative] [Verb] [Accusative]`           | *Ich öffne für Sie die Tür.*                                     | *I am opening the door for you.*                     |
+| *erreichen*       | `[Nominative] [Verb] [Accusative]`           | *Heute habe ich mein Ziel erreicht.*                             | *I reached my goal today.*                           |
 | *kaufen*          | `[Nominative] [Verb] [Dative] [Accusative]`  | *Ich kaufte dir Blumen.*                                         | *I bought you flowers.*                              |
 | *bezahlen*        | `[Nominative] [Verb] [Dative] [Accusative]`  | *Ich werde dir das Doppelte bezahlen.*                           | *I will pay you the double.*                         |
 | *suchen*          | `[Nominative] [Verb]`                        | *Ich suche nach etwas zum Anschauen.*                            | *I search for something to watch.*                   |
@@ -50,6 +51,7 @@
 | *fragen*          | `[Nominative] [Verb] [Accusative]`           | *Ich frage mich immer.*                                          | *I ask myself always.*                               |
 | *reden*           | `[Nominative] [Verb]`                        | *Ich rede mit Väter.*                                            | *I am talking with father.*                          |
 | *sagen*           | `[Nominative] [Verb] [Dative]`               | *Ich sage ihm.*                                                  | *I believe him.*                                     |
+| *erklären*        | `[Nominative] [Verb] [Dative] [Accusative]`  | *Ich habe ihr das erklärt.*                                      | *I clarified that to her.*                           |
 | *lachen*          | `[Nominative] [Verb]`                        | *Verstehst du jetzt, warum ich lache?*                           | *Do you understand now why I am laughing?*           |
 | *hören*           | `[Nominative] [Verb] [Accusative]`           | *Ich höre dich.*                                                 | *I hear you.*                                        |
 | *brauchen*        | `[Nominative] [Verb] [Accusative]`           | *Peter, ich brauche dich.*                                       | *Peter, I need you.*                                 |

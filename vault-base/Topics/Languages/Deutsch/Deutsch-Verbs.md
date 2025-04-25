@@ -73,6 +73,10 @@
 | ------------------------------ | ------------------ | ------------------ |
 | `[Nominative] [Verb] [Dative]` | *Ich sage ihm.*    | *I believe him.*   |
 
+| Valency (*hören*)                  | Example: *Deutsch* | Example: *English* |
+| ---------------------------------- | ------------------ | ------------------ |
+| `[Nominative] [Verb] [Accusative]` | *Ich höre dich.*   | *I hear you.*      |
+
 | Valency (*glauben*)            | Example: *Deutsch* | Example: *English* |
 | ------------------------------ | ------------------ | ------------------ |
 | `[Nominative] [Verb] [Dative]` | *Ich glaube ihr.*  | *I believe her.*   |

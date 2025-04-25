@@ -1,4 +1,4 @@
-──────── *for more from the author, visit* [github.com/hazemanwer2000](https://github.com/hazemanwer2000). ────────
+
 ## *Table of Contents*
 ...
 ## Content
@@ -56,6 +56,10 @@
 | Valency (*fragen*)                 | Example: *Deutsch*      | Example: *English*     |
 | ---------------------------------- | ----------------------- | ---------------------- |
 | `[Nominative] [Verb] [Accusative]` | *Ich frage mich immer.* | *I ask myself always.* |
+
+| Valency (*glauben*)            | Example: *Deutsch* | Example: *English* |
+| ------------------------------ | ------------------ | ------------------ |
+| `[Nominative] [Verb] [Dative]` | *Ich glaube ihr.*  | *I believe her.*   |
 ## References
 ---
 [1] Hammer's German Grammar and Usage, Martin Durrel

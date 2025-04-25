@@ -36,6 +36,7 @@
 | *wohnen*          | `[Nominative] [Verb]`                       | *Ich wohne in Deutschland.*                    | *I live in Germany.*                       |
 | *reisen*          | `[Nominative] [Verb]`                       | *Ich reise zu viel.*                           | *I travel a lot.*                          |
 | *machen*          | `[Nominative] [Verb] [Dative] [Accusative]` | *Ich mache dir einen Kaffee.*                  | *I am making you coffee.*                  |
+| *bauen*           | `[Nominative] [Verb] [Dative] [Accusative]` | *Ich baue dir ein neues Haus.*                 | *I am building you a new house.*           |
 | *öffnen*          | `[Nominative] [Verb] [Accusative]`          | *Ich öffne für Sie die Tür.*                   | *I am opening the door for you.*           |
 | *kaufen*          | `[Nominative] [Verb] [Dative] [Accusative]` | *Ich kaufte dir Blumen.*                       | *I bought you flowers.*                    |
 | *bezahlen*        | `[Nominative] [Verb] [Dative] [Accusative]` | *Ich werde dir das Doppelte bezahlen.*         | *I will pay you the double.*               |
@@ -52,6 +53,7 @@
 | *hören*           | `[Nominative] [Verb] [Accusative]`          | *Ich höre dich.*                               | *I hear you.*                              |
 | *brauchen*        | `[Nominative] [Verb] [Accusative]`          | *Peter, ich brauche dich.*                     | *Peter, I need you.*                       |
 | *glauben*         | `[Nominative] [Verb] [Dative]`              | *Ich glaube ihr.*                              | *I believe her.*                           |
+| *bedeuten*        | `[Nominative] [Verb]`                       | *Wenn du weiß, was ich bedeute.*               | *If you know what I mean.*                 |
 ## References
 ---
 [1] Hammer's German Grammar and Usage, Martin Durrel

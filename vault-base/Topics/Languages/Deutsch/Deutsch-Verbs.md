@@ -49,13 +49,13 @@
 | ---------------------------------- | ----------------------------------- | -------------------------------- |
 | `[Nominative] [Verb] [Accusative]` | *Ich beantworte die Frage von ihm.* | *I answer the questions of his.* |
 
-| Valency (*arbeiten*)  | Example: *Deutsch*           | Example: *English*    |
-| --------------------- | ---------------------------- | --------------------- |
-| `[Nominative] [Verb]` | *Ich arbeite als Ingenieur.* | *I work as engineer.* |
-
 | Valency (*fragen*)                 | Example: *Deutsch*      | Example: *English*     |
 | ---------------------------------- | ----------------------- | ---------------------- |
 | `[Nominative] [Verb] [Accusative]` | *Ich frage mich immer.* | *I ask myself always.* |
+
+| Valency (*arbeiten*)  | Example: *Deutsch*           | Example: *English*    |
+| --------------------- | ---------------------------- | --------------------- |
+| `[Nominative] [Verb]` | *Ich arbeite als Ingenieur.* | *I work as engineer.* |
 
 | Valency (*glauben*)            | Example: *Deutsch* | Example: *English* |
 | ------------------------------ | ------------------ | ------------------ |

@@ -25,17 +25,30 @@
 #### Directory
 ---
 
-| Valency (*spielen*)                | Example: *Deutsch*      | Example: *English*   |
-| ---------------------------------- | ----------------------- | -------------------- |
-| `[Nominative] [Verb] (Accusative)` | *Ich spiele (Fußball).* | *I play (football).* |
+| Valency (*spielen*)                | Example: *Deutsch*                       | Example: *English*                 |
+| ---------------------------------- | ---------------------------------------- | ---------------------------------- |
+| `[Nominative] [Verb] (Accusative)` | *Ich spiele Fußball an den Wochenenden.* | *I play football in the weekends.* |
 
-| Valency (*lernen*)                 | Example: *Deutsch*          | Example: *English*      |
-| ---------------------------------- | --------------------------- | ----------------------- |
-| `[Nominative] [Verb] (Accusative)` | *Ich lerne (eine Sprache).* | *I learn (a language).* |
+| Valency (*lernen*)                 | Example: *Deutsch*            | Example: *English*        |
+| ---------------------------------- | ----------------------------- | ------------------------- |
+| `[Nominative] [Verb] (Accusative)` | *Letztens lerne ich Deutsch.* | *Lately I learn Deutsch.* |
 
-| Valency (*handeln*)   | Example: *Deutsch* | Example: *English* |
-| --------------------- | ------------------ | ------------------ |
-| `[Nominative] [Verb]` | *Ich handle.*      | *I act/deal.*      |
+| Valency (*handeln*)   | Example: *Deutsch*                 | Example: *English*         |
+| --------------------- | ---------------------------------- | -------------------------- |
+| `[Nominative] [Verb]` | *Ich handle, als ich allein wäre.* | *I act, as if I am alone.* |
+
+| Valency (*behandeln*)              | Example: *Deutsch*      | Example: *English*  |
+| ---------------------------------- | ----------------------- | ------------------- |
+| `[Nominative] [Verb] [Accusative]` | *Ich behandle ihn gut.* | *I treat him well.* |
+
+| Valency (*antworten*)          | Example: *Deutsch*                    | Example: *English*                 |
+| ------------------------------ | ------------------------------------- | ---------------------------------- |
+| `[Nominative] [Verb] [Dative]` | *Ich antwortete ihm auf seine Frage.* | *I answered him on his questions.* |
+
+| Valency (*beantworten*)            | Example: *Deutsch*                  | Example: *English*               |
+| ---------------------------------- | ----------------------------------- | -------------------------------- |
+| `[Nominative] [Verb] [Accusative]` | *Ich beantworte die Frage von ihm.* | *I answer the questions of his.* |
+
 ## References
 ---
 [1] Hammer's German Grammar and Usage, Martin Durrel

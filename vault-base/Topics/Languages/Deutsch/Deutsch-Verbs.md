@@ -31,6 +31,7 @@
 | *lernen*          | `[Nominative] [Verb] [Accusative]`          | *Letztens lerne ich Deutsch.*            | *Lately I learn Deutsch.*              |
 | *arbeiten*        | `[Nominative] [Verb]`                       | *Ich arbeite als Ingenieur.*             | *I work as engineer.*                  |
 | *leben*           | `[Nominative] [Verb]`                       | *Ich lebe an der Straße.*                | *I live by the road.*                  |
+| *wohnen*          | `[Nominative] [Verb]`                       | *Ich wohne in Deutschland.*              | *I live in Germany.*                   |
 | *reisen*          | `[Nominative] [Verb]`                       | *Ich reise zu viel.*                     | *I travel a lot.*                      |
 | *machen*          | `[Nominative] [Verb] [Dative] [Accusative]` | *Ich mache dir einen Kaffee.*            | *I am making you coffee.*              |
 | *kaufen*          | `[Nominative] [Verb] [Dative] [Accusative]` | *Ich kaufte dir Blumen.*                 | *I bought you flowers.*                |

@@ -54,13 +54,17 @@
 | *sagen*           | `[Nominative] [Verb] [Dative]`               | *Ich sage ihm.*                                                  | *I believe him.*                                     |
 | *erzählen*        | `[Nominative] [Verb] [Dative] [Accusative]`  | *Ich habe ihnen mein Traum erzählt.*                             | *I told them my dream.*                              |
 | *erklären*        | `[Nominative] [Verb] [Dative] [Accusative]`  | *Ich habe ihr das erklärt.*                                      | *I clarified that to her.*                           |
+| *führen*          | `[Nominative] [Verb] [Accusative]`           | *Ich führte ihn raus.*                                           | *I lead him out.*                                    |
 | *lachen*          | `[Nominative] [Verb]`                        | *Verstehst du jetzt, warum ich lache?*                           | *Do you understand now why I am laughing?*           |
 | *hören*           | `[Nominative] [Verb] [Accusative]`           | *Ich höre dich.*                                                 | *I hear you.*                                        |
+| *interessieren*   | `[Nominative] [Verb] [Accusative/Reflexive]` | *Ich interessiere mich für dich.*                                | *I am interested in you.*                            |
 | *brauchen*        | `[Nominative] [Verb] [Accusative]`           | *Peter, ich brauche dich.*                                       | *Peter, I need you.*                                 |
 | *fehlen*          | `[Nominative] [Verb] [Dative] [Accusative]`  | *Mir fehlt Charisma.*                                            | *I lack charisma.*                                   |
+| *gehören*         | `[Nominative] [Verb] [Dative]`               | *Das gehört mir!*                                                | *That belongs to me!*                                |
 | *glauben*         | `[Nominative] [Verb] [Dative]`               | *Ich glaube ihr.*                                                | *I believe her.*                                     |
 | *bedeuten*        | `[Nominative] [Verb]`                        | *Wenn du weiß, was ich bedeute.*                                 | *If you know what I mean.*                           |
 | *erinnern*        | `[Nominative] [Verb] [Accusative/Reflexive]` | *Ich erinnerte mich.*<br>*Gestern habe ich dich drauf erinnert.* | *I remember.*<br>*I reminded you of this yesterday.* |
+| *fühlen*          | `[Nominative] [Verb] [Accusative]`           | *Ich fühle much ein bisschen traurig.*                           | *I feel a bit sad.*                                  |
 ## References
 ---
 [1] Hammer's German Grammar and Usage, Martin Durrel

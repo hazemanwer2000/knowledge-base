@@ -1,5 +1,6 @@
 ──────── *for more from the author, visit* [github.com/hazemanwer2000](https://github.com/hazemanwer2000). ────────
 ## *Table of Contents*
+
 - [[#Key Verbs|Key Verbs]]
 	- [[#Key Verbs#*werden (will)*|*werden (will)*]]
 	- [[#Key Verbs#*sein (be)*|*sein (be)*]]
@@ -21,12 +22,12 @@
 	- [[#Irregular Verbs#Past Tense from Past Participle|Past Tense from Past Participle]]
 		- [[#Past Tense from Past Participle#Form|Form]]
 		- [[#Past Tense from Past Participle#Directory|Directory]]
-	- [[#Irregular Verbs#Past Tense as "ie"|Past Tense as "ie"]]
-		- [[#Past Tense as "ie"#Form|Form]]
-		- [[#Past Tense as "ie"#Directory|Directory]]
-	- [[#Irregular Verbs#Past Tense as "u"|Past Tense as "u"]]
-		- [[#Past Tense as "u"#Form|Form]]
-		- [[#Past Tense as "u"#Directory|Directory]]
+	- [[#Irregular Verbs#Past Tense as *"ie"*|Past Tense as *"ie"*]]
+		- [[#Past Tense as *"ie"*#Form|Form]]
+		- [[#Past Tense as *"ie"*#Directory|Directory]]
+	- [[#Irregular Verbs#Past Tense as *"u"*|Past Tense as *"u"*]]
+		- [[#Past Tense as *"u"*#Form|Form]]
+		- [[#Past Tense as *"u"*#Directory|Directory]]
 ## Content
 ---
 ### Key Verbs
@@ -222,7 +223,7 @@
 | *verkaufen*           | `[Nominative] [Verb] [Dative] [Accusative]`  | *Du verkauftest mir Blumen.*                                     | *You sold me flowers.*                                  |
 | *bezahlen*            | `[Nominative] [Verb] [Dative] [Accusative]`  | *Ich werde dir das Doppelte bezahlen.*                           | *I will pay you the double.*                            |
 | *suchen*              | `[Nominative] [Verb]`                        | *Ich suche nach etwas zum Anschauen.*                            | *I search for something to watch.*                      |
-| *besuchen*            | `[Nominative] [Verb] [Accusative]`           | *Sie wohnr in der Nähe, Ich besuche sie oft.*                    | *They live nearby, I visit them often.*                 |
+| *besuchen*            | `[Nominative] [Verb] [Accusative]`           | *Sie wohnt in der Nähe, Ich besuche sie oft.*                    | *They live nearby, I visit them often.*                 |
 | *versuchen/probieren* | `[Nominative] [Verb] [Accusative]`           | *Ich werde den Kuchen versuchen/probieren.*                      | *I will try the cake.*                                  |
 | *handeln*             | `[Nominative] [Verb]`                        | *Ich handle, als ich allein wäre.*                               | *I act, as if I am alone.*                              |
 | *behandeln*           | `[Nominative] [Verb] [Accusative]`           | *Ich behandle ihn gut.*                                          | *I treat him well.*                                     |
@@ -292,7 +293,7 @@
 | *helfen*          | *geholfen*             | `[Nominative] [Verb] [Dative]`              | *Ich habe dir immer geholfen.*            | *I always helped you.*           |
 | *werfen*          | *geworfen*             | `[Nominative] [Verb] [Dative] [Accusative]` | *Ich warf ihm den Ball zu.*               | *I threw the ball at him.*       |
 | *sprechen*        | *gesprochen*           | `[Nominative] [Verb]`                       | *Gestern habe ich mit dir gesprochen.*    | *I spoke with you yesterday.*    |
-| *treffen*         | *getroffen*            | `[Nominative] [Verb]`                       | *Gestern have ich mit ihm getroffen.*     | *I met with him yesterday.*      |
+| *treffen*         | *getroffen*            | `[Nominative] [Verb]`                       | *Gestern habe ich mit ihm getroffen.*     | *I met with him yesterday.*      |
 | *gewinnen*        | *gewonnen*             | `[Nominative] [Verb] [Accusative]`          | *Ich habe die Goldmedaille gewonnen.*     | *I won the gold medal.*          |
 | *beginnen*        | *begonnen*             | `[Nominative] [Verb]`                       | *Es begann...*                            | *It began...*                    |
 | *brechen*         | *gebrochen*            | `[Nominative] [Verb] [Dative] [Accusative]` | *Ich werde dir das Genick brechen.*       | *I will break your neck.*        |
@@ -344,7 +345,7 @@
 | *heben*           | *gehoben*              | `[Nominative] [Verb] [Accusative]`          | *Ich hebe Gewichte.*                | *I lift weights.*             |
 | *riechen*         | *gerochen*             | `[Nominative] [Verb]`                       | *Du riecht schlecht.*               | *I smell bad.*                |
 | *fliegen*         | *geflogen*             | `[Nominative] [Verb]`                       | *Der Vogel flog weg.*               | *The bird flew away.*         |
-#### Past Tense as "ie"
+#### Past Tense as *"ie"*
 ---
 ##### Form
 ---
@@ -374,7 +375,7 @@
 | *hängen*          | *gehangen*             | `[Nominative] [Verb]`              | *Sie hing an ihren Haaren.*         | *She hanged by her hair.*        |
 | *gehen*           | *gegangen*             | `[Nominative] [Verb]`              | *Es geht darüber...*                | *It's about that...*             |
 | *fangen*          | *gefangen*             | `[Nominative] [Verb] [Accusative]` | *Endlich habe ich ihn gefangen.*    | *I found him at last.*           |
-#### Past Tense as "u"
+#### Past Tense as *"u"*
 ---
 ##### Form
 ---

@@ -254,14 +254,21 @@
 ##### Directory
 ---
 
-| Verb (Infinitive) | Verb (Past Participle) | Valency                            | Example: *Deutsch*                  | Example: *English*        |
-| ----------------- | ---------------------- | ---------------------------------- | ----------------------------------- | ------------------------- |
-| *sehen*           | *gesehen*              | `[Nominative] [Verb] [Accusative]` | *Ja, ich sehe es.*                  | *Yes, I see it.*          |
-| *essen*           | *gegessen*             | `[Nominative] [Verb] [Accusative]` | *Ich esse einen Kuchen.*            | *I am eating the cake.*   |
-| *trinken*         | *getrunken*            | `[Nominative] [Verb] [Accusative]` | *Ich trinke Wasser.*                | *I am drinking water.*    |
-| *schwimmen*       | *geschwommen*          | `[Nominative] [Verb]`              | *Ich schwimmen an der Wochenenden.* | *I swim in the weekends.* |
-| *nehmen*          | *genommen*             | `[Nominative] [Verb] [Accusative]` | *Ich nahm es.*                      | *I took it.*              |
-| *kommen*          | *gekommen*             | `[Nominative] [Verb]`              | *Ich komme aus Deutschland.*        | *I am from Germany.*      |
+| Verb (Infinitive) | Verb (Past Participle) | Valency                                     | Example: *Deutsch*                     | Example: *English*            |
+| ----------------- | ---------------------- | ------------------------------------------- | -------------------------------------- | ----------------------------- |
+| *sehen*           | *gesehen*              | `[Nominative] [Verb] [Accusative]`          | *Ja, ich sehe es.*                     | *Yes, I see it.*              |
+| *lesen*           | *gelesen*              | `[Nominative] [Verb] [Dative] [Accusative]` | *Ich las ihm das Buch vor.*            | *I read him the book.*        |
+| *essen*           | *gegessen*             | `[Nominative] [Verb] [Accusative]`          | *Ich esse einen Kuchen.*               | *I am eating the cake.*       |
+| *geben*           | *gegeben*              | `[Nominative] [Verb] [Dative] [Accusative]` | *Ich gab dir das Essen.*               | *I gave you the food.*        |
+| *sitzen*          | *gesessen*             | `[Nominative] [Verb]`                       | *Sie saß neben mir.*                   | *She sat next to me.*         |
+| *trinken*         | *getrunken*            | `[Nominative] [Verb] [Accusative]`          | *Ich trinke Wasser.*                   | *I am drinking water.*        |
+| *finden*          | *gefunden*             | `[Nominative] [Verb] [Accusative]`          | *Ich fand es wirklich lustig.*         |                               |
+| *schwimmen*       | *geschwommen*          | `[Nominative] [Verb]`                       | *Ich schwimmen an der Wochenenden.*    | *I swim in the weekends.*     |
+| *nehmen*          | *genommen*             | `[Nominative] [Verb] [Accusative]`          | *Ich nahm es.*                         | *I took it.*                  |
+| *kommen*          | *gekommen*             | `[Nominative] [Verb]`                       | *Ich komme aus Deutschland.*           | *I am from Germany.*          |
+| *helfen*          | *geholfen*             | `[Nominative] [Verb] [Dative]`              | *Ich habe dir immer geholfen.*         | *I always helped you.*        |
+| *werfen*          | *geworfen*             | `[Nominative] [Verb] [Dative] [Accusative]` | *Ich warf ihm den Ball zu.*            | *I threw the ball at him.*    |
+| *sprechen*        | *gesprochen*           | `[Nominative] [Verb]`                       | *Gestern habe ich mit dir gesprochen.* | *I spoke with you yesterday.* |
 #### Class: *bringen*
 ---
 ##### Form
@@ -288,7 +295,7 @@
 | *bringen*         | *gebracht*             | `[Nominative] [Verb] [Dative] [Accusative]` | *Ich brachte dir das Essen.*    | *I brought you the food.* |
 | *denken*          | *gedacht*              | `[Nominative] [Verb]`                       | *Ich habe darüber nachgedacht.* | *I thought about it.*     |
 | *nennen*          | *genannt*              | `[Nominative] [Verb] [Accusative]`          | *Ich habe ihn Alex genannt.*    | *I named him Alex.*       |
-| *brennen*         | *verbrannt*            | `[Nominative] [Verb] [Accusative]`          | *Er verbrannte die Papiere.*    | *He burned the papers.*   |
+| *verbrennen*      | *verbrannt*            | `[Nominative] [Verb] [Accusative]`          | *Er verbrannte die Papiere.*    | *He burned the papers.*   |
 | *stehen*          | *gestanden*            | `[Nominative] [Verb]`                       | *Ich stand auf dem Tisch.*      | *I stood on the table.*   |
 ## References
 ---

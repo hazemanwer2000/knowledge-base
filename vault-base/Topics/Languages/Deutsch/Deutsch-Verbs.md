@@ -12,6 +12,40 @@
 	- [[#Regular Verbs#Directory|Directory]]
 ## Content
 ---
+### Key Verbs
+---
+#### *werden (will)*
+---
+
+| Infinitive | Past Participle | Present Participle |
+| ---------- | --------------- | ------------------ |
+| *werden*   | *geworden*      | *werdend*          |
+
+|             | Present  | Past      | Past-Subjuntive |
+| ----------- | -------- | --------- | --------------- |
+| *ich*       | *werde*  | *wurde*   | *würde*         |
+| *du*        | *wirst*  | *wurdest* | *würdest*       |
+| *er/es/sie* | *wird*   | *wurde*   | *würde*         |
+|             |          |           |                 |
+| *wir*       | *werden* | *wurden*  | *würden*        |
+| *ihr*       | *werdet* | *wurdet*  | *würdet*        |
+| *sie/Sie*   | *werden* | *wurden*  | *würden*        |
+#### *sein (be)*
+---
+
+| Infinitive | Past Participle | Present Participle |
+| ---------- | --------------- | ------------------ |
+| *sein*     | *gewesen*       | *seiend*           |
+
+|             | Present | Past    | Past-Subjuntive |
+| ----------- | ------- | ------- | --------------- |
+| *ich*       | *bin*   | *war*   | *wäre*          |
+| *du*        | *bist*  | *warst* | *wärest*        |
+| *er/es/sie* | *ist*   | *war*   | *wäre*          |
+|             |         |         |                 |
+| *wir*       | *sind*  | *waren* | *wären*         |
+| *ihr*       | *seid*  | *wart*  | *wäret*         |
+| *sie/Sie*   | *sind*  | *waren* | *wären*         |
 ### Modal Auxiliary Verbs
 ---
 #### *dürfen (may)*

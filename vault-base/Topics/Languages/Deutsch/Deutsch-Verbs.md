@@ -44,6 +44,7 @@
 | *folgen*              | `[Nominative] [Verb] [Dative]`               | *Folge mir!*                                                     | *Follow me!*                                            |
 | *legen*               | `[Nominative] [Verb] [Accusative]`           | *Ich lege mich aufs Bett.*                                       | *I am lying on the bed.*                                |
 | *kaufen*              | `[Nominative] [Verb] [Dative] [Accusative]`  | *Ich kaufte dir Blumen.*                                         | *I bought you flowers.*                                 |
+| *verkaufen*           | `[Nominative] [Verb] [Dative] [Accusative]`  | *Du verkauftest mir Blumen.*                                     | *You sold me flowers.*                                  |
 | *bezahlen*            | `[Nominative] [Verb] [Dative] [Accusative]`  | *Ich werde dir das Doppelte bezahlen.*                           | *I will pay you the double.*                            |
 | *suchen*              | `[Nominative] [Verb]`                        | *Ich suche nach etwas zum Anschauen.*                            | *I search for something to watch.*                      |
 | *besuchen*            | `[Nominative] [Verb] [Accusative]`           | *Sie wohnen in der Nähe, Ich besuche sie oft.*                   | *They live nearby, I visit them often.*                 |
@@ -60,6 +61,7 @@
 | *führen*              | `[Nominative] [Verb] [Accusative]`           | *Ich führte ihn raus.*                                           | *I lead him out.*                                       |
 | *lachen*              | `[Nominative] [Verb]`                        | *Verstehst du jetzt, warum ich lache?*                           | *Do you understand now why I am laughing?*              |
 | *hören*               | `[Nominative] [Verb] [Accusative]`           | *Ich höre dich.*                                                 | *I hear you.*                                           |
+| *schmecken*           | `[Nominative] [Verb]`                        | *Es schmeckt so gut.*                                            | *It tastes so good.*                                    |
 | *interessieren*       | `[Nominative] [Verb] [Accusative/Reflexive]` | *Ich interessiere mich für dich.*                                | *I am interested in you.*                               |
 | *kümmern*             | `[Nominative] [Verb] [Accusative/Reflexive]` | *Ich kümmere mich darum nicht.*<br>*Das kümmert mich nicht.*     | *I don't care about that.*<br>*That doesn't bother me.* |
 | *brauchen*            | `[Nominative] [Verb] [Accusative]`           | *Peter, ich brauche dich.*                                       | *Peter, I need you.*                                    |

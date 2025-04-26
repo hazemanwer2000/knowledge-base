@@ -194,6 +194,7 @@
 | *wohnen*              | `[Nominative] [Verb]`                        | *Ich wohne in Deutschland.*                                      | *I live in Germany.*                                    |
 | *reisen*              | `[Nominative] [Verb]`                        | *Ich reise zu viel.*                                             | *I travel a lot.*                                       |
 | *machen*              | `[Nominative] [Verb] [Dative] [Accusative]`  | *Ich mache dir einen Kaffee.*                                    | *I am making you coffee.*                               |
+| *trennen*             | `[Nominative] [Verb]`                        | *Ich habe sie von einander getrennt.*                            | *I separated them from each other.*                     |
 | *bauen*               | `[Nominative] [Verb] [Dative] [Accusative]`  | *Ich baue dir ein neues Haus.*                                   | *I am building you a new house.*                        |
 | *entwickeln*          | `[Nominative] [Verb] [Accusative]`           | *Ich entwickelte eine neue Maschine.*                            | *I am building a new machine.*                          |
 | *öffnen*              | `[Nominative] [Verb] [Accusative]`           | *Ich öffne für Sie die Tür.*                                     | *I am opening the door for you.*                        |
@@ -230,6 +231,61 @@
 | *bedeuten/meinen*     | `[Nominative] [Verb]`                        | *Wenn du weiß, was ich bedeute/meinte.*                          | *If you know what I mean.*                              |
 | *erinnern*            | `[Nominative] [Verb] [Accusative/Reflexive]` | *Ich erinnerte mich.*<br>*Gestern habe ich dich drauf erinnert.* | *I remember.*<br>*I reminded you of this yesterday.*    |
 | *fühlen*              | `[Nominative] [Verb] [Accusative]`           | *Ich fühle much ein bisschen traurig.*                           | *I feel a bit sad.*                                     |
+### Irregular Verbs
+---
+#### Class: *sehen*
+---
+##### Form
+---
+
+| Infinitive | Past Participle |
+| ---------- | --------------- |
+| *sehen*    | *gesehen*       |
+
+|             | Present  | Past    |
+| ----------- | -------- | ------- |
+| *ich*       | *sehe*   | *sah*   |
+| *du*        | *siehst* | *sahst* |
+| *er/es/sie* | *sieht*  | *sah*   |
+|             |          |         |
+| *wir*       | *sehen*  | *sahen* |
+| *ihr*       | *seht*   | *saht*  |
+| *sie/Sie*   | *sehen*  | *sahen* |
+##### Directory
+---
+
+| Verb (Infinitive) | Verb (Past Participle) | Valency                            | Example: *Deutsch*                  | Example: *English*        |
+| ----------------- | ---------------------- | ---------------------------------- | ----------------------------------- | ------------------------- |
+| *sehen*           | *gesehen*              | `[Nominative] [Verb] [Accusative]` | *Ja, ich sehe es.*                  | *Yes, I see it.*          |
+| *schwimmen*       | *geschwommen*          | `[Nominative] [Verb]`              | *Ich schwimmen an der Wochenenden.* | *I swim in the weekends.* |
+| *essen*           | *gegessen*             | `[Nominative] [Verb] [Accusative]` | *Ich esse einen Kuchen.*            | *I am eating the cake.*   |
+| *trinken*         | *getrunken*            | `[Nominative] [Verb] [Accusative]` | *Ich trinke Wasser.*                | *I am drinking water.*    |
+#### Class: *bringen*
+---
+##### Form
+---
+
+| Infinitive | Past Participle |
+| ---------- | --------------- |
+| *bringen*  | *gebracht*      |
+
+|             | Present   | Past        |
+| ----------- | --------- | ----------- |
+| *ich*       | *bringe*  | *brachte*   |
+| *du*        | *bringst* | *brachtest* |
+| *er/es/sie* | *bringt*  | *brachte*   |
+|             |           |             |
+| *wir*       | *bringen* | *brachten*  |
+| *ihr*       | *bringt*  | *brachtet*  |
+| *sie/Sie*   | *bringen* | *brachten*  |
+##### Directory
+---
+
+| Verb (Infinitive) | Verb (Past Participle) | Valency                                     | Example: *Deutsch*              | Example: *English*        |
+| ----------------- | ---------------------- | ------------------------------------------- | ------------------------------- | ------------------------- |
+| *bringen*         | *gebracht*             | `[Nominative] [Verb] [Dative] [Accusative]` | *Ich brachte dir das Essen.*    | *I brought you the food.* |
+| *denken*          | *gedacht*              | `[Nominative] [Verb]`                       | *Ich habe darüber nachgedacht.* | *I thought about it.*     |
+| *nennen*          | *genannt*              | `[Nominative] [Verb] [Accusative]`          | *Ich habe ihn Alex genannt.*    | *I named him Alex.*       |
 ## References
 ---
 [1] Hammer's German Grammar and Usage, Martin Durrel

@@ -1,5 +1,9 @@
 ──────── *for more from the author, visit* [github.com/hazemanwer2000](https://github.com/hazemanwer2000). ────────
 ## *Table of Contents*
+- [[#Key Verbs|Key Verbs]]
+	- [[#Key Verbs#*werden (will)*|*werden (will)*]]
+	- [[#Key Verbs#*sein (be)*|*sein (be)*]]
+	- [[#Key Verbs#*haben (have)*|*haben (have)*]]
 - [[#Modal Auxiliary Verbs|Modal Auxiliary Verbs]]
 	- [[#Modal Auxiliary Verbs#*dürfen (may)*|*dürfen (may)*]]
 	- [[#Modal Auxiliary Verbs#*mögen (like)*|*mögen (like)*]]
@@ -10,6 +14,19 @@
 - [[#Regular Verbs|Regular Verbs]]
 	- [[#Regular Verbs#Form|Form]]
 	- [[#Regular Verbs#Directory|Directory]]
+- [[#Irregular Verbs|Irregular Verbs]]
+	- [[#Irregular Verbs#Past Tense as *"a"*|Past Tense as *"a"*]]
+		- [[#Past Tense as *"a"*#Form|Form]]
+		- [[#Past Tense as *"a"*#Directory|Directory]]
+	- [[#Irregular Verbs#Past Tense from Past Participle|Past Tense from Past Participle]]
+		- [[#Past Tense from Past Participle#Form|Form]]
+		- [[#Past Tense from Past Participle#Directory|Directory]]
+	- [[#Irregular Verbs#Past Tense as "ie"|Past Tense as "ie"]]
+		- [[#Past Tense as "ie"#Form|Form]]
+		- [[#Past Tense as "ie"#Directory|Directory]]
+	- [[#Irregular Verbs#Past Tense as "u"|Past Tense as "u"]]
+		- [[#Past Tense as "u"#Form|Form]]
+		- [[#Past Tense as "u"#Directory|Directory]]
 ## Content
 ---
 ### Key Verbs
@@ -327,7 +344,6 @@
 | *heben*           | *gehoben*              | `[Nominative] [Verb] [Accusative]`          | *Ich hebe Gewichte.*                | *I lift weights.*             |
 | *riechen*         | *gerochen*             | `[Nominative] [Verb]`                       | *Du riecht schlecht.*               | *I smell bad.*                |
 | *fliegen*         | *geflogen*             | `[Nominative] [Verb]`                       | *Der Vogel flog weg.*               | *The bird flew away.*         |
-
 #### Past Tense as "ie"
 ---
 ##### Form

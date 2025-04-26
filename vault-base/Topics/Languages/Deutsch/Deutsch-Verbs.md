@@ -310,13 +310,15 @@
 | *denken*          | *gedacht*              | `[Nominative] [Verb]`                       | *Ich habe darüber nachgedacht.*     | *I thought about it.*         |
 | *nennen*          | *genannt*              | `[Nominative] [Verb] [Accusative]`          | *Ich habe ihn Alex genannt.*        | *I named him Alex.*           |
 | *verbrennen*      | *verbrannt*            | `[Nominative] [Verb] [Accusative]`          | *Er verbrannte die Papiere.*        | *He burned the papers.*       |
-| *kennen*          | *gekannt*              | `[Nominative] [Verb] [Accusative]`          | *Oh, ich kenne dich.*               | *Oh, I know you.*             |
+| *kennen*          | *gekannt*              | `[Nominative] [Verb] [Accusative]`          | *Oh, ich kenne dich.*               | *Oh, I know/recognize you.*   |
+| *wissen*          | *gewusst*              | `[Nominative] [Verb]`                       | *Oh, ich weiß.*                     | *Oh, I know.*                 |
 |                   |                        |                                             |                                     |                               |
 | *stehen*          | *gestanden*            | `[Nominative] [Verb]`                       | *Ich stand auf dem Tisch.*          | *I stood on the table.*       |
 | *bleiben*         | *geblieben*            | `[Nominative] [Verb]`                       | *Bleibe in der Nähe!*               | *Stay nearby!*                |
 | *schreiben*       | *geschrieben*          | `[Nominative] [Verb] [Dative] [Accusative]` | *Ich schreibe dir dieses Buch.*     | *I am writing you this book.* |
 | *steigen*         | *gestiegen*            | `[Nominative] [Verb]`                       | *Ich stieg aus dem Bett.*           | *I climbed out of bed.*       |
 | *schneiden*       | *geschnitten*          | `[Nominative] [Verb] [Dative] [Accusative]` | *Sie schnitt sich die Haare.*       | *She cut her hair.*           |
+| *leiden*          | *gelitten*             | `[Nominative] [Verb]`                       | *Ich leide jeden Tag.*              | *I suffer daily.*             |
 | *scheinen*        | *geschienen*           | `[Nominative] [Verb]`                       | *Die Sonne schien auf ihr Gesicht.* | *The sun shined on her hair.* |
 | *verlieren*       | *verloren*             | `[Nominative] [Verb] [Accusative]`          | *Ich habe es verloren.*             | *I lost it.*                  |
 | *ziehen*          | *gezogen*              | `[Nominative] [Verb] [Accusative]`          | *Er zog sie an den Haaren.*         | *He pulled her by the hair.*  |
@@ -325,6 +327,7 @@
 | *heben*           | *gehoben*              | `[Nominative] [Verb] [Accusative]`          | *Ich hebe Gewichte.*                | *I lift weights.*             |
 | *riechen*         | *gerochen*             | `[Nominative] [Verb]`                       | *Du riecht schlecht.*               | *I smell bad.*                |
 | *fliegen*         | *geflogen*             | `[Nominative] [Verb]`                       | *Der Vogel flog weg.*               | *The bird flew away.*         |
+
 #### Past Tense as "ie"
 ---
 ##### Form
@@ -373,9 +376,12 @@
 ##### Directory
 ---
 
-| Verb (Infinitive) | Verb (Past Participle) | Valency               | Example: *Deutsch*         | Example: *English*        |
-| ----------------- | ---------------------- | --------------------- | -------------------------- | ------------------------- |
-| *fahren*          | *gefahren*             | `[Nominative] [Verb]` | *Ich fahre nach Münichen.* | *I am driving to Munich.* |
+| Verb (Infinitive) | Verb (Past Participle) | Valency                            | Example: *Deutsch*                    | Example: *English*          |
+| ----------------- | ---------------------- | ---------------------------------- | ------------------------------------- | --------------------------- |
+| *fahren*          | *gefahren*             | `[Nominative] [Verb]`              | *Ich fahre nach Münichen.*            | *I am driving to Munich.*   |
+| *tragen*          | *getragen*             | `[Nominative] [Verb] [Accusative]` | *Ich habe heute eine Kappe getragen.* | *I wore a cap today.*       |
+| *waschen*         | *gewaschen*            | `[Nominative] [Verb] [Accusative]` | *Ich wasche meine Haare jeden Tag.*   | *I wash my hair every day.* |
+| *schlagen*        | *geschlagen*           | `[Nominative] [Verb] [Accusative]` | *Gestern habe er mich geschlagen.*    | *He beat me yesterday.*     |
 ## References
 ---
 [1] Hammer's German Grammar and Usage, Martin Durrel

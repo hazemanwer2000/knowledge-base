@@ -303,16 +303,18 @@
 ##### Directory
 ---
 
-| Verb (Infinitive) | Verb (Past Participle) | Valency                                     | Example: *Deutsch*              | Example: *English*        |
-| ----------------- | ---------------------- | ------------------------------------------- | ------------------------------- | ------------------------- |
-| *bringen*         | *gebracht*             | `[Nominative] [Verb] [Dative] [Accusative]` | *Ich brachte dir das Essen.*    | *I brought you the food.* |
-| *denken*          | *gedacht*              | `[Nominative] [Verb]`                       | *Ich habe darüber nachgedacht.* | *I thought about it.*     |
-| *nennen*          | *genannt*              | `[Nominative] [Verb] [Accusative]`          | *Ich habe ihn Alex genannt.*    | *I named him Alex.*       |
-| *verbrennen*      | *verbrannt*            | `[Nominative] [Verb] [Accusative]`          | *Er verbrannte die Papiere.*    | *He burned the papers.*   |
-| *kennen*          | *gekannt*              | `[Nominative] [Verb] [Accusative]`          | *Oh, ich kenne dich.*           | *Oh, I know you.*         |
-|                   |                        |                                             |                                 |                           |
-| *stehen*          | *gestanden*            | `[Nominative] [Verb]`                       | *Ich stand auf dem Tisch.*      | *I stood on the table.*   |
-| *bleiben*         | *geblieben*            | `[Nominative] [Verb]`                       | *Bleibe in der Nähe!*           | *Stay nearby!*            |
+| Verb (Infinitive) | Verb (Past Participle) | Valency                                     | Example: *Deutsch*              | Example: *English*            |
+| ----------------- | ---------------------- | ------------------------------------------- | ------------------------------- | ----------------------------- |
+| *bringen*         | *gebracht*             | `[Nominative] [Verb] [Dative] [Accusative]` | *Ich brachte dir das Essen.*    | *I brought you the food.*     |
+| *denken*          | *gedacht*              | `[Nominative] [Verb]`                       | *Ich habe darüber nachgedacht.* | *I thought about it.*         |
+| *nennen*          | *genannt*              | `[Nominative] [Verb] [Accusative]`          | *Ich habe ihn Alex genannt.*    | *I named him Alex.*           |
+| *verbrennen*      | *verbrannt*            | `[Nominative] [Verb] [Accusative]`          | *Er verbrannte die Papiere.*    | *He burned the papers.*       |
+| *kennen*          | *gekannt*              | `[Nominative] [Verb] [Accusative]`          | *Oh, ich kenne dich.*           | *Oh, I know you.*             |
+|                   |                        |                                             |                                 |                               |
+| *stehen*          | *gestanden*            | `[Nominative] [Verb]`                       | *Ich stand auf dem Tisch.*      | *I stood on the table.*       |
+| *bleiben*         | *geblieben*            | `[Nominative] [Verb]`                       | *Bleibe in der Nähe!*           | *Stay nearby!*                |
+| *schreiben*       | *geschrieben*          | `[Nominative] [Verb] [Dative] [Accusative]` | *Ich schreibe dir dieses Buch.* | *I am writing you this book.* |
+| *steigen*         | *gestiegen*            | `[Nominative] [Verb]`                       | *Ich stieg aus dem Bett.*       | *I climbed out of bed.*       |
 #### #### Past Tense as "ie"
 ---
 ##### Form
@@ -331,13 +333,15 @@
 ##### Directory
 ---
 
-| Verb (Infinitive) | Verb (Past Participle) | Valency                            | Example: *Deutsch*               | Example: *English*               |
-| ----------------- | ---------------------- | ---------------------------------- | -------------------------------- | -------------------------------- |
-| *laufen*          | *gelaufen*             | `[Nominative] [Verb]`              | *Ich lief im Kreis für Stunden.* | *I walked in circles for hours.* |
-| *lassen*          | *gelassen*             | `[Nominative] [Verb] [Accusative]` | *Lass mich in Ruhe!*             | *Leave me alone!*                |
-| *verlassen*       | *verlassen*            | `[Nominative] [Verb] [Accusative]` | *Ich verließ sie für dich.*      | *I left her for you.*            |
-| *fallen*          | *gefallen*             | `[Nominative] [Verb]`              | *Ich habe umgefallen.*           | *I fell over.*                   |
-| *gefallen*        | *gefallen*             | `[Nominative] [Verb] [Dative]`     | *Das gefällt mir!*               | *I like that!*                   |
+| Verb (Infinitive) | Verb (Past Participle) | Valency                            | Example: *Deutsch*                  | Example: *English*               |
+| ----------------- | ---------------------- | ---------------------------------- | ----------------------------------- | -------------------------------- |
+| *laufen*          | *gelaufen*             | `[Nominative] [Verb]`              | *Ich lief im Kreis für Stunden.*    | *I walked in circles for hours.* |
+| *lassen*          | *gelassen*             | `[Nominative] [Verb] [Accusative]` | *Lass mich in Ruhe!*                | *Leave me alone!*                |
+| *verlassen*       | *verlassen*            | `[Nominative] [Verb] [Accusative]` | *Ich verließ sie für dich.*         | *I left her for you.*            |
+| *fallen*          | *gefallen*             | `[Nominative] [Verb]`              | *Ich habe umgefallen.*              | *I fell over.*                   |
+| *gefallen*        | *gefallen*             | `[Nominative] [Verb] [Dative]`     | *Das gefällt mir!*                  | *I like that!*                   |
+| *halten*          | *gehalten*             | `[Nominative] [Verb] [Accusative]` | *Ich halte es für eine gute Idee.*  | *I think it is a good idea.*     |
+| *schlafen*        | *geschlafen*           | `[Nominative] [Verb]`              | *Gestern habe ich spät geschlafen.* | *I slept late last night.*       |
 ## References
 ---
 [1] Hammer's German Grammar and Usage, Martin Durrel

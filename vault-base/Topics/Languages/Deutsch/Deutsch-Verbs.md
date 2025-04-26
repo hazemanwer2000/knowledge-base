@@ -333,6 +333,7 @@
 | *wissen*          | *gewusst*              | `[Nominative] [Verb]`                       | *Oh, ich weiß.*                     | *Oh, I know.*                 |
 |                   |                        |                                             |                                     |                               |
 | *stehen*          | *gestanden*            | `[Nominative] [Verb]`                       | *Ich stand auf dem Tisch.*          | *I stood on the table.*       |
+| *tun*             | *getan*                | `[Nominative] [Verb] [Dative]`              | *Das tut doch keinem weh!*          | *That hurts no-one!*          |
 | *bleiben*         | *geblieben*            | `[Nominative] [Verb]`                       | *Bleibe in der Nähe!*               | *Stay nearby!*                |
 | *schreiben*       | *geschrieben*          | `[Nominative] [Verb] [Dative] [Accusative]` | *Ich schreibe dir dieses Buch.*     | *I am writing you this book.* |
 | *steigen*         | *gestiegen*            | `[Nominative] [Verb]`                       | *Ich stieg aus dem Bett.*           | *I climbed out of bed.*       |

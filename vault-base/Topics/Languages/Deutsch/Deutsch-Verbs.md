@@ -35,9 +35,9 @@
 #### *werden (will)*
 ---
 
-| Infinitive | Past Participle | Present Participle |
-| ---------- | --------------- | ------------------ |
-| *werden*   | *geworden*      | *werdend*          |
+| Infinitive | Past Participle |
+| ---------- | --------------- |
+| *werden*   | *geworden*      |
 
 |             | Present  | Past      | Past-Subjuntive |
 | ----------- | -------- | --------- | --------------- |
@@ -51,9 +51,9 @@
 #### *sein (be)*
 ---
 
-| Infinitive | Past Participle | Present Participle |
-| ---------- | --------------- | ------------------ |
-| *sein*     | *gewesen*       | *seiend*           |
+| Infinitive | Past Participle |
+| ---------- | --------------- |
+| *sein*     | *gewesen*       |
 
 |             | Present | Past    | Past-Subjuntive |
 | ----------- | ------- | ------- | --------------- |
@@ -67,9 +67,9 @@
 #### *haben (have)*
 ---
 
-| Infinitive | Past Participle | Present Participle |
-| ---------- | --------------- | ------------------ |
-| *haben*    | *gehabt*        | *habend*           |
+| Infinitive | Past Participle |
+| ---------- | --------------- |
+| *haben*    | *gehabt*        |
 
 |             | Present | Past      | Past-Subjuntive |
 | ----------- | ------- | --------- | --------------- |
@@ -85,9 +85,9 @@
 #### *dürfen (may)*
 ---
 
-| Infinitive | Past Participle | Present Participle |
-| ---------- | --------------- | ------------------ |
-| *dürfen*   | *gedurft*       | *dürfend*          |
+| Infinitive | Past Participle |
+| ---------- | --------------- |
+| *dürfen*   | *gedurft*       |
 
 |             | Present  | Past       | Past-Subjuntive |
 | ----------- | -------- | ---------- | --------------- |
@@ -101,9 +101,9 @@
 #### *mögen (like)*
 ---
 
-| Infinitive | Past Participle | Present Participle |
-| ---------- | --------------- | ------------------ |
-| *mögen*    | *gemocht*       | *mögend*           |
+| Infinitive | Past Participle |
+| ---------- | --------------- |
+| *mögen*    | *gemocht*       |
 
 |             | Present | Past       | Past-Subjuntive |
 | ----------- | ------- | ---------- | --------------- |
@@ -117,9 +117,9 @@
 #### *können (can)*
 ---
 
-| Infinitive | Past Participle | Present Participle |
-| ---------- | --------------- | ------------------ |
-| *können*   | *gekonnt*       | *könnend*          |
+| Infinitive | Past Participle |
+| ---------- | --------------- |
+| *können*   | *gekonnt*       |
 
 |             | Present  | Past      | Past-Subjuntive |
 | ----------- | -------- | --------- | --------------- |
@@ -133,9 +133,9 @@
 #### *müssen (must)*
 ---
 
-| Infinitive | Past Participle | Present Participle |
-| ---------- | --------------- | ------------------ |
-| *müssen*   | *gemusst*       | *müssend*          |
+| Infinitive | Past Participle |
+| ---------- | --------------- |
+| *müssen*   | *gemusst*       |
 
 |             | Present  | Past       | Past-Subjuntive |
 | ----------- | -------- | ---------- | --------------- |
@@ -149,9 +149,9 @@
 #### *sollen (shall)*
 ---
 
-| Infinitive | Past Participle | Present Participle |
-| ---------- | --------------- | ------------------ |
-| *sollen*   | *gesollt*       | *sollend*          |
+| Infinitive | Past Participle |
+| ---------- | --------------- |
+| *sollen*   | *gesollt*       |
 
 |             | Present  | Past       | Past-Subjuntive |
 | ----------- | -------- | ---------- | --------------- |
@@ -165,9 +165,9 @@
 #### *wollen (want)*
 ---
 
-| Infinitive | Past Participle | Present Participle |
-| ---------- | --------------- | ------------------ |
-| *wollen*   | *gewollt*       | *wollend*          |
+| Infinitive | Past Participle |
+| ---------- | --------------- |
+| *wollen*   | *gewollt*       |
 
 |             | Present  | Past       | Past-Subjuntive |
 | ----------- | -------- | ---------- | --------------- |
@@ -184,9 +184,9 @@
 ---
 *Z. bsp. spielen.*
 
-| Infinitive | Past Participle | Present Participle |
-| ---------- | --------------- | ------------------ |
-| *spielen*  | *gespielt*      | *spielend*         |
+| Infinitive | Past Participle |
+| ---------- | --------------- |
+| *spielen*  | *gespielt*      |
 
 |             | Present   | Past        |
 | ----------- | --------- | ----------- |
@@ -206,6 +206,7 @@
 | *spielen*             | `[Nominative] [Verb] [Accusative]`           | *Ich spiele Fußball an den Wochenenden.*                         | *I play football in the weekends.*                      |
 | *schauen*             | `[Nominative] [Verb] [Accusative]`           | *Ich schaue keine Spiele mehr.*                                  | *I do not watch games anymore.*                         |
 | *tanzen*              | `[Nominative] [Verb]`                        | *Ich will mit dir zu tanzen.*                                    | *I want to dance with you.*                             |
+| *knien*               | `[Nominative] [Verb]`                        | *Ich kniete vor ihr.*                                            | *I knelt before her.*                                   |
 | *lernen*              | `[Nominative] [Verb] [Accusative]`           | *Letztens lerne ich Deutsch.*                                    | *Lately I learn Deutsch.*                               |
 | *arbeiten*            | `[Nominative] [Verb]`                        | *Ich arbeite als Ingenieur.*                                     | *I work as engineer.*                                   |
 | *leben*               | `[Nominative] [Verb]`                        | *Ich lebe an der Straße.*                                        | *I live by the road.*                                   |

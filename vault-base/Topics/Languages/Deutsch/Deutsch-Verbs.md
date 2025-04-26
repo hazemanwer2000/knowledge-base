@@ -355,6 +355,27 @@
 | *hängen*          | *gehangen*             | `[Nominative] [Verb]`              | *Sie hing an ihren Haaren.*         | *She hanged by her hair.*        |
 | *gehen*           | *gegangen*             | `[Nominative] [Verb]`              | *Es geht darüber...*                | *It's about that...*             |
 | *fangen*          | *gefangen*             | `[Nominative] [Verb] [Accusative]` | *Endlich habe ich ihn gefangen.*    | *I found him at last.*           |
+#### Past Tense as "u"
+---
+##### Form
+---
+*Z. Bsp. fahren*
+
+|             | Present  | Past     |
+| ----------- | -------- | -------- |
+| *ich*       | *fahre*  | *fuhr*   |
+| *du*        | *fährst* | *fuhrst* |
+| *er/es/sie* | *fährt*  | *fuhr*   |
+|             |          |          |
+| *wir*       | *fahren* | *fuhren* |
+| *ihr*       | *fahrt*  | *fuhrt*  |
+| *sie/Sie*   | *fahren* | *fuhren* |
+##### Directory
+---
+
+| Verb (Infinitive) | Verb (Past Participle) | Valency               | Example: *Deutsch*         | Example: *English*        |
+| ----------------- | ---------------------- | --------------------- | -------------------------- | ------------------------- |
+| *fahren*          | *gefahren*             | `[Nominative] [Verb]` | *Ich fahre nach Münichen.* | *I am driving to Munich.* |
 ## References
 ---
 [1] Hammer's German Grammar and Usage, Martin Durrel

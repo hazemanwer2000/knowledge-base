@@ -57,6 +57,8 @@
 | *reden*               | `[Nominative] [Verb]`                        | *Ich rede mit Väter.*                                            | *I am talking with father.*                             |
 | *sagen*               | `[Nominative] [Verb] [Dative]`               | *Ich sage ihm.*                                                  | *I believe him.*                                        |
 | *erzählen*            | `[Nominative] [Verb] [Dative] [Accusative]`  | *Ich habe ihnen mein Traum erzählt.*                             | *I told them my dream.*                                 |
+| *zeigen*              | `[Nominative] [Verb] [Dative] [Accusative]`  | *Ich werde dir etwas zeigen.*                                    | *I will show you something.*                            |
+| *warten*              | `[Nominative] [Verb] [Accusative]`           | *Ich werde auf dich warten.*                                     | *I will wait for you.*                                  |
 | *erklären*            | `[Nominative] [Verb] [Dative] [Accusative]`  | *Ich habe ihr das erklärt.*                                      | *I clarified that to her.*                              |
 | *führen*              | `[Nominative] [Verb] [Accusative]`           | *Ich führte ihn raus.*                                           | *I lead him out.*                                       |
 | *lachen*              | `[Nominative] [Verb]`                        | *Verstehst du jetzt, warum ich lache?*                           | *Do you understand now why I am laughing?*              |

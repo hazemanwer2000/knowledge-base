@@ -1,5 +1,12 @@
 ──────── *for more from the author, visit* [github.com/hazemanwer2000](https://github.com/hazemanwer2000). ────────
 ## *Table of Contents*
+- [[#Modal Auxiliary Verbs|Modal Auxiliary Verbs]]
+	- [[#Modal Auxiliary Verbs#*dürfen (may)*|*dürfen (may)*]]
+	- [[#Modal Auxiliary Verbs#*mögen (like)*|*mögen (like)*]]
+	- [[#Modal Auxiliary Verbs#*können (can)*|*können (can)*]]
+	- [[#Modal Auxiliary Verbs#*müssen (must)*|*müssen (must)*]]
+	- [[#Modal Auxiliary Verbs#*sollen (shall)*|*sollen (shall)*]]
+	- [[#Modal Auxiliary Verbs#*wollen (want)*|*wollen (want)*]]
 - [[#Regular Verbs|Regular Verbs]]
 	- [[#Regular Verbs#Form|Form]]
 	- [[#Regular Verbs#Directory|Directory]]
@@ -7,7 +14,7 @@
 ---
 ### Modal Auxiliary Verbs
 ---
-### *dürfen (may)*
+#### *dürfen (may)*
 ---
 
 | Infinitive | Past Participle | Present Participle |
@@ -23,7 +30,7 @@
 | *wir*       | *dürfen* | *durften*  | *dürften*       |
 | *ihr*       | *dürft*  | *durftet*  | *dürftet*       |
 | *sie/Sie*   | *dürfen* | *durften*  | *dürften*       |
-### *mögen (like)*
+#### *mögen (like)*
 ---
 
 | Infinitive | Past Participle | Present Participle |
@@ -39,7 +46,7 @@
 | *wir*       | *mögen* | *mochten*  | *möchten*       |
 | *ihr*       | *mögt*  | *mochtet*  | *möchtet*       |
 | *sie/Sie*   | *mögen* | *mochten*  | *möchten*       |
-### *können (can)*
+#### *können (can)*
 ---
 
 | Infinitive | Past Participle | Present Participle |
@@ -55,7 +62,7 @@
 | *wir*       | *können* | *konnten* | *könnten*       |
 | *ihr*       | *könnt*  | *konntet* | *könntet*       |
 | *sie/Sie*   | *können* | *konnten* | *könnten*       |
-### *müssen (must)*
+#### *müssen (must)*
 ---
 
 | Infinitive | Past Participle | Present Participle |
@@ -71,7 +78,7 @@
 | *wir*       | *müssen* | *mussten*  | *müssten*       |
 | *ihr*       | *müsst*  | *musstet*  | *müsstet*       |
 | *sie/Sie*   | *müssen* | *mussten*  | *müssten*       |
-### *sollen (shall)*
+#### *sollen (shall)*
 ---
 
 | Infinitive | Past Participle | Present Participle |
@@ -87,7 +94,7 @@
 | *wir*       | *sollen* | *sollten*  | *sollten*       |
 | *ihr*       | *sollt*  | *solltet*  | *solltet*       |
 | *sie/Sie*   | *sollen* | *sollten*  | *sollten*       |
-### *wollen (want)*
+#### *wollen (want)*
 ---
 
 | Infinitive | Past Participle | Present Participle |

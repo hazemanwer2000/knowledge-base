@@ -5,6 +5,40 @@
 	- [[#Regular Verbs#Directory|Directory]]
 ## Content
 ---
+### Modal Auxiliary Verbs
+---
+### *dürfen (may)*
+---
+
+| Infinitive | Past Participle | Present Participle |
+| ---------- | --------------- | ------------------ |
+| *dürfen*   | *gedurft*       | *dürfend*          |
+
+|             | Present  | Past       | Past-Subjuntive |
+| ----------- | -------- | ---------- | --------------- |
+| *ich*       | *darf*   | *durfte*   | *dürfte*        |
+| *du*        | *darfst* | *durftest* | *dürftest*      |
+| *er/es/sie* | *darf*   | *durfte*   | *dürfte*        |
+|             |          |            |                 |
+| *wir*       | *dürfen* | *durften*  | *dürften*       |
+| *ihr*       | *dürft*  | *durftet*  | *dürftet*       |
+| *sie/Sie*   | *dürfen* | *durften*  | *dürften*       |
+### *mögen (like)*
+---
+
+| Infinitive | Past Participle | Present Participle |
+| ---------- | --------------- | ------------------ |
+| *mögen*    | *gemocht*       | *mögend*           |
+
+|             | Present | Past       | Past-Subjuntive |
+| ----------- | ------- | ---------- | --------------- |
+| *ich*       | *mag*   | *mochte*   | *möchte*        |
+| *du*        | *magst* | *mochtest* | *möchtest*      |
+| *er/es/sie* | *mag*   | *mochte*   | *möchte*        |
+|             |         |            |                 |
+| *wir*       | *mögen* | *mochten*  | *möchten*       |
+| *ihr*       | *mögt*  | *mochtet*  | *möchtet*       |
+| *sie/Sie*   | *mögen* | *mochten*  | *möchten*       |
 ### Regular Verbs
 ---
 #### Form
@@ -49,7 +83,7 @@
 | *verkaufen*           | `[Nominative] [Verb] [Dative] [Accusative]`  | *Du verkauftest mir Blumen.*                                     | *You sold me flowers.*                                  |
 | *bezahlen*            | `[Nominative] [Verb] [Dative] [Accusative]`  | *Ich werde dir das Doppelte bezahlen.*                           | *I will pay you the double.*                            |
 | *suchen*              | `[Nominative] [Verb]`                        | *Ich suche nach etwas zum Anschauen.*                            | *I search for something to watch.*                      |
-| *besuchen*            | `[Nominative] [Verb] [Accusative]`           | *Sie wohnen in der Nähe, Ich besuche sie oft.*                   | *They live nearby, I visit them often.*                 |
+| *besuchen*            | `[Nominative] [Verb] [Accusative]`           | *Sie wohnr in der Nähe, Ich besuche sie oft.*                    | *They live nearby, I visit them often.*                 |
 | *versuchen/probieren* | `[Nominative] [Verb] [Accusative]`           | *Ich werde den Kuchen versuchen/probieren.*                      | *I will try the cake.*                                  |
 | *handeln*             | `[Nominative] [Verb]`                        | *Ich handle, als ich allein wäre.*                               | *I act, as if I am alone.*                              |
 | *behandeln*           | `[Nominative] [Verb] [Accusative]`           | *Ich behandle ihn gut.*                                          | *I treat him well.*                                     |

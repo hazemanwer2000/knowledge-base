@@ -1,9 +1,10 @@
 ## *Sub-topics!*
 ---
 * [[Deutsch-Grammar]]
-* [[Deutsch-Verbs]]
 * [[Deutsch-Prepositions]]
+* [[Deutsch-Verbs]]
 * [[Deutsch-Nouns]]
+* [[Deutsch-Adjectives]]
 ## *Content*
 ---
 La-bla!

@@ -282,7 +282,7 @@
 | *sterben*         | *gestorben*            | `[Nominative] [Verb]`                       | *Wenn ich sterbe...*                      | *If I die...*                    |
 | *befehlen*        | *befohlen*             | `[Nominative] [Verb] [Dative]`              | *Ich befehle dir!*                        | *I command you!*                 |
 | *stehlen*         | *gestohlen*            | `[Nominative] [Verb] [Accusative]`          | *Dieses, das ich von dir gestohlen habe.* | *This is what I stole from you.* |
-#### #### Past Tense from Past Participle
+#### Past Tense from Past Participle
 ---
 ##### Form
 ---
@@ -318,7 +318,10 @@
 | *steigen*         | *gestiegen*            | `[Nominative] [Verb]`                       | *Ich stieg aus dem Bett.*           | *I climbed out of bed.*       |
 | *schneiden*       | *geschnitten*          | `[Nominative] [Verb] [Dative] [Accusative]` | *Sie schnitt sich die Haare.*       | *She cut her hair.*           |
 | *scheinen*        | *geschienen*           | `[Nominative] [Verb]`                       | *Die Sonne schien auf ihr Gesicht.* | *The sun shined on her hair.* |
-#### #### Past Tense as "ie"
+| *verlieren*       | *verloren*             | `[Nominative] [Verb] [Accusative]`          | *Ich habe es verloren.*             | *I lost it.*                  |
+| *ziehen*          | *gezogen*              | `[Nominative] [Verb] [Accusative]`          | *Er zog sie an den Haaren.*         | *He pulled her by the hair.*  |
+| *lügen*           | *gelogen*              | `[Nominative] [Verb]`                       | *Er log.*                           | *He lied.*                    |
+#### Past Tense as "ie"
 ---
 ##### Form
 ---

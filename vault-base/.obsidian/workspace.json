@@ -35,8 +35,7 @@
               "title": "Deutsch-Verbs"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -174,11 +173,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6c850fd1a6c86a53",
+  "active": "1e838eefaa994b50",
   "lastOpenFiles": [
+    "Topics/Languages/Deutsch/Deutsch-Verbs.md",
     "Deutsch-Nouns.md",
     "Welcome.md",
-    "Topics/Languages/Deutsch/Deutsch-Verbs.md",
     "Topics/Languages/Deutsch.md",
     "Topics/Languages.md",
     "Topics/Finance.md",

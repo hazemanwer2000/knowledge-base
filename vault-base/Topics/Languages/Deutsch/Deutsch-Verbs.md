@@ -346,6 +346,7 @@
 | *heben*           | *gehoben*              | `[Nominative] [Verb] [Accusative]`          | *Ich hebe Gewichte.*                | *I lift weights.*             |
 | *riechen*         | *gerochen*             | `[Nominative] [Verb]`                       | *Du riecht schlecht.*               | *I smell bad.*                |
 | *fliegen*         | *geflogen*             | `[Nominative] [Verb]`                       | *Der Vogel flog weg.*               | *The bird flew away.*         |
+| *kriechen*        | *gekrochen*            | `[Nominative] [Verb]`                       | *Es kroch weg...*                   | *It crawled away...*          |
 #### Past Tense as *"ie"*
 ---
 ##### Form

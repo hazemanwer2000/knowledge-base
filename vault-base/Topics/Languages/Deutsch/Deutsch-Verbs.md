@@ -220,6 +220,7 @@
 | *erklären*            | `[Nominative] [Verb] [Dative] [Accusative]`  | *Ich habe ihr das erklärt.*                                      | *I clarified that to her.*                              |
 | *führen*              | `[Nominative] [Verb] [Accusative]`           | *Ich führte ihn raus.*                                           | *I lead him out.*                                       |
 | *lachen*              | `[Nominative] [Verb]`                        | *Verstehst du jetzt, warum ich lache?*                           | *Do you understand now why I am laughing?*              |
+| *schmerzen*           | `[Nominative] [Verb]`                        | *Es schmerzt.*                                                   | *It hurts.*                                             |
 | *hören*               | `[Nominative] [Verb] [Accusative]`           | *Ich höre dich.*                                                 | *I hear you.*                                           |
 | *schmecken*           | `[Nominative] [Verb]`                        | *Es schmeckt so gut.*                                            | *It tastes so good.*                                    |
 | *interessieren*       | `[Nominative] [Verb] [Accusative/Reflexive]` | *Ich interessiere mich für dich.*                                | *I am interested in you.*                               |
@@ -303,18 +304,20 @@
 ##### Directory
 ---
 
-| Verb (Infinitive) | Verb (Past Participle) | Valency                                     | Example: *Deutsch*              | Example: *English*            |
-| ----------------- | ---------------------- | ------------------------------------------- | ------------------------------- | ----------------------------- |
-| *bringen*         | *gebracht*             | `[Nominative] [Verb] [Dative] [Accusative]` | *Ich brachte dir das Essen.*    | *I brought you the food.*     |
-| *denken*          | *gedacht*              | `[Nominative] [Verb]`                       | *Ich habe darüber nachgedacht.* | *I thought about it.*         |
-| *nennen*          | *genannt*              | `[Nominative] [Verb] [Accusative]`          | *Ich habe ihn Alex genannt.*    | *I named him Alex.*           |
-| *verbrennen*      | *verbrannt*            | `[Nominative] [Verb] [Accusative]`          | *Er verbrannte die Papiere.*    | *He burned the papers.*       |
-| *kennen*          | *gekannt*              | `[Nominative] [Verb] [Accusative]`          | *Oh, ich kenne dich.*           | *Oh, I know you.*             |
-|                   |                        |                                             |                                 |                               |
-| *stehen*          | *gestanden*            | `[Nominative] [Verb]`                       | *Ich stand auf dem Tisch.*      | *I stood on the table.*       |
-| *bleiben*         | *geblieben*            | `[Nominative] [Verb]`                       | *Bleibe in der Nähe!*           | *Stay nearby!*                |
-| *schreiben*       | *geschrieben*          | `[Nominative] [Verb] [Dative] [Accusative]` | *Ich schreibe dir dieses Buch.* | *I am writing you this book.* |
-| *steigen*         | *gestiegen*            | `[Nominative] [Verb]`                       | *Ich stieg aus dem Bett.*       | *I climbed out of bed.*       |
+| Verb (Infinitive) | Verb (Past Participle) | Valency                                     | Example: *Deutsch*                  | Example: *English*            |
+| ----------------- | ---------------------- | ------------------------------------------- | ----------------------------------- | ----------------------------- |
+| *bringen*         | *gebracht*             | `[Nominative] [Verb] [Dative] [Accusative]` | *Ich brachte dir das Essen.*        | *I brought you the food.*     |
+| *denken*          | *gedacht*              | `[Nominative] [Verb]`                       | *Ich habe darüber nachgedacht.*     | *I thought about it.*         |
+| *nennen*          | *genannt*              | `[Nominative] [Verb] [Accusative]`          | *Ich habe ihn Alex genannt.*        | *I named him Alex.*           |
+| *verbrennen*      | *verbrannt*            | `[Nominative] [Verb] [Accusative]`          | *Er verbrannte die Papiere.*        | *He burned the papers.*       |
+| *kennen*          | *gekannt*              | `[Nominative] [Verb] [Accusative]`          | *Oh, ich kenne dich.*               | *Oh, I know you.*             |
+|                   |                        |                                             |                                     |                               |
+| *stehen*          | *gestanden*            | `[Nominative] [Verb]`                       | *Ich stand auf dem Tisch.*          | *I stood on the table.*       |
+| *bleiben*         | *geblieben*            | `[Nominative] [Verb]`                       | *Bleibe in der Nähe!*               | *Stay nearby!*                |
+| *schreiben*       | *geschrieben*          | `[Nominative] [Verb] [Dative] [Accusative]` | *Ich schreibe dir dieses Buch.*     | *I am writing you this book.* |
+| *steigen*         | *gestiegen*            | `[Nominative] [Verb]`                       | *Ich stieg aus dem Bett.*           | *I climbed out of bed.*       |
+| *schneiden*       | *geschnitten*          | `[Nominative] [Verb] [Dative] [Accusative]` | *Sie schnitt sich die Haare.*       | *She cut her hair.*           |
+| *scheinen*        | *geschienen*           | `[Nominative] [Verb]`                       | *Die Sonne schien auf ihr Gesicht.* | *The sun shined on her hair.* |
 #### #### Past Tense as "ie"
 ---
 ##### Form
@@ -342,6 +345,8 @@
 | *gefallen*        | *gefallen*             | `[Nominative] [Verb] [Dative]`     | *Das gefällt mir!*                  | *I like that!*                   |
 | *halten*          | *gehalten*             | `[Nominative] [Verb] [Accusative]` | *Ich halte es für eine gute Idee.*  | *I think it is a good idea.*     |
 | *schlafen*        | *geschlafen*           | `[Nominative] [Verb]`              | *Gestern habe ich spät geschlafen.* | *I slept late last night.*       |
+| *hängen*          | *gehangen*             | `[Nominative] [Verb]`              | *Sie hing an ihren Haaren.*         | *She hanged by her hair.*        |
+| *gehen*           | *gegangen*             | `[Nominative] [Verb]`              | *Es geht darüber...*                | *It's about that...*             |
 ## References
 ---
 [1] Hammer's German Grammar and Usage, Martin Durrel

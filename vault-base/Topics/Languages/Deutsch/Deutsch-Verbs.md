@@ -46,6 +46,22 @@
 | *wir*       | *sind*  | *waren* | *wären*         |
 | *ihr*       | *seid*  | *wart*  | *wäret*         |
 | *sie/Sie*   | *sind*  | *waren* | *wären*         |
+#### *haben (have)*
+---
+
+| Infinitive | Past Participle | Present Participle |
+| ---------- | --------------- | ------------------ |
+| *haben*    | *gehabt*        | *habend*           |
+
+|             | Present | Past      | Past-Subjuntive |
+| ----------- | ------- | --------- | --------------- |
+| *ich*       | *habe*  | *hatte*   | *hätte*         |
+| *du*        | *hast*  | *hattest* | *hättest*       |
+| *er/es/sie* | *hat*   | *hatte*   | *hätte*         |
+|             |         |           |                 |
+| *wir*       | *haben* | *hatten*  | *hätten*        |
+| *ihr*       | *habt*  | *hattet*  | *hättet*        |
+| *sie/Sie*   | *haben* | *hatten*  | *hätten*        |
 ### Modal Auxiliary Verbs
 ---
 #### *dürfen (may)*

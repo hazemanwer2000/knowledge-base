@@ -52,6 +52,12 @@ An Accusative/Dative Preposition applies,
 | *über*      | *over*                 |
 | *in*        | *in*                   |
 | *zwischen*  | *between*              |
+### Genitive Prepositions
+---
+
+| Preposition | Example: *Deutsch*    | Example: *English*   |
+| ----------- | --------------------- | -------------------- |
+| *während*   | *während der Sitzung* | *during the session* |
 ## References
 ---
 [1] Hammer's German Grammar and Usage, Martin Durrel

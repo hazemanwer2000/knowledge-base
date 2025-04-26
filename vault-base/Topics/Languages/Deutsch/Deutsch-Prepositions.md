@@ -1,6 +1,9 @@
 ──────── *for more from the author, visit* [github.com/hazemanwer2000](https://github.com/hazemanwer2000). ────────
 ## *Table of Contents*
 
+- [[#Accusative Prepositions|Accusative Prepositions]]
+- [[#Dative Prepositions|Dative Prepositions]]
+- [[#Accusative/Dative Prepositions|Accusative/Dative Prepositions]]
 ## Content
 ---
 ### Accusative Prepositions
@@ -28,6 +31,27 @@
 | *nach*       | *Er ging nach Hause.*           | *He went home.*                   |
 | *zu*         | *Er ist zu Hause.*              | *He is at home.*                  |
 | *seit*       | *Er ist seit drei Wochen hier.* | *He's been here for three weeks.* |
+### Accusative/Dative Prepositions
+---
+An Accusative/Dative Preposition applies,
+* the Accusative Case, if, either,
+	* direction is indicated, or,
+	* it is used to discuss an abstract concept.
+* the Dative Case, if,
+	* position is indicated.
+
+| Preposition | Translation: *English* |
+| ----------- | ---------------------- |
+| *hinter*    | *behind*               |
+| *neben*     | *beside*               |
+| *vor*       | *in front*             |
+|             |                        |
+| *an/auf*    | *on*                   |
+| *unter*     | *unter*                |
+|             |                        |
+| *über*      | *over*                 |
+| *in*        | *in*                   |
+| *zwischen*  | *between*              |
 ## References
 ---
 [1] Hammer's German Grammar and Usage, Martin Durrel

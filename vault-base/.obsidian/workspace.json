@@ -35,7 +35,8 @@
               "title": "Deutsch-Grammar"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -173,13 +174,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1dea7439e925ea75",
+  "active": "c66ca3939bd9f6f9",
   "lastOpenFiles": [
+    "Topics/Languages/Deutsch/Deutsch-Verbs.md",
     "Topics/Techcraft/OS/AUTOSAR/General/AUTOSAR-SW-Components.md",
     "Topics/Techcraft/OS/AUTOSAR.md",
     "Topics/Techcraft/OS.md",
     "Topics/TechCraft.md",
-    "Topics/Languages/Deutsch/Deutsch-Verbs.md",
     "Topics/Languages/Deutsch/Deutsch-Grammar.md",
     "Topics/Finance/Financial-Statements.md",
     "Topics/Finance.md",

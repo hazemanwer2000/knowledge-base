@@ -241,7 +241,7 @@ The form of a **Verb** varies based on,
 ---
 ##### Simple Tenses
 ---
-*Z. bsp. spielen*.
+*Z. Bsp. spielen*.
 
 |             | Present   | Past        |
 | ----------- | --------- | ----------- |
@@ -260,7 +260,7 @@ For every Verb,
 * its **Future Tense** consists of the Present Tense of *werden*, and the **Infinitive Form** of the Verb.
 * Its **Future-Perfect Tense** consists of the Present Tense of werden, and the Infinitive Form of the Verb and either *sein* or *haben*, respectively.
 
-*Z. bsp. spielen*.
+*Z. Bsp. spielen*.
 * Perfect Tense
 	* *Ich habe mit dem Ball gespielt.*
 * Past-Perfect Tense
@@ -282,7 +282,7 @@ In both types,
 * the Verb is replaced with either *werden* or *sein*, respectively, and,
 * the Past Participle of the Verb is used.
 
-*Z. bsp. schließen*
+*Z. Bsp. schließen*
 * Simple Tenses
 	* Present Tense
 		* *Die Tür ist geschlossen.*
@@ -305,7 +305,7 @@ In everyday speech, the Tenses of the Subjunctive Mood used are,
 * Past-Perfect Tense, employing the Past-Subjunctive Tense of either *sein* or *haben* (i.e., depending on the Verb).
 * Future and Future-Perfect Tenses, employing the Past-Subjunctive Tense of *werden*.
 
-*Z. bsp. spielen*
+*Z. Bsp. spielen*
 * Past-Perfect Tense
 	* *Ich hätte gespielt.*
 * Future Tense

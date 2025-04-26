@@ -321,6 +321,9 @@
 | *verlieren*       | *verloren*             | `[Nominative] [Verb] [Accusative]`          | *Ich habe es verloren.*             | *I lost it.*                  |
 | *ziehen*          | *gezogen*              | `[Nominative] [Verb] [Accusative]`          | *Er zog sie an den Haaren.*         | *He pulled her by the hair.*  |
 | *lügen*           | *gelogen*              | `[Nominative] [Verb]`                       | *Er log.*                           | *He lied.*                    |
+| *betrügen*        | *betrogen*             | `[Nominative] [Verb] [Accusative]`          | *Er hat mich betrogen.*             | *He cheated on me.*           |
+| *heben*           | *gehoben*              | `[Nominative] [Verb] [Accusative]`          | *Ich hebe Gewichte.*                | *I lift weights.*             |
+| *riechen*         | *gerochen*             | `[Nominative] [Verb]`                       | *Du riecht schlecht.*               | *I smell bad.*                |
 #### Past Tense as "ie"
 ---
 ##### Form
@@ -350,6 +353,7 @@
 | *schlafen*        | *geschlafen*           | `[Nominative] [Verb]`              | *Gestern habe ich spät geschlafen.* | *I slept late last night.*       |
 | *hängen*          | *gehangen*             | `[Nominative] [Verb]`              | *Sie hing an ihren Haaren.*         | *She hanged by her hair.*        |
 | *gehen*           | *gegangen*             | `[Nominative] [Verb]`              | *Es geht darüber...*                | *It's about that...*             |
+| *fangen*          | *gefangen*             | `[Nominative] [Verb] [Accusative]` | *Endlich habe ich ihn gefangen.*    | *I found him at last.*           |
 ## References
 ---
 [1] Hammer's German Grammar and Usage, Martin Durrel

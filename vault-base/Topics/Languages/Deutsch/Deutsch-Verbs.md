@@ -39,6 +39,38 @@
 | *wir*       | *mögen* | *mochten*  | *möchten*       |
 | *ihr*       | *mögt*  | *mochtet*  | *möchtet*       |
 | *sie/Sie*   | *mögen* | *mochten*  | *möchten*       |
+### *können (can)*
+---
+
+| Infinitive | Past Participle | Present Participle |
+| ---------- | --------------- | ------------------ |
+| *können*   | *gekonnt*       | *könnend*          |
+
+|             | Present  | Past      | Past-Subjuntive |
+| ----------- | -------- | --------- | --------------- |
+| *ich*       | *kann*   | *konnte*  | *könnte*        |
+| *du*        | *kannst* | *kontest* | *köntest*       |
+| *er/es/sie* | *kann*   | *konnte*  | *könnte*        |
+|             |          |           |                 |
+| *wir*       | *können* | *konnten* | *könnten*       |
+| *ihr*       | *könnt*  | *konntet* | *könntet*       |
+| *sie/Sie*   | *können* | *konnten* | *könnten*       |
+### *müssen (must)*
+---
+
+| Infinitive | Past Participle | Present Participle |
+| ---------- | --------------- | ------------------ |
+| *müssen*   | *gemusst*       | *müssend*          |
+
+|             | Present  | Past       | Past-Subjuntive |
+| ----------- | -------- | ---------- | --------------- |
+| *ich*       | *muss*   | *musste*   | *müsste*        |
+| *du*        | *musst*  | *musstest* | *müsstest*      |
+| *er/es/sie* | *muss*   | *musste*   | *müsste*        |
+|             |          |            |                 |
+| *wir*       | *müssen* | *mussten*  | *müssten*       |
+| *ihr*       | *müsst*  | *musstet*  | *müsstet*       |
+| *sie/Sie*   | *müssen* | *mussten*  | *müssten*       |
 ### Regular Verbs
 ---
 #### Form

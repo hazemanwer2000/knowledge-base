@@ -233,14 +233,11 @@
 | *fühlen*              | `[Nominative] [Verb] [Accusative]`           | *Ich fühle much ein bisschen traurig.*                           | *I feel a bit sad.*                                     |
 ### Irregular Verbs
 ---
-#### *Z. Bsp. sehen*
+#### Past Tense as *"a"*
 ---
 ##### Form
 ---
-
-| Infinitive | Past Participle |
-| ---------- | --------------- |
-| *sehen*    | *gesehen*       |
+*Z. Bsp. sehen*
 
 |             | Present  | Past    |
 | ----------- | -------- | ------- |
@@ -264,6 +261,7 @@
 | *sitzen*          | *gesessen*             | `[Nominative] [Verb]`                       | *Sie saß neben mir.*                      | *She sat next to me.*            |
 | *betreten*        | *betreten*             | `[Nominative] [Verb] [Accusative]`          | *Ich betrat das Zimmer.*                  | *I entered the room.*            |
 | *vergessen*       | *vergessen*            | `[Nominative] [Verb]`                       | *Ich vergaß, was zu sagen.*               | *I forgot, what to say.*         |
+| *messen*          | *gemessen*             | `[Nominative] [Verb]`                       | *Ich messe das Für und Wider...*          | *I measure the pros and cons.*   |
 |                   |                        |                                             |                                           |                                  |
 | *trinken*         | *getrunken*            | `[Nominative] [Verb] [Accusative]`          | *Ich trinke Wasser.*                      | *I am drinking water.*           |
 | *finden*          | *gefunden*             | `[Nominative] [Verb] [Accusative]`          | *Ich fand es wirklich lustig.*            | *I found it really fun.*         |
@@ -283,10 +281,11 @@
 | *sterben*         | *gestorben*            | `[Nominative] [Verb]`                       | *Wenn ich sterbe...*                      | *If I die...*                    |
 | *befehlen*        | *befohlen*             | `[Nominative] [Verb] [Dative]`              | *Ich befehle dir!*                        | *I command you!*                 |
 | *stehlen*         | *gestohlen*            | `[Nominative] [Verb] [Accusative]`          | *Dieses, das ich von dir gestohlen habe.* | *This is what I stole from you.* |
-#### *Z. Bsp. bringen*
+#### #### Past Tense from Past Participle
 ---
 ##### Form
 ---
+*Z. Bsp. bringen*
 
 | Infinitive | Past Participle |
 | ---------- | --------------- |
@@ -313,6 +312,29 @@
 | *kennen*          | *gekannt*              | `[Nominative] [Verb] [Accusative]`          | *Oh, ich kenne dich.*           | *Oh, I know you.*         |
 |                   |                        |                                             |                                 |                           |
 | *stehen*          | *gestanden*            | `[Nominative] [Verb]`                       | *Ich stand auf dem Tisch.*      | *I stood on the table.*   |
+| *bleiben*         | *geblieben*            | `[Nominative] [Verb]`                       | *Bleibe in der Nähe!*           | *Stay nearby!*            |
+#### #### Past Tense as "ie"
+---
+##### Form
+---
+*Z. Bsp. laufen*
+
+|             | Present  | Past     |
+| ----------- | -------- | -------- |
+| *ich*       | *laufe*  | *lief*   |
+| *du*        | *läufst* | *liefst* |
+| *er/es/sie* | *läuft*  | *lief*   |
+|             |          |          |
+| *wir*       | *laufen* | *liefen* |
+| *ihr*       | *lauft*  | *lieft*  |
+| *sie/Sie*   | *laufen* | *liefen* |
+##### Directory
+---
+
+| Verb (Infinitive) | Verb (Past Participle) | Valency                            | Example: *Deutsch*               | Example: *English*               |
+| ----------------- | ---------------------- | ---------------------------------- | -------------------------------- | -------------------------------- |
+| *laufen*          | *gelaufen*             | `[Nominative] [Verb]`              | *Ich lief im Kreis für Stunden.* | *I walked in circles for hours.* |
+| *lassen*          | *gelassen*             | `[Nominative] [Verb] [Accusative]` | *Lass mich in Ruhe!*             | *Leave me alone!*                |
 ## References
 ---
 [1] Hammer's German Grammar and Usage, Martin Durrel

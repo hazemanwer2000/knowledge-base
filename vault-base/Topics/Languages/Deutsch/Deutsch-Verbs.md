@@ -335,6 +335,9 @@
 | ----------------- | ---------------------- | ---------------------------------- | -------------------------------- | -------------------------------- |
 | *laufen*          | *gelaufen*             | `[Nominative] [Verb]`              | *Ich lief im Kreis für Stunden.* | *I walked in circles for hours.* |
 | *lassen*          | *gelassen*             | `[Nominative] [Verb] [Accusative]` | *Lass mich in Ruhe!*             | *Leave me alone!*                |
+| *verlassen*       | *verlassen*            | `[Nominative] [Verb] [Accusative]` | *Ich verließ sie für dich.*      | *I left her for you.*            |
+| *fallen*          | *gefallen*             | `[Nominative] [Verb]`              | *Ich habe umgefallen.*           | *I fell over.*                   |
+| *gefallen*        | *gefallen*             | `[Nominative] [Verb] [Dative]`     | *Das gefällt mir!*               | *I like that!*                   |
 ## References
 ---
 [1] Hammer's German Grammar and Usage, Martin Durrel

@@ -257,9 +257,11 @@
 | Verb (Infinitive) | Verb (Past Participle) | Valency                            | Example: *Deutsch*                  | Example: *English*        |
 | ----------------- | ---------------------- | ---------------------------------- | ----------------------------------- | ------------------------- |
 | *sehen*           | *gesehen*              | `[Nominative] [Verb] [Accusative]` | *Ja, ich sehe es.*                  | *Yes, I see it.*          |
-| *schwimmen*       | *geschwommen*          | `[Nominative] [Verb]`              | *Ich schwimmen an der Wochenenden.* | *I swim in the weekends.* |
 | *essen*           | *gegessen*             | `[Nominative] [Verb] [Accusative]` | *Ich esse einen Kuchen.*            | *I am eating the cake.*   |
 | *trinken*         | *getrunken*            | `[Nominative] [Verb] [Accusative]` | *Ich trinke Wasser.*                | *I am drinking water.*    |
+| *schwimmen*       | *geschwommen*          | `[Nominative] [Verb]`              | *Ich schwimmen an der Wochenenden.* | *I swim in the weekends.* |
+| *nehmen*          | *genommen*             | `[Nominative] [Verb] [Accusative]` | *Ich nahm es.*                      | *I took it.*              |
+| *kommen*          | *gekommen*             | `[Nominative] [Verb]`              | *Ich komme aus Deutschland.*        | *I am from Germany.*      |
 #### Class: *bringen*
 ---
 ##### Form
@@ -286,6 +288,8 @@
 | *bringen*         | *gebracht*             | `[Nominative] [Verb] [Dative] [Accusative]` | *Ich brachte dir das Essen.*    | *I brought you the food.* |
 | *denken*          | *gedacht*              | `[Nominative] [Verb]`                       | *Ich habe darüber nachgedacht.* | *I thought about it.*     |
 | *nennen*          | *genannt*              | `[Nominative] [Verb] [Accusative]`          | *Ich habe ihn Alex genannt.*    | *I named him Alex.*       |
+| *brennen*         | *verbrannt*            | `[Nominative] [Verb] [Accusative]`          | *Er verbrannte die Papiere.*    | *He burned the papers.*   |
+| *stehen*          | *gestanden*            | `[Nominative] [Verb]`                       | *Ich stand auf dem Tisch.*      | *I stood on the table.*   |
 ## References
 ---
 [1] Hammer's German Grammar and Usage, Martin Durrel

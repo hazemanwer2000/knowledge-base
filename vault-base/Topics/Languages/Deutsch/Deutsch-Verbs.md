@@ -71,6 +71,38 @@
 | *wir*       | *müssen* | *mussten*  | *müssten*       |
 | *ihr*       | *müsst*  | *musstet*  | *müsstet*       |
 | *sie/Sie*   | *müssen* | *mussten*  | *müssten*       |
+### *sollen (shall)*
+---
+
+| Infinitive | Past Participle | Present Participle |
+| ---------- | --------------- | ------------------ |
+| *sollen*   | *gesollt*       | *sollend*          |
+
+|             | Present  | Past       | Past-Subjuntive |
+| ----------- | -------- | ---------- | --------------- |
+| *ich*       | *soll*   | *sollte*   | *sollte*        |
+| *du*        | *sollst* | *solltest* | *solltest*      |
+| *er/es/sie* | *soll*   | *sollte*   | *sollte*        |
+|             |          |            |                 |
+| *wir*       | *sollen* | *sollten*  | *sollten*       |
+| *ihr*       | *sollt*  | *solltet*  | *solltet*       |
+| *sie/Sie*   | *sollen* | *sollten*  | *sollten*       |
+### *wollen (want)*
+---
+
+| Infinitive | Past Participle | Present Participle |
+| ---------- | --------------- | ------------------ |
+| *wollen*   | *gewollt*       | *wollend*          |
+
+|             | Present  | Past       | Past-Subjuntive |
+| ----------- | -------- | ---------- | --------------- |
+| *ich*       | *will*   | *wollte*   | *wollte*        |
+| *du*        | *willst* | *wolltest* | *wolltest*      |
+| *er/es/sie* | *will*   | *wollte*   | *wollte*        |
+|             |          |            |                 |
+| *wir*       | *wollen* | *wollten*  | *wollten*       |
+| *ihr*       | *wollt*  | *wolltet*  | *wolltet*       |
+| *sie/Sie*   | *wollen* | *wollten*  | *wollten*       |
 ### Regular Verbs
 ---
 #### Form

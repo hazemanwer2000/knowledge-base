@@ -261,14 +261,21 @@
 | *essen*           | *gegessen*             | `[Nominative] [Verb] [Accusative]`          | *Ich esse einen Kuchen.*               | *I am eating the cake.*       |
 | *geben*           | *gegeben*              | `[Nominative] [Verb] [Dative] [Accusative]` | *Ich gab dir das Essen.*               | *I gave you the food.*        |
 | *sitzen*          | *gesessen*             | `[Nominative] [Verb]`                       | *Sie saß neben mir.*                   | *She sat next to me.*         |
+| *betreten*        | *betreten*             | `[Nominative] [Verb] [Accusative]`          | *Ich betrat das Zimmer.*               | *I entered the room.*         |
+| *vergessen*       | *vergessen*            | `[Nominative] [Verb]`                       | *Ich vergaß, was zu sagen.*            | *I forgot, what to say.*      |
 | *trinken*         | *getrunken*            | `[Nominative] [Verb] [Accusative]`          | *Ich trinke Wasser.*                   | *I am drinking water.*        |
-| *finden*          | *gefunden*             | `[Nominative] [Verb] [Accusative]`          | *Ich fand es wirklich lustig.*         |                               |
+| *finden*          | *gefunden*             | `[Nominative] [Verb] [Accusative]`          | *Ich fand es wirklich lustig.*         | *I found it really fun.*      |
 | *schwimmen*       | *geschwommen*          | `[Nominative] [Verb]`                       | *Ich schwimmen an der Wochenenden.*    | *I swim in the weekends.*     |
 | *nehmen*          | *genommen*             | `[Nominative] [Verb] [Accusative]`          | *Ich nahm es.*                         | *I took it.*                  |
 | *kommen*          | *gekommen*             | `[Nominative] [Verb]`                       | *Ich komme aus Deutschland.*           | *I am from Germany.*          |
 | *helfen*          | *geholfen*             | `[Nominative] [Verb] [Dative]`              | *Ich habe dir immer geholfen.*         | *I always helped you.*        |
 | *werfen*          | *geworfen*             | `[Nominative] [Verb] [Dative] [Accusative]` | *Ich warf ihm den Ball zu.*            | *I threw the ball at him.*    |
 | *sprechen*        | *gesprochen*           | `[Nominative] [Verb]`                       | *Gestern habe ich mit dir gesprochen.* | *I spoke with you yesterday.* |
+| *treffen*         | *getroffen*            | `[Nominative] [Verb]`                       | *Gestern have ich mit ihm getroffen.*  | *I met with him yesterday.*   |
+| *gewinnen*        | *gewonnen*             | `[Nominative] [Verb] [Accusative]`          | *Ich habe die Goldmedaille gewonnen.*  | *I won the gold medal.*       |
+| *beginnen*        | *begonnen*             | `[Nominative] [Verb]`                       | *Es begann...*                         | *It began...*                 |
+| *brechen*         | *gebrochen*            | `[Nominative] [Verb] [Dative] [Accusative]` | *Ich werde dir das Genick brechen.*    | *I will break your neck.*     |
+| *sterben*         | *gestorben*            | `[Nominative] [Verb]`                       | *Wenn ich sterbe...*                   | *If I die...*                 |
 #### Class: *bringen*
 ---
 ##### Form
@@ -297,6 +304,7 @@
 | *nennen*          | *genannt*              | `[Nominative] [Verb] [Accusative]`          | *Ich habe ihn Alex genannt.*    | *I named him Alex.*       |
 | *verbrennen*      | *verbrannt*            | `[Nominative] [Verb] [Accusative]`          | *Er verbrannte die Papiere.*    | *He burned the papers.*   |
 | *stehen*          | *gestanden*            | `[Nominative] [Verb]`                       | *Ich stand auf dem Tisch.*      | *I stood on the table.*   |
+| *kennen*          | *gekannt*              | `[Nominative] [Verb] [Accusative]`          | *Oh, ich kenne dich.*           | *Oh, I know you.*         |
 ## References
 ---
 [1] Hammer's German Grammar and Usage, Martin Durrel

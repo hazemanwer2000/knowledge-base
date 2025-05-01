@@ -253,24 +253,23 @@
 ##### Speech
 ---
 
-| Verb (Infinitive) | Past Participle | Past Tense | Valency                 | Example                                |
-| ----------------- | --------------- | ---------- | ----------------------- | -------------------------------------- |
-| *sagen*           | -               | -          | `[Dative]`              | *Ich sage ihm.*                        |
-| *erzählen*        | -               | -          | `[Dative] [Accusative]` | *Ich habe ihnen mein Traum erzählt.*   |
-| *reden*           | -               | -          | -                       | *Ich rede mit Väter.*                  |
-| *sprechen*        | *gesprochen*    | *sprach*   | -                       | *Gestern habe ich mit dir gesprochen.* |
-| *lesen*           | *gelesen*       | *laß*      | `[Dative] [Accusative]` | *Ich las ihm das Buch vor.*            |
-| *hören*           | -               | -          | `[Accusative]`          | *Ich höre dich.*                       |
-| *schreiben*       | *geschrieben*   | *schrieb*  | `[Dative] [Accusative]` | *Ich schreibe dir dieses Buch.*        |
-| *beantworten*     | -               | -          | `[Accusative]`          | *Ich beantworte die Frage von ihm.*    |
-| *fragen*          | -               | -          | `[Accusative]`          | *Ich frage mich immer.*                |
-| *erklären*        | -               | -          | `[Accusative]`          | *Ich habe ihr das erklärt.*            |
-| *bedeuten/meinen* | -               | -          | `[Accusative]`          | *Wenn du weiß, was ich bedeute/meine.* |
-| *denken*          | *gedacht*       | *dachte*   | -                       | *Ich habe darüber nachgedacht.*        |
-| *nennen*          | *genannt*       | *nannte*   | `[Accusative]`          | *Ich habe ihn Alex genannt.*           |
-| *heißen*          | *geheißen*      | *hieß*     | -                       | *Ich heiße Sam.*                       |
-| *lügen*           | *gelogen*       | *log*      | -                       | *Er log.*                              |
-
+| Verb (Infinitive) | Past Participle | Past Tense  | Valency                 | Example                                |
+| ----------------- | --------------- | ----------- | ----------------------- | -------------------------------------- |
+| *sagen*           | -               | -           | `[Dative]`              | *Ich sage ihm.*                        |
+| *erzählen*        | -               | -           | `[Dative] [Accusative]` | *Ich habe ihnen mein Traum erzählt.*   |
+| *reden*           | -               | -           | -                       | *Ich rede mit Väter.*                  |
+| *sprechen*        | *gesprochen*    | *sprach*    | -                       | *Gestern habe ich mit dir gesprochen.* |
+| *lesen*           | *gelesen*       | *laß*       | `[Dative] [Accusative]` | *Ich las ihm das Buch vor.*            |
+| *hören*           | -               | -           | `[Accusative]`          | *Ich höre dich.*                       |
+| *schreiben*       | *geschrieben*   | *schrieb*   | `[Dative] [Accusative]` | *Ich schreibe dir dieses Buch.*        |
+| *beantworten*     | -               | -           | `[Accusative]`          | *Ich beantworte die Frage von ihm.*    |
+| *fragen*          | -               | -           | `[Accusative]`          | *Ich frage mich immer.*                |
+| *erklären*        | -               | -           | `[Accusative]`          | *Ich habe ihr das erklärt.*            |
+| *beschreiben*     | *beschrieben*   | *beschrieb* | `[Dative] [Accusative]` | *Ich beschreibe dir diese Idee.*       |
+| *bedeuten/meinen* | -               | -           | `[Accusative]`          | *Wenn du weiß, was ich bedeute/meine.* |
+| *denken*          | *gedacht*       | *dachte*    | -                       | *Ich habe darüber nachgedacht.*        |
+| *nennen*          | *genannt*       | *nannte*    | `[Accusative]`          | *Ich habe ihn Alex genannt.*           |
+| *heißen*          | *geheißen*      | *hieß*      | -                       | *Ich heiße Sam.*                       |
 ##### Humanities
 ---
 
@@ -288,12 +287,10 @@
 | *führen*              | -               | -           | `[Accusative]`           | *Ich führte ihn raus.*                                           |
 | *befehlen*            | *befohlen*      | *befahl*    | `[Dative]`               | *Ich befehle dir!*                                               |
 | *folgen*              | -               | -           | `[Dative]`               | *Folge mir!*                                                     |
-| *erreichen*           | -               | -           | -                        | *Heute habe ich mein Ziel erreicht.*                             |
 | *entwickeln*          | -               | -           | `[Accusative]`           | *Ich habe Gefühle für sie entwickelt.*                           |
+| *erreichen*           | -               | -           | -                        | *Heute habe ich mein Ziel erreicht.*                             |
 | *gehören*             | -               | -           | `[Dative]`               | *Sie gehört mir!*                                                |
-| *glauben*             | -               | -           | `[Dative]`               | *Glaubst du mir?*                                                |
 | *zeigen*              | -               | -           | `[Dative] [Accusative]`  | *Ich werde dir etwas zeigen.*                                    |
-| *trennen*             | -               | -           | `[Accusative/Reflexive]` | *Sie haben sich voneinander getrennt.*                           |
 | *erinnern*            | -               | -           | `[Accusative/Reflexive]` | *Ich erinnerte mich.*<br>*Gestern habe ich dich drauf erinnert.* |
 | *kennen*              | *gekannt*       | *kannte*    | `[Accusative]`           | *Oh, ich kenne dich.*                                            |
 | *wissen*              | *gewusst*       | *wusste*    | -                        | *Oh, ich weiß.*                                                  |
@@ -303,6 +300,7 @@
 | *riechen*             | *gerochen*      | *roch*      | -                        | *Es riecht schlecht.*                                            |
 | *brauchen*            | -               | -           | -                        | *Peter, ich brauche dich.*                                       |
 | *fehlen*              | -               | -           | -                        | *Mir fehlt Charisma.*                                            |
+| *glauben*             | -               | -           | `[Dative]`               | *Glaubst du mir?*                                                |
 | *vergeben*            | *vergeben*      | *vergab*    | `[Dative]`               | *Ich vergebe ihm.*                                               |
 | *vermissen*           | -               | -           | `[Accusative]`           | *Ich vermisse ihn.*                                              |
 | *vergessen*           | *vergessen*     | *vergaß*    | -                        | *Ich vergaß, was zu sagen.*                                      |
@@ -322,7 +320,9 @@
 | *genießen*            | *genossen*      | *genoss*    | `[Accusative]`           | *Ich genieße es.*                                                |
 | *heiraten*            | *geheiratet*    | *heiratete* | `[Accusative]`           | *Ich werde sie heiraten.*                                        |
 | *betrügen*            | *betrogen*      | *betrog*    | `[Accusative]`           | *Er hat mich betrogen.*                                          |
+| *lügen*               | *gelogen*       | *log*       | -                        | *Er log.*                                                        |
 | *verlassen*           | *verlassen*     | *verließ*   | `[Accusative]`           | *Ich verließ sie für dich.*                                      |
+| *trennen*             | -               | -           | `[Accusative/Reflexive]` | *Sie haben sich voneinander getrennt.*                           |
 | *sterben*             | *gestorben*     | *starb*     | -                        | *Wenn ich sterbe (...)*                                          |
 
 ##### Normal Activities
@@ -400,38 +400,6 @@
 | ----------------- | --------------- | ---------- | ------- | ----------------------------------------------------- |
 | *regnen*          | -               | -          | -       | *Wenn es regnet, bleiben wir den ganzen Tag drinnen.* |
 | *scheinen*        | *geschienen*    | *schien*   | -       | *Die Sonne schien auf ihr Gesicht.*                   |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-| Verb (Infinitive) | Past Participle | Past Tense   | Valency | Example                        |
-| ----------------- | --------------- | ------------ | ------- | ------------------------------ |
-
-
-
-| Verb (Infinitive) | Past Participle | Past Tense | Valency        | Example                 |
-| ----------------- | --------------- | ---------- | -------------- | ----------------------- |
-
-
-
-| Verb (Infinitive) | Past Participle | Past Tense | Valency        | Example                            |
-| ----------------- | --------------- | ---------- | -------------- | ---------------------------------- |
 
 ## References
 ---

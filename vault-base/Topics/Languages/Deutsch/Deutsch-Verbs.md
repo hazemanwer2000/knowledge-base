@@ -253,12 +253,94 @@
 ##### Speech
 ---
 
-| Verb (Infinitive) | Verb (Past Participle) | Valency                            | Example: *Deutsch*                    | Example: *English*          |
-| ----------------- | ---------------------- | ---------------------------------- | ------------------------------------- | --------------------------- |
-| *fahren*          | *gefahren*             | `[Nominative] [Verb]`              | *Ich fahre nach Münichen.*            | *I am driving to Munich.*   |
-| *tragen*          | *getragen*             | `[Nominative] [Verb] [Accusative]` | *Ich habe heute eine Kappe getragen.* | *I wore a cap today.*       |
-| *waschen*         | *gewaschen*            | `[Nominative] [Verb] [Accusative]` | *Ich wasche meine Haare jeden Tag.*   | *I wash my hair every day.* |
-| *schlagen*        | *geschlagen*           | `[Nominative] [Verb] [Accusative]` | *Gestern habe er mich geschlagen.*    | *He beat me yesterday.*     |
+| Verb (Infinitive) | Past Participle | Past Tense | Valency                 | Example                                |
+| ----------------- | --------------- | ---------- | ----------------------- | -------------------------------------- |
+| *sagen*           | -               | -          | `[Dative]`              | *Ich sage ihm.*                        |
+| *erzählen*        | -               | -          | `[Dative] [Accusative]` | *Ich habe ihnen mein Traum erzählt.*   |
+| *reden*           | -               | -          | -                       | *Ich rede mit Väter.*                  |
+| *sprechen*        | *gesprochen*    | *sprach*   | -                       | *Gestern habe ich mit dir gesprochen.* |
+| *lesen*           | *gelesen*       | *laß*      | `[Dative] [Accusative]` | *Ich las ihm das Buch vor.*            |
+| *hören*           | -               | -          | `[Accusative]`          | *Ich höre dich.*                       |
+| *beantworten*     | -               | -          | `[Accusative]`          | *Ich beantworte die Frage von ihm.*    |
+| *fragen*          | -               | -          | `[Accusative]`          | *Ich frage mich immer.*                |
+| *erklären*        | -               | -          | `[Accusative]`          | *Ich habe ihr das erklärt.*            |
+| *bedeuten/meinen* | -               | -          | `[Accusative]`          | *Wenn du weiß, was ich bedeute/meine.* |
+##### Humanities
+---
+
+| Verb (Infinitive)     | Past Participle | Past Tense | Valency                  | Example                                                          |
+| --------------------- | --------------- | ---------- | ------------------------ | ---------------------------------------------------------------- |
+| *lachen*              | -               | -          | -                        | *Verstehst du jetzt, warum ich lache?*                           |
+| *lächeln*             | -               | -          | -                        | *Ich lächelte sie an.*                                           |
+| *interessieren*       | -               | -          | `[Accusative/Reflexive]` | *Ich interessiere mich für dich.*                                |
+| *kümmern*             | -               | -          | `[Accusative/Reflexive]` | *Ich kümmere mich darum nicht.*<br>*Das kümmert mich nicht.*     |
+| *fühlen*              | -               | -          | `[Accusative/Reflexive]` | *Ich fühle mich ein bisschen traurig.*                           |
+| *handeln*             | -               | -          | -                        | *Ich handle, als ich allein wäre.*                               |
+| *behandeln*           | -               | -          | `[Accusative/Reflexive]` | *Ich behandle ihn gut.*                                          |
+| *versuchen/probieren* | -               | -          | `[Accusative]`           | *Ich werde den Kuchen versuchen/probieren.*                      |
+| *warten*              | -               | -          | -                        | *Ich werde auf dich warten.*                                     |
+| *führen*              | -               | -          | `[Accusative]`           | *Ich führte ihn raus.*                                           |
+| *erreichen*           | -               | -          | -                        | *Heute habe ich mein Ziel erreicht.*                             |
+| *entwickeln*          | -               | -          | `[Accusative]`           | *Ich habe Gefühle für sie entwickelt.*                           |
+| *gehören*             | -               | -          | `[Dative]`               | *Sie gehört mir!*                                                |
+| *glauben*             | -               | -          | `[Dative]`               | *Glaubst du mir?*                                                |
+| *zeigen*              | -               | -          | `[Dative] [Accusative]`  | *Ich werde dir etwas zeigen.*                                    |
+| *trennen*             | -               | -          | `[Accusative/Reflexive]` | *Sie haben sich voneinander getrennt.*                           |
+| *erinnern*            | -               | -          | `[Accusative/Reflexive]` | *Ich erinnerte mich.*<br>*Gestern habe ich dich drauf erinnert.* |
+| *folgen*              | -               | -          | `[Dative]`               | *Folge mir!*                                                     |
+| *schmerzen*           | -               | -          | -                        | *Es schmerzt.*                                                   |
+| *schmecken*           | -               | -          | -                        | *Es schmeckt so gut.*                                            |
+| *brauchen*            | -               | -          | -                        | *Peter, ich brauche dich.*                                       |
+| *fehlen*              | -               | -          | -                        | *Mir fehlt Charisma.*                                            |
+| *vergeben*            | *vergeben*      | *vergab*   | `[Dative]`               | *Ich vergebe ihm.*                                               |
+| *vermissen*           | -               | -          | `[Accusative]`           | *Ich vermisse ihn.*                                              |
+| *vergessen*           | *vergessen*     | *vergaß*   | -                        | *Ich vergaß, was zu sagen.*                                      |
+##### Normal Activities
+---
+
+| Verb (Infinitive) | Past Participle | Past Tense | Valency                 | Example                                       |
+| ----------------- | --------------- | ---------- | ----------------------- | --------------------------------------------- |
+| *spielen*         | -               | -          | `[Accusative]`          | *Ich spiele Fußball an den Wochenenden.*      |
+| *arbeiten*        | -               | -          | -                       | *Ich arbeite als Ingenieur.*                  |
+| *essen*           | *gegessen*      | *aß*       | `[Accusative]`          | *Ich esse einen Kuchen.*                      |
+| *trinken*         | *getrunken*     | *trank*    | `[Accusative]`          | *Ich trinke Wasser.*                          |
+| *lernen*          | -               | -          | `[Accusative]`          | *Letztens lerne ich Deutsch.*                 |
+| *tanzen*          | -               | -          | -                       | *Ich will mit dir zu tanzen.*                 |
+| *sehen*           | *gesehen*       | *sah*      | `[Accusative]`          | *Ja, ich sehe es.*                            |
+| *schauen*         | -               | -          | `[Accusative]`          | *Ich schaue keine Spiele mehr.*               |
+| *wohnen*          | -               | -          | -                       | *Ich wohne in Deutschland.*                   |
+| *leben*           | -               | -          | -                       | *Ich lebe an der Straße.*                     |
+| *machen*          | -               | -          | `[Dative] [Accusative]` | *Ich mache dir einen Kaffee.*                 |
+| *bauen*           | -               | -          | `[Dative] [Accusative]` | *Ich baue dir ein neues Haus.*                |
+| *suchen*          | -               | -          | -                       | *Ich suche nach etwas zum Anschauen.*         |
+| *finden*          | *gefunden*      | *fand*     | `[Accusative]`          | *Ich fand es wirklich lustig.*                |
+| *reisen*          | -               | -          | -                       | *Ich reise zu viel.*                          |
+| *fliegen*         | *geflogen*      | *flog*     | -                       | *Der Vogel flog weg.*                         |
+| *öffnen*          | -               |            | `[Accusative]`          | *Ich öffne für Sie die Tür.*                  |
+| *legen*           | -               | -          | `[Accusative]`          | *Ich lege mich aufs Bett.*                    |
+| *liegen*          | *gelegen*       | *lag*      | `[Accusative]`          | *Ich liege mich auf dem Bett.*                |
+| *sitzen*          | *gesessen*      | *saß*      | -                       | *Sie saß neben mir.*                          |
+| *betreten*        | *betreten*      | *betrat*   | `[Accusative]`          | *Ich betrat das Zimmer.*                      |
+| *besuchen*        | -               | -          | `[Accusative]`          | *Sie wohnt in der Nähe, Ich besuche sie oft.* |
+| *kaufen*          | -               | -          | `[Dative] [Accusative]` | *Ich kaufte dir Blumen.*                      |
+| *verkaufen*       | -               | -          | `[Dative] [Accusative]` | *Du verkauftest mir Blumen.*                  |
+| *bezahlen*        | -               | -          | `[Dative] [Accusative]` | *Ich bezahle dir das Doppelte.*               |
+| *geben*           | *gegeben*       | *gab*      | `[Dative] [Accusative]` | *Ich gab dir das Essen.*                      |
+| *nehmen*          | *genommen*      | *nahm*     | `[Accusative]`          | *Ich nahm es.*                                |
+##### Abnormal Activities
+---
+
+| Verb (Infinitive) | Past Participle | Past Tense | Valency        | Example                        |
+| ----------------- | --------------- | ---------- | -------------- | ------------------------------ |
+| *knien*           | -               | -          | -              | *Er kniete vor ihr.*           |
+| *kriechen*        | *gekrochen*     | *kroch*    | -              | *Er kroch zu ihr.*             |
+| *binden*          | *gebunden*      | *band*     | `[Accusative]` | *Ich band die Beine zusammen.* |
+##### Impersonal
+---
+
+| Verb (Infinitive) | Past Participle | Past Tense | Valency | Example                                               |
+| ----------------- | --------------- | ---------- | ------- | ----------------------------------------------------- |
+| *regnen*          | -               | -          | -       | *Wenn es regnet, bleiben wir den ganzen Tag drinnen.* |
 
 
 
@@ -279,134 +361,66 @@
 
 
 
-| Verb (Infinitive)     | Valency                                      | Example: *Deutsch*                                               | Example: *English*                                      |
-| --------------------- | -------------------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------- |
-| *regnen*              | `[Nominative] [Verb]`                        | *Wenn es regnet, bleiben wir den ganzen Tag drinnen.*            | *If it rains, we stay indoors for the day.*             |
-| *spielen*             | `[Nominative] [Verb] [Accusative]`           | *Ich spiele Fußball an den Wochenenden.*                         | *I play football in the weekends.*                      |
-| *schauen*             | `[Nominative] [Verb] [Accusative]`           | *Ich schaue keine Spiele mehr.*                                  | *I do not watch games anymore.*                         |
-| *tanzen*              | `[Nominative] [Verb]`                        | *Ich will mit dir zu tanzen.*                                    | *I want to dance with you.*                             |
-| *knien*               | `[Nominative] [Verb]`                        | *Ich kniete vor ihr.*                                            | *I knelt before her.*                                   |
-| *lernen*              | `[Nominative] [Verb] [Accusative]`           | *Letztens lerne ich Deutsch.*                                    | *Lately I learn Deutsch.*                               |
-| *arbeiten*            | `[Nominative] [Verb]`                        | *Ich arbeite als Ingenieur.*                                     | *I work as engineer.*                                   |
-| *leben*               | `[Nominative] [Verb]`                        | *Ich lebe an der Straße.*                                        | *I live by the road.*                                   |
-| *wohnen*              | `[Nominative] [Verb]`                        | *Ich wohne in Deutschland.*                                      | *I live in Germany.*                                    |
-| *reisen*              | `[Nominative] [Verb]`                        | *Ich reise zu viel.*                                             | *I travel a lot.*                                       |
-| *machen*              | `[Nominative] [Verb] [Dative] [Accusative]`  | *Ich mache dir einen Kaffee.*                                    | *I am making you coffee.*                               |
-| *trennen*             | `[Nominative] [Verb]`                        | *Ich habe sie von einander getrennt.*                            | *I separated them from each other.*                     |
-| *bauen*               | `[Nominative] [Verb] [Dative] [Accusative]`  | *Ich baue dir ein neues Haus.*                                   | *I am building you a new house.*                        |
-| *entwickeln*          | `[Nominative] [Verb] [Accusative]`           | *Ich entwickelte eine neue Maschine.*                            | *I am building a new machine.*                          |
-| *öffnen*              | `[Nominative] [Verb] [Accusative]`           | *Ich öffne für Sie die Tür.*                                     | *I am opening the door for you.*                        |
-| *erreichen*           | `[Nominative] [Verb] [Accusative]`           | *Heute habe ich mein Ziel erreicht.*                             | *I reached my goal today.*                              |
-| *folgen*              | `[Nominative] [Verb] [Dative]`               | *Folge mir!*                                                     | *Follow me!*                                            |
-| *legen*               | `[Nominative] [Verb] [Accusative]`           | *Ich lege mich aufs Bett.*                                       | *I am lying on the bed.*                                |
-| *kaufen*              | `[Nominative] [Verb] [Dative] [Accusative]`  | *Ich kaufte dir Blumen.*                                         | *I bought you flowers.*                                 |
-| *verkaufen*           | `[Nominative] [Verb] [Dative] [Accusative]`  | *Du verkauftest mir Blumen.*                                     | *You sold me flowers.*                                  |
-| *bezahlen*            | `[Nominative] [Verb] [Dative] [Accusative]`  | *Ich werde dir das Doppelte bezahlen.*                           | *I will pay you the double.*                            |
-| *suchen*              | `[Nominative] [Verb]`                        | *Ich suche nach etwas zum Anschauen.*                            | *I search for something to watch.*                      |
-| *besuchen*            | `[Nominative] [Verb] [Accusative]`           | *Sie wohnt in der Nähe, Ich besuche sie oft.*                    | *They live nearby, I visit them often.*                 |
-| *versuchen/probieren* | `[Nominative] [Verb] [Accusative]`           | *Ich werde den Kuchen versuchen/probieren.*                      | *I will try the cake.*                                  |
-| *handeln*             | `[Nominative] [Verb]`                        | *Ich handle, als ich allein wäre.*                               | *I act, as if I am alone.*                              |
-| *behandeln*           | `[Nominative] [Verb] [Accusative]`           | *Ich behandle ihn gut.*                                          | *I treat him well.*                                     |
-| *antworten*           | `[Nominative] [Verb] [Dative]`               | *Ich antwortete ihm auf seine Frage.*                            | *I responded to him on his questions.*                  |
-| *beantworten*         | `[Nominative] [Verb] [Accusative]`           | *Ich beantworte die Frage von ihm.*                              | *I am answering the questions of his.*                  |
-| *fragen*              | `[Nominative] [Verb] [Accusative]`           | *Ich frage mich immer.*                                          | *I ask myself always.*                                  |
-| *reden*               | `[Nominative] [Verb]`                        | *Ich rede mit Väter.*                                            | *I am talking with father.*                             |
-| *sagen*               | `[Nominative] [Verb] [Dative]`               | *Ich sage ihm.*                                                  | *I believe him.*                                        |
-| *erzählen*            | `[Nominative] [Verb] [Dative] [Accusative]`  | *Ich habe ihnen mein Traum erzählt.*                             | *I told them my dream.*                                 |
-| *zeigen*              | `[Nominative] [Verb] [Dative] [Accusative]`  | *Ich werde dir etwas zeigen.*                                    | *I will show you something.*                            |
-| *warten*              | `[Nominative] [Verb]`                        | *Ich werde auf dich warten.*                                     | *I will wait for you.*                                  |
-| *erklären*            | `[Nominative] [Verb] [Dative] [Accusative]`  | *Ich habe ihr das erklärt.*                                      | *I clarified that to her.*                              |
-| *führen*              | `[Nominative] [Verb] [Accusative]`           | *Ich führte ihn raus.*                                           | *I lead him out.*                                       |
-| *lachen*              | `[Nominative] [Verb]`                        | *Verstehst du jetzt, warum ich lache?*                           | *Do you understand now why I am laughing?*              |
-| *schmerzen*           | `[Nominative] [Verb]`                        | *Es schmerzt.*                                                   | *It hurts.*                                             |
-| *hören*               | `[Nominative] [Verb] [Accusative]`           | *Ich höre dich.*                                                 | *I hear you.*                                           |
-| *schmecken*           | `[Nominative] [Verb]`                        | *Es schmeckt so gut.*                                            | *It tastes so good.*                                    |
-| *interessieren*       | `[Nominative] [Verb] [Accusative/Reflexive]` | *Ich interessiere mich für dich.*                                | *I am interested in you.*                               |
-| *kümmern*             | `[Nominative] [Verb] [Accusative/Reflexive]` | *Ich kümmere mich darum nicht.*<br>*Das kümmert mich nicht.*     | *I don't care about that.*<br>*That doesn't bother me.* |
-| *brauchen*            | `[Nominative] [Verb] [Accusative]`           | *Peter, ich brauche dich.*                                       | *Peter, I need you.*                                    |
-| *fehlen*              | `[Nominative] [Verb] [Dative] [Accusative]`  | *Mir fehlt Charisma.*                                            | *I lack charisma.*                                      |
-| *gehören*             | `[Nominative] [Verb] [Dative]`               | *Das gehört mir!*                                                | *That belongs to me!*                                   |
-| *glauben*             | `[Nominative] [Verb] [Dative]`               | *Ich glaube ihr.*                                                | *I believe her.*                                        |
-| *bedeuten/meinen*     | `[Nominative] [Verb]`                        | *Wenn du weiß, was ich bedeute/meinte.*                          | *If you know what I mean.*                              |
-| *erinnern*            | `[Nominative] [Verb] [Accusative/Reflexive]` | *Ich erinnerte mich.*<br>*Gestern habe ich dich drauf erinnert.* | *I remember.*<br>*I reminded you of this yesterday.*    |
-| *fühlen*              | `[Nominative] [Verb] [Accusative]`           | *Ich fühle much ein bisschen traurig.*                           | *I feel a bit sad.*                                     |
 
-| Verb (Infinitive) | Verb (Past Participle) | Valency                                     | Example: *Deutsch*                        | Example: *English*               |
-| ----------------- | ---------------------- | ------------------------------------------- | ----------------------------------------- | -------------------------------- |
-| *sehen*           | *gesehen*              | `[Nominative] [Verb] [Accusative]`          | *Ja, ich sehe es.*                        | *Yes, I see it.*                 |
-| *lesen*           | *gelesen*              | `[Nominative] [Verb] [Dative] [Accusative]` | *Ich las ihm das Buch vor.*               | *I read him the book.*           |
-| *essen*           | *gegessen*             | `[Nominative] [Verb] [Accusative]`          | *Ich esse einen Kuchen.*                  | *I am eating the cake.*          |
-| *geben*           | *gegeben*              | `[Nominative] [Verb] [Dative] [Accusative]` | *Ich gab dir das Essen.*                  | *I gave you the food.*           |
-| *vergeben*        | *vergeben*             | `[Nominative] [Verb] [Dative]`              | *Ich vergebe ihm.*                        | *I forgive him.*                 |
-| *sitzen*          | *gesessen*             | `[Nominative] [Verb]`                       | *Sie saß neben mir.*                      | *She sat next to me.*            |
-| *betreten*        | *betreten*             | `[Nominative] [Verb] [Accusative]`          | *Ich betrat das Zimmer.*                  | *I entered the room.*            |
-| *vergessen*       | *vergessen*            | `[Nominative] [Verb]`                       | *Ich vergaß, was zu sagen.*               | *I forgot, what to say.*         |
-| *messen*          | *gemessen*             | `[Nominative] [Verb]`                       | *Ich messe das Für und Wider...*          | *I measure the pros and cons.*   |
-|                   |                        |                                             |                                           |                                  |
-| *trinken*         | *getrunken*            | `[Nominative] [Verb] [Accusative]`          | *Ich trinke Wasser.*                      | *I am drinking water.*           |
-| *finden*          | *gefunden*             | `[Nominative] [Verb] [Accusative]`          | *Ich fand es wirklich lustig.*            | *I found it really fun.*         |
-| *binden*          | *gebunden*             | `[Nominative] [Verb] [Accusative]`          | *Ich band die Beine zusammen.*            | *I tied the legs together.*      |
-| *verschwinden*    | *verschwunden*         | `[Nominative] [Verb]`                       | *Er ist einfach verschwunden.*            | *He just disappeared.*           |
-|                   |                        |                                             |                                           |                                  |
-| *schwimmen*       | *geschwommen*          | `[Nominative] [Verb]`                       | *Ich schwimmen an der Wochenenden.*       | *I swim in the weekends.*        |
-| *nehmen*          | *genommen*             | `[Nominative] [Verb] [Accusative]`          | *Ich nahm es.*                            | *I took it.*                     |
-| *kommen*          | *gekommen*             | `[Nominative] [Verb]`                       | *Ich komme aus Deutschland.*              | *I am from Germany.*             |
-| *helfen*          | *geholfen*             | `[Nominative] [Verb] [Dative]`              | *Ich habe dir immer geholfen.*            | *I always helped you.*           |
-| *werfen*          | *geworfen*             | `[Nominative] [Verb] [Dative] [Accusative]` | *Ich warf ihm den Ball zu.*               | *I threw the ball at him.*       |
-| *sprechen*        | *gesprochen*           | `[Nominative] [Verb]`                       | *Gestern habe ich mit dir gesprochen.*    | *I spoke with you yesterday.*    |
-| *treffen*         | *getroffen*            | `[Nominative] [Verb]`                       | *Gestern habe ich mit ihm getroffen.*     | *I met with him yesterday.*      |
-| *gewinnen*        | *gewonnen*             | `[Nominative] [Verb] [Accusative]`          | *Ich habe die Goldmedaille gewonnen.*     | *I won the gold medal.*          |
-| *beginnen*        | *begonnen*             | `[Nominative] [Verb]`                       | *Es begann...*                            | *It began...*                    |
-| *brechen*         | *gebrochen*            | `[Nominative] [Verb] [Dative] [Accusative]` | *Ich werde dir das Genick brechen.*       | *I will break your neck.*        |
-| *sterben*         | *gestorben*            | `[Nominative] [Verb]`                       | *Wenn ich sterbe...*                      | *If I die...*                    |
-| *befehlen*        | *befohlen*             | `[Nominative] [Verb] [Dative]`              | *Ich befehle dir!*                        | *I command you!*                 |
-| *stehlen*         | *gestohlen*            | `[Nominative] [Verb] [Accusative]`          | *Dieses, das ich von dir gestohlen habe.* | *This is what I stole from you.* |
+| Verb (Infinitive) | Past Participle | Past Tense   | Valency                 | Example                                   |
+| ----------------- | --------------- | ------------ | ----------------------- | ----------------------------------------- |
+| *messen*          | *gemessen*      | *maß*        | -                       | *Ich messe das Für und Wider...*          |
+| *verschwinden*    | *verschwunden*  | *verschwand* | -                       | *Er ist einfach verschwunden.*            |
+| *schwimmen*       | *geschwommen*   | *schwamm*    | -                       | *Ich schwimmen an der Wochenenden.*       |
+| *kommen*          | *gekommen*      | *kam*        | -                       | *Ich komme aus Deutschland.*              |
+| *helfen*          | *geholfen*      | *half*       | `[Dative]`              | *Ich habe dir immer geholfen.*            |
+| *werfen*          | *geworfen*      | *warf*       | `[Dative] [Accusative]` | *Ich warf ihm den Ball zu.*               |
+| *treffen*         | *getroffen*     | *traf*       | -                       | *Gestern habe ich mit ihm getroffen.*     |
+| *gewinnen*        | *gewonnen*      | *gewann*     | `[Accusative]`          | *Ich habe die Goldmedaille gewonnen.*     |
+| *beginnen*        | *begonnen*      | *began*      | -                       | *Es begann...*                            |
+| *brechen*         | *gebrochen*     | *brach*      | `[Dative] [Accusative]` | *Ich werde dir das Genick brechen.*       |
+| *sterben*         | *gestorben*     | *starb*      | -                       | *Wenn ich sterbe...*                      |
+| *befehlen*        | *befohlen*      | *befahl*     | `[Dative]`              | *Ich befehle dir!*                        |
+| *stehlen*         | *gestohlen*     | *stahl*      | `[Accusative]`          | *Dieses, das ich von dir gestohlen habe.* |
 
-| Verb (Infinitive) | Verb (Past Participle) | Valency                                     | Example: *Deutsch*                  | Example: *English*            |
-| ----------------- | ---------------------- | ------------------------------------------- | ----------------------------------- | ----------------------------- |
-| *bringen*         | *gebracht*             | `[Nominative] [Verb] [Dative] [Accusative]` | *Ich brachte dir das Essen.*        | *I brought you the food.*     |
-| *denken*          | *gedacht*              | `[Nominative] [Verb]`                       | *Ich habe darüber nachgedacht.*     | *I thought about it.*         |
-| *nennen*          | *genannt*              | `[Nominative] [Verb] [Accusative]`          | *Ich habe ihn Alex genannt.*        | *I named him Alex.*           |
-| *verbrennen*      | *verbrannt*            | `[Nominative] [Verb] [Accusative]`          | *Er verbrannte die Papiere.*        | *He burned the papers.*       |
-| *kennen*          | *gekannt*              | `[Nominative] [Verb] [Accusative]`          | *Oh, ich kenne dich.*               | *Oh, I know/recognize you.*   |
-| *wissen*          | *gewusst*              | `[Nominative] [Verb]`                       | *Oh, ich weiß.*                     | *Oh, I know.*                 |
-|                   |                        |                                             |                                     |                               |
-| *stehen*          | *gestanden*            | `[Nominative] [Verb]`                       | *Ich stand auf dem Tisch.*          | *I stood on the table.*       |
-| *tun*             | *getan*                | `[Nominative] [Verb] [Dative]`              | *Das tut doch keinem weh!*          | *That hurts no-one!*          |
-| *bleiben*         | *geblieben*            | `[Nominative] [Verb]`                       | *Bleibe in der Nähe!*               | *Stay nearby!*                |
-| *schreiben*       | *geschrieben*          | `[Nominative] [Verb] [Dative] [Accusative]` | *Ich schreibe dir dieses Buch.*     | *I am writing you this book.* |
-| *steigen*         | *gestiegen*            | `[Nominative] [Verb]`                       | *Ich stieg aus dem Bett.*           | *I climbed out of bed.*       |
-| *schneiden*       | *geschnitten*          | `[Nominative] [Verb] [Dative] [Accusative]` | *Sie schnitt sich die Haare.*       | *She cut her hair.*           |
-| *leiden*          | *gelitten*             | `[Nominative] [Verb]`                       | *Ich leide jeden Tag.*              | *I suffer daily.*             |
-| *scheinen*        | *geschienen*           | `[Nominative] [Verb]`                       | *Die Sonne schien auf ihr Gesicht.* | *The sun shined on her hair.* |
-| *verlieren*       | *verloren*             | `[Nominative] [Verb] [Accusative]`          | *Ich habe es verloren.*             | *I lost it.*                  |
-| *ziehen*          | *gezogen*              | `[Nominative] [Verb] [Accusative]`          | *Er zog sie an den Haaren.*         | *He pulled her by the hair.*  |
-| *lügen*           | *gelogen*              | `[Nominative] [Verb]`                       | *Er log.*                           | *He lied.*                    |
-| *betrügen*        | *betrogen*             | `[Nominative] [Verb] [Accusative]`          | *Er hat mich betrogen.*             | *He cheated on me.*           |
-| *heben*           | *gehoben*              | `[Nominative] [Verb] [Accusative]`          | *Ich hebe Gewichte.*                | *I lift weights.*             |
-| *riechen*         | *gerochen*             | `[Nominative] [Verb]`                       | *Du riecht schlecht.*               | *I smell bad.*                |
-| *fliegen*         | *geflogen*             | `[Nominative] [Verb]`                       | *Der Vogel flog weg.*               | *The bird flew away.*         |
-| *kriechen*        | *gekrochen*            | `[Nominative] [Verb]`                       | *Es kroch weg...*                   | *It crawled away...*          |
+| Verb (Infinitive) | Past Participle | Past Tense   | Valency                 | Example                             |
+| ----------------- | --------------- | ------------ | ----------------------- | ----------------------------------- |
+| *bringen*         | *gebracht*      | *brachte*    | `[Dative] [Accusative]` | *Ich brachte dir das Essen.*        |
+| *denken*          | *gedacht*       | *dachte*     | -                       | *Ich habe darüber nachgedacht.*     |
+| *nennen*          | *genannt*       | *nannte*     | `[Accusative]`          | *Ich habe ihn Alex genannt.*        |
+| *verbrennen*      | *verbrannt*     | *verbrannte* | `[Accusative]`          | *Er verbrannte die Papiere.*        |
+| *kennen*          | *gekannt*       | *kannte*     | `[Accusative]`          | *Oh, ich kenne dich.*               |
+| *wissen*          | *gewusst*       | *wusste*     | -                       | *Oh, ich weiß.*                     |
+| *stehen*          | *gestanden*     | *stande*     | -                       | *Ich stand auf dem Tisch.*          |
+| *tun*             | *getan*         | *tan*        | `[Dative]`              | *Das tut doch keinem weh!*          |
+| *bleiben*         | *geblieben*     | *bliebte*    | -                       | *Bleibe in der Nähe!*               |
+| *schreiben*       | *geschrieben*   | *schrieb*    | `[Dative] [Accusative]` | *Ich schreibe dir dieses Buch.*     |
+| *steigen*         | *gestiegen*     | *stieg*      | -                       | *Ich stieg aus dem Bett.*           |
+| *schneiden*       | *geschnitten*   | *schnitt*    | `[Dative] [Accusative]` | *Sie schnitt sich die Haare.*       |
+| *leiden*          | *gelitten*      | *litt*       | -                       | *Ich leide jeden Tag.*              |
+| *scheinen*        | *geschienen*    | *schien*     | -                       | *Die Sonne schien auf ihr Gesicht.* |
+| *verlieren*       | *verloren*      | *verlor*     | `[Accusative]`          | *Ich habe es verloren.*             |
+| *ziehen*          | *gezogen*       | *zog*        | `[Accusative]`          | *Er zog sie an den Haaren.*         |
+| *lügen*           | *gelogen*       | *log*        | -                       | *Er log.*                           |
+| *betrügen*        | *betrogen*      | *betrog*     | `[Accusative]`          | *Er hat mich betrogen.*             |
+| *heben*           | *gehoben*       | *hob*        | `[Accusative]`          | *Ich hebe Gewichte.*                |
+| *riechen*         | *gerochen*      | *roch*       | -                       | *Du riecht schlecht.*               |
+| *kriechen*        | *gekrochen*     | *kroch*      | -                       | *Es kroch weg...*                   |
 
-| Verb (Infinitive) | Verb (Past Participle) | Valency                            | Example: *Deutsch*                  | Example: *English*               |
-| ----------------- | ---------------------- | ---------------------------------- | ----------------------------------- | -------------------------------- |
-| *laufen*          | *gelaufen*             | `[Nominative] [Verb]`              | *Ich lief im Kreis für Stunden.*    | *I walked in circles for hours.* |
-| *lassen*          | *gelassen*             | `[Nominative] [Verb] [Accusative]` | *Lass mich in Ruhe!*                | *Leave me alone!*                |
-| *verlassen*       | *verlassen*            | `[Nominative] [Verb] [Accusative]` | *Ich verließ sie für dich.*         | *I left her for you.*            |
-| *fallen*          | *gefallen*             | `[Nominative] [Verb]`              | *Ich habe umgefallen.*              | *I fell over.*                   |
-| *gefallen*        | *gefallen*             | `[Nominative] [Verb] [Dative]`     | *Das gefällt mir!*                  | *I like that!*                   |
-| *halten*          | *gehalten*             | `[Nominative] [Verb] [Accusative]` | *Ich halte es für eine gute Idee.*  | *I think it is a good idea.*     |
-| *schlafen*        | *geschlafen*           | `[Nominative] [Verb]`              | *Gestern habe ich spät geschlafen.* | *I slept late last night.*       |
-| *hängen*          | *gehangen*             | `[Nominative] [Verb]`              | *Sie hing an ihren Haaren.*         | *She hanged by her hair.*        |
-| *gehen*           | *gegangen*             | `[Nominative] [Verb]`              | *Es geht darüber...*                | *It's about that...*             |
-| *fangen*          | *gefangen*             | `[Nominative] [Verb] [Accusative]` | *Endlich habe ich ihn gefangen.*    | *I found him at last.*           |
+| Verb (Infinitive) | Past Participle | Past Tense | Valency        | Example                             |
+| ----------------- | --------------- | ---------- | -------------- | ----------------------------------- |
+| *laufen*          | *gelaufen*      | -          | -              | *Ich lief im Kreis für Stunden.*    |
+| *lassen*          | *gelassen*      | -          | `[Accusative]` | *Lass mich in Ruhe!*                |
+| *verlassen*       | *verlassen*     | -          | `[Accusative]` | *Ich verließ sie für dich.*         |
+| *fallen*          | *gefallen*      | -          | -              | *Ich habe umgefallen.*              |
+| *gefallen*        | *gefallen*      | -          | `[Dative]`     | *Das gefällt mir!*                  |
+| *halten*          | *gehalten*      | -          | `[Accusative]` | *Ich halte es für eine gute Idee.*  |
+| *schlafen*        | *geschlafen*    | -          | -              | *Gestern habe ich spät geschlafen.* |
+| *hängen*          | *gehangen*      | -          | -              | *Sie hing an ihren Haaren.*         |
+| *gehen*           | *gegangen*      | -          | -              | *Es geht darüber...*                |
+| *fangen*          | *gefangen*      | -          | `[Accusative]` | *Endlich habe ich ihn gefangen.*    |
 
-| Verb (Infinitive) | Verb (Past Participle) | Valency                            | Example: *Deutsch*                    | Example: *English*          |
-| ----------------- | ---------------------- | ---------------------------------- | ------------------------------------- | --------------------------- |
-| *fahren*          | *gefahren*             | `[Nominative] [Verb]`              | *Ich fahre nach Münichen.*            | *I am driving to Munich.*   |
-| *tragen*          | *getragen*             | `[Nominative] [Verb] [Accusative]` | *Ich habe heute eine Kappe getragen.* | *I wore a cap today.*       |
-| *waschen*         | *gewaschen*            | `[Nominative] [Verb] [Accusative]` | *Ich wasche meine Haare jeden Tag.*   | *I wash my hair every day.* |
-| *schlagen*        | *geschlagen*           | `[Nominative] [Verb] [Accusative]` | *Gestern habe er mich geschlagen.*    | *He beat me yesterday.*     |
+| Verb (Infinitive) | Past Participle | Past Tense | Valency        | Example                             |
+| ----------------- | --------------- | ---------- | -------------- | ----------------------------------- |
+| *fahren* | *gefahren* | - | - | *Ich fahre nach Münichen.* |
+| *tragen* | *getragen* | - | `[Accusative]` | *Ich habe heute eine Kappe getragen.* |
+| *waschen* | *gewaschen* | - | `[Accusative]` | *Ich wasche meine Haare jeden Tag.* |
+| *schlagen* | *geschlagen* | - | `[Accusative]` | *Gestern habe er mich geschlagen.* |
 ## References
 ---
 [1] Hammer's German Grammar and Usage, Martin Durrel

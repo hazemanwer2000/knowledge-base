@@ -265,6 +265,11 @@
 | *fragen*          | -               | -          | `[Accusative]`          | *Ich frage mich immer.*                |
 | *erklären*        | -               | -          | `[Accusative]`          | *Ich habe ihr das erklärt.*            |
 | *bedeuten/meinen* | -               | -          | `[Accusative]`          | *Wenn du weiß, was ich bedeute/meine.* |
+| *denken*          | *gedacht*       | *dachte*   | -                       | *Ich habe darüber nachgedacht.*        |
+| *nennen*          | *genannt*       | *nannte*   | `[Accusative]`          | *Ich habe ihn Alex genannt.*           |
+| *heißen*          | *geheißen*      | *hieß*     | -                       | *Ich heiße Sam.*                       |
+| *lügen*           | *gelogen*       | *log*      | -                       | *Er log.*                              |
+
 ##### Humanities
 ---
 
@@ -280,6 +285,7 @@
 | *versuchen/probieren* | -               | -          | `[Accusative]`           | *Ich werde den Kuchen versuchen/probieren.*                      |
 | *warten*              | -               | -          | -                        | *Ich werde auf dich warten.*                                     |
 | *führen*              | -               | -          | `[Accusative]`           | *Ich führte ihn raus.*                                           |
+| *befehlen*            | *befohlen*      | *befahl*   | `[Dative]`               | *Ich befehle dir!*                                               |
 | *erreichen*           | -               | -          | -                        | *Heute habe ich mein Ziel erreicht.*                             |
 | *entwickeln*          | -               | -          | `[Accusative]`           | *Ich habe Gefühle für sie entwickelt.*                           |
 | *gehören*             | -               | -          | `[Dative]`               | *Sie gehört mir!*                                                |
@@ -287,20 +293,34 @@
 | *zeigen*              | -               | -          | `[Dative] [Accusative]`  | *Ich werde dir etwas zeigen.*                                    |
 | *trennen*             | -               | -          | `[Accusative/Reflexive]` | *Sie haben sich voneinander getrennt.*                           |
 | *erinnern*            | -               | -          | `[Accusative/Reflexive]` | *Ich erinnerte mich.*<br>*Gestern habe ich dich drauf erinnert.* |
+| *kennen*              | *gekannt*       | *kannte*   | `[Accusative]`           | *Oh, ich kenne dich.*                                            |
+| *wissen*              | *gewusst*       | *wusste*   | -                        | *Oh, ich weiß.*                                                  |
 | *folgen*              | -               | -          | `[Dative]`               | *Folge mir!*                                                     |
 | *schmerzen*           | -               | -          | -                        | *Es schmerzt.*                                                   |
 | *schmecken*           | -               | -          | -                        | *Es schmeckt so gut.*                                            |
+| *riechen*             | *gerochen*      | *roch*     | -                        | *Es riecht schlecht.*                                            |
 | *brauchen*            | -               | -          | -                        | *Peter, ich brauche dich.*                                       |
 | *fehlen*              | -               | -          | -                        | *Mir fehlt Charisma.*                                            |
 | *vergeben*            | *vergeben*      | *vergab*   | `[Dative]`               | *Ich vergebe ihm.*                                               |
 | *vermissen*           | -               | -          | `[Accusative]`           | *Ich vermisse ihn.*                                              |
 | *vergessen*           | *vergessen*     | *vergaß*   | -                        | *Ich vergaß, was zu sagen.*                                      |
+| *treffen*             | *getroffen*     | *traf*     | -                        | *Gestern habe ich mit ihm getroffen.*                            |
+| *gewinnen*            | *gewonnen*      | *gewann*   | `[Accusative]`           | *Ich habe die Goldmedaille gewonnen.*                            |
+| *verlieren*           | *verloren*      | *verlor*   | `[Accusative]`           | *Ich habe sie verloren.*                                         |
+| *sterben*             | *gestorben*     | *starb*    | -                        | *Wenn ich sterbe (...)*                                          |
+| *helfen*              | *geholfen*      | *half*     | `[Dative]`               | *Ich habe dir immer geholfen.*                                   |
+| *geben*               | *gegeben*       | *gab*      | `[Dative] [Accusative]`  | *Ich gab dir das Essen.*                                         |
+| *nehmen*              | *genommen*      | *nahm*     | `[Accusative]`           | *Ich nahm es.*                                                   |
+| *beginnen*            | *begonnen*      | *began*    | -                        | *Es begann.*                                                     |
+| *aufhören*            | -               | -          |                          | *Es aufhörte.*                                                   |
+
 ##### Normal Activities
 ---
 
 | Verb (Infinitive) | Past Participle | Past Tense | Valency                 | Example                                       |
 | ----------------- | --------------- | ---------- | ----------------------- | --------------------------------------------- |
 | *spielen*         | -               | -          | `[Accusative]`          | *Ich spiele Fußball an den Wochenenden.*      |
+| *schwimmen*       | *geschwommen*   | *schwamm*  | -                       | *Ich schwimmen an der Wochenenden.*           |
 | *arbeiten*        | -               | -          | -                       | *Ich arbeite als Ingenieur.*                  |
 | *essen*           | *gegessen*      | *aß*       | `[Accusative]`          | *Ich esse einen Kuchen.*                      |
 | *trinken*         | *getrunken*     | *trank*    | `[Accusative]`          | *Ich trinke Wasser.*                          |
@@ -311,30 +331,49 @@
 | *wohnen*          | -               | -          | -                       | *Ich wohne in Deutschland.*                   |
 | *leben*           | -               | -          | -                       | *Ich lebe an der Straße.*                     |
 | *machen*          | -               | -          | `[Dative] [Accusative]` | *Ich mache dir einen Kaffee.*                 |
+| *tun*             | *getan*         | *tan*      | `[Dative]`              | *Das tut doch keinem weh!*                    |
 | *bauen*           | -               | -          | `[Dative] [Accusative]` | *Ich baue dir ein neues Haus.*                |
 | *suchen*          | -               | -          | -                       | *Ich suche nach etwas zum Anschauen.*         |
 | *finden*          | *gefunden*      | *fand*     | `[Accusative]`          | *Ich fand es wirklich lustig.*                |
 | *reisen*          | -               | -          | -                       | *Ich reise zu viel.*                          |
 | *fliegen*         | *geflogen*      | *flog*     | -                       | *Der Vogel flog weg.*                         |
-| *öffnen*          | -               |            | `[Accusative]`          | *Ich öffne für Sie die Tür.*                  |
+| *kommen*          | *gekommen*      | *kam*      | -                       | *Ich komme aus Deutschland.*                  |
+| *gehen*           | *gegangen*      | *ging*     | -                       | *Es geht darüber...*                          |
+| *laufen*          | *gelaufen*      | *lief*     | -                       | *Ich lief im Kreis für Stunden.*              |
+| *öffnen*          | -               | -          | `[Accusative]`          | *Ich öffne für Sie die Tür.*                  |
 | *legen*           | -               | -          | `[Accusative]`          | *Ich lege mich aufs Bett.*                    |
 | *liegen*          | *gelegen*       | *lag*      | `[Accusative]`          | *Ich liege mich auf dem Bett.*                |
 | *sitzen*          | *gesessen*      | *saß*      | -                       | *Sie saß neben mir.*                          |
+| *stehen*          | *gestanden*     | *stande*   | -                       | *Ich stand auf dem Tisch.*                    |
 | *betreten*        | *betreten*      | *betrat*   | `[Accusative]`          | *Ich betrat das Zimmer.*                      |
 | *besuchen*        | -               | -          | `[Accusative]`          | *Sie wohnt in der Nähe, Ich besuche sie oft.* |
 | *kaufen*          | -               | -          | `[Dative] [Accusative]` | *Ich kaufte dir Blumen.*                      |
 | *verkaufen*       | -               | -          | `[Dative] [Accusative]` | *Du verkauftest mir Blumen.*                  |
 | *bezahlen*        | -               | -          | `[Dative] [Accusative]` | *Ich bezahle dir das Doppelte.*               |
-| *geben*           | *gegeben*       | *gab*      | `[Dative] [Accusative]` | *Ich gab dir das Essen.*                      |
-| *nehmen*          | *genommen*      | *nahm*     | `[Accusative]`          | *Ich nahm es.*                                |
+| *bringen*         | *gebracht*      | *brachte*  | `[Dative] [Accusative]` | *Ich brachte dir das Essen.*                  |
+| *werfen*          | *geworfen*      | *warf*     | `[Dative] [Accusative]` | *Ich warf ihm den Ball zu.*                   |
+| *treten*          | *getreten*      | *trat*     | `[Dative] [Accusative]` | *Ich habe ihm den Ball getreten.*             |
+| *schlafen*        | *geschlafen*    | *schlief*  | -                       | *Gestern habe ich spät geschlafen.*           |
+| *aufwachen*       | -               | -          | -                       | *Ich habe um sechs Uhr heute aufgewacht.*     |
+| *waschen*         | *gewaschen*     | -          | `[Accusative]`          | *Ich wasche meine Haare jeden Tag.*           |
+
+##### Particular Activities
+---
+
+| Verb (Infinitive) | Past Participle | Past Tense | Valency | Example                        |
+| ----------------- | --------------- | ---------- | ------- | ------------------------------ |
+| *messen*          | *gemessen*      | *maß*      | -       | *Ich messe das Für und Wider.* |
+
 ##### Abnormal Activities
 ---
 
-| Verb (Infinitive) | Past Participle | Past Tense | Valency        | Example                        |
-| ----------------- | --------------- | ---------- | -------------- | ------------------------------ |
-| *knien*           | -               | -          | -              | *Er kniete vor ihr.*           |
-| *kriechen*        | *gekrochen*     | *kroch*    | -              | *Er kroch zu ihr.*             |
-| *binden*          | *gebunden*      | *band*     | `[Accusative]` | *Ich band die Beine zusammen.* |
+| Verb (Infinitive) | Past Participle | Past Tense   | Valency        | Example                        |
+| ----------------- | --------------- | ------------ | -------------- | ------------------------------ |
+| *knien*           | -               | -            | -              | *Er kniete vor ihr.*           |
+| *kriechen*        | *gekrochen*     | *kroch*      | -              | *Er kroch zu ihr.*             |
+| *binden*          | *gebunden*      | *band*       | `[Accusative]` | *Ich band die Beine zusammen.* |
+| *verbrennen*      | *verbrannt*     | *verbrannte* | `[Accusative]` | *Er verbrannte die Papiere.*   |
+
 ##### Impersonal
 ---
 
@@ -364,63 +403,36 @@
 
 | Verb (Infinitive) | Past Participle | Past Tense   | Valency                 | Example                                   |
 | ----------------- | --------------- | ------------ | ----------------------- | ----------------------------------------- |
-| *messen*          | *gemessen*      | *maß*        | -                       | *Ich messe das Für und Wider...*          |
 | *verschwinden*    | *verschwunden*  | *verschwand* | -                       | *Er ist einfach verschwunden.*            |
-| *schwimmen*       | *geschwommen*   | *schwamm*    | -                       | *Ich schwimmen an der Wochenenden.*       |
-| *kommen*          | *gekommen*      | *kam*        | -                       | *Ich komme aus Deutschland.*              |
-| *helfen*          | *geholfen*      | *half*       | `[Dative]`              | *Ich habe dir immer geholfen.*            |
-| *werfen*          | *geworfen*      | *warf*       | `[Dative] [Accusative]` | *Ich warf ihm den Ball zu.*               |
-| *treffen*         | *getroffen*     | *traf*       | -                       | *Gestern habe ich mit ihm getroffen.*     |
-| *gewinnen*        | *gewonnen*      | *gewann*     | `[Accusative]`          | *Ich habe die Goldmedaille gewonnen.*     |
-| *beginnen*        | *begonnen*      | *began*      | -                       | *Es begann...*                            |
 | *brechen*         | *gebrochen*     | *brach*      | `[Dative] [Accusative]` | *Ich werde dir das Genick brechen.*       |
-| *sterben*         | *gestorben*     | *starb*      | -                       | *Wenn ich sterbe...*                      |
-| *befehlen*        | *befohlen*      | *befahl*     | `[Dative]`              | *Ich befehle dir!*                        |
 | *stehlen*         | *gestohlen*     | *stahl*      | `[Accusative]`          | *Dieses, das ich von dir gestohlen habe.* |
 
-| Verb (Infinitive) | Past Participle | Past Tense   | Valency                 | Example                             |
-| ----------------- | --------------- | ------------ | ----------------------- | ----------------------------------- |
-| *bringen*         | *gebracht*      | *brachte*    | `[Dative] [Accusative]` | *Ich brachte dir das Essen.*        |
-| *denken*          | *gedacht*       | *dachte*     | -                       | *Ich habe darüber nachgedacht.*     |
-| *nennen*          | *genannt*       | *nannte*     | `[Accusative]`          | *Ich habe ihn Alex genannt.*        |
-| *verbrennen*      | *verbrannt*     | *verbrannte* | `[Accusative]`          | *Er verbrannte die Papiere.*        |
-| *kennen*          | *gekannt*       | *kannte*     | `[Accusative]`          | *Oh, ich kenne dich.*               |
-| *wissen*          | *gewusst*       | *wusste*     | -                       | *Oh, ich weiß.*                     |
-| *stehen*          | *gestanden*     | *stande*     | -                       | *Ich stand auf dem Tisch.*          |
-| *tun*             | *getan*         | *tan*        | `[Dative]`              | *Das tut doch keinem weh!*          |
-| *bleiben*         | *geblieben*     | *bliebte*    | -                       | *Bleibe in der Nähe!*               |
-| *schreiben*       | *geschrieben*   | *schrieb*    | `[Dative] [Accusative]` | *Ich schreibe dir dieses Buch.*     |
-| *steigen*         | *gestiegen*     | *stieg*      | -                       | *Ich stieg aus dem Bett.*           |
-| *schneiden*       | *geschnitten*   | *schnitt*    | `[Dative] [Accusative]` | *Sie schnitt sich die Haare.*       |
-| *leiden*          | *gelitten*      | *litt*       | -                       | *Ich leide jeden Tag.*              |
-| *scheinen*        | *geschienen*    | *schien*     | -                       | *Die Sonne schien auf ihr Gesicht.* |
-| *verlieren*       | *verloren*      | *verlor*     | `[Accusative]`          | *Ich habe es verloren.*             |
-| *ziehen*          | *gezogen*       | *zog*        | `[Accusative]`          | *Er zog sie an den Haaren.*         |
-| *lügen*           | *gelogen*       | *log*        | -                       | *Er log.*                           |
-| *betrügen*        | *betrogen*      | *betrog*     | `[Accusative]`          | *Er hat mich betrogen.*             |
-| *heben*           | *gehoben*       | *hob*        | `[Accusative]`          | *Ich hebe Gewichte.*                |
-| *riechen*         | *gerochen*      | *roch*       | -                       | *Du riecht schlecht.*               |
-| *kriechen*        | *gekrochen*     | *kroch*      | -                       | *Es kroch weg...*                   |
+| Verb (Infinitive) | Past Participle | Past Tense | Valency                 | Example                         |
+| ----------------- | --------------- | ---------- | ----------------------- | ------------------------------- |
+| *bleiben*         | *geblieben*     | *bliebte*  | -                       | *Bleibe in der Nähe!*           |
+| *schreiben*       | *geschrieben*   | *schrieb*  | `[Dative] [Accusative]` | *Ich schreibe dir dieses Buch.* |
+| *steigen*         | *gestiegen*     | *stieg*    | -                       | *Ich stieg aus dem Bett.*       |
+| *schneiden*       | *geschnitten*   | *schnitt*  | `[Dative] [Accusative]` | *Sie schnitt sich die Haare.*   |
+| *leiden*          | *gelitten*      | *litt*     | -                       | *Ich leide jeden Tag.*          |
+| *ziehen*          | *gezogen*       | *zog*      | `[Accusative]`          | *Er zog sie an den Haaren.*     |
+| *betrügen*        | *betrogen*      | *betrog*   | `[Accusative]`          | *Er hat mich betrogen.*         |
+| *heben*           | *gehoben*       | *hob*      | `[Accusative]`          | *Ich hebe Gewichte.*            |
 
 | Verb (Infinitive) | Past Participle | Past Tense | Valency        | Example                             |
 | ----------------- | --------------- | ---------- | -------------- | ----------------------------------- |
-| *laufen*          | *gelaufen*      | -          | -              | *Ich lief im Kreis für Stunden.*    |
-| *lassen*          | *gelassen*      | -          | `[Accusative]` | *Lass mich in Ruhe!*                |
-| *verlassen*       | *verlassen*     | -          | `[Accusative]` | *Ich verließ sie für dich.*         |
-| *fallen*          | *gefallen*      | -          | -              | *Ich habe umgefallen.*              |
-| *gefallen*        | *gefallen*      | -          | `[Dative]`     | *Das gefällt mir!*                  |
-| *halten*          | *gehalten*      | -          | `[Accusative]` | *Ich halte es für eine gute Idee.*  |
-| *schlafen*        | *geschlafen*    | -          | -              | *Gestern habe ich spät geschlafen.* |
-| *hängen*          | *gehangen*      | -          | -              | *Sie hing an ihren Haaren.*         |
-| *gehen*           | *gegangen*      | -          | -              | *Es geht darüber...*                |
-| *fangen*          | *gefangen*      | -          | `[Accusative]` | *Endlich habe ich ihn gefangen.*    |
+| *lassen*          | *gelassen*      | *ließ*     | `[Accusative]` | *Lass mich in Ruhe!*                |
+| *verlassen*       | *verlassen*     | *verließ*  | `[Accusative]` | *Ich verließ sie für dich.*         |
+| *fallen*          | *gefallen*      | *fiel*     | -              | *Ich habe umgefallen.*              |
+| *gefallen*        | *gefallen*      | *gefiel*   | `[Dative]`     | *Das gefällt mir!*                  |
+| *halten*          | *gehalten*      | *hielt*    | `[Accusative]` | *Ich halte es für eine gute Idee.*  |
+| *hängen*          | *gehangen*      | *hing*     | -              | *Sie hing an ihren Haaren.*         |
+| *fangen*          | *gefangen*      | *fing*     | `[Accusative]` | *Endlich habe ich ihn gefangen.*    |
 
-| Verb (Infinitive) | Past Participle | Past Tense | Valency        | Example                             |
-| ----------------- | --------------- | ---------- | -------------- | ----------------------------------- |
-| *fahren* | *gefahren* | - | - | *Ich fahre nach Münichen.* |
-| *tragen* | *getragen* | - | `[Accusative]` | *Ich habe heute eine Kappe getragen.* |
-| *waschen* | *gewaschen* | - | `[Accusative]` | *Ich wasche meine Haare jeden Tag.* |
-| *schlagen* | *geschlagen* | - | `[Accusative]` | *Gestern habe er mich geschlagen.* |
+| Verb (Infinitive) | Past Participle | Past Tense | Valency        | Example                               |
+| ----------------- | --------------- | ---------- | -------------- | ------------------------------------- |
+| *fahren*          | *gefahren*      | -          | -              | *Ich fahre nach Münichen.*            |
+| *tragen*          | *getragen*      | -          | `[Accusative]` | *Ich habe heute eine Kappe getragen.* |
+| *schlagen*        | *geschlagen*    | -          | `[Accusative]` | *Gestern habe er mich geschlagen.*    |
 ## References
 ---
 [1] Hammer's German Grammar and Usage, Martin Durrel

@@ -1,5 +1,6 @@
 ──────── *for more from the author, visit* [github.com/hazemanwer2000](https://github.com/hazemanwer2000). ────────
 ## *Table of Contents*
+
 - [[#Key Verbs|Key Verbs]]
 	- [[#Key Verbs#*werden (will)*|*werden (will)*]]
 	- [[#Key Verbs#*sein (be)*|*sein (be)*]]
@@ -19,6 +20,11 @@
 			- [[#Irregular Verbs#Past Tense from Past Participle|Past Tense from Past Participle]]
 			- [[#Irregular Verbs#Past Tense as *"ie"*|Past Tense as *"ie"*]]
 			- [[#Irregular Verbs#Past Tense as *"u"*|Past Tense as *"u"*]]
+	- [[#Other Verbs#Directory|Directory]]
+		- [[#Directory#~~Speech and the Mind~~|~~Speech and the Mind~~]]
+		- [[#Directory#~~Feelings and the Soul~~|~~Feelings and the Soul~~]]
+		- [[#Directory#~~Normal Activities~~|~~Normal Activities~~]]
+		- [[#Directory#~~Impersonal~~|~~Impersonal~~]]
 ## Content
 ---
 ### Key Verbs
@@ -250,7 +256,7 @@
 | *sie/Sie*   | *fahren* | *fuhren* |
 #### Directory
 ---
-##### Speech and the Mind
+##### ~~Speech and the Mind~~
 ---
 
 | Verb (Infinitive) | Past Participle | Past Tense  | Valency                 | Example                                |
@@ -276,14 +282,14 @@
 | *nennen*          | *genannt*       | *nannte*    | `[Accusative]`          | *Ich habe ihn Alex genannt.*           |
 | *heißen*          | *geheißen*      | *hieß*      | -                       | *Ich heiße Sam.*                       |
 
-##### Feelings and the Soul
+##### ~~Feelings and the Soul~~
 ---
 
 | Verb (Infinitive)     | Past Participle | Past Tense  | Valency                  | Example                                                          |
 | --------------------- | --------------- | ----------- | ------------------------ | ---------------------------------------------------------------- |
 | *lachen*              | -               | -           | -                        | *Verstehst du jetzt, warum ich lache?*                           |
 | *lächeln*             | -               | -           | -                        | *Ich lächelte sie an.*                                           |
-| *runzeln*             | -               | -           | `[Accusative]`           | *Er runzelte die Stern immer.*                                   |
+| *runzeln*             | -               | -           | `[Accusative]`           | *Er runzelte die Stirn immer.*                                   |
 |                       |                 |             |                          |                                                                  |
 | *interessieren*       | -               | -           | `[Accusative/Reflexive]` | *Ich interessiere mich für dich.*                                |
 | *kümmern*             | -               | -           | `[Accusative/Reflexive]` | *Ich kümmere mich darum nicht.*<br>*Das kümmert mich nicht.*     |
@@ -351,7 +357,7 @@
 |                       |                 |             |                          |                                                                  |
 | *versuchen/probieren* | -               | -           | `[Accusative]`           | *Ich werde den Kuchen versuchen/probieren.*                      |
 
-##### Normal Activities
+##### ~~Normal Activities~~
 ---
 
 | Verb (Infinitive) | Past Participle | Past Tense   | Valency                 | Example                                       |
@@ -442,8 +448,11 @@
 |                   |                 |              |                         |                                               |
 | *stehlen*         | *gestohlen*     | *stahl*      | `[Accusative]`          | *Dieses, das ich von dir gestohlen habe.*     |
 | *töten*           | *getötet*       | *tötete*     | `[Accusative]`          | *Er tötete ihr.*                              |
+|                   |                 |              |                         |                                               |
+| *kopieren*        | -               | -            | `[Accusative]`          | *Kopiere das Text.*                           |
+| *einfügen*        | -               | -            | `[Accusative]`          | *Und füge es hier ein.*                       |
 
-##### Impersonal
+##### ~~Impersonal~~
 ---
 
 | Verb (Infinitive) | Past Participle | Past Tense | Valency | Example                                               |

@@ -20,17 +20,17 @@
 ### Dative Prepositions
 ---
 
-| Preposition  | Example: *Deutsch*              | Example: *English*                |
-| ------------ | ------------------------------- | --------------------------------- |
-| *von*        | *das Buch von mir*              | *my book*                         |
-| *aus*        | *aus der Mode*                  | *out of fashion*                  |
-| *außer*      | *außer mir*                     | *except me*                       |
-| *bei*        | *Er stand bei mir.*             | *He stood by me.*                 |
-| *gegenuüber* | *Sie saß mir gegenüber.*        | *She sat opposite to me.*         |
-| *mit*        | *Spreche mit mir.*              | *Speak with me.*                  |
-| *nach*       | *Er ging nach Hause.*           | *He went home.*                   |
-| *zu*         | *Er ist zu Hause.*              | *He is at home.*                  |
-| *seit*       | *Er ist seit drei Wochen hier.* | *He's been here for three weeks.* |
+| Preposition | Example: *Deutsch*              | Example: *English*                |
+| ----------- | ------------------------------- | --------------------------------- |
+| *von*       | *das Buch von mir*              | *my book*                         |
+| *aus*       | *aus der Mode*                  | *out of fashion*                  |
+| *außer*     | *außer mir*                     | *except me*                       |
+| *bei*       | *Er stand bei mir.*             | *He stood by me.*                 |
+| *gegenüber* | *Sie saß mir gegenüber.*        | *She sat opposite to me.*         |
+| *mit*       | *Spreche mit mir.*              | *Speak with me.*                  |
+| *nach*      | *Er ging nach Hause.*           | *He went home.*                   |
+| *zu*        | *Er ist zu Hause.*              | *He is at home.*                  |
+| *seit*      | *Er ist seit drei Wochen hier.* | *He's been here for three weeks.* |
 ### Accusative/Dative Prepositions
 ---
 An Accusative/Dative Preposition applies,
@@ -47,7 +47,7 @@ An Accusative/Dative Preposition applies,
 | *vor*       | *in front*             |
 |             |                        |
 | *an/auf*    | *on*                   |
-| *unter*     | *unter*                |
+| *unter*     | *under*                |
 |             |                        |
 | *über*      | *over*                 |
 | *in*        | *in*                   |

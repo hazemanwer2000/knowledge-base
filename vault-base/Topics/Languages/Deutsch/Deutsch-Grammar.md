@@ -258,7 +258,7 @@ For every Verb,
 * its **Perfect Tense** consists of either *sein* or *haben*, and the **Past Participle** of the Verb.
 * its **Past-Perfect Tense** consists of the Past Tense of either *sein* or *haben*, and the **Past Participle** of the Verb.
 * its **Future Tense** consists of the Present Tense of *werden*, and the **Infinitive Form** of the Verb.
-* Its **Future-Perfect Tense** consists of the Present Tense of werden, and the Infinitive Form of the Verb and either *sein* or *haben*, respectively.
+* Its **Future-Perfect Tense** consists of the Present Tense of werden, and the Past Participle of the Verb and either *sein* or *haben*, respectively.
 
 *Z. Bsp. spielen*.
 * Perfect Tense

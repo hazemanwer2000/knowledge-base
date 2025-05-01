@@ -312,12 +312,16 @@
 | *helfen*              | *geholfen*      | *half*      | `[Dative]`               | *Ich habe dir immer geholfen.*                                   |
 | *geben*               | *gegeben*       | *gab*       | `[Dative] [Accusative]`  | *Ich gab dir das Essen.*                                         |
 | *nehmen*              | *genommen*      | *nahm*      | `[Accusative]`           | *Ich nahm es.*                                                   |
+| *halten*              | *gehalten*      | *hielt*     | `[Accusative]`           | *Ich halte es für eine gute Idee.*                               |
 | *lassen*              | *gelassen*      | *ließ*      | `[Accusative]`           | *Lass mich in Ruhe!*                                             |
 | *beginnen*            | *begonnen*      | *began*     | -                        | *Es begann.*                                                     |
 | *aufhören*            | -               | -           | -                        | *Es aufhörte.*                                                   |
 | *ziehen*              | *gezogen*       | *zog*       | `[Accusative]`           | *Er zog sie an den Haaren.*                                      |
 | *stoßen*              | *gestoßen*      | *stieß*     | `[Accusative]`           | *Er stieß sie weg.*                                              |
+| *gefallen*            | *gefallen*      | *gefiel*    | `[Dative]`               | *Das gefällt mir!*                                               |
+| *genießen*            | *genossen*      | *genoss*    | `[Accusative]`           | *Ich genieße es.*                                                |
 | *heiraten*            | *geheiratet*    | *heiratete* | `[Accusative]`           | *Ich werde sie heiraten.*                                        |
+| *betrügen*            | *betrogen*      | *betrog*    | `[Accusative]`           | *Er hat mich betrogen.*                                          |
 | *verlassen*           | *verlassen*     | *verließ*   | `[Accusative]`           | *Ich verließ sie für dich.*                                      |
 | *sterben*             | *gestorben*     | *starb*     | -                        | *Wenn ich sterbe (...)*                                          |
 
@@ -359,6 +363,7 @@
 | *liegen*          | *gelegen*       | *lag*        | `[Accusative]`          | *Ich liege mich auf dem Bett.*                |
 | *sitzen*          | *gesessen*      | *saß*        | -                       | *Sie saß neben mir.*                          |
 | *stehen*          | *gestanden*     | *stande*     | -                       | *Ich stand auf dem Tisch.*                    |
+| *fallen*          | *gefallen*      | *fiel*       | -                       | *Ich habe umgefallen.*                        |
 | *betreten*        | *betreten*      | *betrat*     | `[Accusative]`          | *Ich betrat das Zimmer.*                      |
 | *besuchen*        | -               | -            | `[Accusative]`          | *Sie wohnt in der Nähe, Ich besuche sie oft.* |
 | *kaufen*          | -               | -            | `[Dative] [Accusative]` | *Ich kaufte dir Blumen.*                      |
@@ -378,6 +383,8 @@
 | *knien*           | -               | -            | -                       | *Er kniete vor ihr.*                          |
 | *kriechen*        | *gekrochen*     | *kroch*      | -                       | *Er kroch zu ihr.*                            |
 | *binden*          | *gebunden*      | *band*       | `[Accusative]`          | *Ich band die Beine zusammen.*                |
+| *hängen*          | *gehangen*      | *hing*       | -                       | *Sie hing an ihren Haaren.*                   |
+| *verschwinden*    | *verschwunden*  | *verschwand* | -                       | *Er ist einfach verschwunden.*                |
 
 ##### Particular Activities
 ---
@@ -413,27 +420,18 @@
 
 
 
-| Verb (Infinitive) | Past Participle | Past Tense   | Valency        | Example                                   |
-| ----------------- | --------------- | ------------ | -------------- | ----------------------------------------- |
-| *verschwinden*    | *verschwunden*  | *verschwand* | -              | *Er ist einfach verschwunden.*            |
+| Verb (Infinitive) | Past Participle | Past Tense   | Valency | Example                        |
+| ----------------- | --------------- | ------------ | ------- | ------------------------------ |
+
 
 
 | Verb (Infinitive) | Past Participle | Past Tense | Valency        | Example                 |
 | ----------------- | --------------- | ---------- | -------------- | ----------------------- |
-| *betrügen*        | *betrogen*      | *betrog*   | `[Accusative]` | *Er hat mich betrogen.* |
+
 
 
 | Verb (Infinitive) | Past Participle | Past Tense | Valency        | Example                            |
 | ----------------- | --------------- | ---------- | -------------- | ---------------------------------- |
-| *fallen*          | *gefallen*      | *fiel*     | -              | *Ich habe umgefallen.*             |
-| *gefallen*        | *gefallen*      | *gefiel*   | `[Dative]`     | *Das gefällt mir!*                 |
-| *halten*          | *gehalten*      | *hielt*    | `[Accusative]` | *Ich halte es für eine gute Idee.* |
-| *hängen*          | *gehangen*      | *hing*     | -              | *Sie hing an ihren Haaren.*        |
-
-
-| Verb (Infinitive) | Past Participle | Past Tense | Valency        | Example                               |
-| ----------------- | --------------- | ---------- | -------------- | ------------------------------------- |
-
 
 ## References
 ---

@@ -1,6 +1,5 @@
 ──────── *for more from the author, visit* [github.com/hazemanwer2000](https://github.com/hazemanwer2000). ────────
 ## *Table of Contents*
-
 - [[#Key Verbs|Key Verbs]]
 	- [[#Key Verbs#*werden (will)*|*werden (will)*]]
 	- [[#Key Verbs#*sein (be)*|*sein (be)*]]
@@ -12,22 +11,14 @@
 	- [[#Modal Auxiliary Verbs#*müssen (must)*|*müssen (must)*]]
 	- [[#Modal Auxiliary Verbs#*sollen (shall)*|*sollen (shall)*]]
 	- [[#Modal Auxiliary Verbs#*wollen (want)*|*wollen (want)*]]
-- [[#Regular Verbs|Regular Verbs]]
-	- [[#Regular Verbs#Form|Form]]
-	- [[#Regular Verbs#Directory|Directory]]
-- [[#Irregular Verbs|Irregular Verbs]]
-	- [[#Irregular Verbs#Past Tense as *"a"*|Past Tense as *"a"*]]
-		- [[#Past Tense as *"a"*#Form|Form]]
-		- [[#Past Tense as *"a"*#Directory|Directory]]
-	- [[#Irregular Verbs#Past Tense from Past Participle|Past Tense from Past Participle]]
-		- [[#Past Tense from Past Participle#Form|Form]]
-		- [[#Past Tense from Past Participle#Directory|Directory]]
-	- [[#Irregular Verbs#Past Tense as *"ie"*|Past Tense as *"ie"*]]
-		- [[#Past Tense as *"ie"*#Form|Form]]
-		- [[#Past Tense as *"ie"*#Directory|Directory]]
-	- [[#Irregular Verbs#Past Tense as *"u"*|Past Tense as *"u"*]]
-		- [[#Past Tense as *"u"*#Form|Form]]
-		- [[#Past Tense as *"u"*#Directory|Directory]]
+- [[#Other Verbs|Other Verbs]]
+	- [[#Other Verbs#Verb Forms|Verb Forms]]
+		- [[#Verb Forms#Regular Verbs|Regular Verbs]]
+		- [[#Verb Forms#Irregular Verbs|Irregular Verbs]]
+			- [[#Irregular Verbs#Past Tense as *"a"*|Past Tense as *"a"*]]
+			- [[#Irregular Verbs#Past Tense from Past Participle|Past Tense from Past Participle]]
+			- [[#Irregular Verbs#Past Tense as *"ie"*|Past Tense as *"ie"*]]
+			- [[#Irregular Verbs#Past Tense as *"u"*|Past Tense as *"u"*]]
 ## Content
 ---
 ### Key Verbs
@@ -178,9 +169,11 @@
 | *wir*       | *wollen* | *wollten*  | *wollten*       |
 | *ihr*       | *wollt*  | *wolltet*  | *wolltet*       |
 | *sie/Sie*   | *wollen* | *wollten*  | *wollten*       |
-### Regular Verbs
+### Other Verbs
 ---
-#### Form
+#### Verb Forms
+---
+##### Regular Verbs
 ---
 *Z. bsp. spielen.*
 
@@ -197,8 +190,94 @@
 | *wir*       | *spielen* | *spielten*  |
 | *ihr*       | *spielt*  | *spieltet*  |
 | *sie/Sie*   | *spielen* | *spielten*  |
+##### Irregular Verbs
+---
+###### Past Tense as *"a"*
+---
+*Z. Bsp. sehen*
+
+|             | Present  | Past    |
+| ----------- | -------- | ------- |
+| *ich*       | *sehe*   | *sah*   |
+| *du*        | *siehst* | *sahst* |
+| *er/es/sie* | *sieht*  | *sah*   |
+|             |          |         |
+| *wir*       | *sehen*  | *sahen* |
+| *ihr*       | *seht*   | *saht*  |
+| *sie/Sie*   | *sehen*  | *sahen* |
+###### Past Tense from Past Participle
+---
+*Z. Bsp. bringen*
+
+| Infinitive | Past Participle |
+| ---------- | --------------- |
+| *bringen*  | *gebracht*      |
+
+|             | Present   | Past        |
+| ----------- | --------- | ----------- |
+| *ich*       | *bringe*  | *brachte*   |
+| *du*        | *bringst* | *brachtest* |
+| *er/es/sie* | *bringt*  | *brachte*   |
+|             |           |             |
+| *wir*       | *bringen* | *brachten*  |
+| *ihr*       | *bringt*  | *brachtet*  |
+| *sie/Sie*   | *bringen* | *brachten*  |
+###### Past Tense as *"ie"*
+---
+*Z. Bsp. laufen*
+
+|             | Present  | Past     |
+| ----------- | -------- | -------- |
+| *ich*       | *laufe*  | *lief*   |
+| *du*        | *läufst* | *liefst* |
+| *er/es/sie* | *läuft*  | *lief*   |
+|             |          |          |
+| *wir*       | *laufen* | *liefen* |
+| *ihr*       | *lauft*  | *lieft*  |
+| *sie/Sie*   | *laufen* | *liefen* |
+###### Past Tense as *"u"*
+---
+*Z. Bsp. fahren*
+
+|             | Present  | Past     |
+| ----------- | -------- | -------- |
+| *ich*       | *fahre*  | *fuhr*   |
+| *du*        | *fährst* | *fuhrst* |
+| *er/es/sie* | *fährt*  | *fuhr*   |
+|             |          |          |
+| *wir*       | *fahren* | *fuhren* |
+| *ihr*       | *fahrt*  | *fuhrt*  |
+| *sie/Sie*   | *fahren* | *fuhren* |
 #### Directory
 ---
+##### Speech
+---
+
+| Verb (Infinitive) | Verb (Past Participle) | Valency                            | Example: *Deutsch*                    | Example: *English*          |
+| ----------------- | ---------------------- | ---------------------------------- | ------------------------------------- | --------------------------- |
+| *fahren*          | *gefahren*             | `[Nominative] [Verb]`              | *Ich fahre nach Münichen.*            | *I am driving to Munich.*   |
+| *tragen*          | *getragen*             | `[Nominative] [Verb] [Accusative]` | *Ich habe heute eine Kappe getragen.* | *I wore a cap today.*       |
+| *waschen*         | *gewaschen*            | `[Nominative] [Verb] [Accusative]` | *Ich wasche meine Haare jeden Tag.*   | *I wash my hair every day.* |
+| *schlagen*        | *geschlagen*           | `[Nominative] [Verb] [Accusative]` | *Gestern habe er mich geschlagen.*    | *He beat me yesterday.*     |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 | Verb (Infinitive)     | Valency                                      | Example: *Deutsch*                                               | Example: *English*                                      |
 | --------------------- | -------------------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------- |
@@ -251,25 +330,6 @@
 | *bedeuten/meinen*     | `[Nominative] [Verb]`                        | *Wenn du weiß, was ich bedeute/meinte.*                          | *If you know what I mean.*                              |
 | *erinnern*            | `[Nominative] [Verb] [Accusative/Reflexive]` | *Ich erinnerte mich.*<br>*Gestern habe ich dich drauf erinnert.* | *I remember.*<br>*I reminded you of this yesterday.*    |
 | *fühlen*              | `[Nominative] [Verb] [Accusative]`           | *Ich fühle much ein bisschen traurig.*                           | *I feel a bit sad.*                                     |
-### Irregular Verbs
----
-#### Past Tense as *"a"*
----
-##### Form
----
-*Z. Bsp. sehen*
-
-|             | Present  | Past    |
-| ----------- | -------- | ------- |
-| *ich*       | *sehe*   | *sah*   |
-| *du*        | *siehst* | *sahst* |
-| *er/es/sie* | *sieht*  | *sah*   |
-|             |          |         |
-| *wir*       | *sehen*  | *sahen* |
-| *ihr*       | *seht*   | *saht*  |
-| *sie/Sie*   | *sehen*  | *sahen* |
-##### Directory
----
 
 | Verb (Infinitive) | Verb (Past Participle) | Valency                                     | Example: *Deutsch*                        | Example: *English*               |
 | ----------------- | ---------------------- | ------------------------------------------- | ----------------------------------------- | -------------------------------- |
@@ -301,27 +361,6 @@
 | *sterben*         | *gestorben*            | `[Nominative] [Verb]`                       | *Wenn ich sterbe...*                      | *If I die...*                    |
 | *befehlen*        | *befohlen*             | `[Nominative] [Verb] [Dative]`              | *Ich befehle dir!*                        | *I command you!*                 |
 | *stehlen*         | *gestohlen*            | `[Nominative] [Verb] [Accusative]`          | *Dieses, das ich von dir gestohlen habe.* | *This is what I stole from you.* |
-#### Past Tense from Past Participle
----
-##### Form
----
-*Z. Bsp. bringen*
-
-| Infinitive | Past Participle |
-| ---------- | --------------- |
-| *bringen*  | *gebracht*      |
-
-|             | Present   | Past        |
-| ----------- | --------- | ----------- |
-| *ich*       | *bringe*  | *brachte*   |
-| *du*        | *bringst* | *brachtest* |
-| *er/es/sie* | *bringt*  | *brachte*   |
-|             |           |             |
-| *wir*       | *bringen* | *brachten*  |
-| *ihr*       | *bringt*  | *brachtet*  |
-| *sie/Sie*   | *bringen* | *brachten*  |
-##### Directory
----
 
 | Verb (Infinitive) | Verb (Past Participle) | Valency                                     | Example: *Deutsch*                  | Example: *English*            |
 | ----------------- | ---------------------- | ------------------------------------------- | ----------------------------------- | ----------------------------- |
@@ -348,23 +387,6 @@
 | *riechen*         | *gerochen*             | `[Nominative] [Verb]`                       | *Du riecht schlecht.*               | *I smell bad.*                |
 | *fliegen*         | *geflogen*             | `[Nominative] [Verb]`                       | *Der Vogel flog weg.*               | *The bird flew away.*         |
 | *kriechen*        | *gekrochen*            | `[Nominative] [Verb]`                       | *Es kroch weg...*                   | *It crawled away...*          |
-#### Past Tense as *"ie"*
----
-##### Form
----
-*Z. Bsp. laufen*
-
-|             | Present  | Past     |
-| ----------- | -------- | -------- |
-| *ich*       | *laufe*  | *lief*   |
-| *du*        | *läufst* | *liefst* |
-| *er/es/sie* | *läuft*  | *lief*   |
-|             |          |          |
-| *wir*       | *laufen* | *liefen* |
-| *ihr*       | *lauft*  | *lieft*  |
-| *sie/Sie*   | *laufen* | *liefen* |
-##### Directory
----
 
 | Verb (Infinitive) | Verb (Past Participle) | Valency                            | Example: *Deutsch*                  | Example: *English*               |
 | ----------------- | ---------------------- | ---------------------------------- | ----------------------------------- | -------------------------------- |
@@ -378,23 +400,6 @@
 | *hängen*          | *gehangen*             | `[Nominative] [Verb]`              | *Sie hing an ihren Haaren.*         | *She hanged by her hair.*        |
 | *gehen*           | *gegangen*             | `[Nominative] [Verb]`              | *Es geht darüber...*                | *It's about that...*             |
 | *fangen*          | *gefangen*             | `[Nominative] [Verb] [Accusative]` | *Endlich habe ich ihn gefangen.*    | *I found him at last.*           |
-#### Past Tense as *"u"*
----
-##### Form
----
-*Z. Bsp. fahren*
-
-|             | Present  | Past     |
-| ----------- | -------- | -------- |
-| *ich*       | *fahre*  | *fuhr*   |
-| *du*        | *fährst* | *fuhrst* |
-| *er/es/sie* | *fährt*  | *fuhr*   |
-|             |          |          |
-| *wir*       | *fahren* | *fuhren* |
-| *ihr*       | *fahrt*  | *fuhrt*  |
-| *sie/Sie*   | *fahren* | *fuhren* |
-##### Directory
----
 
 | Verb (Infinitive) | Verb (Past Participle) | Valency                            | Example: *Deutsch*                    | Example: *English*          |
 | ----------------- | ---------------------- | ---------------------------------- | ------------------------------------- | --------------------------- |

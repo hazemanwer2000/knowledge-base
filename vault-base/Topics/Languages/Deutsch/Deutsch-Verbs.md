@@ -340,6 +340,9 @@
 | *fehlen*              | -               | -           | -                        | *Du fehlst mir.*                                                 |
 |                       |                 |             |                          |                                                                  |
 | *halten*              | *gehalten*      | *hielt*     | `[Accusative]`           | *Ich halte es für eine gute Idee.*                               |
+| *klingen*             | *geklungen*     | *klang*     | -                        | *Ja, das klingt gut.*                                            |
+| *passen*              | -               | -           | -                        | *Das Kleid passt perfekt.*                                       |
+|                       |                 |             |                          |                                                                  |
 | *warten*              | -               | -           | -                        | *Ich werde auf dich warten.*                                     |
 | *lassen*              | *gelassen*      | *ließ*      | `[Accusative]`           | *Lass mich in Ruhe!*                                             |
 |                       |                 |             |                          |                                                                  |
@@ -352,10 +355,13 @@
 | *scheiden*            | *geschieden*    | *schied*    | `[Accusative/Reflexive]` | *Ich ließ mich von ihr scheiden.*                                |
 | *trennen*             | -               | -           | `[Accusative/Reflexive]` | *Sie haben sich voneinander getrennt.*                           |
 |                       |                 |             |                          |                                                                  |
+| *bevorzugen*          | -               | -           | `[Accusative]`           | *Ich bevorzuge dich über alle!*                                  |
 | *lieben*              | -               | -           | `[Accusative]`           | *Ich liebe dich!*                                                |
 | *hassen*              | -               | -           | `[Accusative]`           | *Ich hasse dich!*                                                |
 |                       |                 |             |                          |                                                                  |
 | *versuchen/probieren* | -               | -           | `[Accusative]`           | *Ich werde den Kuchen versuchen/probieren.*                      |
+|                       |                 |             |                          |                                                                  |
+| *passieren*           | -               | -           | -                        | *Was passiert?*                                                  |
 
 ##### ~~Normal Activities~~
 ---

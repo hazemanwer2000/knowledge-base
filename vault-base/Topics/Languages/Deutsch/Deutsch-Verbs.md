@@ -336,16 +336,21 @@
 | *ziehen*              | *gezogen*       | *zog*       | `[Accusative]`           | *Er zog sie an den Haaren.*                                      |
 | *stoßen*              | *gestoßen*      | *stieß*     | `[Accusative]`           | *Er stieß sie weg.*                                              |
 |                       |                 |             |                          |                                                                  |
+| *heiraten*            | *geheiratet*    | *heiratete* | `[Accusative]`           | *Ich werde sie heiraten.*                                        |
+| *gehören*             | -               | -           | `[Dative]`               | *Sie gehört mir!*                                                |
+| *verlassen*           | *verlassen*     | *verließ*   | `[Accusative]`           | *Ich verließ sie für dich.*                                      |
+| *scheiden*            | *geschieden*    | *schied*    | `[Accusative/Reflexive]` | *Ich ließ mich von ihr scheiden.*                                |
+| *trennen*             | -               | -           | `[Accusative/Reflexive]` | *Sie haben sich voneinander getrennt.*                           |
+|                       |                 |             |                          |                                                                  |
+| *lieben*              | -               | -           | `[Accusative]`           | *Ich liebe dich!*                                                |
+| *hassen*              | -               | -           | `[Accusative]`           | *Ich hasse dich!*                                                |
+|                       |                 |             |                          |                                                                  |
 | *versuchen/probieren* | -               | -           | `[Accusative]`           | *Ich werde den Kuchen versuchen/probieren.*                      |
 | *warten*              | -               | -           | -                        | *Ich werde auf dich warten.*                                     |
 | *entwickeln*          | -               | -           | `[Accusative]`           | *Ich habe Gefühle für sie entwickelt.*                           |
 | *erreichen*           | -               | -           | -                        | *Heute habe ich mein Ziel erreicht.*                             |
-| *gehören*             | -               | -           | `[Dative]`               | *Sie gehört mir!*                                                |
 | *zeigen*              | -               | -           | `[Dative] [Accusative]`  | *Ich will dir etwas zeigen.*                                     |
 | *treffen*             | *getroffen*     | *traf*      | -                        | *Gestern habe ich mit ihm getroffen.*                            |
-| *heiraten*            | *geheiratet*    | *heiratete* | `[Accusative]`           | *Ich werde sie heiraten.*                                        |
-| *verlassen*           | *verlassen*     | *verließ*   | `[Accusative]`           | *Ich verließ sie für dich.*                                      |
-| *trennen*             | -               | -           | `[Accusative/Reflexive]` | *Sie haben sich voneinander getrennt.*                           |
 | *sterben*             | *gestorben*     | *starb*     | -                        | *Wenn ich sterbe (...)*                                          |
 
 ##### Normal Activities
@@ -355,12 +360,13 @@
 | ----------------- | --------------- | ------------ | ----------------------- | --------------------------------------------- |
 | *spielen*         | -               | -            | `[Accusative]`          | *Ich spiele Fußball an den Wochenenden.*      |
 | *schwimmen*       | *geschwommen*   | *schwamm*    | -                       | *Ich schwimmen an der Wochenenden.*           |
+| *tanzen*          | -               | -            | -                       | *Ich will mit dir zu tanzen.*                 |
+|                   |                 |              |                         |                                               |
 | *heben*           | *gehoben*       | *hob*        | `[Accusative]`          | *Ich hebe Gewichte.*                          |
 | *arbeiten*        | -               | -            | -                       | *Ich arbeite als Ingenieur.*                  |
 | *essen*           | *gegessen*      | *aß*         | `[Accusative]`          | *Ich esse einen Kuchen.*                      |
 | *trinken*         | *getrunken*     | *trank*      | `[Accusative]`          | *Ich trinke Wasser.*                          |
 | *lernen*          | -               | -            | `[Accusative]`          | *Letztens lerne ich Deutsch.*                 |
-| *tanzen*          | -               | -            | -                       | *Ich will mit dir zu tanzen.*                 |
 | *sehen*           | *gesehen*       | *sah*        | `[Accusative]`          | *Ja, ich sehe es.*                            |
 | *schauen*         | -               | -            | `[Accusative]`          | *Ich schaue keine Spiele mehr.*               |
 | *tragen*          | *getragen*      | *trug*       | `[Accusative]`          | *Ich habe heute eine Kappe getragen.*         |

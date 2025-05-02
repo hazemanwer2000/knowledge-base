@@ -477,6 +477,9 @@
 |                   |                 |              |                         |                                                                    |
 | *kopieren*        | -               | -            | `[Accusative]`          | *Kopiere das Text.*                                                |
 | *einfügen*        | -               | -            | `[Accusative]`          | *Und füge es hier ein.*                                            |
+|                   |                 |              |                         |                                                                    |
+| *anbeten*         | -               | -            | `[Accusative]`          | *Jeden Tag bete ich Gott an.*                                      |
+| *beten*           | -               | -            | `[Accusative]`          | *Jeden Tag beten wir zu Gott.*                                     |
 
 ##### ~~Impersonal~~
 ---

@@ -357,11 +357,15 @@
 |                       |                 |             |                          |                                                                  |
 | *bevorzugen*          | -               | -           | `[Accusative]`           | *Ich bevorzuge dich über alle!*                                  |
 | *lieben*              | -               | -           | `[Accusative]`           | *Ich liebe dich!*                                                |
+| *ärgern*              | -               | -           | `[Accusative/Reflexive]` | *Ich ärgere dich immer.*<br>*Ich ärgere mich darüber.*           |
 | *hassen*              | -               | -           | `[Accusative]`           | *Ich hasse dich!*                                                |
 |                       |                 |             |                          |                                                                  |
 | *versuchen/probieren* | -               | -           | `[Accusative]`           | *Ich werde den Kuchen versuchen/probieren.*                      |
 |                       |                 |             |                          |                                                                  |
 | *passieren*           | -               | -           | -                        | *Was passiert?*                                                  |
+|                       |                 |             |                          |                                                                  |
+| *küssen*              | -               | -           | `[Accusative]`           | *Ich habe ihr gestern geküsst.*                                  |
+|                       |                 |             |                          |                                                                  |
 
 ##### ~~Normal Activities~~
 ---
@@ -387,6 +391,9 @@
 |                   |                 |              |                         |                                               |
 | *essen*           | *gegessen*      | *aß*         | `[Accusative]`          | *Ich esse einen Kuchen.*                      |
 | *trinken*         | *getrunken*     | *trank*      | `[Accusative]`          | *Ich trinke Wasser.*                          |
+|                   |                 |              |                         |                                               |
+| *lecken*          | -               | -            | `[Accusative]`          | *Ich habe das Eis geleckt.*                   |
+| *spucken*         | -               | -            | -                       | *Ich habe auf ihn gespuckt.*                  |
 |                   |                 |              |                         |                                               |
 | *sehen*           | *gesehen*       | *sah*        | `[Accusative]`          | *Ja, ich sehe es.*                            |
 | *schauen*         | -               | -            | `[Accusative]`          | *Ich schaue keine Spiele mehr.*               |

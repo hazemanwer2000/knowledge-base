@@ -369,6 +369,9 @@
 |                       |                 |            |                          |                                                                  |
 | *küssen*              | -               | -          | `[Accusative]`           | *Ich habe ihr gestern geküsst.*                                  |
 | *umarmen*             | -               | -          | `[Accusative]`           | *Ich umarmte und küsste Hilda.*                                  |
+|                       |                 |            |                          |                                                                  |
+| *hoffen*              | -               | -          | -                        | *Ich hoffe, es bleibt so.*                                       |
+| *wünschen*            | -               | -          | -                        | *Ich wünsche für einen besseren Tag morgen.*                     |
 
 ##### ~~Normal Activities~~
 ---

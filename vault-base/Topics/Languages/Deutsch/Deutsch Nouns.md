@@ -125,7 +125,7 @@
 |                    |                      | *die Antwort(en)*   |
 |                    |                      | *die Nachricht(en)* |
 |                    |                      |                     |
-| *der Satz (Sätze)* | *das Wort(e)*        |                     |
+| *der Satz (Sätze)* | *das Wort(e)*        | *die Sprache(n)*    |
 |                    |                      |                     |
 |                    | *das Interesse*      | *die Liebe*         |
 |                    |                      | *die Einsamkeit*    |

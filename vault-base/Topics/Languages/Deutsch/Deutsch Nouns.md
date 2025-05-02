@@ -8,17 +8,19 @@
 
 | Masculine            | Neuter            | Feminine             |
 | -------------------- | ----------------- | -------------------- |
-| *der Körper*         | *das Gehirn(e)*   | *die Stirn*          |
-| *der Bart (Bärte)*   | *das Auge(n)*     | *die Brust (Brüste)* |
-| *der Rücken*         | *das Haar(e)*     | *die Hand (Hände)*   |
-| *der Bauch (Bäuche)* | *das Bein(e)*     | *die Nase(n)*        |
-| *der Arsch (Ärsche)* | *das Gesicht(er)* |                      |
+| *der Kopf (Köpfe)*   | *das Gehirn(e)*   | *die Stirn*          |
+| *der Mund (Münder)*  | *das Gesicht(er)* | *die Augenbraue(n)*  |
+| *der Hals (Hälse)*   | *das Haar(e)*     | *die Nase(n)*        |
+| *der Bart (Bärte)*   | *das Auge(n)*     | *die Wange(n)*       |
+|                      | *das Ohr(en)*     |                      |
+|                      |                   |                      |
+| *der Körper*         | *das Bein(e)*     | *die Brust (Brüste)* |
+| *der Rücken*         |                   | *die Hand (Hände)*   |
+| *der Bauch (Bäuche)* |                   |                      |
+| *der Arsch (Ärsche)* |                   |                      |
 | *der Arm(e)*         |                   |                      |
 | *der Fuß (Füße)*     |                   |                      |
 | *der Finger*         |                   |                      |
-| *der Mund (Münder)*  |                   |                      |
-| *der Hals (Hälse)*   |                   |                      |
-| *der Kopf (Köpfe)*   |                   |                      |
 
 ## References
 ---

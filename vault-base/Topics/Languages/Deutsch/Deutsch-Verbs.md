@@ -280,7 +280,7 @@
 | *denken*          | *gedacht*       | *dachte*    | -                       | *Ich habe darüber nachgedacht.*        |
 |                   |                 |             |                         |                                        |
 | *nennen*          | *genannt*       | *nannte*    | `[Accusative]`          | *Ich habe ihn Alex genannt.*           |
-| *heißen*          | *geheißen*      | *hieß*      | -                       | *Ich heiße Sam.*                       |
+| *heißen*          | -               | -           | -                       | *Ich heiße Sam.*                       |
 
 ##### ~~Feelings and the Soul~~
 ---
@@ -379,7 +379,7 @@
 |                   |                 |              |                         |                                               |
 | *bauen*           | -               | -            | `[Dative] [Accusative]` | *Ich baue dir ein neues Haus.*                |
 | *machen*          | -               | -            | `[Dative] [Accusative]` | *Ich mache dir einen Kaffee.*                 |
-| *tun*             | *getan*         | *tan*        | `[Dative]`              | *Das tut doch keinem weh!*                    |
+| *tun*             | *getan*         | *tat*        | `[Dative]`              | *Das tut doch keinem weh!*                    |
 | *entwickeln*      | -               | -            | `[Accusative]`          | *Ich habe Gefühle für sie entwickelt.*        |
 |                   |                 |              |                         |                                               |
 | *arbeiten*        | -               | -            | -                       | *Ich arbeite als Ingenieur.*                  |
@@ -407,10 +407,11 @@
 |                   |                 |              |                         |                                               |
 | *reisen*          | -               | -            | -                       | *Ich reise zu viel.*                          |
 | *fliegen*         | *geflogen*      | *flog*       | -                       | *Der Vogel flog weg.*                         |
-| *fahren*          | *gefahren*      | -            | -                       | *Ich fahre nach Münichen.*                    |
+| *fahren*          | *gefahren*      | *fuhr*       | -                       | *Ich fahre nach Münichen.*                    |
 |                   |                 |              |                         |                                               |
 | *treffen*         | *getroffen*     | *traf*       | -                       | *Gestern habe ich mit ihm getroffen.*         |
 | *besuchen*        | -               | -            | `[Accusative]`          | *Sie wohnt in der Nähe, Ich besuche sie oft.* |
+| *einladen*        | *geladen*       | *lud*        | `[Accusative]`          | *Ich lade dich zu einer Party ein.*           |
 |                   |                 |              |                         |                                               |
 | *waschen*         | *gewaschen*     | *wusch*      | `[Accusative]`          | *Ich wasche meine Haare jeden Tag.*           |
 | *kämmen*          | -               | -            | `[Accusative]`          | *Jeden Tag am Morgen kämmt Sie ihre Haare.*   |
@@ -436,7 +437,7 @@
 | *legen*           | -               | -            | `[Accusative]`          | *Ich lege mich aufs Bett.*                    |
 |                   |                 |              |                         |                                               |
 | *liegen*          | *gelegen*       | *lag*        | `[Accusative]`          | *Ich liege mich auf dem Bett.*                |
-| *bleiben*         | *geblieben*     | *bliebte*    | -                       | *Bleibe in der Nähe!*                         |
+| *bleiben*         | *geblieben*     | *blieb*      | -                       | *Bleibe in der Nähe!*                         |
 |                   |                 |              |                         |                                               |
 | *sitzen*          | *gesessen*      | *saß*        | -                       | *Sie saß neben mir.*                          |
 | *stehen*          | *gestanden*     | *stande*     | -                       | *Ich stand auf dem Tisch.*                    |
@@ -461,7 +462,7 @@
 | *verschwinden*    | *verschwunden*  | *verschwand* | -                       | *Er ist einfach verschwunden.*                |
 |                   |                 |              |                         |                                               |
 | *stehlen*         | *gestohlen*     | *stahl*      | `[Accusative]`          | *Dieses, das ich von dir gestohlen habe.*     |
-| *töten*           | *getötet*       | *tötete*     | `[Accusative]`          | *Er tötete ihr.*                              |
+| *töten*           | -               | -            | `[Accusative]`          | *Er tötete ihr.*                              |
 |                   |                 |              |                         |                                               |
 | *kopieren*        | -               | -            | `[Accusative]`          | *Kopiere das Text.*                           |
 | *einfügen*        | -               | -            | `[Accusative]`          | *Und füge es hier ein.*                       |

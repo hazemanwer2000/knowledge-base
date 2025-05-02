@@ -1,6 +1,4 @@
 ──────── *for more from the author, visit* [github.com/hazemanwer2000](https://github.com/hazemanwer2000). ────────
-## *Table of Contents*
-...
 ## Content
 ---
 ### ~~The Body~~
@@ -22,6 +20,50 @@
 | *der Arm(e)*         |                   |                      |
 | *der Fuß (Füße)*     |                   |                      |
 | *der Finger*         |                   |                      |
+
+### ~~The Family~~
+---
+
+| Masculine           | Neuter | Feminine                |
+| ------------------- | ------ | ----------------------- |
+| *der Vater (Väter)* |        | *die Familie(n)*        |
+| *der Sohn (Söhne)*  |        | *die Mutter (Mütter)*   |
+|                     |        | *die Tochter (Töchter)* |
+
+| Masculine       | Feminine         |
+| --------------- | ---------------- |
+| *der Cousin(s)* | *die Cousine(n)* |
+
+### ~~Actors~~
+---
+
+| Masculine          | Neuter | Feminine |
+| ------------------ | ------ | -------- |
+| *der Student(en)*  |        |          |
+
+| Masculine          | Feminine               |
+| ------------------ | ---------------------- |
+| *der Ingenieur(e)* | *die Ingenieurin(nen)* |
+| *der Arzt (Ärzte)* | *die Ärztin(nen)*      |
+
+### ~~Clothing~~
+---
+
+| Masculine | Neuter         | Feminine       |
+| --------- | -------------- | -------------- |
+|           | *das Hemd(en)* | *die Kleidung* |
+|           |                | *die Hose*     |
+|           |                | *die Brille*   |
+|           |                | *die Schuhe*   |
+
+### ~~Animals~~
+---
+
+| Masculine           | Neuter           | Feminine       |
+| ------------------- | ---------------- | -------------- |
+| *der Hund(e)*       | *das Tier(e)*    | *die Katze(n)* |
+| *der Vogel (Vögel)* | *das Schwein(e)* |                |
+| *der Papagei(en)*   | *das Pferd(e)*   |                |
 
 ### ~~Many Places~~
 ---
@@ -67,59 +109,22 @@
 |                                 |              | *die Kartoffel(n)*     |
 |                                 |              | *die Tomate(n)*        |
 
-### ~~Animals~~
----
-
-| Masculine           | Neuter           | Feminine       |
-| ------------------- | ---------------- | -------------- |
-| *der Hund(e)*       | *das Tier(e)*    | *die Katze(n)* |
-| *der Vogel (Vögel)* | *das Schwein(e)* |                |
-| *der Papagei(en)*   | *das Pferd(e)*   |                |
-
-### ~~The Family~~
----
-
-| Masculine           | Neuter | Feminine                |
-| ------------------- | ------ | ----------------------- |
-| *der Vater (Väter)* |        | *die Familie(n)*        |
-| *der Sohn (Söhne)*  |        | *die Mutter (Mütter)*   |
-|                     |        | *die Tochter (Töchter)* |
-
-| Masculine       | Feminine         |
-| --------------- | ---------------- |
-| *der Cousin(s)* | *die Cousine(n)* |
-
-### ~~Actors~~
----
-
-| Masculine          | Neuter | Feminine |
-| ------------------ | ------ | -------- |
-| *der Student(en)*  |        |          |
-
-| Masculine          | Feminine               |
-| ------------------ | ---------------------- |
-| *der Ingenieur(e)* | *die Ingenieurin(nen)* |
-| *der Arzt (Ärzte)* | *die Ärztin(nen)*      |
-
-### ~~Clothing~~
----
-
-| Masculine | Neuter         | Feminine       |
-| --------- | -------------- | -------------- |
-|           | *das Hemd(en)* | *die Kleidung* |
-|           |                | *die Hose*     |
-|           |                | *die Brille*   |
-|           |                | *die Schuhe*   |
-
 ### ~~Abstract Concepts~~
 ---
 
 | Masculine          | Neuter               | Feminine          |
 | ------------------ | -------------------- | ----------------- |
-| *der Satz (Sätze)* | *das Thema (Themen)* | *die Idee(n)*     |
-|                    | *das Wort(e)*        | *die Frage(n)*    |
+|                    |                      | *die Frage(n)*    |
 |                    |                      | *die Antwort(en)* |
+|                    |                      |                   |
+| *der Satz (Sätze)* | *das Wort(e)*        |                   |
+|                    |                      |                   |
 |                    |                      | *die Liebe*       |
+|                    |                      |                   |
+|                    | *das Thema (Themen)* | *die Idee(n)*     |
+|                    |                      |                   |
+| *der Film(e)*      | *das Spiel(e)*       |                   |
+|                    | *das Lied(er)*       |                   |
 
 ## References
 ---

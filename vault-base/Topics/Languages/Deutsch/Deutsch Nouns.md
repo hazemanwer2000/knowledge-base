@@ -89,7 +89,8 @@
 | *der Tisch(e)*           |                | *die Tastatur(en)* |
 | *der Schrank (Schränke)* |                | *die Maus (Mäuse)* |
 | *der Schlüssel*          |                | *die Hütte(n)*     |
-| *der Ball (Bälle)*       |                |                    |
+| *der Ball (Bälle)*       |                | *die Tasche(n)*    |
+| *der Fernseher*          |                |                    |
 
 ### ~~Food and Drinks~~
 ---
@@ -120,11 +121,18 @@
 | *der Satz (Sätze)* | *das Wort(e)*        |                   |
 |                    |                      |                   |
 |                    |                      | *die Liebe*       |
+|                    |                      | *die Einsamkeit*  |
 |                    |                      |                   |
 |                    | *das Thema (Themen)* | *die Idee(n)*     |
 |                    |                      |                   |
 | *der Film(e)*      | *das Spiel(e)*       |                   |
 |                    | *das Lied(er)*       |                   |
+|                    |                      |                   |
+| *der Monat(e)*     | *das Jahr(e)*        | *die Zeit*        |
+| *der Tag(e)*       |                      | *die Stunde(n)*   |
+|                    |                      | *die Minute(n)*   |
+|                    |                      | *die Sekunde(n)*  |
+|                    |                      | *die Woche(n)*    |
 
 ## References
 ---

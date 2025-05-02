@@ -5,6 +5,7 @@
 * [[Deutsch-Verbs]]
 * [[Deutsch Nouns]]
 * [[Deutsch-Adjectives]]
+* [[Deutsch-Subordinate-Clauses]]
 ## *Content*
 ---
 La-bla!

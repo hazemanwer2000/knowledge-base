@@ -24,6 +24,16 @@
 | *richtig*      | *falsch*       |
 | *schnell*      | *langsam*      |
 | *voll*         | *leer*         |
+| *hell*         | *dunkel*       |
+| *glücklig*     | *traurig*      |
+| *böse*         | *unterwürfig*  |
+
+| Adjective  | Antonym      |
+| ---------- | ------------ |
+| *populär*  | *unpopulär*  |
+| *treu*     | *untreu*     |
+| *gehorsam* | *ungehorsam* |
+| *ehrlich*  | *unehrlich*  |
 
 ## References
 ---

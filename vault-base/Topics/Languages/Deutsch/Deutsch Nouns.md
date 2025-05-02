@@ -78,6 +78,11 @@
 | *der Platz (Plätze)* | *das Ort(e)*            | *die Straße(n)*       |
 | *der Stock (Stöcke)* | *das Haus (Häuser)*     |                       |
 |                      | *das Zimmer*            |                       |
+|                      |                         |                       |
+| *der Mond(e)*        |                         | *die Welt(en)*        |
+|                      |                         | *die Erde*            |
+|                      |                         | *die Sonne(n)*        |
+|                      |                         | *die Luft*            |
 
 ### ~~Many Things~~
 ---
@@ -113,26 +118,27 @@
 ### ~~Abstract Concepts~~
 ---
 
-| Masculine          | Neuter               | Feminine          |
-| ------------------ | -------------------- | ----------------- |
-|                    |                      | *die Frage(n)*    |
-|                    |                      | *die Antwort(en)* |
-|                    |                      |                   |
-| *der Satz (Sätze)* | *das Wort(e)*        |                   |
-|                    |                      |                   |
-|                    |                      | *die Liebe*       |
-|                    |                      | *die Einsamkeit*  |
-|                    |                      |                   |
-|                    | *das Thema (Themen)* | *die Idee(n)*     |
-|                    |                      |                   |
-| *der Film(e)*      | *das Spiel(e)*       |                   |
-|                    | *das Lied(er)*       |                   |
-|                    |                      |                   |
-| *der Monat(e)*     | *das Jahr(e)*        | *die Zeit*        |
-| *der Tag(e)*       |                      | *die Stunde(n)*   |
-|                    |                      | *die Minute(n)*   |
-|                    |                      | *die Sekunde(n)*  |
-|                    |                      | *die Woche(n)*    |
+| Masculine          | Neuter               | Feminine            |
+| ------------------ | -------------------- | ------------------- |
+|                    |                      | *die Frage(n)*      |
+|                    |                      | *die Antwort(en)*   |
+|                    |                      | *die Nachricht(en)* |
+|                    |                      |                     |
+| *der Satz (Sätze)* | *das Wort(e)*        |                     |
+|                    |                      |                     |
+|                    | *das Interesse*      | *die Liebe*         |
+|                    |                      | *die Einsamkeit*    |
+|                    |                      |                     |
+|                    | *das Thema (Themen)* | *die Idee(n)*       |
+|                    |                      |                     |
+| *der Film(e)*      | *das Spiel(e)*       |                     |
+|                    | *das Lied(er)*       |                     |
+|                    |                      |                     |
+| *der Monat(e)*     | *das Jahr(e)*        | *die Zeit*          |
+| *der Tag(e)*       |                      | *die Stunde(n)*     |
+|                    |                      | *die Minute(n)*     |
+|                    |                      | *die Sekunde(n)*    |
+|                    |                      | *die Woche(n)*      |
 
 ## References
 ---

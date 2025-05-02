@@ -30,6 +30,7 @@
 | *ähnlich/gleich* | *verschieden*  |
 | *frei*           | *beschäftigt*  |
 | *teuer*          | *billig*       |
+| *laut*           | *leise/still*  |
 
 | Adjective   | Antonym       |
 | ----------- | ------------- |

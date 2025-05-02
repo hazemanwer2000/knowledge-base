@@ -28,6 +28,8 @@
 | *glücklig*       | *traurig*      |
 | *böse*           | *unterwürfig*  |
 | *ähnlich/gleich* | *verschieden*  |
+| *frei*           | *beschäftigt*  |
+| *teuer*          | *billig*       |
 
 | Adjective   | Antonym       |
 | ----------- | ------------- |

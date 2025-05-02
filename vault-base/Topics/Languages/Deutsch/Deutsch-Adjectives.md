@@ -11,6 +11,7 @@
 | ---------------- | -------------- |
 | *groß*           | *klein*        |
 | *breit*          | *eng*          |
+| *weit*           | *nah*          |
 | *stark*          | *schwach*      |
 | *klug*           | *dumm*         |
 | *neu*            | *alt*          |

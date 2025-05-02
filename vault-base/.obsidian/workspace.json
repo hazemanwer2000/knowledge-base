@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/Languages/Deutsch/Deutsch-Grammar.md",
+                "file": "Topics/Languages/Deutsch/Deutsch Nouns.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Deutsch-Grammar"
+              "title": "Deutsch Nouns"
             }
           }
         ]
@@ -175,12 +175,12 @@
   },
   "active": "64656f38521e2c92",
   "lastOpenFiles": [
-    "Topics/Languages/Deutsch/Deutsch-Verbs.md",
-    "Topics/Languages/Deutsch/Deutsch-Grammar.md",
     "Topics/Languages/Deutsch/Deutsch Nouns.md",
-    "Topics/Languages/Deutsch/Deutsch-Adjectives.md",
-    "Topics/Languages/Deutsch/Deutsch-Prepositions.md",
+    "Topics/Languages/Deutsch/Deutsch-Grammar.md",
     "Topics/Languages/Deutsch/Deutsch-Subordinate-Clauses.md",
+    "Topics/Languages/Deutsch/Deutsch-Prepositions.md",
+    "Topics/Languages/Deutsch/Deutsch-Adjectives.md",
+    "Topics/Languages/Deutsch/Deutsch-Verbs.md",
     "Topics/Languages/Deutsch.md",
     "Welcome.md",
     "Topics/Languages.md",

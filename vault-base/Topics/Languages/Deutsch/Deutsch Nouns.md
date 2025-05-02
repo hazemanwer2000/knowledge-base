@@ -22,28 +22,69 @@
 | *der Fuß (Füße)*     |                   |                      |
 | *der Finger*         |                   |                      |
 
-### ~~Things and Places~~
+### ~~Many Places~~
 ---
 
-| Masculine            | Neuter                 | Feminine             |
-| -------------------- | ---------------------- | -------------------- |
-| *der Park(s)*        | *das Kino(s)*          | *die Bibliothek(en)* |
-|                      | *das Fitnessstudio(s)* | *die Apotheke(n)*    |
-|                      | *das Konzert(e)*       | *die Party(s)*       |
-|                      |                        |                      |
-| *der Platz (Plätze)* | *das Ort(e)*           | *die Straße(n)*      |
-| *der Stock (Stöcke)* | *das Haus (Häuser)*    |                      |
+| Masculine            | Neuter                 | Feminine              |
+| -------------------- | ---------------------- | --------------------- |
+| *der Park(s)*        | *das Kino(s)*          | *die Bibliothek(en)*  |
+| *der Markt (Märkte)* | *das Fitnessstudio(s)* | *die Apotheke(n)*     |
+|                      | *das Konzert(e)*       | *die Party(s)*        |
+|                      |                        | *die Universität(en)* |
+|                      |                        |                       |
+| *der Platz (Plätze)* | *das Ort(e)*           | *die Straße(n)*       |
+| *der Stock (Stöcke)* | *das Haus (Häuser)*    |                       |
+|                      | *das Zimmer*           |                       |
 
-| Masculine            | Neuter                 | Feminine             |
-| -------------------- | ---------------------- | -------------------- |
-| *der Park(s)*        | *das Kino(s)*          | *die Bibliothek(en)* |
-|                      | *das Fitnessstudio(s)* | *die Apotheke(n)*    |
-|                      | *das Konzert(e)*       | *die Party(s)*       |
-|                      |                        |                      |
-| *der Platz (Plätze)* | *das Ort(e)*           | *die Straße(n)*      |
-| *der Stock (Stöcke)* | *das Haus (Häuser)*    |                      |
-|                      |                        |                      |
-|                      |                        |                      |
+### ~~Many Things~~
+---
+
+| Masculine                | Neuter         | Feminine           |
+| ------------------------ | -------------- | ------------------ |
+| *der Teppich(e)*         | *das Bett(en)* | *die Lampe(n)*     |
+| *der Boden (Böden)*      |                | *die Tür(en)*      |
+| *der Tisch(e)*           |                | *die Tastatur(en)* |
+| *der Schrank (Schränke)* |                | *die Maus (Mäuse)* |
+| *der Schlüssel*          |                |                    |
+
+### ~~Food and Drinks~~
+---
+
+| Masculine                       | Neuter       | Feminine               |
+| ------------------------------- | ------------ | ---------------------- |
+| *der Saft (Säfte)*              |              | *die Getränk(e)*       |
+|                                 |              |                        |
+| *der Apfel (Äpfel)*             |              | *die Frucht (Früchte)* |
+| *der Pfirsich(e)*               |              | *die Erdbeere(n)*      |
+| *der Granatapfel (Granatäpfel)* |              | *die Orange(n)*        |
+|                                 |              | *die Wassermelone(n)*  |
+|                                 |              | *die Banane(n)*        |
+|                                 |              |                        |
+|                                 | *das Gemüse* | *die Gurke(n)*         |
+|                                 |              | *die Karrotte(n)*      |
+|                                 |              | *die Kartoffel(n)*     |
+|                                 |              | *die Tomate(n)*        |
+
+### ~~Animals~~
+---
+
+| Masculine           | Neuter           | Feminine       |
+| ------------------- | ---------------- | -------------- |
+| *der Hund(e)*       | *das Tier(e)*    | *die Katze(n)* |
+| *der Vogel (Vögel)* | *das Schwein(e)* |                |
+| *der Papagei(en)*   | *das Pferd(e)*   |                |
+
+### ~~The Family~~
+---
+
+
+
+### ~~Abstract Concepts~~
+---
+
+| Masculine | Neuter | Feminine      |
+| --------- | ------ | ------------- |
+|           |        | *die Idee(n)* |
 
 ## References
 ---

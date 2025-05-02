@@ -74,6 +74,7 @@
 | *der Markt (Märkte)* | *das Fitnessstudio(s)*  | *die Apotheke(n)*     |
 |                      | *das Konzert(e)*        | *die Party(s)*        |
 |                      | *das Stadion (Stadien)* | *die Universität(en)* |
+|                      | *das Unternehmen(en)*   |                       |
 |                      |                         |                       |
 | *der Platz (Plätze)* | *das Ort(e)*            | *die Straße(n)*       |
 | *der Stock (Stöcke)* | *das Haus (Häuser)*     |                       |
@@ -133,6 +134,8 @@
 |                    |                      |                     |
 | *der Film(e)*      | *das Spiel(e)*       |                     |
 |                    | *das Lied(er)*       |                     |
+|                    |                      |                     |
+|                    |                      | *die Gruppe(n)*     |
 |                    |                      |                     |
 | *der Monat(e)*     | *das Jahr(e)*        | *die Zeit*          |
 | *der Tag(e)*       |                      | *die Stunde(n)*     |

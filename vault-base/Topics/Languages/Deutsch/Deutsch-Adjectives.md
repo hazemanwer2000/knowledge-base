@@ -29,12 +29,13 @@
 | *böse*           | *unterwürfig*  |
 | *ähnlich/gleich* | *verschieden*  |
 
-| Adjective  | Antonym      |
-| ---------- | ------------ |
-| *populär*  | *unpopulär*  |
-| *treu*     | *untreu*     |
-| *gehorsam* | *ungehorsam* |
-| *ehrlich*  | *unehrlich*  |
+| Adjective   | Antonym       |
+| ----------- | ------------- |
+| *populär*   | *unpopulär*   |
+| *treu*      | *untreu*      |
+| *gehorsam*  | *ungehorsam*  |
+| *ehrlich*   | *unehrlich*   |
+| *beruflich* | *unberuflich* |
 
 ## References
 ---

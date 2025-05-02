@@ -22,6 +22,29 @@
 | *der Fuß (Füße)*     |                   |                      |
 | *der Finger*         |                   |                      |
 
+### ~~Things and Places~~
+---
+
+| Masculine            | Neuter                 | Feminine             |
+| -------------------- | ---------------------- | -------------------- |
+| *der Park(s)*        | *das Kino(s)*          | *die Bibliothek(en)* |
+|                      | *das Fitnessstudio(s)* | *die Apotheke(n)*    |
+|                      | *das Konzert(e)*       | *die Party(s)*       |
+|                      |                        |                      |
+| *der Platz (Plätze)* | *das Ort(e)*           | *die Straße(n)*      |
+| *der Stock (Stöcke)* | *das Haus (Häuser)*    |                      |
+
+| Masculine            | Neuter                 | Feminine             |
+| -------------------- | ---------------------- | -------------------- |
+| *der Park(s)*        | *das Kino(s)*          | *die Bibliothek(en)* |
+|                      | *das Fitnessstudio(s)* | *die Apotheke(n)*    |
+|                      | *das Konzert(e)*       | *die Party(s)*       |
+|                      |                        |                      |
+| *der Platz (Plätze)* | *das Ort(e)*           | *die Straße(n)*      |
+| *der Stock (Stöcke)* | *das Haus (Häuser)*    |                      |
+|                      |                        |                      |
+|                      |                        |                      |
+
 ## References
 ---
 [1] Hammer's German Grammar and Usage, Martin Durrel

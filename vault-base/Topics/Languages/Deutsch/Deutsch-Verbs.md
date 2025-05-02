@@ -389,6 +389,7 @@
 | *leben*           | -               | -            | -                       | *Ich lebe an der Straße.*                     |
 | *sterben*         | *gestorben*     | *starb*      | -                       | *Wenn ich sterbe (...)*                       |
 |                   |                 |              |                         |                                               |
+| *kochen*          | -               | -            | `[Dative] [Accusative]` | *Ich habe dir Essen gekocht.*                 |
 | *essen*           | *gegessen*      | *aß*         | `[Accusative]`          | *Ich esse einen Kuchen.*                      |
 | *trinken*         | *getrunken*     | *trank*      | `[Accusative]`          | *Ich trinke Wasser.*                          |
 |                   |                 |              |                         |                                               |

@@ -31,6 +31,8 @@
 | *frei*           | *beschäftigt*  |
 | *teuer*          | *billig*       |
 | *laut*           | *leise/still*  |
+| *aufgeregt*      | *gelangweilt*  |
+| *stolz*          | *bescheiden*   |
 
 | Adjective   | Antonym       |
 | ----------- | ------------- |

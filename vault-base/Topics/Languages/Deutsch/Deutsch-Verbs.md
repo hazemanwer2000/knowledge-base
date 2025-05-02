@@ -430,6 +430,7 @@
 | *flechten*        | *geflochten*    | *flocht*     | `[Accusative]`          | *Ich habe meine Haare heute geflochten.*                           |
 |                   |                 |              |                         |                                                                    |
 | *suchen*          | -               | -            | -                       | *Ich suche nach etwas zum Anschauen.*                              |
+| *entdecken*       | -               | -            | -                       | *Ich habe etwas Neues entdeckt!*                                   |
 | *finden*          | *gefunden*      | *fand*       | `[Accusative]`          | *Ich fand es wirklich lustig.*                                     |
 | *fangen*          | *gefangen*      | *fing*       | `[Accusative]`          | *Endlich habe ich einen Fisch gefangen.*                           |
 |                   |                 |              |                         |                                                                    |

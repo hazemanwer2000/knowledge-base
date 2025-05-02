@@ -365,7 +365,7 @@
 | *passieren*           | -               | -           | -                        | *Was passiert?*                                                  |
 |                       |                 |             |                          |                                                                  |
 | *küssen*              | -               | -           | `[Accusative]`           | *Ich habe ihr gestern geküsst.*                                  |
-|                       |                 |             |                          |                                                                  |
+| *umarmen*             | -               | -           | `[Accusative]`           | *Ich umarmte und küsste Hilda.*                                  |
 
 ##### ~~Normal Activities~~
 ---
@@ -398,6 +398,7 @@
 | *sehen*           | *gesehen*       | *sah*        | `[Accusative]`          | *Ja, ich sehe es.*                            |
 | *schauen*         | -               | -            | `[Accusative]`          | *Ich schaue keine Spiele mehr.*               |
 | *zeigen*          | -               | -            | `[Dative] [Accusative]` | *Ich will dir etwas zeigen.*                  |
+| *aufpassen*       | -               | -            | -                       | *Ich werde auf die Kinder aufpassen.*         |
 |                   |                 |              |                         |                                               |
 | *kommen*          | *gekommen*      | *kam*        | -                       | *Ich komme aus Deutschland.*                  |
 | *gehen*           | *gegangen*      | *ging*       | -                       | *Es geht darüber...*                          |

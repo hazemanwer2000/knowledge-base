@@ -127,11 +127,12 @@
 |                      |                      |                     |
 | *der Satz (Sätze)*   | *das Wort(e)*        | *die Sprache(n)*    |
 |                      |                      |                     |
-|                      | *das Interesse*      | *die Liebe*         |
+|                      |                      | *die Liebe*         |
 |                      |                      | *die Einsamkeit*    |
 |                      |                      |                     |
 | *der Grund (Gründe)* | *das Thema (Themen)* | *die Idee(n)*       |
-|                      |                      | *die Regel(n)*      |
+|                      | *das Interesse*      | *die Regel(n)*      |
+|                      |                      | *die Religion(en)*  |
 |                      |                      |                     |
 | *der Film(e)*        | *das Spiel(e)*       |                     |
 |                      | *das Lied(er)*       |                     |
@@ -143,6 +144,8 @@
 |                      |                      | *die Minute(n)*     |
 |                      |                      | *die Sekunde(n)*    |
 |                      |                      | *die Woche(n)*      |
+|                      |                      |                     |
+|                      |                      |                     |
 
 ## References
 ---

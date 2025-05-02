@@ -4,25 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "023aa63f2243200e",
+        "id": "6c7909cfaccfb338",
         "type": "tabs",
         "children": [
           {
-            "id": "8ffa62dc33d823d1",
+            "id": "aa3c595e586d7665",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/Languages/Deutsch/Deutsch-Verbs.md",
+                "file": "Topics/Languages/Deutsch/Deutsch Nouns.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Deutsch-Verbs"
+              "title": "Deutsch Nouns"
             }
           },
           {
-            "id": "fce2874248ffb979",
+            "id": "ae16475464e0e632",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -173,14 +173,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8ffa62dc33d823d1",
+  "active": "aa3c595e586d7665",
   "lastOpenFiles": [
     "Topics/Languages/Deutsch.md",
-    "Topics/Languages.md",
+    "Topics/Languages/Deutsch/Deutsch Nouns.md",
+    "Topics/Languages/Deutsch/Deutsch-Prepositions.md",
     "Welcome.md",
     "Topics/Languages/Deutsch/Deutsch-Verbs.md",
+    "Topics/Languages.md",
     "Topics/Languages/Deutsch/Deutsch-Grammar.md",
-    "Topics/Languages/Deutsch/Deutsch-Prepositions.md",
     "Topics/TechCraft.md",
     "Topics/Techcraft/OS.md",
     "Topics/Finance.md",
@@ -204,7 +205,6 @@
     "Topics/Techcraft/OS/AUTOSAR/General/AUTOSAR-ECU-Extract.md",
     "Topics/Techcraft/OS/AUTOSAR/ECUC/COM/Ethernet/AUTOSAR-Module-EthIf.md",
     "Topics/Techcraft/Cryptography/Symmetric-Encryption/AES.md",
-    "Topics/Techcraft/Cryptography/Symmetric-Encryption.md",
     "Topics/Technical-Topics/OS/AUTOSAR/General/AUTOSAR-SW-Components-2025-03-31-23-01-48.png",
     "Topics/Technical-Topics/OS/AUTOSAR/General/AUTOSAR-SW-Components-2025-03-31-00-01-56.png",
     "Topics/Technical-Topics/OS/AUTOSAR/General/AUTOSAR-SW-Components-2025-03-31-00-01-52.png",

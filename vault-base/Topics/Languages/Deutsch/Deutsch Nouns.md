@@ -119,33 +119,33 @@
 ### ~~Abstract Concepts~~
 ---
 
-| Masculine            | Neuter               | Feminine            |
-| -------------------- | -------------------- | ------------------- |
-|                      |                      | *die Frage(n)*      |
-|                      |                      | *die Antwort(en)*   |
-|                      |                      | *die Nachricht(en)* |
-|                      |                      |                     |
-| *der Satz (Sätze)*   | *das Wort(e)*        | *die Sprache(n)*    |
-|                      |                      |                     |
-|                      |                      | *die Liebe*         |
-|                      |                      | *die Einsamkeit*    |
-|                      |                      |                     |
-| *der Grund (Gründe)* | *das Thema (Themen)* | *die Idee(n)*       |
-|                      | *das Interesse*      | *die Regel(n)*      |
-|                      |                      | *die Religion(en)*  |
-|                      |                      |                     |
-| *der Film(e)*        | *das Spiel(e)*       |                     |
-|                      | *das Lied(er)*       |                     |
-|                      |                      |                     |
-|                      |                      | *die Gruppe(n)*     |
-|                      |                      |                     |
-| *der Monat(e)*       | *das Jahr(e)*        | *die Zeit*          |
-| *der Tag(e)*         |                      | *die Stunde(n)*     |
-|                      |                      | *die Minute(n)*     |
-|                      |                      | *die Sekunde(n)*    |
-|                      |                      | *die Woche(n)*      |
-|                      |                      |                     |
-|                      |                      |                     |
+| Masculine            | Neuter               | Feminine              |
+| -------------------- | -------------------- | --------------------- |
+|                      |                      | *die Frage(n)*        |
+|                      |                      | *die Antwort(en)*     |
+|                      |                      | *die Nachricht(en)*   |
+|                      |                      |                       |
+| *der Satz (Sätze)*   | *das Wort(e)*        | *die Sprache(n)*      |
+|                      |                      |                       |
+| *der Grund (Gründe)* | *das Thema (Themen)* | *die Idee(n)*         |
+|                      | *das Interesse*      | *die Regel(n)*        |
+|                      |                      | *die Religion(en)*    |
+|                      |                      |                       |
+| *der Untershied(e)*  |                      | *die Ähnlichkeit(en)* |
+|                      |                      |                       |
+| *der Film(e)*        | *das Spiel(e)*       |                       |
+|                      | *das Lied(er)*       |                       |
+|                      |                      |                       |
+|                      |                      | *die Gruppe(n)*       |
+|                      |                      |                       |
+| *der Monat(e)*       | *das Jahr(e)*        | *die Zeit*            |
+| *der Tag(e)*         |                      | *die Stunde(n)*       |
+|                      |                      | *die Minute(n)*       |
+|                      |                      | *die Sekunde(n)*      |
+|                      |                      | *die Woche(n)*        |
+|                      |                      |                       |
+|                      |                      | *die Liebe*           |
+|                      |                      | *die Einsamkeit*      |
 
 ## References
 ---

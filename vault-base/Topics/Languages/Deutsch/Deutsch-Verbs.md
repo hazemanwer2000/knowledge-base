@@ -424,6 +424,9 @@
 | *besuchen*        | -               | -            | `[Accusative]`          | *Sie wohnt in der Nähe, Ich besuche sie oft.*                      |
 | *einladen*        | *eingeladen*    | *lud ein*    | `[Accusative]`          | *Ich lade dich zu einer Party ein.*                                |
 |                   |                 |              |                         |                                                                    |
+| *schicken*        | -               | -            | `[Accusative]`          | *Ich habe eine Nachricht zu dir gestern geschickt.*                |
+| *erhalten*        | *erhalten*      | *erhielt*    | `[Accusative]`          | *Ich habe eine Nachricht von dir gestern erhalten.*                |
+|                   |                 |              |                         |                                                                    |
 | *waschen*         | *gewaschen*     | *wusch*      | `[Accusative]`          | *Ich wasche meine Haare jeden Tag.*                                |
 | *kämmen*          | -               | -            | `[Accusative]`          | *Jeden Tag am Morgen kämmt Sie ihre Haare.*                        |
 | *messen*          | *gemessen*      | *maß*        | -                       | *Jeden Tag messe ich meine Haare.*                                 |

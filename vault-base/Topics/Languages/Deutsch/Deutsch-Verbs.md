@@ -490,9 +490,13 @@
 |                   |                 |              |                          |                                                                    |
 | *kopieren*        | -               | -            | `[Accusative]`           | *Kopiere das Text.*                                                |
 | *einfügen*        | -               | -            | `[Accusative]`           | *Und füge es hier ein.*                                            |
+| *löschen*         | -               | -            | `[Accusative]`           | *Ich habe bereits deine Nummer von meinem Handy gelöscht.*         |
 |                   |                 |              |                          |                                                                    |
 | *anbeten*         | -               | -            | `[Accusative]`           | *Jeden Tag bete ich Gott an.*                                      |
 | *beten*           | -               | -            | `[Accusative]`           | *Jeden Tag beten wir zu Gott.*                                     |
+|                   |                 |              |                          |                                                                    |
+| *erhöhen*         | -               | -            | `[Accusative]`           | *Wenn ich den Druck erhöhe, denn schmerzt es.*                     |
+| *verringern*      | -               | -            | `[Accusative]`           | *Wenn ich den Druck verringe, denn werden Sie mehr bequem sein.*   |
 
 ##### ~~Impersonal~~
 ---

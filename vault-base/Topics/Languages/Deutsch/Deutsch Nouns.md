@@ -103,7 +103,7 @@
 | Masculine                | Neuter         | Feminine           |
 | ------------------------ | -------------- | ------------------ |
 | *der Teppich(e)*         | *das Bett(en)* | *die Lampe(n)*     |
-| *der Boden (Böden)*      |                | *die Tür(en)*      |
+| *der Boden (Böden)*      | *das Handy(s)* | *die Tür(en)*      |
 | *der Tisch(e)*           |                | *die Tastatur(en)* |
 | *der Schrank (Schränke)* |                | *die Maus (Mäuse)* |
 | *der Schlüssel*          |                | *die Hütte(n)*     |
@@ -139,6 +139,7 @@
 |                      |                      | *die Nachricht(en)*   |
 |                      |                      |                       |
 | *der Satz (Sätze)*   | *das Wort(e)*        | *die Sprache(n)*      |
+|                      |                      | *die Nummer(n)*       |
 |                      |                      |                       |
 | *der Grund (Gründe)* | *das Thema (Themen)* | *die Idee(n)*         |
 |                      | *das Interesse*      | *die Regel(n)*        |

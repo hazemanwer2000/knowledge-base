@@ -315,6 +315,7 @@
 | *folgen*              | -               | -          | `[Dative]`               | *Folge mir!*                                                     |
 |                       |                 |            |                          |                                                                  |
 | *beginnen*            | *begonnen*      | *began*    | -                        | *Es begann.*                                                     |
+| *dauern*              | -               | -          | -                        | *Es dauert zu lang.*                                             |
 | *aufhören*            | -               | -          | -                        | *Es aufhörte.*                                                   |
 |                       |                 |            |                          |                                                                  |
 | *konzentrieren*       | -               | -          | `[Accusative/Reflexive]` | *Ich konzentriere mich immer auf dich.*                          |
@@ -338,6 +339,9 @@
 | *geben*               | *gegeben*       | *gab*      | `[Dative] [Accusative]`  | *Ich gab dir das Essen.*                                         |
 | *nehmen*              | *genommen*      | *nahm*     | `[Accusative]`           | *Ich nahm es.*                                                   |
 | *behalten*            | *behalten*      | *behielt*  | `[Accusative]`           | *Ich werde es behalten.*                                         |
+|                       |                 |            |                          |                                                                  |
+| *benutzen*            | -               | -          | `[Accusative]`           | *Ich habe sie benutzt.*                                          |
+| *missbrauchen*        | -               | -          | `[Accusative]`           | *Immer missbrauchte er mich.*                                    |
 |                       |                 |            |                          |                                                                  |
 | *brauchen*            | -               | -          | -                        | *Peter, ich brauche dich.*                                       |
 | *vermissen*           | -               | -          | `[Accusative]`           | *Ich vermisse ihn.*                                              |

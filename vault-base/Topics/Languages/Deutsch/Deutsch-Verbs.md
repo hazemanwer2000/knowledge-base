@@ -337,6 +337,7 @@
 | *bringen*             | *gebracht*      | *brachte*  | `[Dative] [Accusative]`  | *Ich brachte dir das Essen.*                                     |
 | *geben*               | *gegeben*       | *gab*      | `[Dative] [Accusative]`  | *Ich gab dir das Essen.*                                         |
 | *nehmen*              | *genommen*      | *nahm*     | `[Accusative]`           | *Ich nahm es.*                                                   |
+| *behalten*            | *behalten*      | *behielt*  | `[Accusative]`           | *Ich werde es behalten.*                                         |
 |                       |                 |            |                          |                                                                  |
 | *brauchen*            | -               | -          | -                        | *Peter, ich brauche dich.*                                       |
 | *vermissen*           | -               | -          | `[Accusative]`           | *Ich vermisse ihn.*                                              |
@@ -421,7 +422,7 @@
 |                   |                 |              |                         |                                                                    |
 | *treffen*         | *getroffen*     | *traf*       | -                       | *Gestern habe ich mit ihm getroffen.*                              |
 | *besuchen*        | -               | -            | `[Accusative]`          | *Sie wohnt in der Nähe, Ich besuche sie oft.*                      |
-| *einladen*        | *geladen*       | *lud*        | `[Accusative]`          | *Ich lade dich zu einer Party ein.*                                |
+| *einladen*        | *eingeladen*    | *lud ein*    | `[Accusative]`          | *Ich lade dich zu einer Party ein.*                                |
 |                   |                 |              |                         |                                                                    |
 | *waschen*         | *gewaschen*     | *wusch*      | `[Accusative]`          | *Ich wasche meine Haare jeden Tag.*                                |
 | *kämmen*          | -               | -            | `[Accusative]`          | *Jeden Tag am Morgen kämmt Sie ihre Haare.*                        |
@@ -443,7 +444,7 @@
 | *treten*          | *getreten*      | *trat*       | `[Dative] [Accusative]` | *Ich habe ihm den Ball getreten.*                                  |
 |                   |                 |              |                         |                                                                    |
 | *steigen*         | *gestiegen*     | *stieg*      | -                       | *Ich stieg aus dem Bett.*                                          |
-| *springen*        | *gesprungen*    | *sprand*     | -                       | *Er sprang vom Gebäude.*                                           |
+| *springen*        | *gesprungen*    | *sprang*     | -                       | *Er sprang vom Gebäude.*                                           |
 | *fallen*          | *gefallen*      | *fiel*       | -                       | *Ich habe umgefallen.*                                             |
 | *legen*           | -               | -            | `[Accusative]`          | *Ich lege mich aufs Bett.*                                         |
 |                   |                 |              |                         |                                                                    |

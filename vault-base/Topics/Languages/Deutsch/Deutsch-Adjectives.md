@@ -22,6 +22,7 @@
 | *schwer*         | *einfach*               |
 | *früh*           | *spät*<br>              |
 | *lang*           | *kurz*                  |
+| *langfristig*    | *kurzfristig*           |
 | *richtig*        | *falsch*                |
 | *schnell*        | *langsam*               |
 | *voll*           | *leer*                  |
@@ -34,15 +35,19 @@
 | *laut*           | *leise/still*           |
 | *aufgeregt*      | *gelangweilt*           |
 | *stolz*          | *bescheiden*            |
+| *mutig*          | *ängstlich/feige*       |
 | *dominant*       | *submissiv/unterwürfig* |
 
-| Adjective   | Antonym       |
-| ----------- | ------------- |
-| *populär*   | *unpopulär*   |
-| *treu*      | *untreu*      |
-| *gehorsam*  | *ungehorsam*  |
-| *ehrlich*   | *unehrlich*   |
-| *beruflich* | *unberuflich* |
+| Adjective     |
+| ------------- |
+| *fertig*      |
+| *populär*     |
+| *treu*        |
+| *gehorsam*    |
+| *ehrlich*     |
+| *beruflich*   |
+| *neugierig*   |
+| *gemein/fies* |
 
 ## References
 ---

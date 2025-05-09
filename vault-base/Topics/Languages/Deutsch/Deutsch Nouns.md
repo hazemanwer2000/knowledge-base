@@ -1,4 +1,15 @@
 ──────── *for more from the author, visit* [github.com/hazemanwer2000](https://github.com/hazemanwer2000). ────────
+## *Table of Contents*
+
+- [[#~~The Body~~|~~The Body~~]]
+- [[#~~The Family~~|~~The Family~~]]
+- [[#~~Actors~~|~~Actors~~]]
+- [[#~~Clothing~~|~~Clothing~~]]
+- [[#~~Animals~~|~~Animals~~]]
+- [[#~~Many Places~~|~~Many Places~~]]
+- [[#~~Many Things~~|~~Many Things~~]]
+- [[#~~Food and Drinks~~|~~Food and Drinks~~]]
+- [[#~~Abstract Concepts~~|~~Abstract Concepts~~]]
 ## Content
 ---
 ### ~~The Body~~
@@ -49,12 +60,13 @@
 ### ~~Clothing~~
 ---
 
-| Masculine | Neuter         | Feminine       |
-| --------- | -------------- | -------------- |
-|           | *das Hemd(en)* | *die Kleidung* |
-|           |                | *die Hose*     |
-|           |                | *die Brille*   |
-|           |                | *die Schuhe*   |
+| Masculine    | Neuter         | Feminine          |
+| ------------ | -------------- | ----------------- |
+| *der Knebel* | *das Hemd(en)* | *die Kleidung*    |
+| *der Socken* |                | *die Hose*        |
+|              |                | *die Brille*      |
+|              |                | *die Schuhe*      |
+|              |                | *die Unterwäsche* |
 
 ### ~~Animals~~
 ---
@@ -74,7 +86,7 @@
 | *der Markt (Märkte)* | *das Fitnessstudio(s)*  | *die Apotheke(n)*     |
 |                      | *das Konzert(e)*        | *die Party(s)*        |
 |                      | *das Stadion (Stadien)* | *die Universität(en)* |
-|                      | *das Unternehmen(en)*   |                       |
+|                      | *das Unternehmen(en)*   | *die Schule(n)*       |
 |                      |                         |                       |
 | *der Platz (Plätze)* | *das Ort(e)*            | *die Straße(n)*       |
 | *der Stock (Stöcke)* | *das Haus (Häuser)*     |                       |
@@ -97,6 +109,7 @@
 | *der Schlüssel*          |                | *die Hütte(n)*     |
 | *der Ball (Bälle)*       |                | *die Tasche(n)*    |
 | *der Fernseher*          |                |                    |
+| *der Stuhl (Stühle)*     |                |                    |
 
 ### ~~Food and Drinks~~
 ---
@@ -135,6 +148,7 @@
 |                      |                      |                       |
 | *der Film(e)*        | *das Spiel(e)*       |                       |
 |                      | *das Lied(er)*       |                       |
+|                      | *das Bild(er)*       |                       |
 |                      |                      |                       |
 |                      |                      | *die Gruppe(n)*       |
 |                      |                      |                       |
@@ -147,6 +161,11 @@
 |                      |                      | *die Liebe*           |
 |                      |                      | *die Einsamkeit*      |
 |                      |                      | *die Lust*            |
+|                      |                      |                       |
+|                      |                      | *die Beziehung(en)*   |
+|                      |                      |                       |
+|                      |                      | *die Erniedrigung*    |
+|                      |                      | *die Demütigung*      |
 
 ## References
 ---

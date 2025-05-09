@@ -10,7 +10,7 @@
 | *der Mund (Münder)*  | *das Gesicht(er)* | *die Augenbraue(n)*  |
 | *der Hals (Hälse)*   | *das Haar(e)*     | *die Nase(n)*        |
 | *der Bart (Bärte)*   | *das Auge(n)*     | *die Wange(n)*       |
-| *der Zahn (Zähne)*   | *das Ohr(en)*     |                      |
+| *der Zahn (Zähne)*   | *das Ohr(en)*     | *die Zunge(n)*       |
 |                      |                   |                      |
 | *der Mensch(en)*     | *das Bein(e)*     | *die Brust (Brüste)* |
 | *der Körper*         |                   | *die Hand (Hände)*   |
@@ -146,6 +146,7 @@
 |                      |                      |                       |
 |                      |                      | *die Liebe*           |
 |                      |                      | *die Einsamkeit*      |
+|                      |                      | *die Lust*            |
 
 ## References
 ---

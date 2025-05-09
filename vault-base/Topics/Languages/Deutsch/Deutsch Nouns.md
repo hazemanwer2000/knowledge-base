@@ -152,6 +152,8 @@
 |                      |                      |                       |
 |                      |                      | *die Gruppe(n)*       |
 |                      |                      |                       |
+| *der Kurs(e)*        | *das Abitur*         |                       |
+|                      |                      |                       |
 | *der Monat(e)*       | *das Jahr(e)*        | *die Zeit*            |
 | *der Tag(e)*         |                      | *die Stunde(n)*       |
 |                      |                      | *die Minute(n)*       |

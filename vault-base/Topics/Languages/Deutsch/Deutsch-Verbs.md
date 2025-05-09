@@ -370,6 +370,7 @@
 | *hassen*              | -               | -          | `[Accusative]`           | *Ich hasse dich!*                                                |
 |                       |                 |            |                          |                                                                  |
 | *versuchen/probieren* | -               | -          | `[Accusative]`           | *Ich werde den Kuchen versuchen/probieren.*                      |
+| *verändern*           | -               | -          | `[Accusative]`           | *Das verändert alles.*                                           |
 |                       |                 |            |                          |                                                                  |
 | *passieren*           | -               | -          | -                        | *Was passiert?*                                                  |
 |                       |                 |            |                          |                                                                  |

@@ -471,7 +471,7 @@
 | *binden*          | *gebunden*      | *band*       | `[Accusative]`          | *Ich band die Beine zusammen.*                                     |
 | *hängen*          | *gehangen*      | *hing*       | -                       | *Sie hing an ihren Haaren.*                                        |
 |                   |                 |              |                         |                                                                    |
-| *erscheinen*      | *erschien*      | *erschien*   | -                       | *Er hat erschien.*                                                 |
+| *erscheinen*      | *erschienen*    | *erschien*   | -                       | *Er hat erschien.*                                                 |
 | *verschwinden*    | *verschwunden*  | *verschwand* | -                       | *Er ist einfach verschwunden.*                                     |
 |                   |                 |              |                         |                                                                    |
 | *stehlen*         | *gestohlen*     | *stahl*      | `[Accusative]`          | *Dieses, das ich von dir gestohlen habe.*                          |

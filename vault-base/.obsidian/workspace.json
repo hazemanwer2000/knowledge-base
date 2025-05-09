@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/Languages/Deutsch/Deutsch-Verbs.md",
+                "file": "Topics/Languages/Deutsch/Deutsch-Adjectives.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Deutsch-Verbs"
+              "title": "Deutsch-Adjectives"
             }
           },
           {
@@ -35,8 +35,7 @@
               "title": "Deutsch Nouns"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -174,10 +173,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dd8d20da14b3a03a",
+  "active": "f0fee8da0ce24d55",
   "lastOpenFiles": [
     "Topics/Languages/Deutsch/Deutsch-Grammar.md",
+    "Topics/Languages/Deutsch/Deutsch-Prepositions.md",
+    "Topics/Languages/Deutsch/Deutsch-Subordinate-Clauses.md",
     "Topics/Languages/Deutsch/Deutsch-Verbs.md",
+    "Topics/Languages/Deutsch/Deutsch Nouns.md",
     "Topics/Languages/Deutsch.md",
     "Topics/Techcraft/Tooling.md",
     "Topics/TechCraft.md",
@@ -186,10 +188,7 @@
     "Topics/Techcraft/Communication-Protocols.md",
     "Welcome.md",
     "Topics/Finance.md",
-    "Topics/Languages/Deutsch/Deutsch-Subordinate-Clauses.md",
     "Topics/Languages/Deutsch/Deutsch-Adjectives.md",
-    "Topics/Languages/Deutsch/Deutsch Nouns.md",
-    "Topics/Languages/Deutsch/Deutsch-Prepositions.md",
     "Topics/Languages.md",
     "Topics/Finance/Financial-Statements.md",
     "Topics/Languages/Deutsch/Deutsch-Nouns.md",

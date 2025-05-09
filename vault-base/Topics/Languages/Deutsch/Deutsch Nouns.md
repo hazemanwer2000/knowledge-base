@@ -100,16 +100,22 @@
 ### ~~Many Things~~
 ---
 
-| Masculine                | Neuter         | Feminine           |
-| ------------------------ | -------------- | ------------------ |
-| *der Teppich(e)*         | *das Bett(en)* | *die Lampe(n)*     |
-| *der Boden (Böden)*      | *das Handy(s)* | *die Tür(en)*      |
-| *der Tisch(e)*           |                | *die Tastatur(en)* |
-| *der Schrank (Schränke)* |                | *die Maus (Mäuse)* |
-| *der Schlüssel*          |                | *die Hütte(n)*     |
-| *der Ball (Bälle)*       |                | *die Tasche(n)*    |
-| *der Fernseher*          |                |                    |
-| *der Stuhl (Stühle)*     |                |                    |
+| Masculine                | Neuter                      | Feminine           |
+| ------------------------ | --------------------------- | ------------------ |
+| *der Teppich(e)*         | *das Bett(en)*              | *die Lampe(n)*     |
+| *der Boden (Böden)*      | *das Handy(s)*              | *die Tür(en)*      |
+| *der Tisch(e)*           |                             | *die Tastatur(en)* |
+| *der Schrank (Schränke)* |                             | *die Maus (Mäuse)* |
+| *der Schlüssel*          |                             | *die Hütte(n)*     |
+| *der Ball (Bälle)*       |                             | *die Tasche(n)*    |
+| *der Fernseher*          |                             |                    |
+| *der Stuhl (Stühle)*     |                             |                    |
+|                          |                             |                    |
+| *der Bus(se)*            | *das Auto(s)*               |                    |
+| *der Zug (Züge)*         | *das Motorrad (Motorräder)* |                    |
+| *der Bahnhof (Bahnhöfe)* | *das Fahrrad (Fährrader)*   |                    |
+|                          | *das Flugzeug(e)*           |                    |
+|                          | *das Schiff(e)*             |                    |
 
 ### ~~Food and Drinks~~
 ---
@@ -153,7 +159,7 @@
 |                      |                      |                       |
 |                      |                      | *die Gruppe(n)*       |
 |                      |                      |                       |
-| *der Kurs(e)*        | *das Abitur*         |                       |
+| *der Kurs(e)*        |                      |                       |
 |                      |                      |                       |
 | *der Monat(e)*       | *das Jahr(e)*        | *die Zeit*            |
 | *der Tag(e)*         |                      | *die Stunde(n)*       |

@@ -359,6 +359,7 @@
 | *trennen*             | -               | -          | `[Accusative/Reflexive]` | *Sie haben sich voneinander getrennt.*                           |
 |                       |                 |            |                          |                                                                  |
 | *bevorzugen*          | -               | -          | `[Accusative]`           | *Ich bevorzuge dich über alle!*                                  |
+| *empfehlen*           | *empfohlen*     | *empfahl*  | `[Accusative]`           | *Ich empfehle dieses hier.*                                      |
 | *lieben*              | -               | -          | `[Accusative]`           | *Ich liebe dich!*                                                |
 | *ärgern*              | -               | -          | `[Accusative/Reflexive]` | *Ich ärgere dich immer.*<br>*Ich ärgere mich darüber.*           |
 | *hassen*              | -               | -          | `[Accusative]`           | *Ich hasse dich!*                                                |

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b7bff845bcd79968",
+        "id": "c759c4d28a9752ce",
         "type": "tabs",
         "children": [
           {
-            "id": "64656f38521e2c92",
+            "id": "f0fee8da0ce24d55",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,35 +22,20 @@
             }
           },
           {
-            "id": "3db0b26799f7beb8",
+            "id": "dd8d20da14b3a03a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/Languages/Deutsch/Deutsch-Adjectives.md",
+                "file": "Topics/Languages/Deutsch/Deutsch-Grammar.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Deutsch-Adjectives"
-            }
-          },
-          {
-            "id": "a5dec16ed45e0e79",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topics/Languages/Deutsch/Deutsch Nouns.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Deutsch Nouns"
+              "title": "Deutsch-Grammar"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -188,27 +173,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a5dec16ed45e0e79",
+  "active": "f0fee8da0ce24d55",
   "lastOpenFiles": [
-    "Topics/Languages/Deutsch/Deutsch-Adjectives.md",
-    "Topics/Languages/Deutsch/Deutsch-Verbs.md",
-    "Topics/Languages/Deutsch/Deutsch Nouns.md",
     "Topics/Languages/Deutsch/Deutsch-Grammar.md",
-    "Topics/Languages/Deutsch/Deutsch-Prepositions.md",
-    "Topics/Languages/Deutsch/Deutsch-Subordinate-Clauses.md",
+    "Topics/Languages/Deutsch/Deutsch-Verbs.md",
     "Topics/Languages/Deutsch.md",
-    "Welcome.md",
-    "Topics/Languages.md",
+    "Topics/Techcraft/Tooling.md",
     "Topics/TechCraft.md",
+    "Topics/Techcraft/Cryptography.md",
     "Topics/Techcraft/OS.md",
+    "Topics/Techcraft/Communication-Protocols.md",
+    "Welcome.md",
     "Topics/Finance.md",
+    "Topics/Languages/Deutsch/Deutsch-Subordinate-Clauses.md",
+    "Topics/Languages/Deutsch/Deutsch-Adjectives.md",
+    "Topics/Languages/Deutsch/Deutsch Nouns.md",
+    "Topics/Languages/Deutsch/Deutsch-Prepositions.md",
+    "Topics/Languages.md",
     "Topics/Finance/Financial-Statements.md",
     "Topics/Languages/Deutsch/Deutsch-Nouns.md",
     "Topics/Techcraft/OS/AUTOSAR/General/AUTOSAR-SW-Components.md",
     "Topics/Techcraft/OS/AUTOSAR.md",
-    "Topics/Techcraft/Cryptography.md",
-    "Topics/Techcraft/Communication-Protocols.md",
-    "Topics/Techcraft/Tooling.md",
     "Topics/Techcraft/Cryptography/Authenticated-Encryption/GCM.md",
     "Topics/Languages/Deutsch",
     "Topics/Languages/Deutsch",

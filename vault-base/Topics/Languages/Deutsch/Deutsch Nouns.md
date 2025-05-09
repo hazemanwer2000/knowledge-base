@@ -163,9 +163,6 @@
 |                      |                      | *die Lust*            |
 |                      |                      |                       |
 |                      |                      | *die Beziehung(en)*   |
-|                      |                      |                       |
-|                      |                      | *die Erniedrigung*    |
-|                      |                      | *die Demütigung*      |
 
 ## References
 ---

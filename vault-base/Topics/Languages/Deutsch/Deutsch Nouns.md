@@ -253,6 +253,7 @@
 |                      |                      | *die Lust*            |
 |                      |                      | *die Illusion(en)*    |
 |                      |                      | *die Sünde(n)*        |
+|                      |                      | *die Sorge(n)*        |
 |                      |                      |                       |
 |                      |                      | *die Beziehung(en)*   |
 

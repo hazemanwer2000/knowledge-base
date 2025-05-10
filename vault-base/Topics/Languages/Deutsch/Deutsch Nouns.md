@@ -68,11 +68,13 @@
 
 | Masculine    | Neuter         | Feminine          |
 | ------------ | -------------- | ----------------- |
-| *der Knebel* | *das Hemd(en)* | *die Kleidung*    |
-| *der Socken* |                | *die Hose*        |
+| *der Socken* | *das Hemd(en)* | *die Kleidung*    |
+| *der Gürtel* |                | *die Hose*        |
 |              |                | *die Brille*      |
 |              |                | *die Schuhe*      |
 |              |                | *die Unterwäsche* |
+|              |                |                   |
+| *der Knebel* |                |                   |
 
 ### ~~Animals~~
 ---
@@ -114,7 +116,7 @@
 | ------------------------ | --------------------------- | ------------------ |
 | *der Teppich(e)*         | *das Bett(en)*              | *die Lampe(n)*     |
 | *der Boden (Böden)*      | *das Handy(s)*              | *die Tür(en)*      |
-| *der Tisch(e)*           |                             | *die Tastatur(en)* |
+| *der Tisch(e)*           | *das Geld*                  | *die Tastatur(en)* |
 | *der Schrank (Schränke)* |                             | *die Maus (Mäuse)* |
 | *der Schlüssel*          |                             | *die Hütte(n)*     |
 | *der Ball (Bälle)*       |                             | *die Tasche(n)*    |
@@ -234,6 +236,8 @@
 |                      |                      | *die Religion(en)*    |
 |                      |                      |                       |
 | *der Untershied(e)*  |                      | *die Ähnlichkeit(en)* |
+|                      |                      |                       |
+|                      |                      | *die Polizei*         |
 |                      |                      |                       |
 | *der Film(e)*        | *das Spiel(e)*       |                       |
 |                      | *das Lied(er)*       |                       |

@@ -48,6 +48,7 @@
 | *neugierig*   |
 | *gemein/fies* |
 | *hartnäckig*  |
+| *lustig*      |
 
 | Adjective |
 | --------- |

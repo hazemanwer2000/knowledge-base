@@ -9,6 +9,8 @@
 - [[#~~Many Places~~|~~Many Places~~]]
 - [[#~~Many Things~~|~~Many Things~~]]
 - [[#~~Food and Drinks~~|~~Food and Drinks~~]]
+- [[#~~Date and Time~~|~~Date and Time~~]]
+- [[#~~Colors~~|~~Colors~~]]
 - [[#~~Abstract Concepts~~|~~Abstract Concepts~~]]
 ## Content
 ---
@@ -94,7 +96,7 @@
 |                      |                         |                       |
 | *der Platz (Plätze)* | *das Ort(e)*            | *die Straße(n)*       |
 | *der Stock (Stöcke)* | *das Haus (Häuser)*     | *die Stadt (Städte)*  |
-|                      | *das Zimmer*            |                       |
+| *der Weg(e)*         | *das Zimmer*            |                       |
 |                      |                         |                       |
 | *der Mond(e)*        |                         | *die Welt(en)*        |
 |                      |                         | *die Erde*            |
@@ -181,6 +183,14 @@
 | *Oktober*   |
 | *November*  |
 | *Dezember*  |
+
+| Season         |
+| -------------- |
+| *der Frühling* |
+| *der Sommer*   |
+| *der Herbst*   |
+| *der Winter*   |
+
 ### ~~Colors~~
 ---
 

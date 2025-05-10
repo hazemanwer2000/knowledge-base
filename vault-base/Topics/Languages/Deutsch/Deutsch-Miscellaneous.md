@@ -28,6 +28,10 @@
 | *seit*      | *seit gestern*<br>*seit einem Jahr*                |
 | *vor*       | *vor einer Woche*                                  |
 
+### Directions
+---
+
+
 ## References
 ---
 [1] Hammer's German Grammar and Usage, Martin Durrel

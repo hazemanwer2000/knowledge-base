@@ -56,6 +56,13 @@ Phrases:
 | Adverb/Phrase        | Example                                    |
 | -------------------- | ------------------------------------------ |
 | *auf ewig/für immer* | *Ich bin gelangweilt. Es dauert auf ewig.* |
+| *wirklich*           | *Wirklich!?*                               |
+| *fertig*             | *Vor 10 Minuten bin ich fertig.*           |
+| *noch*               | *Möchtest du noch etwas zum Essen?*        |
+| *nur*                | *Ich brauche nur einen Orangesaft.*        |
+| *wichtig*            | *Konzentriere! Das klingt wichtig.*        |
+| *regelmäßig*         | *Ich trinke Wasser regelmäßig.*            |
+| *tagsüber*           | *Ich trinke viel Wasser tagsüber.*         |
 
 ## References
 ---

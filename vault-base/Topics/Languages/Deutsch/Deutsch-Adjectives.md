@@ -44,6 +44,7 @@
 | *populär*     |
 | *treu*        |
 | *ehrlich*     |
+| *ernst*       |
 | *beruflich*   |
 | *neugierig*   |
 | *gemein/fies* |

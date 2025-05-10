@@ -1,16 +1,20 @@
 ──────── *for more from the author, visit* [github.com/hazemanwer2000](https://github.com/hazemanwer2000). ────────
 ## *Table of Contents*
-...
+
+- [[#Date and Time|Date and Time]]
+	- [[#Date and Time#What time is it?|What time is it?]]
+	- [[#Date and Time#Prepositions|Prepositions]]
+- [[#Directions|Directions]]
 ## Content
 ---
 ### Date and Time
 ---
 #### What time is it?
 ---
-* Asking
+* Asking:
 	* *Wie spät ist es?*
 	* *Was ist die Uhrzeit?*
-* Answering
+* Answering:
 	* `14:05` - *Es ist fünf nach vierzehn.*
 	* `14:15` - *Es ist viertel nach vierzehn.*
 	* `14:30` - *Es ist halb fünfzehn.*
@@ -31,7 +35,21 @@
 ### Directions
 ---
 
+| Direction |
+| --------- |
+| *Norden*    |
+| *Süden*     |
+| *Osten*     |
+| *Westen*    |
 
+Phrases:
+* *Gehen Sie ==geradeaus==.*
+* *Gehen Sie ==bis zur Ampel==.*
+* *Gehen Sie ==über die Straße==.*
+* *Biegen Sie ==an der Ecke links== ab.*
+* *Es ist ==auf der linken Seite==.*
+* *Es ist ==gegenüber der Apotheke==.*
+* *Es ist ==neben der Bibliothek==.*
 ## References
 ---
 [1] Hammer's German Grammar and Usage, Martin Durrel

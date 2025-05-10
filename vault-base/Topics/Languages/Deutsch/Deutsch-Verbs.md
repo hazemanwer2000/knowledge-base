@@ -420,6 +420,7 @@
 | *gehen*                 | *gegangen*      | *ging*       | -                        | *Es geht darüber...*                                               |
 | *laufen*                | *gelaufen*      | *lief*       | -                        | *Ich lief im Kreis für Stunden.*                                   |
 | *betreten*              | *betreten*      | *betrat*     | `[Accusative]`           | *Ich betrat das Zimmer.*                                           |
+| *abbiegen*              | *gebogen*       | *bog ab*     | -                        | *Biegen Sie an der Ecke links ab.*                                 |
 |                         |                 |              |                          |                                                                    |
 | *reisen*                | -               | -            | -                        | *Ich reise zu viel.*                                               |
 | *fliegen*               | *geflogen*      | *flog*       | -                        | *Der Vogel flog weg.*                                              |

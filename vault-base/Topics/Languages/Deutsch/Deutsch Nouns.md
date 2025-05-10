@@ -93,10 +93,14 @@
 |                      | *das Konzert(e)*        | *die Party(s)*        |
 |                      | *das Stadion (Stadien)* | *die Universität(en)* |
 |                      | *das Unternehmen(en)*   | *die Schule(n)*       |
+|                      | *das Hotel(s)*          |                       |
+|                      | *das Restaurant(s)*     |                       |
 |                      |                         |                       |
 | *der Platz (Plätze)* | *das Ort(e)*            | *die Straße(n)*       |
 | *der Stock (Stöcke)* | *das Haus (Häuser)*     | *die Stadt (Städte)*  |
-| *der Weg(e)*         | *das Zimmer*            |                       |
+| *der Weg(e)*         | *das Zimmer*            | *die Richtung(en)*    |
+|                      |                         | *die Ampel(n)*        |
+|                      |                         | *die Ecke(n)*         |
 |                      |                         |                       |
 | *der Mond(e)*        |                         | *die Welt(en)*        |
 |                      |                         | *die Erde*            |
@@ -223,6 +227,7 @@
 |                      |                      |                       |
 | *der Satz (Sätze)*   | *das Wort(e)*        | *die Sprache(n)*      |
 |                      |                      | *die Nummer(n)*       |
+|                      |                      | *die Seite(n)*        |
 |                      |                      |                       |
 | *der Grund (Gründe)* | *das Thema (Themen)* | *die Idee(n)*         |
 | *der Sinn(e)*        | *das Interesse*      | *die Regel(n)*        |

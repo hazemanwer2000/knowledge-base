@@ -478,6 +478,7 @@
 | *kriechen*              | *gekrochen*     | *kroch*      | -                        | *Er kroch zu ihr.*                                                 |
 |                         |                 |              |                          |                                                                    |
 | *schlagen*              | *geschlagen*    | *schlug*     | `[Accusative]`           | *Gestern habe er mich geschlagen.*                                 |
+| *peitschen*             | -               | -            | `[Accusative]`           | *Ich peitsche jeden Sklaven.*                                      |
 | *brechen*               | *gebrochen*     | *brach*      | `[Dative] [Accusative]`  | *Ich werde dir das Genick brechen.*                                |
 | *verbrennen*            | *verbrannt*     | *verbrannte* | `[Accusative]`           | *Er verbrannte die Papiere.*                                       |
 |                         |                 |              |                          |                                                                    |

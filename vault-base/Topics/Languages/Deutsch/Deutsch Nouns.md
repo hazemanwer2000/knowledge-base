@@ -66,15 +66,15 @@
 ### ~~Clothing~~
 ---
 
-| Masculine    | Neuter         | Feminine          |
-| ------------ | -------------- | ----------------- |
-| *der Socken* | *das Hemd(en)* | *die Kleidung*    |
-| *der Gürtel* |                | *die Hose*        |
-|              |                | *die Brille*      |
-|              |                | *die Schuhe*      |
-|              |                | *die Unterwäsche* |
-|              |                |                   |
-| *der Knebel* |                |                   |
+| Masculine    | Neuter         | Feminine           |
+| ------------ | -------------- | ------------------ |
+| *der Socken* | *das Hemd(en)* | *die Kleidung*     |
+| *der Gürtel* |                | *die Hose*         |
+|              |                | *die Brille*       |
+|              |                | *die Schuhe*       |
+|              |                | *die Unterwäsche*  |
+|              |                |                    |
+| *der Knebel* |                | *die Peitsche(en)* |
 
 ### ~~Animals~~
 ---

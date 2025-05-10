@@ -37,6 +37,7 @@
 | *stolz*          | *bescheiden*            |
 | *mutig*          | *ängstlich/feige*       |
 | *dominant*       | *submissiv/unterwürfig* |
+| *wütend*         | *zufrieden*             |
 
 | Adjective     |
 | ------------- |

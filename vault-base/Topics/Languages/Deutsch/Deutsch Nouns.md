@@ -122,6 +122,7 @@
 | *der Ball (Bälle)*       |                             | *die Tasche(n)*    |
 | *der Fernseher*          |                             |                    |
 | *der Stuhl (Stühle)*     |                             |                    |
+| *der Käfig(e)*           |                             |                    |
 |                          |                             |                    |
 | *der Bus(se)*            | *das Auto(s)*               |                    |
 | *der Zug (Züge)*         | *das Motorrad (Motorräder)* |                    |

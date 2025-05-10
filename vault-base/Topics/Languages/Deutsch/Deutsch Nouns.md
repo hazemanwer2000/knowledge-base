@@ -48,14 +48,13 @@
 ### ~~Actors~~
 ---
 
-| Masculine          | Neuter | Feminine |
-| ------------------ | ------ | -------- |
-| *der Student(en)*  |        |          |
-
-| Masculine          | Feminine               |
-| ------------------ | ---------------------- |
-| *der Ingenieur(e)* | *die Ingenieurin(nen)* |
-| *der Arzt (Ärzte)* | *die Ärztin(nen)*      |
+| Masculine          | Feminine                  |
+| ------------------ | ------------------------- |
+| *der Student(en)*  | *die Studentin(nen)*      |
+| *der Ingenieur(e)* | *die Ingenieurin(nen)*    |
+| *der Arzt (Ärzte)* | *die Ärztin(nen)*         |
+| *der Sänger*       | *die Sängerin(nen)*       |
+| *der Schauspieler* | *der Schauspielerin(nen)* |
 
 ### ~~Clothing~~
 ---

@@ -50,6 +50,13 @@ Phrases:
 * *Es ist ==auf der linken Seite==.*
 * *Es ist ==gegenüber der Apotheke==.*
 * *Es ist ==neben der Bibliothek==.*
+### Adverbs and Phrases
+---
+
+| Adverb/Phrase        | Example                                    |
+| -------------------- | ------------------------------------------ |
+| *auf ewig/für immer* | *Ich bin gelangweilt. Es dauert auf ewig.* |
+
 ## References
 ---
 [1] Hammer's German Grammar and Usage, Martin Durrel

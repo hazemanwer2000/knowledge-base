@@ -147,6 +147,8 @@
 |                                 |              | *die Karrotte(n)*      |
 |                                 |              | *die Kartoffel(n)*     |
 |                                 |              | *die Tomate(n)*        |
+|                                 |              |                        |
+|                                 | *das Stück*  |                        |
 
 ### ~~Date and Time~~
 ---

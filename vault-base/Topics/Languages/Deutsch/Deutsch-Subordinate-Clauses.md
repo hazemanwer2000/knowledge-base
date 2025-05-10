@@ -6,6 +6,7 @@
 | ----------- | ----------------------------------------------------------------- |
 | *als*       | *Als ich klein war, hatte ich ein Schwein zu Hause.*              |
 | *wenn*      | *Wenn ich Zeit habe, werde ich zu singen lernen.*                 |
+| *ob*        | *Kannst du mir erzählen, ob du Zeit morgen für mich hast?*        |
 | *während*   | *Während wir an dem Fernsehen schauen, kocht meine Mütter.*       |
 | *bevor*     | *Bevor wir essen können, müssen wir den Fernseher öffnen.*        |
 | *nachdem*   | *Nachdem ich gearbeitet hatte, hatte ich ein neues Auto gekauft.* |

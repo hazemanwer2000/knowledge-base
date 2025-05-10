@@ -31,6 +31,7 @@
 |             | *in zwei Tagen*                                    |
 | *seit*      | *seit gestern*<br>*seit einem Jahr*                |
 | *vor*       | *vor einer Woche*                                  |
+| *für*       | *für eine lange Zeit*                              |
 
 ### Directions
 ---
@@ -54,19 +55,25 @@ Phrases:
 ### Adverbs and Phrases
 ---
 
-| Adverb/Phrase        | Example                                                       |
-| -------------------- | ------------------------------------------------------------- |
-| *auf ewig/für immer* | *Ich bin gelangweilt. Es dauert auf ewig.*                    |
-| *wirklich*           | *Wirklich!?*                                                  |
-| *fertig*             | *Vor 10 Minuten bin ich fertig.*                              |
-| *noch*               | *Möchtest du noch etwas zum Essen?*                           |
-| *nur*                | *Ich brauche nur einen Orangesaft.*                           |
-| *wichtig*            | *Konzentriere! Das klingt wichtig.*                           |
-| *regelmäßig*         | *Ich trinke Wasser regelmäßig.*                               |
-| *tagsüber*           | *Ich trinke viel Wasser tagsüber.*                            |
-| *ab und an*          | *Ab und an braucht man sich zu entspannen.*                   |
-| *je ... desto ...*   | *Je mehr du übst, desto mehr verbessert du deine Gesundheit.* |
-| *wenn auch ...*      | *Wir wissen mehr über den Virus, wenn auch nicht alles.*      |
+| Adverb/Phrase                   | Example                                                       |
+| ------------------------------- | ------------------------------------------------------------- |
+| *auf ewig/für immer*            | *Ich bin gelangweilt. Es dauert auf ewig.*                    |
+| *wirklich*                      | *Wirklich!?*                                                  |
+| *fertig*                        | *Vor 10 Minuten bin ich fertig.*                              |
+| *noch*                          | *Möchtest du noch etwas zum Essen?*                           |
+| *nur*                           | *Ich brauche nur einen Orangesaft.*                           |
+| *wichtig*                       | *Konzentriere! Das klingt wichtig.*                           |
+| *regelmäßig*                    | *Ich trinke Wasser regelmäßig.*                               |
+| *tagsüber*                      | *Ich trinke viel Wasser tagsüber.*                            |
+| *ab und an*                     | *Ab und an braucht man sich zu entspannen.*                   |
+| *je ... desto ...*              | *Je mehr du übst, desto mehr verbessert du deine Gesundheit.* |
+| *wenn auch ...*                 | *Wir wissen mehr über den Virus, wenn auch nicht alles.*      |
+| *endlich/schließlich*           | *Endlich kann ich für 30 Minuten laufe.*                      |
+| *letztens*                      | *Letztens fühle ich mich ein bisschen traurig.*               |
+| *erstens/zweitens/drittens/...* | *Erstens, ich habe nichts gesagt.*                            |
+| *als ...*                       | *Erdbeeren schmeckt besser als Orangen.*                      |
+| *wie ...*                       | *Erdbeeren schmeckt gut wie Pfirsche.*                        |
+| *einmal/zweimal/dreimal/...*    | *Nur einmal habe ich Deutschland besucht.*                    |
 
 ## References
 ---

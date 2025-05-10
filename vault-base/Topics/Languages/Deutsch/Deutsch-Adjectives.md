@@ -38,6 +38,7 @@
 | *mutig*          | *ängstlich/feige*                |
 | *dominant*       | *submissiv/unterwürfig/gehorsam* |
 | *wütend*         | *zufrieden*                      |
+| *erfolgreich*    | *erfolglos*                      |
 
 | Adjective     |
 | ------------- |

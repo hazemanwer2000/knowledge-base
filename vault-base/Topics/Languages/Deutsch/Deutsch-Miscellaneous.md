@@ -66,6 +66,7 @@ Phrases:
 | *tagsüber*           | *Ich trinke viel Wasser tagsüber.*                            |
 | *ab und an*          | *Ab und an braucht man sich zu entspannen.*                   |
 | *je ... desto ...*   | *Je mehr du übst, desto mehr verbessert du deine Gesundheit.* |
+| *wenn auch ...*      | *Wir wissen mehr über den Virus, wenn auch nicht alles.*      |
 
 ## References
 ---

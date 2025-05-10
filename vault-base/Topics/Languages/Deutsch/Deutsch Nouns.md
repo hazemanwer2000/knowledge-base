@@ -84,6 +84,7 @@
 | *der Hund(e)*       | *das Tier(e)*    | *die Katze(n)* |
 | *der Vogel (Vögel)* | *das Schwein(e)* |                |
 | *der Papagei(en)*   | *das Pferd(e)*   |                |
+| *der Hase(n)*       |                  |                |
 
 ### ~~Many Places~~
 ---

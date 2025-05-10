@@ -244,6 +244,8 @@
 |                      | *das Lied(er)*       |                       |
 |                      | *das Bild(er)*       |                       |
 |                      |                      |                       |
+| *der Kreis*(e)       |                      |                       |
+|                      |                      |                       |
 |                      |                      | *die Gruppe(n)*       |
 |                      |                      |                       |
 | *der Kurs(e)*        |                      |                       |

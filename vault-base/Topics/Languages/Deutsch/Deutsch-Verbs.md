@@ -355,9 +355,6 @@
 | *warten*              | -               | -          | -                        | *Ich werde auf dich warten.*                                     |
 | *lassen*              | *gelassen*      | *ließ*     | `[Accusative]`           | *Lass mich in Ruhe!*                                             |
 |                       |                 |            |                          |                                                                  |
-| *ziehen*              | *gezogen*       | *zog*      | `[Accusative]`           | *Er zog sie an den Haaren.*                                      |
-| *stoßen*              | *gestoßen*      | *stieß*    | `[Accusative]`           | *Er stieß sie weg.*                                              |
-|                       |                 |            |                          |                                                                  |
 | *heiraten*            | -               | -          | `[Accusative]`           | *Ich werde sie heiraten.*                                        |
 | *gehören*             | -               | -          | `[Dative]`               | *Sie gehört mir!*                                                |
 | *verlassen*           | *verlassen*     | *verließ*  | `[Accusative]`           | *Ich verließ sie für dich.*                                      |
@@ -380,6 +377,8 @@
 |                       |                 |            |                          |                                                                  |
 | *hoffen*              | -               | -          | -                        | *Ich hoffe, es bleibt so.*                                       |
 | *wünschen*            | -               | -          | -                        | *Ich wünsche für einen besseren Tag morgen.*                     |
+|                       |                 |            |                          |                                                                  |
+| *entspannen*          | -               | -          | `[Accusative/Reflexive]` | *Ab und an braucht man sich zu entspannen.*                      |
 
 ##### ~~Normal Activities~~
 ---
@@ -478,6 +477,9 @@
 |                         |                    |                 |                          |                                                                     |
 | *knien*                 | -                  | -               | -                        | *Er kniete vor ihr.*                                                |
 | *kriechen*              | *gekrochen*        | *kroch*         | -                        | *Er kroch zu ihr.*                                                  |
+|                         |                    |                 |                          |                                                                     |
+| *ziehen*                | *gezogen*          | *zog*           | `[Accusative]`           | *Er zog sie an den Haaren.*                                         |
+| *stoßen*                | *gestoßen*         | *stieß*         | `[Accusative]`           | *Er stieß sie weg.*                                                 |
 |                         |                    |                 |                          |                                                                     |
 | *schlagen*              | *geschlagen*       | *schlug*        | `[Accusative]`           | *Gestern habe er mich geschlagen.*                                  |
 | *peitschen*             | -                  | -               | `[Accusative]`           | *Ich peitsche jeden Sklaven.*                                       |

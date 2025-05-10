@@ -50,19 +50,21 @@ Phrases:
 * *Es ist ==auf der linken Seite==.*
 * *Es ist ==gegenüber der Apotheke==.*
 * *Es ist ==neben der Bibliothek==.*
+* *Es ist ==in der Nähe==.*
 ### Adverbs and Phrases
 ---
 
-| Adverb/Phrase        | Example                                    |
-| -------------------- | ------------------------------------------ |
-| *auf ewig/für immer* | *Ich bin gelangweilt. Es dauert auf ewig.* |
-| *wirklich*           | *Wirklich!?*                               |
-| *fertig*             | *Vor 10 Minuten bin ich fertig.*           |
-| *noch*               | *Möchtest du noch etwas zum Essen?*        |
-| *nur*                | *Ich brauche nur einen Orangesaft.*        |
-| *wichtig*            | *Konzentriere! Das klingt wichtig.*        |
-| *regelmäßig*         | *Ich trinke Wasser regelmäßig.*            |
-| *tagsüber*           | *Ich trinke viel Wasser tagsüber.*         |
+| Adverb/Phrase        | Example                                     |
+| -------------------- | ------------------------------------------- |
+| *auf ewig/für immer* | *Ich bin gelangweilt. Es dauert auf ewig.*  |
+| *wirklich*           | *Wirklich!?*                                |
+| *fertig*             | *Vor 10 Minuten bin ich fertig.*            |
+| *noch*               | *Möchtest du noch etwas zum Essen?*         |
+| *nur*                | *Ich brauche nur einen Orangesaft.*         |
+| *wichtig*            | *Konzentriere! Das klingt wichtig.*         |
+| *regelmäßig*         | *Ich trinke Wasser regelmäßig.*             |
+| *tagsüber*           | *Ich trinke viel Wasser tagsüber.*          |
+| *ab und an*          | *Ab und an braucht man sich zu entspannen.* |
 
 ## References
 ---

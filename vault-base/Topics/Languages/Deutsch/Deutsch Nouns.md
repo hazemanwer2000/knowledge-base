@@ -48,13 +48,18 @@
 ### ~~Actors~~
 ---
 
-| Masculine          | Feminine                  |
-| ------------------ | ------------------------- |
-| *der Student(en)*  | *die Studentin(nen)*      |
-| *der Ingenieur(e)* | *die Ingenieurin(nen)*    |
-| *der Arzt (Ärzte)* | *die Ärztin(nen)*         |
-| *der Sänger*       | *die Sängerin(nen)*       |
-| *der Schauspieler* | *der Schauspielerin(nen)* |
+| Masculine           | Feminine                  |
+| ------------------- | ------------------------- |
+| *der Mann (Männer)* | *die Frau(en)*            |
+|                     |                           |
+| *der Student(en)*   | *die Studentin(nen)*      |
+| *der Ingenieur(e)*  | *die Ingenieurin(nen)*    |
+| *der Arzt (Ärzte)*  | *die Ärztin(nen)*         |
+| *der Sänger*        | *die Sängerin(nen)*       |
+| *der Schauspieler*  | *die Schauspielerin(nen)* |
+|                     |                           |
+| *der Sklave(n)*     | *die Sklavin(nen)*        |
+| *der Herr(en)*      | *die Herrin(nen)*         |
 
 ### ~~Clothing~~
 ---
@@ -88,7 +93,7 @@
 |                      | *das Unternehmen(en)*   | *die Schule(n)*       |
 |                      |                         |                       |
 | *der Platz (Plätze)* | *das Ort(e)*            | *die Straße(n)*       |
-| *der Stock (Stöcke)* | *das Haus (Häuser)*     |                       |
+| *der Stock (Stöcke)* | *das Haus (Häuser)*     | *die Stadt (Städte)*  |
 |                      | *das Zimmer*            |                       |
 |                      |                         |                       |
 | *der Mond(e)*        |                         | *die Welt(en)*        |
@@ -150,6 +155,10 @@
 |                      | *das Interesse*      | *die Regel(n)*        |
 |                      |                      | *die Religion(en)*    |
 |                      |                      |                       |
+|                      |                      | *die Vergangenheit*   |
+|                      |                      | *die Gegenwart*       |
+|                      |                      | *die Zukunft*         |
+|                      |                      |                       |
 | *der Untershied(e)*  |                      | *die Ähnlichkeit(en)* |
 |                      |                      |                       |
 | *der Film(e)*        | *das Spiel(e)*       |                       |
@@ -169,8 +178,11 @@
 |                      |                      | *die Liebe*           |
 |                      |                      | *die Einsamkeit*      |
 |                      |                      | *die Lust*            |
+|                      |                      | *die Illusion(en)*    |
 |                      |                      |                       |
 |                      |                      | *die Beziehung(en)*   |
+|                      |                      |                       |
+|                      |                      | *die Farbe(n)*        |
 
 ## References
 ---

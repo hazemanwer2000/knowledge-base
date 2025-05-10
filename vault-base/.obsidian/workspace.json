@@ -13,6 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Topics/Languages/Deutsch/Deutsch Nouns.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Deutsch Nouns"
+            }
+          },
+          {
+            "id": "9e3cc82c94b22bde",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Topics/Languages/Deutsch/Deutsch-Adjectives.md",
                 "mode": "source",
                 "source": false
@@ -20,8 +34,23 @@
               "icon": "lucide-file",
               "title": "Deutsch-Adjectives"
             }
+          },
+          {
+            "id": "1b0b912f2dcb7f1e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topics/Languages/Deutsch/Deutsch-Miscellaneous.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Deutsch-Miscellaneous"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -159,21 +188,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0e300d5361c5692b",
+  "active": "1b0b912f2dcb7f1e",
   "lastOpenFiles": [
-    "Topics/Languages/Deutsch.md",
-    "Topics/Languages/Deutsch/Deutsch Nouns.md",
     "Topics/Languages/Deutsch/Deutsch-Adjectives.md",
+    "Topics/Languages/Deutsch/Deutsch Nouns.md",
+    "Topics/Languages/Deutsch/Deutsch-Miscellaneous.md",
+    "Topics/Languages/Deutsch.md",
     "Topics/Languages/Deutsch/Deutsch-Verbs.md",
+    "Welcome.md",
+    "Topics/Languages/Deutsch/Deutsch-Grammar.md",
     "Topics/Languages/Deutsch/Deutsch-Subordinate-Clauses.md",
     "Topics/Languages/Deutsch/Deutsch-Prepositions.md",
-    "Topics/Languages/Deutsch/Deutsch-Grammar.md",
     "Topics/Techcraft/Tooling.md",
     "Topics/TechCraft.md",
     "Topics/Techcraft/Cryptography.md",
     "Topics/Techcraft/OS.md",
     "Topics/Techcraft/Communication-Protocols.md",
-    "Welcome.md",
     "Topics/Finance.md",
     "Topics/Languages.md",
     "Topics/Finance/Financial-Statements.md",
@@ -190,7 +220,6 @@
     "Topics/Techcraft/OS/OSEK.md",
     "Topics/Techcraft/Cryptography/Elliptic-Curve-Cryptography.md",
     "Topics/Techcraft/OS/AUTOSAR/General/AUTOSAR-ECU-Extract.md",
-    "Topics/Techcraft/OS/AUTOSAR/ECUC/COM/Ethernet/AUTOSAR-Module-EthIf.md",
     "Topics/Technical-Topics/OS/AUTOSAR/General/AUTOSAR-SW-Components-2025-03-31-23-01-48.png",
     "Topics/Technical-Topics/OS/AUTOSAR/General/AUTOSAR-SW-Components-2025-03-31-00-01-56.png",
     "Topics/Technical-Topics/OS/AUTOSAR/General/AUTOSAR-SW-Components-2025-03-31-00-01-52.png",

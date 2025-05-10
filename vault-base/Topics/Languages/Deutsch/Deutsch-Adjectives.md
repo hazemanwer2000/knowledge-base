@@ -51,21 +51,6 @@
 
 | Adjective |
 | --------- |
-| *rot*     |
-| *orange*  |
-| *gelb*    |
-| *grün*    |
-| *blau*    |
-| *lila*    |
-| *rosa*    |
-| *braun*   |
-| *schwarz* |
-| *weiß*    |
-| *grau*    |
-
-
-| Adjective |
-| --------- |
 | *erst*    |
 | *zweit*   |
 | *dritt*   |

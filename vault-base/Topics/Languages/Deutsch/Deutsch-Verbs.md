@@ -449,6 +449,7 @@
 | *kaufen*                | -               | -            | `[Dative] [Accusative]`  | *Ich kaufte dir Blumen.*                                           |
 | *verkaufen*             | -               | -            | `[Dative] [Accusative]`  | *Du verkauftest mir Blumen.*                                       |
 | *bezahlen*              | -               | -            | `[Dative] [Accusative]`  | *Ich bezahle dir das Doppelte.*                                    |
+| *kosten*                | -               | -            | `[Accusative]`           | *Wie viel kostet das?*                                             |
 |                         |                 |              |                          |                                                                    |
 | *werfen*                | *geworfen*      | *warf*       | `[Dative] [Accusative]`  | *Ich warf ihm den Ball zu.*                                        |
 | *treten*                | *getreten*      | *trat*       | `[Dative] [Accusative]`  | *Ich habe ihm den Ball getreten.*                                  |

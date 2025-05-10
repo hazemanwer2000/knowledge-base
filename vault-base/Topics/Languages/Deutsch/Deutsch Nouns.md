@@ -139,6 +139,69 @@
 |                                 |              | *die Kartoffel(n)*     |
 |                                 |              | *die Tomate(n)*        |
 
+### ~~Date and Time~~
+---
+
+| Masculine      | Neuter              | Feminine             |
+| -------------- | ------------------- | -------------------- |
+| *der Monat(e)* | *das Jahr(e)*       | *die Zeit*           |
+| *der Tag(e)*   | *das Wochenende(n)* | *die Stunde(n)*      |
+|                |                     | *die Minute(n)*      |
+|                |                     | *die Sekunde(n)*     |
+|                |                     | *die Woche(n)*       |
+|                |                     |                      |
+|                |                     | *die Vergangenheit*  |
+|                |                     | *die Gegenwart*      |
+|                |                     | *die Zukunft*        |
+|                |                     |                      |
+| *der Morgen*   |                     | *die Nacht (Nächte)* |
+| *der Abend(e)* |                     |                      |
+
+| Day          |
+| ------------ |
+| *Samstag*    |
+| *Sonntag*    |
+| *Montag*     |
+| *Dienstag*   |
+| *Mittwoch*   |
+| *Donnerstag* |
+| *Freitag*    |
+
+| Month       |
+| ----------- |
+| *Januar*    |
+| *Februar*   |
+| *März*      |
+| *April*     |
+| *Mai*       |
+| *Juni*      |
+| *Juli*      |
+| *August*    |
+| *September* |
+| *Oktober*   |
+| *November*  |
+| *Dezember*  |
+### ~~Colors~~
+---
+
+| Masculine | Neuter | Feminine       |
+| --------- | ------ | -------------- |
+|           |        | *die Farbe(n)* |
+
+| Adjective |
+| --------- |
+| *rot*     |
+| *orange*  |
+| *gelb*    |
+| *grün*    |
+| *blau*    |
+| *lila*    |
+| *rosa*    |
+| *braun*   |
+| *schwarz* |
+| *weiß*    |
+| *grau*    |
+
 ### ~~Abstract Concepts~~
 ---
 
@@ -152,12 +215,8 @@
 |                      |                      | *die Nummer(n)*       |
 |                      |                      |                       |
 | *der Grund (Gründe)* | *das Thema (Themen)* | *die Idee(n)*         |
-|                      | *das Interesse*      | *die Regel(n)*        |
+| *der Sinn(e)*        | *das Interesse*      | *die Regel(n)*        |
 |                      |                      | *die Religion(en)*    |
-|                      |                      |                       |
-|                      |                      | *die Vergangenheit*   |
-|                      |                      | *die Gegenwart*       |
-|                      |                      | *die Zukunft*         |
 |                      |                      |                       |
 | *der Untershied(e)*  |                      | *die Ähnlichkeit(en)* |
 |                      |                      |                       |
@@ -169,20 +228,13 @@
 |                      |                      |                       |
 | *der Kurs(e)*        |                      |                       |
 |                      |                      |                       |
-| *der Monat(e)*       | *das Jahr(e)*        | *die Zeit*            |
-| *der Tag(e)*         |                      | *die Stunde(n)*       |
-|                      |                      | *die Minute(n)*       |
-|                      |                      | *die Sekunde(n)*      |
-|                      |                      | *die Woche(n)*        |
-|                      |                      |                       |
 |                      |                      | *die Liebe*           |
 |                      |                      | *die Einsamkeit*      |
 |                      |                      | *die Lust*            |
 |                      |                      | *die Illusion(en)*    |
+|                      |                      | *die Sünde(n)*        |
 |                      |                      |                       |
 |                      |                      | *die Beziehung(en)*   |
-|                      |                      |                       |
-|                      |                      | *die Farbe(n)*        |
 
 ## References
 ---

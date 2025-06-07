@@ -489,7 +489,7 @@
 | *binden*                | *gebunden*         | *band*          | `[Accusative]`           | *Ich band die Beine zusammen.*                                      |
 | *hängen*                | *gehangen*         | *hing*          | -                        | *Sie hing an ihren Haaren.*                                         |
 |                         |                    |                 |                          |                                                                     |
-| *erscheinen*            | *erschienen*       | *erschien*      | -                        | *Er hat erschien.*                                                  |
+| *erscheinen*            | *erschienen*       | *erschien*      | -                        | *Er hat erschienen.*                                                |
 | *verschwinden*          | *verschwunden*     | *verschwand*    | -                        | *Er ist einfach verschwunden.*                                      |
 |                         |                    |                 |                          |                                                                     |
 | *stehlen*               | *gestohlen*        | *stahl*         | `[Accusative]`           | *Dieses, das ich von dir gestohlen habe.*                           |
@@ -501,7 +501,7 @@
 |                         |                    |                 |                          |                                                                     |
 | *anbeten*               | -                  | -               | `[Accusative]`           | *Jeden Tag bete ich Gott an.*                                       |
 | *beten*                 | -                  | -               | `[Accusative]`           | *Jeden Tag beten wir zu Gott.*                                      |
-| *dienen*                | -                  | -               | `[Dative]`               | *Ich diene Herrin .*                                                |
+| *dienen*                | -                  | -               | `[Dative]`               | *Ich diene Herrin.*                                                 |
 |                         |                    |                 |                          |                                                                     |
 | *erhöhen*               | -                  | -               | `[Accusative]`           | *Wenn ich den Druck erhöhe, denn schmerzt es.*                      |
 | *verringern*            | -                  | -               | `[Accusative]`           | *Wenn ich den Druck verringe, denn werden Sie mehr bequem sein.*    |

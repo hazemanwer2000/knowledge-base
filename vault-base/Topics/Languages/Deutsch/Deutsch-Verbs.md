@@ -473,7 +473,7 @@
 | *aufräumen*             | -                  | -               | `[Accusative]`           | *Jeden Tag, Nachdem ich aufwache, räume ich immer mein Zimmer auf.* |
 |                         |                    |                 |                          |                                                                     |
 | *öffnen*                | -                  | -               | `[Accusative]`           | *Ich öffne für Sie die Tür.*                                        |
-| *schließen*             | *geschlossen*      | *schloss*       | `[Accusative]`           | *Die Tur ist geschlossen.*                                          |
+| *schließen*             | *geschlossen*      | *schloss*       | `[Accusative]`           | *Die Tür ist geschlossen.*                                          |
 |                         |                    |                 |                          |                                                                     |
 | *knien*                 | -                  | -               | -                        | *Er kniete vor ihr.*                                                |
 | *kriechen*              | *gekrochen*        | *kroch*         | -                        | *Er kroch zu ihr.*                                                  |

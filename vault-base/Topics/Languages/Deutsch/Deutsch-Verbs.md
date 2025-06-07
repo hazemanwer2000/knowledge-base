@@ -316,7 +316,7 @@
 |                       |                 |            |                          |                                                                  |
 | *beginnen*            | *begonnen*      | *began*    | -                        | *Es begann.*                                                     |
 | *dauern*              | -               | -          | -                        | *Es dauert zu lang.*                                             |
-| *aufhören*            | -               | -          | -                        | *Es aufhörte.*                                                   |
+| *aufhören*            | -               | -          | -                        | *Es hörte auf.*                                                  |
 |                       |                 |            |                          |                                                                  |
 | *konzentrieren*       | -               | -          | `[Accusative/Reflexive]` | *Ich konzentriere mich immer auf dich.*                          |
 | *vorbereiten*         | -               | -          | `[Accusative]`           | *Dein neues Leben, ich bereite dich darauf vor!*                 |

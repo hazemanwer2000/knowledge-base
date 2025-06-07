@@ -253,7 +253,7 @@
 |                      |                      |                       |
 | *der Kurs(e)*        |                      |                       |
 |                      |                      |                       |
-|                      | *das Geheimnis(se)*  | *die Liebe*           |
+| *der Traum (Träume)* | *das Geheimnis(se)*  | *die Liebe*           |
 |                      |                      | *die Einsamkeit*      |
 |                      |                      | *die Lust*            |
 |                      |                      | *die Illusion(en)*    |

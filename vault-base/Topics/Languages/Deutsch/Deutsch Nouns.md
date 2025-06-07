@@ -227,7 +227,7 @@
 
 | Masculine            | Neuter               | Feminine              |
 | -------------------- | -------------------- | --------------------- |
-|                      |                      | *die Frage(n)*        |
+| *der Bericht(e)*     |                      | *die Frage(n)*        |
 |                      |                      | *die Antwort(en)*     |
 |                      |                      | *die Nachricht(en)*   |
 |                      |                      |                       |
@@ -253,7 +253,7 @@
 |                      |                      |                       |
 | *der Kurs(e)*        |                      |                       |
 |                      |                      |                       |
-|                      |                      | *die Liebe*           |
+|                      | *das Geheimnis(se)*  | *die Liebe*           |
 |                      |                      | *die Einsamkeit*      |
 |                      |                      | *die Lust*            |
 |                      |                      | *die Illusion(en)*    |

@@ -69,7 +69,8 @@
 | Masculine    | Neuter         | Feminine           |
 | ------------ | -------------- | ------------------ |
 | *der Socken* | *das Hemd(en)* | *die Kleidung*     |
-| *der Gürtel* |                | *die Hose*         |
+| *der Gürtel* |                | *die Jacke(n)*     |
+|              |                | *die Hose*         |
 |              |                | *die Brille*       |
 |              |                | *die Schuhe*       |
 |              |                | *die Unterwäsche*  |
@@ -242,6 +243,7 @@
 | *der Untershied(e)*  |                      | *die Ähnlichkeit(en)* |
 |                      |                      |                       |
 |                      |                      | *die Polizei*         |
+|                      |                      | *die Regierung(en)*   |
 |                      |                      |                       |
 | *der Film(e)*        | *das Spiel(e)*       |                       |
 |                      | *das Lied(er)*       |                       |
@@ -254,7 +256,7 @@
 | *der Kurs(e)*        |                      |                       |
 |                      |                      |                       |
 | *der Traum (Träume)* | *das Geheimnis(se)*  | *die Liebe*           |
-|                      |                      | *die Einsamkeit*      |
+| *der Plan (Pläne)*   |                      | *die Einsamkeit*      |
 |                      |                      | *die Lust*            |
 |                      |                      | *die Illusion(en)*    |
 |                      |                      | *die Sünde(n)*        |

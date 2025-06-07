@@ -509,6 +509,9 @@
 | *anmelden/registrieren* | -                  | -               | `[Accusative/Reflexive]` | *Ich habe mich auf dieser Website angemeldet/registriert.*          |
 | *einloggen*             | -                  | -               | `[Accusative/Reflexive]` | *Jeden Tag logge ich auf dieser Website ein.*                       |
 | *abmelden*              | -                  | -               | `[Accusative/Reflexive]` | *Ich habe niemals vergessen, mich abzumelden.*                      |
+|                         |                    |                 |                          |                                                                     |
+| *bewilligen*            | -                  | -               | `[Accusative]`           | *Das war seit einem Jahr bewilligt.*                                |
+| *ablehnen*              | -                  | -               | `[Accusative]`           | *Ich lehne Fußball in der Straße zu spielen ab.*                    |
 
 ##### ~~Impersonal~~
 ---

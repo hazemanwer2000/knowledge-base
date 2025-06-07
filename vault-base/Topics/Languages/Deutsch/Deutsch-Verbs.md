@@ -191,7 +191,7 @@
 | ----------- | --------- | ----------- |
 | *ich*       | *spiele*  | *spielte*   |
 | *du*        | *spielst* | *spieltest* |
-| *er/es/sie* | *spielt*  | *spieltet*  |
+| *er/es/sie* | *spielt*  | *spielte*   |
 |             |           |             |
 | *wir*       | *spielen* | *spielten*  |
 | *ihr*       | *spielt*  | *spieltet*  |

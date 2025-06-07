@@ -27,8 +27,8 @@
 |                      |                   |                      |
 | *der Mensch(en)*     | *das Bein(e)*     | *die Brust (Brüste)* |
 | *der Körper*         |                   | *die Hand (Hände)*   |
-| *der Rücken*         |                   |                      |
-| *der Bauch (Bäuche)* |                   |                      |
+| *der Rücken*         |                   | *die Gestalt(en)*    |
+| *der Bauch (Bäuche)* |                   | *die *               |
 | *der Arsch (Ärsche)* |                   |                      |
 | *der Arm(e)*         |                   |                      |
 | *der Fuß (Füße)*     |                   |                      |
@@ -94,7 +94,7 @@
 | -------------------- | ----------------------- | --------------------- |
 | *der Park(s)*        | *das Kino(s)*           | *die Bibliothek(en)*  |
 | *der Markt (Märkte)* | *das Fitnessstudio(s)*  | *die Apotheke(n)*     |
-|                      | *das Konzert(e)*        | *die Party(s)*        |
+| *der Wald (Wälder)*  | *das Konzert(e)*        | *die Party(s)*        |
 |                      | *das Stadion (Stadien)* | *die Universität(en)* |
 |                      | *das Unternehmen(en)*   | *die Schule(n)*       |
 |                      | *das Hotel(s)*          |                       |

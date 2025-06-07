@@ -28,7 +28,7 @@
 | *der Mensch(en)*     | *das Bein(e)*     | *die Brust (Brüste)* |
 | *der Körper*         |                   | *die Hand (Hände)*   |
 | *der Rücken*         |                   | *die Gestalt(en)*    |
-| *der Bauch (Bäuche)* |                   | *die *               |
+| *der Bauch (Bäuche)* |                   | *die Seele(n)*       |
 | *der Arsch (Ärsche)* |                   |                      |
 | *der Arm(e)*         |                   |                      |
 | *der Fuß (Füße)*     |                   |                      |

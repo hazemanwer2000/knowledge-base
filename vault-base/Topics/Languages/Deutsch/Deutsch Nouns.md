@@ -19,20 +19,22 @@
 
 | Masculine            | Neuter            | Feminine             |
 | -------------------- | ----------------- | -------------------- |
-| *der Kopf (Köpfe)*   | *das Gehirn(e)*   | *die Stirn*          |
-| *der Mund (Münder)*  | *das Gesicht(er)* | *die Augenbraue(n)*  |
-| *der Hals (Hälse)*   | *das Haar(e)*     | *die Nase(n)*        |
-| *der Bart (Bärte)*   | *das Auge(n)*     | *die Wange(n)*       |
-| *der Zahn (Zähne)*   | *das Ohr(en)*     | *die Zunge(n)*       |
+| *der Kopf (Köpfe)*   | *das Gesicht(er)* | *die Stirn*          |
+| *der Mund (Münder)*  | *das Haar(e)*     | *die Augenbraue(n)*  |
+| *der Hals (Hälse)*   | *das Auge(n)*     | *die Nase(n)*        |
+| *der Bart (Bärte)*   | *das Ohr(en)*     | *die Wange(n)*       |
+| *der Zahn (Zähne)*   |                   | *die Zunge(n)*       |
 |                      |                   |                      |
-| *der Mensch(en)*     | *das Bein(e)*     | *die Brust (Brüste)* |
-| *der Körper*         |                   | *die Hand (Hände)*   |
-| *der Rücken*         |                   | *die Gestalt(en)*    |
-| *der Bauch (Bäuche)* |                   | *die Seele(n)*       |
+| *der Körper*         | *das Bein(e)*     | *die Brust (Brüste)* |
+| *der Rücken*         |                   | *die Hand (Hände)*   |
+| *der Bauch (Bäuche)* |                   |                      |
 | *der Arsch (Ärsche)* |                   |                      |
 | *der Arm(e)*         |                   |                      |
 | *der Fuß (Füße)*     |                   |                      |
 | *der Finger*         |                   |                      |
+|                      |                   |                      |
+| *der Mensch(en)*     | *das Gehirn(e)*   | *die Gestalt(en)*    |
+|                      |                   | *die Seele(n)*       |
 
 ### ~~The Family~~
 ---
@@ -238,7 +240,7 @@
 |                      |                      |                       |
 | *der Grund (Gründe)* | *das Thema (Themen)* | *die Idee(n)*         |
 | *der Sinn(e)*        | *das Interesse*      | *die Regel(n)*        |
-|                      |                      | *die Religion(en)*    |
+| *der Plan (Pläne)*   |                      | *die Religion(en)*    |
 |                      |                      |                       |
 | *der Untershied(e)*  |                      | *die Ähnlichkeit(en)* |
 |                      |                      |                       |
@@ -251,12 +253,12 @@
 |                      |                      |                       |
 | *der Kreis*(e)       |                      |                       |
 |                      |                      |                       |
-|                      |                      | *die Gruppe(n)*       |
+|                      | *das Mitglied(e)*    | *die Gruppe(n)*       |
 |                      |                      |                       |
 | *der Kurs(e)*        |                      |                       |
 |                      |                      |                       |
 | *der Traum (Träume)* | *das Geheimnis(se)*  | *die Liebe*           |
-| *der Plan (Pläne)*   |                      | *die Einsamkeit*      |
+|                      |                      | *die Einsamkeit*      |
 |                      |                      | *die Lust*            |
 |                      |                      | *die Illusion(en)*    |
 |                      |                      | *die Sünde(n)*        |

@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c2fec104dae4ee48",
+        "id": "019719695d11f3df",
         "type": "tabs",
         "children": [
           {
-            "id": "18ea15a87f4b1dd9",
+            "id": "62836bde9fb2f206",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/Languages/Deutsch/Deutsch Nouns.md",
+                "file": "Topics/Languages/Deutsch/Deutsch-Miscellaneous.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Deutsch Nouns"
+              "title": "Deutsch-Miscellaneous"
             }
           }
         ]
@@ -159,22 +159,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "18ea15a87f4b1dd9",
+  "active": "62836bde9fb2f206",
   "lastOpenFiles": [
     "Topics/Languages/Deutsch.md",
-    "Topics/Languages/Deutsch/Deutsch-Grammar.md",
     "Topics/Languages.md",
     "Welcome.md",
+    "Topics/Languages/Deutsch/Deutsch-Miscellaneous.md",
+    "Topics/Languages/Deutsch/Deutsch Nouns.md",
+    "Topics/Languages/Deutsch/Deutsch-Grammar.md",
     "Topics/TechCraft.md",
     "Topics/Techcraft/Tooling.md",
     "Topics/Techcraft/OS.md",
     "Topics/Techcraft/OS/AUTOSAR.md",
     "Topics/Techcraft/Communication-Protocols.md",
     "Topics/Techcraft/Cryptography.md",
-    "Topics/Languages/Deutsch/Deutsch Nouns.md",
     "Topics/Languages/Deutsch/Deutsch-Verbs.md",
     "Topics/Languages/Deutsch/Deutsch-Adjectives.md",
-    "Topics/Languages/Deutsch/Deutsch-Miscellaneous.md",
     "Topics/Languages/Deutsch/Deutsch-Subordinate-Clauses.md",
     "Topics/Languages/Deutsch/Deutsch-Prepositions.md",
     "Topics/Finance.md",

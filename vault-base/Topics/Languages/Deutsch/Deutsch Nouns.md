@@ -229,7 +229,7 @@
 | Masculine            | Neuter               | Feminine              |
 | -------------------- | -------------------- | --------------------- |
 | *der Bericht(e)*     |                      | *die Frage(n)*        |
-|                      |                      | *die Antwort(en)*     |
+| *der Akt(e)*         |                      | *die Antwort(en)*     |
 |                      |                      | *die Nachricht(en)*   |
 |                      |                      |                       |
 | *der Satz (Sätze)*   | *das Wort(e)*        | *die Sprache(n)*      |

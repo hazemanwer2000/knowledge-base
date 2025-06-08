@@ -272,6 +272,7 @@
 |                   |                 |             |                         |                                        |
 | *beantworten*     | -               | -           | `[Accusative]`          | *Ich beantworte die Frage von ihm.*    |
 | *fragen*          | -               | -           | `[Accusative]`          | *Ich frage mich immer.*                |
+| *bitten*          | -               | -           | -                       | *Die Polizei bittet um Hinweise.*      |
 |                   |                 |             |                         |                                        |
 | *erklären*        | -               | -           | `[Accusative]`          | *Ich habe ihr das erklärt.*            |
 | *beschreiben*     | *beschrieben*   | *beschrieb* | `[Dative] [Accusative]` | *Ich beschreibe dir diese Idee.*       |

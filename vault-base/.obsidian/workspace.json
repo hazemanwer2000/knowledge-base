@@ -35,8 +35,7 @@
               "title": "Deutsch Nouns"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -174,13 +173,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "018c25bfe8c573b2",
+  "active": "33c92a8fd9aef882",
   "lastOpenFiles": [
+    "Topics/Languages/Deutsch/Deutsch Nouns.md",
+    "Topics/Languages/Deutsch/Deutsch-Verbs.md",
     "Topics/Languages/Deutsch.md",
     "Topics/Languages.md",
     "Welcome.md",
-    "Topics/Languages/Deutsch/Deutsch-Verbs.md",
-    "Topics/Languages/Deutsch/Deutsch Nouns.md",
     "Topics/Languages/Deutsch/Deutsch-Miscellaneous.md",
     "Topics/Languages/Deutsch/Deutsch-Adjectives.md",
     "Topics/Languages/Deutsch/Deutsch-Subordinate-Clauses.md",

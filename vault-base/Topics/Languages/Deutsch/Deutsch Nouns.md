@@ -230,7 +230,7 @@
 
 | Masculine            | Neuter               | Feminine              |
 | -------------------- | -------------------- | --------------------- |
-| *der Bericht(e)*     |                      | *die Frage(n)*        |
+| *der Bericht(e)*     | *das Gespräch(e)*    | *die Frage(n)*        |
 | *der Akt(e)*         |                      | *die Antwort(en)*     |
 |                      |                      | *die Nachricht(en)*   |
 |                      |                      |                       |

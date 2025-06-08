@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "dc1aa4a04a93db8d",
+        "id": "c2fec104dae4ee48",
         "type": "tabs",
         "children": [
           {
-            "id": "33c92a8fd9aef882",
+            "id": "18ea15a87f4b1dd9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -159,28 +159,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "33c92a8fd9aef882",
+  "active": "18ea15a87f4b1dd9",
   "lastOpenFiles": [
     "Topics/Languages/Deutsch.md",
+    "Topics/Languages/Deutsch/Deutsch-Grammar.md",
     "Topics/Languages.md",
     "Welcome.md",
+    "Topics/TechCraft.md",
+    "Topics/Techcraft/Tooling.md",
+    "Topics/Techcraft/OS.md",
+    "Topics/Techcraft/OS/AUTOSAR.md",
+    "Topics/Techcraft/Communication-Protocols.md",
+    "Topics/Techcraft/Cryptography.md",
+    "Topics/Languages/Deutsch/Deutsch Nouns.md",
     "Topics/Languages/Deutsch/Deutsch-Verbs.md",
     "Topics/Languages/Deutsch/Deutsch-Adjectives.md",
     "Topics/Languages/Deutsch/Deutsch-Miscellaneous.md",
-    "Topics/Languages/Deutsch/Deutsch Nouns.md",
     "Topics/Languages/Deutsch/Deutsch-Subordinate-Clauses.md",
     "Topics/Languages/Deutsch/Deutsch-Prepositions.md",
-    "Topics/Languages/Deutsch/Deutsch-Grammar.md",
-    "Topics/Techcraft/Tooling.md",
-    "Topics/TechCraft.md",
-    "Topics/Techcraft/Cryptography.md",
-    "Topics/Techcraft/OS.md",
-    "Topics/Techcraft/Communication-Protocols.md",
     "Topics/Finance.md",
     "Topics/Finance/Financial-Statements.md",
     "Topics/Languages/Deutsch/Deutsch-Nouns.md",
     "Topics/Techcraft/OS/AUTOSAR/General/AUTOSAR-SW-Components.md",
-    "Topics/Techcraft/OS/AUTOSAR.md",
     "Topics/Techcraft/Cryptography/Authenticated-Encryption/GCM.md",
     "Topics/Languages/Deutsch",
     "Topics/Languages/Deutsch",

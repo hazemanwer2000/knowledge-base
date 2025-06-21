@@ -119,13 +119,14 @@ See **Indefinite Article**.
 ##### Quantifiers
 ---
 
-| Deutsch                          | English |
-| -------------------------------- | ------- |
-| *einig-*                         | *some*  |
-| *beid-*                          | *both*  |
-| *all-*                           | *all*   |
-| *kein-* (See Indefinite Article) | *none*  |
-| *jed-* (See *"dies-"*)           | *every* |
+| Deutsch                               | English |
+| ------------------------------------- | ------- |
+| *einig-*                              | *some*  |
+| *beid-*                               | *both*  |
+| *all-*                                | *all*   |
+| *kein-* (See Indefinite Article)      | *none*  |
+| *jed-* (See *"dies-"*)                | *every* |
+| *irgendein-* (See Indefinite Article) | *any*   |
 #### Adjectives
 ---
 Adjectives have several declension rules:

@@ -75,6 +75,7 @@ Phrases:
 | *wie ...*                       | *Erdbeeren schmeckt gut wie Pfirsche.*                                 |
 | *einmal/zweimal/dreimal/...*    | *Nur einmal habe ich Deutschland besucht.*                             |
 | *überhaupt*                     | *Das kümmert mich nicht überhaupt.*                                    |
+| *jedenfalls*                    | *Jedenfalls muss ich nun gehen.*                                       |
 | *allerdings*                    | *Letztens fühle ich mich traurig. Allerdings bin ich heute glücklich.* |
 ## References
 ---

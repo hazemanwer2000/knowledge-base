@@ -238,6 +238,8 @@
 |                      |                      | *die Nummer(n)*       |
 |                      |                      | *die Seite(n)*        |
 |                      |                      |                       |
+|                      | *das System(e)*      |                       |
+|                      |                      |                       |
 | *der Grund (Gründe)* | *das Thema (Themen)* | *die Idee(n)*         |
 | *der Sinn(e)*        | *das Interesse*      | *die Regel(n)*        |
 | *der Plan (Pläne)*   |                      | *die Religion(en)*    |

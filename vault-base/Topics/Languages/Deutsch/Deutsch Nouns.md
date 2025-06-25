@@ -101,6 +101,7 @@
 |                      | *das Unternehmen(en)*   | *die Schule(n)*       |
 |                      | *das Hotel(s)*          |                       |
 |                      | *das Restaurant(s)*     |                       |
+|                      | *das Büro(s)*           |                       |
 |                      |                         |                       |
 | *der Platz (Plätze)* | *das Ort(e)*            | *die Straße(n)*       |
 | *der Stock (Stöcke)* | *das Haus (Häuser)*     | *die Stadt (Städte)*  |

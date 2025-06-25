@@ -430,6 +430,7 @@
 | *fahren*                | *gefahren*         | *fuhr*          | -                        | *Ich fahre nach Münichen.*                                          |
 |                         |                    |                 |                          |                                                                     |
 | *treffen*               | *getroffen*        | *traf*          | -                        | *Gestern habe ich mit ihm getroffen.*                               |
+| *verabreden*            | -                  | -               | `[Accusative/Reflexive]` | *Ich verabrede mich mit dir.*                                       |
 | *vorstellen*            | -                  | -               | `[Accusative/Reflexive]` | *Bitte stellen Sie sich vor!*                                       |
 | *besuchen*              | -                  | -               | `[Accusative]`           | *Sie wohnt in der Nähe, Ich besuche sie oft.*                       |
 | *einladen*              | *eingeladen*       | *lud ein*       | `[Accusative]`           | *Ich lade dich zu einer Party ein.*                                 |

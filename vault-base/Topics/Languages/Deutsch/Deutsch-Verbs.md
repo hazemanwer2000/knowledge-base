@@ -357,6 +357,7 @@
 | *lassen*              | *gelassen*      | *ließ*     | `[Accusative]`           | *Lass mich in Ruhe!*                                             |
 |                       |                 |            |                          |                                                                  |
 | *heiraten*            | -               | -          | `[Accusative]`           | *Ich werde sie heiraten.*                                        |
+| *verloben*            | -               | -          | -                        | *Ich bin zu ihr verlobt.*                                        |
 | *gehören*             | -               | -          | `[Dative]`               | *Sie gehört mir!*                                                |
 | *verlassen*           | *verlassen*     | *verließ*  | `[Accusative]`           | *Ich verließ sie für dich.*                                      |
 | *scheiden*            | *geschieden*    | *schied*   | `[Accusative/Reflexive]` | *Ich ließ mich von ihr scheiden.*                                |

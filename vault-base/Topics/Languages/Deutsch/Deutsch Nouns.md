@@ -257,7 +257,7 @@
 |                      |                      |                       |
 | *der Kreis*(e)       |                      |                       |
 |                      |                      |                       |
-|                      | *das Mitglied(e)*    | *die Gruppe(n)*       |
+| *der Kollege(n)*     | *das Mitglied(e)*    | *die Gruppe(n)*       |
 |                      |                      |                       |
 | *der Kurs(e)*        |                      |                       |
 |                      |                      |                       |

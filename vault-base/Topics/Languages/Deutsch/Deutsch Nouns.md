@@ -123,7 +123,7 @@
 | *der Teppich(e)*         | *das Bett(en)*              | *die Lampe(n)*     |
 | *der Boden (Böden)*      | *das Handy(s)*              | *die Tür(en)*      |
 | *der Tisch(e)*           | *das Geld*                  | *die Tastatur(en)* |
-| *der Schrank (Schränke)* |                             | *die Maus (Mäuse)* |
+| *der Schrank (Schränke)* | *das Mikrofon(e)*           | *die Maus (Mäuse)* |
 | *der Schlüssel*          |                             | *die Hütte(n)*     |
 | *der Ball (Bälle)*       |                             | *die Tasche(n)*    |
 | *der Fernseher*          |                             |                    |

@@ -35,6 +35,7 @@
 |                      |                   |                      |
 | *der Mensch(en)*     | *das Gehirn(e)*   | *die Gestalt(en)*    |
 |                      |                   | *die Seele(n)*       |
+|                      |                   | *die Person(en)*     |
 
 ### ~~The Family~~
 ---
@@ -43,7 +44,7 @@
 | ------------------- | ------ | ----------------------- |
 | *der Vater (Väter)* |        | *die Familie(n)*        |
 | *der Sohn (Söhne)*  |        | *die Mutter (Mütter)*   |
-|                     |        | *die Tochter (Töchter)* |
+| *der Elter(n)*      |        | *die Tochter (Töchter)* |
 
 | Masculine       | Feminine         |
 | --------------- | ---------------- |

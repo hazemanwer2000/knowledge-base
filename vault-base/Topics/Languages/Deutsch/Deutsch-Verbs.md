@@ -390,6 +390,7 @@
 | *schwimmen*             | *geschwommen*      | *schwamm*       | -                        | *Ich schwimmen an der Wochenenden.*                                 |
 | *tanzen*                | -                  | -               | -                        | *Ich will mit dir zu tanzen.*                                       |
 | *singen*                | *gesungen*         | *sang*          | `[Dative] [Accusative]`  | *Ich singe dir ein neues Lied.*                                     |
+| *reiten*                | *geritten*         | *ritt*          | -                        | *Ich reite Pferde.*                                                 |
 | *heben*                 | *gehoben*          | *hob*           | `[Accusative]`           | *Ich hebe Gewichte.*                                                |
 |                         |                    |                 |                          |                                                                     |
 | *bauen*                 | -                  | -               | `[Dative] [Accusative]`  | *Ich baue dir ein neues Haus.*                                      |

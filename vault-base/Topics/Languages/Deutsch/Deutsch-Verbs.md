@@ -198,19 +198,6 @@
 | *sie/Sie*   | *spielen* | *spielten*  |
 ##### Irregular Verbs
 ---
-###### Past Tense as *"a"*
----
-*Z. Bsp. sehen*
-
-|             | Present  | Past    |
-| ----------- | -------- | ------- |
-| *ich*       | *sehe*   | *sah*   |
-| *du*        | *siehst* | *sahst* |
-| *er/es/sie* | *sieht*  | *sah*   |
-|             |          |         |
-| *wir*       | *sehen*  | *sahen* |
-| *ihr*       | *seht*   | *saht*  |
-| *sie/Sie*   | *sehen*  | *sahen* |
 ###### Past Tense from Past Participle
 ---
 *Z. Bsp. bringen*
@@ -228,32 +215,6 @@
 | *wir*       | *bringen* | *brachten*  |
 | *ihr*       | *bringt*  | *brachtet*  |
 | *sie/Sie*   | *bringen* | *brachten*  |
-###### Past Tense as *"ie"*
----
-*Z. Bsp. laufen*
-
-|             | Present  | Past     |
-| ----------- | -------- | -------- |
-| *ich*       | *laufe*  | *lief*   |
-| *du*        | *läufst* | *liefst* |
-| *er/es/sie* | *läuft*  | *lief*   |
-|             |          |          |
-| *wir*       | *laufen* | *liefen* |
-| *ihr*       | *lauft*  | *lieft*  |
-| *sie/Sie*   | *laufen* | *liefen* |
-###### Past Tense as *"u"*
----
-*Z. Bsp. fahren*
-
-|             | Present  | Past     |
-| ----------- | -------- | -------- |
-| *ich*       | *fahre*  | *fuhr*   |
-| *du*        | *fährst* | *fuhrst* |
-| *er/es/sie* | *fährt*  | *fuhr*   |
-|             |          |          |
-| *wir*       | *fahren* | *fuhren* |
-| *ihr*       | *fahrt*  | *fuhrt*  |
-| *sie/Sie*   | *fahren* | *fuhren* |
 #### Directory
 ---
 ##### ~~Speech and the Mind~~

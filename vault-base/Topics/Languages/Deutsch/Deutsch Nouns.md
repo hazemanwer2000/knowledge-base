@@ -109,7 +109,7 @@
 
 | Masculine                | Neuter                      | Feminine           |
 | ------------------------ | --------------------------- | ------------------ |
-| *der Teppich(e)*         | *das Bett(en)*              | *die Sache(e)*     |
+| *der Teppich(e)*         | *das Bett(en)*              | ==*die Sache(e)*== |
 | *der Boden (Böden)*      | *das Handy(s)*              | *die Lampe(n)*     |
 | *der Tisch(e)*           | *das Geld*                  | *die Tür(en)*      |
 | *der Schrank (Schränke)* | *das Mikrofon(e)*           | *die Tastatur(en)* |
@@ -234,11 +234,11 @@
 | *der Plan (Pläne)*   |                      |                       |
 | *der Punkt(e)*       |                      |                       |
 
-| Masculine          | Neuter         | Feminine |
-| ------------------ | -------------- | -------- |
-| *der Film(e)*      | *das Spiel(e)* |          |
-|                    | *das Lied(er)* |          |
-|                    | *das Bild(er)* |          |
+| Masculine     | Neuter         | Feminine |
+| ------------- | -------------- | -------- |
+| *der Film(e)* | *das Spiel(e)* |          |
+| *der Akt(e)*  | *das Lied(er)* |          |
+|               | *das Bild(er)* |          |
 
 | Masculine            | Neuter              | Feminine             |
 | -------------------- | ------------------- | -------------------- |
@@ -320,6 +320,7 @@
 | Masculine | Neuter | Feminine          |
 | --------- | ------ | ----------------- |
 |           |        | *die Gestalt(en)* |
+|           |        | *die Form(en)*    |
 |           |        | *die Länge(n)*    |
 |           |        | *die Breite(n)*   |
 
@@ -329,15 +330,11 @@
 
 | Masculine        | Neuter | Feminine           |
 | ---------------- | ------ | ------------------ |
-|                  |        |                    |
+| *der Mensch(en)* |        | *die Person(en)*   |
+
+| Masculine        | Neuter | Feminine           |
+| ---------------- | ------ | ------------------ |
 |                  |        | *die Illusion(en)* |
-|                  |        |                    |
-|                  |        |                    |
-|                  |        |                    |
-|                  |        |                    |
-| *der Mensch(en)* |        |                    |
-|                  |        |                    |
-| *der Akt(e)*     |        | *die Person(en)*   |
 
 ## References
 ---

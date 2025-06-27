@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/Languages/Deutsch/Deutsch-Adjectives.md",
-                "mode": "source",
+                "file": "Topics/Languages/Deutsch/Deutsch-Miscellaneous.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Deutsch-Adjectives"
+              "title": "Deutsch-Miscellaneous"
             }
           }
         ]
@@ -162,8 +162,10 @@
   "active": "9eef765f53c6e69b",
   "lastOpenFiles": [
     "Topics/Languages/Deutsch.md",
+    "Topics/Languages/Deutsch/Deutsch-Subordinate-Clauses.md",
     "Topics/Languages.md",
     "Welcome.md",
+    "Topics/Languages/Deutsch/Deutsch-Adjectives.md",
     "Topics/Languages/Deutsch/Deutsch-Grammar.md",
     "Topics/Languages/Deutsch/Deutsch Nouns.md",
     "Topics/TechCraft.md",
@@ -188,8 +190,6 @@
     "_IMG/ISO-21434-Relationship-Between-Definitions.png",
     "Topics/Techcraft/Security/Standards",
     "Topics/Techcraft/Security",
-    "Topics/Finance/Financial-Statements.md",
-    "Topics/Techcraft/Cryptography/Symmetric-Encryption/Symmetric-Key-Block-Cipher@Modes-of-Operation.md",
     "Topics/Techcraft/Cryptography/Symmetric-Encryption",
     "Topics/Techcraft/Cryptography/Message-Authentication-Codes",
     "Topics/Techcraft/Cryptography/Cryptographic-Hash-Functions",

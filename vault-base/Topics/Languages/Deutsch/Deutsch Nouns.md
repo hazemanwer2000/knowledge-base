@@ -62,6 +62,9 @@
 |                     |                           |
 | *der Sklave(n)*     | *die Sklavin(nen)*        |
 | *der Herr(en)*      | *die Herrin(nen)*         |
+|                     |                           |
+| *der Kollege(n)*    | *die Kollegin(nen)*       |
+| *der Freund(e)*     | *die Freundin(nen)*       |
 
 ### ~~Clothing~~
 ---
@@ -106,13 +109,13 @@
 
 | Masculine                | Neuter                      | Feminine           |
 | ------------------------ | --------------------------- | ------------------ |
-| *der Teppich(e)*         | *das Bett(en)*              | *die Lampe(n)*     |
-| *der Boden (Böden)*      | *das Handy(s)*              | *die Tür(en)*      |
-| *der Tisch(e)*           | *das Geld*                  | *die Tastatur(en)* |
-| *der Schrank (Schränke)* | *das Mikrofon(e)*           | *die Maus (Mäuse)* |
-| *der Schlüssel*          |                             | *die Hütte(n)*     |
-| *der Ball (Bälle)*       |                             | *die Tasche(n)*    |
-| *der Fernseher*          |                             |                    |
+| *der Teppich(e)*         | *das Bett(en)*              | *die Sache(e)*     |
+| *der Boden (Böden)*      | *das Handy(s)*              | *die Lampe(n)*     |
+| *der Tisch(e)*           | *das Geld*                  | *die Tür(en)*      |
+| *der Schrank (Schränke)* | *das Mikrofon(e)*           | *die Tastatur(en)* |
+| *der Schlüssel*          |                             | *die Maus (Mäuse)* |
+| *der Ball (Bälle)*       |                             | *die Hütte(n)*     |
+| *der Fernseher*          |                             | *die Tasche(n)*    |
 | *der Stuhl (Stühle)*     |                             |                    |
 | *der Käfig(e)*           |                             |                    |
 |                          |                             |                    |
@@ -139,6 +142,7 @@
 |                                 |                  | *die Karrotte(n)*          |
 |                                 |                  | *die Kartoffel(n)*         |
 |                                 |                  | *die Tomate(n)*            |
+|                                 |                  | *die Zitrone(e)*           |
 
 ### ~~Date and Time~~
 ---
@@ -250,54 +254,90 @@
 |           |        | *die Gegenwart*     |
 |           |        | *die Zukunft*       |
 
-| Masculine            | Neuter              | Feminine            |
-| -------------------- | ------------------- | ------------------- |
-|                      |                     |                     |
-|                      | *das System(e)*     |                     |
-|                      |                     |                     |
-|                      |                     |                     |
-|                      |                     |                     |
-|                      |                     | *die Religion(en)*  |
-|                      |                     |                     |
-|                      |                     |                     |
-|                      |                     |                     |
-|                      |                     | *die Polizei*       |
-|                      |                     | *die Regierung(en)* |
-|                      |                     |                     |
-|                      |                     |                     |
-| *der Kreis*(e)       |                     |                     |
-|                      |                     |                     |
-| *der Kollege(n)*     | *das Mitglied(e)*   | *die Gruppe(n)*     |
-|                      |                     |                     |
-| *der Kurs(e)*        |                     |                     |
-|                      |                     |                     |
-| *der Traum (Träume)* | *das Geheimnis(se)* | *die Liebe*         |
-|                      |                     | *die Einsamkeit*    |
-|                      |                     | *die Lust*          |
-|                      |                     | *die Illusion(en)*  |
-|                      |                     | *die Sünde(n)*      |
-|                      |                     | *die Sorge(n)*      |
-|                      |                     |                     |
-|                      |                     | *die Beziehung(en)* |
-|                      |                     |                     |
-|                      |                     |                     |
-|                      |                     |                     |
-|                      |                     |                     |
-|                      |                     |                     |
-|                      |                     |                     |
-|                      | *das Stück*         |                     |
-|                      |                     |                     |
-|                      |                     |                     |
-|                      |                     |                     |
-| *der Mond(e)*        |                     | *die Welt(en)*      |
-|                      |                     | *die Erde*          |
-|                      |                     | *die Sonne(n)*      |
-|                      |                     | *die Luft*          |
-|                      |                     |                     |
-|                      |                     |                     |
-| *der Mensch(en)*     | *das Gehirn(e)*     | *die Gestalt(en)*   |
-|                      |                     | *die Seele(n)*      |
-| *der Akt(e)*         |                     | *die Person(en)*    |
+| Masculine | Neuter | Feminine         |
+| --------- | ------ | ---------------- |
+|           |        | *die Liebe*      |
+|           |        | *die Einsamkeit* |
+|           |        | *die Sorge(n)*   |
+|           |        | *die Lust*       |
+|           |        | *die Sünde(n)*   |
+
+| Masculine | Neuter | Feminine            |
+| --------- | ------ | ------------------- |
+|           |        | *die Polizei*       |
+|           |        | *die Regierung(en)* |
+
+| Masculine     | Neuter | Feminine       |
+| ------------- | ------ | -------------- |
+| *der Mond(e)* |        | *die Welt(en)* |
+|               |        | *die Erde*     |
+|               |        | *die Sonne(n)* |
+|               |        | *die Luft*     |
+
+| Masculine | Neuter             | Feminine        |
+| --------- | ------------------ | --------------- |
+|           | *das Mitglied(er)* | *die Gruppe(n)* |
+
+| Masculine     | Neuter          | Feminine |
+| ------------- | --------------- | -------- |
+| *der Kurs(e)* | *das Abitur(e)* |          |
+
+| Masculine     | Neuter          | Feminine |
+| ------------- | --------------- | -------- |
+| *der Kurs(e)* | *das Abitur(e)* |          |
+
+| Masculine | Neuter          | Feminine          |
+| --------- | --------------- | ----------------- |
+|           | *das System(e)* | *die Technologie* |
+
+| Masculine      | Neuter            | Feminine |
+| -------------- | ----------------- | -------- |
+| *der Kreis(e)* | *das Quadrat(e)*  |          |
+|                | *das Rechteck(e)* |          |
+|                | *das Dreieck(e)*  |          |
+
+| Masculine           | Neuter | Feminine           |
+| ------------------- | ------ | ------------------ |
+| *der Gott (Götter)* |        | *die Religion(en)* |
+
+| Masculine        | Neuter              | Feminine |
+| ---------------- | ------------------- | -------- |
+| *der Hinweis(e)* | *das Geheimnis(se)* |          |
+
+| Masculine            | Neuter | Feminine |
+| -------------------- | ------ | -------- |
+| *der Traum (Träume)* |        |          |
+
+| Masculine | Neuter | Feminine               |
+| --------- | ------ | ---------------------- |
+|           |        | *die Beziehung(en)*    |
+|           |        | *die Freundschaft(en)* |
+
+| Masculine | Neuter      | Feminine |
+| --------- | ----------- | -------- |
+|           | *das Stück* |          |
+
+| Masculine | Neuter | Feminine          |
+| --------- | ------ | ----------------- |
+|           |        | *die Gestalt(en)* |
+|           |        | *die Länge(n)*    |
+|           |        | *die Breite(n)*   |
+
+| Masculine | Neuter          | Feminine       |
+| --------- | --------------- | -------------- |
+|           | *das Gehirn(e)* | *die Seele(n)* |
+
+| Masculine        | Neuter | Feminine           |
+| ---------------- | ------ | ------------------ |
+|                  |        |                    |
+|                  |        | *die Illusion(en)* |
+|                  |        |                    |
+|                  |        |                    |
+|                  |        |                    |
+|                  |        |                    |
+| *der Mensch(en)* |        |                    |
+|                  |        |                    |
+| *der Akt(e)*     |        | *die Person(en)*   |
 
 ## References
 ---

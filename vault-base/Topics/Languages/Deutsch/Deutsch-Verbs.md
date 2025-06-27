@@ -331,7 +331,7 @@
 | *verlieren*           | *verloren*      | *verlor*   | `[Accusative]`           | *Ich habe sie verloren.*                                         |
 | *gewinnen*            | *gewonnen*      | *gewann*   | `[Accusative]`           | *Ich habe die Goldmedaille gewonnen.*                            |
 | *erreichen*           | -               | -          | -                        | *Heute habe ich mein Ziel erreicht.*                             |
-| *verdienen*           | -               | -          | `[Accusative]`           | *Ich glaube, dass ich eine Trophäe verdiene.*                    |
+| *verdienen*           | -               | -          | `[Accusative]`           | *Ich glaube, dass ich eine Trophäe verdient habe.*               |
 |                       |                 |            |                          |                                                                  |
 | *schmecken*           | -               | -          | -                        | *Es schmeckt so gut.*                                            |
 | *riechen*             | *gerochen*      | *roch*     | -                        | *Es riecht schlecht.*                                            |

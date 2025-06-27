@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/Techcraft/Security/Standards/ISO-15118.md",
+                "file": "Topics/Languages/Deutsch/Deutsch-Verbs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ISO-15118"
+              "title": "Deutsch-Verbs"
             }
           }
         ]
@@ -161,6 +161,11 @@
   },
   "active": "6ae247744b76384b",
   "lastOpenFiles": [
+    "Topics/Languages/Deutsch.md",
+    "Topics/Languages/Deutsch/Deutsch-Prepositions.md",
+    "Topics/Languages/Deutsch/Deutsch-Grammar.md",
+    "Topics/Languages.md",
+    "Welcome.md",
     "Topics/Techcraft/Security/Standards/ISO-21434.md",
     "Topics/Techcraft/Security/Standards/ISO-15118.md",
     "Topics/Techcraft/OS/AUTOSAR/General/AUTOSAR-ECU-Extract.md",
@@ -171,7 +176,6 @@
     "Topics/Techcraft/OS.md",
     "Topics/TechCraft.md",
     "Topics/Techcraft/Security.md",
-    "Welcome.md",
     "Topics/Finance.md",
     "ISO-15118-Security-Concept.md",
     "Topics/Techcraft/Security/Standards/Automotive TARA.md",
@@ -181,15 +185,11 @@
     "Topics/Techcraft/Security/Standards/Threat Analysis and Risk Assessment.md",
     "Topics/Languages/Deutsch/Deutsch-Verbs.md",
     "Topics/Languages/Deutsch/Deutsch Nouns.md",
-    "Topics/Languages/Deutsch.md",
-    "Topics/Languages.md",
-    "Topics/Languages/Deutsch/Deutsch-Grammar.md",
     "_IMG/ISO-21434-Relationship-Between-Definitions.png",
     "Topics/Techcraft/Security/Standards",
     "Topics/Techcraft/Security",
     "Topics/Finance/Financial-Statements.md",
     "Topics/Techcraft/Cryptography/Symmetric-Encryption/Symmetric-Key-Block-Cipher@Modes-of-Operation.md",
-    "Topics/Techcraft/Cryptography/Symmetric-Encryption/AES.md",
     "Topics/Techcraft/Cryptography/Symmetric-Encryption",
     "Topics/Techcraft/Cryptography/Message-Authentication-Codes",
     "Topics/Techcraft/Cryptography/Cryptographic-Hash-Functions",

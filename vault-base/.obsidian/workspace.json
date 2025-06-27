@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/Languages/Deutsch/Deutsch-Miscellaneous.md",
-                "mode": "preview",
+                "file": "Topics/Languages/Deutsch/Deutsch-Verbs.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Deutsch-Miscellaneous"
+              "title": "Deutsch-Verbs"
             }
           }
         ]
@@ -165,6 +165,7 @@
     "Topics/Languages/Deutsch/Deutsch-Subordinate-Clauses.md",
     "Topics/Languages.md",
     "Welcome.md",
+    "Topics/Languages/Deutsch/Deutsch-Miscellaneous.md",
     "Topics/Languages/Deutsch/Deutsch-Adjectives.md",
     "Topics/Languages/Deutsch/Deutsch-Grammar.md",
     "Topics/Languages/Deutsch/Deutsch Nouns.md",
@@ -186,7 +187,6 @@
     "Topics/Techcraft/Cryptography.md",
     "Topics/Techcraft/Cryptography/Elliptic-Curve-Cryptography.md",
     "Topics/Techcraft/Cryptography/Cryptographic-Hash-Functions.md",
-    "Topics/Techcraft/Security/Standards/Threat Analysis and Risk Assessment.md",
     "_IMG/ISO-21434-Relationship-Between-Definitions.png",
     "Topics/Techcraft/Security/Standards",
     "Topics/Techcraft/Security",

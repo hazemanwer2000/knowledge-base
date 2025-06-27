@@ -431,7 +431,7 @@
 | *bleiben*               | *geblieben*        | *blieb*         | -                        | *Bleibe in der Nähe!*                                               |
 |                         |                    |                 |                          |                                                                     |
 | *sitzen*                | *gesessen*         | *saß*           | -                        | *Sie saß neben mir.*                                                |
-| *stehen*                | *gestanden*        | *stande*        | -                        | *Ich stand auf dem Tisch.*                                          |
+| *stehen*                | *gestanden*        | *stand*         | -                        | *Ich stand auf dem Tisch.*                                          |
 |                         |                    |                 |                          |                                                                     |
 | *schlafen*              | *geschlafen*       | *schlief*       | -                        | *Gestern habe ich spät geschlafen.*                                 |
 | *aufwachen*             | -                  | -               | -                        | *Ich habe um sechs Uhr heute aufgewacht.*                           |

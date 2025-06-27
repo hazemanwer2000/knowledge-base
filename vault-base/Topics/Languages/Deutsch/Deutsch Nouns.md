@@ -332,9 +332,10 @@
 | ---------------- | ------ | ------------------ |
 | *der Mensch(en)* |        | *die Person(en)*   |
 
-| Masculine        | Neuter | Feminine           |
-| ---------------- | ------ | ------------------ |
-|                  |        | *die Illusion(en)* |
+| Masculine | Neuter | Feminine           |
+| --------- | ------ | ------------------ |
+|           |        | *die Illusion(en)* |
+|           |        | *die Magie*        |
 
 ## References
 ---

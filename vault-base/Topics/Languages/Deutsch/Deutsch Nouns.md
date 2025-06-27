@@ -261,6 +261,7 @@
 |           |        | *die Sorge(n)*   |
 |           |        | *die Lust*       |
 |           |        | *die Sünde(n)*   |
+|           |        | *die Lüge(n)*    |
 
 | Masculine | Neuter | Feminine            |
 | --------- | ------ | ------------------- |

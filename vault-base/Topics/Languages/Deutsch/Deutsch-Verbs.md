@@ -227,6 +227,7 @@
 | *reden*           | -               | -           | -                       | *Ich rede mit Väter.*                              |
 | *sprechen*        | *gesprochen*    | *sprach*    | -                       | *Gestern habe ich mit dir gesprochen.*             |
 |                   |                 |             |                         |                                                    |
+|                   |                 |             |                         |                                                    |
 | *lesen*           | *gelesen*       | *laß*       | `[Dative] [Accusative]` | *Ich las ihm das Buch vor.*                        |
 | *hören*           | -               | -           | `[Accusative]`          | *Ich höre dich.*                                   |
 | *schreiben*       | *geschrieben*   | *schrieb*   | `[Dative] [Accusative]` | *Ich schreibe dir dieses Buch.*                    |
@@ -361,6 +362,7 @@
 | *tanzen*                | -                  | -               | -                        | *Ich will mit dir zu tanzen.*                                       |
 | *singen*                | *gesungen*         | *sang*          | `[Dative] [Accusative]`  | *Ich singe dir ein neues Lied.*                                     |
 | *heben*                 | *gehoben*          | *hob*           | `[Accusative]`           | *Ich hebe Gewichte.*                                                |
+| *feiern*                | -                  | -               | `[Accusative]`           | *Wir haben zusammen das neue Jahr gefeiert.*                        |
 |                         |                    |                 |                          |                                                                     |
 | *bauen*                 | -                  | -               | `[Dative] [Accusative]`  | *Ich baue dir ein neues Haus.*                                      |
 | *machen*                | -                  | -               | `[Dative] [Accusative]`  | *Ich mache dir einen Kaffee.*                                       |

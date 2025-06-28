@@ -379,9 +379,12 @@
 | *machen*                | -                  | -               | `[Dative] [Accusative]`  | *Ich mache dir einen Kaffee.*                                       |
 | *tun*                   | *getan*            | *tat*           | `[Dative]`               | *Das tut doch keinem weh!*                                          |
 | *entwickeln*            | -                  | -               | `[Accusative]`           | *Ich habe Gefühle für sie entwickelt.*                              |
+| *reparieren*            | -                  | -               | `[Accusative]`           | *Bevor ich rausgehe, muss ich mein Auto reparieren.*                |
+| *renovieren*            | -                  | -               | `[Accusative]`           | *Dieses Jahr wird ich mein Haus renovieren.*                        |
 |                         |                    |                 |                          |                                                                     |
 | *arbeiten*              | -                  | -               | -                        | *Ich arbeite als Ingenieur.*                                        |
 | *lernen*                | -                  | -               | `[Accusative]`           | *Letztens lerne ich Deutsch.*                                       |
+| *studieren*             | -                  | -               | `[Accusative]`           | *Ich muss heute Mathematik studieren.*                              |
 | *üben*                  | -                  | -               | -                        | *Die letzte Woche habe ich bei dem Fitnessstudio Jeden Tag geübt.*  |
 | *recherchieren*         | -                  | -               | `[Accusative]`           | *Jetzt recherchiere ich verschiedene Themen.*                       |
 |                         |                    |                 |                          |                                                                     |
@@ -476,6 +479,7 @@
 | *peitschen*             | -                  | -               | `[Accusative]`           | *Ich peitsche jeden Sklaven.*                                       |
 | *brechen*               | *gebrochen*        | *brach*         | `[Dative] [Accusative]`  | *Ich werde dir das Genick brechen.*                                 |
 | *verbrennen*            | *verbrannt*        | *verbrannte*    | `[Accusative]`           | *Er verbrannte die Papiere.*                                        |
+| *explodieren*           | -                  | -               | -                        | *Ich fühle mich, als ob ich die ganze Zeit explodiere.*             |
 |                         |                    |                 |                          |                                                                     |
 | *binden*                | *gebunden*         | *band*          | `[Accusative]`           | *Ich band die Beine zusammen.*                                      |
 | *hängen*                | *gehangen*         | *hing*          | -                        | *Sie hing an ihren Haaren.*                                         |

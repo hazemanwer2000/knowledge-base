@@ -235,6 +235,7 @@
 | *beantworten*     | -               | -             | `[Accusative]`          | *Ich beantworte die Frage von ihm.*                |
 | *fragen*          | -               | -             | `[Accusative]`          | *Ich frage mich immer.*                            |
 | *bitten*          | -               | -             | -                       | *Die Polizei bittet um Hinweise.*                  |
+| *vorschlagen*     | *vorgeschlagen* | *schlug vor*  | `[Accusative]`          | *Ich schlug eine neue Idee vor.*                   |
 |                   |                 |               |                         |                                                    |
 | *erklären*        | -               | -             | `[Accusative]`          | *Ich habe ihr das erklärt.*                        |
 | *begründen*       | -               | -             | `[Accusative]`          | *Sie haben bis morgen dein Benehmen zu begründen.* |

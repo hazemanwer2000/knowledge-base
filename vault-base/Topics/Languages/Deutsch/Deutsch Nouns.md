@@ -267,7 +267,7 @@
 | *der Platz (Plätze)* | *das Ort(e)*            | *die Straße(n)*      |
 | *der Stock (Stöcke)* | *das Haus (Häuser)*     | *die Stadt (Städte)* |
 | *der Weg(e)*         | *das Zimmer*            | *die Richtung(en)*   |
-|                      | *das Zentrum (Zentren)* | *die Ampel(n)*       |
+| *der Raum (Räume)*   | *das Zentrum (Zentren)* | *die Ampel(n)*       |
 |                      |                         | *die Ecke(n)*        |
 
 | Masculine | Neuter | Feminine            |

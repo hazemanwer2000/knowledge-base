@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -188,7 +188,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f350b953e1a5cf57",
+  "active": "ae241dc1eae028e0",
   "lastOpenFiles": [
     "Topics/Languages/Deutsch/Deutsch-Verbs.md",
     "Topics/Languages/Deutsch/Deutsch Nouns.md",

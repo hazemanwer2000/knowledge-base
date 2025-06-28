@@ -292,9 +292,9 @@
 | --------- | ------------------ | --------------- |
 |           | *das Mitglied(er)* | *die Gruppe(n)* |
 
-| Masculine     | Neuter          | Feminine |
-| ------------- | --------------- | -------- |
-| *der Kurs(e)* | *das Abitur(e)* |          |
+| Masculine     | Neuter          | Feminine             |
+| ------------- | --------------- | -------------------- |
+| *der Kurs(e)* | *das Abitur(e)* | *die Ausbildung(en)* |
 
 | Masculine | Neuter          | Feminine          |
 | --------- | --------------- | ----------------- |

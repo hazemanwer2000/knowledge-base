@@ -266,15 +266,16 @@
 |           |        | *die Gegenwart*     |
 |           |        | *die Zukunft*       |
 
-| Masculine | Neuter | Feminine          |
-| --------- | ------ | ----------------- |
-|           |        | *die Liebe*       |
-|           |        | *die Einsamkeit*  |
-|           |        | *die Sorge(n)*    |
-|           |        | *die Lust*        |
-|           |        | *die Sünde(n)*    |
-|           |        | *die Lüge(n)*     |
-|           |        | *die Intelligenz* |
+| Masculine       | Neuter | Feminine          |
+| --------------- | ------ | ----------------- |
+| *der Stress(e)* |        | *die Liebe*       |
+|                 |        | *die Einsamkeit*  |
+|                 |        | *die Sorge(n)*    |
+|                 |        | *die Lust*        |
+|                 |        | *die Sünde(n)*    |
+|                 |        | *die Lüge(n)*     |
+|                 |        | *die Intelligenz* |
+|                 |        | *die Angst*       |
 
 | Masculine | Neuter | Feminine            |
 | --------- | ------ | ------------------- |

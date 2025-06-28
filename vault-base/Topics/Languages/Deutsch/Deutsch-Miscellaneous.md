@@ -83,6 +83,7 @@ Phrases:
 | *genug*                               | *Ich habe genug Geld.*                                                 |
 | *fließend*                            | *Ich bin fließend auf Deutsch.*                                        |
 | *dort*                                | *Meine Mitbewohner hat früher dort gelebt.*                            |
+| *vorher*                              | *Vorher hat sie in Berlin gewohnt.*                                    |
 ## References
 ---
 [1] Hammer's German Grammar and Usage, Martin Durrel

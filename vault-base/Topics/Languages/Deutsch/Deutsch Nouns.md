@@ -243,6 +243,7 @@
 | *der Plan (Pläne)*   |                      | *die Methode(n)*        |
 | *der Punkt(e)*       |                      | *die Bedingung(en)*     |
 |                      |                      | *die Voraussetzung(en)* |
+|                      |                      | *die Ausnahme(n)*       |
 
 | Masculine      | Neuter       | Feminine |
 | -------------- | ------------ | -------- |

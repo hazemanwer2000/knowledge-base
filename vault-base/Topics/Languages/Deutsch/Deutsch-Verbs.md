@@ -330,6 +330,7 @@
 | *lassen*              | *gelassen*      | *ließ*      | `[Accusative]`           | *Lass mich in Ruhe!*                                             |
 |                       |                 |             |                          |                                                                  |
 | *verbieten*           | *verboten*      | *verbot*    | `[Dative]`               | *Ich verbiete dir darüber weiter zu reden.*                      |
+| *erlauben*            | -               | -           | `[Dative]`               | *Ich erlaube dir nun zu essen.*                                  |
 |                       |                 |             |                          |                                                                  |
 | *heiraten*            | -               | -           | `[Accusative]`           | *Ich werde sie heiraten.*                                        |
 | *verloben*            | -               | -           | -                        | *Ich bin zu ihr verlobt.*                                        |

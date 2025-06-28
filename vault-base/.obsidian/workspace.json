@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -188,12 +188,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ae241dc1eae028e0",
+  "active": "86f230cf6569bb19",
   "lastOpenFiles": [
+    "Topics/Languages/Deutsch/Deutsch-Miscellaneous.md",
     "Topics/Languages/Deutsch.md",
     "Topics/Languages/Deutsch/Deutsch-Adjectives.md",
     "Topics/Languages/Deutsch/Deutsch-Verbs.md",
-    "Topics/Languages/Deutsch/Deutsch-Miscellaneous.md",
     "Topics/Languages/Deutsch/Deutsch-Grammar.md",
     "Topics/Languages.md",
     "Welcome.md",

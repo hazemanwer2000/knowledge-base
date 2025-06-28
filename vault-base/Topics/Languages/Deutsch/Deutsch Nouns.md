@@ -139,6 +139,8 @@
 | *der Kuchen*                    | *das Brot*       |                            |
 |                                 |                  |                            |
 | *der Saft (Säfte)*              | *das Wasser*     | ==*die Getränk(e)*==       |
+| *der Kaffee(s)*                 |                  |                            |
+| *der Tee(s)*                    |                  |                            |
 |                                 |                  |                            |
 | *der Apfel (Äpfel)*             |                  | ==*die Frucht (Früchte)*== |
 | *der Pfirsich(e)*               |                  | *die Erdbeere(n)*          |

@@ -81,6 +81,7 @@ Phrases:
 | *(un)möglich*                         | *Ja, das ist möglich.*                                                 |
 | *bestimmt*                            | *Ja, bestimmt!*                                                        |
 | *genug*                               | *Ich habe genug Geld.*                                                 |
+| *fließend*                            | *Ich bin fließend auf Deutsch.*                                        |
 ## References
 ---
 [1] Hammer's German Grammar and Usage, Martin Durrel

@@ -52,6 +52,7 @@
 | *hartnäckig*       |
 | *lustig*           |
 | *stressig*         |
+| *romantisch*       |
 
 | Adjective |
 | --------- |

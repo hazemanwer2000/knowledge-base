@@ -311,6 +311,7 @@
 | Masculine | Neuter          | Feminine          |
 | --------- | --------------- | ----------------- |
 |           | *das System(e)* | *die Technologie* |
+|           |                 | *die Mathematik*  |
 
 | Masculine      | Neuter            | Feminine |
 | -------------- | ----------------- | -------- |

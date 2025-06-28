@@ -29,7 +29,7 @@
 | *hell*                    | *dunkel*                                   |
 | *glücklig*<br>*froh*      | *traurig*                                  |
 | *böse*                    | *nett*                                     |
-| *ähnlic*<br>*gleich*      | *verschieden*                              |
+| *ähnlich*<br>*gleich*     | *verschieden*                              |
 | *frei*                    | *beschäftigt*                              |
 | *teuer*                   | *billig*                                   |
 | *laut*                    | *leise*<br>*still*                         |
@@ -51,6 +51,7 @@
 | *gemein*<br>*fies* |
 | *hartnäckig*       |
 | *lustig*           |
+| *stressig*         |
 
 | Adjective |
 | --------- |

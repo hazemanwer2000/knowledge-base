@@ -272,16 +272,16 @@
 |           |        | *die Gegenwart*     |
 |           |        | *die Zukunft*       |
 
-| Masculine       | Neuter | Feminine          |
-| --------------- | ------ | ----------------- |
-| *der Stress(e)* |        | *die Liebe*       |
-|                 |        | *die Einsamkeit*  |
-|                 |        | *die Sorge(n)*    |
-|                 |        | *die Lust*        |
-|                 |        | *die Sünde(n)*    |
-|                 |        | *die Lüge(n)*     |
-|                 |        | *die Intelligenz* |
-|                 |        | *die Angst*       |
+| Masculine       | Neuter      | Feminine          |
+| --------------- | ----------- | ----------------- |
+| *der Stress(e)* | *das Glück* | *die Liebe*       |
+|                 |             | *die Einsamkeit*  |
+|                 |             | *die Sorge(n)*    |
+|                 |             | *die Lust*        |
+|                 |             | *die Sünde(n)*    |
+|                 |             | *die Lüge(n)*     |
+|                 |             | *die Intelligenz* |
+|                 |             | *die Angst*       |
 
 | Masculine | Neuter | Feminine            |
 | --------- | ------ | ------------------- |
@@ -303,6 +303,7 @@
 | ------------- | --------------- | -------------------- |
 | *der Kurs(e)* | *das Abitur(e)* | *die Ausbildung(en)* |
 |               |                 | *die Prüfung(en)*    |
+|               |                 | *die Note(n)*        |
 
 | Masculine | Neuter          | Feminine          |
 | --------- | --------------- | ----------------- |

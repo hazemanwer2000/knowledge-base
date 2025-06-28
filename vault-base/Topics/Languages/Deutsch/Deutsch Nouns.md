@@ -125,7 +125,8 @@
 | *der Käfig(e)*           |                             |                    |
 |                          |                             |                    |
 | *der Löffel*             | *das Glas (Gläser)*         |                    |
-|                          | *das Messer*                |                    |
+| *der Teller*             | *das Messer*                |                    |
+|                          | *das Besteck*               |                    |
 |                          |                             |                    |
 | *der Bus(se)*            | *das Auto(s)*               |                    |
 | *der Zug (Züge)*         | *das Motorrad (Motorräder)* |                    |

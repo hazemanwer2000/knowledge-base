@@ -89,6 +89,7 @@
 | *der Vogel (Vögel)* | *das Schwein(e)*  |                |
 | *der Papagei(en)*   | *das Pferd(e)*    |                |
 | *der Hase(n)*       |                   |                |
+| *der Fisch(e)*      |                   |                |
 
 ### ~~Many Places~~
 ---
@@ -130,7 +131,10 @@
 
 | Masculine                       | Neuter           | Feminine                   |
 | ------------------------------- | ---------------- | -------------------------- |
-| *der Saft (Säfte)*              | *das Wasser*     | *die Getränk(e)*           |
+| *der Reis*                      | ==*das Essen*==  | *die Nudeln*               |
+|                                 | *das Brot*       |                            |
+|                                 |                  |                            |
+| *der Saft (Säfte)*              | *das Wasser*     | ==*die Getränk(e)*==       |
 |                                 |                  |                            |
 | *der Apfel (Äpfel)*             |                  | ==*die Frucht (Früchte)*== |
 | *der Pfirsich(e)*               |                  | *die Erdbeere(n)*          |
@@ -219,6 +223,7 @@
 | *der Bericht(e)* | *das Gespräch(e)* | *die Frage(n)*      |
 |                  |                   | *die Antwort(en)*   |
 |                  |                   | *die Nachricht(en)* |
+|                  |                   | *die Aufgabe(n)*    |
 
 | Masculine          | Neuter        | Feminine         |
 | ------------------ | ------------- | ---------------- |
@@ -231,7 +236,7 @@
 | *der Grund (Gründe)* | *das Thema (Themen)* | *die Idee(n)*         |
 | *der Sinn(e)*        | *das Interesse*      | *die Regel(n)*        |
 | *der Untershied(e)*  |                      | *die Ähnlichkeit(en)* |
-| *der Plan (Pläne)*   |                      |                       |
+| *der Plan (Pläne)*   |                      | *die Methode(n)*      |
 | *der Punkt(e)*       |                      |                       |
 
 | Masculine     | Neuter         | Feminine |
@@ -239,6 +244,10 @@
 | *der Film(e)* | *das Spiel(e)* |          |
 | *der Akt(e)*  | *das Lied(er)* |          |
 |               | *das Bild(er)* |          |
+
+| Masculine      | Neuter | Feminine         |
+| -------------- | ------ | ---------------- |
+| *der Beruf(e)* |        | *die Arbeit(en)* |
 
 | Masculine            | Neuter              | Feminine             |
 | -------------------- | ------------------- | -------------------- |
@@ -278,10 +287,6 @@
 | Masculine | Neuter             | Feminine        |
 | --------- | ------------------ | --------------- |
 |           | *das Mitglied(er)* | *die Gruppe(n)* |
-
-| Masculine     | Neuter          | Feminine |
-| ------------- | --------------- | -------- |
-| *der Kurs(e)* | *das Abitur(e)* |          |
 
 | Masculine     | Neuter          | Feminine |
 | ------------- | --------------- | -------- |

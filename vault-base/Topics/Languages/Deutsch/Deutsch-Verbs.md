@@ -279,6 +279,8 @@
 | *beginnen*            | *begonnen*      | *began*    | -                        | *Es begann.*                                                     |
 | *dauern*              | -               | -          | -                        | *Es dauert zu lang.*                                             |
 | *aufhören*            | -               | -          | -                        | *Es hörte auf.*                                                  |
+| *beenden*             | -               | -          | `[Accusative]`           | *Beende deine Mahlzeit schnell, bevor sie kalt wird.*            |
+| *fertigstellen*       | -               | -          | `[Accusative]`           | *Sie wird den Bericht heute fertigstellen.*                      |
 |                       |                 |            |                          |                                                                  |
 | *konzentrieren*       | -               | -          | `[Accusative/Reflexive]` | *Ich konzentriere mich immer auf dich.*                          |
 | *vorbereiten*         | -               | -          | `[Accusative]`           | *Dein neues Leben, ich bereite dich darauf vor!*                 |

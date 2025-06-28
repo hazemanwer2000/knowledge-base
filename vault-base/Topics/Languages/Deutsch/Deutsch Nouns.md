@@ -302,11 +302,11 @@
 | --------- | ------------------ | --------------- |
 |           | *das Mitglied(er)* | *die Gruppe(n)* |
 
-| Masculine     | Neuter          | Feminine             |
-| ------------- | --------------- | -------------------- |
-| *der Kurs(e)* | *das Abitur(e)* | *die Ausbildung(en)* |
-|               |                 | *die Prüfung(en)*    |
-|               |                 | *die Note(n)*        |
+| Masculine     | Neuter                  | Feminine             |
+| ------------- | ----------------------- | -------------------- |
+| *der Kurs(e)* | *das Abitur(e)*         | *die Ausbildung(en)* |
+|               | *das Studium (Studien)* | *die Prüfung(en)*    |
+|               |                         | *die Note(n)*        |
 
 | Masculine | Neuter          | Feminine          |
 | --------- | --------------- | ----------------- |

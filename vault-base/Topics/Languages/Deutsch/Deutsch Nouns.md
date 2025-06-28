@@ -309,11 +309,16 @@
 | *der Kurs(e)* | *das Abitur(e)*         | *die Ausbildung(en)* |
 |               | *das Studium (Studien)* | *die Prüfung(en)*    |
 |               |                         | *die Note(n)*        |
+|               |                         | *die Lösung(en)*     |
 
-| Masculine | Neuter          | Feminine          |
-| --------- | --------------- | ----------------- |
-|           | *das System(e)* | *die Technologie* |
-|           |                 | *die Mathematik*  |
+| Masculine | Neuter          | Feminine        |
+| --------- | --------------- | --------------- |
+|           | *das System(e)* | *die Datei(en)* |
+
+| Masculine | Neuter | Feminine          |
+| --------- | ------ | ----------------- |
+|           |        | *die Technologie* |
+|           |        | *die Mathematik*  |
 
 | Masculine      | Neuter            | Feminine |
 | -------------- | ----------------- | -------- |

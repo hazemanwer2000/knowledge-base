@@ -329,6 +329,8 @@
 | *warten*              | -               | -           | -                        | *Ich werde auf dich warten.*                                     |
 | *lassen*              | *gelassen*      | *ließ*      | `[Accusative]`           | *Lass mich in Ruhe!*                                             |
 |                       |                 |             |                          |                                                                  |
+| *verbieten*           | *verboten*      | *verbot*    | `[Dative]`               | *Ich verbiete dir darüber weiter zu reden.*                      |
+|                       |                 |             |                          |                                                                  |
 | *heiraten*            | -               | -           | `[Accusative]`           | *Ich werde sie heiraten.*                                        |
 | *verloben*            | -               | -           | -                        | *Ich bin zu ihr verlobt.*                                        |
 | *gehören*             | -               | -           | `[Dative]`               | *Sie gehört mir!*                                                |

@@ -87,6 +87,7 @@ Phrases:
 | *plötzlich*                           | *Plötzlich verschwand er.*                                             |
 | *eigentlich*                          | *Eigentlich kümmert das mich nicht mehr.*                              |
 | *ziemlich*                            | *Sie ist nicht nur intelligent, sondern auch ziemlich hübsch.*         |
+| *weiter*                              | *Ich verbiete dir weiter darüber zu reden.*                            |
 
 ## References
 ---

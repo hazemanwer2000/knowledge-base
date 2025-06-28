@@ -89,6 +89,7 @@ Phrases:
 | *ziemlich*                            | *Sie ist nicht nur intelligent, sondern auch ziemlich hübsch.*         |
 | *weiter*                              | *Ich verbiete dir weiter darüber zu reden.*                            |
 | *besonders*                           | *Was macht Essen in einem Restaurant ohne Licht so besonders?*         |
+| *Zusammenfassend*                     | *Zusammenfassend soll ich sagen, letztes Jahr war ein Erfolg.*         |
 
 ## References
 ---

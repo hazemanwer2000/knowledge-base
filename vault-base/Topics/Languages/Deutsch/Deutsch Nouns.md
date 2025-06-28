@@ -294,7 +294,7 @@
 | Masculine       | Neuter      | Feminine          |
 | --------------- | ----------- | ----------------- |
 | *der Stress(e)* | *das Glück* | *die Liebe*       |
-|                 |             | *die Einsamkeit*  |
+| *der Erfolg(e)* |             | *die Einsamkeit*  |
 |                 |             | *die Sorge(n)*    |
 |                 |             | *die Lust*        |
 |                 |             | *die Sünde(n)*    |

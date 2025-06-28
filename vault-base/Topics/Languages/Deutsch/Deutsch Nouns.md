@@ -344,6 +344,11 @@
 |           |        | *die Illusion(en)* |
 |           |        | *die Magie*        |
 
+| Masculine | Neuter          | Feminine |
+| --------- | --------------- | -------- |
+|           | *das Verhalten* |          |
+|           | *das Benehmen*  |          |
+
 ## References
 ---
 [1] Hammer's German Grammar and Usage, Martin Durrel

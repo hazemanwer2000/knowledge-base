@@ -264,14 +264,15 @@
 |           |        | *die Gegenwart*     |
 |           |        | *die Zukunft*       |
 
-| Masculine | Neuter | Feminine         |
-| --------- | ------ | ---------------- |
-|           |        | *die Liebe*      |
-|           |        | *die Einsamkeit* |
-|           |        | *die Sorge(n)*   |
-|           |        | *die Lust*       |
-|           |        | *die Sünde(n)*   |
-|           |        | *die Lüge(n)*    |
+| Masculine | Neuter | Feminine          |
+| --------- | ------ | ----------------- |
+|           |        | *die Liebe*       |
+|           |        | *die Einsamkeit*  |
+|           |        | *die Sorge(n)*    |
+|           |        | *die Lust*        |
+|           |        | *die Sünde(n)*    |
+|           |        | *die Lüge(n)*     |
+|           |        | *die Intelligenz* |
 
 | Masculine | Neuter | Feminine            |
 | --------- | ------ | ------------------- |
@@ -348,6 +349,10 @@
 | --------- | --------------- | -------- |
 |           | *das Verhalten* |          |
 |           | *das Benehmen*  |          |
+
+| Masculine | Neuter       | Feminine              |
+| --------- | ------------ | --------------------- |
+|           | *das Wissen* | *die Information(en)* |
 
 ## References
 ---

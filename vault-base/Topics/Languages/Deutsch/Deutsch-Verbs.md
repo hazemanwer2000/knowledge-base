@@ -325,7 +325,7 @@
 | *verloben*            | -               | -          | -                        | *Ich bin zu ihr verlobt.*                                        |
 | *gehören*             | -               | -          | `[Dative]`               | *Sie gehört mir!*                                                |
 | *verlassen*           | *verlassen*     | *verließ*  | `[Accusative]`           | *Ich verließ sie für dich.*                                      |
-| *scheiden*            | *geschieden*    | *schied*   | `[Accusative/Reflexive]` | *Ich ließ mich von ihr scheiden.*                                |
+| *==scheiden==*        | *geschieden*    | *schied*   | `[Accusative/Reflexive]` | *Ich ließ mich von ihr scheiden.*                                |
 | *trennen*             | -               | -          | `[Accusative/Reflexive]` | *Sie haben sich voneinander getrennt.*                           |
 |                       |                 |            |                          |                                                                  |
 | *bevorzugen*          | -               | -          | `[Accusative]`           | *Ich bevorzuge dich über alle!*                                  |

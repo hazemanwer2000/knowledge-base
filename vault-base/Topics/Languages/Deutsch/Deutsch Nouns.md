@@ -36,12 +36,12 @@
 ### ~~The Family~~
 ---
 
-| Masculine           | Neuter | Feminine                |
-| ------------------- | ------ | ----------------------- |
-| *der Vater (Väter)* |        | *die Mutter (Mütter)*   |
-| *der Sohn (Söhne)*  |        | *die Tochter (Töchter)* |
-|                     |        |                         |
-| *der Elter(n)*      |        | *die Familie(n)*        |
+| Masculine           | Neuter         | Feminine                |
+| ------------------- | -------------- | ----------------------- |
+| *der Vater (Väter)* |                | *die Mutter (Mütter)*   |
+| *der Sohn (Söhne)*  |                | *die Tochter (Töchter)* |
+|                     |                |                         |
+| *der Elter(n)*      | *das Kind(er)* | *die Familie(n)*        |
 
 | Masculine       | Feminine         |
 | --------------- | ---------------- |

@@ -419,6 +419,7 @@
 | *entdecken*             | -                  | -               | -                        | *Ich habe etwas Neues entdeckt!*                                    |
 | *finden*                | *gefunden*         | *fand*          | `[Accusative]`           | *Ich fand es wirklich lustig.*                                      |
 | *fangen*                | *gefangen*         | *fing*          | `[Accusative]`           | *Endlich habe ich einen Fisch gefangen.*                            |
+| *sammeln*               | -                  | -               | `[Accusative]`           | *Heute habe ich Fische gefangen und gesammelt.*                     |
 |                         |                    |                 |                          |                                                                     |
 | *kaufen*                | -                  | -               | `[Dative] [Accusative]`  | *Ich kaufte dir Blumen.*                                            |
 | *verkaufen*             | -                  | -               | `[Dative] [Accusative]`  | *Du verkauftest mir Blumen.*                                        |

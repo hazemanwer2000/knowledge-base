@@ -41,15 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/Languages/Deutsch/Deutsch-Verbs.md",
+                "file": "Topics/Languages/Deutsch/Deutsch-Adjectives.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Deutsch-Verbs"
+              "title": "Deutsch-Adjectives"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -187,16 +188,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f350b953e1a5cf57",
+  "active": "86f230cf6569bb19",
   "lastOpenFiles": [
-    "Topics/Languages/Deutsch/Deutsch-Verbs.md",
-    "Topics/Languages/Deutsch/Deutsch Nouns.md",
-    "Topics/Languages/Deutsch/Deutsch-Miscellaneous.md",
     "Topics/Languages/Deutsch.md",
-    "Topics/Languages/Deutsch/Deutsch-Adjectives.md",
-    "Topics/Languages/Deutsch/Deutsch-Grammar.md",
+    "Topics/Languages/Deutsch/Deutsch-Prepositions.md",
     "Topics/Languages.md",
     "Welcome.md",
+    "Topics/Languages/Deutsch/Deutsch-Verbs.md",
+    "Topics/Languages/Deutsch/Deutsch-Miscellaneous.md",
+    "Topics/Languages/Deutsch/Deutsch Nouns.md",
+    "Topics/Languages/Deutsch/Deutsch-Adjectives.md",
+    "Topics/Languages/Deutsch/Deutsch-Grammar.md",
     "Topics/TechCraft.md",
     "Topics/Finance.md",
     "Topics/Techcraft/Tooling.md",
@@ -207,7 +209,6 @@
     "Topics/Techcraft/OS/AUTOSAR.md",
     "Topics/Techcraft/Tooling/Git.md",
     "Topics/Languages/Deutsch/Deutsch-Subordinate-Clauses.md",
-    "Topics/Languages/Deutsch/Deutsch-Prepositions.md",
     "Topics/Techcraft/OS/AUTOSAR/General/AUTOSAR-ECU-Extract.md",
     "Topics/Techcraft/Communication-Protocols/Diagnostics/UDS.md",
     "Topics/Techcraft/Communication-Protocols.md",

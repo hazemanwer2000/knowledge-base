@@ -53,6 +53,7 @@
 | *lustig*           |
 | *stressig*         |
 | *romantisch*       |
+| *typisch*          |
 
 | Adjective |
 | --------- |

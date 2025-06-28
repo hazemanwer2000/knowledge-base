@@ -226,6 +226,7 @@
 | *erzählen*        | -               | -             | `[Dative] [Accusative]` | *Ich habe ihnen mein Traum erzählt.*               |
 | *reden*           | -               | -             | -                       | *Ich rede mit Väter.*                              |
 | *sprechen*        | *gesprochen*    | *sprach*      | -                       | *Gestern habe ich mit dir gesprochen.*             |
+| *diskutieren*     | -               | -             | -                       | *Heute diskutiere ich ein neues Thema.*            |
 | *wiederholen*     | -               | -             | -                       | *Ich wiederhole noch einmal.*                      |
 |                   |                 |               |                         |                                                    |
 | *lesen*           | *gelesen*       | *laß*         | `[Dative] [Accusative]` | *Ich las ihm das Buch vor.*                        |
@@ -332,6 +333,7 @@
 |                       |                 |             |                          |                                                                  |
 | *verbieten*           | *verboten*      | *verbot*    | `[Dative]`               | *Ich verbiete dir darüber weiter zu reden.*                      |
 | *erlauben*            | -               | -           | `[Dative]`               | *Ich erlaube dir nun zu essen.*                                  |
+| *entschuldigen*       | -               | -           | `[Accusative/Reflexive]` | *Ich werde mich entschuldigen, bitte.*                           |
 |                       |                 |             |                          |                                                                  |
 | *heiraten*            | -               | -           | `[Accusative]`           | *Ich werde sie heiraten.*                                        |
 | *verloben*            | -               | -           | -                        | *Ich bin zu ihr verlobt.*                                        |

@@ -251,6 +251,7 @@
 | --------------- | ------ | -------- |
 | *der Termin(e)* |        |          |
 | *der Besuch(e)* |        |          |
+| *der Urlaub(e)* |        |          |
 
 | Masculine      | Neuter       | Feminine |
 | -------------- | ------------ | -------- |

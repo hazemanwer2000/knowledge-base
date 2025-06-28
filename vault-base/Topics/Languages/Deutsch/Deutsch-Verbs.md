@@ -380,6 +380,7 @@
 | *arbeiten*              | -                  | -               | -                        | *Ich arbeite als Ingenieur.*                                        |
 | *lernen*                | -                  | -               | `[Accusative]`           | *Letztens lerne ich Deutsch.*                                       |
 | *üben*                  | -                  | -               | -                        | *Die letzte Woche habe ich bei dem Fitnessstudio Jeden Tag geübt.*  |
+| *recherchieren*         | -                  | -               | `[Accusative]`           | *Jetzt recherchiere ich verschiedene Themen.*                       |
 |                         |                    |                 |                          |                                                                     |
 | *wohnen*                | -                  | -               | -                        | *Ich wohne in Deutschland.*                                         |
 | *leben*                 | -                  | -               | -                        | *Ich lebe an der Straße.*                                           |

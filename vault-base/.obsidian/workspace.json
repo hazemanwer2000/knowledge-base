@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/Languages/Deutsch/Deutsch-Miscellaneous.md",
+                "file": "Topics/Languages/Deutsch/Deutsch-Adjectives.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Deutsch-Miscellaneous"
+              "title": "Deutsch-Adjectives"
             }
           },
           {
@@ -49,7 +49,8 @@
               "title": "Deutsch-Verbs"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -187,15 +188,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f350b953e1a5cf57",
+  "active": "ae241dc1eae028e0",
   "lastOpenFiles": [
-    "Topics/Languages/Deutsch/Deutsch-Verbs.md",
     "Topics/Languages/Deutsch.md",
+    "Topics/Languages/Deutsch/Deutsch-Miscellaneous.md",
+    "Topics/Languages/Deutsch/Deutsch-Verbs.md",
+    "Topics/Languages/Deutsch/Deutsch Nouns.md",
     "Topics/Languages.md",
     "Welcome.md",
     "Topics/Languages/Deutsch/Deutsch-Adjectives.md",
-    "Topics/Languages/Deutsch/Deutsch Nouns.md",
-    "Topics/Languages/Deutsch/Deutsch-Miscellaneous.md",
     "Topics/Languages/Deutsch/Deutsch-Prepositions.md",
     "Topics/Languages/Deutsch/Deutsch-Grammar.md",
     "Topics/TechCraft.md",

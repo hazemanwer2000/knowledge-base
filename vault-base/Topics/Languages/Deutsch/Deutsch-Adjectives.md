@@ -54,6 +54,7 @@
 | *stressig*         |
 | *romantisch*       |
 | *typisch*          |
+| *müde*             |
 
 | Adjective |
 | --------- |

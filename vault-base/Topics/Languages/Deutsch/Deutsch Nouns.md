@@ -86,13 +86,13 @@
 ### ~~Animals~~
 ---
 
-| Masculine           | Neuter            | Feminine       |
-| ------------------- | ----------------- | -------------- |
-| *der Hund(e)*       | ==*das Tier(e)*== | *die Katze(n)* |
-| *der Vogel (Vögel)* | *das Schwein(e)*  |                |
-| *der Papagei(en)*   | *das Pferd(e)*    |                |
-| *der Hase(n)*       |                   |                |
-| *der Fisch(e)*      |                   |                |
+| Masculine           | Neuter              | Feminine       |
+| ------------------- | ------------------- | -------------- |
+| *der Hund(e)*       | ==*das Tier(e)*==   | *die Katze(n)* |
+| *der Vogel (Vögel)* | *das Schwein(e)*    |                |
+| *der Papagei(en)*   | *das Pferd(e)*      |                |
+| *der Hase(n)*       | *das Huhn (Hühner)* |                |
+| *der Fisch(e)*      |                     |                |
 
 ### ~~Many Places~~
 ---
@@ -136,7 +136,10 @@
 | Masculine                       | Neuter           | Feminine                   |
 | ------------------------------- | ---------------- | -------------------------- |
 | *der Reis*                      | ==*das Essen*==  | *die Nudeln*               |
-| *der Kuchen*                    | *das Brot*       |                            |
+| *der Salat(e)*                  | *das Brot*       |                            |
+| *der Kuchen*                    |                  |                            |
+| *der Käse*                      |                  |                            |
+| *der Schinken*                  |                  |                            |
 |                                 |                  |                            |
 | *der Saft (Säfte)*              | *das Wasser*     | ==*die Getränk(e)*==       |
 | *der Kaffee(s)*                 |                  |                            |

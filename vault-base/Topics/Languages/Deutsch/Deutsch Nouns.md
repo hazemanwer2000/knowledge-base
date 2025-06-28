@@ -242,6 +242,11 @@
 | *der Punkt(e)*       |                      | *die Bedingung(en)*     |
 |                      |                      | *die Voraussetzung(en)* |
 
+| Masculine      | Neuter       | Feminine |
+| -------------- | ------------ | -------- |
+| *der Sport(e)* | *das Tennis* |          |
+| *der Fußball*  |              |          |
+
 | Masculine     | Neuter         | Feminine |
 | ------------- | -------------- | -------- |
 | *der Film(e)* | *das Spiel(e)* |          |
@@ -332,12 +337,12 @@
 | --------- | ----------- | -------- |
 |           | *das Stück* |          |
 
-| Masculine | Neuter | Feminine          |
-| --------- | ------ | ----------------- |
-|           |        | *die Gestalt(en)* |
-|           |        | *die Form(en)*    |
-|           |        | *die Länge(n)*    |
-|           |        | *die Breite(n)*   |
+| Masculine | Neuter           | Feminine          |
+| --------- | ---------------- | ----------------- |
+|           | *das Gewicht(e)* | *die Gestalt(en)* |
+|           |                  | *die Form(en)*    |
+|           |                  | *die Länge(n)*    |
+|           |                  | *die Breite(n)*   |
 
 | Masculine | Neuter          | Feminine       |
 | --------- | --------------- | -------------- |

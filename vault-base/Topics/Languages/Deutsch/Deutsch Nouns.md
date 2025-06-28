@@ -102,7 +102,7 @@
 | *der Park(s)*        | *das Kino(s)*           | *die Bibliothek(en)*  |
 | *der Markt (Märkte)* | *das Fitnessstudio(s)*  | *die Apotheke(n)*     |
 | *der Wald (Wälder)*  | *das Konzert(e)*        | *die Party(s)*        |
-|                      | *das Stadion (Stadien)* | *die Universität(en)* |
+| *der Verein(e)*      | *das Stadion (Stadien)* | *die Universität(en)* |
 |                      | *das Unternehmen(en)*   | *die Schule(n)*       |
 |                      | *das Hotel(s)*          | *die Firma (Firmen)*  |
 |                      | *das Restaurant(s)*     |                       |

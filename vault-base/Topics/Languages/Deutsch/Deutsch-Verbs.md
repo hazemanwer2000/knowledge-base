@@ -339,6 +339,7 @@
 | *hassen*              | -               | -           | `[Accusative]`           | *Ich hasse dich!*                                                |
 |                       |                 |             |                          |                                                                  |
 | *versuchen/probieren* | -               | -           | `[Accusative]`           | *Ich werde den Kuchen versuchen/probieren.*                      |
+| *teilnehmen*          | *teilgenommen*  | *nahm teil* | -                        | *Ich habe an einem Kurs teilgenommen.*                           |
 | *verändern*           | -               | -           | `[Accusative]`           | *Das verändert alles.*                                           |
 |                       |                 |             |                          |                                                                  |
 | *passieren*           | -               | -           | -                        | *Was passiert?*                                                  |

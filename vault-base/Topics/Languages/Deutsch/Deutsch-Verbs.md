@@ -399,6 +399,7 @@
 | ==*fliegen*==           | *geflogen*         | *flog*          | -                        | *Der Vogel flog weg.*                                               |
 | ==*fahren*==            | *gefahren*         | *fuhr*          | -                        | *Ich fahre nach Münichen.*                                          |
 | *==reisen==*            | -                  | -               | -                        | *Ich reise zu viel.*                                                |
+| ==*umziehen*==          | *umgezogen*        | *zog um*        | -                        | *Ich bin letztes Jahr umgezogen.*                                   |
 |                         |                    |                 |                          |                                                                     |
 | *treffen*               | *getroffen*        | *traf*          | -                        | *Gestern habe ich mit ihm getroffen.*                               |
 | *verabreden*            | -                  | -               | `[Accusative/Reflexive]` | *Ich verabrede mich mit dir.*                                       |

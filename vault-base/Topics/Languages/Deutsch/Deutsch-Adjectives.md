@@ -56,6 +56,7 @@
 | *typisch*          |
 | *müde*             |
 | *ledig*            |
+| *schwanger*        |
 
 | Adjective |
 | --------- |

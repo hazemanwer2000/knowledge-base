@@ -273,6 +273,7 @@
 | *kennen*              | *gekannt*       | *kannte*    | `[Accusative]`           | *Oh, ich kenne dich.*                                            |
 | *wissen*              | *gewusst*       | *wusste*    | -                        | *Oh, ich weiß.*                                                  |
 |                       |                 |             |                          |                                                                  |
+| *merken*              | -               | -           | -                        | *Ich merke nun, sie tragte eine rote Schuhe.*                    |
 | *erinnern*            | -               | -           | `[Accusative/Reflexive]` | *Ich erinnerte mich.*<br>*Gestern habe ich dich drauf erinnert.* |
 | *vergessen*           | *vergessen*     | *vergaß*    | -                        | *Ich vergaß, was zu sagen.*                                      |
 |                       |                 |             |                          |                                                                  |

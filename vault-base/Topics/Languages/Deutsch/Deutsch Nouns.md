@@ -298,6 +298,7 @@
 |                 |             | *die Intelligenz* |
 |                 |             | *die Angst*       |
 |                 |             | *die Logik*       |
+|                 |             | *die Hilfe(n)*    |
 
 | Masculine | Neuter | Feminine            |
 | --------- | ------ | ------------------- |

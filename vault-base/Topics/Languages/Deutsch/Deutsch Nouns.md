@@ -306,6 +306,7 @@
 |               |        | *die Sonne(n)* |
 |               |        | *die Luft*     |
 |               |        | *die Licht*    |
+|               |        | *die Natur*    |
 
 | Masculine | Neuter             | Feminine        |
 | --------- | ------------------ | --------------- |

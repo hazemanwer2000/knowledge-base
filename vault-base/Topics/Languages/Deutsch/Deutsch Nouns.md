@@ -302,6 +302,7 @@
 | Masculine     | Neuter          | Feminine             |
 | ------------- | --------------- | -------------------- |
 | *der Kurs(e)* | *das Abitur(e)* | *die Ausbildung(en)* |
+|               |                 | *die Prüfung(en)*    |
 
 | Masculine | Neuter          | Feminine          |
 | --------- | --------------- | ----------------- |

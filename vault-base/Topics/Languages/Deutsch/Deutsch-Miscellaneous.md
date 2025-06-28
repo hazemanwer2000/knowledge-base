@@ -77,6 +77,9 @@ Phrases:
 | *überhaupt*                           | *Das kümmert mich nicht überhaupt.*                                    |
 | *jedenfalls*                          | *Jedenfalls muss ich nun gehen.*                                       |
 | *allerdings*                          | *Letztens fühle ich mich traurig. Allerdings bin ich heute glücklich.* |
+| *(un)glaublich*                       | *Das ist unglaublich!*                                                 |
+| *(un)möglich*                         | *Ja, das ist möglich.*                                                 |
+| *bestimmt*                            | *Ja, bestimmt!*                                                        |
 ## References
 ---
 [1] Hammer's German Grammar and Usage, Martin Durrel

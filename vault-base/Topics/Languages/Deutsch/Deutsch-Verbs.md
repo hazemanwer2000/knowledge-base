@@ -432,6 +432,7 @@
 | *entdecken*             | -                  | -               | -                        | *Ich habe etwas Neues entdeckt!*                                    |
 | *finden*                | *gefunden*         | *fand*          | `[Accusative]`           | *Ich fand es wirklich lustig.*                                      |
 | *fangen*                | *gefangen*         | *fing*          | `[Accusative]`           | *Endlich habe ich einen Fisch gefangen.*                            |
+| *abholen*               | -                  | -               | `[Accusative]`           | *Ich komme heute zu das Geld abzuholen.*                            |
 | *sammeln*               | -                  | -               | `[Accusative]`           | *Heute habe ich Fische gefangen und gesammelt.*                     |
 |                         |                    |                 |                          |                                                                     |
 | *mieten*                | -                  | -               | `[Accusative]`           | *Wir haben ein Auto gemietet.*                                      |

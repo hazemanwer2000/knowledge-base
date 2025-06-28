@@ -226,7 +226,7 @@
 | *erzählen*        | -               | -             | `[Dative] [Accusative]` | *Ich habe ihnen mein Traum erzählt.*               |
 | *reden*           | -               | -             | -                       | *Ich rede mit Väter.*                              |
 | *sprechen*        | *gesprochen*    | *sprach*      | -                       | *Gestern habe ich mit dir gesprochen.*             |
-|                   |                 |               |                         |                                                    |
+| *wiederholen*     | -               | -             | -                       | *Ich wiederhole noch einmal.*                      |
 |                   |                 |               |                         |                                                    |
 | *lesen*           | *gelesen*       | *laß*         | `[Dative] [Accusative]` | *Ich las ihm das Buch vor.*                        |
 | *hören*           | -               | -             | `[Accusative]`          | *Ich höre dich.*                                   |

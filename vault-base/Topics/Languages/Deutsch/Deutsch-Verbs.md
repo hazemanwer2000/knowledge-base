@@ -220,31 +220,34 @@
 ##### ~~Speech and the Mind~~
 ---
 
-| Verb (Infinitive) | Past Participle | Past Tense  | Valency                 | Example                                            |
-| ----------------- | --------------- | ----------- | ----------------------- | -------------------------------------------------- |
-| *sagen*           | -               | -           | `[Dative]`              | *Ich sage ihm.*                                    |
-| *erzählen*        | -               | -           | `[Dative] [Accusative]` | *Ich habe ihnen mein Traum erzählt.*               |
-| *reden*           | -               | -           | -                       | *Ich rede mit Väter.*                              |
-| *sprechen*        | *gesprochen*    | *sprach*    | -                       | *Gestern habe ich mit dir gesprochen.*             |
-|                   |                 |             |                         |                                                    |
-|                   |                 |             |                         |                                                    |
-| *lesen*           | *gelesen*       | *laß*       | `[Dative] [Accusative]` | *Ich las ihm das Buch vor.*                        |
-| *hören*           | -               | -           | `[Accusative]`          | *Ich höre dich.*                                   |
-| *schreiben*       | *geschrieben*   | *schrieb*   | `[Dative] [Accusative]` | *Ich schreibe dir dieses Buch.*                    |
-|                   |                 |             |                         |                                                    |
-| *beantworten*     | -               | -           | `[Accusative]`          | *Ich beantworte die Frage von ihm.*                |
-| *fragen*          | -               | -           | `[Accusative]`          | *Ich frage mich immer.*                            |
-| *bitten*          | -               | -           | -                       | *Die Polizei bittet um Hinweise.*                  |
-|                   |                 |             |                         |                                                    |
-| *erklären*        | -               | -           | `[Accusative]`          | *Ich habe ihr das erklärt.*                        |
-| *begründen*       | -               | -           | `[Accusative]`          | *Sie haben bis morgen dein Benehmen zu begründen.* |
-| *beschreiben*     | *beschrieben*   | *beschrieb* | `[Dative] [Accusative]` | *Ich beschreibe dir diese Idee.*                   |
-|                   |                 |             |                         |                                                    |
-| *bedeuten/meinen* | -               | -           | `[Accusative]`          | *Wenn du weiß, was ich bedeute/meine.*             |
-| *denken*          | *gedacht*       | *dachte*    | -                       | *Ich habe darüber nachgedacht.*                    |
-|                   |                 |             |                         |                                                    |
-| *nennen*          | *genannt*       | *nannte*    | `[Accusative]`          | *Ich habe ihn Alex genannt.*                       |
-| *heißen*          | -               | -           | -                       | *Ich heiße Sam.*                                   |
+| Verb (Infinitive) | Past Participle | Past Tense    | Valency                 | Example                                            |
+| ----------------- | --------------- | ------------- | ----------------------- | -------------------------------------------------- |
+| *sagen*           | -               | -             | `[Dative]`              | *Ich sage ihm.*                                    |
+| *erzählen*        | -               | -             | `[Dative] [Accusative]` | *Ich habe ihnen mein Traum erzählt.*               |
+| *reden*           | -               | -             | -                       | *Ich rede mit Väter.*                              |
+| *sprechen*        | *gesprochen*    | *sprach*      | -                       | *Gestern habe ich mit dir gesprochen.*             |
+|                   |                 |               |                         |                                                    |
+|                   |                 |               |                         |                                                    |
+| *lesen*           | *gelesen*       | *laß*         | `[Dative] [Accusative]` | *Ich las ihm das Buch vor.*                        |
+| *hören*           | -               | -             | `[Accusative]`          | *Ich höre dich.*                                   |
+| *schreiben*       | *geschrieben*   | *schrieb*     | `[Dative] [Accusative]` | *Ich schreibe dir dieses Buch.*                    |
+|                   |                 |               |                         |                                                    |
+| *beantworten*     | -               | -             | `[Accusative]`          | *Ich beantworte die Frage von ihm.*                |
+| *fragen*          | -               | -             | `[Accusative]`          | *Ich frage mich immer.*                            |
+| *bitten*          | -               | -             | -                       | *Die Polizei bittet um Hinweise.*                  |
+|                   |                 |               |                         |                                                    |
+| *erklären*        | -               | -             | `[Accusative]`          | *Ich habe ihr das erklärt.*                        |
+| *begründen*       | -               | -             | `[Accusative]`          | *Sie haben bis morgen dein Benehmen zu begründen.* |
+| *beschreiben*     | *beschrieben*   | *beschrieb*   | `[Dative] [Accusative]` | *Ich beschreibe dir diese Idee.*                   |
+|                   |                 |               |                         |                                                    |
+| *bedeuten/meinen* | -               | -             | `[Accusative]`          | *Wenn du weiß, was ich bedeute/meine.*             |
+| *denken*          | *gedacht*       | *dachte*      | -                       | *Ich habe darüber nachgedacht.*                    |
+|                   |                 |               |                         |                                                    |
+| *nennen*          | *genannt*       | *nannte*      | `[Accusative]`          | *Ich habe ihn Alex genannt.*                       |
+| *heißen*          | -               | -             | -                       | *Ich heiße Sam.*                                   |
+|                   |                 |               |                         |                                                    |
+| *unterscheiden*   | *unterscheiden* | *unterschied* | `[Accusative]`          | *Unterscheide zwischen diese beide Bilder!*        |
+| *vergleichen*     | *verglichen*    | *verglich*    | `[Accusative]`          | *Vergleiche diese beide Bilder!*                   |
 
 ##### ~~Feelings and the Soul~~
 ---

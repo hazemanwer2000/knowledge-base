@@ -84,6 +84,10 @@ Phrases:
 | *fließend*                            | *Ich bin fließend auf Deutsch.*                                        |
 | *dort*                                | *Meine Mitbewohner hat früher dort gelebt.*                            |
 | *vorher*                              | *Vorher hat sie in Berlin gewohnt.*                                    |
+| *plötzlich*                           | *Plötzlich verschwand er.*                                             |
+| *eigentlich*                          | *Eigentlich kümmert das mich nicht mehr.*                              |
+| *ziemlich*                            | *Sie ist nicht nur intelligent, sondern auch ziemlich hübsch.*         |
+
 ## References
 ---
 [1] Hammer's German Grammar and Usage, Martin Durrel

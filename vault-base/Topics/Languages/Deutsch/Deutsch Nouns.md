@@ -136,7 +136,7 @@
 | Masculine                       | Neuter           | Feminine                   |
 | ------------------------------- | ---------------- | -------------------------- |
 | *der Reis*                      | ==*das Essen*==  | *die Nudeln*               |
-|                                 | *das Brot*       |                            |
+| *der Kuchen*                    | *das Brot*       |                            |
 |                                 |                  |                            |
 | *der Saft (Säfte)*              | *das Wasser*     | ==*die Getränk(e)*==       |
 |                                 |                  |                            |
@@ -299,6 +299,7 @@
 |               |        | *die Erde*     |
 |               |        | *die Sonne(n)* |
 |               |        | *die Luft*     |
+|               |        | *die Licht*    |
 
 | Masculine | Neuter             | Feminine        |
 | --------- | ------------------ | --------------- |

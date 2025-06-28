@@ -65,6 +65,7 @@
 |                     |                           |
 | *der Kollege(n)*    | *die Kollegin(nen)*       |
 | *der Freund(e)*     | *die Freundin(nen)*       |
+| *der Mitbewohner*   | *die Mitbewohnerin(nen)*  |
 |                     |                           |
 | *der Rentner*       | *die Rentnerin(nen)*      |
 

@@ -82,6 +82,7 @@ Phrases:
 | *bestimmt*                            | *Ja, bestimmt!*                                                        |
 | *genug*                               | *Ich habe genug Geld.*                                                 |
 | *fließend*                            | *Ich bin fließend auf Deutsch.*                                        |
+| *dort*                                | *Meine Mitbewohner hat früher dort gelebt.*                            |
 ## References
 ---
 [1] Hammer's German Grammar and Usage, Martin Durrel

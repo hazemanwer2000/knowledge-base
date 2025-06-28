@@ -220,12 +220,13 @@
 ### ~~Abstract Concepts~~
 ---
 
-| Masculine        | Neuter            | Feminine            |
-| ---------------- | ----------------- | ------------------- |
-| *der Bericht(e)* | *das Gespräch(e)* | *die Frage(n)*      |
-|                  |                   | *die Antwort(en)*   |
-|                  |                   | *die Nachricht(en)* |
-|                  |                   | *die Aufgabe(n)*    |
+| Masculine        | Neuter            | Feminine              |
+| ---------------- | ----------------- | --------------------- |
+| *der Bericht(e)* | *das Gespräch(e)* | *die Frage(n)*        |
+|                  |                   | *die Antwort(en)*     |
+|                  |                   | *die Nachricht(en)*   |
+|                  |                   | *die Aufgabe(n)*      |
+|                  |                   | *die Überschrift(en)* |
 
 | Masculine          | Neuter        | Feminine         |
 | ------------------ | ------------- | ---------------- |

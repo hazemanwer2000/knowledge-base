@@ -361,6 +361,12 @@
 | -------------------- | ------ | -------- |
 | *der Traum (Träume)* |        |          |
 
+| Masculine | Neuter | Feminine              |
+| --------- | ------ | --------------------- |
+|           |        | *die Gesundheit*      |
+|           |        | *die Krankenheit(en)* |
+|           |        | *die Sicherheit*      |
+
 | Masculine | Neuter | Feminine               |
 | --------- | ------ | ---------------------- |
 |           |        | *die Beziehung(en)*    |

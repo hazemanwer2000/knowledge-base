@@ -83,6 +83,7 @@ Phrases:
 | *genug*                               | *Ich habe genug Geld.*                                                 |
 | *fließend*                            | *Ich bin fließend auf Deutsch.*                                        |
 | *dort*                                | *Meine Mitbewohner hat früher dort gelebt.*                            |
+| *drinnen*                             | *Wenn es regnet, bleiben wir den ganzen Tag drinnen.*                  |
 | *vorher*                              | *Vorher hat sie in Berlin gewohnt.*                                    |
 | *plötzlich*                           | *Plötzlich verschwand er.*                                             |
 | *eigentlich*                          | *Eigentlich kümmert das mich nicht mehr.*                              |

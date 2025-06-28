@@ -370,6 +370,7 @@
 | *spielen*               | -                  | -               | `[Accusative]`           | *Ich spiele Fußball an den Wochenenden.*                            |
 | ==*schwimmen*==         | *geschwommen*      | *schwamm*       | -                        | *Ich schwimmen an der Wochenenden.*                                 |
 | ==*reiten*==            | *geritten*         | *ritt*          | -                        | *Ich reite Pferde.*                                                 |
+| ==*rennen*==            | *gerannt*          | *rannte*        | -                        | Für meine Gesundheit gehe ich täglich früh rennen.                  |
 | *tanzen*                | -                  | -               | -                        | *Ich will mit dir zu tanzen.*                                       |
 | *singen*                | *gesungen*         | *sang*          | `[Dative] [Accusative]`  | *Ich singe dir ein neues Lied.*                                     |
 | *heben*                 | *gehoben*          | *hob*           | `[Accusative]`           | *Ich hebe Gewichte.*                                                |

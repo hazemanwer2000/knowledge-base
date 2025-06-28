@@ -107,6 +107,7 @@
 |                      | *das Hotel(s)*          | *die Firma (Firmen)*  |
 |                      | *das Restaurant(s)*     |                       |
 |                      | *das Büro(s)*           |                       |
+|                      | *das Fest(e)*           |                       |
 
 ### ~~Many Things~~
 ---

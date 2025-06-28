@@ -122,6 +122,7 @@
 | *der Ball (Bälle)*       |                             | *die Hütte(n)*     |
 | *der Fernseher*          |                             | *die Tasche(n)*    |
 | *der Stuhl (Stühle)*     |                             |                    |
+| *der Koffer*             |                             |                    |
 | *der Käfig(e)*           |                             |                    |
 |                          |                             |                    |
 | *der Löffel*             | *das Glas (Gläser)*         | *die Pfanne(n)*    |

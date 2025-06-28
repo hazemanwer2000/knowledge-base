@@ -419,7 +419,7 @@
 | *treffen*               | *getroffen*        | *traf*          | -                        | *Gestern habe ich mit ihm getroffen.*                               |
 | *verabreden*            | -                  | -               | `[Accusative/Reflexive]` | *Ich verabrede mich mit dir.*                                       |
 | *vorstellen*            | -                  | -               | `[Accusative/Reflexive]` | *Bitte stellen Sie sich vor!*                                       |
-| *besuchen*              | -                  | -               | `[Accusative]`           | *Sie wohnt in der Nähe, Ich besuche sie oft.*                       |
+| *besuchen/besichtigen*  | -                  | -               | `[Accusative]`           | *Sie wohnt in der Nähe, Ich besuche/besichtige sie oft.*            |
 | *einladen*              | *eingeladen*       | *lud ein*       | `[Accusative]`           | *Ich lade dich zu einer Party ein.*                                 |
 |                         |                    |                 |                          |                                                                     |
 | *schicken*              | -                  | -               | `[Accusative]`           | *Ich habe eine Nachricht zu dir gestern geschickt.*                 |

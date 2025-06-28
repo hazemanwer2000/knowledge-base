@@ -247,6 +247,11 @@
 |                      |                      | *die Ausnahme(n)*       |
 |                      |                      | *die Reihenfolge(n)*    |
 
+| Masculine       | Neuter | Feminine |
+| --------------- | ------ | -------- |
+| *der Termin(e)* |        |          |
+| *der Besuch(e)* |        |          |
+
 | Masculine      | Neuter       | Feminine |
 | -------------- | ------------ | -------- |
 | *der Sport(e)* | *das Tennis* |          |

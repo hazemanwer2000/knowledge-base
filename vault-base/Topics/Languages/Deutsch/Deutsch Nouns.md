@@ -240,7 +240,7 @@
 | -------------------- | -------------------- | ----------------------- |
 | *der Grund (Gründe)* | *das Thema (Themen)* | *die Idee(n)*           |
 | *der Sinn(e)*        | *das Interesse*      | *die Regel(n)*          |
-| *der Untershied(e)*  |                      | *die Ähnlichkeit(en)*   |
+| *der Untershied(e)*  | *das Ergebnis(se)*   | *die Ähnlichkeit(en)*   |
 | *der Plan (Pläne)*   |                      | *die Methode(n)*        |
 | *der Punkt(e)*       |                      | *die Bedingung(en)*     |
 |                      |                      | *die Voraussetzung(en)* |
@@ -267,13 +267,13 @@
 | -------------- | ------ | ---------------- |
 | *der Beruf(e)* |        | *die Arbeit(en)* |
 
-| Masculine            | Neuter                  | Feminine             |
-| -------------------- | ----------------------- | -------------------- |
-| *der Platz (Plätze)* | *das Ort(e)*            | *die Straße(n)*      |
-| *der Stock (Stöcke)* | *das Haus (Häuser)*     | *die Stadt (Städte)* |
-| *der Weg(e)*         | *das Zimmer*            | *die Richtung(en)*   |
-| *der Raum (Räume)*   | *das Zentrum (Zentren)* | *die Ampel(n)*       |
-|                      |                         | *die Ecke(n)*        |
+| Masculine                | Neuter                  | Feminine             |
+| ------------------------ | ----------------------- | -------------------- |
+| *der Platz (Plätze)*     | *das Ort(e)*            | *die Straße(n)*      |
+| *der Stock (Stöcke)*     | *das Haus (Häuser)*     | *die Stadt (Städte)* |
+| *der Weg(e)*             | *das Zimmer*            | *die Richtung(en)*   |
+| *der Raum (Räume)*       | *das Zentrum (Zentren)* | *die Ampel(n)*       |
+| *der Eingang (Eingänge)* |                         | *die Ecke(n)*        |
 
 | Masculine | Neuter | Feminine            |
 | --------- | ------ | ------------------- |

@@ -245,6 +245,7 @@
 | *der Punkt(e)*       |                      | *die Bedingung(en)*     |
 |                      |                      | *die Voraussetzung(en)* |
 |                      |                      | *die Ausnahme(n)*       |
+|                      |                      | *die Reihenfolge(n)*    |
 
 | Masculine      | Neuter       | Feminine |
 | -------------- | ------------ | -------- |
@@ -285,6 +286,7 @@
 |                 |             | *die Lüge(n)*     |
 |                 |             | *die Intelligenz* |
 |                 |             | *die Angst*       |
+|                 |             | *die Logik*       |
 
 | Masculine | Neuter | Feminine            |
 | --------- | ------ | ------------------- |
@@ -340,9 +342,9 @@
 |           |        | *die Beziehung(en)*    |
 |           |        | *die Freundschaft(en)* |
 
-| Masculine | Neuter      | Feminine |
-| --------- | ----------- | -------- |
-|           | *das Stück* |          |
+| Masculine     | Neuter      | Feminine |
+| ------------- | ----------- | -------- |
+| *der Teil(e)* | *das Stück* |          |
 
 | Masculine | Neuter           | Feminine          |
 | --------- | ---------------- | ----------------- |

@@ -88,6 +88,7 @@ Phrases:
 | *eigentlich*                          | *Eigentlich kümmert das mich nicht mehr.*                              |
 | *ziemlich*                            | *Sie ist nicht nur intelligent, sondern auch ziemlich hübsch.*         |
 | *weiter*                              | *Ich verbiete dir weiter darüber zu reden.*                            |
+| *besonders*                           | *Was macht Essen in einem Restaurant ohne Licht so besonders?*         |
 
 ## References
 ---

@@ -124,6 +124,9 @@
 | *der Stuhl (Stühle)*     |                             |                    |
 | *der Käfig(e)*           |                             |                    |
 |                          |                             |                    |
+| *der Löffel*             | *das Glas (Gläser)*         |                    |
+|                          | *das Messer*                |                    |
+|                          |                             |                    |
 | *der Bus(se)*            | *das Auto(s)*               |                    |
 | *der Zug (Züge)*         | *das Motorrad (Motorräder)* |                    |
 | *der Bahnhof (Bahnhöfe)* | *das Fahrrad (Fährrader)*   |                    |

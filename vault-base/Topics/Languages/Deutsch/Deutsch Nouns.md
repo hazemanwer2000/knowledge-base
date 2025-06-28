@@ -314,6 +314,10 @@
 | ---------------- | ------------------- | -------- |
 | *der Hinweis(e)* | *das Geheimnis(se)* |          |
 
+| Masculine              | Neuter        | Feminine |
+| ---------------------- | ------------- | -------- |
+| *der Anfang (Anfänge)* | *das Ende(n)* |          |
+
 | Masculine            | Neuter | Feminine |
 | -------------------- | ------ | -------- |
 | *der Traum (Träume)* |        |          |

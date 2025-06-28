@@ -231,13 +231,14 @@
 |                    |               | *die Nummer(n)*  |
 |                    |               | *die Seite(n)*   |
 
-| Masculine            | Neuter               | Feminine              |
-| -------------------- | -------------------- | --------------------- |
-| *der Grund (Gründe)* | *das Thema (Themen)* | *die Idee(n)*         |
-| *der Sinn(e)*        | *das Interesse*      | *die Regel(n)*        |
-| *der Untershied(e)*  |                      | *die Ähnlichkeit(en)* |
-| *der Plan (Pläne)*   |                      | *die Methode(n)*      |
-| *der Punkt(e)*       |                      |                       |
+| Masculine            | Neuter               | Feminine                |
+| -------------------- | -------------------- | ----------------------- |
+| *der Grund (Gründe)* | *das Thema (Themen)* | *die Idee(n)*           |
+| *der Sinn(e)*        | *das Interesse*      | *die Regel(n)*          |
+| *der Untershied(e)*  |                      | *die Ähnlichkeit(en)*   |
+| *der Plan (Pläne)*   |                      | *die Methode(n)*        |
+| *der Punkt(e)*       |                      | *die Bedingung(en)*     |
+|                      |                      | *die Voraussetzung(en)* |
 
 | Masculine     | Neuter         | Feminine |
 | ------------- | -------------- | -------- |

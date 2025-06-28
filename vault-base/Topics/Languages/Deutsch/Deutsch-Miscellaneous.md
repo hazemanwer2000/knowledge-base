@@ -80,6 +80,7 @@ Phrases:
 | *(un)glaublich*                       | *Das ist unglaublich!*                                                 |
 | *(un)möglich*                         | *Ja, das ist möglich.*                                                 |
 | *bestimmt*                            | *Ja, bestimmt!*                                                        |
+| *genug*                               | *Ich habe genug Geld.*                                                 |
 ## References
 ---
 [1] Hammer's German Grammar and Usage, Martin Durrel

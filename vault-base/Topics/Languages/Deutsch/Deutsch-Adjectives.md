@@ -55,6 +55,7 @@
 | *romantisch*       |
 | *typisch*          |
 | *müde*             |
+| *ledig*            |
 
 | Adjective |
 | --------- |

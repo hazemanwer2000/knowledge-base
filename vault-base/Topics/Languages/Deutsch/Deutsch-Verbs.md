@@ -439,6 +439,7 @@
 | *fangen*                | *gefangen*         | *fing*          | `[Accusative]`           | *Endlich habe ich einen Fisch gefangen.*                            |
 | *abholen*               | -                  | -               | `[Accusative]`           | *Ich komme heute zu das Geld abzuholen.*                            |
 | *sammeln*               | -                  | -               | `[Accusative]`           | *Heute habe ich Fische gefangen und gesammelt.*                     |
+| *wechseln*              | -                  | -               | `[Accusative]`           | *Ich wechsle den Reifen meines Autos.*                              |
 |                         |                    |                 |                          |                                                                     |
 | *mieten*                | -                  | -               | `[Accusative]`           | *Wir haben ein Auto gemietet.*                                      |
 | *kaufen*                | -                  | -               | `[Dative] [Accusative]`  | *Ich kaufte dir Blumen.*                                            |

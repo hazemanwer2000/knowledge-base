@@ -39,6 +39,7 @@
 | *dominant*                | *submissiv*<br>*unterwürfig*<br>*gehorsam* |
 | *wütend*                  | *zufrieden*                                |
 | *erfolgreich*             | *erfolglos*                                |
+| *üblich*<br>*normal*      | *seltsam*                                  |
 
 | Adjective          |
 | ------------------ |

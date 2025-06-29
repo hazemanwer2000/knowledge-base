@@ -474,7 +474,7 @@
 | *knien*                 | -                  | -               | -                        | *Er kniete vor ihr.*                                                |
 | *==kriechen==*          | *gekrochen*        | *kroch*         | -                        | *Er kroch zu ihr.*                                                  |
 |                         |                    |                 |                          |                                                                     |
-| *ziehen*                | *gezogen*          | *zog*           | `[Accusative]`           | *Er zog sie an den Haaren.*                                         |
+| ==*ziehen*==            | *gezogen*          | *zog*           | `[Accusative]`           | *Er zog sie an den Haaren.*                                         |
 | *stoßen*                | *gestoßen*         | *stieß*         | `[Accusative]`           | *Er stieß sie weg.*                                                 |
 |                         |                    |                 |                          |                                                                     |
 | *schlagen*              | *geschlagen*       | *schlug*        | `[Accusative]`           | *Gestern habe er mich geschlagen.*                                  |

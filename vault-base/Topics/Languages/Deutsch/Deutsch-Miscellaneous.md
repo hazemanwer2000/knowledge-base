@@ -91,6 +91,8 @@ Phrases:
 | *weiter*                              | *Ich verbiete dir weiter darüber zu reden.*                            |
 | *besonders*                           | *Was macht Essen in einem Restaurant ohne Licht so besonders?*         |
 | *Zusammenfassend*                     | *Zusammenfassend soll ich sagen, letztes Jahr war ein Erfolg.*         |
+| *denn*                                | *Ich bin müde, denn ich habe später gearbeitet.*                       |
+| *deshalb*                             | *Ich habe später gearbeitet, deshalb bin ich müde.*                    |
 
 ## References
 ---

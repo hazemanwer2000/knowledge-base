@@ -349,9 +349,10 @@
 | ------------------- | ------ | ------------------ |
 | *der Gott (Götter)* |        | *die Religion(en)* |
 
-| Masculine        | Neuter              | Feminine |
-| ---------------- | ------------------- | -------- |
-| *der Hinweis(e)* | *das Geheimnis(se)* |          |
+| Masculine                    | Neuter              | Feminine |
+| ---------------------------- | ------------------- | -------- |
+| *der Hinweis(e)*             | *das Geheimnis(se)* |          |
+| *der Vorschlag (Vorschläge)* |                     |          |
 
 | Masculine              | Neuter        | Feminine |
 | ---------------------- | ------------- | -------- |

@@ -55,6 +55,7 @@
 | *der Mann (Männer)* | *die Frau(en)*            |
 |                     |                           |
 | *der Student(en)*   | *die Studentin(nen)*      |
+| *der Lehrer*        | *die Lehrerin(nen)*       |
 | *der Ingenieur(e)*  | *die Ingenieurin(nen)*    |
 | *der Arzt (Ärzte)*  | *die Ärztin(nen)*         |
 | *der Pfleger*       | *die Pflegerin(nen)*      |
@@ -250,16 +251,16 @@
 | ---------------- | ----------------- | --------------------- |
 | *der Bericht(e)* | *das Gespräch(e)* | *die Frage(n)*        |
 | *der Brief(e)*   |                   | *die Antwort(en)*     |
-|                  |                   | *die Nachricht(en)*   |
+| *der Test(s)*    |                   | *die Nachricht(en)*   |
 |                  |                   | *die Aufgabe(n)*      |
 |                  |                   | *die Überschrift(en)* |
 |                  |                   | *die Zeitschrift(en)* |
 
-| Masculine          | Neuter        | Feminine         |
-| ------------------ | ------------- | ---------------- |
-| *der Satz (Sätze)* | *das Wort(e)* | *die Sprache(n)* |
-|                    |               | *die Nummer(n)*  |
-|                    |               | *die Seite(n)*   |
+| Masculine          | Neuter              | Feminine         |
+| ------------------ | ------------------- | ---------------- |
+| *der Satz (Sätze)* | *das Wort (Wörter)* | *die Sprache(n)* |
+|                    |                     | *die Nummer(n)*  |
+|                    |                     | *die Seite(n)*   |
 
 | Masculine            | Neuter               | Feminine                |
 | -------------------- | -------------------- | ----------------------- |

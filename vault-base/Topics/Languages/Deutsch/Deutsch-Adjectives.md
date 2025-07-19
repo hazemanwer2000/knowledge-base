@@ -40,6 +40,7 @@
 | *wütend*                  | *zufrieden*                                |
 | *erfolgreich*             | *erfolglos*                                |
 | *üblich*<br>*normal*      | *seltsam*                                  |
+| *freiwillig*              | *obligatorisch*                            |
 
 | Adjective          |
 | ------------------ |

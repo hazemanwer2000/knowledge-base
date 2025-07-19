@@ -294,6 +294,7 @@
 | Masculine      | Neuter           | Feminine         |
 | -------------- | ---------------- | ---------------- |
 | *der Beruf(e)* | *das Projekt(e)* | *die Arbeit(en)* |
+|                | *das Werk(e)*    |                  |
 
 | Masculine                | Neuter                  | Feminine             |
 | ------------------------ | ----------------------- | -------------------- |

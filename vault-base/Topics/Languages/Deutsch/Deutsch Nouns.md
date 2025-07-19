@@ -247,7 +247,7 @@
 | Masculine        | Neuter            | Feminine              |
 | ---------------- | ----------------- | --------------------- |
 | *der Bericht(e)* | *das Gespräch(e)* | *die Frage(n)*        |
-|                  |                   | *die Antwort(en)*     |
+| *der Brief(e)*   |                   | *die Antwort(en)*     |
 |                  |                   | *die Nachricht(en)*   |
 |                  |                   | *die Aufgabe(n)*      |
 |                  |                   | *die Überschrift(en)* |

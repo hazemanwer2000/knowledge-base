@@ -368,6 +368,9 @@
 |                       |                 |             |                          |                                                                          |
 | *entspannen*          | -               | -           | `[Accusative/Reflexive]` | *Ab und an braucht man sich zu entspannen.*                              |
 | *überraschen*         | -               | -           | `[Accusative]`           | *Ich dachte, ich überrasche Alex an der Uni and lade sie zum Essen ein.* |
+|                       |                 |             |                          |                                                                          |
+| *unterstützen*        | -               | -           | `[Accusative]`           | *Ich unterstützte meine Kinder dursch Uni.*                              |
+| *betreuen*            |                 |             | `[Accusative]`           | *Ich betreue die Community in meiner Freizeit.*                          |
 
 ##### ~~Normal Activities~~
 ---

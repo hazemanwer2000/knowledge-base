@@ -247,14 +247,14 @@
 ### ~~Abstract Concepts~~
 ---
 
-| Masculine        | Neuter            | Feminine              |
-| ---------------- | ----------------- | --------------------- |
-| *der Bericht(e)* | *das Gespräch(e)* | *die Frage(n)*        |
-| *der Brief(e)*   |                   | *die Antwort(en)*     |
-| *der Test(s)*    |                   | *die Nachricht(en)*   |
-|                  |                   | *die Aufgabe(n)*      |
-|                  |                   | *die Überschrift(en)* |
-|                  |                   | *die Zeitschrift(en)* |
+| Masculine                | Neuter            | Feminine              |
+| ------------------------ | ----------------- | --------------------- |
+| *der Bericht(e)*         | *das Gespräch(e)* | *die Frage(n)*        |
+| *der Brief(e)*           |                   | *die Antwort(en)*     |
+| *der Test(s)*            |                   | *die Nachricht(en)*   |
+| *der Beitrag (Beiträge)* |                   | *die Aufgabe(n)*      |
+|                          |                   | *die Überschrift(en)* |
+|                          |                   | *die Zeitschrift(en)* |
 
 | Masculine          | Neuter              | Feminine         |
 | ------------------ | ------------------- | ---------------- |

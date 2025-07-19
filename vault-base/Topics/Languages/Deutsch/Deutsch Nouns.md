@@ -291,9 +291,9 @@
 | *der Akt(e)*  | *das Lied(er)* |          |
 |               | *das Bild(er)* |          |
 
-| Masculine      | Neuter | Feminine         |
-| -------------- | ------ | ---------------- |
-| *der Beruf(e)* |        | *die Arbeit(en)* |
+| Masculine      | Neuter           | Feminine         |
+| -------------- | ---------------- | ---------------- |
+| *der Beruf(e)* | *das Projekt(e)* | *die Arbeit(en)* |
 
 | Masculine                | Neuter                  | Feminine             |
 | ------------------------ | ----------------------- | -------------------- |

@@ -250,7 +250,7 @@
 | *nennen*          | *genannt*       | *nannte*      | `[Accusative]`          | *Ich habe ihn Alex genannt.*                             |
 | *heißen*          | -               | -             | -                       | *Ich heiße Sam.*                                         |
 |                   |                 |               |                         |                                                          |
-| *unterscheiden*   | *unterscheiden* | *unterschied* | `[Accusative]`          | *Unterscheide zwischen diese beide Bilder!*              |
+| *unterscheiden*   | *unterschieden* | *unterschied* | `[Accusative]`          | *Unterscheide zwischen diese beide Bilder!*              |
 | *vergleichen*     | *verglichen*    | *verglich*    | `[Accusative]`          | *Vergleiche diese beide Bilder!*                         |
 
 ##### ~~Feelings and the Soul~~

@@ -268,7 +268,7 @@
 | *der Untershied(e)*  | *das Ergebnis(se)*   | *die Ähnlichkeit(en)*   |
 | *der Plan (Pläne)*   | *das Beispiel(e)*    | *die Methode(n)*        |
 | *der Punkt(e)*       |                      | *die Bedingung(en)*     |
-|                      |                      | *die Voraussetzung(en)* |
+| *der Fehler*         |                      | *die Voraussetzung(en)* |
 |                      |                      | *die Ausnahme(n)*       |
 |                      |                      | *die Reihenfolge(n)*    |
 

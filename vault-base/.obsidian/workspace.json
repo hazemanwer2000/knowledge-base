@@ -35,8 +35,7 @@
               "title": "Deutsch-Verbs"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -174,10 +173,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "71642d21ac0a3905",
+  "active": "fb722d04ac52e890",
   "lastOpenFiles": [
-    "Topics/Languages/Deutsch/Deutsch Nouns.md",
     "Topics/Languages/Deutsch/Deutsch-Verbs.md",
+    "Topics/Languages/Deutsch/Deutsch Nouns.md",
     "Topics/Languages/Deutsch.md",
     "Topics/Languages/Deutsch/Deutsch-Adjectives.md",
     "Topics/Languages/Deutsch/Deutsch-Prepositions.md",

@@ -59,6 +59,7 @@
 | *der Arzt (Ärzte)*  | *die Ärztin(nen)*         |
 | *der Sänger*        | *die Sängerin(nen)*       |
 | *der Schauspieler*  | *die Schauspielerin(nen)* |
+| *der Kellner*       | *der Kellnerin(nen)*      |
 |                     |                           |
 | *der Sklave(n)*     | *die Sklavin(nen)*        |
 | *der Herr(en)*      | *die Herrin(nen)*         |
@@ -101,13 +102,21 @@
 | -------------------- | ----------------------- | --------------------- |
 | *der Park(s)*        | *das Kino(s)*           | *die Bibliothek(en)*  |
 | *der Markt (Märkte)* | *das Fitnessstudio(s)*  | *die Apotheke(n)*     |
-| *der Wald (Wälder)*  | *das Konzert(e)*        | *die Party(s)*        |
-| *der Verein(e)*      | *das Stadion (Stadien)* | *die Universität(en)* |
-|                      | *das Unternehmen(en)*   | *die Schule(n)*       |
-|                      | *das Hotel(s)*          | *die Firma (Firmen)*  |
+|                      | *das Stadion (Stadien)* |                       |
+|                      | *das Hotel(s)*          |                       |
 |                      | *das Restaurant(s)*     |                       |
-|                      | *das Büro(s)*           |                       |
-|                      | *das Fest(e)*           |                       |
+|                      |                         |                       |
+|                      | *das Fest(e)*           | *die Party(s)*        |
+|                      | *das Konzert(e)*        |                       |
+|                      |                         |                       |
+| *der Verein(e)*      | *das Büro(s)*           | *die Firma (Firmen)*  |
+|                      | *das Unternehmen(en)*   | *die Schule(n)*       |
+|                      |                         | *die Universität(en)* |
+|                      |                         |                       |
+| *der Wald (Wälder)*  |                         | *die Wüste(n)*        |
+| *der Fluss (Flüsse)* |                         |                       |
+| *der Berg(e)*        |                         |                       |
+| *der Hügel*          |                         |                       |
 
 ### ~~Many Things~~
 ---
@@ -115,23 +124,26 @@
 | Masculine                | Neuter                      | Feminine           |
 | ------------------------ | --------------------------- | ------------------ |
 | *der Teppich(e)*         | *das Bett(en)*              | ==*die Sache(e)*== |
-| *der Boden (Böden)*      | *das Handy(s)*              | *die Lampe(n)*     |
-| *der Tisch(e)*           | *das Geld*                  | *die Tür(en)*      |
-| *der Schrank (Schränke)* | *das Mikrofon(e)*           | *die Tastatur(en)* |
-| *der Schlüssel*          |                             | *die Maus (Mäuse)* |
-| *der Ball (Bälle)*       |                             | *die Hütte(n)*     |
-| *der Fernseher*          |                             | *die Tasche(n)*    |
+| *der Boden (Böden)*      | *das Geld*                  | *die Lampe(n)*     |
+| *der Tisch(e)*           |                             | *die Tür(en)*      |
+| *der Schrank (Schränke)* |                             | *die Hütte(n)*     |
+| *der Schlüssel*          |                             | *die Tasche(n)*    |
+| *der Ball (Bälle)*       |                             |                    |
 | *der Stuhl (Stühle)*     |                             |                    |
 | *der Koffer*             |                             |                    |
 | *der Käfig(e)*           |                             |                    |
 |                          |                             |                    |
-| *der Löffel*             | *das Glas (Gläser)*         | *die Pfanne(n)*    |
-| *der Teller*             | *das Messer*                |                    |
-|                          | *das Besteck*               |                    |
+| *der Fernseher*          | *das Mikrofon(e)*           | *die Tastatur(en)* |
+|                          | *das Handy(s)*              | *die Maus (Mäuse)* |
+|                          |                             |                    |
+| *der Teller*             | *das Glas (Gläser)*         | *die Pfanne(n)*    |
+|                          |                             |                    |
+| *der Löffel*             | ==*das Besteck*==           | *die Gabel(n)*     |
+|                          | *das Messer*                |                    |
 |                          |                             |                    |
 | *der Bus(se)*            | *das Auto(s)*               |                    |
 | *der Zug (Züge)*         | *das Motorrad (Motorräder)* |                    |
-| *der Bahnhof (Bahnhöfe)* | *das Fahrrad (Fährrader)*   |                    |
+| *der Bahnhof (Bahnhöfe)* | *das Fahrrad (Fahrräder)*   |                    |
 |                          | *das Flugzeug(e)*           |                    |
 |                          | *das Schiff(e)*             |                    |
 
@@ -280,11 +292,16 @@
 
 | Masculine                | Neuter                  | Feminine             |
 | ------------------------ | ----------------------- | -------------------- |
-| *der Platz (Plätze)*     | *das Ort(e)*            | *die Straße(n)*      |
-| *der Stock (Stöcke)*     | *das Haus (Häuser)*     | *die Stadt (Städte)* |
-| *der Weg(e)*             | *das Zimmer*            | *die Richtung(en)*   |
-| *der Raum (Räume)*       | *das Zentrum (Zentren)* | *die Ampel(n)*       |
-| *der Eingang (Eingänge)* |                         | *die Ecke(n)*        |
+| *der Platz (Plätze)*     | *das Ort(e)*            |                      |
+| *der Stock (Stöcke)*     | *das Haus (Häuser)*     |                      |
+| *der Raum (Räume)*       | *das Zimmer*            |                      |
+| *der Eingang (Eingänge)* |                         |                      |
+|                          |                         |                      |
+| *der Weg(e)*             | *das Zentrum (Zentren)* | *die Straße(n)*      |
+|                          |                         | *die Stadt (Städte)* |
+|                          |                         | *die Richtung(en)*   |
+|                          |                         | *die Ampel(n)*       |
+|                          |                         | *die Ecke(n)*        |
 
 | Masculine | Neuter | Feminine            |
 | --------- | ------ | ------------------- |
@@ -383,6 +400,8 @@
 |           |                  | *die Form(en)*    |
 |           |                  | *die Länge(n)*    |
 |           |                  | *die Breite(n)*   |
+|           |                  | *die Tiefe(n)*    |
+|           |                  | *die Höhe(n)*     |
 
 | Masculine | Neuter          | Feminine       |
 | --------- | --------------- | -------------- |

@@ -257,116 +257,117 @@
 ##### ~~Feelings and the Soul~~
 ---
 
-| Verb (Infinitive)     | Past Participle | Past Tense  | Valency                  | Example                                                          |
-| --------------------- | --------------- | ----------- | ------------------------ | ---------------------------------------------------------------- |
-| *lachen*              | -               | -           | -                        | *Verstehst du jetzt, warum ich lache?*                           |
-| *lächeln*             | -               | -           | -                        | *Ich lächelte sie an.*                                           |
-| *runzeln*             | -               | -           | `[Accusative]`           | *Er runzelte die Stirn immer.*                                   |
-|                       |                 |             |                          |                                                                  |
-| *interessieren*       | -               | -           | `[Accusative/Reflexive]` | *Ich interessiere mich für dich.*                                |
-| *kümmern*             | -               | -           | `[Accusative/Reflexive]` | *Ich kümmere mich darum nicht.*<br>*Das kümmert mich nicht.*     |
-|                       |                 |             |                          |                                                                  |
-| *fühlen*              | -               | -           | `[Accusative/Reflexive]` | *Ich fühle mich ein bisschen traurig.*                           |
-| *gefallen*            | *gefallen*      | *gefiel*    | `[Dative]`               | *Das gefällt mir!*                                               |
-| *genießen*            | *genossen*      | *genoss*    | `[Accusative]`           | *Ich genieße es.*                                                |
-|                       |                 |             |                          |                                                                  |
-| *benehmen*            | *benommen*      | *benahm*    | `[Accusative/Reflexive]` | *Du findest, ich benehme mich nicht wie eine Lady?*              |
-| *handeln*             | -               | -           | -                        | *Ich handle, als ich allein wäre.*                               |
-| *behandeln*           | -               | -           | `[Accusative/Reflexive]` | *Ich behandle ihn gut.*                                          |
-|                       |                 |             |                          |                                                                  |
-| *kennen*              | *gekannt*       | *kannte*    | `[Accusative]`           | *Oh, ich kenne dich.*                                            |
-| *wissen*              | *gewusst*       | *wusste*    | -                        | *Oh, ich weiß.*                                                  |
-|                       |                 |             |                          |                                                                  |
-| *merken*              | -               | -           | -                        | *Ich merke nun, sie tragte eine rote Schuhe.*                    |
-| *erinnern*            | -               | -           | `[Accusative/Reflexive]` | *Ich erinnerte mich.*<br>*Gestern habe ich dich drauf erinnert.* |
-| *vergessen*           | *vergessen*     | *vergaß*    | -                        | *Ich vergaß, was zu sagen.*                                      |
-|                       |                 |             |                          |                                                                  |
-| *leiden*              | *gelitten*      | *litt*      | -                        | *Ich leide jeden Tag.*                                           |
-| *schmerzen*           | -               | -           | -                        | *Es schmerzt.*                                                   |
-|                       |                 |             |                          |                                                                  |
-| *führen*              | -               | -           | `[Accusative]`           | *Ich führte ihn raus.*                                           |
-| *befehlen*            | *befohlen*      | *befahl*    | `[Dative]`               | *Ich befehle dir!*                                               |
-| *folgen*              | -               | -           | `[Dative]`               | *Folge mir!*                                                     |
-|                       |                 |             |                          |                                                                  |
-| *entscheiden*         | *entschieden*   | *entschied* | -                        | *Ich entschied zu gehen.*                                        |
-| *wählen*              | -               | -           | -                        | *Am Ende wähle ich dich.*                                        |
-|                       |                 |             |                          |                                                                  |
-| *beginnen*            | *begonnen*      | *began*     | -                        | *Es begann.*                                                     |
-| *dauern*              | -               | -           | -                        | *Es dauert zu lang.*                                             |
-| *aufhören*            | -               | -           | -                        | *Es hörte auf.*                                                  |
-| *beenden*             | -               | -           | `[Accusative]`           | *Beende deine Mahlzeit schnell, bevor sie kalt wird.*            |
-| *fertigstellen*       | -               | -           | `[Accusative]`           | *Sie wird den Bericht heute fertigstellen.*                      |
-|                       |                 |             |                          |                                                                  |
-| *konzentrieren*       | -               | -           | `[Accusative/Reflexive]` | *Ich konzentriere mich immer auf dich.*                          |
-| *vorbereiten*         | -               | -           | `[Accusative]`           | *Dein neues Leben, ich bereite dich darauf vor!*                 |
-|                       |                 |             |                          |                                                                  |
-| *betrügen*            | *betrogen*      | *betrog*    | `[Accusative]`           | *Er hat mich betrogen.*                                          |
-| *vergeben*            | *vergeben*      | *vergab*    | `[Dative]`               | *Ich vergebe ihm.*                                               |
-|                       |                 |             |                          |                                                                  |
-| *lügen*               | *gelogen*       | *log*       | -                        | *Er log.*                                                        |
-| *glauben*             | -               | -           | `[Dative]`               | *Glaubst du mir?*                                                |
-|                       |                 |             |                          |                                                                  |
-| *verlieren*           | *verloren*      | *verlor*    | `[Accusative]`           | *Ich habe sie verloren.*                                         |
-| *gewinnen*            | *gewonnen*      | *gewann*    | `[Accusative]`           | *Ich habe die Goldmedaille gewonnen.*                            |
-| *erreichen*           | -               | -           | -                        | *Heute habe ich mein Ziel erreicht.*                             |
-| *verdienen*           | -               | -           | `[Accusative]`           | *Ich glaube, dass ich eine Trophäe verdient habe.*               |
-|                       |                 |             |                          |                                                                  |
-| *schmecken*           | -               | -           | -                        | *Es schmeckt so gut.*                                            |
-| *riechen*             | *gerochen*      | *roch*      | -                        | *Es riecht schlecht.*                                            |
-|                       |                 |             |                          |                                                                  |
-| *helfen*              | *geholfen*      | *half*      | `[Dative]`               | *Ich habe dir immer geholfen.*                                   |
-| *bringen*             | *gebracht*      | *brachte*   | `[Dative] [Accusative]`  | *Ich brachte dir das Essen.*                                     |
-| *geben*               | *gegeben*       | *gab*       | `[Dative] [Accusative]`  | *Ich gab dir das Essen.*                                         |
-| *nehmen*              | *genommen*      | *nahm*      | `[Accusative]`           | *Ich nahm es.*                                                   |
-| *behalten*            | *behalten*      | *behielt*   | `[Accusative]`           | *Ich werde es behalten.*                                         |
-|                       |                 |             |                          |                                                                  |
-| *benutzen*            | -               | -           | `[Accusative]`           | *Ich habe sie benutzt.*                                          |
-| *missbrauchen*        | -               | -           | `[Accusative]`           | *Immer missbrauchte er mich.*                                    |
-|                       |                 |             |                          |                                                                  |
-| *brauchen*            | -               | -           | -                        | *Peter, ich brauche dich.*                                       |
-| *vermissen*           | -               | -           | `[Accusative]`           | *Ich vermisse ihn.*                                              |
-| *fehlen*              | -               | -           | -                        | *Du fehlst mir.*                                                 |
-|                       |                 |             |                          |                                                                  |
-| *halten*              | *gehalten*      | *hielt*     | `[Accusative]`           | *Ich halte es für eine gute Idee.*                               |
-| *klingen*             | *geklungen*     | *klang*     | -                        | *Ja, das klingt gut.*                                            |
-| *passen*              | -               | -           | -                        | *Das Kleid passt perfekt.*                                       |
-|                       |                 |             |                          |                                                                  |
-| *warten*              | -               | -           | -                        | *Ich werde auf dich warten.*                                     |
-| *lassen*              | *gelassen*      | *ließ*      | `[Accusative]`           | *Lass mich in Ruhe!*                                             |
-|                       |                 |             |                          |                                                                  |
-| *verbieten*           | *verboten*      | *verbot*    | `[Dative]`               | *Ich verbiete dir darüber weiter zu reden.*                      |
-| *erlauben*            | -               | -           | `[Dative]`               | *Ich erlaube dir nun zu essen.*                                  |
-| *entschuldigen*       | -               | -           | `[Accusative/Reflexive]` | *Ich werde mich entschuldigen, bitte.*                           |
-|                       |                 |             |                          |                                                                  |
-| *ablehnen*            | -               | -           | `[Accusative]`           | *Ich habe seine Anfrage abgelehnt.*                              |
-| *bewilligen*          | -               | -           | `[Accusative]`           | *Das war seit einem Jahr bewilligt.*                             |
-|                       |                 |             |                          |                                                                  |
-| *heiraten*            | -               | -           | `[Accusative]`           | *Ich werde sie heiraten.*                                        |
-| *verloben*            | -               | -           | -                        | *Ich bin zu ihr verlobt.*                                        |
-| *gehören*             | -               | -           | `[Dative]`               | *Sie gehört mir!*                                                |
-| *verlassen*           | *verlassen*     | *verließ*   | `[Accusative]`           | *Ich verließ sie für dich.*                                      |
-| *==scheiden==*        | *geschieden*    | *schied*    | `[Accusative/Reflexive]` | *Ich ließ mich von ihr scheiden.*                                |
-| *trennen*             | -               | -           | `[Accusative/Reflexive]` | *Sie haben sich voneinander getrennt.*                           |
-|                       |                 |             |                          |                                                                  |
-| *bevorzugen*          | -               | -           | `[Accusative]`           | *Ich bevorzuge dich über alle!*                                  |
-| *empfehlen*           | *empfohlen*     | *empfahl*   | `[Accusative]`           | *Ich empfehle dieses hier.*                                      |
-| *lieben*              | -               | -           | `[Accusative]`           | *Ich liebe dich!*                                                |
-| *ärgern*              | -               | -           | `[Accusative/Reflexive]` | *Ich ärgere dich immer.*<br>*Ich ärgere mich darüber.*           |
-| *hassen*              | -               | -           | `[Accusative]`           | *Ich hasse dich!*                                                |
-|                       |                 |             |                          |                                                                  |
-| *versuchen/probieren* | -               | -           | `[Accusative]`           | *Ich werde den Kuchen versuchen/probieren.*                      |
-| *teilnehmen*          | *teilgenommen*  | *nahm teil* | -                        | *Ich habe an einem Kurs teilgenommen.*                           |
-| *verändern*           | -               | -           | `[Accusative]`           | *Das verändert alles.*                                           |
-|                       |                 |             |                          |                                                                  |
-| *passieren*           | -               | -           | -                        | *Was passiert?*                                                  |
-|                       |                 |             |                          |                                                                  |
-| *küssen*              | -               | -           | `[Accusative]`           | *Ich habe ihr gestern geküsst.*                                  |
-| *umarmen*             | -               | -           | `[Accusative]`           | *Ich umarmte und küsste Hilda.*                                  |
-|                       |                 |             |                          |                                                                  |
-| *hoffen*              | -               | -           | -                        | *Ich hoffe, es bleibt so.*                                       |
-| *wünschen*            | -               | -           | `[Dative] [Accusative]`  | *Ich wünsche dir einen schönen Geburtstag.*                      |
-|                       |                 |             |                          |                                                                  |
-| *entspannen*          | -               | -           | `[Accusative/Reflexive]` | *Ab und an braucht man sich zu entspannen.*                      |
+| Verb (Infinitive)     | Past Participle | Past Tense  | Valency                  | Example                                                                  |
+| --------------------- | --------------- | ----------- | ------------------------ | ------------------------------------------------------------------------ |
+| *lachen*              | -               | -           | -                        | *Verstehst du jetzt, warum ich lache?*                                   |
+| *lächeln*             | -               | -           | -                        | *Ich lächelte sie an.*                                                   |
+| *runzeln*             | -               | -           | `[Accusative]`           | *Er runzelte die Stirn immer.*                                           |
+|                       |                 |             |                          |                                                                          |
+| *interessieren*       | -               | -           | `[Accusative/Reflexive]` | *Ich interessiere mich für dich.*                                        |
+| *kümmern*             | -               | -           | `[Accusative/Reflexive]` | *Ich kümmere mich darum nicht.*<br>*Das kümmert mich nicht.*             |
+|                       |                 |             |                          |                                                                          |
+| *fühlen*              | -               | -           | `[Accusative/Reflexive]` | *Ich fühle mich ein bisschen traurig.*                                   |
+| *gefallen*            | *gefallen*      | *gefiel*    | `[Dative]`               | *Das gefällt mir!*                                                       |
+| *genießen*            | *genossen*      | *genoss*    | `[Accusative]`           | *Ich genieße es.*                                                        |
+|                       |                 |             |                          |                                                                          |
+| *benehmen*            | *benommen*      | *benahm*    | `[Accusative/Reflexive]` | *Du findest, ich benehme mich nicht wie eine Lady?*                      |
+| *handeln*             | -               | -           | -                        | *Ich handle, als ich allein wäre.*                                       |
+| *behandeln*           | -               | -           | `[Accusative/Reflexive]` | *Ich behandle ihn gut.*                                                  |
+|                       |                 |             |                          |                                                                          |
+| *kennen*              | *gekannt*       | *kannte*    | `[Accusative]`           | *Oh, ich kenne dich.*                                                    |
+| *wissen*              | *gewusst*       | *wusste*    | -                        | *Oh, ich weiß.*                                                          |
+|                       |                 |             |                          |                                                                          |
+| *merken*              | -               | -           | -                        | *Ich merke nun, sie tragte eine rote Schuhe.*                            |
+| *erinnern*            | -               | -           | `[Accusative/Reflexive]` | *Ich erinnerte mich.*<br>*Gestern habe ich dich drauf erinnert.*         |
+| *vergessen*           | *vergessen*     | *vergaß*    | -                        | *Ich vergaß, was zu sagen.*                                              |
+|                       |                 |             |                          |                                                                          |
+| *leiden*              | *gelitten*      | *litt*      | -                        | *Ich leide jeden Tag.*                                                   |
+| *schmerzen*           | -               | -           | -                        | *Es schmerzt.*                                                           |
+|                       |                 |             |                          |                                                                          |
+| *führen*              | -               | -           | `[Accusative]`           | *Ich führte ihn raus.*                                                   |
+| *befehlen*            | *befohlen*      | *befahl*    | `[Dative]`               | *Ich befehle dir!*                                                       |
+| *folgen*              | -               | -           | `[Dative]`               | *Folge mir!*                                                             |
+|                       |                 |             |                          |                                                                          |
+| *entscheiden*         | *entschieden*   | *entschied* | -                        | *Ich entschied zu gehen.*                                                |
+| *wählen*              | -               | -           | -                        | *Am Ende wähle ich dich.*                                                |
+|                       |                 |             |                          |                                                                          |
+| *beginnen*            | *begonnen*      | *began*     | -                        | *Es begann.*                                                             |
+| *dauern*              | -               | -           | -                        | *Es dauert zu lang.*                                                     |
+| *aufhören*            | -               | -           | -                        | *Es hörte auf.*                                                          |
+| *beenden*             | -               | -           | `[Accusative]`           | *Beende deine Mahlzeit schnell, bevor sie kalt wird.*                    |
+| *fertigstellen*       | -               | -           | `[Accusative]`           | *Sie wird den Bericht heute fertigstellen.*                              |
+|                       |                 |             |                          |                                                                          |
+| *konzentrieren*       | -               | -           | `[Accusative/Reflexive]` | *Ich konzentriere mich immer auf dich.*                                  |
+| *vorbereiten*         | -               | -           | `[Accusative]`           | *Dein neues Leben, ich bereite dich darauf vor!*                         |
+|                       |                 |             |                          |                                                                          |
+| *betrügen*            | *betrogen*      | *betrog*    | `[Accusative]`           | *Er hat mich betrogen.*                                                  |
+| *vergeben*            | *vergeben*      | *vergab*    | `[Dative]`               | *Ich vergebe ihm.*                                                       |
+|                       |                 |             |                          |                                                                          |
+| *lügen*               | *gelogen*       | *log*       | -                        | *Er log.*                                                                |
+| *glauben*             | -               | -           | `[Dative]`               | *Glaubst du mir?*                                                        |
+|                       |                 |             |                          |                                                                          |
+| *verlieren*           | *verloren*      | *verlor*    | `[Accusative]`           | *Ich habe sie verloren.*                                                 |
+| *gewinnen*            | *gewonnen*      | *gewann*    | `[Accusative]`           | *Ich habe die Goldmedaille gewonnen.*                                    |
+| *erreichen*           | -               | -           | -                        | *Heute habe ich mein Ziel erreicht.*                                     |
+| *verdienen*           | -               | -           | `[Accusative]`           | *Ich glaube, dass ich eine Trophäe verdient habe.*                       |
+|                       |                 |             |                          |                                                                          |
+| *schmecken*           | -               | -           | -                        | *Es schmeckt so gut.*                                                    |
+| *riechen*             | *gerochen*      | *roch*      | -                        | *Es riecht schlecht.*                                                    |
+|                       |                 |             |                          |                                                                          |
+| *helfen*              | *geholfen*      | *half*      | `[Dative]`               | *Ich habe dir immer geholfen.*                                           |
+| *bringen*             | *gebracht*      | *brachte*   | `[Dative] [Accusative]`  | *Ich brachte dir das Essen.*                                             |
+| *geben*               | *gegeben*       | *gab*       | `[Dative] [Accusative]`  | *Ich gab dir das Essen.*                                                 |
+| *nehmen*              | *genommen*      | *nahm*      | `[Accusative]`           | *Ich nahm es.*                                                           |
+| *behalten*            | *behalten*      | *behielt*   | `[Accusative]`           | *Ich werde es behalten.*                                                 |
+|                       |                 |             |                          |                                                                          |
+| *benutzen*            | -               | -           | `[Accusative]`           | *Ich habe sie benutzt.*                                                  |
+| *missbrauchen*        | -               | -           | `[Accusative]`           | *Immer missbrauchte er mich.*                                            |
+|                       |                 |             |                          |                                                                          |
+| *brauchen*            | -               | -           | -                        | *Peter, ich brauche dich.*                                               |
+| *vermissen*           | -               | -           | `[Accusative]`           | *Ich vermisse ihn.*                                                      |
+| *fehlen*              | -               | -           | -                        | *Du fehlst mir.*                                                         |
+|                       |                 |             |                          |                                                                          |
+| *halten*              | *gehalten*      | *hielt*     | `[Accusative]`           | *Ich halte es für eine gute Idee.*                                       |
+| *klingen*             | *geklungen*     | *klang*     | -                        | *Ja, das klingt gut.*                                                    |
+| *passen*              | -               | -           | -                        | *Das Kleid passt perfekt.*                                               |
+|                       |                 |             |                          |                                                                          |
+| *warten*              | -               | -           | -                        | *Ich werde auf dich warten.*                                             |
+| *lassen*              | *gelassen*      | *ließ*      | `[Accusative]`           | *Lass mich in Ruhe!*                                                     |
+|                       |                 |             |                          |                                                                          |
+| *verbieten*           | *verboten*      | *verbot*    | `[Dative]`               | *Ich verbiete dir darüber weiter zu reden.*                              |
+| *erlauben*            | -               | -           | `[Dative]`               | *Ich erlaube dir nun zu essen.*                                          |
+| *entschuldigen*       | -               | -           | `[Accusative/Reflexive]` | *Ich werde mich entschuldigen, bitte.*                                   |
+|                       |                 |             |                          |                                                                          |
+| *ablehnen*            | -               | -           | `[Accusative]`           | *Ich habe seine Anfrage abgelehnt.*                                      |
+| *bewilligen*          | -               | -           | `[Accusative]`           | *Das war seit einem Jahr bewilligt.*                                     |
+|                       |                 |             |                          |                                                                          |
+| *heiraten*            | -               | -           | `[Accusative]`           | *Ich werde sie heiraten.*                                                |
+| *verloben*            | -               | -           | -                        | *Ich bin zu ihr verlobt.*                                                |
+| *gehören*             | -               | -           | `[Dative]`               | *Sie gehört mir!*                                                        |
+| *verlassen*           | *verlassen*     | *verließ*   | `[Accusative]`           | *Ich verließ sie für dich.*                                              |
+| *==scheiden==*        | *geschieden*    | *schied*    | `[Accusative/Reflexive]` | *Ich ließ mich von ihr scheiden.*                                        |
+| *trennen*             | -               | -           | `[Accusative/Reflexive]` | *Sie haben sich voneinander getrennt.*                                   |
+|                       |                 |             |                          |                                                                          |
+| *bevorzugen*          | -               | -           | `[Accusative]`           | *Ich bevorzuge dich über alle!*                                          |
+| *empfehlen*           | *empfohlen*     | *empfahl*   | `[Accusative]`           | *Ich empfehle dieses hier.*                                              |
+| *lieben*              | -               | -           | `[Accusative]`           | *Ich liebe dich!*                                                        |
+| *ärgern*              | -               | -           | `[Accusative/Reflexive]` | *Ich ärgere dich immer.*<br>*Ich ärgere mich darüber.*                   |
+| *hassen*              | -               | -           | `[Accusative]`           | *Ich hasse dich!*                                                        |
+|                       |                 |             |                          |                                                                          |
+| *versuchen/probieren* | -               | -           | `[Accusative]`           | *Ich werde den Kuchen versuchen/probieren.*                              |
+| *teilnehmen*          | *teilgenommen*  | *nahm teil* | -                        | *Ich habe an einem Kurs teilgenommen.*                                   |
+| *verändern*           | -               | -           | `[Accusative]`           | *Das verändert alles.*                                                   |
+|                       |                 |             |                          |                                                                          |
+| *passieren*           | -               | -           | -                        | *Was passiert?*                                                          |
+|                       |                 |             |                          |                                                                          |
+| *küssen*              | -               | -           | `[Accusative]`           | *Ich habe ihr gestern geküsst.*                                          |
+| *umarmen*             | -               | -           | `[Accusative]`           | *Ich umarmte und küsste Hilda.*                                          |
+|                       |                 |             |                          |                                                                          |
+| *hoffen*              | -               | -           | -                        | *Ich hoffe, es bleibt so.*                                               |
+| *wünschen*            | -               | -           | `[Dative] [Accusative]`  | *Ich wünsche dir einen schönen Geburtstag.*                              |
+|                       |                 |             |                          |                                                                          |
+| *entspannen*          | -               | -           | `[Accusative/Reflexive]` | *Ab und an braucht man sich zu entspannen.*                              |
+| *überraschen*         | -               | -           | `[Accusative]`           | *Ich dachte, ich überrasche Alex an der Uni and lade sie zum Essen ein.* |
 
 ##### ~~Normal Activities~~
 ---

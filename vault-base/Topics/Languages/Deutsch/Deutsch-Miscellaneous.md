@@ -94,6 +94,7 @@ Phrases:
 | *zusammenfassend*                     | *Zusammenfassend soll ich sagen, letztes Jahr war ein Erfolg.*         |
 | *deshalb*                             | *Ich habe später gearbeitet, deshalb bin ich müde.*                    |
 | *wahrscheinlich*                      | *Wahrscheinlich sprechen sie über mich.*                               |
+| *bereits*<br>*schon*                  | *Ich bin bereits/schon gegangen.*                                      |
 
 ## References
 ---

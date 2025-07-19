@@ -358,7 +358,7 @@
 | *umarmen*             | -               | -           | `[Accusative]`           | *Ich umarmte und küsste Hilda.*                                  |
 |                       |                 |             |                          |                                                                  |
 | *hoffen*              | -               | -           | -                        | *Ich hoffe, es bleibt so.*                                       |
-| *wünschen*            | -               | -           | -                        | *Ich wünsche für einen besseren Tag morgen.*                     |
+| *wünschen*            | -               | -           | `[Dative] [Accusative]`  | *Ich wünsche dir einen schönen Geburtstag.*                      |
 |                       |                 |             |                          |                                                                  |
 | *entspannen*          | -               | -           | `[Accusative/Reflexive]` | *Ab und an braucht man sich zu entspannen.*                      |
 

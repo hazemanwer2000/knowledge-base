@@ -275,8 +275,8 @@ For every Verb,
 **Passive Voice** is common with **Transitive Verbs** (i.e., Verbs with an Accusative case).
 
 There are two types of Passive Voices:
-* *"werden-"* Passive, semantically indicating a transition.
-* *"sein-"* Passive, semantically indicating a state.
+* *"werden-"* Passive, used when focusing on the action.
+* *"sein-"* Passive, used when focusing on the (end) state,
 
 In both types,
 * the Subject is replaced by the (usually direct) object.

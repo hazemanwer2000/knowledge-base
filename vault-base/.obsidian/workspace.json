@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/Languages/Deutsch/Deutsch-Verbs.md",
+                "file": "Topics/Languages/Deutsch/Deutsch Nouns.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Deutsch-Verbs"
+              "title": "Deutsch Nouns"
             }
           },
           {
@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/Languages/Deutsch/Deutsch-Miscellaneous.md",
+                "file": "Topics/Languages/Deutsch/Deutsch-Adjectives.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Deutsch-Miscellaneous"
+              "title": "Deutsch-Adjectives"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -174,18 +173,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "71642d21ac0a3905",
+  "active": "fb722d04ac52e890",
   "lastOpenFiles": [
     "Topics/Languages/Deutsch.md",
-    "Topics/Languages/Deutsch/Deutsch Nouns.md",
     "Topics/Languages/Deutsch/Deutsch-Verbs.md",
-    "Topics/Languages/Deutsch/Deutsch-Miscellaneous.md",
+    "Topics/Languages/Deutsch/Deutsch-Adjectives.md",
     "Topics/Languages/Deutsch/Deutsch-Prepositions.md",
+    "Topics/Languages/Deutsch/Deutsch-Miscellaneous.md",
+    "Topics/Languages/Deutsch/Deutsch Nouns.md",
     "Topics/Languages/Deutsch/Deutsch-Grammar.md",
     "Topics/Languages.md",
     "Welcome.md",
     "Topics/Languages/Deutsch/Deutsch-Subordinate-Clauses.md",
-    "Topics/Languages/Deutsch/Deutsch-Adjectives.md",
     "Topics/TechCraft.md",
     "Topics/Techcraft/Safety/Standards/ISO-26262.md",
     "Topics/Techcraft/Security/Standards/ISO-21434.md",

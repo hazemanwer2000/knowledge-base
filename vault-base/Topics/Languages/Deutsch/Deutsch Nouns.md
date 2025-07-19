@@ -345,12 +345,12 @@
 | --------- | ------------------ | --------------- |
 |           | *das Mitglied(er)* | *die Gruppe(n)* |
 
-| Masculine     | Neuter                     | Feminine             |
-| ------------- | -------------------------- | -------------------- |
-| *der Kurs(e)* | *das Abitur(e)*            | *die Ausbildung(en)* |
-|               | *das Studium (Studien)*    | *die Prüfung(en)*    |
-|               | *das Praktikum (Praktika)* | *die Note(n)*        |
-|               |                            | *die Lösung(en)*     |
+| Masculine        | Neuter                     | Feminine             |
+| ---------------- | -------------------------- | -------------------- |
+| *der Kurs(e)*    | *das Abitur(e)*            | *die Ausbildung(en)* |
+| *der Unterricht* | *das Studium (Studien)*    | *die Prüfung(en)*    |
+|                  | *das Praktikum (Praktika)* | *die Note(n)*        |
+|                  |                            | *die Lösung(en)*     |
 
 | Masculine | Neuter          | Feminine        |
 | --------- | --------------- | --------------- |

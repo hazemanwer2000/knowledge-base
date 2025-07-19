@@ -47,6 +47,7 @@
 | *treu*             |
 | *ehrlich*          |
 | *ernst*            |
+| *streng*           |
 | *beruflich*        |
 | *neugierig*        |
 | *gemein*<br>*fies* |

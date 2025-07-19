@@ -251,6 +251,7 @@
 |                  |                   | *die Nachricht(en)*   |
 |                  |                   | *die Aufgabe(n)*      |
 |                  |                   | *die Überschrift(en)* |
+|                  |                   | *die Zeitschrift(en)* |
 
 | Masculine          | Neuter        | Feminine         |
 | ------------------ | ------------- | ---------------- |

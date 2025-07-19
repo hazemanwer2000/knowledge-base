@@ -263,7 +263,7 @@
 | *der Grund (Gründe)* | *das Thema (Themen)* | *die Idee(n)*           |
 | *der Sinn(e)*        | *das Interesse*      | *die Regel(n)*          |
 | *der Untershied(e)*  | *das Ergebnis(se)*   | *die Ähnlichkeit(en)*   |
-| *der Plan (Pläne)*   |                      | *die Methode(n)*        |
+| *der Plan (Pläne)*   | *das Beispiel(e)*    | *die Methode(n)*        |
 | *der Punkt(e)*       |                      | *die Bedingung(en)*     |
 |                      |                      | *die Voraussetzung(en)* |
 |                      |                      | *die Ausnahme(n)*       |

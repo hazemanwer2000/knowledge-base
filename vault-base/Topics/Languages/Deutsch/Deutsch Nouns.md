@@ -113,6 +113,7 @@
 | *der Verein(e)*      | *das Büro(s)*           | *die Firma (Firmen)*  |
 |                      | *das Unternehmen(en)*   | *die Schule(n)*       |
 |                      |                         | *die Universität(en)* |
+|                      |                         | *die Agentur(en)*     |
 |                      |                         |                       |
 | *der Wald (Wälder)*  |                         | *die Wüste(n)*        |
 | *der Fluss (Flüsse)* |                         |                       |

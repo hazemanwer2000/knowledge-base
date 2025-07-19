@@ -5,6 +5,7 @@
 	- [[#Date and Time#What time is it?|What time is it?]]
 	- [[#Date and Time#Prepositions|Prepositions]]
 - [[#Directions|Directions]]
+- [[#Adverbs and Phrases|Adverbs and Phrases]]
 ## Content
 ---
 ### Date and Time
@@ -90,8 +91,9 @@ Phrases:
 | *ziemlich*                            | *Sie ist nicht nur intelligent, sondern auch ziemlich hübsch.*         |
 | *weiter*                              | *Ich verbiete dir weiter darüber zu reden.*                            |
 | *besonders*                           | *Was macht Essen in einem Restaurant ohne Licht so besonders?*         |
-| *Zusammenfassend*                     | *Zusammenfassend soll ich sagen, letztes Jahr war ein Erfolg.*         |
+| *zusammenfassend*                     | *Zusammenfassend soll ich sagen, letztes Jahr war ein Erfolg.*         |
 | *deshalb*                             | *Ich habe später gearbeitet, deshalb bin ich müde.*                    |
+| *wahrscheinlich*                      | *Wahrscheinlich sprechen sie über mich.*                               |
 
 ## References
 ---

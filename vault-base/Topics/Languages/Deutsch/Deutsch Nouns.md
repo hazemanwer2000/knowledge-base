@@ -57,6 +57,7 @@
 | *der Student(en)*   | *die Studentin(nen)*      |
 | *der Ingenieur(e)*  | *die Ingenieurin(nen)*    |
 | *der Arzt (Ärzte)*  | *die Ärztin(nen)*         |
+| *der Pfleger*       | *die Pflegerin(nen)*      |
 | *der Sänger*        | *die Sängerin(nen)*       |
 | *der Schauspieler*  | *die Schauspielerin(nen)* |
 | *der Kellner*       | *der Kellnerin(nen)*      |

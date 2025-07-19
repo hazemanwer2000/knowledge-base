@@ -271,6 +271,7 @@
 | *der Fehler*         |                      | *die Voraussetzung(en)* |
 |                      |                      | *die Ausnahme(n)*       |
 |                      |                      | *die Reihenfolge(n)*    |
+|                      |                      | *die Notiz(en)*         |
 
 | Masculine       | Neuter | Feminine |
 | --------------- | ------ | -------- |
@@ -316,7 +317,7 @@
 | --------------- | ----------- | ----------------- |
 | *der Stress(e)* | *das Glück* | *die Liebe*       |
 | *der Erfolg(e)* |             | *die Einsamkeit*  |
-|                 |             | *die Sorge(n)*    |
+| *der Spaß*      |             | *die Sorge(n)*    |
 |                 |             | *die Lust*        |
 |                 |             | *die Sünde(n)*    |
 |                 |             | *die Lüge(n)*     |

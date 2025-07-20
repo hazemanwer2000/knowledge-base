@@ -232,6 +232,7 @@
 | *lesen*           | *gelesen*       | *laß*         | `[Dative] [Accusative]` | *Ich las ihm das Buch vor.*                                |
 | *hören*           | -               | -             | `[Accusative]`          | *Ich höre dich.*                                           |
 | *schreiben*       | *geschrieben*   | *schrieb*     | `[Dative] [Accusative]` | *Ich schreibe dir dieses Buch.*                            |
+| *notieren*        | -               | -             | `[Dative] [Accusative]` | *Moment, ich notiere die Adresse.*                         |
 |                   |                 |               |                         |                                                            |
 | *beantworten*     | -               | -             | `[Accusative]`          | *Ich beantworte die Frage von ihm.*                        |
 | *fragen*          | -               | -             | `[Accusative]`          | *Ich frage mich immer.*                                    |

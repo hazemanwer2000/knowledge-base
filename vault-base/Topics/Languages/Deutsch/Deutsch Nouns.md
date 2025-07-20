@@ -253,10 +253,11 @@
 | *der Brief(e)*           |                   | *die Antwort(en)*     |
 | *der Test(s)*            |                   | *die Nachricht(en)*   |
 | *der Beitrag (Beiträge)* |                   | *die Aufgabe(n)*      |
-|                          |                   | *die Überschrift(en)* |
+| *der Text(e)*            |                   | *die Überschrift(en)* |
 |                          |                   | *die Zeitschrift(en)* |
 |                          |                   | *die Vorlesung(en)*   |
 |                          |                   | *die Lektion(en)*     |
+|                          |                   | *die Karte(n)*        |
 
 | Masculine          | Neuter              | Feminine         |
 | ------------------ | ------------------- | ---------------- |

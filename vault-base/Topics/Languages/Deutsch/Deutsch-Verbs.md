@@ -506,6 +506,7 @@
 | *kopieren*              | -                  | -               | `[Accusative]`           | *Kopiere das Text.*                                                 |
 | *einfügen*              | -                  | -               | `[Accusative]`           | *Und füge es hier ein.*                                             |
 | *löschen*               | -                  | -               | `[Accusative]`           | *Ich habe bereits deine Nummer von meinem Handy gelöscht.*          |
+| *mischen*               | -                  | -               | `[Accusative]`           | *Mischen Sie die Karten and wählen Sie eins!*                       |
 |                         |                    |                 |                          |                                                                     |
 | *anbeten*               | -                  | -               | `[Accusative]`           | *Jeden Tag bete ich Gott an.*                                       |
 | *beten*                 | -                  | -               | `[Accusative]`           | *Jeden Tag beten wir zu Gott.*                                      |

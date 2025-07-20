@@ -289,11 +289,11 @@
 | *der Sport(e)* | *das Tennis* |          |
 | *der Fußball*  |              |          |
 
-| Masculine     | Neuter         | Feminine |
-| ------------- | -------------- | -------- |
-| *der Film(e)* | *das Spiel(e)* |          |
-| *der Akt(e)*  | *das Lied(er)* |          |
-|               | *das Bild(er)* |          |
+| Masculine     | Neuter         | Feminine         |
+| ------------- | -------------- | ---------------- |
+| *der Film(e)* | *das Spiel(e)* | *die Grafik(en)* |
+| *der Akt(e)*  | *das Lied(er)* |                  |
+|               | *das Bild(er)* |                  |
 
 | Masculine      | Neuter           | Feminine         |
 | -------------- | ---------------- | ---------------- |

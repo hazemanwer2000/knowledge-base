@@ -363,6 +363,8 @@
 | --------- | ------ | ----------------- |
 |           |        | *die Technologie* |
 |           |        | *die Mathematik*  |
+|           |        | *die Medizin*     |
+|           |        | *die Informatik*  |
 
 | Masculine      | Neuter            | Feminine |
 | -------------- | ----------------- | -------- |

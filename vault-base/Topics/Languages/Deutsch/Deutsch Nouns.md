@@ -308,7 +308,7 @@
 | *der Eingang (Eingänge)* |                         |                      |
 |                          |                         |                      |
 | *der Weg(e)*             | *das Zentrum (Zentren)* | *die Straße(n)*      |
-|                          |                         | *die Stadt (Städte)* |
+|                          | *das Land (Länder)*     | *die Stadt (Städte)* |
 |                          |                         | *die Richtung(en)*   |
 |                          |                         | *die Ampel(n)*       |
 |                          |                         | *die Ecke(n)*        |

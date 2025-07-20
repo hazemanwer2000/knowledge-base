@@ -113,7 +113,7 @@
 |                      |                         |                       |
 | *der Verein(e)*      | *das Büro(s)*           | *die Firma (Firmen)*  |
 |                      | *das Unternehmen(en)*   | *die Schule(n)*       |
-|                      |                         | *die Universität(en)* |
+|                      | *das Geschäft(e)*       | *die Universität(en)* |
 |                      |                         | *die Agentur(en)*     |
 |                      |                         |                       |
 | *der Wald (Wälder)*  |                         | *die Wüste(n)*        |
@@ -255,6 +255,7 @@
 | *der Beitrag (Beiträge)* |                   | *die Aufgabe(n)*      |
 |                          |                   | *die Überschrift(en)* |
 |                          |                   | *die Zeitschrift(en)* |
+|                          |                   | *die Vorlesung(en)*   |
 
 | Masculine          | Neuter              | Feminine         |
 | ------------------ | ------------------- | ---------------- |

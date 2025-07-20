@@ -487,6 +487,7 @@
 | ==*ziehen*==            | *gezogen*          | *zog*           | `[Accusative]`           | *Er zog sie an den Haaren.*                                         |
 | *stoßen*                | *gestoßen*         | *stieß*         | `[Accusative]`           | *Er stieß sie weg.*                                                 |
 |                         |                    |                 |                          |                                                                     |
+| *stören*                | -                  | -               | `[Accusative]`           | *Aber es ist später, ich störe dich sicher.*                        |
 | *schlagen*              | *geschlagen*       | *schlug*        | `[Accusative]`           | *Gestern habe er mich geschlagen.*                                  |
 | *peitschen*             | -                  | -               | `[Accusative]`           | *Ich peitsche jeden Sklaven.*                                       |
 | *brechen*               | *gebrochen*        | *brach*         | `[Dative] [Accusative]`  | *Ich werde dir das Genick brechen.*                                 |

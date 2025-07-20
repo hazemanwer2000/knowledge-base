@@ -284,6 +284,7 @@
 |                       |                 |             |                          |                                                                          |
 | *leiden*              | *gelitten*      | *litt*      | -                        | *Ich leide jeden Tag.*                                                   |
 | *schmerzen*           | -               | -           | -                        | *Es schmerzt.*                                                           |
+| *erholen*             | -               | -           | `[Accusative/Reflexive]` | *Ich erhole mich langsam.*                                               |
 |                       |                 |             |                          |                                                                          |
 | *führen*              | -               | -           | `[Accusative]`           | *Ich führte ihn raus.*                                                   |
 | *befehlen*            | *befohlen*      | *befahl*    | `[Dative]`               | *Ich befehle dir!*                                                       |

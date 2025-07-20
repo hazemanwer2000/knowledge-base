@@ -312,6 +312,7 @@
 |                          |                         | *die Richtung(en)*   |
 |                          |                         | *die Ampel(n)*       |
 |                          |                         | *die Ecke(n)*        |
+|                          |                         | *die Adresse(n)*     |
 
 | Masculine | Neuter | Feminine            |
 | --------- | ------ | ------------------- |

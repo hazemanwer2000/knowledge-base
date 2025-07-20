@@ -384,9 +384,10 @@
 | *der Hinweis(e)*             | *das Geheimnis(se)* |          |
 | *der Vorschlag (Vorschläge)* |                     |          |
 
-| Masculine              | Neuter        | Feminine |
-| ---------------------- | ------------- | -------- |
-| *der Anfang (Anfänge)* | *das Ende(n)* |          |
+| Masculine                | Neuter        | Feminine |
+| ------------------------ | ------------- | -------- |
+| *der Anfang (Anfänge)*   | *das Ende(n)* |          |
+| *die Schluss (Schlüsse)* |               |          |
 
 | Masculine            | Neuter | Feminine |
 | -------------------- | ------ | -------- |

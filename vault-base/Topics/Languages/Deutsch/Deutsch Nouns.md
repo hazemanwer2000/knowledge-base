@@ -183,7 +183,8 @@
 | Masculine      | Neuter              | Feminine             |
 | -------------- | ------------------- | -------------------- |
 | *der Monat(e)* | *das Jahr(e)*       | *die Zeit*           |
-| *der Tag(e)*   | *das Wochenende(n)* | *die Stunde(n)*      |
+| *der Tag(e)*   | *das Wochenende(n)* | *die Pause(n)*       |
+|                |                     | *die Stunde(n)*      |
 |                |                     | *die Minute(n)*      |
 |                |                     | *die Sekunde(n)*     |
 |                |                     | *die Woche(n)*       |

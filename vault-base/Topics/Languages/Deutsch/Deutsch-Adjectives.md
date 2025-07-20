@@ -51,6 +51,8 @@
 | *streng*           |
 | *beruflich*        |
 | *verfügbar*        |
+| *nützlich*         |
+| *abhängig*         |
 | *neugierig*        |
 | *gemein*<br>*fies* |
 | *hartnäckig*       |

@@ -256,6 +256,7 @@
 |                          |                   | *die Überschrift(en)* |
 |                          |                   | *die Zeitschrift(en)* |
 |                          |                   | *die Vorlesung(en)*   |
+|                          |                   | *die Lektion(en)*     |
 
 | Masculine          | Neuter              | Feminine         |
 | ------------------ | ------------------- | ---------------- |

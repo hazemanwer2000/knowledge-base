@@ -96,6 +96,7 @@ Phrases:
 | *wahrscheinlich*                      | *Wahrscheinlich sprechen sie über mich.*                               |
 | *bereits*<br>*schon*                  | *Ich bin bereits/schon gegangen.*                                      |
 | *normalerweise*                       | *Normalerweise muss ich am Sonntag zur Bank gehen.*                    |
+| *sofort*                              | *Komm sofort!*                                                         |
 
 ## References
 ---

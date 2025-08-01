@@ -104,7 +104,7 @@
 | -------------------- | ----------------------- | --------------------- |
 | *der Park(s)*        | *das Kino(s)*           | *die Bibliothek(en)*  |
 | *der Markt (Märkte)* | *das Fitnessstudio(s)*  | *die Apotheke(n)*     |
-|                      | *das Stadion (Stadien)* |                       |
+|                      | *das Stadion (Stadien)* | *die Bank(en)*        |
 |                      | *das Hotel(s)*          |                       |
 |                      | *das Restaurant(s)*     |                       |
 |                      |                         |                       |

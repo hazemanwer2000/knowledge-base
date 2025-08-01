@@ -455,6 +455,7 @@
 | *wechseln*              | -                  | -               | `[Accusative]`           | *Ich wechsle den Reifen meines Autos.*                              |
 |                         |                    |                 |                          |                                                                     |
 | *mieten*                | -                  | -               | `[Accusative]`           | *Wir haben ein Auto gemietet.*                                      |
+| *vermieten*             | -                  | -               | `[Accusative]`           | *Ich habe mein Auto für zwei Jahren vermietet.*                     |
 | *kaufen*                | -                  | -               | `[Dative] [Accusative]`  | *Ich kaufte dir Blumen.*                                            |
 | *verkaufen*             | -                  | -               | `[Dative] [Accusative]`  | *Du verkauftest mir Blumen.*                                        |
 | *bezahlen*              | -                  | -               | `[Dative] [Accusative]`  | *Ich bezahle dir das Doppelte.*                                     |

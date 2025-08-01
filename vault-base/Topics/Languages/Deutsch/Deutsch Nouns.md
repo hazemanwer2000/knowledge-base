@@ -100,26 +100,27 @@
 ### ~~Many Places~~
 ---
 
-| Masculine            | Neuter                  | Feminine              |
-| -------------------- | ----------------------- | --------------------- |
-| *der Park(s)*        | *das Kino(s)*           | *die Bibliothek(en)*  |
-| *der Markt (Märkte)* | *das Fitnessstudio(s)*  | *die Apotheke(n)*     |
-|                      | *das Stadion (Stadien)* | *die Bank(en)*        |
-|                      | *das Hotel(s)*          |                       |
-|                      | *das Restaurant(s)*     |                       |
-|                      |                         |                       |
-|                      | *das Fest(e)*           | *die Party(s)*        |
-|                      | *das Konzert(e)*        |                       |
-|                      |                         |                       |
-| *der Verein(e)*      | *das Büro(s)*           | *die Firma (Firmen)*  |
-|                      | *das Unternehmen(en)*   | *die Schule(n)*       |
-|                      | *das Geschäft(e)*       | *die Universität(en)* |
-|                      |                         | *die Agentur(en)*     |
-|                      |                         |                       |
-| *der Wald (Wälder)*  |                         | *die Wüste(n)*        |
-| *der Fluss (Flüsse)* |                         |                       |
-| *der Berg(e)*        |                         |                       |
-| *der Hügel*          |                         |                       |
+| Masculine            | Neuter                  | Feminine                    |
+| -------------------- | ----------------------- | --------------------------- |
+| *der Park(s)*        | *das Kino(s)*           | *die Bibliothek(en)*        |
+| *der Markt (Märkte)* | *das Fitnessstudio(s)*  | *die Apotheke(n)*           |
+|                      | *das Stadion (Stadien)* | *die Bank(en)*              |
+|                      | *das Hotel(s)*          |                             |
+|                      | *das Restaurant(s)*     |                             |
+|                      |                         |                             |
+|                      | ==*das Ereignis(se)*==  | ==*die Veranstaltung(en)*== |
+|                      | *das Fest(e)*           | *die Party(s)*              |
+|                      | *das Konzert(e)*        |                             |
+|                      |                         |                             |
+| *der Verein(e)*      | *das Büro(s)*           | *die Firma (Firmen)*        |
+|                      | *das Unternehmen(en)*   | *die Schule(n)*             |
+|                      | *das Geschäft(e)*       | *die Universität(en)*       |
+|                      |                         | *die Agentur(en)*           |
+|                      |                         |                             |
+| *der Wald (Wälder)*  |                         | *die Wüste(n)*              |
+| *der Fluss (Flüsse)* |                         |                             |
+| *der Berg(e)*        |                         |                             |
+| *der Hügel*          |                         |                             |
 
 ### ~~Many Things~~
 ---

@@ -255,6 +255,7 @@
 | *der Test(s)*            |                   | *die Nachricht(en)*   |
 | *der Beitrag (Beiträge)* |                   | *die Aufgabe(n)*      |
 | *der Text(e)*            |                   | *die Überschrift(en)* |
+|                          |                   | *die Titel*           |
 |                          |                   | *die Zeitschrift(en)* |
 |                          |                   | *die Vorlesung(en)*   |
 |                          |                   | *die Lektion(en)*     |

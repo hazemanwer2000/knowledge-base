@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/Languages/Deutsch/Deutsch Nouns.md",
+                "file": "Topics/Languages/Deutsch/Deutsch-Verbs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Deutsch Nouns"
+              "title": "Deutsch-Verbs"
             }
           }
         ],
@@ -176,15 +176,15 @@
   },
   "active": "faf4e148f6b961a8",
   "lastOpenFiles": [
-    "Topics/Languages/Deutsch/Deutsch-Verbs.md",
     "Topics/Languages/Deutsch.md",
-    "Topics/Languages/Deutsch/Deutsch-Adjectives.md",
-    "Topics/Languages/Deutsch/Deutsch Nouns.md",
-    "Topics/Languages/Deutsch/Deutsch-Prepositions.md",
+    "Topics/Languages/Deutsch/Deutsch-Grammar.md",
     "Topics/Languages.md",
     "Welcome.md",
+    "Topics/Languages/Deutsch/Deutsch Nouns.md",
+    "Topics/Languages/Deutsch/Deutsch-Verbs.md",
+    "Topics/Languages/Deutsch/Deutsch-Adjectives.md",
+    "Topics/Languages/Deutsch/Deutsch-Prepositions.md",
     "Topics/Languages/Deutsch/Deutsch-Miscellaneous.md",
-    "Topics/Languages/Deutsch/Deutsch-Grammar.md",
     "Topics/Languages/Deutsch/Deutsch-Subordinate-Clauses.md",
     "Topics/TechCraft.md",
     "Topics/Techcraft/Safety/Standards/ISO-26262.md",

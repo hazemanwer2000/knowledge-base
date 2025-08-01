@@ -118,15 +118,15 @@
 | ---------- | --------------- |
 | *können*   | *gekonnt*       |
 
-|             | Present  | Past      | Past-Subjuntive |
-| ----------- | -------- | --------- | --------------- |
-| *ich*       | *kann*   | *konnte*  | *könnte*        |
-| *du*        | *kannst* | *kontest* | *köntest*       |
-| *er/es/sie* | *kann*   | *konnte*  | *könnte*        |
-|             |          |           |                 |
-| *wir*       | *können* | *konnten* | *könnten*       |
-| *ihr*       | *könnt*  | *konntet* | *könntet*       |
-| *sie/Sie*   | *können* | *konnten* | *könnten*       |
+|             | Present  | Past       | Past-Subjuntive |
+| ----------- | -------- | ---------- | --------------- |
+| *ich*       | *kann*   | *konnte*   | *könnte*        |
+| *du*        | *kannst* | *konntest* | *könntest*      |
+| *er/es/sie* | *kann*   | *konnte*   | *könnte*        |
+|             |          |            |                 |
+| *wir*       | *können* | *konnten*  | *könnten*       |
+| *ihr*       | *könnt*  | *konntet*  | *könntet*       |
+| *sie/Sie*   | *können* | *konnten*  | *könnten*       |
 #### *müssen (must)*
 ---
 

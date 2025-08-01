@@ -478,7 +478,7 @@
 | *==stehen==*            | *gestanden*        | *stand*         | -                        | *Ich stand auf dem Tisch.*                                          |
 |                         |                    |                 |                          |                                                                     |
 | *schlafen*              | *geschlafen*       | *schlief*       | -                        | *Gestern habe ich spät geschlafen.*                                 |
-| ==*aufwachen*==         | -                  | -               | -                        | *Ich habe um sechs Uhr heute aufgewacht.*                           |
+| ==*aufwachen*==         | -                  | -               | -                        | *Ich bin um sechs Uhr heute aufgewacht.*                            |
 | *aufräumen*             | -                  | -               | `[Accusative]`           | *Jeden Tag, Nachdem ich aufwache, räume ich immer mein Zimmer auf.* |
 |                         |                    |                 |                          |                                                                     |
 | *öffnen*                | -                  | -               | `[Accusative]`           | *Ich öffne für Sie die Tür.*                                        |

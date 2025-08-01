@@ -95,6 +95,7 @@ Phrases:
 | *deshalb*                             | *Ich habe später gearbeitet, deshalb bin ich müde.*                    |
 | *wahrscheinlich*                      | *Wahrscheinlich sprechen sie über mich.*                               |
 | *bereits*<br>*schon*                  | *Ich bin bereits/schon gegangen.*                                      |
+| *normalerweise*                       | *Normalerweise muss ich am Sonntag zur Bank gehen.*                    |
 
 ## References
 ---

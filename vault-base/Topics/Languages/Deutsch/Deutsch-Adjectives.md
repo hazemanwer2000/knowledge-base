@@ -7,40 +7,40 @@
 | *gut*    | *besser*    | *best*      |
 | *viel*   | *mehr*      | *meist*     |
 
-| Adjective                 | Antonym                                    |
-| ------------------------- | ------------------------------------------ |
-| *groß*                    | *klein*                                    |
-| *breit*                   | *eng*                                      |
-| *weit*                    | *nah*                                      |
-| *stark*                   | *schwach*                                  |
-| *klug*                    | *dumm*                                     |
-| *neu*                     | *alt*                                      |
-| *hoch*                    | *niedrig*<br>*tief*                        |
-| *gut*                     | *schlecht*<br>*furchtbar*                  |
-| *schön*<br>*hübsch*       | *hässlich*                                 |
-| *viel*                    | *wenig*                                    |
-| *schwer*<br>*kompliziert* | *einfach*                                  |
-| *früh*                    | *spät*<br>                                 |
-| *lang*                    | *kurz*                                     |
-| *langfristig*             | *kurzfristig*                              |
-| *richtig*                 | *falsch*                                   |
-| *schnell*                 | *langsam*                                  |
-| *voll*                    | *leer*                                     |
-| *hell*                    | *dunkel*                                   |
-| *glücklig*<br>*froh*      | *traurig*                                  |
-| *böse*                    | *nett*                                     |
-| *ähnlich*<br>*gleich*     | *verschieden*                              |
-| *frei*                    | *beschäftigt*                              |
-| *teuer*                   | *billig*                                   |
-| *laut*                    | *leise*<br>*still*                         |
-| *aufgeregt*               | *gelangweilt*                              |
-| *stolz*                   | *bescheiden*                               |
-| *mutig*                   | *ängstlich*<br>*feige*                     |
-| *dominant*                | *submissiv*<br>*unterwürfig*<br>*gehorsam* |
-| *wütend*                  | *zufrieden*                                |
-| *erfolgreich*             | *erfolglos*                                |
-| *üblich*<br>*normal*      | *seltsam*                                  |
-| *freiwillig*              | *obligatorisch*                            |
+| Adjective                           | Antonym                                    |
+| ----------------------------------- | ------------------------------------------ |
+| *groß*                              | *klein*                                    |
+| *breit*                             | *eng*                                      |
+| *weit*                              | *nah*                                      |
+| *stark*                             | *schwach*                                  |
+| *klug*                              | *dumm*                                     |
+| *neu*                               | *alt*                                      |
+| *hoch*                              | *niedrig*<br>*tief*                        |
+| *gut*                               | *schlecht*<br>*furchtbar*                  |
+| *schön*<br>*hübsch*                 | *hässlich*                                 |
+| *viel*                              | *wenig*                                    |
+| *schwer*<br>*kompliziert*           | *einfach*                                  |
+| *früh*                              | *spät*<br>                                 |
+| *lang*                              | *kurz*                                     |
+| *langfristig*                       | *kurzfristig*                              |
+| *richtig*                           | *falsch*                                   |
+| *schnell*                           | *langsam*                                  |
+| *voll*                              | *leer*                                     |
+| *hell*                              | *dunkel*                                   |
+| *glücklig*<br>*froh*                | *traurig*                                  |
+| *böse*                              | *nett*                                     |
+| *ähnlich*<br>*gleich*               | *verschieden*                              |
+| *frei*                              | *beschäftigt*                              |
+| *teuer*                             | *billig*                                   |
+| *laut*                              | *leise*<br>*still*                         |
+| *aufgeregt*                         | *gelangweilt*                              |
+| *stolz*                             | *bescheiden*                               |
+| *mutig*                             | *nervös*<br>*ängstlich*<br>*feige*         |
+| *dominant*                          | *submissiv*<br>*unterwürfig*<br>*gehorsam* |
+| *geärgert*<br>*genervt*<br>*wütend* | *zufrieden*                                |
+| *erfolgreich*                       | *erfolglos*                                |
+| *üblich*<br>*normal*                | *seltsam*                                  |
+| *freiwillig*                        | *obligatorisch*                            |
 
 | Adjective          |
 | ------------------ |

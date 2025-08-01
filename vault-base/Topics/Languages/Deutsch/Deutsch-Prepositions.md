@@ -55,9 +55,10 @@ An Accusative/Dative Preposition applies,
 ### Genitive Prepositions
 ---
 
-| Preposition | Example: *Deutsch*    | Example: *English*   |
-| ----------- | --------------------- | -------------------- |
-| *während*   | *während der Sitzung* | *during the session* |
+| Preposition | Example               |
+| ----------- | --------------------- |
+| *während*   | *während der Sitzung* |
+| *wegen*     | *wegen der Familie*   |
 ## References
 ---
 [1] Hammer's German Grammar and Usage, Martin Durrel

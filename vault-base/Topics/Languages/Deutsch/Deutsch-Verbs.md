@@ -500,7 +500,7 @@
 | *binden*                | *gebunden*         | *band*          | `[Accusative]`           | *Ich band die Beine zusammen.*                                      |
 | *hängen*                | *gehangen*         | *hing*          | -                        | *Sie hing an ihren Haaren.*                                         |
 |                         |                    |                 |                          |                                                                     |
-| ==*erscheinen*==        | *erschienen*       | *erschien*      | -                        | *Er hat erschienen.*                                                |
+| ==*erscheinen*==        | *erschienen*       | *erschien*      | -                        | *Er ist erschienen.*                                                |
 | ==*verschwinden*==      | *verschwunden*     | *verschwand*    | -                        | *Er ist einfach verschwunden.*                                      |
 |                         |                    |                 |                          |                                                                     |
 | *stehlen*               | *gestohlen*        | *stahl*         | `[Accusative]`           | *Dieses, das ich von dir gestohlen habe.*                           |

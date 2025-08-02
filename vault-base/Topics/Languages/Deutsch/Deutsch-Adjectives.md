@@ -64,6 +64,8 @@
 | *müde*             |
 | *ledig*            |
 | *schwanger*        |
+| *lecker*           |
+| *scharf*           |
 
 | Adjective |
 | --------- |

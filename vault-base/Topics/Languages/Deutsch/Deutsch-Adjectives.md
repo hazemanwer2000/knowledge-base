@@ -49,6 +49,7 @@
 | *ehrlich*          |
 | *ernst*            |
 | *streng*           |
+| *notwendig*        |
 | *beruflich*        |
 | *verfügbar*        |
 | *nützlich*         |

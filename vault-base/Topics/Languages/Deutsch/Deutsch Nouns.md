@@ -388,6 +388,11 @@
 |                | *das Rechteck(e)* |          |
 |                | *das Dreieck(e)*  |          |
 
+| Masculine | Neuter | Feminine         |
+| --------- | ------ | ---------------- |
+|           |        | *die Wahl(en)*   |
+|           |        | *die Option(en)* |
+
 | Masculine           | Neuter | Feminine           |
 | ------------------- | ------ | ------------------ |
 | *der Gott (Götter)* |        | *die Religion(en)* |

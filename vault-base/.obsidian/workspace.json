@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/Languages/Deutsch/Deutsch-Verbs.md",
+                "file": "Topics/Languages/Deutsch/Deutsch-Grammar.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Deutsch-Verbs"
+              "title": "Deutsch-Grammar"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -173,10 +174,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c8bd1905a3abfbe2",
+  "active": "5b5a20cf0c35c743",
   "lastOpenFiles": [
-    "Topics/Languages/Deutsch/Deutsch-Verbs.md",
     "Topics/Languages/Deutsch.md",
+    "Topics/Languages/Deutsch/Deutsch-Verbs.md",
     "Topics/Languages/Deutsch/Deutsch Nouns.md",
     "Topics/Languages/Deutsch/Deutsch-Adjectives.md",
     "Topics/Languages/Deutsch/Deutsch-Miscellaneous.md",

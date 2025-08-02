@@ -121,7 +121,7 @@ See **Indefinite Article**.
 
 | Deutsch                               | English |
 | ------------------------------------- | ------- |
-| *einig-*                              | *some*  |
+| *einig-*<br>*manch-*                  | *some*  |
 | *beid-*                               | *both*  |
 | *all-*                                | *all*   |
 | *kein-* (See Indefinite Article)      | *none*  |

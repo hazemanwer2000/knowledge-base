@@ -287,7 +287,7 @@
 | ------------------- | ------ | --------------- |
 | *der Termin(e)*     |        | *die Ferien*    |
 | *der Besuch(e)*     |        | *die Fahrt(en)* |
-| *der Urlaub(e)*     |        |                 |
+| *der Urlaub(e)*     |        | *die Reise(n)*  |
 | *der Aufenthalt(e)* |        |                 |
 
 | Masculine      | Neuter       | Feminine             |

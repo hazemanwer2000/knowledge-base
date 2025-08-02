@@ -258,17 +258,17 @@
 | *der Test(s)*            |                   | *die Nachricht(en)*   |
 | *der Beitrag (Beiträge)* |                   | *die Aufgabe(n)*      |
 | *der Text(e)*            |                   | *die Überschrift(en)* |
-|                          |                   | *die Titel*           |
 |                          |                   | *die Zeitschrift(en)* |
 |                          |                   | *die Vorlesung(en)*   |
 |                          |                   | *die Lektion(en)*     |
 |                          |                   | *die Karte(n)*        |
 
-| Masculine          | Neuter              | Feminine         |
-| ------------------ | ------------------- | ---------------- |
-| *der Satz (Sätze)* | *das Wort (Wörter)* | *die Sprache(n)* |
-|                    |                     | *die Nummer(n)*  |
-|                    |                     | *die Seite(n)*   |
+| Masculine              | Neuter              | Feminine         |
+| ---------------------- | ------------------- | ---------------- |
+| *der Satz (Sätze)*     | *das Wort (Wörter)* | *die Sprache(n)* |
+| *der Absatz (Absätze)* | *das Kapitel*       | *die Nummer(n)*  |
+|                        |                     | *die Seite(n)*   |
+|                        |                     | *die Titel*      |
 
 | Masculine                | Neuter               | Feminine                |
 | ------------------------ | -------------------- | ----------------------- |

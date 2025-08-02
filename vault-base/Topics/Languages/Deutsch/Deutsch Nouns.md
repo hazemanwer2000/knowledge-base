@@ -108,6 +108,8 @@
 |                       | *das Hotel(s)*          |                             |
 |                       | *das Restaurant(s)*     |                             |
 |                       |                         |                             |
+| *der Hort(e)*         |                         |                             |
+|                       |                         |                             |
 |                       | ==*das Ereignis(se)*==  | ==*die Veranstaltung(en)*== |
 |                       | *das Fest(e)*           | *die Party(s)*              |
 |                       | *das Konzert(e)*        |                             |

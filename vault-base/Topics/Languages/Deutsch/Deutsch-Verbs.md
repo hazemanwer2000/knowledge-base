@@ -369,6 +369,7 @@
 | *wünschen*            | -               | -           | `[Dative] [Accusative]`  | *Ich wünsche dir einen schönen Geburtstag.*                              |
 |                       |                 |             |                          |                                                                          |
 | *entspannen*          | -               | -           | `[Accusative/Reflexive]` | *Ab und an braucht man sich zu entspannen.*                              |
+| *ausruhen*            | -               | -           | `[Accusative/Reflexive]` | *Ab und an braucht man sich auszuruhen.*                                 |
 | *überraschen*         | -               | -           | `[Accusative]`           | *Ich dachte, ich überrasche Alex an der Uni and lade sie zum Essen ein.* |
 |                       |                 |             |                          |                                                                          |
 | *unterstützen*        | -               | -           | `[Accusative]`           | *Ich unterstützte meine Kinder dursch Uni.*                              |

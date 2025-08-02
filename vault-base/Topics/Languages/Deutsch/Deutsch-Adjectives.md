@@ -57,6 +57,7 @@
 | *neugierig*        |
 | *gemein*<br>*fies* |
 | *hartnäckig*       |
+| *anstrengend*      |
 | *lustig*           |
 | *stressig*         |
 | *romantisch*       |

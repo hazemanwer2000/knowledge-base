@@ -341,12 +341,12 @@
 |                 |             | *die Hilfe(n)*    |
 |                 |             | *die Ruhe*        |
 
-| Masculine | Neuter | Feminine               |
-| --------- | ------ | ---------------------- |
-|           |        | *die Polizei*          |
-|           |        | *die Regierung(en)*    |
-|           |        | *die Gemeinschaft(en)* |
-|           |        | *die Gesellschaft(en)* |
+| Masculine | Neuter         | Feminine               |
+| --------- | -------------- | ---------------------- |
+|           | *das Recht(e)* | *die Polizei*          |
+|           |                | *die Regierung(en)*    |
+|           |                | *die Gemeinschaft(en)* |
+|           |                | *die Gesellschaft(en)* |
 
 | Masculine     | Neuter | Feminine       |
 | ------------- | ------ | -------------- |

@@ -513,6 +513,9 @@
 | *stehlen*               | *gestohlen*        | *stahl*         | `[Accusative]`           | *Dieses, das ich von dir gestohlen habe.*                           |
 | *töten*                 | -                  | -               | `[Accusative]`           | *Er tötete ihr.*                                                    |
 |                         |                    |                 |                          |                                                                     |
+| *pflanzen*              | -                  | -               | `[Accusative]`           | *Ich pflanze Blumen zu hause.*                                      |
+| *wachsen*               | *gewachsen*        | *wuchs*         | -                        | *Ich ließ meine Haare lang wachsen.*                                |
+|                         |                    |                 |                          |                                                                     |
 | *anklicken*             | -                  | -               | `[Accusative]`           | *Bitte, klicken Sie jenes App an.*                                  |
 | *kopieren*              | -                  | -               | `[Accusative]`           | *Kopiere das Text.*                                                 |
 | *einfügen*              | -                  | -               | `[Accusative]`           | *Und füge es hier ein.*                                             |

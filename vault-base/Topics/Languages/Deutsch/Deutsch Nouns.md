@@ -139,6 +139,9 @@
 | *der Koffer*             |                             |                    |
 | *der Käfig(e)*           |                             |                    |
 |                          |                             |                    |
+|                          | *das Rezept(e)*             |                    |
+|                          | *das Medikament(e)*         |                    |
+|                          |                             |                    |
 |                          | *das Geld*                  | *die Rechnung(en)* |
 |                          |                             |                    |
 | *der Fernseher*          | *das Mikrofon(e)*           | *die Tastatur(en)* |

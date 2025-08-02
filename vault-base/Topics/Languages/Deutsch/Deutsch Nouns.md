@@ -417,7 +417,7 @@
 | Masculine                | Neuter        | Feminine |
 | ------------------------ | ------------- | -------- |
 | *der Anfang (Anfänge)*   | *das Ende(n)* |          |
-| *die Schluss (Schlüsse)* |               |          |
+| *der Schluss (Schlüsse)* |               |          |
 
 | Masculine            | Neuter | Feminine |
 | -------------------- | ------ | -------- |

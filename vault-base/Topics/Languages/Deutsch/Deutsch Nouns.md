@@ -144,8 +144,9 @@
 |                          |                             |                    |
 |                          | *das Geld*                  | *die Rechnung(en)* |
 |                          |                             |                    |
-| *der Fernseher*          | *das Mikrofon(e)*           | *die Tastatur(en)* |
-|                          | *das Handy(s)*              | *die Maus (Mäuse)* |
+| *der Fernseher*          | ==*das Gerät(e)*==          | *die Tastatur(en)* |
+|                          | *das Mikrofon(e)*           | *die Maus (Mäuse)* |
+|                          | *das Handy(s)*              |                    |
 |                          |                             |                    |
 | *der Teller*             | *das Glas (Gläser)*         | *die Pfanne(n)*    |
 |                          |                             |                    |

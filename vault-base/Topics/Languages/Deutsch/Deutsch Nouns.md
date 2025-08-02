@@ -154,7 +154,7 @@
 |                          | *das Schiff(e)*             |                    |
 |                          |                             |                    |
 | *der Baum (Bäume)*       |                             | *die Pflanze(n)*   |
-|                          |                             | *die Blume(n)*     |
+| *der Samen*              |                             | *die Blume(n)*     |
 
 ### ~~Food and Drinks~~
 ---

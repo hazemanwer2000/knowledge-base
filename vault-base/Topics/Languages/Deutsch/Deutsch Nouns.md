@@ -374,6 +374,7 @@
 | *der Kurs(e)*    | *das Studium (Studien)*     | *die Prüfung(en)*    |
 | *der Unterricht* | *das Praktikum (Praktika)*  | *die Note(n)*        |
 |                  |                             | *die Lösung(en)*     |
+|                  |                             | *die Lehre(n)*       |
 |                  |                             |                      |
 |                  | *das Abitur(e)*             | *die Ausbildung(en)* |
 |                  | *das Gymnasium (Gymnasien)* |                      |

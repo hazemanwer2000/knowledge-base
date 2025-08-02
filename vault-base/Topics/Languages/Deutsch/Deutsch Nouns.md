@@ -268,17 +268,17 @@
 |                    |                     | *die Nummer(n)*  |
 |                    |                     | *die Seite(n)*   |
 
-| Masculine            | Neuter               | Feminine                |
-| -------------------- | -------------------- | ----------------------- |
-| *der Grund (Gründe)* | *das Thema (Themen)* | *die Idee(n)*           |
-| *der Sinn(e)*        | *das Interesse*      | *die Regel(n)*          |
-| *der Untershied(e)*  | *das Ergebnis(se)*   | *die Ähnlichkeit(en)*   |
-| *der Plan (Pläne)*   | *das Beispiel(e)*    | *die Methode(n)*        |
-| *der Punkt(e)*       | *das Fach (Fächer)*  | *die Bedingung(en)*     |
-| *der Fehler*         |                      | *die Voraussetzung(en)* |
-|                      |                      | *die Ausnahme(n)*       |
-|                      |                      | *die Reihenfolge(n)*    |
-|                      |                      | *die Notiz(en)*         |
+| Masculine                | Neuter               | Feminine                |
+| ------------------------ | -------------------- | ----------------------- |
+| *der Grund (Gründe)*     | *das Thema (Themen)* | *die Idee(n)*           |
+| *der Sinn(e)*            | *das Interesse*      | *die Regel(n)*          |
+| *der Untershied(e)*      | *das Ergebnis(se)*   | *die Ähnlichkeit(en)*   |
+| *der Plan (Pläne)*       | *das Beispiel(e)*    | *die Methode(n)*        |
+| *der Punkt(e)*           | *das Fach (Fächer)*  | *die Bedingung(en)*     |
+| *der Fehler*             |                      | *die Voraussetzung(en)* |
+| *der Zustand (Zustände)* |                      | *die Ausnahme(n)*       |
+|                          |                      | *die Reihenfolge(n)*    |
+|                          |                      | *die Notiz(en)*         |
 
 | Masculine       | Neuter | Feminine |
 | --------------- | ------ | -------- |
@@ -297,10 +297,10 @@
 | *der Akt(e)*  | *das Lied(er)* |                  |
 |               | *das Bild(er)* |                  |
 
-| Masculine      | Neuter           | Feminine         |
-| -------------- | ---------------- | ---------------- |
-| *der Beruf(e)* | *das Projekt(e)* | *die Arbeit(en)* |
-|                | *das Werk(e)*    |                  |
+| Masculine      | Neuter           | Feminine              |
+| -------------- | ---------------- | --------------------- |
+| *der Beruf(e)* | *das Projekt(e)* | *die Arbeit(en)*      |
+|                | *das Werk(e)*    | *die Spezialität(en)* |
 
 | Masculine                | Neuter                  | Feminine             |
 | ------------------------ | ----------------------- | -------------------- |
@@ -327,13 +327,14 @@
 | *der Stress(e)* | *das Glück* | *die Liebe*       |
 | *der Erfolg(e)* |             | *die Einsamkeit*  |
 | *der Spaß*      |             | *die Sorge(n)*    |
-|                 |             | *die Lust*        |
-|                 |             | *die Sünde(n)*    |
+| *der Hunger*    |             | *die Lust*        |
+| *der Durst*     |             | *die Sünde(n)*    |
 |                 |             | *die Lüge(n)*     |
 |                 |             | *die Intelligenz* |
 |                 |             | *die Angst*       |
 |                 |             | *die Logik*       |
 |                 |             | *die Hilfe(n)*    |
+|                 |             | *die Ruhe*        |
 
 | Masculine | Neuter | Feminine            |
 | --------- | ------ | ------------------- |

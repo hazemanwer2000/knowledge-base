@@ -37,7 +37,7 @@
 | *stolz*                             | *bescheiden*                               |
 | *mutig*                             | *nervös*<br>*ängstlich*<br>*feige*         |
 | *dominant*                          | *submissiv*<br>*unterwürfig*<br>*gehorsam* |
-| *geärgert*<br>*genervt*<br>*wütend* | *zufrieden*                                |
+| *geärgert*<br>*genervt*<br>*wütend* | *bequem*<br>*zufrieden*                    |
 | *erfolgreich*                       | *erfolglos*                                |
 | *üblich*<br>*normal*                | *seltsam*                                  |
 | *freiwillig*                        | *obligatorisch*                            |

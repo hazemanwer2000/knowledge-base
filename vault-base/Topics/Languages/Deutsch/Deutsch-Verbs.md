@@ -248,6 +248,7 @@
 |                   |                 |               |                         |                                                            |
 | *bedeuten/meinen* | -               | -             | `[Accusative]`          | *Wenn du weiß, was ich bedeute/meine.*                     |
 | *denken*          | *gedacht*       | *dachte*      | -                       | *Ich habe darüber nachgedacht.*                            |
+| *überlegen*       | -               | -             | `[Dative] [Accusative]` | *Ich überlege es mir noch.*                                |
 |                   |                 |               |                         |                                                            |
 | *nennen*          | *genannt*       | *nannte*      | `[Accusative]`          | *Ich habe ihn Alex genannt.*                               |
 | *heißen*          | -               | -             | -                       | *Ich heiße Sam.*                                           |

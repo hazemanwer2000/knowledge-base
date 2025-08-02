@@ -16,7 +16,7 @@
 | *klug*                              | *dumm*                                     |
 | *neu*                               | *alt*                                      |
 | *hoch*                              | *niedrig*<br>*tief*                        |
-| *gut*                               | *schlecht*<br>*furchtbar*                  |
+| *gut*<br>*herrlich*                 | *schlecht*<br>*furchtbar*                  |
 | *schön*<br>*hübsch*                 | *hässlich*                                 |
 | *viel*                              | *wenig*                                    |
 | *schwer*<br>*kompliziert*           | *einfach*                                  |

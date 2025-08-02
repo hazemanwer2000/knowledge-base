@@ -267,7 +267,7 @@
 | *der Test(s)*            |                   | *die Nachricht(en)*   |
 | *der Beitrag (Beiträge)* |                   | *die Aufgabe(n)*      |
 | *der Text(e)*            |                   | *die Überschrift(en)* |
-|                          |                   | *die Zeitschrift(en)* |
+| *der Artikel*            |                   | *die Zeitschrift(en)* |
 |                          |                   | *die Vorlesung(en)*   |
 |                          |                   | *die Lektion(en)*     |
 |                          |                   | *die Karte(n)*        |
@@ -291,6 +291,7 @@
 |                          |                      | *die Ausnahme(n)*       |
 |                          |                      | *die Reihenfolge(n)*    |
 |                          |                      | *die Notiz(en)*         |
+|                          |                      | *die Umfrage(n)*        |
 
 | Masculine       | Neuter | Feminine |
 | --------------- | ------ | -------- |

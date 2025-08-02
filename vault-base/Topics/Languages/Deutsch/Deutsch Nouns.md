@@ -317,6 +317,7 @@
 | *der Beruf(e)* | *das Projekt(e)* | *die Arbeit(en)*      |
 |                | *das Werk(e)*    | *die Spezialität(en)* |
 |                |                  | *die Abteilung(en)*   |
+|                |                  | *die Schicht(en)*     |
 
 | Masculine                | Neuter                  | Feminine             |
 | ------------------------ | ----------------------- | -------------------- |

@@ -293,6 +293,7 @@
 |                       |                 |             |                          |                                                                          |
 | *entscheiden*         | *entschieden*   | *entschied* | -                        | *Ich entschied zu gehen.*                                                |
 | *wählen*              | -               | -           | -                        | *Am Ende wähle ich dich.*                                                |
+| *vorhaben*            | -               | -           | -                        | *Ich habe vorgehabt, heute raus zu gehen.*                               |
 |                       |                 |             |                          |                                                                          |
 | *beginnen*            | *begonnen*      | *began*     | -                        | *Es begann.*                                                             |
 | *dauern*              | -               | -           | -                        | *Es dauert zu lang.*                                                     |

@@ -33,11 +33,13 @@
 | *frei*                              | *beschäftigt*                              |
 | *teuer*                             | *billig*                                   |
 | *laut*                              | *leise*<br>*still*                         |
-| *aufgeregt*                         | *gelangweilt*                              |
+| *aufregend*                         | *langweilig*                               |
+| *aufgeregt*<br>                     | *gelangweilt*<br>                          |
 | *stolz*                             | *bescheiden*                               |
 | *mutig*                             | *nervös*<br>*ängstlich*<br>*feige*         |
 | *dominant*                          | *submissiv*<br>*unterwürfig*<br>*gehorsam* |
-| *geärgert*<br>*genervt*<br>*wütend* | *bequem*<br>*zufrieden*                    |
+| *geärgert*<br>*genervt*<br>*wütend* | *zufrieden*                                |
+| *anstrengend*                       | *befriedigend*<br>*bequem*                 |
 | *erfolgreich*                       | *erfolglos*                                |
 | *üblich*<br>*normal*                | *seltsam*                                  |
 | *freiwillig*                        | *obligatorisch*                            |
@@ -57,7 +59,6 @@
 | *neugierig*        |
 | *gemein*<br>*fies* |
 | *hartnäckig*       |
-| *anstrengend*      |
 | *lustig*           |
 | *stressig*         |
 | *romantisch*       |

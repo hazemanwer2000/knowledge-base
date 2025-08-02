@@ -152,6 +152,9 @@
 | *der Bahnhof (Bahnhöfe)* | *das Fahrrad (Fahrräder)*   |                    |
 |                          | *das Flugzeug(e)*           |                    |
 |                          | *das Schiff(e)*             |                    |
+|                          |                             |                    |
+| *der Baum (Bäume)*       |                             | *die Pflanze(n)*   |
+|                          |                             | *die Blume(n)*     |
 
 ### ~~Food and Drinks~~
 ---

@@ -273,12 +273,13 @@
 | Masculine                | Neuter               | Feminine                |
 | ------------------------ | -------------------- | ----------------------- |
 | *der Grund (Gründe)*     | *das Thema (Themen)* | *die Idee(n)*           |
-| *der Sinn(e)*            | *das Interesse*      | *die Regel(n)*          |
-| *der Untershied(e)*      | *das Ergebnis(se)*   | *die Ähnlichkeit(en)*   |
-| *der Plan (Pläne)*       | *das Beispiel(e)*    | *die Methode(n)*        |
-| *der Punkt(e)*           | *das Fach (Fächer)*  | *die Bedingung(en)*     |
-| *der Fehler*             |                      | *die Voraussetzung(en)* |
-| *der Zustand (Zustände)* |                      | *die Ausnahme(n)*       |
+| *der Sinn(e)*            | *das Interesse*      | *die Ahnung(en)*        |
+| *der Untershied(e)*      | *das Ergebnis(se)*   | *die Regel(n)*          |
+| *der Plan (Pläne)*       | *das Beispiel(e)*    | *die Ähnlichkeit(en)*   |
+| *der Punkt(e)*           | *das Fach (Fächer)*  | *die Methode(n)*        |
+| *der Fehler*             |                      | *die Bedingung(en)*     |
+| *der Zustand (Zustände)* |                      | *die Voraussetzung(en)* |
+|                          |                      | *die Ausnahme(n)*       |
 |                          |                      | *die Reihenfolge(n)*    |
 |                          |                      | *die Notiz(en)*         |
 
@@ -289,10 +290,10 @@
 | *der Urlaub(e)*     |        |          |
 | *der Aufenthalt(e)* |        |          |
 
-| Masculine      | Neuter       | Feminine |
-| -------------- | ------------ | -------- |
-| *der Sport(e)* | *das Tennis* |          |
-| *der Fußball*  |              |          |
+| Masculine      | Neuter       | Feminine             |
+| -------------- | ------------ | -------------------- |
+| *der Sport(e)* | *das Tennis* | *die Kunst (Künste)* |
+| *der Fußball*  |              |                      |
 
 | Masculine     | Neuter         | Feminine         |
 | ------------- | -------------- | ---------------- |
@@ -304,6 +305,7 @@
 | -------------- | ---------------- | --------------------- |
 | *der Beruf(e)* | *das Projekt(e)* | *die Arbeit(en)*      |
 |                | *das Werk(e)*    | *die Spezialität(en)* |
+|                |                  | *die Abteilung(en)*   |
 
 | Masculine                | Neuter                  | Feminine             |
 | ------------------------ | ----------------------- | -------------------- |

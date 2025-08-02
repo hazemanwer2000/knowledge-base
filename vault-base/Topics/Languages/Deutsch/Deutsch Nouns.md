@@ -297,7 +297,7 @@
 | Masculine     | Neuter         | Feminine         |
 | ------------- | -------------- | ---------------- |
 | *der Film(e)* | *das Spiel(e)* | *die Grafik(en)* |
-| *der Akt(e)*  | *das Lied(er)* |                  |
+| *der Akt(e)*  | *das Lied(er)* | *die Szene(n)*   |
 |               | *das Bild(er)* |                  |
 
 | Masculine      | Neuter           | Feminine              |

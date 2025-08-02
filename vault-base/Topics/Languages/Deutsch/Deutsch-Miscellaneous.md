@@ -97,6 +97,7 @@ Phrases:
 | *bereits*<br>*schon*                  | *Ich bin bereits/schon gegangen.*                                      |
 | *normalerweise*                       | *Normalerweise muss ich am Sonntag zur Bank gehen.*                    |
 | *sofort*                              | *Komm sofort!*                                                         |
+| *insgesamt*                           | *Die Ausbildung dauert insgesamt drei Jahre.*                          |
 
 ## References
 ---

@@ -374,12 +374,13 @@
 | --------- | --------------- | --------------- |
 |           | *das System(e)* | *die Datei(en)* |
 
-| Masculine | Neuter | Feminine          |
-| --------- | ------ | ----------------- |
-|           |        | *die Technologie* |
-|           |        | *die Mathematik*  |
-|           |        | *die Medizin*     |
-|           |        | *die Informatik*  |
+| Masculine | Neuter | Feminine            |
+| --------- | ------ | ------------------- |
+|           |        | *die Technologie*   |
+|           |        | *die Mathematik*    |
+|           |        | *die Medizin*       |
+|           |        | *die Informatik*    |
+|           |        | *die Geschichte(n)* |
 
 | Masculine      | Neuter            | Feminine |
 | -------------- | ----------------- | -------- |

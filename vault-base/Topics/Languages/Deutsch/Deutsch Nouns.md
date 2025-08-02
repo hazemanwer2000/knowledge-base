@@ -128,7 +128,7 @@
 | Masculine                | Neuter                      | Feminine           |
 | ------------------------ | --------------------------- | ------------------ |
 | *der Teppich(e)*         | *das Bett(en)*              | ==*die Sache(e)*== |
-| *der Boden (Böden)*      | *das Geld*                  | *die Lampe(n)*     |
+| *der Boden (Böden)*      |                             | *die Lampe(n)*     |
 | *der Tisch(e)*           |                             | *die Tür(en)*      |
 | *der Schrank (Schränke)* |                             | *die Hütte(n)*     |
 | *der Schlüssel*          |                             | *die Tasche(n)*    |
@@ -136,6 +136,8 @@
 | *der Stuhl (Stühle)*     |                             |                    |
 | *der Koffer*             |                             |                    |
 | *der Käfig(e)*           |                             |                    |
+|                          |                             |                    |
+|                          | *das Geld*                  | *die Rechnung(en)* |
 |                          |                             |                    |
 | *der Fernseher*          | *das Mikrofon(e)*           | *die Tastatur(en)* |
 |                          | *das Handy(s)*              | *die Maus (Mäuse)* |

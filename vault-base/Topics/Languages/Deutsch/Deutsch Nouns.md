@@ -283,12 +283,20 @@
 |                          |                      | *die Reihenfolge(n)*    |
 |                          |                      | *die Notiz(en)*         |
 
-| Masculine           | Neuter | Feminine        |
-| ------------------- | ------ | --------------- |
-| *der Termin(e)*     |        | *die Ferien*    |
-| *der Besuch(e)*     |        | *die Fahrt(en)* |
-| *der Urlaub(e)*     |        | *die Reise(n)*  |
-| *der Aufenthalt(e)* |        |                 |
+| Masculine       | Neuter | Feminine |
+| --------------- | ------ | -------- |
+| *der Termin(e)* |        |          |
+| *der Besuch(e)* |        |          |
+
+| Masculine       | Neuter | Feminine        |
+| --------------- | ------ | --------------- |
+| *der Urlaub(e)* |        | *die Ferien*    |
+|                 |        | *die Fahrt(en)* |
+|                 |        | *die Reise(n)*  |
+
+| Masculine           | Neuter | Feminine |
+| ------------------- | ------ | -------- |
+| *der Aufenthalt(e)* |        |          |
 
 | Masculine      | Neuter       | Feminine             |
 | -------------- | ------------ | -------------------- |

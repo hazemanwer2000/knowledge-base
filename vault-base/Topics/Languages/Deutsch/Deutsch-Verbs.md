@@ -393,6 +393,8 @@
 | *machen*                | -                  | -               | `[Dative] [Accusative]`  | *Ich mache dir einen Kaffee.*                                       |
 | *tun*                   | *getan*            | *tat*           | `[Dative]`               | *Das tut doch keinem weh!*                                          |
 | *entwickeln*            | -                  | -               | `[Accusative]`           | *Ich habe Gefühle für sie entwickelt.*                              |
+| *erstellen*             | -                  | -               | `[Accusative]`           | *Bei meinem Firma habe ich gestern etwas neues erstellt.*           |
+| *schaffen*              | -                  | -               | `[Accusative]`           | *Du brauchst von allem etwas, um was großes zu schaffen.*           |
 | *reparieren*            | -                  | -               | `[Accusative]`           | *Bevor ich rausgehe, muss ich mein Auto reparieren.*                |
 | *renovieren*            | -                  | -               | `[Accusative]`           | *Dieses Jahr wird ich mein Haus renovieren.*                        |
 |                         |                    |                 |                          |                                                                     |

@@ -466,6 +466,7 @@
 | *treten*                | *getreten*         | *trat*          | `[Dative] [Accusative]`  | *Ich habe ihm den Ball getreten.*                                   |
 |                         |                    |                 |                          |                                                                     |
 | ==*steigen*==           | *gestiegen*        | *stieg*         | -                        | *Ich stieg aus dem Bett.*                                           |
+| ==*klettern*==          | -                  | -               | -                        | *In ihrer Freizeit klettert Anna gern.*                             |
 | ==*springen*==          | *gesprungen*       | *sprang*        | -                        | *Er sprang vom Gebäude.*                                            |
 | ==*fallen*==            | *gefallen*         | *fiel*          | -                        | *Ich habe umgefallen.*                                              |
 | *legen*                 | -                  | -               | `[Accusative]`           | *Ich lege mich aufs Bett.*                                          |

@@ -431,6 +431,7 @@
 |                         |                    |                 |                          |                                                                     |
 | ==*fliegen*==           | *geflogen*         | *flog*          | -                        | *Der Vogel flog weg.*                                               |
 | ==*fahren*==            | *gefahren*         | *fuhr*          | -                        | *Ich fahre nach Münichen.*                                          |
+| *einpacken*             | -                  | -               | `[Accusative]`           | *Ich habe meinen Koffer eingepackt, bin ich bereit.*                |
 | *==reisen==*            | -                  | -               | -                        | *Ich reise zu viel.*                                                |
 | ==*umziehen*==          | *umgezogen*        | *zog um*        | -                        | *Ich bin letztes Jahr umgezogen.*                                   |
 |                         |                    |                 |                          |                                                                     |

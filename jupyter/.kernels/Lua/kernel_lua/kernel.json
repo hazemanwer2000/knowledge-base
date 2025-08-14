@@ -1,0 +1,11 @@
+{
+ "argv": [
+  "python",
+  "-m",
+  "kernel_lua",
+  "-f",
+  "{connection_file}"
+ ],
+ "display_name": "Lua",
+ "language": "lua"
+}

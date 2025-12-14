@@ -30,7 +30,7 @@ FIELD OPERATOR VALUE
 | ------------------------ |
 | `=`, `!=`                |
 | `>`, `>=`, `<`, `<=` {2} |
-| `IN`, `NOT IN`           |
+| `IN`, `NOT IN` {4}       |
 | `IS`, `IS NOT` {3}       |
 | `AND`, `OR`, `NOT`       |
 | `~`, `!~` {1}            |
@@ -55,7 +55,7 @@ FIELD OPERATOR VALUE
 | `type`        | E.g., `type IN (bug, story, epic)`                                                      |
 | `assignee`    | E.g., `assignee = "Joe Foe"`                                                            |
 | `reporter`    | E.g., `reporter = "Foe Joe"`                                                            |
-| `created`     | E.g., `created AFTER {DATE}`                                                            |
+| `created`     | E.g., `created > {DATE}`                                                                |
 | `sprint`      | E.g., `sprint = {SPRINT}`                                                               |
 | `team`        | E.g., `team = {TEAM}`                                                                   |
 | `summary`     | Used to search within the title of an issue.                                            |

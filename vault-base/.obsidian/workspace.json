@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/Languages/Deutsch/Deutsch-Adjectives.md",
+                "file": "Topics/Techcraft/Tooling/JIRA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Deutsch-Adjectives"
+              "title": "JIRA"
             }
           }
         ]
@@ -151,6 +151,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -161,15 +162,16 @@
   },
   "active": "c8bd1905a3abfbe2",
   "lastOpenFiles": [
+    "Topics/Techcraft/Tooling.md",
+    "Topics/TechCraft.md",
+    "Welcome.md",
+    "Topics/Languages/Deutsch/Deutsch-Adjectives.md",
     "Topics/Languages/Deutsch.md",
     "Topics/Languages.md",
-    "Welcome.md",
     "Topics/Languages/Deutsch/Deutsch Nouns.md",
     "Topics/Languages/Deutsch/Deutsch-Verbs.md",
     "Topics/Languages/Deutsch/Deutsch-Grammar.md",
-    "Topics/Languages/Deutsch/Deutsch-Adjectives.md",
     "Topics/Languages/Deutsch/Deutsch-Miscellaneous.md",
-    "Topics/TechCraft.md",
     "Topics/Languages/Deutsch/Deutsch-Subordinate-Clauses.md",
     "Topics/Languages/Deutsch/Deutsch-Prepositions.md",
     "Topics/Techcraft/Safety/Standards/ISO-26262.md",
@@ -181,7 +183,6 @@
     "Topics/Techcraft/Safety/Standards",
     "Topics/Techcraft/Safety",
     "Topics/Finance.md",
-    "Topics/Techcraft/Tooling.md",
     "Topics/Techcraft/OS.md",
     "Topics/Techcraft/OS/AUTOSAR.md",
     "Topics/Techcraft/Tooling/Git.md",

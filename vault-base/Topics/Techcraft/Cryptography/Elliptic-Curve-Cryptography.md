@@ -119,6 +119,7 @@ To generate a signature, given $D$, $d$, and $H$, the chosen *CHF* (e.g., SHA-1,
 * Compute $R = k(G)$.
 * Compute $r = R_{x} \bmod n$.
 * Compute $s = k^{-1} \cdot (e + r \cdot d) \bmod n$
+* If $r == 0$ or $s == 0$, try again.
 * Output $(r, s)$, as the signature.
 
 To verify a signature, $(r, s)$, given $D$, $Q$, and $H$,

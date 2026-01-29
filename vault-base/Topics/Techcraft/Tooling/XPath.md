@@ -68,6 +68,21 @@ The following function(s) may be used:
 	* `contains(EXPR,STR)`
 	* `starts-with(EXPR,STR)`
 	* `ends-with(EXPR,STR)`
+#### Namespaces(s)
+---
+For elements and attributes within a namespace, `NAMESPACE:` must be used as a prefix.
+
+To ignore namespaces, the `local-name()` function may be used to get the name of the element or attribute without the namespace.
+
+For example, the following two *XPath* expression(s) are equivalent.
+
+```
+//NAMESPACE:TAG-NAME
+```
+
+```
+//*[local-name()='TAG-NAME']
+```
 ## References
 ---
 [1] XML Path Language (XPath), Version 1.0, W3C

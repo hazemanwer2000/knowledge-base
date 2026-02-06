@@ -7,7 +7,7 @@ class Kernel_C(Kernel):
     implementation = 'Kernel_Rust'
     implementation_version = '1.0'
     language = 'rust'
-    language_version = '1.56'
+    language_version = '2021'
     language_info = {
         'name': 'rust',
         'mimetype': 'text/plain',
